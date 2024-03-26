@@ -1320,6 +1320,45 @@
         },
         "domains": [
             {
+                "id": "497bb32d-8eaf-4482-8aea-0a7bfacbe1ad",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "SimScale API",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "API URL: `https://api.simscale.com`\n\nThe API doc is available at https://api.simscale.com.\n\nAPI keys can be managed in the [API keys page](https://www.simscale.com/dashboard/api_keys).\n"
+            },
+            {
+                "id": "1a99c8fa-4ef1-4099-942a-95d9a7abc702",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "SimScale Platform",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The following areas and paths under domain `https://www.simscale.com`:\n\n#### User registration and login\nPaths: `/signup/*`, `/signin/*`, `/onboarding/*`\nExamples:\n* [User registration](https://www.simscale.com/signup/)\n* [Login](https://www.simscale.com/signin/)\n\n#### Dashboard and user profile with API key management\nPaths: `/dashboard`\nExamples (login required):\n* [Dashboard](https://www.simscale.com/dashboard/)\n* [User profile](https://www.simscale.com/dashboard/profile/)\n* [Manage API keys](https://www.simscale.com/dashboard/api_keys/)\n\n#### Workbench including CAD mode and Post-Processor\nPaths: `/workbench/*`\nExamples (login required):\n* [Workbench](https://www.simscale.com/workbench/?pid=1765004443902609189)\n* [CAD mode](https://www.simscale.com/workbench/modeller?pid=1765004443902609189&sessionId=c58955c3-59a6-46c0-abfc-185db5e26f63)\n* [Post-Processor](https://www.simscale.com/workbench/?pid=1765004443902609189&rru=ea5a010d-fb77-4a47-812c-4f31e7d0b0e3&ci=a152b38a-7621-4136-a4b3-a7d53314a30f&ct=SOLUTION_FIELD&mt=SIMULATION_RESULT)\n\n#### Public project library\nPaths: `/projects/*`\nExamples:\n* [Public projects](https://www.simscale.com/projects/)\n* [Public project page](https://www.simscale.com/projects/simscale/tutorial-_pipe_junction_flow/)\n* [Public projects by tag](https://www.simscale.com/projects/tags/staff%20pick/)\n\n#### Related API endpoints\nAll API endpoints used by UIs listed above.\nPaths: `/api/*`, `/csm/*`, `/postprocessing/*`"
+            },
+            {
+                "id": "139b8238-9e70-48ae-a9c8-ecd8951306a4",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "SimScale Website",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Domain https://www.simscale.com and the remaining paths not listed under SimScale Platform.\n\nExamples:\n\n* [Landing page](https://www.simscale.com/)\n* [Documentation](https://www.simscale.com/docs/)\n* [Blog](https://www.simscale.com/blog/)\n* [Forum](https://www.simscale.com/forum/)"
+            },
+            {
                 "id": "13845b03-bee5-440f-9d73-039f940a002f",
                 "type": {
                     "id": 1,
@@ -1344,45 +1383,6 @@
                     "value": "Out Of Scope"
                 },
                 "description": null
-            },
-            {
-                "id": "497bb32d-8eaf-4482-8aea-0a7bfacbe1ad",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "SimScale API",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "API URL: `https://api.simscale.com`\n\nThe API doc is available at https://api.simscale.com.\n\nAPI keys with limited capabilities (project creation and geometry upload) can be managed in the [API keys page](https://www.simscale.com/users/me/profile/edit/#apiKeys). API keys with full API capabilities can be requested from the Intigriti support (\"Ask scope question\"). Please note that only a limited number of those API keys will be issued at a time.\n"
-            },
-            {
-                "id": "1a99c8fa-4ef1-4099-942a-95d9a7abc702",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "SimScale Platform",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The following areas and paths under domain `https://www.simscale.com`:\n\n#### User registration and login\nPaths: `/signup/*`, `/signin/*`, `/onboarding/*`\nExamples:\n* [User registration](https://www.simscale.com/signup/)\n* [Login](https://www.simscale.com/signin/)\n\n#### Dashboard and user profile with API key management\nPaths: `/dashboard`, `/users/*`\nExamples (login required):\n* [Dashboard](https://www.simscale.com/dashboard/)\n* [Edit user profile](https://www.simscale.com/users/me/profile/edit)\n* [Manage API keys](https://www.simscale.com/users/me/profile/edit/#apiKeys)\n\n#### Workbench including CAD mode and Post-Processor\nPaths: `/workbench/*`\nExamples (login required):\n* [Workbench](https://www.simscale.com/workbench/?pid=1765004443902609189)\n* [CAD mode](https://www.simscale.com/workbench/modeller?pid=1765004443902609189&sessionId=c58955c3-59a6-46c0-abfc-185db5e26f63)\n* [Post-Processor](https://www.simscale.com/workbench/?pid=1765004443902609189&rru=ea5a010d-fb77-4a47-812c-4f31e7d0b0e3&ci=a152b38a-7621-4136-a4b3-a7d53314a30f&ct=SOLUTION_FIELD&mt=SIMULATION_RESULT)\n\n#### Public project library\nPaths: `/projects/*`\nExamples:\n* [Public projects](https://www.simscale.com/projects/)\n* [Public project page](https://www.simscale.com/projects/simscale/tutorial-_pipe_junction_flow/)\n* [Public projects by tag](https://www.simscale.com/projects/tags/staff%20pick/)\n\n#### Related API endpoints\nAll API endpoints used by UIs listed above.\nPaths: `/api/*`, `/csm/*`, `/postprocessing/*`"
-            },
-            {
-                "id": "139b8238-9e70-48ae-a9c8-ecd8951306a4",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "SimScale Website",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Domain https://www.simscale.com and the remaining paths not listed under SimScale Platform.\n\nExamples:\n\n* [Landing page](https://www.simscale.com/)\n* [Documentation](https://www.simscale.com/docs/)\n* [Blog](https://www.simscale.com/blog/)\n* [Forum](https://www.simscale.com/forum/)"
             }
         ]
     },
@@ -14895,8 +14895,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -19109,6 +19109,84 @@
         },
         "domains": [
             {
+                "id": "e4191f3c-cad7-4bb5-833d-b7f50d38fd02",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://viper.uat.vlerick.com/",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "efd303c5-92b5-4109-9a03-418ea50f4cc7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www-tst.vlerick.com/en/",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "8feb4bd9-fca0-46d7-b3d5-5edc3de81952",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "*.vlerick.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "When you start testing www.vlerick.com, **visit www.vlerick.com/en?internal first**. In this way, your testing is not taken into account in our web stats."
+            },
+            {
+                "id": "af983766-fe21-4abe-bb24-c5c393ba42ed",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "193.190.150.0/24",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "a145cdbe-7a14-4e2d-b47d-4c593a901b22",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://enterprise.vlerick.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "dc9c4a82-f2e6-49cf-9853-102ba5289c67",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://enterprise2.vlerick.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
                 "id": "8cb0beb1-b8e0-4525-ab6a-97be5c9ad64b",
                 "type": {
                     "id": 1,
@@ -19135,6 +19213,19 @@
                 "description": null
             },
             {
+                "id": "ea3a1bb2-2252-4be6-84f7-e85e1ff8e020",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://spoc.myshopify.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
                 "id": "089bda21-7c4f-4dda-8196-9ef1e892d137",
                 "type": {
                     "id": 1,
@@ -19148,17 +19239,17 @@
                 "description": null
             },
             {
-                "id": "8feb4bd9-fca0-46d7-b3d5-5edc3de81952",
+                "id": "3122a217-5054-4998-b23b-e17b501ac3e6",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "*.vlerick.com",
+                "endpoint": "https://webform.vlerick.com",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
-                "description": "When you start testing www.vlerick.com, **visit www.vlerick.com/en?internal first**. In this way, your testing is not taken into account in our web stats."
+                "description": null
             }
         ]
     },
@@ -19228,7 +19319,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our ***add-in***.\n\nYou can authenticate with:\nemail: `wouter+intigriti@henchman.io`\npassword: `7qHVPbNm_MZmdNkc-_nwXJkCTyXu*EfRsK9Pmnn3`\n\nHere you can search for the analysed data. You will see this data after your integration is finished.\n\nhttps://youtu.be/BF1bsN2JpBY"
+                "description": "This is our ***add-in***.\n\n**Credentials**\nTo access the add-in, you are required to obtain credentials through the credential tool provided. This tool offers two distinct types of credentials. Specifically, for interacting with this endpoint, you will need to use the user credentials, which are identical to those utilized for the dashboard.\n\nHere you can search for the analyzed data. You will see this data after your integration is finished.\n\nhttps://youtu.be/BF1bsN2JpBY"
             },
             {
                 "id": "f3a4d9e6-922f-4264-be54-ee8ade303a1f",
@@ -19254,7 +19345,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our ***dashboard***.\n\nWe've created a `Intigriti - Bug Bounty Program` tenant.\n\nYou can authenticate with:\nemail: `wouter+intigriti@henchman.io`\npassword: `7qHVPbNm_MZmdNkc-_nwXJkCTyXu*EfRsK9Pmnn3`\n\nHere you can add/remove users and add an integration.\n\nhttps://youtu.be/BF1bsN2JpBY"
+                "description": "This is our ***dashboard***, which you can use to add an integration.\n\nWe've created an `Intigriti` tenant.\n\n**Credentials**\nTo access the dashboard, you are required to obtain credentials through the credential tool provided. This tool offers two distinct types of credentials. Specifically, for interacting with this endpoint, you will need to use the user credentials, which are identical to those utilized for the add-in.\n\nhttps://youtu.be/BF1bsN2JpBY"
             },
             {
                 "id": "45ddcecc-a4c0-413b-88b0-5c4eba872bea",
@@ -19267,7 +19358,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our ***operations dashboard***.\n\nYou can authenticate with:\nemail: `wouter+intigriti@henchman.io`\npassword: `7qHVPbNm_MZmdNkc-_nwXJkCTyXu*EfRsK9Pmnn3`\n\nYou will need this to make sure the integration flow goes as smooth as possible. Integration connections that have been made by the customer/tenant on the *dashboard* will need to be approved here first. Also, this platform will give you extra information about the state of the integration. An integration can only be deleted on the *operations dashboard*.\n\nhttps://youtu.be/BF1bsN2JpBY\n\n\u26a0\ufe0f It's important that you use this ops-dashboard only for you own integration flow or to create a company for yourself. Please don't add yourself as a user to another company that you haven't created yourself. This can be in use for other researchers \u26a0\ufe0f"
+                "description": "This is our ***operations dashboard***, you will need this to make sure the integration flow goes as smooth as possible. Integration connections that have been made by the customer/tenant on the *dashboard* will need to be approved here first. Also, this platform will give you extra information about the state of the integration. An integration can only be deleted on the *operations dashboard*.\n\n**Credentials**\nTo access the dashboard, you are required to obtain credentials through the credential tool provided. This tool offers two distinct types of credentials. Specifically, for interacting with this endpoint, you will need to use the user credentials, which are identical to those utilized for the add-in.\n\nhttps://youtu.be/BF1bsN2JpBY\n\n\u26a0\ufe0f It's important that you use this ops-dashboard only for you own integration flow. \u26a0\ufe0f"
             },
             {
                 "id": "4588b836-2c62-40b8-986d-79745520d7c4",
