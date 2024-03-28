@@ -14753,6 +14753,102 @@
         }
     },
     {
+        "id": "c7272420-0cef-4366-87d2-278c06591799",
+        "handle": "houseofhrvulnerabilitydisclosureprogram",
+        "name": "House of HR Vulnerability Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/houseofhr/houseofhrvulnerabilitydisclosureprogram/detail"
+        },
+        "domains": [
+            {
+                "id": "525bfbb8-8603-425f-96d4-d2e6d07c4503",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.houseofhr.com/*",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "504e7587-b6ba-4003-bf06-07cfb95adc47",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.swop.com/*",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "6bb7895f-efa8-4a8d-84c3-b5c3e9870414",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "houseofhr.com/contact-us",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "This contact form is out of scope"
+            },
+            {
+                "id": "f35ff07a-2255-44d5-acdf-839ac4a5f6f1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "houseofhr.com/your-career/jobs",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Applying for jobs is out of scope"
+            },
+            {
+                "id": "92297ca5-c8bb-4989-a74d-df409acf6b0a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "rebel.houseofhr.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "cefc1013-9927-4e4a-b306-e5d57f06d34a",
         "handle": "ehealthhub&meta-hubvznkul",
         "name": "eHealth Hub VZN KUL",
