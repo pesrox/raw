@@ -28568,10 +28568,10 @@
                     "program_max": 5000
                 },
                 "sort_order": 0,
-                "targets_url": "/aruba-product-public/target_groups/9b3daa3c-6f01-421e-b332-49a74938adae/targets",
+                "targets_url": "/aruba-product-public/target_groups/5c704729-7e04-4bc7-adb5-31942d6bf938/targets",
                 "targets": [
                     {
-                        "id": "0d36e4c6-6ad1-480c-ba52-7ed58aca5560",
+                        "id": "68d2ef80-3f49-4596-9e69-10780e38722c",
                         "name": "Aruba Wireless \u2013 ArubaOS and Aruba Instant",
                         "description": null,
                         "category": "other",
@@ -28602,7 +28602,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "97764e2f-c514-49c7-8713-a17afd489782",
+                        "id": "462dcf91-1b25-4e4b-abdf-acd9bcd58889",
                         "name": "Aruba ClearPass Policy Manager",
                         "description": null,
                         "category": "other",
@@ -28633,7 +28633,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7446bc3f-dee0-4c74-bae1-d7b5df87199c",
+                        "id": "0cfe7b91-be2c-4384-b7ff-c72820f1e478",
                         "name": "ArubaOS-CX Wired Switches",
                         "description": null,
                         "category": "other",
@@ -28660,7 +28660,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "905c0415-41cf-43ad-bcbf-f4f4ba8b12d3",
+                        "id": "e97e553d-6e5d-43ee-8762-77e5029893bc",
                         "name": "Aruba EdgeConnect Enterprise Orchestrator",
                         "description": null,
                         "category": "other",
@@ -28691,7 +28691,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "3fc0f353-146b-493e-9ea4-38f69531fce0",
+                        "id": "fc1cf424-b11b-4636-9f80-17797f3c0bd1",
                         "name": "Aruba EdgeConnect Enterprise",
                         "description": null,
                         "category": "other",
@@ -28726,26 +28726,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4b440846-4670-4f8e-8227-801e85252462",
-                        "name": "*central.arubanetworks.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9f52df38-6d06-4dee-ab9f-ab9b1d329da2",
+                        "id": "c06446b3-4174-4a02-aedb-b16894015807",
                         "name": "Aruba InstantOn APs and supporting backend infrastructure",
                         "description": null,
                         "category": "other",
@@ -28771,7 +28752,41 @@
                                 }
                             ]
                         },
-                        "sort_order": 6,
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "766aa908-a7e2-4670-8bc5-42a2fea54835",
+                "name": "Aruba Central",
+                "description_html": "<p>For the time being, we will only be accepting high and critical severity submissions for Aruba Central. This is temporary and we plan on accepting all severity submissions again in the future. Please hold on to any P3-P5 vulnerabilities until we start accepting them again.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1500.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/aruba-product-public/target_groups/0dae58f4-6215-40f9-ad1b-43fc92de5e78/targets",
+                "targets": [
+                    {
+                        "id": "af970ac1-01f6-4efa-a822-92ad3c578108",
+                        "name": "*.central.arubanetworks.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -28783,11 +28798,11 @@
                 "description_html": "",
                 "in_scope": true,
                 "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/aruba-product-public/target_groups/f809c954-c103-4ef7-a524-19f2ffea9d41/targets",
+                "sort_order": 2,
+                "targets_url": "/aruba-product-public/target_groups/723c9b4c-23fc-4bf6-9ebc-156f1a08435f/targets",
                 "targets": [
                     {
-                        "id": "ab9aaf88-fba0-44da-9035-fb55c06ca133",
+                        "id": "02875d11-abfa-4dea-a49b-2f09f27d3ac5",
                         "name": "Aruba InstantOn Switches",
                         "description": null,
                         "category": "other",
@@ -28818,7 +28833,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f84086e5-fac9-47e2-a925-80d64dcf8f06",
+                        "id": "6dbe8e5b-5135-44cf-9cd7-af2a487e5683",
                         "name": "Aruba AirWave AMP",
                         "description": null,
                         "category": "other",
@@ -28845,7 +28860,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9828ca2e-419c-4b9e-9c57-c625f4b63a0f",
+                        "id": "10050382-dae0-48ec-8acb-8d43349a4816",
                         "name": "Aruba User Experience Insight Sensors",
                         "description": null,
                         "category": "hardware",
@@ -28887,11 +28902,11 @@
                 "description_html": "<p>Submissions related to *.arubanetworks.com may be eligible for reward in their <a href=\"https://bugcrowd.com/aruba-public\" rel=\"nofollow noreferrer\" target=\"_blank\">public bug bounty</a></p>",
                 "in_scope": false,
                 "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/aruba-product-public/target_groups/1cc5b678-2429-4303-b2ee-3b54336e75fb/targets",
+                "sort_order": 3,
+                "targets_url": "/aruba-product-public/target_groups/551bfb4f-d31f-4e61-990d-33c889e24519/targets",
                 "targets": [
                     {
-                        "id": "0d5f5c90-ab68-4035-a554-99e1d8c5886a",
+                        "id": "df0721ec-e32f-4717-8096-793f1cadd0e9",
                         "name": "*.arubanetworks.com not in scope above - see in scope",
                         "description": null,
                         "category": "website",
@@ -67267,103 +67282,6 @@
         ]
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
-                "targets": [
-                    {
-                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
-                "targets": [
-                    {
-                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Bugcrowd",
         "tagline": "Outhack Them All\u2122",
         "briefUrl": "/bugcrowd",
@@ -67951,6 +67869,103 @@
                         "category": "website",
                         "uri": "",
                         "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
+                "targets": [
+                    {
+                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
+                "targets": [
+                    {
+                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
                         "target": {
                             "tags": []
                         },
