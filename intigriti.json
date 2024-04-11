@@ -9995,32 +9995,6 @@
         },
         "domains": [
             {
-                "id": "212a3c47-832c-41d8-9af4-47173696a85e",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "https://earnie-dmfa.prato.be/*",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "The tenants that should be tested are accessible via the urls:\nhttps://earnie-dmfaui.prato.be/tenant/intigrititestmt (intended not to be accessible, are you able to bypass access denied)\nhttps://earnie-dmfaui.prato.be/tenant/intigrititestmttwo (accessible)\n\n> Request credentials via support.\n\n"
-            },
-            {
-                "id": "cdd6217f-5675-4c65-b538-6a50073682cc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://earnie-dmfa.prato.be/swagger/index.html",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "> Request credentials via support."
-            },
-            {
                 "id": "3a7e4802-5f0f-4e4c-9de8-37367394147d",
                 "type": {
                     "id": 1,
@@ -10028,8 +10002,8 @@
                 },
                 "endpoint": "https://azuregateway.prato.be/RDWeb",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": "Remote Desktop Services (RDS) plaform.\n\nWe are looking for unauthorized access (without login) to this production platform. Any proof of successful access (e.g. by reading sensitive customer data) will be considered a major submission and rewarded by us! Altering data in production is not allowed."
             },
@@ -10039,10 +10013,10 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://intigrititest.prato.be",
+                "endpoint": "https://intigrititestmt.prato.be",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": "This is our [PratoFlex](https://www.prato.be/pratoflex/) domain.\n\n> Request credentials via the button."
             }
@@ -18548,12 +18522,12 @@
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.allegro.cz.allegrosandbox.pl",
+                "endpoint": "*.allegro.pl.allegrosandbox.pl",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is the sandbox version that replicates the Czech version of Allegro. The main difference between .cz and .pl is the possibility to buy products using guest account."
+                "description": "This is our sandbox environment that replicates production. For more information please visit [developer website](https://developer.allegro.pl/tutorials/basic-information-VL6YelvVKTn#test-environment)."
             },
             {
                 "id": "c87765cd-eac3-4781-8fe5-36a7da090395",
@@ -18561,12 +18535,12 @@
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.allegro.pl.allegrosandbox.pl",
+                "endpoint": "*.allegro.cz.allegrosandbox.pl",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our sandbox environment that replicates production. For more information please visit [developer website](https://developer.allegro.pl/tutorials/basic-information-VL6YelvVKTn#test-environment)."
+                "description": "This is the sandbox version that replicates the Czech version of Allegro. The main difference between .cz and .pl is the possibility to buy products using guest account."
             },
             {
                 "id": "22f79e36-fd49-4b71-bc85-d88ed629091b",
