@@ -13045,7 +13045,7 @@
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3000.0,
+            "value": 4000.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -13064,19 +13064,6 @@
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/waterlink/water-link/detail"
         },
         "domains": [
-            {
-                "id": "329cb378-b2ec-4d37-8b4d-4791fbdb046b",
-                "type": {
-                    "id": 4,
-                    "value": "IpRange"
-                },
-                "endpoint": "194.78.161.160/27",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
             {
                 "id": "327d5d79-3f71-47f3-8dd3-fa53b87e58c6",
                 "type": {
@@ -13215,8 +13202,8 @@
                 },
                 "endpoint": "https://aquawardsoperateacc.water-link.be",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": "CURRENTLY NOT ELIGIBLE FOR BOUNTIES BECAUSE A NEW VERSION IS UNDER DEVELOPMENT\n\nThis is the test environment of the web application, used by the public services to find information about the location of water distribution pipes. \n\nThis information is also consulted in case of emergency interventions, that's why the live environment is out-of-scope.\n\nOther URL's: \ngisacc(*).water-link.be"
             }
