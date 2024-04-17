@@ -1125,19 +1125,6 @@
         },
         "domains": [
             {
-                "id": "2c32c6a7-9c3d-4bb5-9d91-1008749371ae",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "login.iamwebbing.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
                 "id": "da915426-4b3c-4581-83a3-6f05988b392c",
                 "type": {
                     "id": 7,
@@ -1170,6 +1157,19 @@
                     "value": "Url"
                 },
                 "endpoint": "https://fo.matooma.com/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "2c32c6a7-9c3d-4bb5-9d91-1008749371ae",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "login.iamwebbing.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -1548,8 +1548,8 @@
                 },
                 "endpoint": "www.Sipmanager.co.uk",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": null
             }
@@ -9952,8 +9952,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
