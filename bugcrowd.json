@@ -51,10 +51,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/deepwatch-mbb-og/target_groups/79953525-7d65-4bc2-99a9-b799da0473c7/targets",
+                "targets_url": "/deepwatch-mbb-og/target_groups/b67d2340-5a29-4a35-a177-1269547c5b80/targets",
                 "targets": [
                     {
-                        "id": "9c1885fd-24ea-4669-8ec9-f8f56c827fa2",
+                        "id": "bc23404c-a160-4316-a637-83cd4cb5d7c0",
                         "name": "https://portal.deepwatch.com",
                         "description": null,
                         "category": "website",
@@ -79,20 +79,6 @@
                         "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
-                    },
-                    {
-                        "id": "a8798edd-96e8-4a79-a34e-ceb68ee0d342",
-                        "name": "https://deepwatchdev.wpengine.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://deepwatchdev.wpengine.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
                     }
                 ]
             },
@@ -103,10 +89,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 1,
-                "targets_url": "/deepwatch-mbb-og/target_groups/c0cb080a-4622-4c47-b90d-174cfa0502ea/targets",
+                "targets_url": "/deepwatch-mbb-og/target_groups/8e87cdb2-fc64-4b21-8c9a-8ba3afbdaa15/targets",
                 "targets": [
                     {
-                        "id": "9445e8fa-6223-4e52-b4fd-e9c71e68dab2",
+                        "id": "598b6549-e4e7-47b6-b38b-965f16f605b9",
                         "name": "Anything not explicitly listed as in scope.",
                         "description": null,
                         "category": "website",
@@ -120,7 +106,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "8fd98de3-9e19-424c-ad7e-4f0da2626043",
+                        "id": "444a784a-f112-4b38-8144-90514d5c4dc8",
                         "name": "https://www.deepwatch.com/contact-us/",
                         "description": null,
                         "category": "other",
@@ -143,7 +129,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ccf321c4-e718-425d-943a-9cf2637f3665",
+                        "id": "e54663d2-cab9-4775-9d67-25ab6a6fda1d",
                         "name": "https://security.deepwatch.com",
                         "description": null,
                         "category": "website",
@@ -157,7 +143,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9f2eb157-810f-476a-9080-684c4f6d606b",
+                        "id": "6534c3f0-7717-4e7c-9b48-dabfbda7b84c",
                         "name": "https://www.deepwatch.com",
                         "description": null,
                         "category": "website",
@@ -171,7 +157,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a1102095-de80-4fc5-8926-49d81e6493f0",
+                        "id": "d0864492-6e3b-4620-9899-a55f5c36afac",
                         "name": "https://login.deepwatch.com",
                         "description": null,
                         "category": "website",
@@ -63325,29 +63311,6 @@
         "target_groups": []
     },
     {
-        "name": "Casper",
-        "tagline": "You'll be testing dogs on their AWESOMENESS!",
-        "briefUrl": "/engagements/casperpuppy",
-        "backgroundColor": "#f0faf8",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": null,
-        "isDemo": true,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/casperpuppy/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Casper's Widgets",
         "tagline": "Keeping dog widgets safe since 2018",
         "briefUrl": "/engagements/casperswidgets",
@@ -63368,6 +63331,29 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/casperswidgets/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Casper",
+        "tagline": "You'll be testing dogs on their AWESOMENESS!",
+        "briefUrl": "/engagements/casperpuppy",
+        "backgroundColor": "#f0faf8",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": null,
+        "isDemo": true,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/casperpuppy/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -64248,6 +64234,29 @@
         ]
     },
     {
+        "name": "Gap Inc.",
+        "tagline": "Fashion & Apparel for Men, Women & Kids",
+        "briefUrl": "/engagements/gapinc",
+        "backgroundColor": "#007DBB",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9b0a/cf4a/6f430226/1f1ab95565434c72beace59897ead0ce_d37b3f9fb0a5e7246327ba9823a7ea4d6e133261_xtralarge.png",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/gapinc/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Immutable Bug Bounty",
         "tagline": "Submit your report here!",
         "briefUrl": "/engagements/immutable",
@@ -64275,29 +64284,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/immutable/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Gap Inc.",
-        "tagline": "Fashion & Apparel for Men, Women & Kids",
-        "briefUrl": "/engagements/gapinc",
-        "backgroundColor": "#007DBB",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9b0a/cf4a/6f430226/1f1ab95565434c72beace59897ead0ce_d37b3f9fb0a5e7246327ba9823a7ea4d6e133261_xtralarge.png",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/gapinc/engagement_subscribers",
         "target_groups": []
     },
     {
