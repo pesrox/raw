@@ -9964,6 +9964,19 @@
         },
         "domains": [
             {
+                "id": "11e26ddb-e573-4989-b4b3-37e1d61c5df3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://app-reporting-ui-intigrititestmt-test-001.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the Earnie reporting application.  "
+            },
+            {
                 "id": "3a7e4802-5f0f-4e4c-9de8-37367394147d",
                 "type": {
                     "id": 1,
@@ -9988,6 +10001,32 @@
                     "value": "Tier 1"
                 },
                 "description": "This is our PratoFlex domain.\n\n> Request credentials via the button.\n> More info about PratoFlex and Earnie can be found in the \"In Scope\" section"
+            },
+            {
+                "id": "1dde8ea1-b017-4ce7-a5fb-d45436540d59",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testearniedashboardintigrititestmtwa.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the Earnie dashboard.  It can be accessed from PratoFlex and centralizes access to the different Earnie microservices"
+            },
+            {
+                "id": "eb2356de-90cc-42fe-ba53-263e4b40bb52",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveloonbepalingintigrititestmtwa.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the loonbepaling microservices.  It is the new Earnie payroll engine."
             }
         ]
     },
