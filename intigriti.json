@@ -5452,15 +5452,15 @@
         },
         "domains": [
             {
-                "id": "ad5dd5ac-bbf0-4a62-b022-f239a8cf148c",
+                "id": "dd45d032-4889-4930-b789-994fe7cd8043",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "random.uzleuven.be/random/",
+                "endpoint": "uzleuven.atlassian.net",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null
             },
@@ -5653,6 +5653,19 @@
                     "value": "Url"
                 },
                 "endpoint": "liquidfilestest.uzleuven.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "ad5dd5ac-bbf0-4a62-b022-f239a8cf148c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "random.uzleuven.be/random/",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -14329,8 +14342,8 @@
                 },
                 "endpoint": "*.toyotaconnectedeurope.io",
                 "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Temporarily out of Scope until Monday 29/04. Thanks for understanding"
             },
@@ -14420,8 +14433,8 @@
                 },
                 "endpoint": "toyotaconnected.eu",
                 "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": null
             }
