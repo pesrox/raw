@@ -51,106 +51,28 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/auth0-okta/target_groups/872a1fad-fc6d-4f06-aec3-042225b7b8ab/targets",
+                "targets_url": "/auth0-okta/target_groups/7f6b9220-df52-44a8-93cf-3be33da558e1/targets",
                 "targets": [
                     {
-                        "id": "56ba960f-659c-4fa5-9de0-9e1779aae51c",
-                        "name": "<researcher ID>-bugcrowd.auth0.com (Authentication API)",
+                        "id": "7a36a710-aa2b-4b64-ac59-53d53e1c7692",
+                        "name": "config.cic-bug-bounty.auth0app.com",
                         "description": null,
-                        "category": "api",
+                        "category": "website",
                         "uri": "",
                         "ipAddress": "",
                         "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
+                            "tags": []
                         },
                         "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "465f8eb8-76a3-4516-b3b7-cebe8d71486a",
-                        "name": "<researcher ID>-1-bugcrowd.auth0.com (Authentication API)",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ad12ce4b-2360-4a00-b5ee-ea4ac17a62f0",
-                        "name": "<researcher ID>-bugcrowd.auth0.com/api/v2 (Management API)",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "982ff411-2d97-439d-b2e6-ea3e9234dde7",
-                        "name": "<researcher ID>-1-bugcrowd.auth0.com/api/v2 (Management API)",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "da780603-f839-4153-be90-57f7e0d8e18f",
-                        "name": "manage.auth0.com (Management Dashboard)",
+                        "id": "f89704e9-0c09-419e-ab66-6b17df5cb926",
+                        "name": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
                         "description": null,
                         "category": "website",
-                        "uri": "https://manage.auth0.com",
+                        "uri": "https://manage.cic-bug-bounty.auth0app.com/",
                         "ipAddress": "",
                         "target": {
                             "tags": [
@@ -164,12 +86,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 4,
+                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "583779c0-443c-4efb-a2c0-c5633fa24231",
+                        "id": "9eaef301-65f8-47b9-b658-c88c0d2968f1",
                         "name": "Auth0 Guardian Android",
                         "description": null,
                         "category": "android",
@@ -195,12 +117,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 5,
+                        "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "5302d7e1-1487-4cb9-b50a-09c778be69d2",
+                        "id": "6d5f5303-0871-44c1-9bbe-468e6ce1be79",
                         "name": "Auth0 Guardian IoS",
                         "description": null,
                         "category": "ios",
@@ -230,12 +152,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 6,
+                        "sort_order": 3,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "3600509a-b690-4756-a5b5-13985279ee8f",
+                        "id": "e73ace77-e632-45a8-8d12-f2a311904f2d",
                         "name": "marketplace.auth0.com (Auth0 Marketplace)",
                         "description": null,
                         "category": "website",
@@ -253,12 +175,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 7,
+                        "sort_order": 4,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "c323d9a0-dc8c-4351-b18d-af554cd5b065",
+                        "id": "8e6729ea-43ce-497d-b75c-a31f77c41a35",
                         "name": "MFA Integrations\t",
                         "description": null,
                         "category": "other",
@@ -267,12 +189,12 @@
                         "target": {
                             "tags": []
                         },
-                        "sort_order": 8,
+                        "sort_order": 5,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "2c67f07a-048f-4b45-81ca-4a5457c7b7fc",
+                        "id": "c74a9354-c4b6-49e6-9ef1-77a4ace22fbd",
                         "name": "https://github.com/auth0/auth0.js (Auth0 SDK for Web)",
                         "description": null,
                         "category": "other",
@@ -294,12 +216,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 9,
+                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "e28f0a8f-e859-431a-a4b6-55ea7e305762",
+                        "id": "d4cf39aa-b4bd-4bc3-95d4-f1b994888a48",
                         "name": "https://github.com/auth0/lock (Lock for Web)",
                         "description": null,
                         "category": "other",
@@ -317,12 +239,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 10,
+                        "sort_order": 7,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "6a24e398-0278-41bb-aebc-976c7485a183",
+                        "id": "7b6b50c5-345f-4516-84b6-17f44900131c",
                         "name": "https://github.com/auth0/auth0-spa-js (Auth0 Single Page App SDK)",
                         "description": null,
                         "category": "other",
@@ -344,12 +266,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 11,
+                        "sort_order": 8,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "353a4d1a-b959-41f1-8124-d9a8f8e7dbf3",
+                        "id": "cba3c825-c38e-43ef-b050-644f3d052b2d",
                         "name": "https://github.com/auth0/Auth0.Net (.NET SDK)",
                         "description": null,
                         "category": "other",
@@ -371,12 +293,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 12,
+                        "sort_order": 9,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "734ccb0e-db2b-44a6-9c8a-2184e7fa2d8f",
+                        "id": "31ec7943-33d4-4df2-adb8-a89c1db3cb66",
                         "name": "https://github.com/auth0/nextjs-auth0 (Next.js SDK)",
                         "description": null,
                         "category": "other",
@@ -402,12 +324,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 13,
+                        "sort_order": 10,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "61b1763c-8a3a-4dde-aa5a-345a55f3c01c",
+                        "id": "5d8ba9d7-4f5f-49de-beac-109d9a75d975",
                         "name": "https://github.com/auth0/auth0-java (Java SDK)",
                         "description": null,
                         "category": "other",
@@ -429,12 +351,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 14,
+                        "sort_order": 11,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "7bca7ba3-0845-4ec4-940c-3d19439ad92c",
+                        "id": "5717a1e7-3668-4de0-a326-4c49ddb01eea",
                         "name": "https://github.com/auth0/react-native-auth0 (react-native SDK)",
                         "description": null,
                         "category": "other",
@@ -456,12 +378,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 15,
+                        "sort_order": 12,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "1d410011-7ece-432e-968c-dd719c43e5eb",
+                        "id": "c321b964-7da6-437a-bd90-953a9ac3aaa3",
                         "name": "https://github.com/auth0/auth0-php (PHP SDK)",
                         "description": null,
                         "category": "other",
@@ -483,12 +405,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 16,
+                        "sort_order": 13,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "59b4d8c2-03af-4d5e-9bcf-cf66ba76f60e",
+                        "id": "3c077a43-2425-4c1b-8385-522503655735",
                         "name": "https://dashboard.fga.dev/",
                         "description": null,
                         "category": "website",
@@ -518,12 +440,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 17,
+                        "sort_order": 14,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "926e240a-c9f1-4715-a524-9e64fc2a3066",
+                        "id": "7d41f2bb-a5b0-466b-99d6-ea2280a12605",
                         "name": "https://api.us1.fga.dev/",
                         "description": null,
                         "category": "api",
@@ -549,12 +471,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 18,
+                        "sort_order": 15,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "6f98d9bb-fbe1-45f1-8105-3177bc2922eb",
+                        "id": "14e9f0b9-3e66-4185-88da-80b52960046a",
                         "name": "https://customers.us1.fga.dev/",
                         "description": null,
                         "category": "api",
@@ -584,12 +506,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 19,
+                        "sort_order": 16,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "f9da4c9c-13a8-4378-b1e3-d2e74d4f0466",
+                        "id": "07530e1a-c961-4b04-b6d9-0e01b87eeb16",
                         "name": "https://play.fga.dev/",
                         "description": null,
                         "category": "website",
@@ -619,7 +541,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 20,
+                        "sort_order": 17,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -649,10 +571,10 @@
                     }
                 },
                 "sort_order": 1,
-                "targets_url": "/auth0-okta/target_groups/4e97c01e-9bdb-43f0-9a49-1e7a1ac3489f/targets",
+                "targets_url": "/auth0-okta/target_groups/de16b21d-660b-44b9-a200-b683d087bdbb/targets",
                 "targets": [
                     {
-                        "id": "fee0da17-289e-472f-a781-8a9a8fe0dca9",
+                        "id": "26f8004c-fcd3-4389-80c1-aeab5addf5ee",
                         "name": "auth0.com\t",
                         "description": null,
                         "category": "website",
@@ -679,7 +601,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "e0dc83e6-d3ae-484d-9d40-7ba100327e66",
+                        "id": "2161debe-e329-475c-8ec7-c417d86c2ac3",
                         "name": "samltool.io\t",
                         "description": null,
                         "category": "website",
@@ -710,7 +632,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a68f4383-1945-48b8-ad7d-a8aca4868f6b",
+                        "id": "a7e4b3e1-5f22-45e8-9918-e727d02a5aa5",
                         "name": "webauthn.me\t",
                         "description": null,
                         "category": "website",
@@ -741,7 +663,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "2fec6eb5-4799-4539-add6-89e6abe40c74",
+                        "id": "91a68f92-5d3e-4683-981b-469e71f5a25e",
                         "name": "openidconnect.net\t",
                         "description": null,
                         "category": "website",
@@ -772,7 +694,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "e7598e43-0b4b-4838-a570-11c122354b5b",
+                        "id": "dfc699bb-ea0a-4e66-b938-0968f14fea70",
                         "name": "jwt.io",
                         "description": null,
                         "category": "website",
@@ -807,7 +729,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "cd528258-cb90-43bc-9f58-00e6fff5f308",
+                        "id": "30c450fc-a54b-4a5f-a336-a028d46ac86d",
                         "name": "auth0.net",
                         "description": null,
                         "category": "website",
@@ -834,10 +756,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 2,
-                "targets_url": "/auth0-okta/target_groups/ff5f4d52-8e24-44bf-99bf-e678a138e98f/targets",
+                "targets_url": "/auth0-okta/target_groups/6acf209d-7d08-4fad-9490-58bfda866f2e/targets",
                 "targets": [
                     {
-                        "id": "d96d5dd0-0f46-4e03-ba54-6a6c860ce203",
+                        "id": "c64e630a-c3e1-4560-a43b-0dc2a3b0a6bc",
                         "name": "webtask.io\t",
                         "description": null,
                         "category": "website",
@@ -856,7 +778,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b86c0f8a-8041-4ae3-a69a-15fdfe950672",
+                        "id": "5c180241-505b-4d5e-8322-e5ddfbd564cc",
                         "name": "phenix.rocks\t",
                         "description": null,
                         "category": "website",
@@ -875,7 +797,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "e6bb24eb-e4f4-42d6-ab88-a3b17b1dded6",
+                        "id": "8f310e56-ed38-48fa-ad4a-6d0e273a1f13",
                         "name": "Auth0 Docs (including quickstarts)",
                         "description": null,
                         "category": "website",
@@ -894,7 +816,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f07764e9-e808-4b53-987a-5c40784f850c",
+                        "id": "f1827bfe-cc59-4533-b23d-0410e421a5da",
                         "name": "sharelock.io",
                         "description": null,
                         "category": "website",
@@ -913,7 +835,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a03a4fc9-cd77-4185-8e41-7e3f3a0ad107",
+                        "id": "e551c496-1a00-4f44-8d42-37252acdcf2a",
                         "name": "goextend.io\t",
                         "description": null,
                         "category": "website",
@@ -61863,103 +61785,6 @@
         "target_groups": []
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
-                "targets": [
-                    {
-                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
-                "targets": [
-                    {
-                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Bugcrowd",
         "tagline": "Outhack Them All\u2122",
         "briefUrl": "/bugcrowd",
@@ -62559,6 +62384,103 @@
         ]
     },
     {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
+                "targets": [
+                    {
+                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
+                "targets": [
+                    {
+                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Square Open Source",
         "tagline": "https://square.github.io",
         "briefUrl": "/squareopensource",
@@ -62892,285 +62814,6 @@
         },
         "subscriptionUrl": "/freedomofpress/engagement_subscribers",
         "target_groups": []
-    },
-    {
-        "name": "Luno Bug Bounty Program",
-        "tagline": "Luno Bug Bounty Program",
-        "briefUrl": "/luno-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/luno-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
-                "name": "Tier 1 Targets:",
-                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 550.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
-                "targets": [
-                    {
-                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
-                        "name": "Luno Android Application",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
-                        "name": "Luno iOS Application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
-                        "name": "https://mobileapi.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
-                "name": "Tier 2 Targets:",
-                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2500.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1800.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 650.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
-                "targets": [
-                    {
-                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
-                        "name": "https://staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
-                        "name": "https://ajax.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://ajax.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
-                        "name": "https://api.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
-                        "name": "https://app.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://app.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "Skroutz Public Managed Bug Bounty",
@@ -64336,6 +63979,285 @@
                         "ipAddress": null,
                         "target": {
                             "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Luno Bug Bounty Program",
+        "tagline": "Luno Bug Bounty Program",
+        "briefUrl": "/luno-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/luno-og/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
+                "name": "Tier 1 Targets:",
+                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 550.0,
+                        "max": 700.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
+                "targets": [
+                    {
+                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
+                        "name": "Luno Android Application",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
+                        "name": "Luno iOS Application",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
+                        "name": "https://mobileapi.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
+                "name": "Tier 2 Targets:",
+                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 3000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1800.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 650.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
+                "targets": [
+                    {
+                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
+                        "name": "https://staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
+                        "name": "https://ajax.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://ajax.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
+                        "name": "https://api.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
+                        "name": "https://app.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://app.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
                         },
                         "sort_order": 3,
                         "display_known_issues": false,
@@ -65812,211 +65734,6 @@
         ]
     },
     {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
-                "name": "MAF-Retail",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/carrefour/target_groups/3dbae10f-f2da-4947-bf74-a0f3c500c018/targets",
-                "targets": [
-                    {
-                        "id": "314229fc-5233-453d-8893-8b8553089944",
-                        "name": "Carrefour UAE iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1c8feac7-41be-4f3b-84cc-53774dd5f9f1",
-                        "name": "Carrefour UAE Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c9b5534-0899-4f97-a71f-24629da4fc41",
-                        "name": "cdnst.mafretailproxy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cdnst.mafretailproxy.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "292d773e-c873-4953-ba97-b194a3cd3b8a",
-                        "name": "carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a3b96863-8bfc-448a-b85d-69df22ae51a8",
-                        "name": "uat2.carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://uat2.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/comcast-mbb",
@@ -66386,6 +66103,211 @@
                             "tags": []
                         },
                         "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
+                "name": "MAF-Retail",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/carrefour/target_groups/3dbae10f-f2da-4947-bf74-a0f3c500c018/targets",
+                "targets": [
+                    {
+                        "id": "314229fc-5233-453d-8893-8b8553089944",
+                        "name": "Carrefour UAE iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1c8feac7-41be-4f3b-84cc-53774dd5f9f1",
+                        "name": "Carrefour UAE Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9c9b5534-0899-4f97-a71f-24629da4fc41",
+                        "name": "cdnst.mafretailproxy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cdnst.mafretailproxy.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "292d773e-c873-4953-ba97-b194a3cd3b8a",
+                        "name": "carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a3b96863-8bfc-448a-b85d-69df22ae51a8",
+                        "name": "uat2.carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://uat2.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -66916,387 +66838,6 @@
         ]
     },
     {
-        "name": "Majid Al Futtaim Lifestyle",
-        "tagline": "Majid Al Futtaim Lifestyle",
-        "briefUrl": "/maffashion",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/480b/1947/689eee82/2658f638f48cd7822caf5e960feea859_logo_2.png",
-        "rewardSummary": {
-            "summary": "Points - $3,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/maffashion/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f57582f1-2938-4547-b096-04d745d0c3dd",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/maffashion/target_groups/3c4a9ce9-89c0-4992-8361-03647fe5852f/targets",
-                "targets": [
-                    {
-                        "id": "ecf0c16a-c787-444b-919a-bc4ed4643baa",
-                        "name": "www.crateandbarrel.me",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.crateandbarrel.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
-                                    "name": "RequireJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "63560c8d-0ed8-4b6b-9d0c-80d0767b283c",
-                        "name": "https://lego.yellowblocks.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://lego.yellowblocks.me/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "23449e6c-2e66-4618-8517-2ceeb8401da0",
-                        "name": "https://api-prod.thatconceptstore.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api-prod.thatconceptstore.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "61d44a09-f69b-4ba8-8280-ba457b3835d4",
-                        "name": "THAT Concept Store iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/id1503045795",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "21b9619b-a3ad-48c1-a897-fa1980ff71b6",
-                        "name": "THAT Concept Store Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.maf.thatandroid",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6d1eb87b-7ff9-433d-9984-73081d068c73",
-                        "name": "https://thatconceptstore.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://thatconceptstore.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7957d1dd-0b7c-4285-9110-9a35939e7911",
-                        "name": "https://www.cb2.ae/en",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.cb2.ae/en",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ea0ce0b8-def4-4492-b398-0a8f3ed400df",
-                        "name": "https://www.allsaints.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.allsaints.me/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fda7d21a-dfef-49cf-93de-02cb7dfb33e5",
-                        "name": "www.lululemon.me",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.lululemon.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
-                                    "name": "Zone.js"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d7e7a87-6c25-48ab-8e67-a262af860157",
-                        "name": "lapi.yellowblocks.me",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://lapi.yellowblocks.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d89ed63f-4040-4f2e-b69e-a458e3677acb",
-                        "name": "https://www.shiseido.me/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.shiseido.me/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e4844fd8-74f7-41d7-90ca-85e9b1750553",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/maffashion/target_groups/6291a616-fc36-4c51-94a2-71f80b3c43c6/targets",
-                "targets": [
-                    {
-                        "id": "c8e0a415-d7ec-4b31-91cb-fba512ee283b",
-                        "name": "www.americangirlmena.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Dropbox",
         "tagline": "Your stuff, anywhere",
         "briefUrl": "/dropbox",
@@ -67780,6 +67321,387 @@
                             ]
                         },
                         "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Majid Al Futtaim Lifestyle",
+        "tagline": "Majid Al Futtaim Lifestyle",
+        "briefUrl": "/maffashion",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/480b/1947/689eee82/2658f638f48cd7822caf5e960feea859_logo_2.png",
+        "rewardSummary": {
+            "summary": "Points - $3,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/maffashion/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f57582f1-2938-4547-b096-04d745d0c3dd",
+                "name": "In Scope Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 3500.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 1000.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/maffashion/target_groups/3c4a9ce9-89c0-4992-8361-03647fe5852f/targets",
+                "targets": [
+                    {
+                        "id": "ecf0c16a-c787-444b-919a-bc4ed4643baa",
+                        "name": "www.crateandbarrel.me",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.crateandbarrel.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "9558d6b3-9880-4506-9e19-55dc1d7d8aff",
+                                    "name": "RequireJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "63560c8d-0ed8-4b6b-9d0c-80d0767b283c",
+                        "name": "https://lego.yellowblocks.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://lego.yellowblocks.me/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "23449e6c-2e66-4618-8517-2ceeb8401da0",
+                        "name": "https://api-prod.thatconceptstore.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api-prod.thatconceptstore.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "61d44a09-f69b-4ba8-8280-ba457b3835d4",
+                        "name": "THAT Concept Store iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/id1503045795",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "21b9619b-a3ad-48c1-a897-fa1980ff71b6",
+                        "name": "THAT Concept Store Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.maf.thatandroid",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6d1eb87b-7ff9-433d-9984-73081d068c73",
+                        "name": "https://thatconceptstore.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://thatconceptstore.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7957d1dd-0b7c-4285-9110-9a35939e7911",
+                        "name": "https://www.cb2.ae/en",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.cb2.ae/en",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ea0ce0b8-def4-4492-b398-0a8f3ed400df",
+                        "name": "https://www.allsaints.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.allsaints.me/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fda7d21a-dfef-49cf-93de-02cb7dfb33e5",
+                        "name": "www.lululemon.me",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lululemon.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e4ad1c44-2f86-487b-9793-0add0dbfdcf2",
+                                    "name": "Zone.js"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9d7e7a87-6c25-48ab-8e67-a262af860157",
+                        "name": "lapi.yellowblocks.me",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://lapi.yellowblocks.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d89ed63f-4040-4f2e-b69e-a458e3677acb",
+                        "name": "https://www.shiseido.me/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.shiseido.me/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e4844fd8-74f7-41d7-90ca-85e9b1750553",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/maffashion/target_groups/6291a616-fc36-4c51-94a2-71f80b3c43c6/targets",
+                "targets": [
+                    {
+                        "id": "c8e0a415-d7ec-4b31-91cb-fba512ee283b",
+                        "name": "www.americangirlmena.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
