@@ -23310,10 +23310,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/hotdoc/target_groups/9c158567-3622-410b-9f51-340c95fe1f0c/targets",
+                "targets_url": "/hotdoc/target_groups/e59883d8-a916-4cb7-a1b9-bd31ccbf49e0/targets",
                 "targets": [
                     {
-                        "id": "fd8a8749-4478-444c-b312-1b79a28ad2ce",
+                        "id": "f1a337a7-435a-4ec4-b3c1-f01cfdd47599",
                         "name": "https://bugcrowd.hotdoc.com.au (Patients)",
                         "description": null,
                         "category": "website",
@@ -23336,7 +23336,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "fff0c9ed-3839-46f8-b5f9-4ae4cd40790c",
+                        "id": "a4021d3b-0568-44cf-9ba3-c225b3301635",
                         "name": "https://bugcrowd.hotdoc.com.au/dashboard (Clinic Dashboard)",
                         "description": null,
                         "category": "website",
@@ -23359,7 +23359,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0cc86790-680f-4735-9191-bc0ffa8a9975",
+                        "id": "82785f5e-fe5e-440a-9c2d-4e057bd8f261",
                         "name": "https://bugcrowd.hotdoc.com.au/api",
                         "description": null,
                         "category": "api",
@@ -23386,14 +23386,14 @@
             {
                 "id": "faaf821c-e486-4f52-aaed-1faf33d0c937",
                 "name": "Out of Scope",
-                "description_html": "<ul>\n<li>Scanning should be limited to 2 requests per second</li>\n<li>No Denial of Service testing, including app level DOS</li>\n<li>Please do not send recurring demo or registration SMSs, testing for rate limits is out of scope for this functionality</li>\n<li><strong>Clinic User privilege escalation - we're aware of broken authorization which allows Clinic Users to interact with products they cannot see in the UI via the API directly</strong></li>\n<li>Cross-Site Scripting - we're aware of a bug in our user-input validation logic which allows for some Cross-Site Scripting attacks, both from Clinic User to Clinic User and Clinic User to Patient User</li>\n<li>Unauthenticated messages to the Zendesk API - we allow unauthenticated users to use both our Support Centre and the Zendesk widget without requiring them to log in. This is an acceptable risk to us as a business.</li>\n</ul>",
+                "description_html": "<ul>\n<li>Scanning should be limited to 2 requests per second</li>\n<li>No Denial of Service testing, including app level DOS</li>\n<li>Please do not send recurring demo or registration SMSs, testing for rate limits is out of scope for this functionality</li>\n<li><strong>Clinic User privilege escalation - we're aware of broken authorization which allows Clinic Users to interact with products they cannot see in the UI via the API directly</strong></li>\n<li>Cross-Site Scripting - we're aware of a bug in our user-input validation logic which allows for some Cross-Site Scripting attacks, both from Clinic User to Clinic User and Clinic User to Patient User</li>\n<li>Unauthenticated messages to the Zendesk API - we allow unauthenticated users to use both our Support Centre and the Zendesk widget without requiring them to log in. This is an acceptable risk to us as a business.</li>\n<li>Dumps of credentials found online containing data relating to HotDoc users will qualify for a small reward, but, without showing evidence of a security vulnerability on our platform will be marked as Informational.</li>\n</ul>",
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 1,
-                "targets_url": "/hotdoc/target_groups/08cf19e6-3d7a-4e18-917b-e9932fcbaa54/targets",
+                "targets_url": "/hotdoc/target_groups/7ca0199b-a31d-4bc5-b40e-eda3764a8ce0/targets",
                 "targets": [
                     {
-                        "id": "8dcd492f-1740-493a-ad08-4061548e6060",
+                        "id": "fc87efe9-43dc-4bd4-85f8-62e8457aaebb",
                         "name": "IoS App",
                         "description": null,
                         "category": "ios",
@@ -23428,7 +23428,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "3aee66da-704b-465c-8937-c703ea3ed2c7",
+                        "id": "b64281fc-b15e-4c33-9d22-114c70666bd3",
                         "name": "Android App",
                         "description": null,
                         "category": "android",
@@ -23459,7 +23459,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b74b59a1-a56e-47f3-bc5d-9e5dc234ab85",
+                        "id": "4f6e6528-12c1-4b7e-9848-e6eb382da77e",
                         "name": " https://try.hotdoc.com.au/hotdoc-profiles",
                         "description": null,
                         "category": "website",
@@ -59953,6 +59953,103 @@
         ]
     },
     {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
+                "targets": [
+                    {
+                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
+                "targets": [
+                    {
+                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Bugcrowd",
         "tagline": "Outhack Them All\u2122",
         "briefUrl": "/bugcrowd",
@@ -60472,103 +60569,6 @@
                             ]
                         },
                         "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
-                "targets": [
-                    {
-                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
-                "targets": [
-                    {
-                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -61739,6 +61739,36 @@
         ]
     },
     {
+        "name": "ClassDojo",
+        "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
+        "briefUrl": "/engagements/classdojo",
+        "backgroundColor": "#575b7D",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/706e/6dc4/5694fad1/1b39412dbdeccfb31985fa1cd611c522_dojo_logo.png",
+        "rewardSummary": {
+            "summary": "Points - $2,100",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,100",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Education",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/classdojo/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/comcast-mbb",
@@ -62114,36 +62144,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "ClassDojo",
-        "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
-        "briefUrl": "/engagements/classdojo",
-        "backgroundColor": "#575b7D",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/706e/6dc4/5694fad1/1b39412dbdeccfb31985fa1cd611c522_dojo_logo.png",
-        "rewardSummary": {
-            "summary": "Points - $2,100",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,100",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Education",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/classdojo/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "Shipwire",
@@ -65346,36 +65346,6 @@
         ]
     },
     {
-        "name": "FoxyCart",
-        "tagline": "A superior ecommerce experience",
-        "briefUrl": "/engagements/foxycart",
-        "backgroundColor": "#633f6f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
-        "rewardSummary": {
-            "summary": "$25 - $600",
-            "hint": null,
-            "minReward": "$25",
-            "maxReward": "$600",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/foxycart/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/vox",
@@ -65641,6 +65611,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/acorns/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "FoxyCart",
+        "tagline": "A superior ecommerce experience",
+        "briefUrl": "/engagements/foxycart",
+        "backgroundColor": "#633f6f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
+        "rewardSummary": {
+            "summary": "$25 - $600",
+            "hint": null,
+            "minReward": "$25",
+            "maxReward": "$600",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/foxycart/engagement_subscribers",
         "target_groups": []
     },
     {
