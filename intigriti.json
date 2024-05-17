@@ -14275,6 +14275,19 @@
                 "description": null
             },
             {
+                "id": "9f1d00b2-30a1-40f0-be0b-f157b0321a0e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.toyotaconnectedeurope.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Temporarily out of Scope until Monday 29/04. Thanks for understanding"
+            },
+            {
                 "id": "f2806b75-9a6e-4692-a343-6335af721415",
                 "type": {
                     "id": 1,
@@ -14353,19 +14366,6 @@
                 "description": null
             },
             {
-                "id": "9f1d00b2-30a1-40f0-be0b-f157b0321a0e",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.toyotaconnectedeurope.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Temporarily out of Scope until Monday 29/04. Thanks for understanding"
-            },
-            {
                 "id": "46476935-15ed-4b3e-b694-5c916ba35c03",
                 "type": {
                     "id": 1,
@@ -14442,19 +14442,6 @@
                     "value": "Out Of Scope"
                 },
                 "description": "If you want to report a toyota.com or lexus.com issue, please report it on their bug bounty program: https://www.toyota.com/.well-known/security.txt"
-            },
-            {
-                "id": "2b8337e1-3e7e-47ff-94ef-2649d231817b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "toyotaconnected.eu",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
             }
         ]
     },
