@@ -59848,6 +59848,36 @@
         "target_groups": []
     },
     {
+        "name": "Contrast Security",
+        "tagline": "Contrast Secure Code Platform. From development to production, the only unified platform to protect your complete software development lifecycle",
+        "briefUrl": "/engagements/contrast-security",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1805/e6df/32b306f7/84e52a606d9bcfa156b4a2ebbdc69edd_Contrast_C_for_GH_Sq_sm.png",
+        "rewardSummary": {
+            "summary": "Points - $3,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/contrast-security/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Bugcrowd",
         "tagline": "Outhack Them All\u2122",
         "briefUrl": "/bugcrowd",
@@ -60375,36 +60405,6 @@
         ]
     },
     {
-        "name": "Contrast Security",
-        "tagline": "Contrast Secure Code Platform. From development to production, the only unified platform to protect your complete software development lifecycle",
-        "briefUrl": "/engagements/contrast-security",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1805/e6df/32b306f7/84e52a606d9bcfa156b4a2ebbdc69edd_Contrast_C_for_GH_Sq_sm.png",
-        "rewardSummary": {
-            "summary": "Points - $3,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/contrast-security/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Cloudinary",
         "tagline": "Cloud image & video upload, storage, management & CDN",
         "briefUrl": "/engagements/cloudinary",
@@ -60433,78 +60433,6 @@
         },
         "subscriptionUrl": "/cloudinary/engagement_subscribers",
         "target_groups": []
-    },
-    {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "FIS",
@@ -60592,6 +60520,78 @@
                         "category": "website",
                         "uri": "https://apuat-aaa.fisglobal.com",
                         "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
                         "target": {
                             "tags": []
                         },
@@ -65829,29 +65829,6 @@
         ]
     },
     {
-        "name": "Humble Bundle",
-        "tagline": "Pay what you want and help charity",
-        "briefUrl": "/engagements/humblebundle",
-        "backgroundColor": "#c32226",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/humblebundle/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "PlanetHoster",
         "tagline": "PlanetHoster invites you to test their web hosting platform!",
         "briefUrl": "/engagements/planethosterinc",
@@ -65879,6 +65856,29 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/planethosterinc/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Humble Bundle",
+        "tagline": "Pay what you want and help charity",
+        "briefUrl": "/engagements/humblebundle",
+        "backgroundColor": "#c32226",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/humblebundle/engagement_subscribers",
         "target_groups": []
     }
 ]
