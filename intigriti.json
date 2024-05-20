@@ -2070,6 +2070,102 @@
         ]
     },
     {
+        "id": "0e1977cf-22e9-4620-8dba-ccdb324463fe",
+        "handle": "grafanalabs",
+        "name": "Grafana Databases",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 15000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/grafanalabs/grafanalabs/detail"
+        },
+        "domains": [
+            {
+                "id": "b01c6da6-41c2-4a1b-a219-754ada2b745f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Loki",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Latest released version of https://github.com/grafana/loki"
+            },
+            {
+                "id": "c37b4a10-dae5-4599-972a-3e9cab49010f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Mimir",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Latest released version of https://github.com/grafana/mimir"
+            },
+            {
+                "id": "7f39b4af-dd54-4489-939b-c642aab1546f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Tempo",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Latest released version of https://github.com/grafana/tempo\n"
+            },
+            {
+                "id": "335e08da-e18b-49ec-a79e-5302e7ec9748",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Pyroscope",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Latest released version of https://github.com/grafana/pyroscope"
+            },
+            {
+                "id": "bfeea65d-8b50-4b0e-b85b-e844316e5152",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Repository Misconfigurations",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "More information in the 'In scope' section below. "
+            }
+        ]
+    },
+    {
         "id": "0f05f9cd-03e1-4f90-a449-2f43cdaf879a",
         "handle": "portofantwerp",
         "name": "Port of Antwerp-Bruges",
@@ -10591,6 +10687,89 @@
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": "611c246e-1bf9-42b7-a458-af832582d0d7",
+        "handle": "grafanaossbbp",
+        "name": "Grafana",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 15000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/grafanalabs/grafanaossbbp/detail"
+        },
+        "domains": [
+            {
+                "id": "df93fefc-e496-4e7f-8319-9112d72f4941",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.grafana.net",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "54fb526c-d86c-4dc6-bb33-18b494a1ebd5",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana OSS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Latest released version of Grafana OSS: https://github.com/grafana/grafana\n"
+            },
+            {
+                "id": "176e6835-abd4-4cdf-b1b8-6dd2f94eac0b",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Non-Core Grafana Plugins",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty. "
+            },
+            {
+                "id": "e67728e3-68e8-48b3-ac58-d2fa5d04d14f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "grafana.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null
             }
