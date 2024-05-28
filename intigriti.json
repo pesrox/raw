@@ -15563,6 +15563,726 @@
         ]
     },
     {
+        "id": "990b3f09-de8f-44ed-9cd0-8d88abd0b1fc",
+        "handle": "argenta",
+        "name": "Argenta",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 7500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/argenta/argenta/detail"
+        },
+        "domains": [
+            {
+                "id": "febc4e46-7ff2-4f53-8fe7-102b30fcecf8",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.feedback.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "9ae90bdc-0488-411d-8c8d-95c5fe6710cb",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.hospitalisation.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "401ff585-04c4-4b8a-a8ed-6cfab38838be",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.gezondheid.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d8e62367-280d-4dce-b00a-3432a49187ef",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.argenta.lu",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "e11011c7-713b-4ae3-b15c-296bf0a08848",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.schadeargenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "2928c0cc-ec6e-44ae-8837-2671588fc91a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.archibus.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "da52c5a9-77e0-4a3a-a71c-f257d02bd1e7",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.magazine.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0654d266-5081-4d01-8efd-662864a98e28",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.margot.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d4f31620-279e-49c5-b12d-914cf164168b",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watson.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "76ad0cdb-dfe9-4364-b1e9-a4452af91e81",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.dr-author.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0ab705c1-bd59-4b82-ae0b-e76795aa9e03",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.mijngedacht.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "94536d9c-8c59-4a28-aa1c-62702640d0fe",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.mijngedachtvoorkantoren.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "7201cbd6-47e0-4655-88cf-6330268485e2",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.crescendo.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "b5f2d8ce-c64a-438c-9428-dd0dadd9474f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.r43.info.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0f754fd5-2ff5-451d-afde-88fe082f9568",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.r46.email.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "9b0543c1-5c4f-4f6e-a222-097d0b4d19d5",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.r47.email.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "1832afdc-75a7-498f-b77e-316af18db09b",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.r48.email.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "4033bd8f-639b-49ca-b031-b5fd5f089d6d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.r49.email.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "36f892b6-e1ea-4cf9-911f-c2a65c21287a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.warm.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "4d48e322-bc4d-402c-91c9-57bc9e905932",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.plaza.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "62a98dd5-d182-463f-80b1-1ff5f694eb63",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.prd-author.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "36a77b6a-adca-4e47-92cc-59138143134d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.guestwifi.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "649ca6ba-68f8-495d-859f-37b7e95500e2",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.email.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "ed8af5a1-4d41-49d9-83f2-ddb22e688958",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.info.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0f2489e9-4fbd-4283-81a0-4ad6864c9adc",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.enterpriseenrollment.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "d0228cb2-0250-4d37-919a-68511f7e41e9",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.enterpriseregistration.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "7e2c7e60-b072-41d1-9de6-6112fda571c3",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.metrics.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "df455fa7-372c-4537-a555-1f1d762bc694",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.smetrics.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "edfbbaf2-b866-49d8-93f3-f86a049dada8",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kubeflow.cbs.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "b928bb96-91b6-4336-af2e-396b09bbdae3",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.nieuw.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "3e7eb083-a474-498d-b96c-3566bf31174b",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.digitalchannels.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "73352830-bf8f-4d9e-b587-7d898b445324",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.payments.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "7b359390-995b-4dfc-a266-256cc560c049",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.test-payments.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "68678b67-eea6-463e-8e43-45fb3ac311f6",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.107.77/32",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "801f1ed7-4e79-4e76-a832-93dd054c53ab",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "argenta-bankieren/id893585833",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "f2a258ae-5153-403d-99ef-bb70475c7b0d",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "be.argenta.bankieren",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "449356b4-a8fd-4cd3-b305-9659ff58e91a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "homebank.argenta.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "f974826c-3f03-47fc-a0ff-1703a01dabfe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mobile-api.argenta.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "30f51921-182b-42f2-a3df-c0f01fe110f3",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.argenta.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "#### please check the **out of scope** section for the list of out of scope domains"
+            },
+            {
+                "id": "e3178708-0753-47cb-ae8c-d1c6c21811b5",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.argenta.eu",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "c685b67e-5f99-4d4d-b75c-6e8f62c898ad",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.107.0/27",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "2aa2836a-6b58-4141-ac39-6186d9b032bd",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.107.32/28",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "6dd7e8dd-fac2-4b60-bbe3-59861d90e35b",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.107.56/29",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "83d78111-81df-44b2-9bf5-9beae8b9710a",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.107.64/27",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "3123e6a3-3618-4633-9037-01f827e8e999",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.107.96/28",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "1c09da7b-f9eb-4d2d-89ba-ce821517b822",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.132.160/27",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "aca9855a-b70c-45ba-9a7d-57587f2e93ca",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.141.160/28",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "a4316574-4d5c-4aeb-a639-69cabb01c135",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.141.176/29",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "3f7fffbf-c106-426e-a7f2-fa5df0c23cb1",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.141.184/29",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "fd1aff4a-ccb5-4030-8ed6-878cd144014e",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.154.120/29",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "1aab1d67-c268-4ff0-b28c-b023574a5e15",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.154.64/27",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "7dad889b-913a-448d-b1b2-6a05a9cb9603",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "194.78.154.96/28",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "a45bfe8f-b4a7-41db-a65b-ff30326199ec",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "81.246.81.160/27",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "9a3f850e-4387-4434-98c7-dba2827b727b",
         "handle": "revolutvdp",
         "name": "Revolut VDP",
@@ -15589,7 +16309,22 @@
         },
         "webLinks": {
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/revolut/revolutvdp/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "b603caec-e768-40e5-8781-b01a51089559",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "All domains of Revolut",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            }
+        ]
     },
     {
         "id": "9ef59fe8-d021-4d23-9521-0d7d01da03ee",
@@ -17248,6 +17983,19 @@
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/innogames/innogames/detail"
         },
         "domains": [
+            {
+                "id": "ac3270f0-c96f-4d84-ace6-d1fed9ef8ed6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "typingmind.innogames.de",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
             {
                 "id": "ba93b440-be0c-408c-a326-028e088cf372",
                 "type": {
@@ -19035,8 +19783,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
