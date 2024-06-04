@@ -2188,7 +2188,7 @@
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 3500.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -2207,6 +2207,19 @@
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/portofantwerp/portofantwerp/detail"
         },
         "domains": [
+            {
+                "id": "c4b9a6ec-270e-4987-a8b1-e8793abe21ac",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "notula-accpt.portofantwerpbruges.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
             {
                 "id": "dab1fd28-0977-4539-989a-8bbdc31de9fc",
                 "type": {
@@ -2409,45 +2422,6 @@
                     "value": "Url"
                 },
                 "endpoint": "digitalspecs.portofantwerpbruges.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "312f27c6-4747-4af5-bc72-4325e8dde9cc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "erpx.unit4cloud.com/u4erx_pab_acp1",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "79d0e818-c65e-4441-8442-851ca327f975",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "erpx.unit4cloud.com/u4erx_pab_prev",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "b40cc8e0-2056-4f7a-be19-0c9042bd0f3d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "erpx.unit4cloud.com/u4erx_pab_prod",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -2867,6 +2841,45 @@
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "312f27c6-4747-4af5-bc72-4325e8dde9cc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "erpx.unit4cloud.com/u4erx_pab_acp1",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "79d0e818-c65e-4441-8442-851ca327f975",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "erpx.unit4cloud.com/u4erx_pab_prev",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "b40cc8e0-2056-4f7a-be19-0c9042bd0f3d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "erpx.unit4cloud.com/u4erx_pab_prod",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": null
             },
@@ -11798,8 +11811,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
