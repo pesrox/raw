@@ -23024,7 +23024,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "Vulnerabilities in the physical hardware of **in scope** products and technologies"
             },
             {
                 "id": "0f66f94a-eabd-4d0d-913f-7b0798447fd8",
@@ -23037,7 +23037,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null
+                "description": "Vulnerabilities in the firmware of **in scope** products and technologies"
             },
             {
                 "id": "50ab0401-0868-468a-9236-1ed0f47a0854",
@@ -23050,7 +23050,20 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": null
+                "description": "Vulnerabilities in drivers or other software required to operate **in scope** products and technologies"
+            },
+            {
+                "id": "04e96f07-6eb0-47ea-a610-672e5fc41c3d",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Out of Scope",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "* Optional tools\n* Product-independent software\n* Software for products and technologies for out of scope products\n"
             }
         ]
     },
