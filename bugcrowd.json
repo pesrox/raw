@@ -40065,225 +40065,6 @@
         ]
     },
     {
-        "name": "Halp",
-        "tagline": "Halp",
-        "briefUrl": "/halp",
-        "backgroundColor": "#1c0a2f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3b43/6907/121d4dd5/b2c36eecaab242cd88b596e9f4c5233f_halp.jpeg",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/halp/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "a0d507a3-faee-4a76-ad84-57706fa792bd",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/halp/target_groups/6a903ef1-65bf-4b60-b308-b91c926ba2b6/targets",
-                "targets": [
-                    {
-                        "id": "10e3d010-d677-4654-93fe-617202a22bf4",
-                        "name": "Halp application for Slack",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://halp.com/halp-integrations/microsoft-teams",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4186108d-054f-4db7-abb1-279be68dd67f",
-                        "name": "Halp application for Microsoft Teams",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://halp.com/halp-integrations/microsoft-teams",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9a914fba-e26e-482a-acdb-101c295326b2",
-                        "name": "Atlassian Assist - Cloud - https://marketplace.atlassian.com/apps/1220442/atlassian-assist?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1220442/atlassian-assist?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "28da13ef-74b1-4d42-9578-7f0a8810bacf",
-                        "name": "Atlassian Assist- Server - https://marketplace.atlassian.com/apps/1220442/atlassian-assist?hosting=server",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1220442/atlassian-assist?hosting=server",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4f1ddf7a-e5a6-474f-9253-5e30be68500f",
-                        "name": "Confluence Slack Automation Integration by Halp - Cloud - https://marketplace.atlassian.com/apps/1222365/confluence-slack-automation-integration-by-halp?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1222365/confluence-slack-automation-integration-by-halp?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0cabee25-6058-4861-8f4c-5259684d8199",
-                        "name": "Halp Answers for Confluence in Slack - Cloud - https://marketplace.atlassian.com/apps/1222365/halp-answers-for-confluence-in-slack?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1222365/halp-answers-for-confluence-in-slack?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e6ff8a43-05f5-42a2-81b0-fa23bfc85a65",
-                        "name": "Atlassian Assist - DataCenter - https://marketplace.atlassian.com/apps/1220442/atlassian-assist?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1220442/atlassian-assist?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "ExpressVPN",
         "tagline": "Help us improve the security and privacy of ExpressVPN users.",
         "briefUrl": "/expressvpn",
@@ -59534,6 +59315,78 @@
         "target_groups": []
     },
     {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/fis",
@@ -59619,78 +59472,6 @@
                         "category": "website",
                         "uri": "https://apuat-aaa.fisglobal.com",
                         "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
                         "target": {
                             "tags": []
                         },
@@ -59950,6 +59731,211 @@
         },
         "subscriptionUrl": "/lime/engagement_subscribers",
         "target_groups": []
+    },
+    {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
+                "name": "MAF-Retail",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/carrefour/target_groups/3dbae10f-f2da-4947-bf74-a0f3c500c018/targets",
+                "targets": [
+                    {
+                        "id": "314229fc-5233-453d-8893-8b8553089944",
+                        "name": "Carrefour UAE iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1c8feac7-41be-4f3b-84cc-53774dd5f9f1",
+                        "name": "Carrefour UAE Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9c9b5534-0899-4f97-a71f-24629da4fc41",
+                        "name": "cdnst.mafretailproxy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cdnst.mafretailproxy.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "292d773e-c873-4953-ba97-b194a3cd3b8a",
+                        "name": "carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a3b96863-8bfc-448a-b85d-69df22ae51a8",
+                        "name": "uat2.carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://uat2.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Comcast Xfinity Bug Bounty",
@@ -60321,211 +60307,6 @@
                             "tags": []
                         },
                         "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
-                "name": "MAF-Retail",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/carrefour/target_groups/3dbae10f-f2da-4947-bf74-a0f3c500c018/targets",
-                "targets": [
-                    {
-                        "id": "314229fc-5233-453d-8893-8b8553089944",
-                        "name": "Carrefour UAE iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1c8feac7-41be-4f3b-84cc-53774dd5f9f1",
-                        "name": "Carrefour UAE Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c9b5534-0899-4f97-a71f-24629da4fc41",
-                        "name": "cdnst.mafretailproxy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cdnst.mafretailproxy.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "292d773e-c873-4953-ba97-b194a3cd3b8a",
-                        "name": "carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a3b96863-8bfc-448a-b85d-69df22ae51a8",
-                        "name": "uat2.carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://uat2.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
