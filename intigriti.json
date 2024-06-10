@@ -14184,32 +14184,6 @@
         },
         "domains": [
             {
-                "id": "8b0a8bb1-42b4-4244-ae8a-5aa53effe9ad",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "toyota.ru",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "0f99d8b5-3ace-4d4f-9f99-c85d8dcc2482",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "lexus.ru",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
                 "id": "6471281a-bff0-4a00-b0b0-ceb8cbaf21dd",
                 "type": {
                     "id": 3,
@@ -14334,8 +14308,8 @@
                 },
                 "endpoint": "www.lexus.ru",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null
             },
@@ -14385,6 +14359,19 @@
                     "value": "Url"
                 },
                 "endpoint": "lexus.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "0f99d8b5-3ace-4d4f-9f99-c85d8dcc2482",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "lexus.ru",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -14455,6 +14442,19 @@
                     "value": "Out Of Scope"
                 },
                 "description": "If you want to report a toyota.com or lexus.com issue, please report it on their bug bounty program: https://www.toyota.com/.well-known/security.txt"
+            },
+            {
+                "id": "8b0a8bb1-42b4-4244-ae8a-5aa53effe9ad",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "toyota.ru",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
             }
         ]
     },
