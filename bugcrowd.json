@@ -58552,36 +58552,6 @@
         "target_groups": []
     },
     {
-        "name": "Mettle",
-        "tagline": "The forward-looking business account",
-        "briefUrl": "/engagements/mettle",
-        "backgroundColor": "#3C3A52",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/fcca/af50/eb1c42bb/9108dbe3f14b070273daccf4291bf026_mettle.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/mettle/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Elementor: Bug Bounty Program",
         "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
         "briefUrl": "/engagements/elementor",
@@ -58609,269 +58579,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/elementor/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Bitdefender Box v2",
-        "tagline": "Internet security solution that incorporates hardware, cloud and software designed to protect your smart home and your family.",
-        "briefUrl": "/bitdefenderbox2",
-        "backgroundColor": "#393C4F",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ddf4/6d09/147da7fd/bb450205acbcff4044fed3a5d35a8c35_Screen_Shot_2018-01-30_at_3.40.15_PM.png",
-        "rewardSummary": {
-            "summary": "$200 - $5,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitdefenderbox2/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "6f7bd75e-308a-41f4-9f78-be295beb673b",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/bitdefenderbox2/target_groups/5c4f74fc-44e5-48a6-9635-4e81b57491f8/targets",
-                "targets": [
-                    {
-                        "id": "dae3f7b2-0a77-4558-a2f0-d775f4715694",
-                        "name": "Bitdefender Central (iOS App)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "26d7e7d7-4857-4632-9108-8619125048c7",
-                        "name": "Bitdefender Central (Android App)",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d37a85e2-df12-4248-ac6a-890f31bf42ac",
-                        "name": "central.bitdefender.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "6287363f-4114-4c38-bf4a-58a65a4be38b",
-                "name": null,
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2500.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/bitdefenderbox2/target_groups/6c2c9c2a-ec73-48cf-9f44-70705f90fedf/targets",
-                "targets": [
-                    {
-                        "id": "de6b5b4a-4180-4468-aac8-00b4c8f19627",
-                        "name": "Bitdefender BOX v2",
-                        "description": null,
-                        "category": "iot",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Cloudinary",
-        "tagline": "Cloud image & video upload, storage, management & CDN",
-        "briefUrl": "/engagements/cloudinary",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/00e9/d2ab/8e6d2e66/f41672f6159050694f2c7b3133015a50_cloudinary_cloud_glyph_blue_png.png",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": "Up to $7,000",
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $7,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/cloudinary/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Contrast Security",
-        "tagline": "Contrast Secure Code Platform. From development to production, the only unified platform to protect your complete software development lifecycle",
-        "briefUrl": "/engagements/contrast-security",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1805/e6df/32b306f7/84e52a606d9bcfa156b4a2ebbdc69edd_Contrast_C_for_GH_Sq_sm.png",
-        "rewardSummary": {
-            "summary": "Points - $3,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/contrast-security/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Cisco Meraki",
-        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
-        "briefUrl": "/engagements/ciscomeraki",
-        "backgroundColor": "#67B346",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -58905,24 +58612,24 @@
         "target_groups": []
     },
     {
-        "name": "Caffeine",
-        "tagline": "Caffeine is a social broadcasting platform for gaming, entertainment, and the creative arts.",
-        "briefUrl": "/engagements/caffeine",
-        "backgroundColor": "#0000ff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65d9/e1a6/2e828c1b/3cfe7f72d541d0a8bb443038b7c3a181_Caffeine1024.png",
+        "name": "Contrast Security",
+        "tagline": "Contrast Secure Code Platform. From development to production, the only unified platform to protect your complete software development lifecycle",
+        "briefUrl": "/engagements/contrast-security",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1805/e6df/32b306f7/84e52a606d9bcfa156b4a2ebbdc69edd_Contrast_C_for_GH_Sq_sm.png",
         "rewardSummary": {
-            "summary": "$150 - $5,000",
-            "hint": "Up to $6,000",
-            "minReward": "$150",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $6,000",
-            "compensationHint": "max reward"
+            "summary": "Points - $3,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 4,
+        "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Entertainment",
+        "industryName": "Computer Software",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -58931,177 +58638,38 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/caffeine/engagement_subscribers",
+        "subscriptionUrl": "/contrast-security/engagement_subscribers",
         "target_groups": []
     },
     {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
+        "name": "Dropbox",
+        "tagline": "Your stuff, anywhere",
+        "briefUrl": "/engagements/dropbox",
         "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
         "rewardSummary": {
-            "summary": "Points - $20,000",
+            "summary": "$100 - $10,000",
             "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
+            "minReward": "$100",
+            "maxReward": "$10,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 1,
+        "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Finance",
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
-                "targets": [
-                    {
-                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
-                "targets": [
-                    {
-                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
+        "subscriptionUrl": "/dropbox/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "Bugcrowd",
@@ -59631,11 +59199,244 @@
         ]
     },
     {
-        "name": "Dropbox",
-        "tagline": "Your stuff, anywhere",
-        "briefUrl": "/engagements/dropbox",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
+        "name": "Mettle",
+        "tagline": "The forward-looking business account",
+        "briefUrl": "/engagements/mettle",
+        "backgroundColor": "#3C3A52",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/fcca/af50/eb1c42bb/9108dbe3f14b070273daccf4291bf026_mettle.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/mettle/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Bitdefender Box v2",
+        "tagline": "Internet security solution that incorporates hardware, cloud and software designed to protect your smart home and your family.",
+        "briefUrl": "/bitdefenderbox2",
+        "backgroundColor": "#393C4F",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ddf4/6d09/147da7fd/bb450205acbcff4044fed3a5d35a8c35_Screen_Shot_2018-01-30_at_3.40.15_PM.png",
+        "rewardSummary": {
+            "summary": "$200 - $5,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitdefenderbox2/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "6f7bd75e-308a-41f4-9f78-be295beb673b",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 0,
+                "targets_url": "/bitdefenderbox2/target_groups/5c4f74fc-44e5-48a6-9635-4e81b57491f8/targets",
+                "targets": [
+                    {
+                        "id": "dae3f7b2-0a77-4558-a2f0-d775f4715694",
+                        "name": "Bitdefender Central (iOS App)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "26d7e7d7-4857-4632-9108-8619125048c7",
+                        "name": "Bitdefender Central (Android App)",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d37a85e2-df12-4248-ac6a-890f31bf42ac",
+                        "name": "central.bitdefender.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "6287363f-4114-4c38-bf4a-58a65a4be38b",
+                "name": null,
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 1000.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 500.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/bitdefenderbox2/target_groups/6c2c9c2a-ec73-48cf-9f44-70705f90fedf/targets",
+                "targets": [
+                    {
+                        "id": "de6b5b4a-4180-4468-aac8-00b4c8f19627",
+                        "name": "Bitdefender BOX v2",
+                        "description": null,
+                        "category": "iot",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
+                                    "name": "IoT"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Caffeine",
+        "tagline": "Caffeine is a social broadcasting platform for gaming, entertainment, and the creative arts.",
+        "briefUrl": "/engagements/caffeine",
+        "backgroundColor": "#0000ff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65d9/e1a6/2e828c1b/3cfe7f72d541d0a8bb443038b7c3a181_Caffeine1024.png",
+        "rewardSummary": {
+            "summary": "$150 - $5,000",
+            "hint": "Up to $6,000",
+            "minReward": "$150",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $6,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/caffeine/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Cisco Meraki",
+        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
+        "briefUrl": "/engagements/ciscomeraki",
+        "backgroundColor": "#67B346",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
         "rewardSummary": {
             "summary": "$100 - $10,000",
             "hint": null,
@@ -59648,7 +59449,7 @@
         "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Technology",
+        "industryName": "Electronics",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -59657,21 +59458,197 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/dropbox/engagement_subscribers",
+        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
         "target_groups": []
     },
     {
-        "name": "Shipwire",
-        "tagline": "Shipwire's Bug Bounty Program",
-        "briefUrl": "/engagements/shipwire",
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
         "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/49cd/bb8d/58be2d08/63daa8eb1301a6c793f7f50d3c462cbd_shipwire-square-120x120.jpg",
-        "rewardSummary": null,
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
         "isDemo": false,
         "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": null,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
+                "targets": [
+                    {
+                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
+                "targets": [
+                    {
+                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cloudinary",
+        "tagline": "Cloud image & video upload, storage, management & CDN",
+        "briefUrl": "/engagements/cloudinary",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/00e9/d2ab/8e6d2e66/f41672f6159050694f2c7b3133015a50_cloudinary_cloud_glyph_blue_png.png",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": "Up to $7,000",
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $7,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -59680,7 +59657,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/shipwire/engagement_subscribers",
+        "subscriptionUrl": "/cloudinary/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -59712,6 +59689,580 @@
         },
         "subscriptionUrl": "/freedomofpress/engagement_subscribers",
         "target_groups": []
+    },
+    {
+        "name": "Shipwire",
+        "tagline": "Shipwire's Bug Bounty Program",
+        "briefUrl": "/engagements/shipwire",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/49cd/bb8d/58be2d08/63daa8eb1301a6c793f7f50d3c462cbd_shipwire-square-120x120.jpg",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/shipwire/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Code.org",
+        "tagline": "Ensure that Code.org protects teacher and student privacy as we increase our reach to schools across the world.",
+        "briefUrl": "/engagements/codeorg",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a125/0488/08dd1086/dcf2a67061c95bfffb397362e2668fff_code_image.png",
+        "rewardSummary": {
+            "summary": "Points - $2,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Education",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/codeorg/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Skroutz Public Managed Bug Bounty",
+        "tagline": "Skroutz",
+        "briefUrl": "/skroutz",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/skroutz/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
+                "name": "Skroutz Public Application",
+                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4100.0,
+                        "max": 4500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1750.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 850.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
+                "targets": [
+                    {
+                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
+                        "name": "https://www.skroutz.gr/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.skroutz.gr/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Etsy",
+        "tagline": "Shop for anything from creative people everywhere",
+        "briefUrl": "/etsy",
+        "backgroundColor": "#e37e40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $10,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/etsy/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2bff045a-873d-4b4b-9bf4-1eb31d4f2bff",
+                "name": "In-Scope Targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 5000.0,
+                        "max": 10000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 5000.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 800.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/etsy/target_groups/6b3e07e0-166e-41b2-a9fd-397b65f2d91a/targets",
+                "targets": [
+                    {
+                        "id": "de8e97af-55fd-4ca1-af15-80a6d891e743",
+                        "name": "Any publicly facing host owned by Etsy, including the below:",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "97a2e5eb-75b5-4bfe-a941-8866f143d764",
+                        "name": "www.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.etsy.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bd8673a3-7589-4d06-9b4c-5170a5270344",
+                        "name": "Etsy Mobile Application (Android)",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://www.etsy.com/mobile",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9d66b2f6-ae26-4c2d-ac64-e4f106f2acc0",
+                        "name": "Etsy Mobile Application (iPhone)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://www.etsy.com/mobile",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "073723b0-4b1e-4e73-a68d-d4e40deac937",
+                        "name": "Etsy API (see documentation below)",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://www.etsy.com/developers/documentation/getting_started/api_basics",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "abe3b582-8b71-42cb-a2bb-81112a9d8c74",
+                        "name": "etsypayments.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://etsypayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "1227663c-38b8-47b0-b44b-7dd59ba801de",
+                "name": "In Scope ",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/etsy/target_groups/f341ae9a-ef78-4c04-8c24-652d7abeb544/targets",
+                "targets": [
+                    {
+                        "id": "033fd02d-3dba-4f3c-95b9-88e73ce40cfa",
+                        "name": "http://blog.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://blog.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f3535f58-1888-4529-991f-40a1d216679f",
+                        "name": "http://community.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://community.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f203917b-6d74-48e2-a296-eee4a69ec67f",
+                        "name": "http://careers.etsy.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://careers.etsy.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "92a18d66-d9c8-4b51-b243-7df5a9838727",
+                        "name": "help.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://help.etsy.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "2cf0ea8c-7b44-4197-ab01-e3ec97d401ba",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/etsy/target_groups/0e460b88-399d-4723-9bf4-b3ea17aec465/targets",
+                "targets": [
+                    {
+                        "id": "b9e79ae3-0ae8-47fd-a4f9-5743208bd360",
+                        "name": "icht.etsysecure.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "6a7444bc-2fc6-414c-9cd8-71858ecb03c4",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 650.0,
+                        "max": 1000.0
+                    },
+                    "2": {
+                        "min": 450.0,
+                        "max": 650.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 450.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 3,
+                "targets_url": "/etsy/target_groups/4569bf1e-d7a1-4bd0-84e8-9eb004a5ae4d/targets",
+                "targets": [
+                    {
+                        "id": "a375dfa2-c9ca-4efd-b36e-fe589a834a64",
+                        "name": "*.etsy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Square Open Source",
@@ -60275,656 +60826,6 @@
         ]
     },
     {
-        "name": "Skroutz Public Managed Bug Bounty",
-        "tagline": "Skroutz",
-        "briefUrl": "/skroutz",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $4,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/skroutz/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
-                "name": "Skroutz Public Application",
-                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
-                "targets": [
-                    {
-                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
-                        "name": "https://www.skroutz.gr/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.skroutz.gr/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Etsy",
-        "tagline": "Shop for anything from creative people everywhere",
-        "briefUrl": "/etsy",
-        "backgroundColor": "#e37e40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/etsy/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2bff045a-873d-4b4b-9bf4-1eb31d4f2bff",
-                "name": "In-Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 5000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 800.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/etsy/target_groups/6b3e07e0-166e-41b2-a9fd-397b65f2d91a/targets",
-                "targets": [
-                    {
-                        "id": "de8e97af-55fd-4ca1-af15-80a6d891e743",
-                        "name": "Any publicly facing host owned by Etsy, including the below:",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "97a2e5eb-75b5-4bfe-a941-8866f143d764",
-                        "name": "www.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.etsy.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bd8673a3-7589-4d06-9b4c-5170a5270344",
-                        "name": "Etsy Mobile Application (Android)",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://www.etsy.com/mobile",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d66b2f6-ae26-4c2d-ac64-e4f106f2acc0",
-                        "name": "Etsy Mobile Application (iPhone)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://www.etsy.com/mobile",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "073723b0-4b1e-4e73-a68d-d4e40deac937",
-                        "name": "Etsy API (see documentation below)",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://www.etsy.com/developers/documentation/getting_started/api_basics",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "abe3b582-8b71-42cb-a2bb-81112a9d8c74",
-                        "name": "etsypayments.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://etsypayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "1227663c-38b8-47b0-b44b-7dd59ba801de",
-                "name": "In Scope ",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/etsy/target_groups/f341ae9a-ef78-4c04-8c24-652d7abeb544/targets",
-                "targets": [
-                    {
-                        "id": "033fd02d-3dba-4f3c-95b9-88e73ce40cfa",
-                        "name": "http://blog.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://blog.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f3535f58-1888-4529-991f-40a1d216679f",
-                        "name": "http://community.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://community.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f203917b-6d74-48e2-a296-eee4a69ec67f",
-                        "name": "http://careers.etsy.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://careers.etsy.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "92a18d66-d9c8-4b51-b243-7df5a9838727",
-                        "name": "help.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://help.etsy.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "2cf0ea8c-7b44-4197-ab01-e3ec97d401ba",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/etsy/target_groups/0e460b88-399d-4723-9bf4-b3ea17aec465/targets",
-                "targets": [
-                    {
-                        "id": "b9e79ae3-0ae8-47fd-a4f9-5743208bd360",
-                        "name": "icht.etsysecure.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "6a7444bc-2fc6-414c-9cd8-71858ecb03c4",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 650.0,
-                        "max": 1000.0
-                    },
-                    "2": {
-                        "min": 450.0,
-                        "max": 650.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 450.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/etsy/target_groups/4569bf1e-d7a1-4bd0-84e8-9eb004a5ae4d/targets",
-                "targets": [
-                    {
-                        "id": "a375dfa2-c9ca-4efd-b36e-fe589a834a64",
-                        "name": "*.etsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Code.org",
-        "tagline": "Ensure that Code.org protects teacher and student privacy as we increase our reach to schools across the world.",
-        "briefUrl": "/engagements/codeorg",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a125/0488/08dd1086/dcf2a67061c95bfffb397362e2668fff_code_image.png",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Education",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/codeorg/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "ZAP",
-        "tagline": "Zed Attack Proxy - one of the world\u2019s most popular free security tools.",
-        "briefUrl": "/owaspzap",
-        "backgroundColor": "#448de2",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2376/fdfa/651b17be/051e0245d787d1f71246d515e88a8564_zap256x256-oversize.png",
-        "rewardSummary": {
-            "summary": "Points - $1,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$1,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/owaspzap/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "b731f345-b6ff-4b89-9f35-187a12675460",
-                "name": "ZAP",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 0,
-                        "max": 1000.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/owaspzap/target_groups/6fdca313-91dc-4b85-9663-5f03651d3a74/targets",
-                "targets": [
-                    {
-                        "id": "c8eeee60-4138-4f11-8b4f-f6bc957acfbf",
-                        "name": "Latest ZAP version (2.15.0)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bb0bf781-fab5-477f-a196-fbd97ddd5ae8",
-                        "name": "https://www.zaproxy.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.zaproxy.org",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "20f6988d-5b8c-41bb-9ca8-d9b271b7874d",
-                                    "name": "Github"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Lime",
         "tagline": "Help secure Lime",
         "briefUrl": "/engagements/lime",
@@ -60952,66 +60853,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/lime/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Rarible",
-        "tagline": "Help us secure the future!",
-        "briefUrl": "/engagements/rarible-ogmbb",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e85a/04bb/04ee0669/0c22d3478e0e659fd2c8356a98dc00f5_1583001724997.png",
-        "rewardSummary": {
-            "summary": "$25 - $5,000",
-            "hint": "Up to $10,000",
-            "minReward": "$25",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/rarible-ogmbb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Bitstamp",
-        "tagline": "The original global crypto exchange",
-        "briefUrl": "/engagements/bitstamp",
-        "backgroundColor": "#003b2f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
-        "rewardSummary": {
-            "summary": "$100 - $7,500",
-            "hint": "Up to $100,000",
-            "minReward": "$100",
-            "maxReward": "$7,500",
-            "compensationSummary": "Up to $100,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitstamp/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -61045,229 +60886,24 @@
         "target_groups": []
     },
     {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "name": "Bitstamp",
+        "tagline": "The original global crypto exchange",
+        "briefUrl": "/engagements/bitstamp",
+        "backgroundColor": "#003b2f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d91/8079/d9dee082/857e366c43e968894a3b13a2ffe27d7a_Frame_1.png",
         "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
-                "name": "MAF-Retail",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/carrefour/target_groups/3dbae10f-f2da-4947-bf74-a0f3c500c018/targets",
-                "targets": [
-                    {
-                        "id": "314229fc-5233-453d-8893-8b8553089944",
-                        "name": "Carrefour UAE iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1c8feac7-41be-4f3b-84cc-53774dd5f9f1",
-                        "name": "Carrefour UAE Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c9b5534-0899-4f97-a71f-24629da4fc41",
-                        "name": "cdnst.mafretailproxy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cdnst.mafretailproxy.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "292d773e-c873-4953-ba97-b194a3cd3b8a",
-                        "name": "carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a3b96863-8bfc-448a-b85d-69df22ae51a8",
-                        "name": "uat2.carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://uat2.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Council on Foreign Relations",
-        "tagline": "\u201cTo afford a continuous conference on international questions affecting the United States...\u201d",
-        "briefUrl": "/engagements/cfr",
-        "backgroundColor": "#412c26",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/df75/aa4f/9a3fb531/6c71bed621d07bd078af1cb05746e6ac_Screen_Shot_2017-09-11_at_4.36.11_PM.png",
-        "rewardSummary": {
-            "summary": "$100 - $2,100",
-            "hint": null,
+            "summary": "$100 - $7,500",
+            "hint": "Up to $100,000",
             "minReward": "$100",
-            "maxReward": "$2,100",
-            "compensationSummary": null,
-            "compensationHint": null
+            "maxReward": "$7,500",
+            "compensationSummary": "Up to $100,000",
+            "compensationHint": "max reward"
         },
         "isDemo": false,
         "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": null,
+        "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -61276,7 +60912,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/cfr/engagement_subscribers",
+        "subscriptionUrl": "/bitstamp/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -61657,6 +61293,558 @@
         ]
     },
     {
+        "name": "ZAP",
+        "tagline": "Zed Attack Proxy - one of the world\u2019s most popular free security tools.",
+        "briefUrl": "/owaspzap",
+        "backgroundColor": "#448de2",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2376/fdfa/651b17be/051e0245d787d1f71246d515e88a8564_zap256x256-oversize.png",
+        "rewardSummary": {
+            "summary": "Points - $1,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$1,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/owaspzap/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "b731f345-b6ff-4b89-9f35-187a12675460",
+                "name": "ZAP",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 0,
+                        "max": 1000.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/owaspzap/target_groups/6fdca313-91dc-4b85-9663-5f03651d3a74/targets",
+                "targets": [
+                    {
+                        "id": "c8eeee60-4138-4f11-8b4f-f6bc957acfbf",
+                        "name": "Latest ZAP version (2.15.0)",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bb0bf781-fab5-477f-a196-fbd97ddd5ae8",
+                        "name": "https://www.zaproxy.org",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.zaproxy.org",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "20f6988d-5b8c-41bb-9ca8-d9b271b7874d",
+                                    "name": "Github"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
+                                    "name": "Ruby"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
+                "name": "MAF-Retail",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/carrefour/target_groups/3dbae10f-f2da-4947-bf74-a0f3c500c018/targets",
+                "targets": [
+                    {
+                        "id": "314229fc-5233-453d-8893-8b8553089944",
+                        "name": "Carrefour UAE iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1c8feac7-41be-4f3b-84cc-53774dd5f9f1",
+                        "name": "Carrefour UAE Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9c9b5534-0899-4f97-a71f-24629da4fc41",
+                        "name": "cdnst.mafretailproxy.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cdnst.mafretailproxy.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "292d773e-c873-4953-ba97-b194a3cd3b8a",
+                        "name": "carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a3b96863-8bfc-448a-b85d-69df22ae51a8",
+                        "name": "uat2.carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://uat2.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rarible",
+        "tagline": "Help us secure the future!",
+        "briefUrl": "/engagements/rarible-ogmbb",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e85a/04bb/04ee0669/0c22d3478e0e659fd2c8356a98dc00f5_1583001724997.png",
+        "rewardSummary": {
+            "summary": "$25 - $5,000",
+            "hint": "Up to $10,000",
+            "minReward": "$25",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/rarible-ogmbb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Council on Foreign Relations",
+        "tagline": "\u201cTo afford a continuous conference on international questions affecting the United States...\u201d",
+        "briefUrl": "/engagements/cfr",
+        "backgroundColor": "#412c26",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/df75/aa4f/9a3fb531/6c71bed621d07bd078af1cb05746e6ac_Screen_Shot_2017-09-11_at_4.36.11_PM.png",
+        "rewardSummary": {
+            "summary": "$100 - $2,100",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$2,100",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/cfr/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Acorns Grow, Inc.",
+        "tagline": "From acorns mighty oaks do grow",
+        "briefUrl": "/engagements/acorns",
+        "backgroundColor": "#74c947",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/acorns/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PlanetHoster",
+        "tagline": "PlanetHoster invites you to test their web hosting platform!",
+        "briefUrl": "/engagements/planethosterinc",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "FoxyCart",
         "tagline": "A superior ecommerce experience",
         "briefUrl": "/engagements/foxycart",
@@ -61684,6 +61872,29 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/foxycart/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Humble Bundle",
+        "tagline": "Pay what you want and help charity",
+        "briefUrl": "/engagements/humblebundle",
+        "backgroundColor": "#c32226",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/humblebundle/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -61955,247 +62166,6 @@
         "target_groups": []
     },
     {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Humble Bundle",
-        "tagline": "Pay what you want and help charity",
-        "briefUrl": "/engagements/humblebundle",
-        "backgroundColor": "#c32226",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/humblebundle/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Acorns Grow, Inc.",
-        "tagline": "From acorns mighty oaks do grow",
-        "briefUrl": "/engagements/acorns",
-        "backgroundColor": "#74c947",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/acorns/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "PlanetHoster",
-        "tagline": "PlanetHoster invites you to test their web hosting platform!",
-        "briefUrl": "/engagements/planethosterinc",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Immutable Bug Bounty",
-        "tagline": "Submit your report here!",
-        "briefUrl": "/engagements/immutable",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6ab3/cbf0/86bd07d9/14523c0b66b401c005a9467d5e370d6a_immutablesymbolblkRGB.png",
-        "rewardSummary": {
-            "summary": "$50 - $25,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/immutable/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "LastPass",
         "tagline": "LastPass is a password manager and form filler which locally encrypts your sensitive data with a key that is not sent to LastPass",
         "briefUrl": "/engagements/lastpass",
@@ -62223,6 +62193,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/lastpass/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Directly",
+        "tagline": "CX Automation",
+        "briefUrl": "/engagements/directly",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/990a/d21c/4ae0fe65/e2cd6ece639388ac6dde4715f0abe0c2_directly-marketing-logo-square-03.png",
+        "rewardSummary": {
+            "summary": "$250 - $3,000",
+            "hint": null,
+            "minReward": "$250",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/directly/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -62658,6 +62658,96 @@
         ]
     },
     {
+        "name": "WHMCS Client Management Portal",
+        "tagline": "Client Management, Billing and Support Portal",
+        "briefUrl": "/engagements/whmcs",
+        "backgroundColor": "#2a2d40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/42a9/e3e1/51c9958a/051054fdcb4f3c57047a64b2398be90d_whcmslogo.png",
+        "rewardSummary": {
+            "summary": "$75 - $5,000",
+            "hint": null,
+            "minReward": "$75",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Business Management",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/whmcs/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Linktree",
+        "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
+        "briefUrl": "/engagements/linktree-mbb-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28fb/3ec2/b382f9fb/a7e48f373e89abe1b0c3491156c7af69_download.png",
+        "rewardSummary": {
+            "summary": "$200 - $7,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$7,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/linktree-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Immutable Bug Bounty",
+        "tagline": "Submit your report here!",
+        "briefUrl": "/engagements/immutable",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6ab3/cbf0/86bd07d9/14523c0b66b401c005a9467d5e370d6a_immutablesymbolblkRGB.png",
+        "rewardSummary": {
+            "summary": "$50 - $25,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/immutable/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Majid Al Futtaim Lifestyle",
         "tagline": "Majid Al Futtaim Lifestyle",
         "briefUrl": "/maffashion",
@@ -63037,95 +63127,5 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "WHMCS Client Management Portal",
-        "tagline": "Client Management, Billing and Support Portal",
-        "briefUrl": "/engagements/whmcs",
-        "backgroundColor": "#2a2d40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/42a9/e3e1/51c9958a/051054fdcb4f3c57047a64b2398be90d_whcmslogo.png",
-        "rewardSummary": {
-            "summary": "$75 - $5,000",
-            "hint": null,
-            "minReward": "$75",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Business Management",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/whmcs/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Linktree",
-        "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
-        "briefUrl": "/engagements/linktree-mbb-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28fb/3ec2/b382f9fb/a7e48f373e89abe1b0c3491156c7af69_download.png",
-        "rewardSummary": {
-            "summary": "$200 - $7,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$7,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/linktree-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Directly",
-        "tagline": "CX Automation",
-        "briefUrl": "/engagements/directly",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/990a/d21c/4ae0fe65/e2cd6ece639388ac6dde4715f0abe0c2_directly-marketing-logo-square-03.png",
-        "rewardSummary": {
-            "summary": "$250 - $3,000",
-            "hint": null,
-            "minReward": "$250",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/directly/engagement_subscribers",
-        "target_groups": []
     }
 ]
