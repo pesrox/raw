@@ -24994,7 +24994,7 @@
             {
                 "id": "f7fe4c09-83d0-444f-bf3c-b70fd8aaca66",
                 "name": "Primary Targets",
-                "description_html": "<p><code>https://*.indeed.com</code> presents a large attack surface with thousands of subdomains that we cannot possibly list all here. All of these subdomains can be considered in-scope in the Primary Target grouping with the exception of those explicitly defined in-scope in the other target groupings or out-of-scope. We leave it to the researcher to discover any subdomains not listed here.</p>",
+                "description_html": "<p><code>https://*.indeed.com</code> presents a large attack surface. All subdomains can be considered in-scope in the Primary Target grouping with the exception of those explicitly defined in-scope in the other target groupings or out-of-scope. We leave it to the researcher to discover subdomains not listed here.</p>",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
@@ -25015,10 +25015,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/indeed/target_groups/751240e5-954d-485a-91d0-2368ef2b6233/targets",
+                "targets_url": "/indeed/target_groups/d716ed4d-c471-4a5c-a76a-622df3154383/targets",
                 "targets": [
                     {
-                        "id": "43412efa-50d4-4a9d-bca4-cdd1cdea5fbe",
+                        "id": "b46516bb-f2da-4ac2-82fc-1f0f1e35c4fb",
                         "name": "https://*.indeed.com",
                         "description": null,
                         "category": "other",
@@ -25041,26 +25041,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "74e5f96f-ee2e-4ff2-9710-c83a6a9bb101",
-                        "name": "Indeed Recruiter Extension (Chrome)",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://chromewebstore.google.com/detail/indeed-recruiter-extensio/kiodpphbmnmcmnfgpnmkkhmkllnlflef",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
-                                    "name": "Browser Extension"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5b628bd2-6335-4c4e-accc-dfa273f3ee82",
+                        "id": "30322e37-ab2c-4c0b-be5a-a66aed4f6e99",
                         "name": "https://*.indeedflex.com",
                         "description": null,
                         "category": "website",
@@ -25074,11 +25055,11 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5a902b94-461f-40d9-aaae-dd1f087557d1",
+                        "id": "dd813bca-64ef-44ef-86e1-25550e036b9c",
                         "name": "https://apis.indeed.com/graphql",
                         "description": null,
                         "category": "api",
-                        "uri": "https://apis.indeed.com/graphql",
+                        "uri": "",
                         "ipAddress": null,
                         "target": {
                             "tags": [
@@ -25093,7 +25074,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "14d603f9-d6d0-4ea4-b885-27cc0e18d39f",
+                        "id": "dc2e888e-dd71-496a-965a-fc5db0900b48",
                         "name": "Indeed Job Search Android",
                         "description": null,
                         "category": "android",
@@ -25116,7 +25097,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7ae0a0f5-d991-457b-adbd-3c2debd0f872",
+                        "id": "30db0a33-dc5a-4b60-906b-2f848518b0c3",
                         "name": "Indeed Job Search iOS",
                         "description": null,
                         "category": "ios",
@@ -25139,30 +25120,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f1bd6cd8-13e6-43c3-9504-1b27a6245e0e",
-                        "name": "Indeed Connect for Employers",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/indeed-connect-for-employers/id6443822731",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d3ca88ca-40ea-412a-8975-e94b219e74d8",
+                        "id": "1b60a323-219b-4e2e-99b7-5b85edf920d3",
                         "name": "Android Indeed Flex App",
                         "description": null,
                         "category": "android",
@@ -25171,12 +25129,12 @@
                         "target": {
                             "tags": []
                         },
-                        "sort_order": 6,
+                        "sort_order": 5,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "6e60b1d2-7814-4b4b-80dc-5ff06b72730c",
+                        "id": "a608e6f9-0f53-4217-b1a2-dc1f1db0197f",
                         "name": "iOS Indeed Flex App",
                         "description": null,
                         "category": "ios",
@@ -25185,7 +25143,7 @@
                         "target": {
                             "tags": []
                         },
-                        "sort_order": 7,
+                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -25211,10 +25169,10 @@
                     }
                 },
                 "sort_order": 1,
-                "targets_url": "/indeed/target_groups/000bc395-ea50-4b49-a44e-8f9d2f1e96ff/targets",
+                "targets_url": "/indeed/target_groups/0f339ef4-e6bf-4459-b77b-f8f9a79c0228/targets",
                 "targets": [
                     {
-                        "id": "e988a0e9-a96d-44c6-88fd-64ff691d1537",
+                        "id": "82983b7b-44bf-4827-a41f-40d6a215abb7",
                         "name": "https://*.indeed.tech",
                         "description": null,
                         "category": "website",
@@ -25228,7 +25186,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9e07e3b5-1499-4f29-b416-b564869d609a",
+                        "id": "4641419e-8f15-49b4-802d-fceab43d2f8b",
                         "name": "https://*.indeed.net",
                         "description": null,
                         "category": "website",
@@ -25242,7 +25200,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b897bb8e-3d11-49a6-8f44-b3a8ad42ad45",
+                        "id": "68c652da-65ca-4846-90ca-84b361ed2256",
                         "name": "https://resume.com",
                         "description": null,
                         "category": "website",
@@ -25256,7 +25214,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1cbdebc7-1f3e-4b96-afeb-5b607246ded6",
+                        "id": "2a5413a4-b1b9-48b6-80a9-4938bcf55e7f",
                         "name": "https://wowjobs.ca",
                         "description": null,
                         "category": "website",
@@ -25270,7 +25228,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c87935df-55a6-466b-a0e0-3be7f2e1f7c8",
+                        "id": "7ccc2a3d-05b8-4ffb-a592-413f371e984b",
                         "name": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
                         "description": null,
                         "category": "ios",
@@ -25297,7 +25255,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "66acf4ab-966a-44c4-a8df-894bee8d578e",
+                        "id": "6771665e-5894-4844-94c4-63c2302de985",
                         "name": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
                         "description": null,
                         "category": "android",
@@ -25320,6 +25278,48 @@
                             ]
                         },
                         "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "53eb3972-b775-47c0-8210-5bba597a4df3",
+                        "name": "Indeed Connect for Employers",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/us/app/indeed-connect-for-employers/id6443822731",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "056fd9f9-7886-4160-b184-a94dd78a78ab",
+                        "name": "Indeed Recruiter Extension (Chrome)",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://chromewebstore.google.com/detail/indeed-recruiter-extensio/kiodpphbmnmcmnfgpnmkkhmkllnlflef",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
+                                    "name": "Browser Extension"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -25345,10 +25345,10 @@
                     }
                 },
                 "sort_order": 2,
-                "targets_url": "/indeed/target_groups/f79f2366-a251-4ac8-8fb6-4b28e533d085/targets",
+                "targets_url": "/indeed/target_groups/e6017afd-d151-4f3e-8c62-2b595036031f/targets",
                 "targets": [
                     {
-                        "id": "12634ac4-7bb3-4423-9dbe-8243b1b5f381",
+                        "id": "500af508-5990-4847-bbdc-bf424f489cdb",
                         "name": "Any host/web property/mobile app verified to be owned by Indeed",
                         "description": null,
                         "category": "other",
@@ -60140,36 +60140,6 @@
         ]
     },
     {
-        "name": "Linktree",
-        "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
-        "briefUrl": "/engagements/linktree-mbb-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28fb/3ec2/b382f9fb/a7e48f373e89abe1b0c3491156c7af69_download.png",
-        "rewardSummary": {
-            "summary": "$200 - $7,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$7,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/linktree-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Majid Al Futtaim Lifestyle",
         "tagline": "Majid Al Futtaim Lifestyle",
         "briefUrl": "/maffashion",
@@ -60549,6 +60519,36 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Linktree",
+        "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
+        "briefUrl": "/engagements/linktree-mbb-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28fb/3ec2/b382f9fb/a7e48f373e89abe1b0c3491156c7af69_download.png",
+        "rewardSummary": {
+            "summary": "$200 - $7,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$7,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/linktree-mbb-og/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "SecureDrop",
