@@ -17197,6 +17197,76 @@
         ]
     },
     {
+        "id": "ac81c127-b11b-469e-8060-e0fbb9c9c398",
+        "handle": "aikidoruntime",
+        "name": "Aikido Security: Firewall for Node.js",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/aikido/aikidoruntime/detail"
+        },
+        "domains": [
+            {
+                "id": "7f5c7791-5258-4d6b-abbc-69d7660e2da8",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-node#Vulnerability",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Tier 1 is for vulnerabilities which we potentially introduce via our own firewall component in the user's application.\n\nSee Severity Assessment for more information."
+            },
+            {
+                "id": "9e925b9e-bf10-49ae-9db5-279ea5e120a5",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-node#Detection Bypass",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Tier 2 is for bypasses in the vulnerability detection of the firewall component, such as a bypass of our SQL injection detection.\n\nSee Severity Assessment for more information."
+            },
+            {
+                "id": "c95bbdf7-3a0d-4533-891a-b1d300eb7f57",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-node#False Positive",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Tier 3 is for any false positives you encounter with our vulnerability detection. For example, cases where we falsely flag a SQL injection, while the user's input is safely encapsulated in the SQL query.\n\nSeverity assessments are slightly harder for these cases, see \"Severity Assessment\" for more information."
+            }
+        ]
+    },
+    {
         "id": "acb142c1-ffeb-41c3-a9e7-1624054f42e4",
         "handle": "veriffbugbounty",
         "name": "Veriff Bug Bounty",
