@@ -7518,7 +7518,7 @@
             {
                 "id": "a66285b0-d15e-40c3-8ed5-c5d1ef91ce00",
                 "name": "Tier 3 In scope Premium",
-                "description_html": "<p>We pay the most and want to focus on Rapyd's API and the core of this program, the reward for valid critical and high API findings could be increased depending on the impact on Rapyd.</p>\n\n<h2>Documentation:</h2>\n\n<ul>\n<li>Working with Rapyd, In order to successfully send an API request you need to understand how our signature system is working (or use code samples) GitHub - RapydPayments/rapyd-request-signatures: When you send a request, you calculate the signature and insert the result into the signature header. When the platform receives the request, it performs the same signature calculation. If the resulting values do not match, the request is rejected, <a href=\"https://github.com/RapydPayments/rapyd-request-signatures\" rel=\"nofollow noreferrer\" target=\"_blank\">GitHub</a>. If you'd prefer to start your testing immediately and not to have to implement the signature mechanism by yourself, please proceed by using our publicly available Postman collection, which implements it by default.</li>\n<li>Getting inspired by our Postman collection of API Samples Rapyd API Collection &amp; Testing with Postman <a href=\"https://docs.rapyd.net/\" rel=\"nofollow noreferrer\" target=\"_blank\">API Documentation</a>\n</li>\n<li><a href=\"https://docs.rapyd.net/build-with-rapyd/docs\" rel=\"nofollow noreferrer\" target=\"_blank\">Rapyd documentation website</a></li>\n<li><a href=\"https://docs.rapyd.net/build-with-rapyd/docs/make-your-first-api-call\" rel=\"nofollow noreferrer\" target=\"_blank\">Postman collection</a></li>\n</ul>\n\n<h3>NOTE: Only use the sandbox environment for API testing activities.</h3>",
+                "description_html": "<p>We pay the most and want to focus on Rapyd's API and the core of this program, the reward for valid critical and high API findings could be increased depending on the impact on Rapyd.</p>\n\n<p><strong>Promotion Period:</strong> June 25 to July 31, 2024.</p>\n\n<table>\n<thead>\n<tr>\n<th>Priority</th>\n<th>Current Bounty Range</th>\n<th>Additional Reward</th>\n<th>Total Maximum Reward</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>P1</td>\n<td>5000-7500$</td>\n<td>2500$</td>\n<td>10000$</td>\n</tr>\n<tr>\n<td>P2</td>\n<td>1500-4500$</td>\n<td>1000$</td>\n<td>5500$</td>\n</tr>\n<tr>\n<td>P3</td>\n<td>600-1400 $</td>\n<td>500$</td>\n<td>1900$</td>\n</tr>\n<tr>\n<td>P4</td>\n<td>100-500 $</td>\n<td>100$</td>\n<td>600$</td>\n</tr>\n</tbody>\n</table>\n\n<h2>Documentation:</h2>\n\n<ul>\n<li>Working with Rapyd, In order to successfully send an API request you need to understand how our signature system is working (or use code samples) GitHub - RapydPayments/rapyd-request-signatures: When you send a request, you calculate the signature and insert the result into the signature header. When the platform receives the request, it performs the same signature calculation. If the resulting values do not match, the request is rejected, <a href=\"https://github.com/RapydPayments/rapyd-request-signatures\" rel=\"nofollow noreferrer\" target=\"_blank\">GitHub</a>. If you'd prefer to start your testing immediately and not to have to implement the signature mechanism by yourself, please proceed by using our publicly available Postman collection, which implements it by default.</li>\n<li>Getting inspired by our Postman collection of API Samples Rapyd API Collection &amp; Testing with Postman <a href=\"https://docs.rapyd.net/\" rel=\"nofollow noreferrer\" target=\"_blank\">API Documentation</a>\n</li>\n<li><a href=\"https://docs.rapyd.net/build-with-rapyd/docs\" rel=\"nofollow noreferrer\" target=\"_blank\">Rapyd documentation website</a></li>\n<li><a href=\"https://docs.rapyd.net/build-with-rapyd/docs/make-your-first-api-call\" rel=\"nofollow noreferrer\" target=\"_blank\">Postman collection</a></li>\n</ul>\n\n<h3>NOTE: Only use the sandbox environment for API testing activities.</h3>",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
@@ -7539,10 +7539,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/rapyd/target_groups/17eecc7e-973e-4d4b-8a56-b3f5b3f30a96/targets",
+                "targets_url": "/rapyd/target_groups/4ffb03bc-c535-4b4c-8a63-d8ea7ec76ae3/targets",
                 "targets": [
                     {
-                        "id": "d257e746-68bf-4546-80e7-30d7a0d38d01",
+                        "id": "e2af7c6e-d641-407a-b536-6e272d979ca2",
                         "name": "api.rapyd.net",
                         "description": null,
                         "category": "api",
@@ -7590,10 +7590,10 @@
                     }
                 },
                 "sort_order": 1,
-                "targets_url": "/rapyd/target_groups/9a7f4c29-07df-49e4-854c-1d42f834c843/targets",
+                "targets_url": "/rapyd/target_groups/8ec8ae84-1a05-485d-81d7-27f360fa4e1f/targets",
                 "targets": [
                     {
-                        "id": "b52796cd-d919-4e17-b33e-d90b38709832",
+                        "id": "c191d199-da96-4f6c-b2e1-6a52a4bfa14c",
                         "name": "dashboard.rapyd.net",
                         "description": null,
                         "category": "website",
@@ -7616,7 +7616,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "e1722a39-d6db-49a0-85be-a3386ed97e5f",
+                        "id": "6b05e906-1b86-4478-bb35-58653f16dea7",
                         "name": "checkout.rapyd.net",
                         "description": null,
                         "category": "other",
@@ -7639,7 +7639,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ff94bed1-9d84-48d6-ae4f-bbd7a6f0c4e4",
+                        "id": "9c080560-b84a-469b-9c00-1746bd2518dc",
                         "name": "verify.rapyd.net",
                         "description": null,
                         "category": "website",
@@ -7687,10 +7687,10 @@
                     }
                 },
                 "sort_order": 2,
-                "targets_url": "/rapyd/target_groups/df62d2ff-8f1d-47bb-a486-826a98db3dc0/targets",
+                "targets_url": "/rapyd/target_groups/c0b29238-5b1d-4209-b0fb-390b1ae53aa6/targets",
                 "targets": [
                     {
-                        "id": "e0b61edc-2f7f-4d05-8d56-0a18437e34b4",
+                        "id": "1243b2ab-7215-43f0-b923-446617c06da4",
                         "name": "*.rapyd.net",
                         "description": null,
                         "category": "website",
@@ -7709,7 +7709,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "8450e766-cd9e-4e51-9ed5-b71e8ef4d52d",
+                        "id": "6a172015-8c01-41dc-8674-1e2c054d7f8e",
                         "name": "*.rapyd.com",
                         "description": null,
                         "category": "other",
@@ -7728,7 +7728,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "fee90b6f-eb79-421c-9810-1dd5911c4470",
+                        "id": "f35fb6e6-1c72-4c5e-a8c3-2aa1eeb0bebc",
                         "name": "*.rapyd.org",
                         "description": null,
                         "category": "other",
@@ -7747,7 +7747,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "894ee3f7-e913-472f-9a5c-cd750f665b08",
+                        "id": "eaadcfe0-650f-4bc5-a89f-0cb12b43e592",
                         "name": "jointhemoment.net",
                         "description": null,
                         "category": "website",
@@ -7766,7 +7766,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "925a91dd-9f44-4108-a5cc-b64ffce6b12c",
+                        "id": "34b956f1-c6c9-49c8-87b8-f45daf51338b",
                         "name": "*.korta.is",
                         "description": null,
                         "category": "website",
@@ -7785,7 +7785,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "68c3b50c-84e2-42ea-8593-2ce4c304b8c5",
+                        "id": "8ead44e4-c29a-4078-85e4-14e4421ba1da",
                         "name": "*.kortathjonustan.is",
                         "description": null,
                         "category": "website",
@@ -7804,7 +7804,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9c1c9c92-60d2-4b40-b382-cd9ad956ffbe",
+                        "id": "b209c523-0587-4a2e-932e-ae295ac8e489",
                         "name": "*.neat.hk",
                         "description": null,
                         "category": "website",
@@ -7823,7 +7823,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "cdb34b9a-49c8-4f2e-8dd3-772e5ef88e1b",
+                        "id": "1256f696-daf5-456d-886f-f2bab846cebd",
                         "name": "*.neatcommerce.com",
                         "description": null,
                         "category": "website",
@@ -7842,7 +7842,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "dd7c858a-852d-4e48-98c8-f6aea6b0f8ea",
+                        "id": "86478897-e0a7-412d-87e3-d1d207300fbf",
                         "name": "*.neat.wtf",
                         "description": null,
                         "category": "website",
@@ -7861,7 +7861,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ac4eff87-8b92-4b8d-8090-4df6194962ae",
+                        "id": "3642250b-ee9e-4bdd-80a5-df0df3743f0e",
                         "name": "*.neattest.com",
                         "description": null,
                         "category": "website",
@@ -7880,7 +7880,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c11bb3f0-3edb-4ac3-930c-3ca0db9b9872",
+                        "id": "4360fed5-7d7e-425b-bee0-5a1d857372ec",
                         "name": "*.neat.com.hk",
                         "description": null,
                         "category": "website",
@@ -7907,10 +7907,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 3,
-                "targets_url": "/rapyd/target_groups/e140a9bf-6a4c-422f-95f2-cfd84e2f2dcd/targets",
+                "targets_url": "/rapyd/target_groups/e3e88895-2da0-4ccd-8ef1-44d077f00914/targets",
                 "targets": [
                     {
-                        "id": "ed5a4823-2504-4620-a36a-2a193e757f15",
+                        "id": "f5a96687-8bcb-4e06-8d4d-8e62d7e20f7f",
                         "name": "docs.rapyd.net",
                         "description": null,
                         "category": "website",
@@ -7924,7 +7924,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4a6507bb-0a9e-46ea-a46e-5abbb9290036",
+                        "id": "432bd865-2ff7-43f3-bcda-4a87590ac51c",
                         "name": "support.rapyd.net",
                         "description": null,
                         "category": "website",
@@ -7938,7 +7938,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f2eff805-f01b-4df6-87e1-75bd4d4d9695",
+                        "id": "06596e75-3fc5-43e4-89de-b3e3a2e28db1",
                         "name": "community.rapyd.net",
                         "description": null,
                         "category": "other",
@@ -7952,7 +7952,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "06faca74-ed8a-4af7-bb00-53aa60c8cced",
+                        "id": "95375e20-cce2-4866-bb46-4aa5ae094a1c",
                         "name": "sandbox.rapyd.net",
                         "description": null,
                         "category": "other",
@@ -7966,7 +7966,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "cf5fb85c-e96e-43d8-aaf4-dcada6967894",
+                        "id": "d25e9053-8ce6-4cdf-9d0c-c484bb329872",
                         "name": "3rd party services",
                         "description": null,
                         "category": "other",
@@ -58980,6 +58980,36 @@
         "target_groups": []
     },
     {
+        "name": "Cisco Meraki",
+        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
+        "briefUrl": "/engagements/ciscomeraki",
+        "backgroundColor": "#67B346",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Elementor: Bug Bounty Program",
         "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
         "briefUrl": "/engagements/elementor",
@@ -59037,36 +59067,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/cloudinary/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Cisco Meraki",
-        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
-        "briefUrl": "/engagements/ciscomeraki",
-        "backgroundColor": "#67B346",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
         "target_groups": []
     },
     {
