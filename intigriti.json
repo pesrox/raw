@@ -8723,6 +8723,19 @@
                     "value": "Tier 2"
                 },
                 "description": null
+            },
+            {
+                "id": "b12a8f38-1ded-4fb7-bbfc-c5b3f26bc041",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.stepstonegroup.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "This domain belongs to a company that is not affiliated with our organisation."
             }
         ]
     },
@@ -19942,8 +19955,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
