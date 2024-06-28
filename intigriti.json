@@ -3999,8 +3999,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -9751,51 +9751,12 @@
         },
         "domains": [
             {
-                "id": "df89f1bf-7634-43e7-bfd5-d2298850243e",
+                "id": "161d264a-86e9-463e-85f7-7cc7d6bd59e8",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://earnie-dmfa.prato.be/swagger/index.html",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "cd8db81b-cad9-4bdb-b886-f500772d0d56",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://earnie-bv.prato.be/swagger/index.html",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "377606fe-2962-4e41-b204-e34ba03e152f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://testelviveasrintigrititestmtwa.azurewebsites.net/swagger/index.html",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
-                "id": "580f5b9c-5a98-4b7e-bd0d-00f38f9fcc3b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://testelviveboekhoudingintigrititestmtwa.azurewebsites.net/swagger/index.html",
+                "endpoint": "https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -9827,6 +9788,32 @@
                     "value": "Tier 1"
                 },
                 "description": "Remote Desktop Services (RDS) plaform.\n\nWe are looking for unauthorized access (without login) to this production platform. Any proof of successful access (e.g. by reading sensitive customer data) will be considered a major submission and rewarded by us! Altering data in production is not allowed."
+            },
+            {
+                "id": "cd8db81b-cad9-4bdb-b886-f500772d0d56",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://earnie-bv.prato.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the BV service.  It contains a UI and services.  You get access to the UI from the dashboard link in PratoFlex ()"
+            },
+            {
+                "id": "df89f1bf-7634-43e7-bfd5-d2298850243e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://earnie-dmfa.prato.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
             },
             {
                 "id": "90559c4f-d581-4c40-b134-949f8170eecc",
@@ -9868,12 +9855,25 @@
                 "description": "This is the Earnie dashboard.  It can be accessed from PratoFlex and centralizes access to the different Earnie microservices"
             },
             {
+                "id": "377606fe-2962-4e41-b204-e34ba03e152f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveasrintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
                 "id": "c0d153bf-f935-4799-b043-932e474236ec",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://testelviveasruiintigrititestmtwa.azurewebsites.net/tenant/intigrititestmt",
+                "endpoint": "https://testelviveasruiintigrititestmtwa.azurewebsites.net",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -9886,7 +9886,20 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://testelvivebelcotaxintigrititestmtwa.azurewebsites.net/swagger/index.html",
+                "endpoint": "https://testelvivebelcotaxintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "580f5b9c-5a98-4b7e-bd0d-00f38f9fcc3b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveboekhoudingintigrititestmtwa.azurewebsites.net",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -9899,7 +9912,7 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://testelviveboekhoudinguiintigrititestmtwa.azurewebsites.net/nl-BE/tenant/intigrititestmt",
+                "endpoint": "https://testelviveboekhoudinguiintigrititestmtwa.azurewebsites.net",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -9912,7 +9925,7 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://testelvivebvuiintigrititestmtwa.azurewebsites.net/nl-BE/tenant/intigrititestmt",
+                "endpoint": "https://testelvivebvuiintigrititestmtwa.azurewebsites.net",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
