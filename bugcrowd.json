@@ -36294,7 +36294,7 @@
             {
                 "id": "94abbba5-8e2a-4bff-aa60-76a90d7fa31a",
                 "name": "In scope",
-                "description_html": "<p><strong>Focus Area:</strong> Recently migrated from Angular to Vue.js and findings related to this change are of great interest to the Upwork team </p>\n\n<h2>Special Bonuses and Rewards</h2>\n\n<p>Ongoing and until we reward $10000 total for all submissions reported under this sub-program. We may extend this program in the future based on results.</p>\n\n<p><strong>Momentum Bonus,</strong> the more you submit, the more you earn! </p>\n\n<ul>\n<li><p>There is a 7-day sliding window where you can build momentum on your rewards for this program, going forward, submissions made within the 7-day sliding window will be sorted by the severity assigned and the momentum bonus will be applied from highest to lowest severity, for example if you submit 3 bugs in this sequence [P3, P2, P1] within a 7 day sliding window, the submissions will be sorted by severity [P1, P2, P3] and the first (Bug with P1 Severity) pays 100%, the second (Bug with P2 Severity) pays 110%, the third (Bug with P3 Severity) pays 120%, etc. This scales to a maximum payout amount of 200% (double reward) the original value. </p></li>\n<li><p>Helping Upwork to discover client and freelancer profiles with direct and indirect contact information in any form, not previously known to Upwork and bypassing our anti-circumvention detection and prevention controls. This includes, but not limited to the following: <br>\n--  Discovered one or multiple freelancers' profiles or job posts with direct contact information of a person: phone, email explicitly, or link with phone and email explicitly. The reward is paid per root cause rather than per record. <br>\n-- Discovered a profile or a job posting with enough information to calculate the direct contact information of a person. The reward is paid per root cause rather than per record. <br>\n--  Screen scraping or bulk actions that would allow direct and indirect contact harvesting at scale for the purpose of 1) bidding on jobs and avoiding Upwork fees, 2) committing scams or 3) poaching talent. Use of system APIs to create tools that would enable this activity at scale. </p></li>\n</ul>",
+                "description_html": "<p><strong>Focus Area:</strong> Recently migrated from Angular to Vue.js and findings related to this change are of great interest to the Upwork team </p>",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
@@ -36316,10 +36316,10 @@
                     "program_max": 10000
                 },
                 "sort_order": 0,
-                "targets_url": "/upwork/target_groups/82be63a0-f910-4caa-b08b-6102aa4f22e4/targets",
+                "targets_url": "/upwork/target_groups/85d0c20d-04bf-450e-aeae-e75e02ae8f0a/targets",
                 "targets": [
                     {
-                        "id": "ec1d180e-520d-45a8-86fb-87163fbfeb4e",
+                        "id": "58fbcb17-fa41-4b3e-b9e2-4149d0335442",
                         "name": "www.upwork.com",
                         "description": null,
                         "category": "website",
@@ -36382,21 +36382,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9ed2c59b-0ef0-49cf-ba21-52b933590c33",
-                        "name": "Upwork - Desktop Application ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d2bd8e6b-527e-404c-84cc-ef03174e96a7",
+                        "id": "d6981571-91f1-422b-ab13-a31234bf0947",
                         "name": "Upwork - Android Application",
                         "description": null,
                         "category": "android",
@@ -36422,12 +36408,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 2,
+                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "1e2c2337-1888-44f3-b538-983fb477938b",
+                        "id": "3bd6c00b-46c2-4695-a805-43cf58facf3d",
                         "name": "Upwork - iOS Application",
                         "description": null,
                         "category": "ios",
@@ -36457,12 +36443,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 3,
+                        "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "adb71547-b7c6-48ec-a3df-fde0a09afa70",
+                        "id": "fe7713b3-85bf-4f56-a084-1fcefa6f42da",
                         "name": "Upwork Dash Messenger Desktop Version (www.upwork.com/downloads)",
                         "description": null,
                         "category": "hardware",
@@ -36476,12 +36462,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 4,
+                        "sort_order": 3,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "a239ee25-ef3d-47cb-977a-b9ccff701a38",
+                        "id": "b7fffbe3-aa7b-48a2-8a39-5aad6d100d1c",
                         "name": "www.upwork.com/api ",
                         "description": null,
                         "category": "api",
@@ -36499,12 +36485,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 5,
+                        "sort_order": 4,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "e5d59b2c-24a0-4ef5-9d7f-a7a39b201b78",
+                        "id": "0fd87198-b1b5-43fd-9226-ab2927779cd9",
                         "name": "Direct Contracts",
                         "description": null,
                         "category": "website",
@@ -36518,12 +36504,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 6,
+                        "sort_order": 5,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "47683125-801c-4e2b-bb79-61bbc360d179",
+                        "id": "4f938374-a41c-4f22-a3e4-55418f357232",
                         "name": "api.upwork.com/graphql",
                         "description": null,
                         "category": "api",
@@ -36541,7 +36527,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 7,
+                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -36554,10 +36540,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 1,
-                "targets_url": "/upwork/target_groups/e100b10f-01b3-424a-b067-1df14d19e739/targets",
+                "targets_url": "/upwork/target_groups/9baae281-6ac2-46b9-b866-b8cdab89222d/targets",
                 "targets": [
                     {
-                        "id": "2f1d075d-5698-4a45-9bb5-c4c1b34c398e",
+                        "id": "e21b2b34-6a8b-4d10-a704-e5b8a21359ce",
                         "name": "Social media hijacking",
                         "description": null,
                         "category": "other",
@@ -36571,7 +36557,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "8bfaa807-b3fa-4897-a67c-7ea3242441ba",
+                        "id": "9c89c46e-2138-4434-99f7-f63f0b2c1289",
                         "name": "Any subdomain/domain/property not listed in the 'in scope' section, is out of scope. ",
                         "description": null,
                         "category": "other",
@@ -36585,7 +36571,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "fb91d1b7-aed2-4495-a6ab-9d6dc82076a5",
+                        "id": "68c57ac5-8781-40c4-bf3c-0200861d5b9f",
                         "name": "Any Third-party Services",
                         "description": null,
                         "category": "other",
@@ -36604,7 +36590,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5f4211ae-1308-4c4c-af1f-3a22ac455747",
+                        "id": "9f474b07-463d-433e-9913-32d8b8044508",
                         "name": "support.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36623,7 +36609,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "67a71826-94f8-4455-ac43-11a1c01ef399",
+                        "id": "9cd74a08-90b6-4564-8671-66cf383ac7ed",
                         "name": "community.stage.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36642,7 +36628,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "dbd12655-553f-47dd-8cd8-d54cff674d48",
+                        "id": "2c9b094b-5261-415e-819f-9b6b6d392929",
                         "name": "community.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36661,7 +36647,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "367d0d57-054f-451b-a55b-52cfe7d49ca7",
+                        "id": "8704f219-422e-463e-899f-b4e7f01a9428",
                         "name": "stage.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36680,7 +36666,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "22b7a96e-051b-4cb9-b3d4-d3a4835a18f6",
+                        "id": "6e665f31-94cd-428c-a3d8-aebcc5b6cdb4",
                         "name": "e.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36699,7 +36685,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "554fd4f2-3da1-4da3-b906-37fc36e56081",
+                        "id": "8239783a-19a4-4a86-a18f-3d9e903243ab",
                         "name": "status.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36718,7 +36704,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "e06cd0d4-79db-40d8-b56e-966cc369c5d1",
+                        "id": "6a164728-1fbd-49dc-86d2-b6aa681d645c",
                         "name": "signature.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36732,7 +36718,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7b2a2da4-9efa-4c2f-9893-6fcba6fb9798",
+                        "id": "e0f0a453-1720-479b-aecc-40d6658a0485",
                         "name": "careers.upwork.com",
                         "description": null,
                         "category": "other",
@@ -36746,7 +36732,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "da73d9fc-34e2-476a-bcfd-4bb6f50dae4d",
+                        "id": "6d7817cf-411d-4eb9-950c-16e2db2d5a69",
                         "name": "tip.upwork.com",
                         "description": null,
                         "category": "website",
@@ -36760,7 +36746,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4369c9fe-91d3-45c7-87f6-e07e59044b3d",
+                        "id": "e327f5d9-3f69-4eaa-8daa-070488ff053a",
                         "name": "tip.upwork.com ",
                         "description": null,
                         "category": "other",
@@ -36779,7 +36765,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f27dbf0c-b513-4edf-8f14-000610c231cf",
+                        "id": "702e5f19-e92f-4a54-b83f-ccd2228e270a",
                         "name": "pardot.upwork.com",
                         "description": null,
                         "category": "other",
@@ -52565,7 +52551,7 @@
                 "targets": [
                     {
                         "id": "eb1a820d-5d52-4756-a82f-c8a6d1a5b1dd",
-                        "name": "*.arlo.com (production servers only)",
+                        "name": "*.arlo.com",
                         "description": null,
                         "category": "other",
                         "uri": "",
@@ -52579,7 +52565,7 @@
                     },
                     {
                         "id": "1a4357a9-46e8-40bb-9c19-e5b38ee406bc",
-                        "name": "*.arloxcld.com (production servers only)",
+                        "name": "*.arloxcld.com",
                         "description": null,
                         "category": "other",
                         "uri": "",
@@ -59021,6 +59007,265 @@
         "target_groups": []
     },
     {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
+                "targets": [
+                    {
+                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
+                "targets": [
+                    {
+                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dropbox",
+        "tagline": "Your stuff, anywhere",
+        "briefUrl": "/engagements/dropbox",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/dropbox/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Elementor: Bug Bounty Program",
+        "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
+        "briefUrl": "/engagements/elementor",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a880/dc8a/18521ffb/68ba632ad0ea3d6739987c6435b17c32_elementor.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": "Up to $5,000",
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $5,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/elementor/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "KuCoin Managed Bug Bounty Program",
+        "tagline": "KuCoin, a global cryptocurrency exchange based in Seychelles, offers over 700 digital assets, spot trading, margin trading, P2P fiat trading, futures trading, staking, and lending to 30 million users globally.",
+        "briefUrl": "/engagements/kucoin",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/250c/ec4b/fe1020f0/883a7949cbbe5fbd1e75f2101f46248e_1706015092041.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": "Up to $10,000",
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/kucoin/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Bugcrowd",
         "tagline": "Outhack Them All\u2122",
         "briefUrl": "/bugcrowd",
@@ -59548,265 +59793,6 @@
         ]
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/1bec0a8f-08ac-4eec-8e33-715b78e4a29b/targets",
-                "targets": [
-                    {
-                        "id": "227ef5cb-df14-4873-a85f-10b64177e498",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<ul>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>ID-UAT3.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>Payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>Sedgwick assets</li>\n<li>Sungard Availability Services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>Results-Loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>Intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>IntelHub-webuat.fisglobal.com</li>\n<li>Intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>TestIntelHub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/8f6454f1-cc89-410e-8e2e-24af69e5f484/targets",
-                "targets": [
-                    {
-                        "id": "43c7d169-df32-4d19-8dd5-cdb4c83b7ad1",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Dropbox",
-        "tagline": "Your stuff, anywhere",
-        "briefUrl": "/engagements/dropbox",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dropbox/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Elementor: Bug Bounty Program",
-        "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
-        "briefUrl": "/engagements/elementor",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a880/dc8a/18521ffb/68ba632ad0ea3d6739987c6435b17c32_elementor.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": "Up to $5,000",
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $5,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/elementor/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "KuCoin Managed Bug Bounty Program",
-        "tagline": "KuCoin, a global cryptocurrency exchange based in Seychelles, offers over 700 digital assets, spot trading, margin trading, P2P fiat trading, futures trading, staking, and lending to 30 million users globally.",
-        "briefUrl": "/engagements/kucoin",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/250c/ec4b/fe1020f0/883a7949cbbe5fbd1e75f2101f46248e_1706015092041.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": "Up to $10,000",
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kucoin/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "WHMCS Client Management Portal",
         "tagline": "Client Management, Billing and Support Portal",
         "briefUrl": "/engagements/whmcs",
@@ -59924,36 +59910,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/directly/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Linktree",
-        "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
-        "briefUrl": "/engagements/linktree-mbb-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28fb/3ec2/b382f9fb/a7e48f373e89abe1b0c3491156c7af69_download.png",
-        "rewardSummary": {
-            "summary": "$200 - $7,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$7,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/linktree-mbb-og/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -60768,6 +60724,36 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Linktree",
+        "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
+        "briefUrl": "/engagements/linktree-mbb-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28fb/3ec2/b382f9fb/a7e48f373e89abe1b0c3491156c7af69_download.png",
+        "rewardSummary": {
+            "summary": "$200 - $7,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$7,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/linktree-mbb-og/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "Shipwire",
@@ -62018,36 +62004,6 @@
         "target_groups": []
     },
     {
-        "name": "FoxyCart",
-        "tagline": "A superior ecommerce experience",
-        "briefUrl": "/engagements/foxycart",
-        "backgroundColor": "#633f6f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
-        "rewardSummary": {
-            "summary": "$25 - $600",
-            "hint": null,
-            "minReward": "$25",
-            "maxReward": "$600",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/foxycart/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Statuspage",
         "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
         "briefUrl": "/statuspage",
@@ -62441,6 +62397,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/tyler-tech-data-insights/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "FoxyCart",
+        "tagline": "A superior ecommerce experience",
+        "briefUrl": "/engagements/foxycart",
+        "backgroundColor": "#633f6f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
+        "rewardSummary": {
+            "summary": "$25 - $600",
+            "hint": null,
+            "minReward": "$25",
+            "maxReward": "$600",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/foxycart/engagement_subscribers",
         "target_groups": []
     },
     {
