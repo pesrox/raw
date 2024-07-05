@@ -14607,6 +14607,115 @@
         ]
     },
     {
+        "id": "910b3614-bdf4-4044-a585-6e1ddcc7f034",
+        "handle": "colruytgroupidcheck",
+        "name": "Colruyt Group",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 3500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/colruyt/colruytgroupidcheck/detail"
+        },
+        "domains": [
+            {
+                "id": "a21ee25f-11c4-478b-8d08-19b20676c51e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.okay.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "OKay has been the practical neighbourhood supermarket for 25 years now, where shopping for your daily items is fast, inexpensive and convenient. At OKay you get service and quality at the lowest prices in the neighbourhood. We offer fresh products all day long, such as bread, fruit and vegetables, meat, fish and ready meals, as well as a wide range of other foodstuffs."
+            },
+            {
+                "id": "e51dc85f-b3b8-47a7-b361-1dcedffc2585",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bioplanet.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Bio-Planet is a unique supermarket with a supply of 6,000 products for your every need. A random pick: fresh organic fruit and vegetables, meat and veggie, bread and filling, ecological care and cleaning products ... We also have a broad supply for people with intolerances (gluten, lactose, ...). In short: the ideal store for people who want to eat well while simultaneously respecting the environment."
+            },
+            {
+                "id": "940d5e7b-7ca8-42b7-b372-20968a0eb5df",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "colex-export.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Created in 1985, Colex (Colruyt Export) is the export division of Colruyt Group, the leading retailer in Belgium. We provide retailers and distributors all over the world with more than 4,500 product references. We believe in developing sustainable relationships with our customers and sharing our expertise in the field of retail and distribution so that all of us can grow.\n\nPlease mention in the comments section on the login page (contact us page) that you are registering an account in the context of the Intigriti Bug Bounty program, so you can be approved. This allows us to isolate your actions. You will not be able to actually place an order."
+            },
+            {
+                "id": "d89e9d6b-0f8a-4ca0-9a01-741b7145d31d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "colruyt.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Colruyt is Colruyt Group\u2019s Lowest Prices supermarket chain. For over 40 years, we\u2019ve guaranteed the lowest price for any product at any time."
+            },
+            {
+                "id": "ac58ed27-fe1d-421e-acd9-0c9cd6ebdb23",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.colruytgroup.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Colruyt Group is a Belgian family business which, over three generations, has grown into a retail group with nearly 33,000 workers, active in three countries. And the group still has the strengths of a family business, such as passion, expertise, simplicity and efficiency. Our aim is sustainable growth, with respect for health, society, animal welfare and the environment."
+            },
+            {
+                "id": "7f5ed6d4-5720-477f-980e-f5dd4aa85063",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Leaked credentials from open data sources/archives (intelx.io, pastebin...)",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "At Colruyt Group, we like to be aware of possible leaked credentials. If you find possible credentials on open data sources such as Intelx.io, Pastebin, etc. we will reward you with reputation points. If credentials are leaked on Colruyt Group owned assets, we will handle it with a corresponding bounty."
+            }
+        ]
+    },
+    {
         "id": "92431bf9-ab3e-4e69-9619-c59f8e5193b1",
         "handle": "voiscooters",
         "name": "Voi Scooters",
@@ -14633,7 +14742,113 @@
         },
         "webLinks": {
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/voi/voiscooters/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "005f7d15-56be-4438-b63e-199b93d6db03",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1395921017",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "iOS Mobile Application"
+            },
+            {
+                "id": "496c0a21-2f7d-4e76-9345-ecbec91d3f44",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://api.voiapp.io/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Backend REST API"
+            },
+            {
+                "id": "e856acdc-41d5-4e50-a124-861631c1afef",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "io.voiapp.voi",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Android Mobile Application"
+            },
+            {
+                "id": "3d214482-bcbc-4640-b83a-3885655f4520",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mds.voiapp.io",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Partner API as documented at https://docs.voiscooters.com/"
+            },
+            {
+                "id": "058953ad-cbd1-4d2c-9cb9-d5d3f038bcc9",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.voiscooters.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "0d1f015a-1b5e-42db-b0fc-0594d46b1ad1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "report.voi.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Website to report badly parked scooters."
+            },
+            {
+                "id": "e5da831b-066d-41d6-8a02-95d20abf68a8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "voi.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Informational Website"
+            },
+            {
+                "id": "46b0cc7e-21b3-4226-955e-83ad3827e607",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.voiscooters.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Informational Website"
+            }
+        ]
     },
     {
         "id": "933f224e-fbd3-4f08-a4fb-5038c2fa1a6e",
