@@ -51605,173 +51605,6 @@
         ]
     },
     {
-        "name": "Kenna Security",
-        "tagline": "A Hosted Vulnerability Intelligence Platform",
-        "briefUrl": "/kennasecurity",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e4c0/67f5/f06a13e0/871438d261a53785144b362f8259640c_kenna.png",
-        "rewardSummary": {
-            "summary": "$50 - $4,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kennasecurity/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "17623a80-d326-486c-b4aa-cfee42152ff5",
-                "name": "Out of Scope Group",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/kennasecurity/target_groups/ad9dc3ad-015b-424f-ba88-7fee25d37b94/targets",
-                "targets": [
-                    {
-                        "id": "0425f091-2cba-4fad-a23d-d6306615d8c7",
-                        "name": "Any Kenna Security Platform Subdomain Not Created By You",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d744e18e-9a08-4262-918c-bd3daae7f12a",
-                        "name": "https://www.kennasecurity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.kennasecurity.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "ed4c2556-d5f9-4d3c-97c1-0026ae9e0558",
-                "name": "In-Scope Group",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/kennasecurity/target_groups/c8f7d695-7f7b-4a5b-9f1b-774a1e6a4ab7/targets",
-                "targets": [
-                    {
-                        "id": "6fde9226-d005-4757-a13e-bb40020c7dca",
-                        "name": "https://[your-subdomain].kennasecurity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c1806e7-06bd-40d4-9844-98907d306329",
-                        "name": "https://api.kennasecurity.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b5a96828-46d8-4912-8a9e-7b5f5f3d75e5",
-                        "name": "Any Host Verified To Be Owned By Kenna (Domains/IP space/etc.)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Optimizely",
         "tagline": "Unlock Digital Potential",
         "briefUrl": "/optimizely",
@@ -57840,76 +57673,34 @@
         "target_groups": []
     },
     {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
+        "name": "Dropbox",
+        "tagline": "Your stuff, anywhere",
+        "briefUrl": "/engagements/dropbox",
         "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
         "rewardSummary": {
-            "summary": "Points - $20,000",
+            "summary": "$100 - $10,000",
             "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
+            "minReward": "$100",
+            "maxReward": "$10,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 1,
+        "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Finance",
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
+        "subscriptionUrl": "/dropbox/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "KuCoin Managed Bug Bounty Program",
@@ -57939,36 +57730,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/kucoin/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Dropbox",
-        "tagline": "Your stuff, anywhere",
-        "briefUrl": "/engagements/dropbox",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dropbox/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -58087,6 +57848,78 @@
                         "category": "website",
                         "uri": "https://apuat-aaa.fisglobal.com",
                         "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
                         "target": {
                             "tags": []
                         },
@@ -60659,6 +60492,66 @@
         "target_groups": []
     },
     {
+        "name": "Immutable Bug Bounty",
+        "tagline": "Submit your report here!",
+        "briefUrl": "/engagements/immutable",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6ab3/cbf0/86bd07d9/14523c0b66b401c005a9467d5e370d6a_immutablesymbolblkRGB.png",
+        "rewardSummary": {
+            "summary": "$50 - $25,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/immutable/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "T-Mobile",
+        "tagline": "Welcome to The Uncarrier. Are You With Us?",
+        "briefUrl": "/engagements/t-mobile",
+        "backgroundColor": "#e20074",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
+        "rewardSummary": {
+            "summary": "Points - $100,001",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$100,001",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/t-mobile/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "NETGEAR Cash Rewards",
         "tagline": "NETGEAR Cash Rewards Program",
         "briefUrl": "/netgear",
@@ -61089,66 +60982,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Immutable Bug Bounty",
-        "tagline": "Submit your report here!",
-        "briefUrl": "/engagements/immutable",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6ab3/cbf0/86bd07d9/14523c0b66b401c005a9467d5e370d6a_immutablesymbolblkRGB.png",
-        "rewardSummary": {
-            "summary": "$50 - $25,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/immutable/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "T-Mobile",
-        "tagline": "Welcome to The Uncarrier. Are You With Us?",
-        "briefUrl": "/engagements/t-mobile",
-        "backgroundColor": "#e20074",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
-        "rewardSummary": {
-            "summary": "Points - $100,001",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$100,001",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Utilities",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/t-mobile/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "Humble Bundle",
