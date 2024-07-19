@@ -5784,6 +5784,102 @@
         ]
     },
     {
+        "id": "2b664acb-80d4-4edb-9fcc-bcc562987f92",
+        "handle": "dstnybugbounty",
+        "name": "Dstny",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 1510.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/dstny/dstnybugbounty/detail"
+        },
+        "domains": [
+            {
+                "id": "c8fd9a94-2b5c-484a-ba19-2bc70cfee43d",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=1370437389",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "These domains are entirely out-of-scope."
+            },
+            {
+                "id": "2ddf9583-af90-4cc7-a554-5c00199b65c7",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=1208823298",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Sizable list of the Tier 1 domains, IP ranges, and other.\n\nThe full scope of Tier 1, Tier 2 and Tier 3 domains can be found [here](https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=744529838)."
+            },
+            {
+                "id": "57e3cc69-6c82-45c5-bda6-36e27cada292",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=1281087877",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Sizable list of the Tier 2 domains, IP ranges, and other.\n\nThe full scope of Tier 1, Tier 2 and Tier 3 domains can be found [here](https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=744529838)."
+            },
+            {
+                "id": "a73bb385-2ee3-47f9-9da5-2020a081f400",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=1767553194",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Sizable list of the Tier 3 domains, IP ranges, and other.\n\nThe full scope of Tier 1, Tier 2 and Tier 3 domains can be found [here](https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=744529838)."
+            },
+            {
+                "id": "ee557159-113f-4e45-bb36-90dcb5a00055",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://docs.google.com/spreadsheets/d/1L2Bdc_M1fzaD3wIO7GaC4wHCEnZxDKYpejmGYen-R_4/edit#gid=1817816238",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Domains in this scope won't lead to a bounty, but we welcome submissions."
+            }
+        ]
+    },
+    {
         "id": "2cf03670-6a2d-4ac7-8b1e-2e0d84338204",
         "handle": "uzleuven",
         "name": "UZ Leuven",
