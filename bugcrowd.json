@@ -16626,9 +16626,151 @@
         "programMigrationInProgress": null,
         "target_groups": [
             {
+                "id": "5deabe3c-95c4-4519-abb2-7585e832d1b6",
+                "name": "Database services tier 1",
+                "description_html": "<p><strong>Aiven for Apache Cassandra managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/cassandra\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/cassandra</a> for details about the service.</p>\n\n<p>Aiven for Apache Cassandra\u00ae is a fully managed NoSQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Dragonfly managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/dragonfly\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/dragonfly</a> for details about the service.</p>\n\n<p>Aiven for Dragonfly is an in-memory database intended as an alternative to Redis.</p>\n\n<p><strong>Aiven for Apache Flink managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/flink\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/flink</a> for details about the service.</p>\n\n<p>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is a perfect companion to Apache Kafka event streaming platform, to perform reliable and scalable real-time filtering, enriching, aggregating, alerting and analyzing of the events.</p>\n\n<p><strong>Aiven for Clickhouse managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/clickhouse\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/clickhouse</a> for details about the service.</p>\n\n<p>Aiven for ClickHouse is powered by ClickHouse, a highly scalable, open source database that uses a column-oriented structure. </p>\n\n<p>ClickHouse is designed for online analytical processing (OLAP) applications, and is an ideal tool for applications such as web analytics, or complex data reporting.</p>\n\n<p><strong>Aiven for Thanos Metrics managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/docs/products/metrics/concepts/metrics-overview\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/docs/products/metrics/concepts/metrics-overview</a> for details about the service.</p>\n\n<p>Aiven for Thanos Metrics is a managed service that provides a Prometheus service for storing and querying service metrics information.</p>\n\n<p><strong>Aiven for Valkey managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/valkey\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/valkey</a> for details about the service.</p>\n\n<p>Aiven for Valkey is an in-memory database using the open-source project <a href=\"https://valkey.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://valkey.io/</a>.  It is often used for queueing and caching, and is an alternative to Redis.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 12500.0,
+                        "max": 17500.0
+                    },
+                    "2": {
+                        "min": 4000.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 1250.0,
+                        "max": 3500.0
+                    },
+                    "4": {
+                        "min": 500.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/aiven-mbb-og/target_groups/a9f96314-414f-4fc9-9663-bc908d9e549b/targets",
+                "targets": [
+                    {
+                        "id": "bb4059be-3cdc-4a2d-92f2-44d479612d0e",
+                        "name": "Aiven for Apache Cassandra managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9af5639f-8ff1-4a7c-be7f-8e4872d12b3f",
+                                    "name": "Apache Cassandra"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8ecc8af6-3311-477e-9dfa-c872637498bf",
+                        "name": "Aiven for Dragonfly managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "797e0e42-68d5-4bc4-bac7-9fb9c1cade3a",
+                        "name": "Aiven for Apache Flink managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "020d8b6a-233b-4592-983a-9dfa3df1138a",
+                        "name": "Aiven for Clickhouse managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
+                                    "name": "Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5e16b60f-8c15-446c-8f6c-cf53521a5207",
+                        "name": "Aiven for Thanos Metrics managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
+                                    "name": "Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2513bcaf-31f9-47d0-bf30-1b017fcc80bc",
+                        "name": "Aiven for Valkey managed and hosted service",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
+                                    "name": "Redis"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
                 "id": "b08846ae-83cb-4b6e-b021-085308ad7cd7",
                 "name": "In Scope (Database services)",
-                "description_html": "<p>You may create instances of any of our public services to test against within your account.  You must create the account using your bugcrowdninja.com email address and should only interact with services in aivencloud.com that you created and control.</p>\n\n<p>The services can be launched via <a href=\"https://console.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://console.aiven.io/</a> or using our API at <a href=\"https://api.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/</a> (documentation at <a href=\"https://api.aiven.io/doc/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/doc/</a>).</p>\n\n<p>We provide a brief overview of our services here, but the most up to date information will be available at <a href=\"https://docs.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://docs.aiven.io/</a>.</p>\n\n<h2>Information about Billable Services</h2>\n\n<p>You may use a free tier account, or you may use trial credits; if you require additional trial credits, please reach out within the program with a description of your activity, and some can be added to your account.  <strong>Please do not use a credit card; expenses will not be reimbursed in case you are billed, and removing your card from our system will take some time</strong>.</p>\n\n<h2>Target Information:</h2>\n\n<p><strong>Aiven for Apache Kafka managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/kafka\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka</a> for details about the service. Also in scope are Aiven for Apache Kafka Connect <a href=\"https://aiven.io/kafka-connect\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka-connect</a> and Aiven for Apache Kafka MirrorMaker 2 <a href=\"https://aiven.io/mirrormaker\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mirrormaker</a></p>\n\n<p>Aiven for Apache Kafka\u00ae is a fully managed streaming platform, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for M3 managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/m3\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3</a> for details about the service. Also in scope: Aiven for M3 Aggregator: <a href=\"https://aiven.io/m3-aggregator\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3-aggregator</a></p>\n\n<p>Aiven for M3 is a fully managed distributable time series database, deployable in the cloud of your choice. Bring unlimited scalability and high-availability to your Prometheus monitoring environment and other time series applications.</p>\n\n<p><strong>Aiven for PostgreSQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/postgresql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/postgresql</a> for details about the service.</p>\n\n<p>Aiven for PostgreSQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for MySQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/mysql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mysql</a> for details about the service.</p>\n\n<p>Aiven for MySQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for OpenSearch managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/opensearch\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/opensearch</a> for details about the service.</p>\n\n<p>Aiven for OpenSearch is a fully managed search and analytics suite forked from Elasticsearch, and deployable in the cloud of your choice. </p>\n\n<p>Our maintenance-free solution helps you make the most of your data \u2013 and focus on building your business.</p>\n\n<p><strong>Aiven for Apache Cassandra managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/cassandra\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/cassandra</a> for details about the service.</p>\n\n<p>Aiven for Apache Cassandra\u00ae is a fully managed NoSQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Caching managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/caching\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/caching</a> for details about the service.</p>\n\n<p>Aiven for Caching is a fully managed in-memory NoSQL database compatible with Redis OSS, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Dragonfly managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/dragonfly\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/dragonfly</a> for details about the service.</p>\n\n<p>Aiven for Dragonfly is an in-memory database intended as an alternative to Redis.</p>\n\n<p><strong>Aiven for Grafana managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/grafana\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/grafana</a> for details about the service.</p>\n\n<p>Aiven for Grafana is a fully managed analytics and monitoring solution, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Apache Flink managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/flink\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/flink</a> for details about the service.</p>\n\n<p>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It is a perfect companion to Apache Kafka event streaming platform, to perform reliable and scalable real-time filtering, enriching, aggregating, alerting and analyzing of the events.</p>\n\n<p><strong>Aiven for Clickhouse managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/clickhouse\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/clickhouse</a> for details about the service.</p>\n\n<p>Aiven for ClickHouse is powered by ClickHouse, a highly scalable, open source database that uses a column-oriented structure. </p>\n\n<p>ClickHouse is designed for online analytical processing (OLAP) applications, and is an ideal tool for applications such as web analytics, or complex data reporting.</p>\n\n<p><strong>Aiven for Thanos Metrics managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/docs/products/metrics/concepts/metrics-overview\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/docs/products/metrics/concepts/metrics-overview</a> for details about the service.</p>\n\n<p>Aiven for Thanos Metrics is a managed service that provides a Prometheus service for storing and querying service metrics information.</p>\n\n<p><strong>Aiven for Valkey managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/valkey\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/valkey</a> for details about the service.</p>\n\n<p>Aiven for Valkey is an in-memory database using the open-source project <a href=\"https://valkey.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://valkey.io/</a>.  It is often used for queueing and caching, and is an alternative to Redis.</p>",
+                "description_html": "<p>You may create instances of any of our public services to test against within your account.  You must create the account using your bugcrowdninja.com email address and should only interact with services in aivencloud.com that you created and control.</p>\n\n<p>The services can be launched via <a href=\"https://console.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://console.aiven.io/</a> or using our API at <a href=\"https://api.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/</a> (documentation at <a href=\"https://api.aiven.io/doc/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.aiven.io/doc/</a>).</p>\n\n<p>We provide a brief overview of our services here, but the most up to date information will be available at <a href=\"https://docs.aiven.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://docs.aiven.io/</a>.</p>\n\n<h2>Information about Billable Services</h2>\n\n<p>You may use a free tier account, or you may use trial credits; if you require additional trial credits, please reach out within the program with a description of your activity, and some can be added to your account.  <strong>Please do not use a credit card; expenses will not be reimbursed in case you are billed, and removing your card from our system will take some time</strong>.</p>\n\n<h2>Target Information:</h2>\n\n<p><strong>Aiven for Apache Kafka managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/kafka\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka</a> for details about the service. Also in scope are Aiven for Apache Kafka Connect <a href=\"https://aiven.io/kafka-connect\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/kafka-connect</a> and Aiven for Apache Kafka MirrorMaker 2 <a href=\"https://aiven.io/mirrormaker\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mirrormaker</a></p>\n\n<p>Aiven for Apache Kafka\u00ae is a fully managed streaming platform, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for M3 managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/m3\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3</a> for details about the service. Also in scope: Aiven for M3 Aggregator: <a href=\"https://aiven.io/m3-aggregator\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/m3-aggregator</a></p>\n\n<p>Aiven for M3 is a fully managed distributable time series database, deployable in the cloud of your choice. Bring unlimited scalability and high-availability to your Prometheus monitoring environment and other time series applications.</p>\n\n<p><strong>Aiven for PostgreSQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/postgresql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/postgresql</a> for details about the service.</p>\n\n<p>Aiven for PostgreSQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for MySQL managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/mysql\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/mysql</a> for details about the service.</p>\n\n<p>Aiven for MySQL is a fully managed SQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for OpenSearch managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/opensearch\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/opensearch</a> for details about the service.</p>\n\n<p>Aiven for OpenSearch is a fully managed search and analytics suite forked from Elasticsearch, and deployable in the cloud of your choice. </p>\n\n<p>Our maintenance-free solution helps you make the most of your data \u2013 and focus on building your business.</p>\n\n<p><strong>Aiven for Caching managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/caching\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/caching</a> for details about the service.</p>\n\n<p>Aiven for Caching is a fully managed in-memory NoSQL database compatible with Redis OSS, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>\n\n<p><strong>Aiven for Grafana managed and hosted service:</strong></p>\n\n<p>See <a href=\"https://aiven.io/grafana\" rel=\"nofollow noreferrer\" target=\"_blank\">https://aiven.io/grafana</a> for details about the service.</p>\n\n<p>Aiven for Grafana is a fully managed analytics and monitoring solution, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps.</p>",
                 "in_scope": true,
                 "reward_range": {
                     "1": {
@@ -16648,11 +16790,11 @@
                         "max": 650.0
                     }
                 },
-                "sort_order": 0,
-                "targets_url": "/aiven-mbb-og/target_groups/5d27220f-cc98-4eb0-9c94-b0bf923089e6/targets",
+                "sort_order": 1,
+                "targets_url": "/aiven-mbb-og/target_groups/90a4c008-c9dd-452c-9d76-dd9ad2cfe14f/targets",
                 "targets": [
                     {
-                        "id": "bbdbeb8c-750f-419f-9f7a-adfd55b59634",
+                        "id": "73a72622-ad69-4fee-afc7-ae970fb0779a",
                         "name": "Aiven for Apache Kafka managed and hosted service ",
                         "description": null,
                         "category": "other",
@@ -16671,7 +16813,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "15b9899b-b67d-4cbd-a4d5-68618e91bf93",
+                        "id": "83c07733-004c-4d2e-b229-94dafbc6f50d",
                         "name": "Aiven for M3 managed and hosted service ",
                         "description": null,
                         "category": "other",
@@ -16690,7 +16832,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "043729dc-aafa-44b5-a212-0b4ceb7835cf",
+                        "id": "52e9137d-b12e-4625-a499-f95b3735fa89",
                         "name": "Aiven for PostgreSQL managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16709,7 +16851,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f9e49ef3-9f2a-41c4-b94a-12ad69d09983",
+                        "id": "a2555dfd-5924-4b85-8ac6-e9e2aaa3a004",
                         "name": "Aiven for MySQL managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16728,7 +16870,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "446889b0-7b3f-473e-b82d-da58d8fcb33e",
+                        "id": "efaa449d-a48b-444d-b77d-d7e79233348a",
                         "name": "Aiven for OpenSearch managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16747,26 +16889,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4b7d79a8-0a23-4a66-96dc-6119ab480a67",
-                        "name": "Aiven for Apache Cassandra managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9af5639f-8ff1-4a7c-be7f-8e4872d12b3f",
-                                    "name": "Apache Cassandra"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3b09bdd1-2668-47fa-8827-06155cafe7f7",
+                        "id": "58be8833-f8fa-4e42-a994-aa68a1e7c8f0",
                         "name": "Aiven for Caching managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16780,12 +16903,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 6,
+                        "sort_order": 5,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "4c3b4b25-6c97-40f6-9c09-dc711a977aa9",
+                        "id": "4e33c358-17f4-40f4-bf09-9c5fda27fa96",
                         "name": "Aiven for Grafana managed and hosted service",
                         "description": null,
                         "category": "other",
@@ -16799,102 +16922,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fa608a8e-4d5a-4aed-a0d6-1fe73090661a",
-                        "name": "Aiven for Apache Flink managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba9b302b-12e8-4341-a2f1-ed39148cf156",
-                        "name": "Aiven for Clickhouse managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f228d820-7bcf-4e3b-9481-8a086a37f339",
-                        "name": "Aiven for Dragonfly managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a15a28ed-dc7c-4f1f-92d8-ed0ef99a1f61",
-                        "name": "Aiven for Thanos Metrics managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95db792c-091b-4c81-8d72-b09b1d065f09",
-                                    "name": "Cloud"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "26f86784-0893-439e-adbc-d6806361cddc",
-                        "name": "Aiven for Valkey managed and hosted service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "99bf10d6-2a86-4993-826a-dbf3a956aefa",
-                                    "name": "Redis"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
+                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -16923,11 +16951,11 @@
                         "max": 250.0
                     }
                 },
-                "sort_order": 1,
-                "targets_url": "/aiven-mbb-og/target_groups/c47a6558-b2d3-4a41-9995-4ee784d8d9dd/targets",
+                "sort_order": 2,
+                "targets_url": "/aiven-mbb-og/target_groups/34bc9dd2-d563-4d85-8672-d8d90cc44410/targets",
                 "targets": [
                     {
-                        "id": "8797486a-f9e3-4fcb-ae2f-21bacedab499",
+                        "id": "45537662-31e0-4e9e-97f9-3b4549ae7a51",
                         "name": "aiven.io",
                         "description": null,
                         "category": "website",
@@ -16946,7 +16974,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "63b9ac8b-576a-4ae5-8ee2-021784bd1922",
+                        "id": "999475e8-0300-463a-a941-53b55b582611",
                         "name": "console.aiven.io",
                         "description": null,
                         "category": "website",
@@ -16965,7 +16993,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "d674d117-e4c2-450d-98b9-d612ad0b2d41",
+                        "id": "9bf145ea-1605-4297-82ac-458780581531",
                         "name": "api.aiven.io",
                         "description": null,
                         "category": "api",
@@ -17016,11 +17044,11 @@
                         "max": 250.0
                     }
                 },
-                "sort_order": 2,
-                "targets_url": "/aiven-mbb-og/target_groups/a5e25dbb-a96a-4406-abcb-1669120626a8/targets",
+                "sort_order": 3,
+                "targets_url": "/aiven-mbb-og/target_groups/ec202a19-3f86-4d15-bc0e-c53b80517797/targets",
                 "targets": [
                     {
-                        "id": "dc2bd8ce-199b-4e28-b4df-394c3f4644fd",
+                        "id": "0ef78924-56f3-4e01-881e-5b6422822bc1",
                         "name": "github.com/Aiven-Open",
                         "description": null,
                         "category": "other",
@@ -17034,7 +17062,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "fe694da7-f5c9-4bd5-94ea-2a9c14386240",
+                        "id": "9c251ab0-5406-4d0c-b64c-44a1b3c92372",
                         "name": "github.com/Aiven",
                         "description": null,
                         "category": "other",
@@ -17060,11 +17088,11 @@
                         "max": 20000.0
                     }
                 },
-                "sort_order": 3,
-                "targets_url": "/aiven-mbb-og/target_groups/806eb12c-e481-4341-aec4-18bc7591b1e4/targets",
+                "sort_order": 4,
+                "targets_url": "/aiven-mbb-og/target_groups/c7ecf5b4-d243-4836-871d-c04d4a4c44b3/targets",
                 "targets": [
                     {
-                        "id": "ef150c2b-b727-4d6b-bc24-31d587d7443d",
+                        "id": "56d9745e-1779-4bac-a008-db083a81c5d9",
                         "name": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
                         "description": null,
                         "category": "other",
@@ -17085,11 +17113,11 @@
                 "description_html": "<p>In general, services hosted for Aiven by third parties are out of scope.  Aiven's test environment is also out of scope.  This group provides a partial list of targets for which reports will not be accepted by our program.</p>\n\n<p>Most subdomains of Aiven that are not specifically marked in scope are hosted by a third party.  Please check who is hosting the service, if possible, before submitting your bug.</p>\n\n<p>Services created by customers are generally within the aivencloud.com domain.  If you did not create the service, and it is not specifically identified here as a challenge target, you may not perform testing against it.  We suggest creating a service within your own account to perform this testing.</p>",
                 "in_scope": false,
                 "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/aiven-mbb-og/target_groups/fad42a3e-94d4-485d-90dd-ad44de6ee0b9/targets",
+                "sort_order": 5,
+                "targets_url": "/aiven-mbb-og/target_groups/e398d5a6-b6e1-4313-9986-ea1d46aae036/targets",
                 "targets": [
                     {
-                        "id": "d13b09a4-1316-4c0c-94ba-a19023774ae9",
+                        "id": "8f62bf20-9173-4196-9af0-a57f96a8e37c",
                         "name": "aiven.io/contact",
                         "description": null,
                         "category": "website",
@@ -17108,7 +17136,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9d4e0311-dc27-493b-82c4-e67619bb979b",
+                        "id": "4f1a8e1c-f254-46ad-bc23-7e8dfd561066",
                         "name": "aiven.io/community",
                         "description": null,
                         "category": "website",
@@ -17122,7 +17150,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c7f9bc5f-d16a-4927-a959-a5547ff108d8",
+                        "id": "7e919f2e-53b5-4b9e-bdde-9b2096a52e2a",
                         "name": "aquarium.aiven.io\t",
                         "description": null,
                         "category": "website",
@@ -17136,7 +17164,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "711d28f1-3237-4b85-8bad-39f4d9761a50",
+                        "id": "87368e96-ca00-48f5-8638-baff23b1f073",
                         "name": "uptime.aiven.io\t",
                         "description": null,
                         "category": "website",
@@ -17150,7 +17178,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c2d558b9-fbe8-4457-85c7-b17c0b1724f0",
+                        "id": "5ecc68a1-152b-4457-95af-c95e3b67bada",
                         "name": "video.aiven.io\t",
                         "description": null,
                         "category": "website",
@@ -17164,7 +17192,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a55e4b6c-4b90-4a42-9f82-7dd22092b50f",
+                        "id": "2cfe99a8-7323-4b1d-b0ec-93c9a1d676f2",
                         "name": "*.aiven.fi",
                         "description": null,
                         "category": "other",
@@ -17178,7 +17206,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "94200111-f367-4836-960b-4f368aa0ac6b",
+                        "id": "8d100ef1-4e49-43b3-9cbf-b98ba9388223",
                         "name": "*.avns.net",
                         "description": null,
                         "category": "other",
@@ -17192,7 +17220,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c728eed3-a811-4b9b-9724-2f5207bc8278",
+                        "id": "a9127e92-1e85-4245-83d0-569418be598d",
                         "name": "Customer services you did not create",
                         "description": null,
                         "category": "other",
@@ -17206,7 +17234,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "2975e2bf-621f-4b59-bf16-75514a611d71",
+                        "id": "c32feb5f-e5e1-4466-bb62-aeaa7c40d07b",
                         "name": "github.com/Aiven-Labs",
                         "description": null,
                         "category": "other",
@@ -17220,7 +17248,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "12ce609c-7330-4d2b-9e5d-f2dca8974315",
+                        "id": "583850a5-98d1-49a6-8351-a320e5ae350b",
                         "name": "events.aiven.io",
                         "description": null,
                         "category": "website",
@@ -59017,36 +59045,6 @@
         "target_groups": []
     },
     {
-        "name": "T-Mobile",
-        "tagline": "Welcome to The Uncarrier. Are You With Us?",
-        "briefUrl": "/engagements/t-mobile",
-        "backgroundColor": "#e20074",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
-        "rewardSummary": {
-            "summary": "Points - $100,001",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$100,001",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Utilities",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/t-mobile/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Majid Al Futtaim Lifestyle",
         "tagline": "Majid Al Futtaim Lifestyle",
         "briefUrl": "/maffashion",
@@ -59426,6 +59424,36 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "T-Mobile",
+        "tagline": "Welcome to The Uncarrier. Are You With Us?",
+        "briefUrl": "/engagements/t-mobile",
+        "backgroundColor": "#e20074",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
+        "rewardSummary": {
+            "summary": "Points - $100,001",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$100,001",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/t-mobile/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "NETGEAR Cash Rewards",
