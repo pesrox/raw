@@ -25183,635 +25183,6 @@
         ]
     },
     {
-        "name": "Sophos",
-        "tagline": "Responsible disclosure with rewards up to US$50.000",
-        "briefUrl": "/sophos",
-        "backgroundColor": "#0068b1",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/99ee/d126/b7eb6a5e/3a483054f9f57b3410a4c2fa82d699a0_sophos_ss.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $50,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$50,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/sophos/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "82cc76a6-accc-4d71-a6f2-500b8ba1e994",
-                "name": "Windows Intercept X Premium Target",
-                "description_html": "<p>Sophos Endpoint Protection is a multi-component system where some parts run at the highest possible privilege. One of the design goals is to protect users of the endpoint from threats on the network, therefore remote compromise of Endpoint Protection components is of particular concern to Sophos.</p>\n\n<h4>Attacks meeting <em>ALL</em> of the following conditions are eligible for consideration of a maximum bounty of $50,000:</h4>\n\n<p>\u2022 triggering execution of attacker-controlled code<br>\n\u2022 in a high privilege context (Administrator or higher for Windows)<br>\n\u2022 doing so remotely<br>\n\u2022 doing so via Endpoint Protection components<br>\n\u2022 no user interaction is necessary</p>\n\n<p>Clear instructions for how to reproduce the finding are required.</p>\n\n<p>Some examples of in and out of scope scenarios follow. These are intended to illustrate the above definition, not to limit it. Attacks that meet the definition will be in scope.</p>\n\n<p>Examples:</p>\n\n<p>In-scope examples (all must lead to the attacker able to act as Admin, with no user interaction):<br>\n\u2022 Direct exploitation via an exposed port associated with an Endpoint Protection component.<br>\n\u2022 Target machine receives an email from attacker triggering RCE due to Endpoint Protection processing / parsing.<br>\n\u2022 A browser on the endpoint visits a webpage leading to code execution due to Endpoint Protection interactions with the browser or associated network traffic.</p>\n\n<p>Out-of-scope examples:</p>\n\n<ul>\n<li>Code execution after connecting via an authorized remote route, e.g. RDP. This is not considered a remote exploit since the RDP \nconnection gives the attacker a presence local to the target.</li>\n<li>Any attack where a user needs to enter credentials. Attacks where user interaction is required are excluded from this bounty target.</li>\n<li>Any attack where code execution is obtained but not in the context of Admin.</li>\n</ul>\n\n<p>All testing can be done with free trial versions <a href=\"https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial\" rel=\"nofollow noreferrer\" target=\"_blank\">https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial</a> of the product on the Windows platform.</p>\n\n<h5>IMPORTANT. All research should be done on fresh trial versions of Intercept X and when signing up for the trial, ensure your email has bugcrowdninja in the address. For example, tom+bugcrowdninja@gmail.com or bill@bugcrowdninja.com</h5>\n\n<p>Eligible findings are reproducible on fully patched installations of Intercept X. Sophos will not reward issues that are not reproducible in the latest release. Testing should be done on 64-bit Windows only, Windows 10 22H2 (build 19045) or later Windows 11 22H2 (build 22621) or later.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/sophos/target_groups/15a7a4f3-e307-427e-ae68-3084373975b2/targets",
-                "targets": [
-                    {
-                        "id": "1fd2af67-67b7-44e1-a322-85aa9967490a",
-                        "name": "https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.sophos.com/en-us/products/endpoint-antivirus/free-trial ",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "10e2c1de-968e-4633-8534-176fd769eb30",
-                "name": "XG Firewall Premium Target",
-                "description_html": "<p>Findings eligible for the highest payout are/come with:</p>\n\n<ul>\n<li>Attack Vector: Network (WAN interface only)</li>\n<li>Attack Complexity: Low (no MitM etc.)</li>\n<li>Privileges Required: None (pre-auth only)</li>\n<li>User Interaction: None (no phishing, etc.)</li>\n<li>Impact: Code/command execution as root (CVSSv3+ C:H/I:H/A:H)</li>\n<li>Reproducible on the latest maintenance release of the latest version, as published on MySophos</li>\n<li>Detailed version information:\n\n<ul>\n<li>Login to the Device Console</li>\n<li>At the console&gt; prompt type: \u201csystem dia sh ver\u201d</li>\n<li>Add the output to the report (screenshots accepted)</li>\n</ul>\n</li>\n<li>PoC code or step by step reproduction instructions\n\n<ul>\n<li>May be in the form of a video</li>\n</ul>\n</li>\n<li>Tools used to detect the issue, if any</li>\n<li>Information on what helped discover the issue most:\n\n<ul>\n<li>Root shell access</li>\n<li>Reverse engineering (decompiled JARs)</li>\n<li>Previously published CVE (incl. CVE ID)</li>\n<li>Other (please elaborate)\n*Source code file and line of the issue, if possible</li>\n</ul>\n</li>\n</ul>\n\n<p>All testing can be done with <a href=\"https://secure2.sophos.com/en-us/products/next-gen-firewall/free-trial.aspx\" rel=\"nofollow noreferrer\" target=\"_blank\">free trial versions</a> of the product on any available platform (software/virtual/hardware).</p>\n\n<p>IMPORTANT. All research should be done on fresh trial versions and when signing up for the trial, ensure your email has <em>bugcrowdninja</em> in the address. For example, tom+bugcrowdninja@gmail.com or bill@bugcrowdninja.com</p>\n\n<p>Eligible findings are reproducible on fully patched installations of XG Firewall (see https://community.sophos.com/kb/en-us/135415 for details). Sophos will not reward issues that are not reproducible in the latest release.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/sophos/target_groups/b5994db6-187f-4ba7-9900-499e86bcacea/targets",
-                "targets": [
-                    {
-                        "id": "5ff6fba3-2bd6-4282-994f-73a109125441",
-                        "name": "XG Firewall - Pre-auth RCE",
-                        "description": null,
-                        "category": "iot",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                },
-                                {
-                                    "id": "ad43847d-d5ec-4d65-a1f1-8f20ec7e9238",
-                                    "name": "Penetration Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "0e4d9d16-80c0-4aed-b106-e3e48882e73b",
-                "name": "Premium Bounty Eligible Targets",
-                "description_html": "<p>Eligible findings are/come with:</p>\n\n<ul>\n<li>Reproducible on the latest maintenance release (MR) on an actively maintained product branch that is generally available (GA) </li>\n<li>Detailed version information </li>\n</ul>\n\n<p>All testing can be done with free trial versions of the product on any available platform (software/virtual/hardware/operating system).</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 8000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/sophos/target_groups/dea011ba-bb6d-47ca-acc3-6a9c34843499/targets",
-                "targets": [
-                    {
-                        "id": "762016c7-f6a5-40bf-aa94-60ccf2afd458",
-                        "name": "XG Firewall",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7bb720f2-29cb-4ec9-9757-34df993d83ba",
-                        "name": "Intercept X Endpoint",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2baa6d81-7133-4c2b-9565-7d734393a684",
-                        "name": "Sophos Central",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://central.sophos.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "c8a7982b-2da0-4cee-a40e-ab3871ee2c72",
-                "name": "Bounty Eligible Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 5000.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/sophos/target_groups/d3eda247-fe1a-46e3-a108-3772c1197dcc/targets",
-                "targets": [
-                    {
-                        "id": "a02bde14-61b3-466a-a186-ea6131176732",
-                        "name": "*.sophos.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "112fcd0b-e960-45ea-b660-c1998e8c6cd1",
-                        "name": "*.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "53917c1d-52c8-41f3-86f5-166e787ece8f",
-                                    "name": "Select2"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "73693260-c3a3-47ca-9275-a8d115dae3b3",
-                        "name": "*.reflexion.net",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "48090d9d-fb20-46e8-b6ef-1b1d36bb331c",
-                        "name": "*.astaro.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7d2fbf77-ec5d-4e7a-979b-9a4b224c5cab",
-                        "name": "*.cyberoam.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8784e2ec-184d-4f83-8a6b-9ef8df031556",
-                        "name": "Any Other Sophos Product or Service",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "d4bf1a9e-01a3-41e3-b5c5-19085fb28cbb",
-                "name": "Out of Scope Targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/sophos/target_groups/e6a05157-365d-4103-82f9-20dbd0270ce2/targets",
-                "targets": [
-                    {
-                        "id": "debba5a6-681c-4681-b0ac-4c9c3948a701",
-                        "name": "autodiscover.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "762dd9cd-c34e-4ca1-b496-58936682f28a",
-                        "name": "app.reflexion.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0054709f-d569-48ff-a93c-bfbe31d924de",
-                        "name": "community.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2afad0f2-b31e-4e5d-9495-9d9bc21735cd",
-                        "name": "*.ddns.cyberoam.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9692cf63-bc03-4719-ab9b-3836c9ea4a64",
-                        "name": "*eventreg.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bd47a25f-25e1-4e71-8e66-bbf0bb6dd9f8",
-                        "name": "events.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3e1a11da-1ecb-46cb-befb-f5d4e0ca1e86",
-                        "name": "lyncdiscover.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "13209f0b-5abd-4bb6-8c5e-ed1f6456e43f",
-                        "name": "mev.hitmanpro.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5ed7cee1-056f-4e0c-9b5f-c2cad5b6d4d4",
-                        "name": "tickets.reflexion.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "20c9ecf0-94d9-41ab-adc7-9910ce29e89f",
-                        "name": "*.releaseportal.cyberoam.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "91f01f0b-e4f3-4f17-b067-f0cf174caeb3",
-                        "name": "shop.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cb30a062-cabe-41da-966c-77b3bd1b3d35",
-                        "name": "sip.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f9186ed0-7c1d-4dcb-8266-a28690ab0973",
-                        "name": "sophos.atlassian.net (Public service desk)",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2689c14d-f895-4295-8063-8b3cb5ec3e1e",
-                        "name": "support.hitmanpro.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "00df441c-9dab-40eb-9dd1-ba217c11f704",
-                        "name": "surveys.sophos.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2467b27a-5907-4082-9f1d-e2e46e3b16d3",
-                        "name": "SPF/DKIM/DMARC issues",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Octopus Deploy",
         "tagline": "Submit your finding to the program!",
         "briefUrl": "/octopus-deploy",
@@ -57700,6 +57071,36 @@
         "target_groups": []
     },
     {
+        "name": "Lime",
+        "tagline": "Help secure Lime",
+        "briefUrl": "/engagements/lime",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3f16/f841/645f8de5/76f9fb42ebfced9a5f2e50915a78eaf7_Lime_Symbol_Green.png",
+        "rewardSummary": {
+            "summary": "$150 - $7,000",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$7,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Transportation",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/lime/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Majid Al Futtaim Retail",
         "tagline": "Carrefour UAE",
         "briefUrl": "/carrefour",
@@ -57888,36 +57289,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Lime",
-        "tagline": "Help secure Lime",
-        "briefUrl": "/engagements/lime",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3f16/f841/645f8de5/76f9fb42ebfced9a5f2e50915a78eaf7_Lime_Symbol_Green.png",
-        "rewardSummary": {
-            "summary": "$150 - $7,000",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$7,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Transportation",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/lime/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "Humble Bundle",
@@ -59535,285 +58906,6 @@
         "target_groups": []
     },
     {
-        "name": "Luno Bug Bounty Program",
-        "tagline": "Luno Bug Bounty Program",
-        "briefUrl": "/luno-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/luno-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
-                "name": "Tier 1 Targets:",
-                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 550.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
-                "targets": [
-                    {
-                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
-                        "name": "Luno Android Application",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
-                        "name": "Luno iOS Application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
-                        "name": "https://mobileapi.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
-                "name": "Tier 2 Targets:",
-                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2500.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1800.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 650.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
-                "targets": [
-                    {
-                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
-                        "name": "https://staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
-                        "name": "https://ajax.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://ajax.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
-                        "name": "https://api.staging.luno.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
-                        "name": "https://app.staging.luno.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://app.staging.luno.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
-                                    "name": "Go"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Skroutz Public Managed Bug Bounty",
         "tagline": "Skroutz",
         "briefUrl": "/skroutz",
@@ -60357,6 +59449,315 @@
                             ]
                         },
                         "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sophos",
+        "tagline": "Responsible disclosure with rewards up to US$50.000",
+        "briefUrl": "/engagements/sophos",
+        "backgroundColor": "#0068b1",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/99ee/d126/b7eb6a5e/3a483054f9f57b3410a4c2fa82d699a0_sophos_ss.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $50,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$50,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/sophos/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Luno Bug Bounty Program",
+        "tagline": "Luno Bug Bounty Program",
+        "briefUrl": "/luno-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/luno-og/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "35ce6c2b-fe22-48ad-b2fb-89ec5400e529",
+                "name": "Tier 1 Targets:",
+                "description_html": "<p>Staging mobile apps are not currently available.<br>\nWhen testing the mobile applications you are testing on production. Behavior that compromises the stability and integrity of the site is out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please stop further testing and report it.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 2000.0
+                    },
+                    "3": {
+                        "min": 550.0,
+                        "max": 700.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/luno-og/target_groups/14be0813-904a-42ff-ba60-ff56f21f5581/targets",
+                "targets": [
+                    {
+                        "id": "5638e0ce-44f0-4964-b34e-f8b1a5ec3b9e",
+                        "name": "Luno Android Application",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?hl=en&id=co.bitx.android.wallet",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0e912461-35e4-4d28-aaba-dc862a558e93",
+                        "name": "Luno iOS Application",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/bitx-wallet/id927362479",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3a68d326-59ff-43f7-a3bd-35393484940b",
+                        "name": "https://mobileapi.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7b1d1c31-e8f8-4e32-9f83-b9dac0d4d583",
+                "name": "Tier 2 Targets:",
+                "description_html": "<p>Please only test the web application and API in the staging environment.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 3000.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1800.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 650.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/luno-og/target_groups/813b1fca-ac86-426c-b1cb-0eaa944aad34/targets",
+                "targets": [
+                    {
+                        "id": "4df88614-08d9-4d17-9cd0-c3b284db975f",
+                        "name": "https://staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bf1da571-cbbe-40b5-8ac4-75e30e579958",
+                        "name": "https://ajax.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://ajax.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "00f06033-b51f-46b3-b752-6e5a26b02a8f",
+                        "name": "https://api.staging.luno.com/",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
+                                    "name": "nginx"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "33378366-5f09-4fed-a90f-76771f686f1b",
+                        "name": "https://app.staging.luno.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://app.staging.luno.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
+                                    "name": "Angular"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "8442481b-5110-4077-bdd1-54fd464584f6",
+                                    "name": "Go"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
