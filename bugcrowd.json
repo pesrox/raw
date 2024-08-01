@@ -34534,192 +34534,6 @@
         ]
     },
     {
-        "name": "Kaleido",
-        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
-        "briefUrl": "/kaleido",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/fabe/6535/265b26d3/6bbc262564a0b3b5ab4989f8ded3928f_icon_purple.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kaleido/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "1f06581a-8290-40ee-a734-fc06d9a266a5",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 850.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/kaleido/target_groups/cf6d0884-1416-4844-9da9-9e9b5bd2a76c/targets",
-                "targets": [
-                    {
-                        "id": "4fce27c4-1b40-488e-88e5-ba12affc8e5a",
-                        "name": "*.remove.bg",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.remove.bg",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1f246253-f87c-46ee-9cf0-f1d110c4c320",
-                        "name": "*.designify.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.designify.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0a2ba4b5-2d0c-409f-b24a-7e862b6e49b4",
-                        "name": "*.kaleido.ai",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.kaleido.ai",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f659a5cd-6863-4914-9523-28f059c07bdf",
-                        "name": "*.unscreen.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.unscreen.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
-                                    "name": "Google Cloud"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "WOO Network: Bug Bounty Program",
         "tagline": "Zero-fee Trading Platform",
         "briefUrl": "/woo-network",
@@ -34849,185 +34663,6 @@
                             "tags": []
                         },
                         "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Flourish",
-        "tagline": "Help secure the Flourish platform! ",
-        "briefUrl": "/flourish",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ad9b/794d/820e09b7/4d1d9c3a25f5ed7015af6131a425e259_flourish.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/flourish/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f24fe188-1c08-40b8-a7ce-d87be209f7c1",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 850.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/flourish/target_groups/c6b0fa1e-8adb-4281-b6e0-36fad547b073/targets",
-                "targets": [
-                    {
-                        "id": "08a74dd6-06bd-472b-8438-87f7c80bef73",
-                        "name": "flo.uri.sh",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://flo.uri.sh",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c562b926-9a14-4ab2-a3e6-0317643210c0",
-                        "name": "*.flourish.studio",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://flourish.studio/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fadb97b1-9fdf-4624-969f-82f5b1819a91",
-                        "name": "*.xyzbmojn.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://xyzbmojn.net/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "15b8e59e-ecfe-4495-8a5c-201c9144c2a0",
-                        "name": "flourish-user-templates.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4bcba408-96e0-4bc0-8cde-6d703943f06f",
-                        "name": "flourish-user-preview.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "46316c68-ec74-42a1-895c-d08768cd1898",
-                "name": "Out of Scope Targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/flourish/target_groups/8f33dc34-d30e-4a65-9776-7c84f7a56540/targets",
-                "targets": [
-                    {
-                        "id": "91d4824d-f363-41fc-b018-9b6f60af39f0",
-                        "name": "training.flourish.studio",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://training.flourish.studio",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -42669,249 +42304,6 @@
         ]
     },
     {
-        "name": "Smartmockups",
-        "tagline": "Help Secure Smartmockups",
-        "briefUrl": "/smartmockups",
-        "backgroundColor": "#f2f2f2",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/15c1/f7be/6e35c445/cfa0408488faba087913d6ecba374901_smartmockups.png",
-        "rewardSummary": {
-            "summary": "Points - $6,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/smartmockups/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "4f8bfef5-cb06-4e2f-a067-7c1f9abaa5d1",
-                "name": "In Scope targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 2500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/smartmockups/target_groups/d74a851c-f93b-4564-88da-df4931b03b28/targets",
-                "targets": [
-                    {
-                        "id": "bda65558-ff77-43fc-a4be-b47a086659eb",
-                        "name": "*.smartmockups.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://smartmockups.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Pixabay",
-        "tagline": "Pixabay Vulnerability Disclosure Program",
-        "briefUrl": "/pixabay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f786/6a28/3cb7abc0/6894d1810865ad1d1fc21b7a882b1829_pixabay.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/pixabay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "e0c43dc7-df58-46ad-86f3-976905a3e0d5",
-                "name": "In Scope targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 850.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/pixabay/target_groups/b59d522c-8f47-405d-a1e6-15687d1e873e/targets",
-                "targets": [
-                    {
-                        "id": "717d5cd0-8ed3-4e95-8cf7-2149b6a30c25",
-                        "name": "*.pixabay.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://pixabay.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Pexels",
-        "tagline": "Pexels' Vulnerability Disclosure Program",
-        "briefUrl": "/pexels",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7cfc/9afe/eadc3233/49c354597a8fbf87c32726929fbe4ca5_pexels.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/pexels/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2d2b0fe9-2b1c-4074-958f-5e792a4594fa",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 850.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/pexels/target_groups/f0a941ab-e953-40ea-9775-f638a820faef/targets",
-                "targets": [
-                    {
-                        "id": "ea6b38cc-a248-4112-b983-a955ff3d2327",
-                        "name": "*.pexels.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.pexels.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "K15t",
         "tagline": "Apps to Amplify the Atlassian Experience for Everybody",
         "briefUrl": "/k15t",
@@ -48319,384 +47711,6 @@
                             ]
                         },
                         "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Canva",
-        "tagline": "Design Anything. Publish Anywhere.",
-        "briefUrl": "/canva",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d4bb/74d5/ad22572a/3c24c30e9e43694b210067e4a22f612b_CIRCLE_LOGO_-_GRADIENT_-_RGB.png",
-        "rewardSummary": {
-            "summary": "$200 - $15,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$15,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/canva/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "8bfb2e02-ab3b-406c-933c-bb9c3f5fa087",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 15000.0,
-                        "max": 15000.0
-                    },
-                    "2": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "3": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/canva/target_groups/ae3b9100-eaf2-4691-af55-165921092ced/targets",
-                "targets": [
-                    {
-                        "id": "675b5926-bf27-49af-a388-977e2f61ecb5",
-                        "name": "*.canva.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "99d323c9-40e2-43a5-9d3a-9dd41dbf0354",
-                        "name": "Canva (Android)",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
-                                    "name": "Binary Analysis"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2bd3bd11-c02a-41a6-8537-8eb2b2b6d700",
-                        "name": "Canva (iOS)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
-                                    "name": "Binary Analysis"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "dbfb9bae-05a5-4d8a-850d-98b484a7d222",
-                        "name": "Canva Desktop (macOS / Windows)",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "47f8649b-7612-4d6d-bb41-c0078e628292",
-                                    "name": "Electron"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "cc05697c-58bf-4b7b-a2b5-2ba0ead3270b",
-                                    "name": "Binary Analysis"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fde908c9-1cc8-4bc6-bf3e-e514c9e9b777",
-                        "name": "Canva (Chrome Extension)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
-                                    "name": "Browser Extension"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "04052464-c71b-49ae-8ee8-ad2c9c61699c",
-                        "name": "*.canva.cn",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e8a2ace4-403c-445a-900a-e49b44d4a14e",
-                        "name": "*.canva.tech",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.canva.tech",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "54508da1-6667-4211-9f8d-a61c319853ef",
-                        "name": "Canva Developer Platform",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://canva.com/developers",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "41d880b5-b580-420d-8b00-746d859ff9df",
-                        "name": "*.canva-apps.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://canva.com/developers",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6bc58bd1-cabf-4fb7-92de-c81f35fd39e1",
-                        "name": "*.canva-apps.cn",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://canva.cn/developers ",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "ad5957b0-cf47-48e1-a37b-567c6c13fd07",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/canva/target_groups/df7601ab-b0c6-49d2-bfe4-a367d35ec9e5/targets",
-                "targets": [
-                    {
-                        "id": "d738cb85-2e85-418b-b51e-789b0494fcdf",
-                        "name": "*.0.canva.cn",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "349b5c27-28b0-4532-a1fd-29df69b769ea",
-                        "name": "*.0.canva-apps.cn",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -55555,6 +54569,36 @@
         ]
     },
     {
+        "name": "Pexels",
+        "tagline": "Pexels' Vulnerability Disclosure Program",
+        "briefUrl": "/engagements/pexels",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7cfc/9afe/eadc3233/49c354597a8fbf87c32726929fbe4ca5_pexels.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/pexels/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Bitstamp",
         "tagline": "The original global crypto exchange",
         "briefUrl": "/engagements/bitstamp",
@@ -55771,36 +54815,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/lime/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "HubSpot",
-        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
-        "briefUrl": "/engagements/hubspot",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/hubspot/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -56509,6 +55523,36 @@
         "target_groups": []
     },
     {
+        "name": "HubSpot",
+        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
+        "briefUrl": "/engagements/hubspot",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/hubspot/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Humble Bundle",
         "tagline": "Pay what you want and help charity",
         "briefUrl": "/engagements/humblebundle",
@@ -56589,36 +55633,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/tyler-tech-data-insights/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "PlanetHoster",
-        "tagline": "PlanetHoster invites you to test their web hosting platform!",
-        "briefUrl": "/engagements/planethosterinc",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -57046,6 +56060,126 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "PlanetHoster",
+        "tagline": "PlanetHoster invites you to test their web hosting platform!",
+        "briefUrl": "/engagements/planethosterinc",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Pixabay",
+        "tagline": "Pixabay Vulnerability Disclosure Program",
+        "briefUrl": "/engagements/pixabay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f786/6a28/3cb7abc0/6894d1810865ad1d1fc21b7a882b1829_pixabay.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/pixabay/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Smartmockups",
+        "tagline": "Help Secure Smartmockups",
+        "briefUrl": "/engagements/smartmockups",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "Points - $6,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/smartmockups/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Canva",
+        "tagline": "Design Anything. Publish Anywhere.",
+        "briefUrl": "/engagements/canva",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d4bb/74d5/ad22572a/3c24c30e9e43694b210067e4a22f612b_CIRCLE_LOGO_-_GRADIENT_-_RGB.png",
+        "rewardSummary": {
+            "summary": "$200 - $15,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/canva/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "WHMCS Client Management Portal",
@@ -58071,6 +57205,36 @@
         "target_groups": []
     },
     {
+        "name": "Flourish",
+        "tagline": "Help secure the Flourish platform! ",
+        "briefUrl": "/engagements/flourish",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ad9b/794d/820e09b7/4d1d9c3a25f5ed7015af6131a425e259_flourish.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/flourish/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Shipwire",
         "tagline": "Shipwire's Bug Bounty Program",
         "briefUrl": "/engagements/shipwire",
@@ -58491,6 +57655,91 @@
         },
         "subscriptionUrl": "/sophos/engagement_subscribers",
         "target_groups": []
+    },
+    {
+        "name": "Skroutz Public Managed Bug Bounty",
+        "tagline": "Skroutz",
+        "briefUrl": "/skroutz",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/skroutz/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
+                "name": "Skroutz Public Application",
+                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4100.0,
+                        "max": 4500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1750.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 850.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
+                "targets": [
+                    {
+                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
+                        "name": "https://www.skroutz.gr/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.skroutz.gr/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Etsy",
@@ -58929,88 +58178,33 @@
         ]
     },
     {
-        "name": "Skroutz Public Managed Bug Bounty",
-        "tagline": "Skroutz",
-        "briefUrl": "/skroutz",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
+        "name": "Kaleido",
+        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
+        "briefUrl": "/engagements/kaleido",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/fabe/6535/265b26d3/6bbc262564a0b3b5ab4989f8ded3928f_icon_purple.png",
         "rewardSummary": {
-            "summary": "$100 - $4,500",
+            "summary": "$100 - $6,000",
             "hint": null,
             "minReward": "$100",
-            "maxReward": "$4,500",
+            "maxReward": "$6,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 1,
+        "scopeRank": 2,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Technology",
+        "industryName": null,
         "accessStatus": "open",
         "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/skroutz/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
-                "name": "Skroutz Public Application",
-                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
-                "targets": [
-                    {
-                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
-                        "name": "https://www.skroutz.gr/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.skroutz.gr/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
+        "subscriptionUrl": "/kaleido/engagement_subscribers",
+        "target_groups": []
     }
 ]
