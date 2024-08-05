@@ -6662,6 +6662,128 @@
         ]
     },
     {
+        "id": "30a91ad4-fb06-4f0c-ae96-7f5167a840db",
+        "handle": "vinted-bugbountyprogram",
+        "name": "Vinted - Bug Bounty Program",
+        "following": true,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2300.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/vinted/vinted-bugbountyprogram/detail"
+        },
+        "domains": [
+            {
+                "id": "57c8d1c1-9309-4293-bb4b-67430fff9ee5",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.homerr.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "One of our sister company for shipping"
+            },
+            {
+                "id": "8bc69d23-2aae-43f3-a09b-0e8b60cfac0a",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "632064380",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "iOS application for Vinted"
+            },
+            {
+                "id": "e9cb7206-9108-465c-a4c0-07322ecaccd2",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "fr.vinted",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Android application for Vinted"
+            },
+            {
+                "id": "f3ce16b5-5e42-4daf-8cd5-6ef61637db2b",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.vinted.*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Any subdomain owned by Vinted except *.vinted.ca and people.vinted.*\nAlso please always check if domain is owned by Vinted."
+            },
+            {
+                "id": "9baa5286-3ac2-443e-a2ac-d983dd3253d5",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.vintedgo.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Vinted shipping website"
+            },
+            {
+                "id": "34e85458-dc16-4db2-99f5-01d6736303a0",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.people.vinted.*",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "aae617b0-8df1-4756-aa07-f5ccf3eb783d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.vinted.ca ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
         "id": "30f445f7-ca4c-4130-9434-49add5c6ac74",
         "handle": "algemeendagblad",
         "name": "Algemeen Dagblad",
@@ -12398,8 +12520,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
