@@ -50170,31 +50170,6 @@
         "programMigrationInProgress": null,
         "target_groups": [
             {
-                "id": "82ef2cf8-e7f8-4c4e-90cb-578ca0154194",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/skyscanner/target_groups/a596445a-01a4-42a1-9175-6477ae03437c/targets",
-                "targets": [
-                    {
-                        "id": "f7dda000-34d5-47e0-a15e-90fab9326daa",
-                        "name": "Corporate Email (*@skyscanner.net)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
                 "id": "8783450e-7128-4c3e-a791-e8dae7b10027",
                 "name": "In scope targets",
                 "description_html": "",
@@ -50218,10 +50193,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/skyscanner/target_groups/92fe844f-a63d-4f7f-9093-7bf6c567295f/targets",
+                "targets_url": "/skyscanner/target_groups/2e2f9fac-6fbf-4c6f-b1ff-ea6336811214/targets",
                 "targets": [
                     {
-                        "id": "d715d7c5-0d11-44fd-b40f-102d57b69a35",
+                        "id": "75cc742d-a387-4ce7-a858-e47108b0a931",
                         "name": "*.skyscanner.net",
                         "description": null,
                         "category": "website",
@@ -50260,7 +50235,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "5a8dd08d-c158-4884-a1f6-51fe73317367",
+                        "id": "d9abfdd2-2c8a-42f1-88a3-a2992fa7b9c5",
                         "name": "skyscanner.net/*",
                         "description": null,
                         "category": "website",
@@ -50299,7 +50274,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "248b616d-7b54-4cd5-8917-7106de93f3ba",
+                        "id": "f83e6776-7194-45ca-874b-5ed31d3b0e0d",
                         "name": "gateway.skyscanner.net/*",
                         "description": null,
                         "category": "api",
@@ -50322,7 +50297,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ffc30f99-d0a4-4a90-b73b-cfda7bfb2a0a",
+                        "id": "19b6c83b-60cb-4ef3-9a56-0e37492c69af",
                         "name": "Skyscanner iOS App",
                         "description": null,
                         "category": "ios",
@@ -50357,7 +50332,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ab2965c9-cbd4-40c5-8b13-3648ee0c18a3",
+                        "id": "544a7010-602b-49a9-afc4-0ba01840a80d",
                         "name": "Skyscanner Android App",
                         "description": null,
                         "category": "android",
@@ -50388,7 +50363,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a60e85ed-498f-49e9-9719-a14efa5362f6",
+                        "id": "572a183f-89f5-4930-a198-29fdf708dd8e",
                         "name": "partnerportal.skyscanner.net/*",
                         "description": null,
                         "category": "website",
@@ -50419,7 +50394,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "9fa74017-d36c-4daa-a13a-8eec1bfa48ca",
+                        "id": "6d889915-030d-4580-aca2-748ef20e7355",
                         "name": "skyscanner.net/hotels/book/*",
                         "description": null,
                         "category": "website",
@@ -50448,6 +50423,125 @@
                                     "name": "Website Testing"
                                 }
                             ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "3345b80c-5233-493b-a196-49c161339ced",
+                "name": "AI Bias Testing",
+                "description_html": "<h2>Overview</h2>\n\n<p>Our mobile application offers a unique feature for travelers to receive recommendations and destinations based on their specific queries. This functionality is powered by an instance of OpenAI, which processes user requests and provides appropriate location suggestions. The recommendations are limited to locations where we operate and are only available to users in English-speaking markets.</p>\n\n<h3>Functionality Description</h3>\n\n<ol>\n<li><p>User Query Submission:<br>\nUsers can submit queries asking for travel recommendations.<br>\nExample Query: \"I would like to make a gastronomic travel.\"</p></li>\n<li>\n<p>Response Generation:<br>\nThe OpenAI instance processes the query and responds with a list of valid destinations.<br>\nExample Output:</p>\n\n<ul>\n<li>Paris</li>\n<li>Tokyo</li>\n<li>Rome</li>\n</ul>\n</li>\n<li>\n<p>Market Limitation:</p>\n\n<ul>\n<li>This feature is only accessible in English-speaking markets.</li>\n<li>Recommendations are restricted to locations where our services are available.</li>\n</ul>\n</li>\n</ol>\n\n<h3>Scope of Testing</h3>\n\n<ul>\n<li>Verify that the functionality accurately processes user queries and returns appropriate destination recommendations.</li>\n<li>Confirm that the feature is only accessible to users in English-speaking markets.</li>\n<li>Verify that is not possible to perform attacks like prompt injection, data poisoning, etc</li>\n</ul>\n\n<h3>Exclusions</h3>\n\n<ul>\n<li>Internal information is not shared via this feature; therefore, the risk of data leakage is low.</li>\n<li>Testing should focus on the accuracy and validity of the recommendations rather than backend vulnerabilities, given the nature of the feature.</li>\n<li>Any other feature of the mobile application is out of the scope. </li>\n</ul>\n\n<p>Reporting Guidelines</p>\n\n<ul>\n<li>Clearly describe the steps to reproduce any issues found.</li>\n<li>Provide screenshots or recordings where possible to illustrate the issue.</li>\n<li>Ensure that any reported issues are within the scope of the described functionality.</li>\n</ul>\n\n<h3>Reward Criteria</h3>\n\n<ul>\n<li>Valid issues related to incorrect recommendations or access limitations will be considered for rewards.</li>\n<li>Out-of-scope issues, such as backend vulnerabilities unrelated to the described functionality, will not be eligible for rewards.</li>\n</ul>\n\n<h3>Example Query for Testing</h3>\n\n<p>Query: \"<em>I would like to explore historical sites.</em>\"<br>\nExpected Output: (Example)</p>\n\n<ul>\n<li>Athens</li>\n<li>Cairo</li>\n<li>Beijing</li>\n</ul>\n\n<p>By following these instructions, you can effectively test the travel recommendation functionality in our mobile application and contribute to improving its accuracy and reliability.</p>\n\n<p><img src=\"https://bugcrowd.com/skyscanner/attachments/c97e99fe-11ca-4b47-839b-686ce088aaa4\" alt=\"image001.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/d8a4618a-3653-4502-9734-b48295f730de\" alt=\"image002.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/4f1f30ad-1b13-4f96-99d2-d6f0da840328\" alt=\"image003.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/a55a4993-f89b-430b-982c-8f175698b838\" alt=\"image004.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/e264947f-f5ff-433c-9b83-3667533dedc4\" alt=\"image005.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/d9fe76ad-ef1f-48a7-9dca-cf6a07fa7ffb\" alt=\"image006.jpg\"><br>\n<img src=\"https://bugcrowd.com/skyscanner/attachments/e6d71875-3a50-47ba-b142-0ebfc5c19097\" alt=\"image007.jpg\"></p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 900.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/skyscanner/target_groups/ffd3b6ea-009b-44ef-ad0a-8f8ab1efc5d2/targets",
+                "targets": [
+                    {
+                        "id": "4dbdc65a-2bdd-43b1-8367-7d595249d67a",
+                        "name": "Skyscanner iOS app",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8a9161ce-46e3-4c1c-bd1c-ba6c9be7a855",
+                        "name": "Skyscanner Android app",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "82ef2cf8-e7f8-4c4e-90cb-578ca0154194",
+                "name": null,
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/skyscanner/target_groups/a16ffd67-8149-4641-89e5-1da2ffc92005/targets",
+                "targets": [
+                    {
+                        "id": "c6df31ef-4030-42fa-8b5f-b757ef9e52c3",
+                        "name": "Corporate Email (*@skyscanner.net)",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
                         },
                         "sort_order": 6,
                         "display_known_issues": false,
@@ -55760,36 +55854,6 @@
         "target_groups": []
     },
     {
-        "name": "Acorns Grow, Inc.",
-        "tagline": "From acorns mighty oaks do grow",
-        "briefUrl": "/engagements/acorns",
-        "backgroundColor": "#74c947",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/acorns/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Luno Bug Bounty Program",
         "tagline": "Luno Bug Bounty Program",
         "briefUrl": "/engagements/luno-og",
@@ -55847,6 +55911,164 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/foxycart/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Acorns Grow, Inc.",
+        "tagline": "From acorns mighty oaks do grow",
+        "briefUrl": "/engagements/acorns",
+        "backgroundColor": "#74c947",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/acorns/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -56080,134 +56302,6 @@
                             "tags": []
                         },
                         "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -57848,6 +57942,36 @@
         ]
     },
     {
+        "name": "Kaleido",
+        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
+        "briefUrl": "/engagements/kaleido",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/kaleido/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Skroutz Public Managed Bug Bounty",
         "tagline": "Skroutz",
         "briefUrl": "/skroutz",
@@ -57931,35 +58055,5 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Kaleido",
-        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
-        "briefUrl": "/engagements/kaleido",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kaleido/engagement_subscribers",
-        "target_groups": []
     }
 ]
