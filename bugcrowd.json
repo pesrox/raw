@@ -5637,10 +5637,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/square/target_groups/08623659-7fa7-4d9c-a759-1af38993d902/targets",
+                "targets_url": "/square/target_groups/04134a63-75f1-44a4-ab3b-57eced971c20/targets",
                 "targets": [
                     {
-                        "id": "628b7ac5-3676-4910-bbbc-d0ad1f91cdce",
+                        "id": "88ab94d5-49e0-45dc-8dcd-fb90a06e3ddf",
                         "name": "*.square.com",
                         "description": null,
                         "category": "website",
@@ -5675,7 +5675,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "dc877b1b-4950-4697-8d8e-d6763eb9bcff",
+                        "id": "b3babf7f-9d0a-44c7-b123-3d19702d838d",
                         "name": "*.squareup.com",
                         "description": null,
                         "category": "other",
@@ -5718,7 +5718,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "779cc98e-667c-42fa-84f4-563cfd142045",
+                        "id": "ff0b988f-5550-4245-9043-cbc71c49a347",
                         "name": "https://www.weebly.com/",
                         "description": null,
                         "category": "website",
@@ -5757,7 +5757,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c1ad5922-4b3e-40f2-b2b4-efca52ed2624",
+                        "id": "d5fdba87-38cc-4cef-ac1a-48c28d443e76",
                         "name": "Square Point of Sale Mobile Application for Android",
                         "description": null,
                         "category": "android",
@@ -5788,7 +5788,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ac631226-2b79-4c6e-bb54-ccf6fe9a5ff0",
+                        "id": "722efc14-edc4-4435-9842-2b89cc61ac2e",
                         "name": "Square Point of Sale Mobile Application for iOS",
                         "description": null,
                         "category": "ios",
@@ -5823,7 +5823,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "094845ac-7a20-43f3-85de-ce76dccdc11d",
+                        "id": "2130f12d-5bd3-4d94-bc88-907884aebff5",
                         "name": "Square Register",
                         "description": null,
                         "category": "hardware",
@@ -5837,7 +5837,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c325f48d-317a-4e10-8d1b-904a76666a40",
+                        "id": "43f9a1ad-617c-4634-a5c5-f316ac59176f",
                         "name": "Square Terminal",
                         "description": null,
                         "category": "hardware",
@@ -5859,48 +5859,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 1,
-                "targets_url": "/square/target_groups/60f4e37c-4cbf-481f-9178-38de58577738/targets",
+                "targets_url": "/square/target_groups/74b33d65-439d-4e6d-bf7a-96f27c243ebe/targets",
                 "targets": [
                     {
-                        "id": "40a31914-31fa-487d-a845-e5004b9cd73b",
-                        "name": "*.cash.me",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cash.me",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "79c01826-3313-4964-bec7-5aeb9b7fc04f",
-                        "name": "*.tidal.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://tidal.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "30eb0c00-6802-4145-a9ae-2ab427446818",
+                        "id": "9ba463b6-4438-41ab-bcfb-3a9f4de09827",
                         "name": "*.afterpay.com",
                         "description": null,
                         "category": "website",
@@ -5934,12 +5896,69 @@
                                 }
                             ]
                         },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "acdbf899-d56d-46a7-81e0-c774fa23972b",
+                        "name": "*.cash.me",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cash.me",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ae132236-8e03-4fbe-9315-73fa9c59a332",
+                        "name": "designers.weebly.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://designers.weebly.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
                         "sort_order": 2,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "c421ab4b-6ffd-4443-aa35-377214c103e2",
+                        "id": "961ab845-3b2b-425f-bcae-c1436f641663",
+                        "name": "*.tidal.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://tidal.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fff0c645-df57-4a04-97bf-ec5803709022",
                         "name": "Cash App Mobile Application for Android",
                         "description": null,
                         "category": "android",
@@ -5965,12 +5984,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 3,
+                        "sort_order": 4,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "2763a317-a495-4a3d-a955-05b1b59140a7",
+                        "id": "10bd8a0a-5160-4022-bcd7-a5afb2bfe101",
                         "name": "Cash App Mobile Application for iOS",
                         "description": null,
                         "category": "ios",
@@ -6000,12 +6019,12 @@
                                 }
                             ]
                         },
-                        "sort_order": 4,
+                        "sort_order": 5,
                         "display_known_issues": false,
                         "known_issues": {}
                     },
                     {
-                        "id": "0fb19c13-38c1-4ea1-8003-5dfc526fb762",
+                        "id": "3631f773-67e9-4bc8-9eb1-f5dd2c4555be",
                         "name": "Any vulnerabilities found in Third-party software",
                         "description": null,
                         "category": "website",
@@ -6019,7 +6038,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 5,
+                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -57506,6 +57525,36 @@
         "target_groups": []
     },
     {
+        "name": "Kaleido",
+        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
+        "briefUrl": "/engagements/kaleido",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/kaleido/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Etsy",
         "tagline": "Shop for anything from creative people everywhere",
         "briefUrl": "/etsy",
@@ -57940,36 +57989,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Kaleido",
-        "tagline": "Help secure Kaleido, we are part of the Canva family! ",
-        "briefUrl": "/engagements/kaleido",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kaleido/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "Skroutz Public Managed Bug Bounty",
