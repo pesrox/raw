@@ -15571,268 +15571,6 @@
         ]
     },
     {
-        "name": "Backblaze",
-        "tagline": "Help Secure Backblaze",
-        "briefUrl": "/backblaze",
-        "backgroundColor": "#a90f0f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9764/5768/5322bd2e/f740efd2c7fbdae04a8751433a567d2c_5bNX_lVF_400x400.png",
-        "rewardSummary": {
-            "summary": "$200 - $5,000",
-            "hint": "Up to $15,000",
-            "minReward": "$200",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $15,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/backblaze/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "170e044b-dc07-4fcd-8c1f-9a75a80bf900",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 1200.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 600.0
-                    },
-                    "program_max": 15000
-                },
-                "sort_order": 0,
-                "targets_url": "/backblaze/target_groups/482f913e-82ac-49f3-a379-637eba167cc4/targets",
-                "targets": [
-                    {
-                        "id": "de6db546-a52a-42ce-bfdf-b662dd0d9bcc",
-                        "name": "Backblaze Website (*.backblaze.com)",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://backblaze.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "622b2851-bcd2-4a7f-adea-65addba4b592",
-                        "name": "B2 APIs (*.backblazeb2.com)",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://*.backblazeb2.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "78de83ec-1d3d-47db-94ad-bac5f86b0d6f",
-                        "name": "Backblaze Android mobile application",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.backblaze.android&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9bba71cf-6a94-4114-bc61-318db5af6701",
-                        "name": "Backblaze iOS mobile application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/backblaze/id628638330",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "af25e901-7979-4f6e-8831-78a37e18d1b3",
-                        "name": "Mac Personal Backup Clients",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
-                                    "name": "macOS"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "300c88ff-505d-47cf-8ecc-108ba98e1597",
-                        "name": "Mac Restore Downloaders",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
-                                    "name": "macOS"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "902a71f4-6f52-4ad4-8b30-696f9105ed93",
-                        "name": "Windows Personal Backup Clients",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b239d942-25fb-4686-9fa2-515c30365fec",
-                        "name": "Windows Restore Downloaders",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "30d6f913-2572-4e8c-93ef-c3fd5eddef41",
-                        "name": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "20f6988d-5b8c-41bb-9ca8-d9b271b7874d",
-                                    "name": "Github"
-                                },
-                                {
-                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
-                                    "name": "Static Code Analysis"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Stellantis ",
         "tagline": "Stellantis, formed by the merger of Fiat Chrysler Automobiles (FCA) and PSA Groupe, is one of the world\u2019s leading automakers and a mobility provider.",
         "briefUrl": "/stellantis",
@@ -38202,173 +37940,6 @@
         ]
     },
     {
-        "name": "Braze Public BB",
-        "tagline": "Braze is a comprehensive customer engagement platform that powers relevant and memorable experiences between consumers and the brands they love.",
-        "briefUrl": "/braze-bb",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4304/374e/b79b9976/4d899334d6e6e56c0ed5ff7fe14ef752_braze_logo.jpeg",
-        "rewardSummary": {
-            "summary": "$300 - $5,000",
-            "hint": null,
-            "minReward": "$300",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/braze-bb/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "ba23f38b-10a7-4b99-b057-6a474b6e18e2",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4500.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 2000.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 900.0,
-                        "max": 1200.0
-                    },
-                    "4": {
-                        "min": 300.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/braze-bb/target_groups/bd321138-b5b8-4b57-b6ce-082a360a9d3e/targets",
-                "targets": [
-                    {
-                        "id": "dea5e933-8391-4d39-b13f-d9579f72fbb6",
-                        "name": "https://security-testing-env-dashboard.k8s.tools-001.d-use-1.braze.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://security-testing-env-dashboard.k8s.tools-001.d-use-1.braze.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "400091e5-a3dc-4c82-960c-963a6f09cbaf",
-                        "name": "https://security-testing-env-api.k8s.tools-001.d-use-1.braze.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://security-testing-env-api.k8s.tools-001.d-use-1.braze.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "b0627d5c-6d14-4682-aa08-ef653085373a",
-                "name": "Out of Scope Targets",
-                "description_html": "<p>Anything on any *.braze.com / *.braze.eu / *.appboy.com subdomain is out of scope for this program unless it has explicitly been added to the scope. Please do not test against assets that are not listed as in scope. If you have a question about the scope, please reach out to security@braze.com and we will answer questions as needed.</p>\n\n<p>Do not attempt to interact with any Braze Employee or Customer. This includes any sort of social engineering or contacting any sales/support staff.<br>\nDo not attempt any DoS/DDoS attacks/stress testing of any kind.<br>\nDo not perform any sort of discovery, which includes but not limited to: Port Scanning, Subdomain Discovery, Google Dorking (unless it includes the in scope domain only), Cache Searching</p>\n\n<p>Researchers will be accessing <strong>https://bug-bounty.k8s.tools-001.d-use-1.braze.com/</strong> in order to receive their credentials from the Braze system and establish their testing accounts.   </p>\n\n<ul>\n<li>This URL is Out of Scope for all testing.</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/braze-bb/target_groups/7a1d08dd-76b4-4d29-87d0-00049adb56d5/targets",
-                "targets": [
-                    {
-                        "id": "1ee8820e-b422-4765-85b6-4af22963c291",
-                        "name": "*.braze.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://*.braze.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e4dbb138-d1d3-4cc8-9769-9b8ffb3dbcba",
-                        "name": "*.appboy.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://*.appboy.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "86026da2-3be5-4c5f-ba44-5298d9a9e532",
-                        "name": "*.braze.eu",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://*.braze.eu/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "08097714-0b4c-4a71-b98b-4e7798edd49e",
-                        "name": "Any Braze Owned Host not listed as in Scope",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Tripadvisor ",
         "tagline": "The world\u2019s largest travel site. Know better. Book better. Go better.",
         "briefUrl": "/tripadvisor-bb-og",
@@ -52499,66 +52070,6 @@
         "target_groups": []
     },
     {
-        "name": "Bugcrowd",
-        "tagline": "Outhack Them All\u2122",
-        "briefUrl": "/engagements/bugcrowd",
-        "backgroundColor": "#1a1a1a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "KuCoin Managed Bug Bounty Program",
-        "tagline": "KuCoin, a global cryptocurrency exchange based in Seychelles, offers over 700 digital assets, spot trading, margin trading, P2P fiat trading, futures trading, staking, and lending to 30 million users globally.",
-        "briefUrl": "/engagements/kucoin",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/250c/ec4b/fe1020f0/883a7949cbbe5fbd1e75f2101f46248e_1706015092041.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": "Up to $10,000",
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kucoin/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Pexels",
         "tagline": "Pexels' Vulnerability Disclosure Program",
         "briefUrl": "/engagements/pexels",
@@ -52848,6 +52359,36 @@
         ]
     },
     {
+        "name": "Bitpanda Ongoing Bug Bounty",
+        "tagline": "Submit your findings to the program!",
+        "briefUrl": "/engagements/bitpanda-og-bb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $15,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitpanda-og-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Prosus",
         "tagline": "Prosus",
         "briefUrl": "/engagements/prosus-og",
@@ -52878,24 +52419,24 @@
         "target_groups": []
     },
     {
-        "name": "Bitpanda Ongoing Bug Bounty",
-        "tagline": "Submit your findings to the program!",
-        "briefUrl": "/engagements/bitpanda-og-bb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
+        "name": "Bugcrowd",
+        "tagline": "Outhack Them All\u2122",
+        "briefUrl": "/engagements/bugcrowd",
+        "backgroundColor": "#1a1a1a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
         "rewardSummary": {
-            "summary": "$100 - $15,000",
+            "summary": "$100 - $10,000",
             "hint": null,
             "minReward": "$100",
-            "maxReward": "$15,000",
+            "maxReward": "$10,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 4,
+        "scopeRank": 2,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Finance",
+        "industryName": null,
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -52904,7 +52445,37 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/bitpanda-og-bb/engagement_subscribers",
+        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "KuCoin Managed Bug Bounty Program",
+        "tagline": "KuCoin, a global cryptocurrency exchange based in Seychelles, offers over 700 digital assets, spot trading, margin trading, P2P fiat trading, futures trading, staking, and lending to 30 million users globally.",
+        "briefUrl": "/engagements/kucoin",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/250c/ec4b/fe1020f0/883a7949cbbe5fbd1e75f2101f46248e_1706015092041.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": "Up to $10,000",
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/kucoin/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -55631,6 +55202,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/soundcloud/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Backblaze",
+        "tagline": "Help Secure Backblaze",
+        "briefUrl": "/engagements/backblaze",
+        "backgroundColor": "#a90f0f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9764/5768/5322bd2e/f740efd2c7fbdae04a8751433a567d2c_5bNX_lVF_400x400.png",
+        "rewardSummary": {
+            "summary": "$200 - $5,000",
+            "hint": "Up to $15,000",
+            "minReward": "$200",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $15,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/backblaze/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Braze Public BB",
+        "tagline": "Braze is a comprehensive customer engagement platform that powers relevant and memorable experiences between consumers and the brands they love.",
+        "briefUrl": "/engagements/braze-bb",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4304/374e/b79b9976/4d899334d6e6e56c0ed5ff7fe14ef752_braze_logo.jpeg",
+        "rewardSummary": {
+            "summary": "$300 - $5,000",
+            "hint": null,
+            "minReward": "$300",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/braze-bb/engagement_subscribers",
         "target_groups": []
     },
     {
