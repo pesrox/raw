@@ -1634,430 +1634,6 @@
         ]
     },
     {
-        "name": "Bitpanda Ongoing Bug Bounty",
-        "tagline": "Submit your findings to the program!",
-        "briefUrl": "/bitpanda-og-bb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $15,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$15,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitpanda-og-bb/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "142beb3e-cf71-43e3-8448-8590f0ae986e",
-                "name": "Tier 1 Assets ",
-                "description_html": "<h3>Important</h3>\n\n<p>As a company operating in a highly regulated sector, we need to take our responsibility to our user base very seriously. This means that we are required to have specific conditions in place, even for researchers testing on our platform. We understand that this may be frustrating, but please know that it is necessary for us to maintain compliance. <br>\nThis means the following for you as a researcher:</p>\n\n<ul>\n<li>When you first log into our platform, you will have access to a limited range of testing features. However, once you <a href=\"https://support.bitpanda.com/hc/en-us/articles/360000920649-How-to-verify-%20your%20account\" rel=\"nofollow noreferrer\" target=\"_blank\">verify</a>, you will have access to all features. </li>\n<li>To make the verification process as smooth as possible, we can only accept certain documents from the countries listed <a href=\"https://support.bitpanda.com/hc/en-us/articles/360000996469\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>. Please refer to our website for a list of accepted documents. Thank you for your understanding and cooperation.</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 15000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 4000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 1200.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/bitpanda-og-bb/target_groups/b3bc8816-9056-43a2-84a5-871b44780efe/targets",
-                "targets": [
-                    {
-                        "id": "f03e3bbc-d12c-44f7-b5ec-28457742b24c",
-                        "name": "https://www.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.bitpanda.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "36092d8d-8e59-4e57-92a0-5a187e816c32",
-                        "name": "https://web.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://web.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "005d6fd9-5c1a-45f7-a2b6-af0e2fdfd820",
-                                    "name": "Laravel"
-                                },
-                                {
-                                    "id": "84ff9b26-d234-4bba-8b77-f0f02d67d359",
-                                    "name": "Django"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4b90219c-1820-4308-b3d8-d2093406d98e",
-                        "name": "https://api.bitpanda.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ccbc5da7-82f6-41af-9d00-9a585f929b76",
-                        "name": "wss://socket.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "35816227-c0bd-48ed-bc7b-e51fb8662275",
-                        "name": "Bitpanda Broker Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.bitpanda.bitpanda",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "382eb2b9-aecb-4de1-a2cb-e6811aa8d634",
-                        "name": "Bitpanda Broker iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/bitpanda-buy-bitcoin-crypto/id1449018960",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "10e86c63-ea6d-4b15-b226-2c20a0d990c8",
-                        "name": "All the Blockchain Infrastructure",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7f8d0a61-d552-401a-9af1-8742b84ea84f",
-                        "name": "https://account.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://account.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "61157416-ab2b-48d7-bd16-2519eaa212ab",
-                "name": "Tier 2 Assets ",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 750.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 450.0,
-                        "max": 750.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 450.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/bitpanda-og-bb/target_groups/a6b3b878-2fa8-4f2d-9e75-8a71db7aeb98/targets",
-                "targets": [
-                    {
-                        "id": "57006956-5f6a-406a-b1cd-1c7aa32522d8",
-                        "name": "https://blog.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://blog.bitpanda.com/en",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "661b1bf5-ebd9-4983-8cff-a3eb06e4ba70",
-                        "name": "https://www.bitpanda.com/academy/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.bitpanda.com/academy/en/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "8f9662cc-99d7-42be-a9eb-3c38b0df2823",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/bitpanda-og-bb/target_groups/9dad5fa3-2890-459b-a5ec-916399434ba0/targets",
-                "targets": [
-                    {
-                        "id": "5f0b9d7e-a65f-43c3-91b6-049c332c283c",
-                        "name": "https://support.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://support.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "926dfcfb-59a8-4b76-992f-62efad41b613",
-                        "name": "http://status.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://status.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ad27cb12-dae7-4e85-857f-d7cf88987ee6",
-                        "name": "https://maintenance.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://maintenance.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f374eefa-d68f-45a8-a024-a9f85d5e7596",
-                        "name": "https://beta.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://beta.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "973b2a6a-6653-43bd-ba86-8415f4a3301d",
-                        "name": "https://developers.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://developers.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ae619658-8e87-474d-9ee0-43a7dc8096e9",
-                        "name": "https://requests.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://requests.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5345b302-50de-4234-a399-77bc60c00b76",
-                        "name": "http://partners.whitelabel.bitpanda.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://partners.whitelabel.bitpanda.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b0c51090-2292-45db-8884-aafc125bdf9c",
-                        "name": "*.exchange.bitpanda.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.exchange.bitpanda.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Infinite Athlete",
         "tagline": "Infinite Athlete is the technological vanguard for the sports and entertainment industry. Merging sports, video, and data with innovation and accessibility, Tempus Ex technology enables the creation of new interactive experiences around live events.",
         "briefUrl": "/engagements/tempusex-public-mbb-og",
@@ -22226,433 +21802,6 @@
                             "tags": []
                         },
                         "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Prosus",
-        "tagline": "Prosus",
-        "briefUrl": "/prosus-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/484e/c9b2/e2a349ba/c266ebe13a4a365a9e22f799f600a35a_Prosus_Lockup.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $1,250",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$1,250",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/prosus-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "c9ab0fe3-b332-48d3-b4d7-cfeba48fe475",
-                "name": "Prosus Domains",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 800.0,
-                        "max": 1250.0
-                    },
-                    "2": {
-                        "min": 500.0,
-                        "max": 750.0
-                    },
-                    "3": {
-                        "min": 250.0,
-                        "max": 250.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/prosus-og/target_groups/beef9e6e-185f-4dc3-8eaf-3d36f01a6245/targets",
-                "targets": [
-                    {
-                        "id": "83794b82-54fe-446c-9114-fc71f85cf24c",
-                        "name": "analytics.prosus.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://analytics.prosus.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ff421ac1-a5e7-4aa5-9ead-6154bff5a37e",
-                        "name": "analytics-admin.prosus.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://analytics-admin.prosus.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "eb36ff0f-e2e1-4bd9-9b14-4df714ce0e56",
-                        "name": "data.prosus.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://data.prosus.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e6cc9a90-079f-4c7e-8162-2966b087cb70",
-                        "name": "dealflow.prosus.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://dealflow.prosus.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9d5f1acb-29e6-4243-a1f3-f0b8ef7d401e",
-                        "name": "dealflowapi.prosus.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://dealflowapi.prosus.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ab4f8d00-392d-43bd-8d39-bb7387e65233",
-                        "name": "prosus.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://prosus.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9ffd297c-4781-4777-94cf-ef4e2ddda266",
-                                    "name": "C#"
-                                },
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8349aeb0-82a7-4111-a34c-7aa9fe4899da",
-                        "name": "hr.prosus.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://hr.prosus.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "72308e62-c90c-43a9-8483-248c659496cf",
-                "name": "Naspers Domains",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 800.0,
-                        "max": 1200.0
-                    },
-                    "2": {
-                        "min": 500.0,
-                        "max": 750.0
-                    },
-                    "3": {
-                        "min": 250.0,
-                        "max": 250.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/prosus-og/target_groups/b6a088f0-a685-4ee0-817c-d8d285db0afb/targets",
-                "targets": [
-                    {
-                        "id": "58f7261c-8115-4f56-b649-a7f5f6b9fad9",
-                        "name": "nav.naspers.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://nav.naspers.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f3b61513-60ee-4e43-beea-c76f1bc32971",
-                        "name": "naspers.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.naspers.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f4b6de3e-e536-478f-ad38-afcf1768a726",
-                        "name": "cfc.naspers.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cfc.naspers.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "84ff9b26-d234-4bba-8b77-f0f02d67d359",
-                                    "name": "Django"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e9aac55e-22ef-41f4-854a-f49e1ca34e10",
-                        "name": "peopleview.naspers.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://peopleview.naspers.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "394ee8c5-ba18-4b53-b289-8a562ba3edc2",
-                        "name": "tracker.naspers.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://tracker.naspers.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "b6ef8f51-0286-485f-b1d9-0e5823d22cc9",
-                "name": "In scope (no rewards)",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/prosus-og/target_groups/8893bdc5-2d50-4c3c-96d5-f851c8b2ea2c/targets",
-                "targets": [
-                    {
-                        "id": "06b12485-4e9a-4b21-a350-326615814336",
-                        "name": "*.prosus.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "60cfa2d9-77b1-4dab-beee-990e593197ab",
-                        "name": "*.naspers.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -51886,613 +51035,6 @@
         ]
     },
     {
-        "name": "SoundCloud",
-        "tagline": "SoundCloud is the world\u2019s largest open audio platform. With over 200 million tracks from 20 million creators heard in 190 countries, what\u2019s next in music is first on SoundCloud.",
-        "briefUrl": "/soundcloud",
-        "backgroundColor": "#ff5500",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4970/fb7c/f88af33f/5363a6d21cfd2ad01beef1bf1bc4a8af_Screen_Shot_2017-12-05_at_12.51.03_PM.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/soundcloud/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "53419c1c-cffd-48db-8cf6-cf22e704c5ae",
-                "name": "In-scope targets",
-                "description_html": "<p>The below mentioned targets are in-scope. We serve different webpages and API endpoints (api-*.soundcloud.com) on our subdomains. All these sub-domains are in scope, if not explicitly listed in the out of scope section.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/soundcloud/target_groups/80e783c3-7642-4f2c-8288-b569b21fb83a/targets",
-                "targets": [
-                    {
-                        "id": "c5103142-7fbc-44a4-82fe-411ce98a4ee5",
-                        "name": "soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://soundcloud.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
-                                    "name": "Scala"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "89869e88-9714-4ca9-b1c7-1829720c0232",
-                        "name": "*.soundcloud.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://connect.soundcloud.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "5a702681-f59c-463c-b266-f9e22a1e1d8a",
-                                    "name": "Scala"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ab999823-8a06-4ab6-ae28-35c17b531b63",
-                        "name": "api-*.soundcloud.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "47f082ac-e0a4-451e-8b5c-ec02b6afdd74",
-                        "name": "SoundCloud Android app",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.soundcloud.android&hl=en&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ce3f0eeb-0741-4035-95be-835caea9a0fd",
-                        "name": "SoundCloud iOS app",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/soundcloud-music-audio/id336353151",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "acb8a2d3-3f7e-49ec-b57d-f8fcebfd0dfd",
-                        "name": "*.soundcloud.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "675e04e6-47d9-457e-a02e-8690a0f0d02d",
-                        "name": "soundcloud.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://soundcloud.org",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e1f2a4b3-2ab8-4b86-8f61-e7c97b7cb035",
-                        "name": "artists.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://artists.soundcloud.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ce426d2e-a723-4a01-88bd-fc5d85d74c92",
-                        "name": "*.services.repostnetwork.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3fd2795d-5ee7-400b-8f52-61ea6739318d",
-                        "name": "*.s-cloud.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "604ddcb0-1d93-475a-b41a-b619a4602e46",
-                "name": "Out-Of-Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/soundcloud/target_groups/84a1de15-36b7-4878-93b9-9f962e54639a/targets",
-                "targets": [
-                    {
-                        "id": "6eda54fb-84d3-4894-8c1b-281114cd5705",
-                        "name": "advertising.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "52aaf3c0-4fb4-4e26-add8-c36392f21652",
-                        "name": "blog.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "07f278f8-4dda-43bf-aad4-629eac9406f4",
-                        "name": " community.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "467dd564-d83d-4369-8b14-e7a9d58ae1c9",
-                        "name": "contest.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3c157223-d01b-47d6-8226-63c447e793b3",
-                        "name": "copyright.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "414d8191-362e-4e0f-9928-13c282997113",
-                        "name": "help.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2b19484d-acde-48b0-a30a-b9b42b085168",
-                        "name": "jobs.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "24f2904c-e5f8-4817-837c-013b28416c43",
-                        "name": "press.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7db7b24b-245b-40d8-86dd-10b89443cf9a",
-                        "name": "playback.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "35991046-7312-4413-b3d8-e54001b75597",
-                        "name": "playerone.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c5c6f5d8-e7a8-4cf0-adde-00dd0d8d9715",
-                        "name": "promote.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://promote.soundcloud.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5e2a4864-ecc2-48ce-8afd-1172d602bba9",
-                        "name": "scdrops.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://scdrops.soundcloud.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f39bc7c1-add7-439e-9d45-d3a50325387b",
-                        "name": "status.soundcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "46ed4640-b88b-4432-9bf9-66aa09e57789",
-                        "name": "soundcloudmail.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://soundcloudmail.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0db1ca98-e3d7-440a-a81a-76ebd78da0fc",
-                        "name": "support.soundcloud.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Opsgenie",
         "tagline": "Opsgenie is a modern incident management platform for operating always-on services, empowering Dev & Ops teams to plan for service disruptions and stay in control during incidents.",
         "briefUrl": "/opsgenie",
@@ -54306,6 +52848,66 @@
         ]
     },
     {
+        "name": "Prosus",
+        "tagline": "Prosus",
+        "briefUrl": "/engagements/prosus-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/484e/c9b2/e2a349ba/c266ebe13a4a365a9e22f799f600a35a_Prosus_Lockup.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $1,250",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$1,250",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/prosus-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Bitpanda Ongoing Bug Bounty",
+        "tagline": "Submit your findings to the program!",
+        "briefUrl": "/engagements/bitpanda-og-bb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $15,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitpanda-og-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Bitstamp",
         "tagline": "The original global crypto exchange",
         "briefUrl": "/engagements/bitstamp",
@@ -55553,6 +54155,134 @@
         "target_groups": []
     },
     {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/vox",
@@ -55783,134 +54513,6 @@
                             "tags": []
                         },
                         "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -56999,6 +55601,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/skyscanner/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "SoundCloud",
+        "tagline": "SoundCloud is the world\u2019s largest open audio platform. With over 200 million tracks from 20 million creators heard in 190 countries, what\u2019s next in music is first on SoundCloud.",
+        "briefUrl": "/engagements/soundcloud",
+        "backgroundColor": "#ff5500",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4970/fb7c/f88af33f/5363a6d21cfd2ad01beef1bf1bc4a8af_Screen_Shot_2017-12-05_at_12.51.03_PM.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/soundcloud/engagement_subscribers",
         "target_groups": []
     },
     {
