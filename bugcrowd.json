@@ -2694,665 +2694,6 @@
         ]
     },
     {
-        "name": "Electroneum",
-        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
-        "briefUrl": "/electroneum",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $12,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$12,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/electroneum/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "9267047f-d584-492d-bf5c-f0548349a075",
-                "name": "In Scope Targets",
-                "description_html": "<h2>Main Targets Introduction</h2>\n\n<ul>\n<li>  Anytask platform is, basically, a digital service selling platform (which can be accessed at: <a href=\"https://anytask.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://anytask.com</a>)</li>\n<li>  Electroneum platform is, basically, a wallet app to manage our cryptocurrency Electroneum aka ETN (which can be accessed at: <a href=\"https://my.electroneum.com/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://my.electroneum.com/</a>\n</li>\n<li>  Electroneum Smartchain and Associated Repositories which contains our new Blockchain code along with the accompanying suite of utility programs at: <a href=\"https://github.com/electroneum/electroneum-sc/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://github.com/electroneum/electroneum-sc/</a>\n</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 12000.0
-                    },
-                    "2": {
-                        "min": 4000.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/electroneum/target_groups/2711b838-3c78-41e0-85d3-314a8cea2d6e/targets",
-                "targets": [
-                    {
-                        "id": "b90fb7e4-6ef6-47fe-99c6-a958fa91b4fb",
-                        "name": "https://electroneum.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://electroneum.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bbc31161-2393-4e3f-b3b7-73e524ac72e6",
-                        "name": "https://my.electroneum.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://my.electroneum.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "256e0b8b-8403-4002-92dd-38473c8cc46d",
-                        "name": "https://api.electroneum.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.electroneum.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7af38490-a388-4976-ba67-4a07a118db75",
-                        "name": "Electroneum iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/electroneum/id1270774992",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fee9b355-6bfa-412d-be59-4edfe254d6c6",
-                        "name": "Electroneum Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.electroneum.mobile&hl=en_US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "07a404d3-7cfa-4473-8f4f-69439809273a",
-                        "name": "https://www.anytask.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.anytask.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7a90273f-5dbe-4455-abfd-9c2952ece2fa",
-                        "name": "https://api.anytask.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.anytask.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d3b7cd2b-894d-4184-a189-3fd4204fb0da",
-                        "name": "Smartchain Blockchain",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://github.com/electroneum/electroneum-sc/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "82c3c246-98f0-4308-9f07-f2370c53849f",
-                        "name": "Smartchain Block Explorer",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://blockexplorer.electroneum.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "2755720c-69db-49df-8c09-62fe19cb75ef",
-                "name": "Staging (Test your PoC here)",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/electroneum/target_groups/23cff3a5-395d-42db-a348-36924101a35e/targets",
-                "targets": [
-                    {
-                        "id": "2f27ba49-bc4c-4172-8135-9f3762a965ec",
-                        "name": "https://anytask.thesecurityteam.rocks/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://anytask.thesecurityteam.rocks/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e5e9453d-23aa-4a17-a394-e1e18096bdd4",
-                        "name": "https://my.thesecurityteam.rocks/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://my.thesecurityteam.rocks/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "The Security Team Rocks",
-        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
-        "briefUrl": "/securityrocks",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/618a/385a/3879c428/fc485cc905649af65566c0797618acd3_electroneum.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $12,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$12,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/securityrocks/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2a322066-e248-471c-a7af-9bc574329242",
-                "name": "In Scope Targets",
-                "description_html": "<h2>Main Targets Introduction</h2>\n\n<ul>\n<li>  The Staging Anytask platform is, basically, a digital service selling platform (which can be accessed at: <a href=\"https://anytask.thesecurityteam.rocks\" rel=\"nofollow noreferrer\" target=\"_blank\">https://anytask.thesecurityteam.rocks</a>)</li>\n<li>  The Staging Electroneum platform is, basically, a wallet app to manage our cryptocurrency Electroneum aka ETN (which can be accessed at: <a href=\"https://my.thesecurityteam.rocks/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://my.thesecurityteam.rocks/</a>) </li>\n<li>  Our \u2018Legacy\u2019 Blockchain codebase (<a href=\"https://github.com/electroneum/electroneum/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://github.com/electroneum/electroneum/</a>), which contains the legacy blockchain code and the code for the accompanying suite of utility programs (the blockchain client/daemon, the RPC wallet client, the command line wallet and tools for importing and exporting the blockchain). </li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 12000.0
-                    },
-                    "2": {
-                        "min": 4000.0,
-                        "max": 6000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/securityrocks/target_groups/8964baaf-c9a0-43c6-9842-05d7537893d4/targets",
-                "targets": [
-                    {
-                        "id": "cda8c2f3-7696-469d-9ad4-a2b05cfe0d6e",
-                        "name": "api.anytask.thesecurityteam.rocks",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.anytask.thesecurityteam.rocks",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "56e305b2-17bb-4c65-84fa-8c4085f198ed",
-                        "name": "anytask.thesecurityteam.rocks",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://anytask.thesecurityteam.rocks",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9099ac53-92f4-4fd5-9256-a8b231908977",
-                        "name": "api.thesecurityteam.rocks",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.thesecurityteam.rocks",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d43b03c1-f131-43ee-a732-2b580ceecfdd",
-                        "name": "my.thesecurityteam.rocks",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://my.thesecurityteam.rocks",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e84c5adf-52fa-40e1-8e50-49111bbe11ec",
-                        "name": "Electroneum iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/electroneum/id1270774992",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "23e70d44-fe86-4f21-bb11-e60d1e9e96f4",
-                        "name": "Electroneum Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.electroneum.mobile&hl=en_US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e235b2fb-58f9-4ca3-a1f7-517d14aaeb59",
-                        "name": "Staging Electroneum Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://public.thesecurityteam.rocks/resources/app/android/etnapp-5.2.2-staging.apk",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f134b8c2-9644-414c-ba1a-e43f847b2137",
-                        "name": "Legacy Blockchain ",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://github.com/electroneum/electroneum/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8c006cfb-67c4-45ca-aa3b-46e374b3f5fb",
-                        "name": "Legacy Block Explorer",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://legacy-blockexplorer.electroneum.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Wise (ex-TransferWise)",
         "tagline": "Wise \u2014 the global technology company building the best way to move money around the world.",
         "briefUrl": "/wise",
@@ -5010,678 +4351,6 @@
                             ]
                         },
                         "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "iRobot",
-        "tagline": "Your Partner for a Cleaner Home",
-        "briefUrl": "/irobot",
-        "backgroundColor": "#64a70a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/77b1/f29b/948ed4dd/f170965393480a99e953718aca1fddf9_irobot.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $7,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$7,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/irobot/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "d6c481db-124f-4626-9f35-edab64f07611",
-                "name": "Tier 1 Targets - Devices",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4200.0,
-                        "max": 7000.0
-                    },
-                    "2": {
-                        "min": 2400.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/irobot/target_groups/7d768efe-12f9-4e64-8dc3-0c2d58ab5729/targets",
-                "targets": [
-                    {
-                        "id": "23a3ef51-5702-4913-81ea-8a9e2719f589",
-                        "name": "iRobot cloud-connected robot that you own (i.e. j7, s9, i7, 980, 960, 690, Braava, etc.)",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "eee6a357-76f0-4215-b69c-07c0814e401d",
-                "name": "Tier 2 Targets - Mobile Apps",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4200.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 2400.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/irobot/target_groups/d4d81b7e-32bd-4fca-8b87-84646356a75e/targets",
-                "targets": [
-                    {
-                        "id": "0f8d5d60-c7b9-4d90-85cd-24be9fe7d06c",
-                        "name": "https://itunes.apple.com/us/app/irobot-home/id1012014442?mt=8",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/us/app/irobot-home/id1012014442?mt=8",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0d015011-b41b-4bc5-9020-b5bdac4961fd",
-                        "name": "https://play.google.com/store/apps/details?id=com.irobot.home",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.irobot.home",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "72ebfffe-9c8e-48c2-898c-1df95bf2ee13",
-                "name": "Tier 3 Targets",
-                "description_html": "<h3>API Endpoints</h3>\n\n<p>The In-Scope API Gateway Endpoints require proper authentication to execute any commands. The Focus Area for these targets are on reports that can bypass and circumvent the authentication implementation. Each endpoint accepts the following HTTP Methods:</p>\n\n<table>\n<thead>\n<tr>\n<th>Endpoint URL</th>\n<th>HTTP Methods</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements\" rel=\"nofollow noreferrer\" target=\"_blank\">https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements</a></td>\n<td><strong>GET,POST</strong></td>\n</tr>\n<tr>\n<td><a href=\"https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements/%7Bentitlement_id%7D\" rel=\"nofollow noreferrer\" target=\"_blank\">https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements/{entitlement_id}</a></td>\n<td><strong>PUT, DELETE</strong></td>\n</tr>\n<tr>\n<td><a href=\"https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/notifications/raas\" rel=\"nofollow noreferrer\" target=\"_blank\">https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/notifications/raas</a></td>\n<td><strong>POST</strong></td>\n</tr>\n<tr>\n<td><a href=\"https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/robots/%7Brobot_id%7D/entitlements\" rel=\"nofollow noreferrer\" target=\"_blank\">https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/robots/{robot_id}/entitlements</a></td>\n<td><strong>GET</strong></td>\n</tr>\n<tr>\n<td><a href=\"https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/users/%7Buser_id%7D/entitlements\" rel=\"nofollow noreferrer\" target=\"_blank\">https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/users/{user_id}/entitlements</a></td>\n<td><strong>GET</strong></td>\n</tr>\n</tbody>\n</table>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 500.0,
-                        "max": 750.0
-                    },
-                    "3": {
-                        "min": 250.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/irobot/target_groups/ed811b61-a920-47dd-b1e0-f23b3086127c/targets",
-                "targets": [
-                    {
-                        "id": "589e212c-b905-437f-8257-47c1b84a6020",
-                        "name": " https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "900a11dc-88ee-4245-999e-9a9a2c31f106",
-                        "name": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements/{entitlement_id}",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/entitlements/{entitlement_id}",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c9f899af-7500-4a3b-8b2c-113e18a5ff30",
-                        "name": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/notifications/raas",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/notifications/raas",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f1f5291e-9d52-4842-9644-2975e134f1ba",
-                        "name": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/robots/{robot_id}/entitlements",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/robots/{robot_id}/entitlements",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4461b983-ed36-4a02-b9fe-6dda29e96066",
-                        "name": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/users/{user_id}/entitlements",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://w2ab2i60y4.execute-api.us-east-1.amazonaws.com/dev/v1/ecommerce/users/{user_id}/entitlements",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2fa7db7f-513a-4fe3-a02a-d15fd4314a3b",
-                        "name": "iRobot API Endpoint",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "0ee326d6-f1fb-416d-90c3-78546adbc826",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/irobot/target_groups/3b5f987d-003b-4763-a07b-5978148cca1c/targets",
-                "targets": [
-                    {
-                        "id": "265a5462-750a-4a2e-859d-8c8403794765",
-                        "name": "https://homesupport.irobot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ae393c35-2be2-4c35-acee-82bca07bb9ef",
-                        "name": "irobot.in",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "78880a06-7421-4b7f-8a18-4745ab7b9dab",
-                        "name": "https://homesupport.irobot.com/app/chat/chat_launch",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f8d1f8fe-c3f7-4f4e-bbea-32060a39e040",
-                        "name": "https://global.irobot.com/My%20Privacy",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "957ee1c9-b8fc-423c-88d5-1e0189e3ba39",
-                        "name": "https://www.irobot.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.irobot.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Intercom",
-        "tagline": "A fundamentally new way to communicate with your customers. Intercom is one place for every team in an internet business to communicate with customers, personally, at scale\u2014on your website, inside web and mobile apps, and by email.",
-        "briefUrl": "/intercom",
-        "backgroundColor": "#2e92e8",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b31a/9c14/6b4f88c9/94e5e6c80fdbb1522ee3f4ee3bdd2a0b_Intercom_Logo_Mark_White.png",
-        "rewardSummary": {
-            "summary": "$300 - $6,000",
-            "hint": null,
-            "minReward": "$300",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/intercom/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "3c064616-8b86-4fd2-af7f-6082d40ce58b",
-                "name": "Default",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 6000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "4": {
-                        "min": 300.0,
-                        "max": 300.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/intercom/target_groups/11d3800a-342c-4029-8293-b792cd9d7188/targets",
-                "targets": [
-                    {
-                        "id": "860ac575-0ae4-4f80-b62a-f5ec60d26327",
-                        "name": "iOS SDK",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://developers.intercom.com/installing-intercom/docs/about-the-sdk-ios",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "771e1313-61b7-4c3e-8f34-cbe9c3c91602",
-                        "name": "Android SDK",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://developers.intercom.com/installing-intercom/docs/about-the-sdk-android",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cd1891c0-f1ee-445e-904d-80af19152973",
-                        "name": "https://api.intercom.io",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.intercom.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "10596c5c-534e-498f-92db-074814cde623",
-                        "name": "https://app.intercom.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://app.intercom.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9405bd12-38ec-4747-8c2c-4e174400df56",
-                        "name": "https://app.intercom.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://app.intercom.io/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2eaa16e9-cc98-4e4e-8e8d-7ce8519bf721",
-                        "name": "https://www.intercom.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.intercom.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "dc8b9e4b-bd6f-42ed-81bb-c5cd3508b9b1",
-                        "name": "*.intercomassets.com / *.intercomcdn.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -19589,344 +18258,6 @@
         ]
     },
     {
-        "name": "Gearset: Managed Bug Bounty",
-        "tagline": "Industry-leading DevOps solutions for every Salesforce team",
-        "briefUrl": "/gearset-mbb",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d645/d69d/e2c39c06/c937316c731a441b12b3e7f2fbcc096f_Gearset_mark_rgb.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/gearset-mbb/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "3a163c3e-c038-46e1-819d-2b86f09f9296",
-                "name": "Gearset Staging",
-                "description_html": "<h3>Tech changes:</h3>\n\n<ul>\n<li>(Latest) We are in the process of introducing <a href=\"https://redux.js.org/\" rel=\"nofollow noreferrer\" target=\"_blank\">Redux.js</a>\n</li>\n<li>We are also moving a lot of our JS to Typescript</li>\n<li>Currently migrating from <a href=\"https://knockoutjs.com/\" rel=\"nofollow noreferrer\" target=\"_blank\">Knockout.js</a> to <a href=\"https://reactjs.org/\" rel=\"nofollow noreferrer\" target=\"_blank\">React</a>\n</li>\n</ul>\n\n<h3>Focus area:</h3>\n\n<ul>\n<li>Data backups (<a href=\"https://staging.gearset.com/data-backup-jobs\" rel=\"nofollow noreferrer\" target=\"_blank\">page</a> / <a href=\"https://docs.gearset.com/en/collections/97763-feature-guides#data-backup\" rel=\"nofollow noreferrer\" target=\"_blank\">docs</a>)</li>\n<li>Deployment Pipelines (<a href=\"https://staging.gearset.com/deployment-pipelines\" rel=\"nofollow noreferrer\" target=\"_blank\">page</a> / <a href=\"https://docs.gearset.com/en/collections/3436372-gearset-pipelines\" rel=\"nofollow noreferrer\" target=\"_blank\">docs</a>)</li>\n<li>Enterprise security features (<a href=\"https://staging.gearset.com/account/team-security\" rel=\"nofollow noreferrer\" target=\"_blank\">page</a> / <a href=\"https://docs.gearset.com/en/collections/3778138-team-account-management\" rel=\"nofollow noreferrer\" target=\"_blank\">docs</a> / <a href=\"https://docs.gearset.com/en/articles/6722741-restricting-your-team-s-source-control-access\" rel=\"nofollow noreferrer\" target=\"_blank\">docs 2</a>)</li>\n<li>Customer data (Customer on Team A should not be able to read/modify data belonging to another customer on Team B)</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 4000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/gearset-mbb/target_groups/37103b59-2527-4a31-ab98-784a9c1a417d/targets",
-                "targets": [
-                    {
-                        "id": "f132b3db-7dc6-4d7c-a13c-c47991f0ca4c",
-                        "name": "staging.gearset.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://staging.gearset.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9ffd297c-4781-4777-94cf-ef4e2ddda266",
-                                    "name": "C#"
-                                },
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "6155adbb-bc15-4203-8b79-bd7a589ae5b4",
-                                    "name": "Redux"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "a02ee6e4-ebe1-4f97-bcd5-c3036436fe55",
-                "name": "Gearset Public API",
-                "description_html": "<h2>Getting started</h2>\n\n<p>We provide a getting started guide for our customers, which explains how to create access tokens and make your first request. This can be found <a href=\"https://docs.gearset.com/en/articles/6099550-getting-started-with-the-gearset-api\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>. </p>\n\n<p>The only difference to the above is that you should be using <strong>https://staging-api.gearset.com</strong> rather than https://staging.gearset.com to make API request, and you should be logging in our <a href=\"https://staging.gearset.com/configure\" rel=\"nofollow noreferrer\" target=\"_blank\">test instance</a>.</p>\n\n<h2>Docs</h2>\n\n<p>For more information, please view our <a href=\"https://staging-api.gearset.com/public/automation/docs/index.htmll\" rel=\"nofollow noreferrer\" target=\"_blank\">API docs</a>.<br>\nThese contain curl commands which you can use to send requests to our API.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 4000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/gearset-mbb/target_groups/4ebdd1a5-f627-43b8-8e30-979fa58a9563/targets",
-                "targets": [
-                    {
-                        "id": "9af6a3d4-45bf-42a7-855d-0cca5164a545",
-                        "name": "staging-api.gearset.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://staging.gearset.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "9ffd297c-4781-4777-94cf-ef4e2ddda266",
-                                    "name": "C#"
-                                },
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "4cedc783-0317-4683-984c-8598bcc6038b",
-                "name": "HIPAA Gearset Staging",
-                "description_html": "<h3>Summary:</h3>\n\n<p>The same API as Gearset Staging.<br>\nCustomer accounts must be added manually by Gearset and researchers <strong>will not</strong> be given accounts, so should not be able to access any meaningful data or make any changes on this system.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 6000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 4000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/gearset-mbb/target_groups/aaeeea4f-cd69-48b9-ab29-6191ee4704f6/targets",
-                "targets": [
-                    {
-                        "id": "dac72c18-c7fb-4322-ab20-a8553e759731",
-                        "name": "hipaa.staging.gearset.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://hipaa.staging.gearset.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9ffd297c-4781-4777-94cf-ef4e2ddda266",
-                                    "name": "C#"
-                                },
-                                {
-                                    "id": "70f8fc74-f147-45d5-8f56-9bff2f555bd7",
-                                    "name": ".NET"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "6155adbb-bc15-4203-8b79-bd7a589ae5b4",
-                                    "name": "Redux"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7f873946-9779-4677-98d6-7858f44aa0e7",
-                "name": "Out of scope targets",
-                "description_html": "<p>Researchers should only use our staging environment. Our production environment is <strong>not</strong> to be used. </p>\n\n<p>Any domain/property of Gearset not listed in the targets section is out of scope (this includes our marketing website gearset.com). This includes any/all subdomains not listed above. If you happen to identify a security vulnerability on a target that is not in-scope, but that demonstrably belongs to Gearset, it may be reported to this program, and is appreciated - but will ultimately be marked as 'not applicable' and will not be eligible for monetary or points-based compensation.</p>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/gearset-mbb/target_groups/c394d2fb-282f-4633-bf0d-5614337915be/targets",
-                "targets": [
-                    {
-                        "id": "3ccb2795-f0c8-4a25-bc24-65ac5373304d",
-                        "name": "api.gearset.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6ee0cc38-fe9e-4615-8267-7e5d2f75e28b",
-                        "name": "eu.app.gearset.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "04d42cad-fffe-42ad-8465-d9fe65d7762e",
-                        "name": "us.app.gearset.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "57acafbc-7015-49be-8396-ad9551074c8c",
-                        "name": "app.gearset.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ea58c88e-94d4-4d14-9b3b-448444ed6bbf",
-                        "name": "ap.app.gearest.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "581adf5c-ebd4-43ec-bfef-2bfb0a37753e",
-                        "name": "gearset.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Indeed",
         "tagline": "We help people get jobs.",
         "briefUrl": "/indeed",
@@ -21594,252 +19925,6 @@
                             ]
                         },
                         "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "BigCommerce",
-        "tagline": "Let's work together to secure E-commerce for a new era",
-        "briefUrl": "/bigcommerce",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/20e7/8118/4f0fbbee/348f782ff2c5ab95a3daef6d454404f8_BigCommerce.png",
-        "rewardSummary": {
-            "summary": "$50 - $2,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bigcommerce/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "4fc78b39-2c84-4d2b-a80c-095ef2a08dc1",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 800.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 350.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/bigcommerce/target_groups/0b0b0f21-e2ac-49a7-abd4-ddfa5079dd50/targets",
-                "targets": [
-                    {
-                        "id": "c84aacb4-d920-4913-aa72-4ac89a2c65e8",
-                        "name": "https://*.YOUR-TESTING-STORE.mybigcommerce.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b623cffd-773a-4084-b220-81b5ea09da6e",
-                        "name": "*.bigcommerce.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.bigcommerce.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "45508cab-b4ac-48e8-85e6-7a6f1b6a39fd",
-                        "name": "*.bigcommerce.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.bigcommerce.net",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a3d1a9be-5d7c-42bb-848d-ebd2fa307863",
-                        "name": "https://bigcommerce.com/make-it-big",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://bigcommerce.com/make-it-big",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "587c0d78-468a-41f2-9509-44a718a4d398",
-                        "name": "https://bigcommerce.com/blog",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://bigcommerce.com/blog",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "be33785a-13a7-4dcb-afe9-ceb277f14142",
-                        "name": "https://STORE-YOURSTOREHash.mybigcommerce.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d4f63ce5-f65d-4c70-8092-b408216fe999",
-                        "name": "BigCommerce iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/au/app/bigcommerce/id1418570678",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "01602ade-7a42-4475-8af5-11b7a6d94a13",
-                        "name": "BigCommerce Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.bigcommerce.mobile",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -44787,645 +42872,6 @@
         ]
     },
     {
-        "name": "Binance",
-        "tagline": "Cryptocurrency Exchange\u200e",
-        "briefUrl": "/binance",
-        "backgroundColor": "#000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4449/adbf/9dc16f2a/d82f470be0edd8aa4acd2b1eb7ecf821_Binance-logo.png",
-        "rewardSummary": {
-            "summary": "$200 - $10,000",
-            "hint": "Up to $100,000",
-            "minReward": "$200",
-            "maxReward": "$10,000",
-            "compensationSummary": "Up to $100,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/binance/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "ef03243f-22ef-4be1-8b22-c05c3872bca8",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 5000.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 600.0
-                    },
-                    "program_max": 100000
-                },
-                "sort_order": 0,
-                "targets_url": "/binance/target_groups/69f7faae-326b-4eb0-a33f-b51ef673df38/targets",
-                "targets": [
-                    {
-                        "id": "7bb32ee2-4abe-4f20-91c1-3c56a6a7cd56",
-                        "name": "*.binance.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.binance.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d4481737-7a5f-407c-915d-789388387b10",
-                        "name": "api.binance.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6c9d79f7-3678-4d4b-84c8-fc4d5c59bfc5",
-                        "name": "Binance Desktop Application",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                },
-                                {
-                                    "id": "fc8162a2-8e37-4a27-8cbd-3b40e7799f4e",
-                                    "name": "Desktop Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b9153fe8-549a-49ef-a0be-fe41bef6e226",
-                        "name": "Binance Mobile Application for Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e9153863-5eb3-4e91-b2fc-3f9f52d3fe8a",
-                        "name": "Binance Mobile Application for iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "13f6bf69-b074-44af-8c14-a3d9afaeffe4",
-                        "name": "Binance macOS Application",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c5df6ad0-33b4-40ac-b6dd-8d4038997d40",
-                                    "name": "macOS"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a60e038f-b06d-4e87-9b6e-e4bdaaec05ea",
-                        "name": "*.binance.us",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.binance.us/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c49c16cd-2242-45f8-b172-1047bfd56d52",
-                                    "name": "UIKit"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "565a1e80-723e-4273-9bed-02b45e3237a7",
-                        "name": "Trustwallet Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d174f31d-2333-45c1-ba86-55f188bd796c",
-                        "name": "Trustwallet iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c1201665-7cab-4d6e-b1b4-76b12ecd7d16",
-                        "name": "https://github.com/trustwallet/wallet-core/",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "61b5ca76-97a4-4b62-8d53-3e1098937a0b",
-                        "name": "Trustwallet Chrome Extension",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "93f02bf9-97e0-4240-8d1f-b63cd6e92981",
-                        "name": "coinmarketcap.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6f7d993f-807c-454e-a5a5-108919e0e710",
-                        "name": "api.coinmarketcap.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9eceed69-69a2-482d-b600-22345f3405a0",
-                        "name": "pro-api.coinmarketcap.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c3a02eae-9dec-4251-bf40-8fc9e81b4290",
-                        "name": "pro.coinmarketcap.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "13a1152b-f2c8-4fe4-9b11-c76b887c8b93",
-                        "name": "portal-api.coinmarketcap.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f0a33438-4489-4c2b-90a7-285649b4e790",
-                        "name": "3rdparty-apis.coinmarketcap.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f41b27c5-c7ef-43b9-a8ad-89a119e6374e",
-                        "name": "CoinMarketCap Android app",
-                        "description": null,
-                        "category": "android",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "23e1a8d4-5965-46d2-9e6e-8f825546418a",
-                        "name": "CoinMarketCap iOS app",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7c8498c9-25c5-4eeb-8489-dd5e531c7411",
-                        "name": "trbinance.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://trbinance.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "1b8962d6-0a16-4d9c-9b8a-6e0352e2f257",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/binance/target_groups/79e16acc-3570-4d0b-9420-73449a7eb068/targets",
-                "targets": [
-                    {
-                        "id": "7d9e1451-e60f-4803-9143-402caadb7821",
-                        "name": "support.binance.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a0f06672-8d73-42c0-a93b-d90ae6f413c0",
-                        "name": "*.trustwallet.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ca313fe9-d29e-414f-978b-5eeffdcc38ac",
-                        "name": "*.trustwalletapp.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b0a0ae10-f94c-4cf6-b348-6fb640013f1e",
-                        "name": "*.binance.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a459f897-8120-405c-9bbe-2b6ffaee5cb2",
-                        "name": "binance.sg",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "d8e93657-68c0-4b47-ae77-d3c15602dd5b",
-                                    "name": "Cryptocurrency"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bf8224ad-a66a-4ac4-88d5-d67d536060d1",
-                        "name": "blog.coinmarketcap.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ac593fd7-9e01-4cfa-bd62-4e954c1f3556",
-                        "name": "support.coinmarketcap.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a0233dcd-9998-4670-b853-f65c6efb3420",
-                        "name": "jobs.coinmarketcap.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0a490ce9-39f4-42ee-b4fd-35e4520b191b",
-                        "name": "blockchain.coinmarketcap.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0611a33e-4dd5-4bce-aaca-25f4b9e3bcd6",
-                        "name": "*.coinmarketcap.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Octopus",
         "tagline": "Octopus Bug Bounty Program",
         "briefUrl": "/octopus-og",
@@ -49252,6 +46698,36 @@
         ]
     },
     {
+        "name": "KuCoin Managed Bug Bounty Program",
+        "tagline": "KuCoin, a global cryptocurrency exchange based in Seychelles, offers over 700 digital assets, spot trading, margin trading, P2P fiat trading, futures trading, staking, and lending to 30 million users globally.",
+        "briefUrl": "/engagements/kucoin",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/250c/ec4b/fe1020f0/883a7949cbbe5fbd1e75f2101f46248e_1706015092041.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": "Up to $10,000",
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/kucoin/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/fis",
@@ -49349,36 +46825,6 @@
         ]
     },
     {
-        "name": "KuCoin Managed Bug Bounty Program",
-        "tagline": "KuCoin, a global cryptocurrency exchange based in Seychelles, offers over 700 digital assets, spot trading, margin trading, P2P fiat trading, futures trading, staking, and lending to 30 million users globally.",
-        "briefUrl": "/engagements/kucoin",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/250c/ec4b/fe1020f0/883a7949cbbe5fbd1e75f2101f46248e_1706015092041.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": "Up to $10,000",
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kucoin/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": " 1Password",
         "tagline": "1Password is the world's best password manager. Perfect for protecting your business, team, and family.",
         "briefUrl": "/engagements/agilebits",
@@ -49429,6 +46875,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/agilebits-ctf/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Binance",
+        "tagline": "Cryptocurrency Exchange\u200e",
+        "briefUrl": "/engagements/binance",
+        "backgroundColor": "#000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4449/adbf/9dc16f2a/d82f470be0edd8aa4acd2b1eb7ecf821_Binance-logo.png",
+        "rewardSummary": {
+            "summary": "$200 - $10,000",
+            "hint": "Up to $100,000",
+            "minReward": "$200",
+            "maxReward": "$10,000",
+            "compensationSummary": "Up to $100,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/binance/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Intercom",
+        "tagline": "A fundamentally new way to communicate with your customers. Intercom is one place for every team in an internet business to communicate with customers, personally, at scale\u2014on your website, inside web and mobile apps, and by email.",
+        "briefUrl": "/engagements/intercom",
+        "backgroundColor": "#2e92e8",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b31a/9c14/6b4f88c9/94e5e6c80fdbb1522ee3f4ee3bdd2a0b_Intercom_Logo_Mark_White.png",
+        "rewardSummary": {
+            "summary": "$300 - $6,000",
+            "hint": null,
+            "minReward": "$300",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/intercom/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -51096,6 +48602,36 @@
         "target_groups": []
     },
     {
+        "name": "Electroneum",
+        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
+        "briefUrl": "/engagements/electroneum",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $12,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$12,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/electroneum/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "WHMCS Client Management Portal",
         "tagline": "Client Management, Billing and Support Portal",
         "briefUrl": "/engagements/whmcs",
@@ -52269,6 +49805,66 @@
         "target_groups": []
     },
     {
+        "name": "BigCommerce",
+        "tagline": "Let's work together to secure E-commerce for a new era",
+        "briefUrl": "/engagements/bigcommerce",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/20e7/8118/4f0fbbee/348f782ff2c5ab95a3daef6d454404f8_BigCommerce.png",
+        "rewardSummary": {
+            "summary": "$50 - $2,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bigcommerce/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "The Security Team Rocks",
+        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
+        "briefUrl": "/engagements/securityrocks",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/618a/385a/3879c428/fc485cc905649af65566c0797618acd3_electroneum.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $12,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$12,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/securityrocks/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Shipwire",
         "tagline": "Shipwire's Bug Bounty Program",
         "briefUrl": "/engagements/shipwire",
@@ -53050,6 +50646,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/orderlynetwork-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Gearset: Managed Bug Bounty",
+        "tagline": "Industry-leading DevOps solutions for every Salesforce team",
+        "briefUrl": "/engagements/gearset-mbb",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d645/d69d/e2c39c06/c937316c731a441b12b3e7f2fbcc096f_Gearset_mark_rgb.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/gearset-mbb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "iRobot",
+        "tagline": "Your Partner for a Cleaner Home",
+        "briefUrl": "/engagements/irobot",
+        "backgroundColor": "#64a70a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/77b1/f29b/948ed4dd/f170965393480a99e953718aca1fddf9_irobot.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $7,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$7,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/irobot/engagement_subscribers",
         "target_groups": []
     }
 ]
