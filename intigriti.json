@@ -6691,17 +6691,17 @@
         },
         "domains": [
             {
-                "id": "57c8d1c1-9309-4293-bb4b-67430fff9ee5",
+                "id": "5e0143fd-9093-46c9-8018-38459a189e58",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.homerr.com",
+                "endpoint": "*.vinted.fr",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": "One of our sister company for shipping"
+                "description": null
             },
             {
                 "id": "8bc69d23-2aae-43f3-a09b-0e8b60cfac0a",
@@ -6735,12 +6735,12 @@
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.vinted.*",
+                "endpoint": "*.vinted.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Any subdomain owned by Vinted except *.vinted.ca and people.vinted.*\nAlso please always check if domain is owned by Vinted."
+                "description": null
             },
             {
                 "id": "9baa5286-3ac2-443e-a2ac-d983dd3253d5",
@@ -6754,6 +6754,19 @@
                     "value": "Tier 2"
                 },
                 "description": "Vinted shipping website"
+            },
+            {
+                "id": "57c8d1c1-9309-4293-bb4b-67430fff9ee5",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.homerr.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "One of our sister company for shipping"
             },
             {
                 "id": "34e85458-dc16-4db2-99f5-01d6736303a0",
