@@ -1,5 +1,278 @@
 [
     {
+        "name": "AustralianSuper Bug Bounty Program",
+        "tagline": "AustralianSuper is Australia\u2019s largest superannuation fund. We help members achieve their best possible retirement outcome. Please submit your findings to this Bug Bounty program.",
+        "briefUrl": "/australiansuper",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0d1c/676f/6b62ce43/9d38f994475cbc9d98b3c23ed2c80eb4_1645047612176.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/australiansuper/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f32b8415-3744-4297-b922-5ab946d6d7e3",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1250.0
+                    },
+                    "3": {
+                        "min": 450.0,
+                        "max": 600.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/australiansuper/target_groups/ba3662a5-1d86-4080-b4e2-257758399b73/targets",
+                "targets": [
+                    {
+                        "id": "93a5253d-7b96-4c1f-ba3d-edf1a67d2afd",
+                        "name": "www.australiansuper.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.australiansuper.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2ac2e75a-462a-448e-9fa7-2e40173a47a5",
+                        "name": "portal.australiansuper.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://portal.australiansuper.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d3eb528d-9326-4e10-bed7-281d5d8bd37f",
+                        "name": "business.australiansuper.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://business.australiansuper.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e2f97038-e8a0-4dc3-aa35-19734a6249a7",
+                        "name": "adviser.australiansuper.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://adviser.australiansuper.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
+                                    "name": "ASP.NET"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8825a588-51e8-4d15-8817-f11b9defa050",
+                        "name": "apis.australiansuper.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://apis.australiansuper.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4ed87e45-5191-48fd-bc19-c3d05fb1efff",
+                        "name": "apis-v5.australiansuper.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://apis-v5.australiansuper.com/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "2563a081-8f16-4d6e-9fc6-3ff804266db4",
+                "name": "Out of Scope",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/australiansuper/target_groups/f6f69dce-70e0-4b8f-8385-59ef277b8ea5/targets",
+                "targets": [
+                    {
+                        "id": "52c0a960-bf6b-4e77-9117-d8066b65986f",
+                        "name": "australiansuper.atlassian.net",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "27d5c56b-ab75-4603-a12a-d9bdda0df95c",
+                        "name": "australiansuper.sharepoint.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "32d0ec1e-5745-4db7-a88e-33a5e03290c4",
+                        "name": "*.australiansuper.com ",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Wise (ex-TransferWise)",
         "tagline": "Wise \u2014 the global technology company building the best way to move money around the world.",
         "briefUrl": "/wise",
@@ -21203,80 +21476,6 @@
         ]
     },
     {
-        "name": "SnapNames",
-        "tagline": "Submit your finding to SnapNames' bug bounty",
-        "briefUrl": "/snapnames",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/743e/dfa6/1c995120/d4707f93ad61b32631de989e40ff9237_snapnames.jpeg",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "ngpt"
-        },
-        "subscriptionUrl": "/snapnames/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "ddf956b7-7559-45a7-824e-63125ea7a2b5",
-                "name": "In Scope",
-                "description_html": "<h3>Target Information</h3>\n\n<p>SnapNames is a domain name auction site for previously registered domain names, providing a back-ordering technology.</p>\n\n<h3>Testing Hours</h3>\n\n<p><strong>All testing should be limited to OUTSIDE the hours of 12:00PM -7:00PM EST  Monday through Friday. Testing is NOT PERMITTED during these hours as it will disrupt business operations.</strong></p>\n\n<h3>Testing Headers</h3>\n\n<p>Please include the following headers in all server requests. This will not affect the responses to your activity, but allows Web.com to identify Researcher testing activity and <strong>avoid IP blocking</strong>.</p>\n\n<p><strong>Required</strong><br>\n<code>X-Request-Purpose: Research</code></p>\n\n<p><strong>Optional</strong><br>\n`<code>X-Bugcrowd-Ninja: [username]</code></p>\n\n<h3>Report Formatting</h3>\n\n<p>In the <strong>Description</strong> of a Vulnerability Report, please format the replication process as an <strong>Ordered List</strong>. Valid reports, formatted the following way, will be prioritized and accepted faster by Newfold Digital:</p>\n\n<blockquote>\n<p>Steps To Reproduce: (Add details for how we can reproduce the issue) </p>\n\n<blockquote>\n<ol>\n<li>[add step 1]</li>\n<li>[add step 2]</li>\n<li>[add step 3]...</li>\n</ol>\n</blockquote>\n</blockquote>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 1250.0
-                    },
-                    "3": {
-                        "min": 450.0,
-                        "max": 600.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/snapnames/target_groups/6d24ca19-40b2-446d-8102-b8455158a6c8/targets",
-                "targets": [
-                    {
-                        "id": "c78b9d72-99ae-45cc-be2b-4cb6f91f8131",
-                        "name": "https://snapnames.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://snapnames.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Newfold Vdeck Bug Bounty",
         "tagline": "Submit your finding to the program!",
         "briefUrl": "/newfold-vdeck-bb",
@@ -21369,6 +21568,80 @@
                             ]
                         },
                         "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SnapNames",
+        "tagline": "Submit your finding to SnapNames' bug bounty",
+        "briefUrl": "/snapnames",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/743e/dfa6/1c995120/d4707f93ad61b32631de989e40ff9237_snapnames.jpeg",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "ngpt"
+        },
+        "subscriptionUrl": "/snapnames/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "ddf956b7-7559-45a7-824e-63125ea7a2b5",
+                "name": "In Scope",
+                "description_html": "<h3>Target Information</h3>\n\n<p>SnapNames is a domain name auction site for previously registered domain names, providing a back-ordering technology.</p>\n\n<h3>Testing Hours</h3>\n\n<p><strong>All testing should be limited to OUTSIDE the hours of 12:00PM -7:00PM EST  Monday through Friday. Testing is NOT PERMITTED during these hours as it will disrupt business operations.</strong></p>\n\n<h3>Testing Headers</h3>\n\n<p>Please include the following headers in all server requests. This will not affect the responses to your activity, but allows Web.com to identify Researcher testing activity and <strong>avoid IP blocking</strong>.</p>\n\n<p><strong>Required</strong><br>\n<code>X-Request-Purpose: Research</code></p>\n\n<p><strong>Optional</strong><br>\n`<code>X-Bugcrowd-Ninja: [username]</code></p>\n\n<h3>Report Formatting</h3>\n\n<p>In the <strong>Description</strong> of a Vulnerability Report, please format the replication process as an <strong>Ordered List</strong>. Valid reports, formatted the following way, will be prioritized and accepted faster by Newfold Digital:</p>\n\n<blockquote>\n<p>Steps To Reproduce: (Add details for how we can reproduce the issue) </p>\n\n<blockquote>\n<ol>\n<li>[add step 1]</li>\n<li>[add step 2]</li>\n<li>[add step 3]...</li>\n</ol>\n</blockquote>\n</blockquote>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1250.0
+                    },
+                    "3": {
+                        "min": 450.0,
+                        "max": 600.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/snapnames/target_groups/6d24ca19-40b2-446d-8102-b8455158a6c8/targets",
+                "targets": [
+                    {
+                        "id": "c78b9d72-99ae-45cc-be2b-4cb6f91f8131",
+                        "name": "https://snapnames.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://snapnames.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -34936,10 +35209,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/comcastvdp/target_groups/3884a757-ceae-4076-b197-dbc3d6a15bcd/targets",
+                "targets_url": "/comcastvdp/target_groups/768601b3-d968-4385-9337-e38ebbb8265b/targets",
                 "targets": [
                     {
-                        "id": "0f4c2086-7458-442c-8d8a-c582756252e6",
+                        "id": "695c80dd-6de2-4add-8e46-5c183086224d",
                         "name": "*.sys.comcast.net",
                         "description": null,
                         "category": "website",
@@ -34958,7 +35231,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "4af24822-83d4-41d0-9d9f-03903709b104",
+                        "id": "95aeb193-abfb-49e3-87c3-176d468ca790",
                         "name": "https://business.comcast.com/account",
                         "description": null,
                         "category": "website",
@@ -35001,7 +35274,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b0c877d5-978f-4a53-a909-0505f851ccef",
+                        "id": "c88bd5f6-1139-40e4-975c-7888d76d861a",
                         "name": "TV - Xfinity hardware and services",
                         "description": null,
                         "category": "hardware",
@@ -35020,7 +35293,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7e8460be-59d1-401f-b7ca-7c8125f67f71",
+                        "id": "8e7e1b53-fcc1-4404-b6a9-1d8a8bfb2c1e",
                         "name": "Flex - Xfinity hardware and services",
                         "description": null,
                         "category": "hardware",
@@ -35039,7 +35312,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "20b169c1-8ef7-472f-ac45-e3a0b7965591",
+                        "id": "9740afb2-f1d2-401b-9d06-fccb9b2eacfa",
                         "name": "Voice - Hardware and service",
                         "description": null,
                         "category": "hardware",
@@ -35058,7 +35331,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "802dbd31-5756-4aaa-b9c2-f3f96821118c",
+                        "id": "a5720283-8d9a-4119-9edb-83728958abc0",
                         "name": "Mobile Apps\tiOS and Android",
                         "description": null,
                         "category": "other",
@@ -35101,6 +35374,31 @@
                             ]
                         },
                         "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "89c6bf6c-e3d3-40a8-9e03-a3aa5215af78",
+                "name": "Out of Scope",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/comcastvdp/target_groups/ab126584-a697-4c5a-abc3-30ad4a2bf348/targets",
+                "targets": [
+                    {
+                        "id": "18d32e5b-a1af-4f98-93cf-65270fc089b7",
+                        "name": "Comcastbiz.net",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.comcastbiz.net/",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -39829,6 +40127,785 @@
         "target_groups": []
     },
     {
+        "name": "Humble Bundle",
+        "tagline": "Pay what you want and help charity",
+        "briefUrl": "/engagements/humblebundle",
+        "backgroundColor": "#c32226",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/humblebundle/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Smartmockups",
+        "tagline": "Help Secure Smartmockups",
+        "briefUrl": "/engagements/smartmockups",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "Points - $6,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/smartmockups/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "ZAP",
+        "tagline": "Zed Attack Proxy - one of the world\u2019s most popular free security tools.",
+        "briefUrl": "/engagements/owaspzap",
+        "backgroundColor": "#448de2",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2376/fdfa/651b17be/051e0245d787d1f71246d515e88a8564_zap256x256-oversize.png",
+        "rewardSummary": {
+            "summary": "Points - $1,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$1,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/owaspzap/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Pixabay",
+        "tagline": "Pixabay Vulnerability Disclosure Program",
+        "briefUrl": "/engagements/pixabay",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/pixabay/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Canva",
+        "tagline": "Design Anything. Publish Anywhere.",
+        "briefUrl": "/engagements/canva",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$200 - $15,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/canva/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Electroneum",
+        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
+        "briefUrl": "/engagements/electroneum",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $12,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$12,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/electroneum/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "WOO Network: Bug Bounty Program",
+        "tagline": "Zero-fee Trading Platform",
+        "briefUrl": "/engagements/woo-network",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7ab2/5ed2/fcf7cb78/c6dd295645ab58ae2d3cec9ffb656b0e_wootrade.jpeg",
+        "rewardSummary": {
+            "summary": "$200 - $9,000",
+            "hint": "Up to $10,000",
+            "minReward": "$200",
+            "maxReward": "$9,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/woo-network/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Luno Bug Bounty Program",
+        "tagline": "Luno Bug Bounty Program",
+        "briefUrl": "/engagements/luno-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/luno-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "PlanetHoster",
+        "tagline": "PlanetHoster invites you to test their web hosting platform!",
+        "briefUrl": "/engagements/planethosterinc",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Entain Game Logic Flaws Bug Bounty Program",
+        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
+        "briefUrl": "/engagements/entain-glf-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $6,500",
+            "hint": "Up to $10,000",
+            "minReward": "Points",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Tyler Technologies Data & Insights \u2013 Tyler Data Platform, powered by Socrata",
+        "tagline": "Put your skills to the test!",
+        "briefUrl": "/engagements/tyler-tech-data-insights",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/04c0/1f22/fbcee57c/5b398460220a42c28f675778b145457e_tylertech.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $3,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tyler-tech-data-insights/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Acorns Grow, Inc.",
+        "tagline": "From acorns mighty oaks do grow",
+        "briefUrl": "/engagements/acorns",
+        "backgroundColor": "#74c947",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/acorns/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Majid Al Futtaim Entertainment",
+        "tagline": "Vox Cinemas + Entertainment",
+        "briefUrl": "/vox",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/080f/3294/c7001f81/3df490d526a9a07ac91c8505bb58e57e_mYTEsbS__400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $2,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/vox/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "8123cf02-4a9b-4560-a92d-6fd23184d016",
+                "name": "InScope Target",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/vox/target_groups/8b0261ce-881c-49c9-84ad-a9cdd6b62591/targets",
+                "targets": [
+                    {
+                        "id": "1b55145d-8a85-4460-af17-a6f54c23e65a",
+                        "name": "Vox Cinemas iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1bd31602-6579-49a1-9e06-3e5cd043aa64",
+                        "name": "Vox Cinemas Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d9a2b3c9-6978-4303-9ccc-41128671fb3a",
+                        "name": "https://uae.voxcinemas.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://uae.voxcinemas.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8813dcfb-7f83-4b2a-b5b6-08aafa742b07",
+                        "name": "https://www.skidxb.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.skidxb.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "005d6fd9-5c1a-45f7-a2b6-af0e2fdfd820",
+                                    "name": "Laravel"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b5223f5f-394f-4a16-8525-fe05b29f101b",
+                        "name": "https://www.magicplanetmena.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.magicplanetmena.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
+                                    "name": "Akamai CDN"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "df3c657c-9798-41da-beff-f8ac6feef6ad",
+                "name": "Out of scope targets",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/vox/target_groups/98f031a0-7b32-43bd-adbb-5480c32d8d24/targets",
+                "targets": [
+                    {
+                        "id": "e2f3f4b0-0360-4485-b440-755df0bd43e5",
+                        "name": "http://www.theplaymania.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "FoxyCart",
+        "tagline": "A superior ecommerce experience",
+        "briefUrl": "/engagements/foxycart",
+        "backgroundColor": "#633f6f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
+        "rewardSummary": {
+            "summary": "$25 - $600",
+            "hint": null,
+            "minReward": "$25",
+            "maxReward": "$600",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/foxycart/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Rapyd",
+        "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
+        "briefUrl": "/engagements/rapyd",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/13a5/c1ee/7624f625/29a746eeb7538a2c124904dde8ea4b32_rapyd.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $7,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$7,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/rapyd/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Bitdefender Box v2",
         "tagline": "Internet security solution that incorporates hardware, cloud and software designed to protect your smart home and your family.",
         "briefUrl": "/engagements/bitdefenderbox2",
@@ -40006,36 +41083,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/bigcommerce/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Origin Energy - Retail",
-        "tagline": "An electricity, natural gas, LPG and solar provider. A good energy company.",
-        "briefUrl": "/engagements/originenergy-og1",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/950d/4899/0292dfa6/a91715fbef94b384d55b9eaf3b66c7d5_IA6jCLqi_400x400.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $2,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Utilities",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/originenergy-og1/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -41122,6 +42169,36 @@
         "target_groups": []
     },
     {
+        "name": "Origin Energy - Retail",
+        "tagline": "An electricity, natural gas, LPG and solar provider. A good energy company.",
+        "briefUrl": "/engagements/originenergy-og1",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/950d/4899/0292dfa6/a91715fbef94b384d55b9eaf3b66c7d5_IA6jCLqi_400x400.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $2,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/originenergy-og1/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Shipwire",
         "tagline": "Shipwire's Bug Bounty Program",
         "briefUrl": "/engagements/shipwire",
@@ -42113,785 +43190,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/exoscale/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Humble Bundle",
-        "tagline": "Pay what you want and help charity",
-        "briefUrl": "/engagements/humblebundle",
-        "backgroundColor": "#c32226",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/8dcf/5be6/2c2cec76/304f52b9b7950071eab424634aac1e12_humblered.png",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/humblebundle/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Smartmockups",
-        "tagline": "Help Secure Smartmockups",
-        "briefUrl": "/engagements/smartmockups",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "Points - $6,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/smartmockups/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "ZAP",
-        "tagline": "Zed Attack Proxy - one of the world\u2019s most popular free security tools.",
-        "briefUrl": "/engagements/owaspzap",
-        "backgroundColor": "#448de2",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2376/fdfa/651b17be/051e0245d787d1f71246d515e88a8564_zap256x256-oversize.png",
-        "rewardSummary": {
-            "summary": "Points - $1,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$1,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/owaspzap/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Pixabay",
-        "tagline": "Pixabay Vulnerability Disclosure Program",
-        "briefUrl": "/engagements/pixabay",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/pixabay/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Canva",
-        "tagline": "Design Anything. Publish Anywhere.",
-        "briefUrl": "/engagements/canva",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$200 - $15,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$15,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/canva/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Electroneum",
-        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
-        "briefUrl": "/engagements/electroneum",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $12,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$12,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/electroneum/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "WOO Network: Bug Bounty Program",
-        "tagline": "Zero-fee Trading Platform",
-        "briefUrl": "/engagements/woo-network",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7ab2/5ed2/fcf7cb78/c6dd295645ab58ae2d3cec9ffb656b0e_wootrade.jpeg",
-        "rewardSummary": {
-            "summary": "$200 - $9,000",
-            "hint": "Up to $10,000",
-            "minReward": "$200",
-            "maxReward": "$9,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/woo-network/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Luno Bug Bounty Program",
-        "tagline": "Luno Bug Bounty Program",
-        "briefUrl": "/engagements/luno-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/90ca/b8c8/a0b610b1/957423f1634a108b88ec40b5d8b52e11_lunoicon-152x152.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/luno-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "PlanetHoster",
-        "tagline": "PlanetHoster invites you to test their web hosting platform!",
-        "briefUrl": "/engagements/planethosterinc",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Entain Game Logic Flaws Bug Bounty Program",
-        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
-        "briefUrl": "/engagements/entain-glf-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $6,500",
-            "hint": "Up to $10,000",
-            "minReward": "Points",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Tyler Technologies Data & Insights \u2013 Tyler Data Platform, powered by Socrata",
-        "tagline": "Put your skills to the test!",
-        "briefUrl": "/engagements/tyler-tech-data-insights",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/04c0/1f22/fbcee57c/5b398460220a42c28f675778b145457e_tylertech.jpeg",
-        "rewardSummary": {
-            "summary": "$150 - $3,500",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tyler-tech-data-insights/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Acorns Grow, Inc.",
-        "tagline": "From acorns mighty oaks do grow",
-        "briefUrl": "/engagements/acorns",
-        "backgroundColor": "#74c947",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5269/3b42/d33c1aec/1ff80bd7f0fc20cf0fd4112371b8104e_Acorns_Square-01__1_.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/acorns/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Majid Al Futtaim Entertainment",
-        "tagline": "Vox Cinemas + Entertainment",
-        "briefUrl": "/vox",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/080f/3294/c7001f81/3df490d526a9a07ac91c8505bb58e57e_mYTEsbS__400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/vox/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "8123cf02-4a9b-4560-a92d-6fd23184d016",
-                "name": "InScope Target",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/vox/target_groups/8b0261ce-881c-49c9-84ad-a9cdd6b62591/targets",
-                "targets": [
-                    {
-                        "id": "1b55145d-8a85-4460-af17-a6f54c23e65a",
-                        "name": "Vox Cinemas iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1bd31602-6579-49a1-9e06-3e5cd043aa64",
-                        "name": "Vox Cinemas Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d9a2b3c9-6978-4303-9ccc-41128671fb3a",
-                        "name": "https://uae.voxcinemas.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://uae.voxcinemas.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8813dcfb-7f83-4b2a-b5b6-08aafa742b07",
-                        "name": "https://www.skidxb.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.skidxb.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "005d6fd9-5c1a-45f7-a2b6-af0e2fdfd820",
-                                    "name": "Laravel"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b5223f5f-394f-4a16-8525-fe05b29f101b",
-                        "name": "https://www.magicplanetmena.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.magicplanetmena.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "df3c657c-9798-41da-beff-f8ac6feef6ad",
-                "name": "Out of scope targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/vox/target_groups/98f031a0-7b32-43bd-adbb-5480c32d8d24/targets",
-                "targets": [
-                    {
-                        "id": "e2f3f4b0-0360-4485-b440-755df0bd43e5",
-                        "name": "http://www.theplaymania.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "FoxyCart",
-        "tagline": "A superior ecommerce experience",
-        "briefUrl": "/engagements/foxycart",
-        "backgroundColor": "#633f6f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
-        "rewardSummary": {
-            "summary": "$25 - $600",
-            "hint": null,
-            "minReward": "$25",
-            "maxReward": "$600",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/foxycart/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Rapyd",
-        "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
-        "briefUrl": "/engagements/rapyd",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/13a5/c1ee/7624f625/29a746eeb7538a2c124904dde8ea4b32_rapyd.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $7,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$7,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/rapyd/engagement_subscribers",
         "target_groups": []
     }
 ]
