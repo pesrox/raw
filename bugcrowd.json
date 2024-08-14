@@ -1,5 +1,743 @@
 [
     {
+        "name": "Wise (ex-TransferWise)",
+        "tagline": "Wise \u2014 the global technology company building the best way to move money around the world.",
+        "briefUrl": "/wise",
+        "backgroundColor": "#9FE870",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0c2c/9c3c/5b3e5c76/c5d476023996c36e0d6dfa6468fd98c5_Wise_FastFlag_ForestGreen-svg.png",
+        "rewardSummary": {
+            "summary": "$100 - $4,000",
+            "hint": "Up to $6,000",
+            "minReward": "$100",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $6,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/wise/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "bfa40a2a-ba0d-4a10-bf14-7862d3ba33fe",
+                "name": "In scope targets",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1500.0
+                    },
+                    "3": {
+                        "min": 300.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 150.0
+                    },
+                    "program_max": 6000
+                },
+                "sort_order": 0,
+                "targets_url": "/wise/target_groups/381ae34a-d5f2-4c83-b3d5-b2d9b2b19539/targets",
+                "targets": [
+                    {
+                        "id": "a4d0cefe-ce71-492f-8f53-65369ba5cf6b",
+                        "name": "transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://transferwise.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                    "name": "Javascript"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ee0e5d98-c95e-4cb0-a5ce-0f1381dee7e2",
+                        "name": "*.transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                    "name": "Javascript"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "29a34cb5-3fe1-4911-adba-2b823b78e131",
+                        "name": "wise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://wise.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                    "name": "Javascript"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1b74ac68-d59f-44c6-9efc-4172676433bd",
+                        "name": "*.wise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
+                                    "name": "Cloudflare CDN"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                    "name": "Javascript"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ced6b20a-b051-4a63-a4e9-05a240fe6a01",
+                        "name": "Latest version of Wise iOS App",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/us/app/wise-ex-transferwise/id612261027",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "42edb838-8768-409b-89cb-fbf3c3eb194f",
+                        "name": "Latest version of Wise Android App",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en_US&gl=US",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c1e7bc0e-f991-4ece-831a-26d5fdc392f5",
+                        "name": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a18beccc-20e7-48a8-bd7a-966cf6f8572b",
+                        "name": "github.com/transferwise/*",
+                        "description": null,
+                        "category": "other",
+                        "uri": "https://github.com/transferwise/*",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "20f6988d-5b8c-41bb-9ca8-d9b271b7874d",
+                                    "name": "Github"
+                                },
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "d3d0dda1-079b-4567-83f2-8c7d1f36927b",
+                "name": "Out of scope targets",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 0,
+                "targets_url": "/wise/target_groups/76eb283a-3f43-4716-beeb-09f7f93a7c5e/targets",
+                "targets": [
+                    {
+                        "id": "42992ba9-64ce-41de-b0b7-1c1061c15788",
+                        "name": "Wise Affiliate Program",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c204ff9d-9312-4d80-8bb5-f5e789b193dd",
+                        "name": "Third party services not hosted by Wise",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f1eca975-36b6-4ee8-a2ea-011277d69f3e",
+                        "name": "Any Github asset not under the \u201ctransferwise\u201d organization",
+                        "description": null,
+                        "category": "other",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "20f6988d-5b8c-41bb-9ca8-d9b271b7874d",
+                                    "name": "Github"
+                                },
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c12d1262-992b-4860-b251-b73017d712c8",
+                        "name": "Third party authentication services (eg: Facebook and Google)",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1766b848-bb1f-418a-9858-0ea6b04253f0",
+                        "name": "https://transferwise.com/help/contact",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e7494d2d-75a0-4916-9e50-eec5c1d983ff",
+                        "name": "https://wise.com/help/contact",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fa540fa4-a945-40ae-8d6a-9601510716b0",
+                        "name": "*.tw.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3357ef6a-1995-470b-a60c-ad6d7fa9adf0",
+                        "name": "*.tw.ee",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "50238193-d7fe-42b2-be05-a2d06b05dcbd",
+                        "name": "Non-current version of the Android app",
+                        "description": null,
+                        "category": "android",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "50557c5f-5bd3-4567-8295-5f19501bad73",
+                        "name": "Non-current version of the iOS app",
+                        "description": null,
+                        "category": "ios",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "96052a65-0581-413a-ad81-63c685ba1b14",
+                        "name": "*.transferwise.tech",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "68d731f4-28d5-4350-9853-ef7354d5e4c1",
+                        "name": "brand.wise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "abfe33bd-e9ea-4458-a6cf-81412a892ebc",
+                        "name": "links.wise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0c5f7a01-c00e-43af-a1d0-4a68bb751a09",
+                        "name": "widgets.transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 13,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "729baf23-8069-430a-bdcb-362ddf8d9e40",
+                        "name": "brand.transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 14,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "196788f9-7114-4bdb-958d-2919bb4dccdb",
+                        "name": "bootstrap.transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 15,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "53b1ea51-179d-42e5-a66b-7aea2a7830cc",
+                        "name": "links.transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 16,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "de94189e-5c90-4ec8-a61c-2eee5e864fc6",
+                        "name": "status.wise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 17,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2f15cde9-dc94-41e4-b291-6ae3301b6300",
+                        "name": "status.transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 18,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "30aeb90a-25d7-4494-b07a-d27bf1976083",
+                        "name": "tech.transferwise.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 19,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "OneTrust",
         "tagline": "OneTrust Privacy. Privacy Management Software. Operationalize Your \u200bPrivacy Program for \u200bCCPA, GDPR & \u200bAll the World's Privacy Laws\u200b.",
         "briefUrl": "/engagements/onetrust",
@@ -2584,744 +3322,6 @@
                             "tags": []
                         },
                         "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Wise (ex-TransferWise)",
-        "tagline": "Wise \u2014 the global technology company building the best way to move money around the world.",
-        "briefUrl": "/wise",
-        "backgroundColor": "#9FE870",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0c2c/9c3c/5b3e5c76/c5d476023996c36e0d6dfa6468fd98c5_Wise_FastFlag_ForestGreen-svg.png",
-        "rewardSummary": {
-            "summary": "$100 - $4,000",
-            "hint": "Up to $6,000",
-            "minReward": "$100",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $6,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/wise/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "bfa40a2a-ba0d-4a10-bf14-7862d3ba33fe",
-                "name": "In scope targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 1500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 150.0
-                    },
-                    "program_max": 6000
-                },
-                "sort_order": 0,
-                "targets_url": "/wise/target_groups/381ae34a-d5f2-4c83-b3d5-b2d9b2b19539/targets",
-                "targets": [
-                    {
-                        "id": "a4d0cefe-ce71-492f-8f53-65369ba5cf6b",
-                        "name": "transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://transferwise.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ee0e5d98-c95e-4cb0-a5ce-0f1381dee7e2",
-                        "name": "*.transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "29a34cb5-3fe1-4911-adba-2b823b78e131",
-                        "name": "wise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://wise.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1b74ac68-d59f-44c6-9efc-4172676433bd",
-                        "name": "*.wise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ced6b20a-b051-4a63-a4e9-05a240fe6a01",
-                        "name": "Latest version of Wise iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/wise-ex-transferwise/id612261027",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "42edb838-8768-409b-89cb-fbf3c3eb194f",
-                        "name": "Latest version of Wise Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c1e7bc0e-f991-4ece-831a-26d5fdc392f5",
-                        "name": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a18beccc-20e7-48a8-bd7a-966cf6f8572b",
-                        "name": "github.com/transferwise/*",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://github.com/transferwise/*",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "20f6988d-5b8c-41bb-9ca8-d9b271b7874d",
-                                    "name": "Github"
-                                },
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "d3d0dda1-079b-4567-83f2-8c7d1f36927b",
-                "name": "Out of scope targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/wise/target_groups/76eb283a-3f43-4716-beeb-09f7f93a7c5e/targets",
-                "targets": [
-                    {
-                        "id": "42992ba9-64ce-41de-b0b7-1c1061c15788",
-                        "name": "Wise Affiliate Program",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c204ff9d-9312-4d80-8bb5-f5e789b193dd",
-                        "name": "Third party services not hosted by Wise",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f1eca975-36b6-4ee8-a2ea-011277d69f3e",
-                        "name": "Any Github asset not under the \u201ctransferwise\u201d organization",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "20f6988d-5b8c-41bb-9ca8-d9b271b7874d",
-                                    "name": "Github"
-                                },
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c12d1262-992b-4860-b251-b73017d712c8",
-                        "name": "Third party authentication services (eg: Facebook and Google)",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1766b848-bb1f-418a-9858-0ea6b04253f0",
-                        "name": "https://transferwise.com/help/contact",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e7494d2d-75a0-4916-9e50-eec5c1d983ff",
-                        "name": "https://wise.com/help/contact",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fa540fa4-a945-40ae-8d6a-9601510716b0",
-                        "name": "*.tw.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3357ef6a-1995-470b-a60c-ad6d7fa9adf0",
-                        "name": "*.tw.ee",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "50238193-d7fe-42b2-be05-a2d06b05dcbd",
-                        "name": "Non-current version of the Android app",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "50557c5f-5bd3-4567-8295-5f19501bad73",
-                        "name": "Non-current version of the iOS app",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "96052a65-0581-413a-ad81-63c685ba1b14",
-                        "name": "*.transferwise.tech",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "68d731f4-28d5-4350-9853-ef7354d5e4c1",
-                        "name": "brand.wise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "abfe33bd-e9ea-4458-a6cf-81412a892ebc",
-                        "name": "links.wise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0c5f7a01-c00e-43af-a1d0-4a68bb751a09",
-                        "name": "widgets.transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "729baf23-8069-430a-bdcb-362ddf8d9e40",
-                        "name": "brand.transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "196788f9-7114-4bdb-958d-2919bb4dccdb",
-                        "name": "bootstrap.transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "53b1ea51-179d-42e5-a66b-7aea2a7830cc",
-                        "name": "links.transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "de94189e-5c90-4ec8-a61c-2eee5e864fc6",
-                        "name": "status.wise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2f15cde9-dc94-41e4-b291-6ae3301b6300",
-                        "name": "status.transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "30aeb90a-25d7-4494-b07a-d27bf1976083",
-                        "name": "tech.transferwise.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 19,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -37942,36 +37942,6 @@
         "target_groups": []
     },
     {
-        "name": " 1Password",
-        "tagline": "1Password is the world's best password manager. Perfect for protecting your business, team, and family.",
-        "briefUrl": "/engagements/agilebits",
-        "backgroundColor": "#1A8CFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6de0/c267/09f3acb6/adf52a8b65406a0323c153ab8b27f505_1Password-Lock_2x.png",
-        "rewardSummary": {
-            "summary": "$50 - $30,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$30,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/agilebits/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "1Password Bug Bounty CTF",
         "tagline": "We introduced a $1 million CTF bug bounty challenge in 2022 to further our commitment to providing an industry-leading security platform for individuals, families, and businesses.",
         "briefUrl": "/engagements/agilebits-ctf",
@@ -38734,6 +38704,36 @@
         ]
     },
     {
+        "name": " 1Password",
+        "tagline": "1Password is the world's best password manager. Perfect for protecting your business, team, and family.",
+        "briefUrl": "/engagements/agilebits",
+        "backgroundColor": "#1A8CFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6de0/c267/09f3acb6/adf52a8b65406a0323c153ab8b27f505_1Password-Lock_2x.png",
+        "rewardSummary": {
+            "summary": "$50 - $30,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$30,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/agilebits/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Rarible",
         "tagline": "Help us secure the future!",
         "briefUrl": "/engagements/rarible-ogmbb",
@@ -39151,226 +39151,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/aylo-trafficjunky-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
-                "name": "MAF-Retail",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
-                "targets": [
-                    {
-                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
-                        "name": "Carrefour UAE iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
-                        "name": "Carrefour UAE Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
-                        "name": "carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
-                        "name": "https://api-prod.retailsso.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api-prod.retailsso.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
-                "name": "Out of scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
-                "targets": [
-                    {
-                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
-                        "name": "https://cwingsfe.mafrservices.com/login",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cwingsfe.mafrservices.com/login",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Rec Room Video Games",
-        "tagline": "Help secure Rec Room!",
-        "briefUrl": "/engagements/recroom-og",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/82f3/f343/ef815849/b59ec6dbe1192520f39c172ccff86bfb_Rec_Room_Logo.jpeg",
-        "rewardSummary": {
-            "summary": "$150 - $2,500",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/recroom-og/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -39799,6 +39579,226 @@
         ]
     },
     {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
+                "name": "MAF-Retail",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
+                "targets": [
+                    {
+                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
+                        "name": "Carrefour UAE iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
+                        "name": "Carrefour UAE Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
+                        "name": "carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
+                        "name": "https://api-prod.retailsso.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api-prod.retailsso.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
+                "name": "Out of scope",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
+                "targets": [
+                    {
+                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
+                        "name": "https://cwingsfe.mafrservices.com/login",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cwingsfe.mafrservices.com/login",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rec Room Video Games",
+        "tagline": "Help secure Rec Room!",
+        "briefUrl": "/engagements/recroom-og",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/82f3/f343/ef815849/b59ec6dbe1192520f39c172ccff86bfb_Rec_Room_Logo.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/recroom-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Lightspeed Retail",
         "tagline": "Lightspeed Retail is a public bug bounty program in Bugcrowd. We aim to build stronger relationships with the security community by rewarding security researchers for their work in finding security vulnerabilities.",
         "briefUrl": "/engagements/lightspeed-retail",
@@ -40039,36 +40039,6 @@
         "target_groups": []
     },
     {
-        "name": "Braze Public BB",
-        "tagline": "Braze is a comprehensive customer engagement platform that powers relevant and memorable experiences between consumers and the brands they love.",
-        "briefUrl": "/engagements/braze-bb",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4304/374e/b79b9976/4d899334d6e6e56c0ed5ff7fe14ef752_braze_logo.jpeg",
-        "rewardSummary": {
-            "summary": "$300 - $5,000",
-            "hint": null,
-            "minReward": "$300",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/braze-bb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Flourish",
         "tagline": "Help secure the Flourish platform! ",
         "briefUrl": "/engagements/flourish",
@@ -40096,6 +40066,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/flourish/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Braze Public BB",
+        "tagline": "Braze is a comprehensive customer engagement platform that powers relevant and memorable experiences between consumers and the brands they love.",
+        "briefUrl": "/engagements/braze-bb",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4304/374e/b79b9976/4d899334d6e6e56c0ed5ff7fe14ef752_braze_logo.jpeg",
+        "rewardSummary": {
+            "summary": "$300 - $5,000",
+            "hint": null,
+            "minReward": "$300",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/braze-bb/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -41505,36 +41505,6 @@
         "target_groups": []
     },
     {
-        "name": "Code.org",
-        "tagline": "Ensure that Code.org protects teacher and student privacy as we increase our reach to schools across the world.",
-        "briefUrl": "/engagements/codeorg",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a125/0488/08dd1086/dcf2a67061c95bfffb397362e2668fff_code_image.png",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Education",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/codeorg/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Opera Public Bug Bounty",
         "tagline": "Opera is a leading global internet brand with a large, engaged and growing base of over 380 million average monthly active users.",
         "briefUrl": "/engagements/opera",
@@ -41563,91 +41533,6 @@
         },
         "subscriptionUrl": "/opera/engagement_subscribers",
         "target_groups": []
-    },
-    {
-        "name": "Skroutz Public Managed Bug Bounty",
-        "tagline": "Skroutz",
-        "briefUrl": "/skroutz",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $4,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/skroutz/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
-                "name": "Skroutz Public Application",
-                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
-                "targets": [
-                    {
-                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
-                        "name": "https://www.skroutz.gr/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.skroutz.gr/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "Etsy",
@@ -42116,6 +42001,121 @@
         "target_groups": []
     },
     {
+        "name": "Skroutz Public Managed Bug Bounty",
+        "tagline": "Skroutz",
+        "briefUrl": "/skroutz",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/skroutz/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "0922b3fe-7cf5-4d1d-bb95-65658502f222",
+                "name": "Skroutz Public Application",
+                "description_html": "<p>You are testing directly on Skroutz's production environment. Behavior that compromises the stability and integrity of the site is strictly forbidden &amp; out of scope. For example, do not target other user's data (use one of your other sets of credentials), delete/remove/edit parts of the site, engage any sort of DoS attack, and/or compromise any target's ability to function for other users. If you believe that you have found a vulnerability of this nature, please cease all further testing and report it immediately.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4100.0,
+                        "max": 4500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1750.0
+                    },
+                    "3": {
+                        "min": 600.0,
+                        "max": 850.0
+                    },
+                    "4": {
+                        "min": 100.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/skroutz/target_groups/b7b2af83-8a4d-43c0-b626-501a3c28aa85/targets",
+                "targets": [
+                    {
+                        "id": "3c05937b-57d9-4224-9336-45ee3d96c41e",
+                        "name": "https://www.skroutz.gr/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.skroutz.gr/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Code.org",
+        "tagline": "Ensure that Code.org protects teacher and student privacy as we increase our reach to schools across the world.",
+        "briefUrl": "/engagements/codeorg",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a125/0488/08dd1086/dcf2a67061c95bfffb397362e2668fff_code_image.png",
+        "rewardSummary": {
+            "summary": "Points - $2,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Education",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/codeorg/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Humble Bundle",
         "tagline": "Pay what you want and help charity",
         "briefUrl": "/engagements/humblebundle",
@@ -42346,36 +42346,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/luno-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Rapyd",
-        "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
-        "briefUrl": "/engagements/rapyd",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/13a5/c1ee/7624f625/29a746eeb7538a2c124904dde8ea4b32_rapyd.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $7,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$7,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/rapyd/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -42892,6 +42862,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/foxycart/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Rapyd",
+        "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
+        "briefUrl": "/engagements/rapyd",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/13a5/c1ee/7624f625/29a746eeb7538a2c124904dde8ea4b32_rapyd.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $7,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$7,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/rapyd/engagement_subscribers",
         "target_groups": []
     }
 ]
