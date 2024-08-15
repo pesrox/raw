@@ -38473,36 +38473,6 @@
         "target_groups": []
     },
     {
-        "name": "Tesla",
-        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
-        "briefUrl": "/engagements/tesla",
-        "backgroundColor": "#191919",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
-        "rewardSummary": {
-            "summary": "$100 - $100,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$100,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Automotive",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tesla/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Octopus",
         "tagline": "Octopus Bug Bounty Program",
         "briefUrl": "/engagements/octopus-og",
@@ -38863,6 +38833,138 @@
         "target_groups": []
     },
     {
+        "name": "Elementor: Bug Bounty Program",
+        "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
+        "briefUrl": "/engagements/elementor",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a880/dc8a/18521ffb/68ba632ad0ea3d6739987c6435b17c32_elementor.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": "Up to $5,000",
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $5,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/elementor/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Tesla",
+        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
+        "briefUrl": "/engagements/tesla",
+        "backgroundColor": "#191919",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
+        "rewardSummary": {
+            "summary": "$100 - $100,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$100,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Automotive",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tesla/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/fis",
@@ -38948,108 +39050,6 @@
                         "category": "website",
                         "uri": "https://apuat-aaa.fisglobal.com",
                         "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Elementor: Bug Bounty Program",
-        "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
-        "briefUrl": "/engagements/elementor",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a880/dc8a/18521ffb/68ba632ad0ea3d6739987c6435b17c32_elementor.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": "Up to $5,000",
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $5,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/elementor/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
                         "target": {
                             "tags": []
                         },
@@ -39362,36 +39362,6 @@
         "target_groups": []
     },
     {
-        "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
-        "tagline": "ThousandEyes enables organizations to see and take action to maintain and optimize every digital journey that matters. ",
-        "briefUrl": "/engagements/thousandeyes-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eb4d/6d03/45c7aaeb/daa295c2a67a9bbd46ed2b47f351f8e0_Cisco_ThousandEyes_Logo_Stacked_Orange_Blue.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/thousandeyes-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "TrafficJunky Managed Bug Bounty Program",
         "tagline": "TrafficJunky is a tech pioneer offering world class adult content platforms. Please submit your findings to this Bug Bounty Program.",
         "briefUrl": "/engagements/aylo-trafficjunky-mbb-og",
@@ -39610,36 +39580,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Just Eat Takeaway.com",
-        "tagline": "Lead, Deliver, Care - Takeaway.com",
-        "briefUrl": "/engagements/justeattakeaway",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7e5a/a4bb/2b0e9195/5d8a532789835597667149ffeb712ff1_Screenshot-2021-09-30-at-14-19-09-Zeplin-Projects.png",
-        "rewardSummary": {
-            "summary": "$100 - $4,000",
-            "hint": "Up to $5,000",
-            "minReward": "$100",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $5,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Hospitality",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/justeattakeaway/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "Keeper Security Public Bounty Program",
@@ -40155,6 +40095,66 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Just Eat Takeaway.com",
+        "tagline": "Lead, Deliver, Care - Takeaway.com",
+        "briefUrl": "/engagements/justeattakeaway",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7e5a/a4bb/2b0e9195/5d8a532789835597667149ffeb712ff1_Screenshot-2021-09-30-at-14-19-09-Zeplin-Projects.png",
+        "rewardSummary": {
+            "summary": "$100 - $4,000",
+            "hint": "Up to $5,000",
+            "minReward": "$100",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $5,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Hospitality",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/justeattakeaway/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
+        "tagline": "ThousandEyes enables organizations to see and take action to maintain and optimize every digital journey that matters. ",
+        "briefUrl": "/engagements/thousandeyes-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eb4d/6d03/45c7aaeb/daa295c2a67a9bbd46ed2b47f351f8e0_Cisco_ThousandEyes_Logo_Stacked_Orange_Blue.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/thousandeyes-og/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "Bitdefender Box v2",
