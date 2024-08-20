@@ -38773,103 +38773,6 @@
         "target_groups": []
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/6e3b90a0-fec7-4b40-9e86-d579e80f58e9/targets",
-                "targets": [
-                    {
-                        "id": "3c28afa3-63c6-4d70-84d5-52826acb1656",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>xxxlendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>MyLoanPortal.commercebank.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>loanapps.fcbca.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>portaltest.fisglobal.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>lendinghfs.hatborofed.com</li>\n<li>loans.bankofluxemburg.com</li>\n<li>loans.collinsstatebank.com</li>\n<li>loans.fmberlin.com</li>\n<li>creditcards.first-online.com</li>\n<li>loans.hickorypointbank.com</li>\n<li>loans.pattersonstatebank.com</li>\n<li>loan.summitfgi.com</li>\n<li>lending.tristar.bank</li>\n<li>idmt1.fisglobal.com</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>apuat-bankiowa.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com</li>\n<li>apuat-fcbca.fisglobal.com</li>\n<li>apuat-fnbgranbury.fisglobal.com</li>\n<li>apuat-highlands.fisglobal.com</li>\n<li>apuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>apuat-plainscapitol.fisglobal.com</li>\n<li>apuat-primesouth.fisglobal.com</li>\n<li>xxxap-uat3.fisglobal.com</li>\n<li>ID-UAT1.fisglobal.com</li>\n<li>apuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>apuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>id-uat.fisglobal.com</li>\n<li>id-uat3.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankiowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>sedgwick assets</li>\n<li>sungard availability services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>results-loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>intelhub-webuat.fisglobal.com</li>\n<li>intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>testintelhub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 9/20/2024) (All instances and environments)</li>\n<li>Adeptia assets (OOS effective 8/15 until 10/15/2024)</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/63b89d10-1218-4ec5-b253-980df5931f2c/targets",
-                "targets": [
-                    {
-                        "id": "0d51e4f4-7f0c-41db-841f-f93cd5ce64f4",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Worldpay",
         "tagline": "We are forging the future of payments.",
         "briefUrl": "/worldpay",
@@ -39060,6 +38963,103 @@
         },
         "subscriptionUrl": "/kucoin/engagement_subscribers",
         "target_groups": []
+    },
+    {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/6e3b90a0-fec7-4b40-9e86-d579e80f58e9/targets",
+                "targets": [
+                    {
+                        "id": "3c28afa3-63c6-4d70-84d5-52826acb1656",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>xxxlendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>MyLoanPortal.commercebank.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>loanapps.fcbca.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>portaltest.fisglobal.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>lendinghfs.hatborofed.com</li>\n<li>loans.bankofluxemburg.com</li>\n<li>loans.collinsstatebank.com</li>\n<li>loans.fmberlin.com</li>\n<li>creditcards.first-online.com</li>\n<li>loans.hickorypointbank.com</li>\n<li>loans.pattersonstatebank.com</li>\n<li>loan.summitfgi.com</li>\n<li>lending.tristar.bank</li>\n<li>idmt1.fisglobal.com</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>apuat-bankiowa.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com</li>\n<li>apuat-fcbca.fisglobal.com</li>\n<li>apuat-fnbgranbury.fisglobal.com</li>\n<li>apuat-highlands.fisglobal.com</li>\n<li>apuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>apuat-plainscapitol.fisglobal.com</li>\n<li>apuat-primesouth.fisglobal.com</li>\n<li>xxxap-uat3.fisglobal.com</li>\n<li>ID-UAT1.fisglobal.com</li>\n<li>apuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>apuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>id-uat.fisglobal.com</li>\n<li>id-uat3.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankiowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>sedgwick assets</li>\n<li>sungard availability services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>results-loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>intelhub-webuat.fisglobal.com</li>\n<li>intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>testintelhub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 9/20/2024) (All instances and environments)</li>\n<li>Adeptia assets (OOS effective 8/15 until 10/15/2024)</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/63b89d10-1218-4ec5-b253-980df5931f2c/targets",
+                "targets": [
+                    {
+                        "id": "0d51e4f4-7f0c-41db-841f-f93cd5ce64f4",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Rarible",
@@ -39360,196 +39360,6 @@
         },
         "subscriptionUrl": "/neohrms/engagement_subscribers",
         "target_groups": []
-    },
-    {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
-                "name": "MAF-Retail",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
-                "targets": [
-                    {
-                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
-                        "name": "Carrefour UAE iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
-                        "name": "Carrefour UAE Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
-                        "name": "carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
-                        "name": "https://api-prod.retailsso.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api-prod.retailsso.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
-                "name": "Out of scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
-                "targets": [
-                    {
-                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
-                        "name": "https://cwingsfe.mafrservices.com/login",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cwingsfe.mafrservices.com/login",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "Just Eat Takeaway.com",
@@ -40174,6 +39984,196 @@
         },
         "subscriptionUrl": "/aylo-trafficjunky-mbb-og/engagement_subscribers",
         "target_groups": []
+    },
+    {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
+                "name": "MAF-Retail",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
+                "targets": [
+                    {
+                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
+                        "name": "Carrefour UAE iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
+                        "name": "Carrefour UAE Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
+                        "name": "carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
+                        "name": "https://api-prod.retailsso.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api-prod.retailsso.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
+                "name": "Out of scope",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
+                "targets": [
+                    {
+                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
+                        "name": "https://cwingsfe.mafrservices.com/login",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cwingsfe.mafrservices.com/login",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Bitdefender Box v2",
@@ -40947,36 +40947,6 @@
         "target_groups": []
     },
     {
-        "name": "T-Mobile",
-        "tagline": "Welcome to The Uncarrier. Are You With Us?",
-        "briefUrl": "/engagements/t-mobile",
-        "backgroundColor": "#e20074",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
-        "rewardSummary": {
-            "summary": "Points - $133,700",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$133,700",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Utilities",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/t-mobile/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "NETGEAR Cash Rewards",
         "tagline": "NETGEAR Cash Rewards Program",
         "briefUrl": "/netgear",
@@ -41439,6 +41409,36 @@
         "target_groups": []
     },
     {
+        "name": "T-Mobile",
+        "tagline": "Welcome to The Uncarrier. Are You With Us?",
+        "briefUrl": "/engagements/t-mobile",
+        "backgroundColor": "#e20074",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
+        "rewardSummary": {
+            "summary": "Points - $133,700",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$133,700",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/t-mobile/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Humble Bundle",
         "tagline": "Pay what you want and help charity",
         "briefUrl": "/engagements/humblebundle",
@@ -41792,134 +41792,6 @@
         "target_groups": []
     },
     {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/vox",
@@ -42216,6 +42088,134 @@
         },
         "subscriptionUrl": "/luno-og/engagement_subscribers",
         "target_groups": []
+    },
+    {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Shipwire",
