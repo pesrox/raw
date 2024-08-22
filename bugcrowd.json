@@ -37496,36 +37496,6 @@
         "target_groups": []
     },
     {
-        "name": "Dropbox",
-        "tagline": "Your stuff, anywhere",
-        "briefUrl": "/engagements/dropbox",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dropbox/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/fis",
@@ -37623,16 +37593,16 @@
         ]
     },
     {
-        "name": "Tesla",
-        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
-        "briefUrl": "/engagements/tesla",
-        "backgroundColor": "#191919",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
+        "name": "Dropbox",
+        "tagline": "Your stuff, anywhere",
+        "briefUrl": "/engagements/dropbox",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
         "rewardSummary": {
-            "summary": "$100 - $100,000",
+            "summary": "$100 - $10,000",
             "hint": null,
             "minReward": "$100",
-            "maxReward": "$100,000",
+            "maxReward": "$10,000",
             "compensationSummary": null,
             "compensationHint": null
         },
@@ -37640,7 +37610,7 @@
         "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Automotive",
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -37649,7 +37619,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/tesla/engagement_subscribers",
+        "subscriptionUrl": "/dropbox/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -37680,6 +37650,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/kucoin/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Tesla",
+        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
+        "briefUrl": "/engagements/tesla",
+        "backgroundColor": "#191919",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
+        "rewardSummary": {
+            "summary": "$100 - $100,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$100,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Automotive",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tesla/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -39252,6 +39252,194 @@
         "target_groups": []
     },
     {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Electroneum",
+        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
+        "briefUrl": "/engagements/electroneum",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $12,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$12,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/electroneum/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Pixabay",
+        "tagline": "Pixabay Vulnerability Disclosure Program",
+        "briefUrl": "/engagements/pixabay",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/pixabay/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/vox",
@@ -39488,194 +39676,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Electroneum",
-        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
-        "briefUrl": "/engagements/electroneum",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $12,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$12,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/electroneum/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Pixabay",
-        "tagline": "Pixabay Vulnerability Disclosure Program",
-        "briefUrl": "/engagements/pixabay",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/pixabay/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "20 Minuten",
@@ -40470,36 +40470,6 @@
         "target_groups": []
     },
     {
-        "name": "Flourish",
-        "tagline": "Help secure the Flourish platform! ",
-        "briefUrl": "/engagements/flourish",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/flourish/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Majid Al Futtaim Lifestyle",
         "tagline": "Majid Al Futtaim Lifestyle",
         "briefUrl": "/maffashion",
@@ -41001,6 +40971,36 @@
         "target_groups": []
     },
     {
+        "name": "Flourish",
+        "tagline": "Help secure the Flourish platform! ",
+        "briefUrl": "/engagements/flourish",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/flourish/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "SecureDrop",
         "tagline": "The open-source whistleblower submission system managed by Freedom of the Press Foundation",
         "briefUrl": "/engagements/freedomofpress",
@@ -41474,6 +41474,66 @@
         "target_groups": []
     },
     {
+        "name": "HostGator Latam Bug Bounty",
+        "tagline": "Submit your finding to the program!",
+        "briefUrl": "/engagements/hostgator-latam-bb",
+        "backgroundColor": "#f98f48",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/746a/65fe/37fbf960/8434d215f5ea8617bcd48b53664d246a_latam.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $2,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/hostgator-latam-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
+        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/ultramobile",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
+        "rewardSummary": {
+            "summary": "$175 - $4,500",
+            "hint": null,
+            "minReward": "$175",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ultramobile/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Etsy",
         "tagline": "Shop for anything from creative people everywhere",
         "briefUrl": "/etsy",
@@ -41908,65 +41968,5 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "HostGator Latam Bug Bounty",
-        "tagline": "Submit your finding to the program!",
-        "briefUrl": "/engagements/hostgator-latam-bb",
-        "backgroundColor": "#f98f48",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/746a/65fe/37fbf960/8434d215f5ea8617bcd48b53664d246a_latam.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/hostgator-latam-bb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
-        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/ultramobile",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
-        "rewardSummary": {
-            "summary": "$175 - $4,500",
-            "hint": null,
-            "minReward": "$175",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ultramobile/engagement_subscribers",
-        "target_groups": []
     }
 ]
