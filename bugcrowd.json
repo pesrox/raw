@@ -9635,993 +9635,6 @@
         ]
     },
     {
-        "name": "Mastercard Public Bug Bounty ",
-        "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
-        "briefUrl": "/mastercard",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b4a9/84bb/3dce2d73/b0f1f87e4b18bed77f9242b568d5f365_FINAL_-_Works_for_brief.png",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/mastercard/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "613ec185-5708-47f0-8f5a-3abb2b7227f1",
-                "name": "Public Targets (In-scope)",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 2000.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 1000.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/mastercard/target_groups/1c0ccc47-dd08-4c97-85e9-2a75722dcb47/targets",
-                "targets": [
-                    {
-                        "id": "f3ec0edb-4e79-43f8-bb8c-9bf7e30068e4",
-                        "name": "Simplify Commerce - www.simplify.com/commerce/ ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.simplify.com/commerce/ ",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e13d0e89-4575-4c26-ad30-56cc7c4b2f30",
-                        "name": "MasterCard.us - www.mastercard.us/en-us.html",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.mastercard.us/en-us.html",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fc324efd-8fa1-41f8-b85c-23d654f8e03c",
-                        "name": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.mastercard.ch/de-ch.html",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5c4228e6-fda6-45ab-a3fc-b4da40567eb8",
-                        "name": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.mastercard.ch/fr-ch.html",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f2b14e5c-f07e-49e0-b6cf-6895ebd447b2",
-                        "name": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.mastercard.com.au/en-au.html",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "55ef6e99-d65b-4895-b8a6-3111f678ee6b",
-                        "name": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.mastercard.nl/nl-nl.html",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "378ca7f7-1365-49ac-8ae0-96f8d2febb27",
-                        "name": "https://developer.mastercard.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://developer.mastercard.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0f862cf8-efbe-464e-880a-506973310ef6",
-                        "name": "donate.mastercard.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://donate.mastercard.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "187a0132-af2c-45e1-b4af-77ac6117b9dc",
-                                    "name": "Adobe Experience Manager"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3df12b89-138c-4f5a-99fe-8ce107a3c1cb",
-                        "name": "Core Priceless.com - demo.priceless.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://demo.priceless.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "68005670-fd48-4fbd-b501-b4900cc1fe41",
-                        "name": "https://europe.priceless.com/shb",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://europe.priceless.com/shb",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e91a820e-08cc-44e0-9850-d7c0458c3c3b",
-                        "name": "https://priceless.com/golf/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://priceless.com/golf/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e07976e4-50f1-49a3-ab79-9af1f6a78609",
-                        "name": "https://pricelesssurprises.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://pricelesssurprises.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a6f76b02-96a2-4581-b3b8-0453a74feae9",
-                        "name": "https://priceless.com/aa/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://priceless.com/aa/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6cda1987-61a9-45df-9ef7-abe3c321bdec",
-                        "name": "https://priceless.com/aviator/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://priceless.com/aviator/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "68b31821-397c-4a10-9c01-bd77b9b6aac6",
-                        "name": "https://priceless.com/citiaadvantage/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://priceless.com/citiaadvantage/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "df3d30ed-6ccf-43ce-9f50-de5614740eb0",
-                        "name": "https://performancemarketing.mastercard.com/portal/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://performancemarketing.mastercard.com/portal/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8ba3a00b-81cf-4944-bbe8-483789dc76a4",
-                        "name": "https://src.mastercard.com/profile/enroll",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://src.mastercard.com/profile/enroll",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "14e0d1fa-a820-483f-b0a7-26d113d8c6b7",
-                        "name": "https://src.mastercard.com/*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6fdeb1d1-3ac0-497e-b69a-04d1f0038d5d",
-                        "name": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ce8ff3cd-4d54-4404-8321-6351781551a3",
-                                    "name": "Vue.js"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "27fcfcee-2843-41bc-850e-44fb14ba00e4",
-                        "name": " Finicity Connect",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4dd6b29b-94c9-4a7e-9fb1-9412d07d9cc1",
-                        "name": "Finicity- Data Services",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "635f5039-7974-430d-af2b-c9aca37d312c",
-                        "name": "Finicity Decisioning",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 21,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "42b67ff6-31b1-4eb9-8a24-8151f3631b1c",
-                        "name": "https://www.finicity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.finicity.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
-                                    "name": "PHP"
-                                }
-                            ]
-                        },
-                        "sort_order": 22,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8f802e22-23ba-4ae6-a51b-0e37269f0d92",
-                        "name": "https://consumer.finicityreports.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://consumer.finicityreports.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 23,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e0ecce6f-fcf8-4a99-a7ee-fcc4fe48d976",
-                        "name": "Finicity- Open Banking Payment History application",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 24,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6602c05e-b941-4490-82d2-d67bd8d48d75",
-                        "name": "Finicity - OBB (Open Banking Business Service) ",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 25,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "06a73e52-fda8-4f25-865b-1ca8667127f4",
-                "name": "Public Other Targets",
-                "description_html": "<p>If you find a security flaw on a target that is outside of the scope mentioned under 'Private' and 'Public' Target but clearly affects Mastercard, you can report it at ''Public Other'' Program. <br>\nAlso, findings related to Mergers and Acquisitions (M&amp;A) could be considered under \u2018Public Others\u2019 category. </p>\n\n<h5>Vendor based application URLs/3rd party URLs:</h5>\n\n<p>Any Partner Sites of Mastercard (e.g. www.mastercard-*.com) are mainly marketing based sites that are not part of the core Mastercard domains (.mastercard.com) and are managed by hosting vendor companies. Vulnerabilities on these assets will be awarded lower bounties:</p>\n\n<table>\n<thead>\n<tr>\n<th>P1</th>\n<th>P2</th>\n<th>P3</th>\n<th>P4</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>$700</td>\n<td>$300</td>\n<td>$150</td>\n<td>$50</td>\n</tr>\n</tbody>\n</table>\n\n<p>The reward amount for submissions reported for any lower environment (such as stage, dev, test, sandbox, or UAT) of third-party developed (vendor) applications will be 50% of the standard amount mentioned in above table.</p>\n\n<h4>give.mastercard.com is a vendor based application and bounty payouts will be according to this table.</h4>\n\n<h5>Pay-outs for Subdomain Takeover:</h5>\n\n<p>Pay-outs for Subdomain Takeover findings differ from the rewards listed above. Please review the severity and descriptions below before submitting a report.</p>\n\n<table>\n<thead>\n<tr>\n<th>Impact</th>\n<th>Severity</th>\n<th>Reward</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>High Impact Subdomain Takeover</td>\n<td>P2</td>\n<td>$900</td>\n<td>Awarded for domains and subdomains with reputational or technical risk. Also, for subdomains under a parent domain with reputational or technical risk, and access to sensitive data on that parent domain.</td>\n</tr>\n<tr>\n<td>Basic Subdomain Takeover</td>\n<td>P3</td>\n<td>$300</td>\n<td>Awarded for domains and subdomains under a parent domain with reputational or technical risk, but without access to sensitive data on that parent domain.</td>\n</tr>\n<tr>\n<td>Concession award</td>\n<td>P4</td>\n<td>$100</td>\n<td>Awarded for domains and subdomains that are owned by Mastercard and have no risks except publicity risk (which is inherent in ownership)</td>\n</tr>\n</tbody>\n</table>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 700.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 300.0,
-                        "max": 1000.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/mastercard/target_groups/f9141001-eafa-4292-a644-5aad87010ba9/targets",
-                "targets": [
-                    {
-                        "id": "5acba013-c67d-4a79-b1c9-ea2c43f7ac78",
-                        "name": "Public Others Target",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Sendbird",
         "tagline": "Boost app engagement with modern chat, voice and video features.",
         "briefUrl": "/sendbird-mbb",
@@ -34606,36 +33619,6 @@
         "target_groups": []
     },
     {
-        "name": "Dropbox",
-        "tagline": "Your stuff, anywhere",
-        "briefUrl": "/engagements/dropbox",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dropbox/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Cloudinary",
         "tagline": "Cloud image & video upload, storage, management & CDN",
         "briefUrl": "/engagements/cloudinary",
@@ -34983,6 +33966,36 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Dropbox",
+        "tagline": "Your stuff, anywhere",
+        "briefUrl": "/engagements/dropbox",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/dropbox/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "NEOGOV Public Assets",
@@ -38381,6 +37394,36 @@
         "target_groups": []
     },
     {
+        "name": "Mastercard Public Bug Bounty ",
+        "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
+        "briefUrl": "/engagements/mastercard",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b4a9/84bb/3dce2d73/b0f1f87e4b18bed77f9242b568d5f365_FINAL_-_Works_for_brief.png",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/mastercard/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "SecureDrop",
         "tagline": "The open-source whistleblower submission system managed by Freedom of the Press Foundation",
         "briefUrl": "/engagements/freedomofpress",
@@ -38764,36 +37807,6 @@
         "target_groups": []
     },
     {
-        "name": "Optimizely",
-        "tagline": "Unlock Digital Potential",
-        "briefUrl": "/engagements/optimizely",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3f43/58eb/7fda192b/f768f4a8ed5934b6c825be845d33f0b8_Optimizely_Symbol_Full%2BColor.png",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Business Management",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/optimizely/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "iRobot",
         "tagline": "Your Partner for a Cleaner Home",
         "briefUrl": "/engagements/irobot",
@@ -38881,6 +37894,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/opera/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "HostGator Latam Bug Bounty",
+        "tagline": "Submit your finding to the program!",
+        "briefUrl": "/engagements/hostgator-latam-bb",
+        "backgroundColor": "#f98f48",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/746a/65fe/37fbf960/8434d215f5ea8617bcd48b53664d246a_latam.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $2,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/hostgator-latam-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Bullish.com",
+        "tagline": "Help Secure Bullish - a new breed of exchange",
+        "briefUrl": "/engagements/bullish",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a096/19bc/33a8b4d8/182cd3c3d9ea5fa12c77d0670154750d_Bullish-logomark-black-128px.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $12,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$12,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bullish/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -39320,11 +38393,11 @@
         ]
     },
     {
-        "name": "HostGator Latam Bug Bounty",
-        "tagline": "Submit your finding to the program!",
-        "briefUrl": "/engagements/hostgator-latam-bb",
-        "backgroundColor": "#f98f48",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/746a/65fe/37fbf960/8434d215f5ea8617bcd48b53664d246a_latam.jpeg",
+        "name": "Optimizely",
+        "tagline": "Unlock Digital Potential",
+        "briefUrl": "/engagements/optimizely",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3f43/58eb/7fda192b/f768f4a8ed5934b6c825be845d33f0b8_Optimizely_Symbol_Full%2BColor.png",
         "rewardSummary": {
             "summary": "Points - $2,500",
             "hint": null,
@@ -39334,10 +38407,10 @@
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 1,
+        "scopeRank": 3,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": null,
+        "industryName": "Business Management",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -39346,37 +38419,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/hostgator-latam-bb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Bullish.com",
-        "tagline": "Help Secure Bullish - a new breed of exchange",
-        "briefUrl": "/engagements/bullish",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a096/19bc/33a8b4d8/182cd3c3d9ea5fa12c77d0670154750d_Bullish-logomark-black-128px.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $12,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$12,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bullish/engagement_subscribers",
+        "subscriptionUrl": "/optimizely/engagement_subscribers",
         "target_groups": []
     }
 ]
