@@ -14615,7 +14615,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Temporarily out of Scope until Monday 29/04. Thanks for understanding"
+                "description": null
             },
             {
                 "id": "f2806b75-9a6e-4692-a343-6335af721415",
@@ -14640,19 +14640,6 @@
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "b7a11eac-cd63-4629-9d7a-c23f3d622227",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.lexus.ru",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
                 },
                 "description": null
             },
@@ -14793,6 +14780,19 @@
                     "value": "Url"
                 },
                 "endpoint": "toyota.ru",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "b7a11eac-cd63-4629-9d7a-c23f3d622227",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.lexus.ru",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -25975,6 +25975,19 @@
         },
         "domains": [
             {
+                "id": "44fbf8ea-024f-43c3-9351-78e129a1401f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Web SDK",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "https://www.npmjs.com/package/truelayer-web-sdk\n\nA lightweight web SDK for integrating Truelayer's payment services into your web application."
+            },
+            {
                 "id": "8084bdd1-0038-40ca-a2d7-f9870b4ebc2a",
                 "type": {
                     "id": 1,
@@ -26170,19 +26183,6 @@
                 "description": null
             },
             {
-                "id": "dcd46293-8280-4239-9ac0-ac4d590b84dc",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "iOS SDK",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "https://github.com/TrueLayer/TrueLayer-iOS-SDK"
-            },
-            {
                 "id": "29d4eb16-9f4f-464d-aa31-bcedadbdae99",
                 "type": {
                     "id": 6,
@@ -26207,19 +26207,6 @@
                     "value": "Tier 2"
                 },
                 "description": "https://github.com/TrueLayer/truelayer-php"
-            },
-            {
-                "id": "3962ef5d-2213-4f6a-bf59-fda64d5f55ca",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "React Native SDK",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "https://github.com/TrueLayer/truelayer-react-native-sdk"
             },
             {
                 "id": "daeccb18-34be-4fbe-bed6-8bfa36b131c9",
@@ -26311,6 +26298,32 @@
                     "value": "Tier 3"
                 },
                 "description": null
+            },
+            {
+                "id": "dcd46293-8280-4239-9ac0-ac4d590b84dc",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "iOS SDK",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "https://github.com/TrueLayer/TrueLayer-iOS-SDK"
+            },
+            {
+                "id": "3962ef5d-2213-4f6a-bf59-fda64d5f55ca",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "React Native SDK",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "https://github.com/TrueLayer/truelayer-react-native-sdk"
             },
             {
                 "id": "977bf245-0209-4d4c-a187-7f5f4f27d807",
