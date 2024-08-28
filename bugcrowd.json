@@ -30936,36 +30936,6 @@
         "target_groups": []
     },
     {
-        "name": "Bitpanda Ongoing Bug Bounty",
-        "tagline": "Submit your findings to the program!",
-        "briefUrl": "/engagements/bitpanda-og-bb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $15,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$15,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitpanda-og-bb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Appliances - Barracuda Networks, Inc.",
         "tagline": "Your Journey, Secured.",
         "briefUrl": "/engagements/barracuda",
@@ -31342,24 +31312,24 @@
         "target_groups": []
     },
     {
-        "name": "Pornhub Managed Bug Bounty Program",
-        "tagline": "Pornhub is a tech pioneer offering world class adult content platforms. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/aylo-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1748/dd70/1878dcd0/683a9ed0f0f45e4aba5a337e4bb0ae10_HackerOne_Pornhub_banner.png",
+        "name": "YNAB",
+        "tagline": "YNAB's Responsible Disclosure Program",
+        "briefUrl": "/engagements/ynab",
+        "backgroundColor": "#3B5EDA",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/74db/98a2/d8d154a4/858155d20c942a7a64eb370961433813_Group_288__1_.png",
         "rewardSummary": {
-            "summary": "$50 - $5,000",
+            "summary": "$150 - $3,000",
             "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
+            "minReward": "$150",
+            "maxReward": "$3,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 3,
+        "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Entertainment",
+        "industryName": null,
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -31368,7 +31338,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/aylo-mbb-og/engagement_subscribers",
+        "subscriptionUrl": "/ynab/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -31924,6 +31894,36 @@
         ]
     },
     {
+        "name": "Bitpanda Ongoing Bug Bounty",
+        "tagline": "Submit your findings to the program!",
+        "briefUrl": "/engagements/bitpanda-og-bb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f848/5e18/735889c6/9bf7509ccdefcef6ba5b622cca76a2f2_Bitpanda_logo.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $15,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitpanda-og-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Tamedia",
         "tagline": "Tamedia is the leading private media group in Switzerland",
         "briefUrl": "/engagements/tamedia",
@@ -32404,6 +32404,316 @@
         "target_groups": []
     },
     {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
+                "name": "MAF-Retail",
+                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 750.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
+                "targets": [
+                    {
+                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
+                        "name": "Carrefour UAE iOS",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
+                        "name": "Carrefour UAE Android",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
+                        "name": "carrefouruae.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.carrefouruae.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
+                                    "name": "NodeJS"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
+                        "name": "https://api-prod.retailsso.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api-prod.retailsso.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
+                "name": "Out of scope",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
+                "targets": [
+                    {
+                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
+                        "name": "https://cwingsfe.mafrservices.com/login",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://cwingsfe.mafrservices.com/login",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TrafficJunky Managed Bug Bounty Program",
+        "tagline": "TrafficJunky is a tech pioneer offering world class adult content platforms. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/aylo-trafficjunky-mbb-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4780/7fc1/49c57e09/42c75479e377c16341bdb3f3326b03b6_tjaf.png",
+        "rewardSummary": {
+            "summary": "$50 - $3,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/aylo-trafficjunky-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
+        "tagline": "ThousandEyes enables organizations to see and take action to maintain and optimize every digital journey that matters. ",
+        "briefUrl": "/engagements/thousandeyes-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eb4d/6d03/45c7aaeb/daa295c2a67a9bbd46ed2b47f351f8e0_Cisco_ThousandEyes_Logo_Stacked_Orange_Blue.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/thousandeyes-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Just Eat Takeaway.com",
+        "tagline": "Lead, Deliver, Care - Takeaway.com",
+        "briefUrl": "/engagements/justeattakeaway",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7e5a/a4bb/2b0e9195/5d8a532789835597667149ffeb712ff1_Screenshot-2021-09-30-at-14-19-09-Zeplin-Projects.png",
+        "rewardSummary": {
+            "summary": "$100 - $4,000",
+            "hint": "Up to $5,000",
+            "minReward": "$100",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $5,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Hospitality",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/justeattakeaway/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Lightspeed Retail",
+        "tagline": "Lightspeed Retail is a public bug bounty program in Bugcrowd. We aim to build stronger relationships with the security community by rewarding security researchers for their work in finding security vulnerabilities.",
+        "briefUrl": "/engagements/lightspeed-retail",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/364d/8cfc/b539163b/4118517e824c9522776dceb0440c7d14_Lightspeed_Flame.png",
+        "rewardSummary": {
+            "summary": "$20 - $6,250",
+            "hint": null,
+            "minReward": "$20",
+            "maxReward": "$6,250",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/lightspeed-retail/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/comcast-mbb",
@@ -32846,316 +33156,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3296741-d6c7-41f1-a443-62f091a6f140",
-                "name": "MAF-Retail",
-                "description_html": "<h2>Target Information:</h2>\n\n<p>You will test Carrefour's main web e-commerce application on a UAT instance and mobile clients on the production side. The web UAT instance includes all the functionality from the production applicattion including product sorting, purchase and payment process (for which you will find testing VISA and Mastercard cards below). The APIs included in scope are used by in-scope the mobile applications, which will point to the production instance.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 2100.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 750.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/carrefour/target_groups/a7730ebd-201d-4c9b-8592-f8dc2ea3baa8/targets",
-                "targets": [
-                    {
-                        "id": "fc35e5c9-ffef-431d-adc2-8b3b0d164651",
-                        "name": "Carrefour UAE iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/app/carrefour-uae/id626805470",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "956b3669-583d-4fe0-99c1-ce8e5cbf6f0e",
-                        "name": "Carrefour UAE Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.aswat.carrefouruae",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "eccb5599-e0c9-4ea3-a526-f8730bac58ef",
-                        "name": "carrefouruae.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.carrefouruae.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bbbfb453-b739-4e24-983a-e5d50a7b0987",
-                        "name": "https://api-prod.retailsso.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api-prod.retailsso.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e5b7aa1a-f2b6-4f49-9612-8cec139eb87a",
-                "name": "Out of scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/carrefour/target_groups/6ba76fdd-2f06-4e52-a337-c0462a7c0ced/targets",
-                "targets": [
-                    {
-                        "id": "c92d2335-681c-48a8-abb3-216ee5274ee8",
-                        "name": "https://cwingsfe.mafrservices.com/login",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://cwingsfe.mafrservices.com/login",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "TrafficJunky Managed Bug Bounty Program",
-        "tagline": "TrafficJunky is a tech pioneer offering world class adult content platforms. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/aylo-trafficjunky-mbb-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4780/7fc1/49c57e09/42c75479e377c16341bdb3f3326b03b6_tjaf.png",
-        "rewardSummary": {
-            "summary": "$50 - $3,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/aylo-trafficjunky-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
-        "tagline": "ThousandEyes enables organizations to see and take action to maintain and optimize every digital journey that matters. ",
-        "briefUrl": "/engagements/thousandeyes-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eb4d/6d03/45c7aaeb/daa295c2a67a9bbd46ed2b47f351f8e0_Cisco_ThousandEyes_Logo_Stacked_Orange_Blue.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/thousandeyes-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Just Eat Takeaway.com",
-        "tagline": "Lead, Deliver, Care - Takeaway.com",
-        "briefUrl": "/engagements/justeattakeaway",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7e5a/a4bb/2b0e9195/5d8a532789835597667149ffeb712ff1_Screenshot-2021-09-30-at-14-19-09-Zeplin-Projects.png",
-        "rewardSummary": {
-            "summary": "$100 - $4,000",
-            "hint": "Up to $5,000",
-            "minReward": "$100",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $5,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Hospitality",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/justeattakeaway/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Lightspeed Retail",
-        "tagline": "Lightspeed Retail is a public bug bounty program in Bugcrowd. We aim to build stronger relationships with the security community by rewarding security researchers for their work in finding security vulnerabilities.",
-        "briefUrl": "/engagements/lightspeed-retail",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/364d/8cfc/b539163b/4118517e824c9522776dceb0440c7d14_Lightspeed_Flame.png",
-        "rewardSummary": {
-            "summary": "$20 - $6,250",
-            "hint": null,
-            "minReward": "$20",
-            "maxReward": "$6,250",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/lightspeed-retail/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "The Security Team Rocks",
@@ -34804,36 +34804,6 @@
         "target_groups": []
     },
     {
-        "name": "Canva",
-        "tagline": "Design Anything. Publish Anywhere.",
-        "briefUrl": "/engagements/canva",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$200 - $15,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$15,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/canva/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Pixabay",
         "tagline": "Pixabay Vulnerability Disclosure Program",
         "briefUrl": "/engagements/pixabay",
@@ -34981,36 +34951,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/tyler-tech-data-insights/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Electroneum",
-        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
-        "briefUrl": "/engagements/electroneum",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $12,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$12,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/electroneum/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -35292,6 +35232,36 @@
         "target_groups": []
     },
     {
+        "name": "Canva",
+        "tagline": "Design Anything. Publish Anywhere.",
+        "briefUrl": "/engagements/canva",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$200 - $15,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/canva/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/vox",
@@ -35530,6 +35500,36 @@
         ]
     },
     {
+        "name": "Electroneum",
+        "tagline": "Electroneum is a mobile-based payments solution is powered by ETN - the world's fastest and first KYC/AML compliant cryptocurrency.",
+        "briefUrl": "/engagements/electroneum",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c603/9e14/9b89b37f/343d97d196b690d82331937cd9ddcf2a_electroneum.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $12,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$12,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/electroneum/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Shipwire",
         "tagline": "Shipwire's Bug Bounty Program",
         "briefUrl": "/engagements/shipwire",
@@ -35640,36 +35640,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/zola-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Newfold Vdeck Bug Bounty",
-        "tagline": "Submit your finding to the program!",
-        "briefUrl": "/engagements/newfold-vdeck-bb",
-        "backgroundColor": "#f88e2a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c546/2331/b0681a33/8be670e5185fedbeac7415fcd972cc97_hostgator.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/newfold-vdeck-bb/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -36559,6 +36529,36 @@
         ]
     },
     {
+        "name": "Sophos",
+        "tagline": "Responsible disclosure with rewards up to US$50,000",
+        "briefUrl": "/engagements/sophos",
+        "backgroundColor": "#0068b1",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/99ee/d126/b7eb6a5e/3a483054f9f57b3410a4c2fa82d699a0_sophos_ss.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $50,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$50,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/sophos/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Opera Public Bug Bounty",
         "tagline": "Opera is a leading global internet brand with a large, engaged and growing base of over 380 million average monthly active users.",
         "briefUrl": "/engagements/opera",
@@ -36589,21 +36589,21 @@
         "target_groups": []
     },
     {
-        "name": "Sophos",
-        "tagline": "Responsible disclosure with rewards up to US$50,000",
-        "briefUrl": "/engagements/sophos",
-        "backgroundColor": "#0068b1",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/99ee/d126/b7eb6a5e/3a483054f9f57b3410a4c2fa82d699a0_sophos_ss.jpg",
+        "name": "Newfold Vdeck Bug Bounty",
+        "tagline": "Submit your finding to the program!",
+        "briefUrl": "/engagements/newfold-vdeck-bb",
+        "backgroundColor": "#f88e2a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c546/2331/b0681a33/8be670e5185fedbeac7415fcd972cc97_hostgator.jpeg",
         "rewardSummary": {
-            "summary": "$100 - $50,000",
+            "summary": "Points - $2,500",
             "hint": null,
-            "minReward": "$100",
-            "maxReward": "$50,000",
+            "minReward": "Points",
+            "maxReward": "$2,500",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 4,
+        "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
         "industryName": "Computer Software",
@@ -36615,7 +36615,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/sophos/engagement_subscribers",
+        "subscriptionUrl": "/newfold-vdeck-bb/engagement_subscribers",
         "target_groups": []
     }
 ]
