@@ -28299,7 +28299,7 @@
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 4,
+        "scopeRank": 3,
         "isBanned": false,
         "isFollowing": false,
         "industryName": "Retail",
@@ -28336,10 +28336,10 @@
                     }
                 },
                 "sort_order": 0,
-                "targets_url": "/underarmour/target_groups/790843f5-fb5e-4c03-a2fc-e437340c87cc/targets",
+                "targets_url": "/underarmour/target_groups/5669c4b0-6d71-4a73-90c4-0dd5be3c0d21/targets",
                 "targets": [
                     {
-                        "id": "3bcc9673-c95d-4576-a5b7-d21304dd4878",
+                        "id": "0ef21378-1dd3-4759-bbf8-9779790b9eb2",
                         "name": "www.underarmour.com",
                         "description": null,
                         "category": "website",
@@ -28378,7 +28378,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "d0ab2ccd-f86a-4f6f-8280-d1a6eb38493e",
+                        "id": "72db4344-ff93-4d14-9d40-89194709a1a0",
                         "name": "www.underarmour.co.uk",
                         "description": null,
                         "category": "website",
@@ -28409,7 +28409,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "c914c2ab-95fc-4058-be28-cb141f3ae12b",
+                        "id": "57d6a749-d2ca-4806-adc2-f05bce4a55b7",
                         "name": "UA Shop iOS",
                         "description": null,
                         "category": "ios",
@@ -28444,7 +28444,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7af2fdab-71a8-44bd-b9df-4e57bbe6142c",
+                        "id": "632263db-a507-42d7-b660-f6e9521611d9",
                         "name": "UA Shop Android",
                         "description": null,
                         "category": "android",
@@ -28483,10 +28483,10 @@
                 "in_scope": true,
                 "reward_range": {},
                 "sort_order": 1,
-                "targets_url": "/underarmour/target_groups/60a56d82-d95c-4749-80a7-41d126ed8c4b/targets",
+                "targets_url": "/underarmour/target_groups/9d633c91-cd85-43f8-8174-21f0e988d36b/targets",
                 "targets": [
                     {
-                        "id": "810a64c0-f4ee-45f3-8b8a-135655f2cb3d",
+                        "id": "562a87d0-a7c3-4e73-8c7e-b9e170db9ba4",
                         "name": "https://api.shop.ua.com/graphql",
                         "description": null,
                         "category": "api",
@@ -28505,7 +28505,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "34cac604-4b0c-41d6-9642-9f95adcd4612",
+                        "id": "be4e8a51-effd-4f7b-b998-4aebf99f6f0d",
                         "name": "https://www.underarmournext.co.uk/",
                         "description": null,
                         "category": "website",
@@ -28536,7 +28536,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "012c87a3-5e4c-422f-baf4-630983ee355c",
+                        "id": "031fc269-387c-4168-b691-62f8ff2996e4",
                         "name": "https://underarmournext.com/",
                         "description": null,
                         "category": "website",
@@ -28567,7 +28567,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "422b0340-225b-4118-a302-bededd3ebd30",
+                        "id": "8fef4c77-78f9-4ea6-850d-8b06505f97d8",
                         "name": "*.api.ua.com",
                         "description": null,
                         "category": "other",
@@ -28594,232 +28594,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b9c81227-defb-446b-885f-a8caa731f801",
-                        "name": "MapMyFitness Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.mapmyfitness.android2&hl=en&pli=1",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6527ac8f-127b-4303-9f7b-15dc02c54257",
-                        "name": "MapMyFitness iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/map-my-fitness-gps-workout/id298903147",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4fec53a8-8692-4854-802f-9878685e4ef1",
-                        "name": "https://www.mapmyfitness.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://www.mapmyfitness.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4325b73c-ceaf-48bf-a9c3-f6f710583780",
-                        "name": "https://www.mapmyrun.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://www.mapmyrun.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "d2e9f7fd-1403-4a01-b5b8-fba5e0f49e37",
-                                    "name": "ExpressJS"
-                                },
-                                {
-                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
-                                    "name": "Backbone"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "148dcf2c-a400-4c50-b4f5-6851db4aaf22",
-                        "name": "https://www.mapmyride.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://www.mapmyride.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
-                                    "name": "Backbone"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "9f26f47e-4acd-4d8d-aad2-414b6b367eb0",
-                                    "name": "Handlebars"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e11485c3-d580-4b5b-b8e7-116ccde266e5",
-                        "name": "UA HOVR Equipped running shoe that you own or have authorization to test",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c1bee24b-41e2-46da-95a9-98295686f298",
-                        "name": "https://www.mapmywalk.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://www.mapmywalk.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "e8a0921a-8c3b-463d-af43-8dbdc6b1c03d",
-                                    "name": "NodeJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ca961596-94e5-4141-a322-c1637f5b93e4",
+                        "id": "e218744f-52f6-4ed8-8c06-1f6cb30c44dd",
                         "name": "https://consumer-sustainability.underarmour.com/en",
                         "description": null,
                         "category": "website",
@@ -28837,7 +28612,7 @@
                                 }
                             ]
                         },
-                        "sort_order": 11,
+                        "sort_order": 4,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -30344,36 +30119,6 @@
         "target_groups": []
     },
     {
-        "name": "Square",
-        "tagline": "We make selling simple for businesses of all sizes.",
-        "briefUrl": "/engagements/square",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
-        "rewardSummary": {
-            "summary": "Points - $18,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$18,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/square/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Wise (ex-TransferWise)",
         "tagline": "Wise \u2014 the global technology company building the best way to move money around the world.",
         "briefUrl": "/engagements/wise",
@@ -30712,6 +30457,36 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Square",
+        "tagline": "We make selling simple for businesses of all sizes.",
+        "briefUrl": "/engagements/square",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "rewardSummary": {
+            "summary": "Points - $18,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$18,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/square/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "Comcast Xfinity Bug Bounty",
@@ -33044,36 +32819,6 @@
         "target_groups": []
     },
     {
-        "name": "TIDAL",
-        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
-        "briefUrl": "/engagements/tidal-bugbounty",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Pantheon",
         "tagline": "Website development is complex. Hosting makes it harder. Top developers, marketers, and IT pros use Pantheon to build, launch, and run all their Drupal and WordPress sites. ",
         "briefUrl": "/engagements/pantheon",
@@ -33838,6 +33583,36 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "TIDAL",
+        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "briefUrl": "/engagements/tidal-bugbounty",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "Smartmockups",
