@@ -6351,397 +6351,6 @@
         ]
     },
     {
-        "name": "OpenSea Managed Bug Bounty Program",
-        "tagline": "OpenSea is building the world\u2019s most trusted and inclusive NFT marketplace. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/opensea",
-        "backgroundColor": "#0086FF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c38b/210f/57cf8a68/92facdeae919825d54182cef909553a6_Ship.jpg",
-        "rewardSummary": {
-            "summary": "$125 - $3,000,000",
-            "hint": null,
-            "minReward": "$125",
-            "maxReward": "$3,000,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/opensea/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "43b37960-870f-45af-b85d-827074ae251c",
-                "name": "Opensea.io",
-                "description_html": "<p><a href=\"https://opensea.io/\" rel=\"nofollow noreferrer\" target=\"_blank\">opensea.io</a></p>\n\n<ul>\n<li>OpenSea is the world's first and largest web3 marketplace for NFTs and crypto collectibles.</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    },
-                    "2": {
-                        "min": 10000.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/opensea/target_groups/37b061d3-01a0-465d-8548-39020b0bc006/targets",
-                "targets": [
-                    {
-                        "id": "e9ea8d6d-3936-431a-ba78-f4b4e1a51c45",
-                        "name": "opensea.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://opensea.io/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "257c0bf4-a651-40b8-ac5f-61218e7fea30",
-                "name": "OpenSea Pro",
-                "description_html": "<p>OpenSea Pro is an NFT marketplace aggregator designed specifically for high-volume buyers and sellers.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 30000.0,
-                        "max": 30000.0
-                    },
-                    "2": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 1000.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/opensea/target_groups/5ff96878-442c-40d9-b10d-f8eb5409cbd5/targets",
-                "targets": [
-                    {
-                        "id": "c56625c6-9c43-4745-9ed1-249ba8663e0a",
-                        "name": "pro.opensea.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://pro.opensea.io/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e37e3c8b-b155-42ab-a249-dcead5a27fd6",
-                "name": "wallets.opensea.io - Embedded Wallet Experience Powered by Privy",
-                "description_html": "<p>All functionalities and features of the OpenSea Wallet.</p>\n\n<p><strong>Exclusions:</strong></p>\n\n<ul>\n<li>Phishing and Similar Attacks: Any form of social engineering, phishing, or related deceptive practices.</li>\n<li>https://dev-wallets.opensea.io</li>\n</ul>\n\n<p><strong>Third-Party Services:</strong><br>\nIssues impacting the wallet provider, Privy, are out of scope and should be reported to the provider. Reporters are encouraged to follow Privy\u2019s testing guidelines when assessing vulnerabilities related to their services.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    },
-                    "2": {
-                        "min": 10000.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/opensea/target_groups/e5538d0e-c53e-417c-a037-31423e099aef/targets",
-                "targets": [
-                    {
-                        "id": "4c9f957b-1b62-4446-a742-fcc8f3435682",
-                        "name": "http://wallets.opensea.io/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://wallets.opensea.io/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "9b2fdd14-3528-4cd0-9ab4-f8fb04da1e56",
-                "name": "io.opensea - Android App",
-                "description_html": "<p>Official OpenSea Google Play Store app. The app can be found <a href=\"https://play.google.com/store/apps/details?id=io.opensea\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a></p>\n\n<p><strong>Exclusions</strong>:</p>\n\n<ul>\n<li>Attacks that assume a malicious wallet app</li>\n<li>Attacks that require a rooted device</li>\n<li>Apps found anywhere besides the Google Play Store</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 15000.0,
-                        "max": 15000.0
-                    },
-                    "2": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 125.0,
-                        "max": 125.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/opensea/target_groups/f239644f-8cc8-4613-b082-2ebeebe88979/targets",
-                "targets": [
-                    {
-                        "id": "deea2aaf-2502-44fe-8be0-18e5fa30c643",
-                        "name": "io.opensea - Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=io.opensea&hl=en_US&gl=US",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "f632ddf2-1093-431d-aa63-1f50a9344fd5",
-                "name": "io.opensea - iOS App",
-                "description_html": "<p>Official OpenSea Apple App Store app. The app can be found <a href=\"https://apps.apple.com/us/app/opensea-nft-marketplace/id1582861796\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a> </p>\n\n<p>Exclusions:</p>\n\n<ul>\n<li>Attacks that assume a malicious wallet app</li>\n<li>Attacks that require a rooted device</li>\n<li>Apps found anywhere besides the Apple app store</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 15000.0,
-                        "max": 15000.0
-                    },
-                    "2": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 125.0,
-                        "max": 125.0
-                    }
-                },
-                "sort_order": 4,
-                "targets_url": "/opensea/target_groups/34b43d0a-143e-43fb-9fbd-5fa9307d85f0/targets",
-                "targets": [
-                    {
-                        "id": "6962a616-6f86-422c-b220-b779e171fba1",
-                        "name": "io.opensea - iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/opensea-nft-marketplace/id1582861796",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "52eaed12-8854-427a-8040-71ed0db0edbb",
-                "name": "Seaport Deployment",
-                "description_html": "<p><strong>Exclusions</strong>:</p>\n\n<ul>\n<li>Orders and transactions initiated and validated on opensea.io are covered by the opensea.io asset</li>\n<li>Phishing or any user interaction style of attacks</li>\n<li>Any attack that requires a user to interact with contract from an attacker controlled website</li>\n<li>The following are out of scope: \n\n<ul>\n<li>Seaport 1.1: <a href=\"https://etherscan.io/address/0x00000000006c3852cbEf3e08E8dF289169EdE581\" rel=\"nofollow noreferrer\" target=\"_blank\">0x00000000006c3852cbEf3e08E8dF289169EdE581</a>\n</li>\n<li>Seaport 1.2 <a href=\"https://etherscan.io/address/0x00000000000006c7676171937C444f6BDe3D6282\" rel=\"nofollow noreferrer\" target=\"_blank\">0x00000000000006c7676171937C444f6BDe3D6282</a>\n</li>\n<li>Seaport 1.3 <a href=\"https://etherscan.io/address/0x0000000000000aD24e80fd803C6ac37206a45f15\" rel=\"nofollow noreferrer\" target=\"_blank\">0x0000000000000aD24e80fd803C6ac37206a45f15</a>\n</li>\n<li>Seaport 1.4 <a href=\"https://etherscan.io/address/0x00000000000001ad428e4906aE43D8F9852d0dD6\" rel=\"nofollow noreferrer\" target=\"_blank\">0x00000000000001ad428e4906aE43D8F9852d0dD6</a>\n</li>\n<li>SeaportValidator    <a href=\"https://etherscan.io/address/0x00e5F120f500006757E984F1DED400fc00370000\" rel=\"nofollow noreferrer\" target=\"_blank\">0x00e5F120f500006757E984F1DED400fc00370000</a>\n</li>\n<li>SeaportNavigator <a href=\"https://etherscan.io/address/0x0000f00000627D293Ab4Dfb40082001724dB006F\" rel=\"nofollow noreferrer\" target=\"_blank\">0x0000f00000627D293Ab4Dfb40082001724dB006F</a>\n</li>\n</ul>\n</li>\n</ul>\n\n<p><strong>Explicitly</strong>: this covers vulnerabilities that are purely executed on chain against the in scope contracts. </p>\n\n<p>See the current deployments <a href=\"https://github.com/ProjectOpenSea/seaport#deployments\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>. Currently the addresses are:</p>\n\n<ul>\n<li>Seaport:\n\n<ul>\n<li>1.5: <a href=\"https://etherscan.io/address/0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC\" rel=\"nofollow noreferrer\" target=\"_blank\">0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC</a>\n</li>\n</ul>\n</li>\n<li>ConduitController: <a href=\"https://etherscan.io/address/0x00000000F9490004C11Cef243f5400493c00Ad63\" rel=\"nofollow noreferrer\" target=\"_blank\">0x00000000F9490004C11Cef243f5400493c00Ad63</a>\n</li>\n<li>OpenSea's Conduit: <a href=\"https://etherscan.io/address/0x1e0049783f008a0085193e00003d00cd54003c71\" rel=\"nofollow noreferrer\" target=\"_blank\">0x1e0049783f008a0085193e00003d00cd54003c71</a>\n</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000000.0,
-                        "max": 3000000.0
-                    },
-                    "2": {
-                        "min": 100000.0,
-                        "max": 100000.0
-                    },
-                    "3": {
-                        "min": 25000.0,
-                        "max": 25000.0
-                    },
-                    "4": {
-                        "min": 500.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 5,
-                "targets_url": "/opensea/target_groups/a8d159e5-484f-4a03-85e0-4a31939fd6b7/targets",
-                "targets": [
-                    {
-                        "id": "a5140f8f-5e9c-416b-8c15-1b1a41c50ca4",
-                        "name": "https://github.com/ProjectOpenSea/seaport#deployments",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://github.com/ProjectOpenSea/seaport#deployments",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "8e01b9f0-704d-4e2b-9eb7-a53769e01b2f",
-                "name": "Fee Collector Smart Contract",
-                "description_html": "<p><strong>Fee Collector Smart Contract</strong></p>\n\n<p><strong>Exclusions</strong>:</p>\n\n<ul>\n<li>Phishing or any user interaction style of attacks</li>\n<li>Any attack that requires a user to interact with contract from an attacker controlled website</li>\n</ul>\n\n<p><strong>Explicitly</strong>: this covers vulnerabilities that are purely executed on chain against the in scope contracts. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    },
-                    "2": {
-                        "min": 10000.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 6,
-                "targets_url": "/opensea/target_groups/dd8c2a79-f13a-4758-81d8-9954eb6d3d8c/targets",
-                "targets": [
-                    {
-                        "id": "6018156b-71b1-4fdb-ac74-0e518f3a5b5d",
-                        "name": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "f6b9c97b-aead-4148-83cc-b4209ec13e49",
-                "name": "Seadrop Smart Contract",
-                "description_html": "<p><strong>Seadrop Smart Contract</strong></p>\n\n<p><strong>Exclusions:</strong></p>\n\n<ul>\n<li>Phishing or any user interaction style of attacks</li>\n<li>Any attack that requires a user to interact with contract from an attacker controlled website</li>\n</ul>\n\n<p><strong>Explicitly:</strong> this covers vulnerabilities that are purely executed on chain against the in scope contracts.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 50000.0,
-                        "max": 50000.0
-                    },
-                    "2": {
-                        "min": 10000.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 7,
-                "targets_url": "/opensea/target_groups/9b17eb12-572c-42f9-bcbe-b80823a403cc/targets",
-                "targets": [
-                    {
-                        "id": "4afe831f-5049-4255-832f-98e69414cac5",
-                        "name": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "79c77643-2719-4444-99b3-f7beab4ef6e7",
-                "name": "Broken Links",
-                "description_html": "<p><em><strong>Researchers who submit a valid Broken Link will be rewarded at a P4 level with $50</strong></em></p>\n\n<h2>Broken link reports are in scope only when they meet all of the following conditions:</h2>\n\n<ul>\n<li>They must be on OpenSea curated content, including but not limited to OpenSea's blog and Learning Center.</li>\n<li>They must be able to be taken over. </li>\n<li>A proof of concept is required.</li>\n<li>Specifically out of scope: </li>\n<li>Employee personal blogs</li>\n<li>All user generated content, including but not limited to creator controlled links</li>\n<li>Username take over of tagged social media accounts </li>\n<li>Broken links only reproducible on domains used for testing (e.g. testnets.opensea.io)</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 8,
-                "targets_url": "/opensea/target_groups/2523e5e8-9fec-44ce-8f5d-9e1c70fc44b7/targets",
-                "targets": [
-                    {
-                        "id": "8d3e8f08-3a7b-48f1-a2ee-f9ede5b35433",
-                        "name": "Broken Link",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Majid Al Futtaim Loyalty Program (Share Rewards)",
         "tagline": "Share - A Majid Al Futtaim Program",
         "briefUrl": "/majidalfuttaim-loyalty",
@@ -17372,1144 +16981,6 @@
         ]
     },
     {
-        "name": "Xfinity Home & xFi",
-        "tagline": "Xfinity Home gives you peace of mind with a total home security and automation solution. With Xfinity xFi, you can personalize and control your home WiFi network. Together, they provide an in-home experience that is simple, easy, and awesome.",
-        "briefUrl": "/xfinity-home",
-        "backgroundColor": "#f4f4f4",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2a02/8676/2437c177/c1cc2dd912014795dcf6a92408477f84_corporate_Xfinity-Home.png",
-        "rewardSummary": {
-            "summary": "Points - $5,500",
-            "hint": "Up to $10,000",
-            "minReward": "Points",
-            "maxReward": "$5,500",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/xfinity-home/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "6bade5e3-b5a6-43dd-9a4f-f923e6813b25",
-                "name": "Primary Targets",
-                "description_html": "<p>All subdomain with below keywords are in-scope for this program.<br><br>\nxh, xhome, xhomeapi, xfi, dh, cl, si, siorc, smartinet, orc, melee, breeze, xrp, edp, odp, xdp, xpc, xpg, dhc, xmidt, webpa, codex, plume, chi, mesh, apg, spn, dx, wifi-motion, imp, whix, nion, speedtest, ipie, sed, pepr, activation, dhactivation, dh-commerce, pom, tr1d1um, icontrol, coverage</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3500.0,
-                        "max": 5500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 250.0
-                    },
-                    "program_max": 10000
-                },
-                "sort_order": 0,
-                "targets_url": "/xfinity-home/target_groups/d33facf1-38d1-4d8d-8e9f-259d2193060c/targets",
-                "targets": [
-                    {
-                        "id": "4d812da0-1af7-493b-9879-6164349e5671",
-                        "name": "Home.xfinity.com (see below)",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://home.xfinity.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5b166d95-e4d1-44d2-8537-d19723109287",
-                        "name": "Internet.xfinity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "4e683276-8d35-4745-9a7c-8172f1c8fd9e",
-                                    "name": "Radiofrequency Testing"
-                                },
-                                {
-                                    "id": "9b8c3b7f-9a97-484b-94a0-b0f775144784",
-                                    "name": "WiFi"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a98c3157-32e3-438b-a88c-8150a9cbceee",
-                        "name": "*-cvr-aws-*.sys.comcast.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "48aa3a73-a0b9-4f7e-b558-cdb44b401e25",
-                        "name": "*signalservice.comcast.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b10bbff0-d8a8-4a18-9d5e-ac5e29d61c76",
-                        "name": "*.dh-commerce.com ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b8c1432f-70f1-4fc8-962e-aab1cc99b3a3",
-                        "name": "*.ssr.ccp.xcal.tv ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "227542f5-c7a0-46db-80e7-944cb5f734d7",
-                        "name": "orc-xfi.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e09617bd-010b-4da1-9af7-358abd21a512",
-                        "name": "*.xfiplatform.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba9f7fa7-8a8d-4ab5-b9cd-e9790ba4c3dd",
-                        "name": "Xfinity Home iOS mobile app",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/xfinity/id1178765645",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "aa43a5da-3f74-4256-8478-655ed73d02ba",
-                        "name": "Xfinity iOS mobile app",
-                        "description": null,
-                        "category": "ios",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "4e683276-8d35-4745-9a7c-8172f1c8fd9e",
-                                    "name": "Radiofrequency Testing"
-                                },
-                                {
-                                    "id": "9b8c3b7f-9a97-484b-94a0-b0f775144784",
-                                    "name": "WiFi"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2ffa3c8e-9fbf-4fae-a224-0e2f62555fa6",
-                        "name": "Xfinity Home Android mobile app",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.xfinity.digitalhome&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "81a642d7-fe8c-467d-abbc-be39683dd227",
-                        "name": "Xfinity Android mobile app",
-                        "description": null,
-                        "category": "android",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0c6222b5-ca90-4584-a47e-254cba815d1c",
-                        "name": "xhomeapi-*.codebig2.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "61242872-6e08-45df-976e-ab76fcb8c1c1",
-                        "name": "xhomeapi-*.cloud.comcast.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0ffdf028-3266-4f84-a180-39ca0dd5a408",
-                        "name": "Xfinity Home Hardware (items listed below in brief)",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "4e683276-8d35-4745-9a7c-8172f1c8fd9e",
-                                    "name": "Radiofrequency Testing"
-                                },
-                                {
-                                    "id": "9b8c3b7f-9a97-484b-94a0-b0f775144784",
-                                    "name": "WiFi"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "94d41807-c3bc-4a90-968f-9624fbcf6e3e",
-                        "name": "Xfinity Home cameras",
-                        "description": null,
-                        "category": "iot",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                },
-                                {
-                                    "id": "4e683276-8d35-4745-9a7c-8172f1c8fd9e",
-                                    "name": "Radiofrequency Testing"
-                                },
-                                {
-                                    "id": "9b8c3b7f-9a97-484b-94a0-b0f775144784",
-                                    "name": "WiFi"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5c316d4e-c750-45c7-9157-5925536e03e3",
-                        "name": "speedtest.xfinity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
-                                    "name": "JSON"
-                                },
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                }
-                            ]
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9599f76d-86e5-435c-8b87-e14a77285d7e",
-                        "name": "siorc.xfinity.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "19c63b2e-0cce-48fd-845d-16971292ddf2",
-                        "name": "smartinet.xfinity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6df5ae1a-1d18-4ce6-b45a-e6dc72974f89",
-                        "name": "gw.api.dh.comcast.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba8f250b-c150-4b6a-84af-75e7abc76415",
-                        "name": "xFi Gateways (e.g., XB3, XB6, XB7)",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6825f068-7447-450e-9134-158ae26e18d4",
-                                    "name": "Computer Hardware"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b729487c-cb2e-41f8-abde-8cc245ba0fb7",
-                        "name": "xFi Pods",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6825f068-7447-450e-9134-158ae26e18d4",
-                                    "name": "Computer Hardware"
-                                },
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 21,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ac4aad74-c048-457e-9352-7d204161f1a0",
-                        "name": "https://csp-prod.codebig2.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://csp-prod.codebig2.net",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 22,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5e4b5cc9-2e44-4607-8e28-54d267dc240f",
-                        "name": "csp-pci.prod.codebig2.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 23,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "09b298f0-8ebb-4f73-9261-dd247517dc0d",
-                        "name": "aiq-prod.codebig2.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 24,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "63004b14-2533-4f40-8fb6-d862bf0102c5",
-                        "name": "*.xfinityhome.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 25,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "a2329a20-188b-4105-8c04-6c2baeb76ca4",
-                "name": "Out of Scope",
-                "description_html": "<p>In addition the items below, Internet Service Provider, technologies hosted by residential or business customers are considered out-of-scope. These can typically be identified by the FQDN format below.</p>\n\n<p><em>.hfc.comcastbusiness.net <br>\n*.hsd1.</em>.comcast.net</p>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/xfinity-home/target_groups/1225626c-2a24-4216-b84f-927f7025f327/targets",
-                "targets": [
-                    {
-                        "id": "58d60188-836c-485c-8926-f8648ec4e0cc",
-                        "name": "3rd Party Devices (known as Works with Xfinity)",
-                        "description": null,
-                        "category": "iot",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4cb84232-a78c-4fc6-b51e-cbe67d4ee5f1",
-                                    "name": "IoT"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c41c3e35-3fba-4849-b507-8d82e9fe28b8",
-                        "name": "oauth.xfinity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "db578bef-a274-4fe7-9354-f4cae3901d9e",
-                        "name": "login.xfinity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://login.xfinity.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e98c3b5f-91fa-4d4b-a77e-603f7f63e77f",
-                        "name": "*.xerxessecure.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4053eec2-1fc8-4c1c-a652-043235163435",
-                        "name": "*.cimcontent.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2c846d4c-8fce-44bc-a919-35a039235e9a",
-                        "name": "*.identity.xfinity.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "112779a1-2cf7-49bf-878f-0e6b2961309e",
-                        "name": "\\*\\business.comcast.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "df32ea80-47ac-4f33-9de0-84ae35c45094",
-                        "name": "*.hfc.comcastbusiness.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "33d4ce83-152f-44c2-ab43-567953b7e2ed",
-                        "name": "*.hsd1.*.comcast.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "29c8d8c0-1b18-43e9-97b1-8cb61dab315b",
-                        "name": "*.pulseinsights.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2101b7e3-8ee8-4075-9855-4b623915468a",
-                        "name": "*.wurfulcloud.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a4c3668f-f4bf-4de3-b9fd-65d76e2a67aa",
-                        "name": "*.appcenter.ms",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "decf8a0f-3085-4622-a3ed-8a22ce006860",
-                        "name": "*.kampyle.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "071be973-acfe-4df8-8099-4c673df9ae91",
-                        "name": "*.demdex.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "91c378c6-ec1b-4661-83f1-372bb69a404e",
-                        "name": "*.openx.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5dd6dbaf-0d53-414a-8d72-595497e32024",
-                        "name": "*.criteo.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "13b10e1b-eb24-43ab-83e0-0381558a42fe",
-                        "name": "*.webcontentassessor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "572f0cd6-553b-4bb4-8bd0-8f35ba3404a5",
-                        "name": "*.amazon-adsystem.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "aaa0074a-23c1-4126-99db-3c4c7c5db237",
-                        "name": "*.adobedtm.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3ecd579e-6aed-4388-adcf-33e2dab4b924",
-                        "name": "*.adnxs.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "75563498-f61f-4d00-bc96-9594b4548e79",
-                        "name": "*.fwmrm.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "07deb9cb-dbbd-46fd-ad9d-7a754e86325f",
-                        "name": "10.0.0.0/8",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 21,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "91c5c55d-b28c-4eb6-b0ba-eb5268fa5b05",
-                        "name": "50.128.0.0/12",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 22,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9f8b9769-0748-4434-8739-8da51687f821",
-                        "name": "50.152.0.0/13",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 23,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c8ef78ca-098b-4b55-9f97-87dddc6ff80e",
-                        "name": "96.201.0.0/16",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 24,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6951ae53-3e64-44fe-8bfd-e288c55d2801",
-                        "name": "96.202.128.0/17",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 25,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "065b351d-69f2-4d8d-a566-908774a092aa",
-                        "name": "96.203.0.0/16",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 26,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "289277f0-d327-4c7f-8fef-75f25b13b93a",
-                        "name": "172.26.128.0/18",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 27,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "29939de9-0821-45b6-a67b-1e9e9e1448d1",
-                        "name": "184.112.0.0/13",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 28,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a6e27012-0a07-436a-b00b-04564398fedd",
-                        "name": "184.122.0.0/15",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 29,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Dell Technologies Application Bug Bounty",
         "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
         "briefUrl": "/dell-com",
@@ -25882,243 +24353,6 @@
         ]
     },
     {
-        "name": " Comcast Xfinity Vulnerability Disclosure Program",
-        "tagline": "Digital Cable TV, Internet and Phone for Residential and Business Services",
-        "briefUrl": "/comcastvdp",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/73d8/3094/c9ca7058/382e5cddd922bd653ca8f6639df5c2ba_Comcast_logo_2012.png",
-        "rewardSummary": {
-            "summary": "Points - $3,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/comcastvdp/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "e4625759-b6dc-4896-8595-6dd708eb1edf",
-                "name": "Primary Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1250.0,
-                        "max": 3500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/comcastvdp/target_groups/c2a2f888-82d4-4176-ad9a-8694494e2514/targets",
-                "targets": [
-                    {
-                        "id": "d51d7535-4b54-4e61-a70e-bd95b51c34f8",
-                        "name": "*.sys.comcast.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a3c44266-81ed-4541-af31-4c8dc58babe3",
-                        "name": "https://business.comcast.com/account",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://business.comcast.com/account",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "70b7561d-dcb7-41b1-bcde-125c4aa482a6",
-                        "name": "TV - Xfinity hardware and services",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c1d477f7-30a3-44c4-b988-1be0992df522",
-                        "name": "Flex - Xfinity hardware and services",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b8e6cacf-a810-4d96-b8c3-1c8533d258b3",
-                        "name": "Voice - Hardware and service",
-                        "description": null,
-                        "category": "hardware",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee6e7cc3-455d-4d97-b43e-5b8de420d096",
-                                    "name": "Hardware Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "394a76f1-ac8d-4082-bf03-2fc5952deaad",
-                        "name": "Mobile Apps\tiOS and Android",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://www.xfinity.com/apps",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "89c6bf6c-e3d3-40a8-9e03-a3aa5215af78",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/comcastvdp/target_groups/4cf49419-4456-4dee-8a0c-3461f0735314/targets",
-                "targets": [
-                    {
-                        "id": "711b7701-0a30-452c-bebd-cac6fd6d5a90",
-                        "name": "Comcastbiz.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.comcastbiz.net/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "codefortynine",
         "tagline": "Test codefortynine's targets!",
         "briefUrl": "/codefortynine",
@@ -29057,36 +27291,6 @@
         "target_groups": []
     },
     {
-        "name": "1Shoppingcart.com",
-        "tagline": "Get an Ecommerce store, and start selling online!",
-        "briefUrl": "/engagements/shoppingcart",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e890/9873/fd9e5e7d/f6d9e3309699142bbc28d42647ccb0ae_40fDZTIA_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $2,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "ngpt"
-        },
-        "subscriptionUrl": "/shoppingcart/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Cloudinary",
         "tagline": "Cloud image & video upload, storage, management & CDN",
         "briefUrl": "/engagements/cloudinary",
@@ -29500,16 +27704,16 @@
         "target_groups": []
     },
     {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "name": "1Shoppingcart.com",
+        "tagline": "Get an Ecommerce store, and start selling online!",
+        "briefUrl": "/engagements/shoppingcart",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e890/9873/fd9e5e7d/f6d9e3309699142bbc28d42647ccb0ae_40fDZTIA_400x400.jpg",
         "rewardSummary": {
-            "summary": "Points - $20,000",
+            "summary": "Points - $2,000",
             "hint": null,
             "minReward": "Points",
-            "maxReward": "$20,000",
+            "maxReward": "$2,000",
             "compensationSummary": null,
             "compensationHint": null
         },
@@ -29517,59 +27721,17 @@
         "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Finance",
+        "industryName": null,
         "accessStatus": "open",
         "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
         "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
+            "label": "Bug Bounty",
+            "iconVariant": "ngpt"
         },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
+        "subscriptionUrl": "/shoppingcart/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "FIS",
@@ -29667,6 +27829,108 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
+                "targets": [
+                    {
+                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
+                        "name": "Any Worldpay asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OpenSea Managed Bug Bounty Program",
+        "tagline": "OpenSea is building the world\u2019s most trusted and inclusive NFT marketplace. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/opensea",
+        "backgroundColor": "#0086FF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c38b/210f/57cf8a68/92facdeae919825d54182cef909553a6_Ship.jpg",
+        "rewardSummary": {
+            "summary": "$125 - $3,000,000",
+            "hint": null,
+            "minReward": "$125",
+            "maxReward": "$3,000,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/opensea/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "Keeper Security Public Bounty Program",
@@ -30459,450 +28723,6 @@
         "target_groups": []
     },
     {
-        "name": "Comcast Xfinity Bug Bounty",
-        "tagline": "Welcome to the Xfinity Bug Bounty program!",
-        "briefUrl": "/comcast-mbb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/comcast-mbb/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0faff854-b16e-40ba-8584-9f24d1918de8",
-                "name": "Primary Targets",
-                "description_html": "<p>Our new Xfinity Bug Bounty program aims to encompass all the technologies, products, and services that create the Xfinity consumer experience.</p>\n\n<p>All endpoints called by these services and applications are in-scope unless specifically listed in the exclusions. If you are unsure if something is owned or maintained by us, please contact us for clarification.</p>\n\n<p>Systems that contain production data and demonstrate clear operational risks to the business when vulnerable are considered primary targets. All other systems will be considered secondary targets.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3500.0,
-                        "max": 5500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 2500.0
-                    },
-                    "3": {
-                        "min": 250.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/comcast-mbb/target_groups/62bd33c1-03e4-4fd3-b3b7-abfc18a05a60/targets",
-                "targets": [
-                    {
-                        "id": "9420032b-f8dd-4218-92db-205d2fb00a60",
-                        "name": "*.xfinity.com\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "56b6bb45-eea0-42c1-8bf6-753f4e8ac66b",
-                        "name": "*.comcast.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "17d1d2ba-dcbc-4277-b092-85f9dce5387a",
-                        "name": "*.xcal.tv",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "ed01122d-d9b5-43d7-8cd6-118ab2857744",
-                "name": "Secondary Targets",
-                "description_html": "<p>We consider secondary targets to be non-production systems with low business impact or sites that don't contain real user data.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1750.0,
-                        "max": 2750.0
-                    },
-                    "2": {
-                        "min": 750.0,
-                        "max": 1250.0
-                    },
-                    "3": {
-                        "min": 125.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 125.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/comcast-mbb/target_groups/ade895c0-c7ab-4c8b-b6f7-e372241e4f02/targets",
-                "targets": [
-                    {
-                        "id": "fe981f54-a2ec-41df-b08c-9aaff8d746cc",
-                        "name": "Staging, QA, Dev, and Test Environments",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "68da3fae-5355-463e-8442-9a5016b1bda0",
-                                    "name": "ASP.NET"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9c63a0f4-0db6-40da-85f0-65d0aa72bfbe",
-                                    "name": "Windows"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "b6333057-ce1f-4205-bcb6-ce56be83543b",
-                                    "name": "Microsoft IIS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "bce4e384-e32c-46e7-aee1-9acb319bc29f",
-                "name": "Out of Scope",
-                "description_html": "<p>Please note that submissions out of scope in this program may be in scope for their <a href=\"https://bugcrowd.com/comcastvdp\" rel=\"nofollow noreferrer\" target=\"_blank\">Comcast Xfinity Vulnerability Disclosure Program</a>. <br>\nAll findings for Xfinity Home and xFi can be submitted directly to <a href=\"https://bugcrowd.com/xfinity-home\" rel=\"nofollow noreferrer\" target=\"_blank\">that program</a></p>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/comcast-mbb/target_groups/31e69935-f04a-474f-bbff-7648b0acf0c4/targets",
-                "targets": [
-                    {
-                        "id": "0a8ab2a8-93a0-4f26-bf01-7afdb0378f6b",
-                        "name": "*.hfc.comcastbusiness.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "37213546-4ce7-4d9b-8167-27560c53256c",
-                        "name": "*.hsd1.*.comcast.net",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "81df24ad-3909-4838-8b76-f70b504cbe41",
-                        "name": "*business.comcast.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3b1f2e18-cf70-4b42-a114-bb54ee835a3d",
-                        "name": "10.0.0.0/8",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2b4ece52-1195-479f-b8c2-57fbb41a9a98",
-                        "name": "50.128.0.0/12",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ef8781de-94dc-429e-9bb7-401687555566",
-                        "name": "50.152.0.0/13",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6e684ca1-7361-43cb-a23c-fa42b4315b38",
-                        "name": "96.201.0.0/16",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "61d4e034-c412-4175-a747-521a367becfd",
-                        "name": "96.202.128.0/17",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b64b6b29-26ba-4fc4-85ec-c4f0baa6e8a5",
-                        "name": "96.203.0.0/16",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "44c59e0b-314f-47a5-b964-bf4921354d28",
-                        "name": "172.26.128.0/18",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5feffd59-843d-4831-a8d3-9f1457c794d6",
-                        "name": "184.112.0.0/13",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5c5c491c-965e-42cb-a735-1c44fabd10a3",
-                        "name": "184.122.0.0/15",
-                        "description": null,
-                        "category": "network",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4ecd95d7-1fc8-43d5-825d-8ae1683f4ef5",
-                        "name": "NBC Universal",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "779c21f2-869e-41ed-99c5-e9bf89cfdd72",
-                        "name": "Sky",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Square",
         "tagline": "We make selling simple for businesses of all sizes.",
         "briefUrl": "/engagements/square",
@@ -30930,6 +28750,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/square/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Xfinity Home & xFi",
+        "tagline": "Xfinity Home gives you peace of mind with a total home security and automation solution. With Xfinity xFi, you can personalize and control your home WiFi network. Together, they provide an in-home experience that is simple, easy, and awesome.",
+        "briefUrl": "/engagements/xfinity-home",
+        "backgroundColor": "#f4f4f4",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2a02/8676/2437c177/c1cc2dd912014795dcf6a92408477f84_corporate_Xfinity-Home.png",
+        "rewardSummary": {
+            "summary": "Points - $5,500",
+            "hint": "Up to $10,000",
+            "minReward": "Points",
+            "maxReward": "$5,500",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/xfinity-home/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -32436,6 +30286,36 @@
         "target_groups": []
     },
     {
+        "name": " Comcast Xfinity Vulnerability Disclosure Program",
+        "tagline": "Digital Cable TV, Internet and Phone for Residential and Business Services",
+        "briefUrl": "/engagements/comcastvdp",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/73d8/3094/c9ca7058/382e5cddd922bd653ca8f6639df5c2ba_Comcast_logo_2012.png",
+        "rewardSummary": {
+            "summary": "Points - $3,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/comcastvdp/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "T-Mobile",
         "tagline": "Welcome to The Uncarrier. Are You With Us?",
         "briefUrl": "/engagements/t-mobile",
@@ -33615,6 +31495,36 @@
         "target_groups": []
     },
     {
+        "name": "Comcast Xfinity Bug Bounty",
+        "tagline": "Welcome to the Xfinity Bug Bounty program!",
+        "briefUrl": "/engagements/comcast-mbb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/comcast-mbb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Smartmockups",
         "tagline": "Help Secure Smartmockups",
         "briefUrl": "/engagements/smartmockups",
@@ -34058,6 +31968,224 @@
         "target_groups": []
     },
     {
+        "name": "WOO Network: Bug Bounty Program",
+        "tagline": "Zero-fee Trading Platform",
+        "briefUrl": "/engagements/woo-network",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7ab2/5ed2/fcf7cb78/c6dd295645ab58ae2d3cec9ffb656b0e_wootrade.jpeg",
+        "rewardSummary": {
+            "summary": "$200 - $9,000",
+            "hint": "Up to $10,000",
+            "minReward": "$200",
+            "maxReward": "$9,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/woo-network/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Rapyd",
+        "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
+        "briefUrl": "/engagements/rapyd",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/13a5/c1ee/7624f625/29a746eeb7538a2c124904dde8ea4b32_rapyd.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $7,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$7,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/rapyd/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Entain Game Logic Flaws Bug Bounty Program",
+        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
+        "briefUrl": "/engagements/entain-glf-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $6,500",
+            "hint": "Up to $10,000",
+            "minReward": "Points",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Statuspage",
+        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
+        "briefUrl": "/statuspage",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/statuspage/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
+                "name": "In Scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 4000.0,
+                        "max": 4000.0
+                    },
+                    "2": {
+                        "min": 1200.0,
+                        "max": 1200.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 500.0
+                    },
+                    "4": {
+                        "min": 200.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
+                "targets": [
+                    {
+                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
+                        "name": "manage.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://manage.statuspage.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
+                                    "name": "Fastly"
+                                },
+                                {
+                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
+                                    "name": "Ruby on Rails"
+                                },
+                                {
+                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
+                                    "name": "Moment.js"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
+                                    "name": "Newrelic"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
+                        "name": "*.statuspage.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
+                                    "name": "Recon"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
+                                    "name": "DNS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/vox",
@@ -34288,224 +32416,6 @@
                             "tags": []
                         },
                         "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "WOO Network: Bug Bounty Program",
-        "tagline": "Zero-fee Trading Platform",
-        "briefUrl": "/engagements/woo-network",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7ab2/5ed2/fcf7cb78/c6dd295645ab58ae2d3cec9ffb656b0e_wootrade.jpeg",
-        "rewardSummary": {
-            "summary": "$200 - $9,000",
-            "hint": "Up to $10,000",
-            "minReward": "$200",
-            "maxReward": "$9,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/woo-network/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Rapyd",
-        "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
-        "briefUrl": "/engagements/rapyd",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/13a5/c1ee/7624f625/29a746eeb7538a2c124904dde8ea4b32_rapyd.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $7,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$7,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/rapyd/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Entain Game Logic Flaws Bug Bounty Program",
-        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
-        "briefUrl": "/engagements/entain-glf-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $6,500",
-            "hint": "Up to $10,000",
-            "minReward": "Points",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Statuspage",
-        "tagline": "Hosted status pages for SaaS, infrastructure, and API-based companies",
-        "briefUrl": "/statuspage",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/becb/67c1/907fb72a/707a80a88f92d5039c9c3a80e0702697_bounty-logo-statuspage.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/statuspage/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "2f8c31ca-b9aa-4124-9c8b-2bd7e4781454",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/statuspage/target_groups/769911be-1388-47c8-8eb4-f1657f936ac4/targets",
-                "targets": [
-                    {
-                        "id": "8ab62a2b-a8b2-4e1f-9089-b5c504c580e5",
-                        "name": "manage.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://manage.statuspage.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "2737f40b-dd43-41a3-bc20-94069ed37230",
-                                    "name": "Fastly"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9dd53764-a940-4786-bf6f-5a7c820e0df5",
-                        "name": "*.statuspage.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6f2f82a5-9ef3-4bc5-9d86-6634e03133e1",
-                                    "name": "Recon"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "e591e8bc-d7f4-49ad-952f-98dee6c92653",
-                                    "name": "DNS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
