@@ -4586,125 +4586,6 @@
         ]
     },
     {
-        "name": "The Plugin People",
-        "tagline": "Looking for bugs in our Enterprise Mail Handler app (DC and Cloud editions)",
-        "briefUrl": "/plugin-people",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7098/808f/b8bbd767/5e548ee8d44c91526d2e5522322a5c67_plugin.png",
-        "rewardSummary": {
-            "summary": "$100 - $1,800",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$1,800",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/plugin-people/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "97c2dde4-a4f9-4224-8c12-1dc778af3140",
-                "name": "Cloud hosted Enterprise Mail Handler on Jira Cloud",
-                "description_html": "<p>This group relates to Enterprise Mail Handler deployed to Jira Cloud and the JEMHC supporting environment.</p>\n\n<ul>\n<li>https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=cloud&amp;tab=overview</li>\n</ul>\n\n<p>Incentives for cloud are as per requirements of:</p>\n\n<ul>\n<li>https://developer.atlassian.com/platform/marketplace/marketplace-security-bug-bounty-program/</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/plugin-people/target_groups/f4cbf40d-ee14-4d06-925f-90c377802bd7/targets",
-                "targets": [
-                    {
-                        "id": "b3dd4af9-24ec-4c74-93bb-cea96bb214b8",
-                        "name": "Enterprise Mail Handler for Jira - Cloud Hosted - https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=cloud&tab=overview",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=cloud&tab=overview",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "4465ddb6-33ed-4d17-84b6-6fbfadd8ca4b",
-                "name": "Self hosted Enterprise Mail Handler on Jira DataCenter",
-                "description_html": "<p>This group relates to Enterprise Mail Handler deployed to a local Jira DataCenter instance.</p>\n\n<ul>\n<li>https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=datacenter&amp;tab=overview</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1800.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/plugin-people/target_groups/9d196903-efdd-449a-a54e-77100d610047/targets",
-                "targets": [
-                    {
-                        "id": "3ece3079-7831-4755-9ac0-e8bd2ccc5286",
-                        "name": "Enterprise Mail Handler for Jira - DataCenter - https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=datacenter&tab=overview",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/4832/enterprise-mail-handler-for-jira-jemh?hosting=datacenter&tab=overview",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "New Relic Public Bug Bounty Program",
         "tagline": "Data for engineers to monitor, debug, and improve their entire stack.",
         "briefUrl": "/engagements/newrelic-mbb-og-public",
@@ -4733,300 +4614,6 @@
         },
         "subscriptionUrl": "/newrelic-mbb-og-public/engagement_subscribers",
         "target_groups": []
-    },
-    {
-        "name": "Nubank Brasil Managed Bug Bounty Program",
-        "tagline": "Nubank Brasil is in a mission to fight complexity to empower people in their daily lives by reinventing financial services. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/nubank",
-        "backgroundColor": "#8303d2",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f21e/3f46/4f32c0b2/42cbdf52425e327f162e7df7a19e8614_nubank.png",
-        "rewardSummary": {
-            "summary": "$50 - $4,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/nubank/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "c23a3d62-fa10-464d-9bdc-ce066184e401",
-                "name": "Core Assets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/nubank/target_groups/aa2157dd-0e34-4570-8311-90b7b15b1f2e/targets",
-                "targets": [
-                    {
-                        "id": "2a73a25a-5915-4494-8601-1228ecadc370",
-                        "name": "Nubank Android: Playstore",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.nu.production&hl=pt_BR&gl=US&pli=1",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "dadd94fa-524a-4f99-b297-2c8a3dfebda6",
-                        "name": "Nubank iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/br/app/nubank-conta-e-cart%C3%A3o/id814456780",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2ce823e7-ce4f-4fe8-871f-49793024b387",
-                        "name": "prod-*.nubank.com.br",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "844df8ac-00b9-44a5-b792-0e97a9e650f4",
-                        "name": "prod-*.nu.com.mx",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "45640c82-e6e4-4efa-8b89-b7b4ee46be19",
-                        "name": "prod-*.nu.com.co",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "f8667dac-0f50-49c5-918c-1ffc5cbe93d7",
-                "name": "Primary Assets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1000.0,
-                        "max": 2000.0
-                    },
-                    "2": {
-                        "min": 600.0,
-                        "max": 1000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 400.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/nubank/target_groups/65e6aa11-6889-42b2-b67c-0be99884a96f/targets",
-                "targets": [
-                    {
-                        "id": "729499bf-2e8d-4472-9c4a-909cc27916f4",
-                        "name": "*nubank.com.br",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://nubank.com.br/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8fd81e9b-fa58-4574-8449-18dbf4b29b1c",
-                        "name": "*nu.com.mx",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://nubank.com.mx",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6e13ccb9-b04c-4ba0-97c1-5d14eb19ed04",
-                        "name": "*nu.com.co",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://nubank.com.co",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "3d2756fd-6110-4013-92a7-70200be4eb00",
-                "name": "Supplementary Assets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "2": {
-                        "min": 300.0,
-                        "max": 500.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/nubank/target_groups/40256e44-abef-4951-862e-6f020752459e/targets",
-                "targets": [
-                    {
-                        "id": "44261a7f-7eba-4b2a-a50d-8b4e8467a89d",
-                        "name": "*.nuinvest.com.br\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.nuinvest.com.br/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "9feec5d6-deb3-40e4-a593-6cde5d32053c",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/nubank/target_groups/08d50ba0-fbc9-415d-9927-397099b2e2ad/targets",
-                "targets": [
-                    {
-                        "id": "c05ea274-09ac-4333-ab4a-272e2b9a11b3",
-                        "name": "*nuinternational.com\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "93b9c550-3473-4592-a2ec-4d43108bbec1",
-                        "name": "*nat-a.nubank.com.br",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "Atlassian",
@@ -19943,213 +19530,6 @@
         ]
     },
     {
-        "name": "eazyBI",
-        "tagline": "eazyBI Bug Bounty Program ",
-        "briefUrl": "/eazybi",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/bec7/6531/1295ef20/ce67bbcbf8cc6a940cf9774c221798fd_eazybilogo.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $1,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$1,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/eazybi/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "8b26e94e-a54a-4c07-b024-c4319b35ff26",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/eazybi/target_groups/98ba3f20-ee77-421a-a1d2-fa160d43154d/targets",
-                "targets": [
-                    {
-                        "id": "60f96516-b87d-4d15-9a63-68fefffdefa1",
-                        "name": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0a6a33a3-139d-462d-ada2-b93e9f959258",
-                        "name": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=server",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=server",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9af33def-725d-40c8-a9c6-a78b0b39b596",
-                        "name": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "36cce0ba-9ec2-4386-820a-47a6defca9de",
-                        "name": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "daf6a0a6-3354-4995-8cf6-be27b6d25f0d",
-                        "name": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=server",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=server",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f506d8a8-d1b5-4302-9fcb-f24b23a8c49e",
-                        "name": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3f716906-3023-4fe9-94f4-d51ad83b86fd",
-                        "name": "docs.eazybi.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://docs.eazybi.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "4592d652-bb2d-4ab9-8720-08fe80de0dc4",
-                                    "name": "Backbone"
-                                },
-                                {
-                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
-                                    "name": "Bootstrap"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Twilio",
         "tagline": "A Cloud Communications Company",
         "briefUrl": "/twilio",
@@ -21717,1067 +21097,6 @@
                             ]
                         },
                         "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "K15t",
-        "tagline": "Apps to Amplify the Atlassian Experience for Everybody",
-        "briefUrl": "/k15t",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/aead/25a6/171b280b/7717b1c609d88e413ffd4382c3fbc045_K15t_Logo_RGB_Signet.png",
-        "rewardSummary": {
-            "summary": "$100 - $1,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$1,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/k15t/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f0d95f41-05dd-4b02-ac6e-5f95bda5b03e",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/k15t/target_groups/fd1b7a57-8e31-4837-91ae-e11fae5fbe14/targets",
-                "targets": [
-                    {
-                        "id": "fd000ff4-f7a5-4daf-a9d1-15a37af473a6",
-                        "name": "Any other subdomains of k15t.com, including but not limited to www.k15t.com, www.k15t.de and help.k15t.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1c3893a1-cc67-48a0-9317-a9f0a709cdd7",
-                        "name": "https://marketplace.atlassian.com/*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "bc8a99c0-fb7d-4c32-b71a-12c77ff495c2",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/k15t/target_groups/f73db169-b113-4a5e-bdac-eb20d2256cb6/targets",
-                "targets": [
-                    {
-                        "id": "051e6690-ac09-4cf9-92e6-5d687db51d64",
-                        "name": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "376cefd3-4644-444b-8576-479bc96b2b95",
-                        "name": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "05a09e04-512f-46bb-b153-71ecdba22a1f",
-                        "name": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "028d0edf-231c-4dc0-a3e7-6f9b8d4957e4",
-                        "name": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f678fb67-edf3-4c8a-9e21-45bb2b5d8441",
-                        "name": "https://marketplace.atlassian.com/apps/1217037/scroll-exporter-extensions?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1217037/scroll-exporter-extensions?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6e22db41-0269-4042-b37d-9d486cc63f9d",
-                        "name": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "04efe93a-7f9c-4b88-adc9-f490fa7e3082",
-                        "name": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e9b59892-011f-4bb5-8479-33eff04e108e",
-                        "name": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0cf28870-2f61-4821-b926-22a48847cd44",
-                        "name": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1e400e16-7ab9-4bff-8f5a-4b94209bfc44",
-                        "name": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "aad5535a-5009-43eb-9697-92e2cdf743f3",
-                        "name": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "160279ef-c717-47ed-a793-d97888bc038b",
-                        "name": "https://marketplace.atlassian.com/apps/1210818/scroll-versions-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1210818/scroll-versions-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3151aced-19ad-42dc-b207-7640f440d45c",
-                        "name": "https://marketplace.atlassian.com/apps/1211616/scroll-translations-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1211616/scroll-translations-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "980e542e-988b-4db3-b8d5-c2663570d627",
-                        "name": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=datacenter&tab=overview",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=datacenter&tab=overview",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7da70c33-9240-489a-a5ec-673157c3524e",
-                        "name": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=datacenter&tab=overview",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=datacenter&tab=overview",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b14bbeb5-3bc0-49bc-8c40-e81943645500",
-                        "name": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=datacenter&tab=overview",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=datacenter&tab=overview",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e6140906-79c1-4467-866e-12880067c6eb",
-                        "name": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1207c19f-fda8-4f42-8b9e-fcf4ffd6a63f",
-                        "name": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bf5475b5-9539-415a-bf9f-90d6259996df",
-                        "name": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6950fe2b-5dbf-4192-9ccc-03889c20a341",
-                        "name": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=datacenter",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fb33d644-f67a-4cd1-87ee-0fbd720b1e9a",
-                        "name": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=cloud&tab=overview",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=cloud&tab=overview",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a4df344d-bc7c-4fb1-a444-d98a7013b2f7",
-                        "name": "https://marketplace.atlassian.com/apps/1224799/scroll-content-quality-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://marketplace.atlassian.com/apps/1224799/scroll-content-quality-for-confluence",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 21,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Stiltsoft",
-        "tagline": "Stiltsoft's bug bounty program",
-        "briefUrl": "/stiltsoft",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7e2c/8219/7d610da3/e56919fc4eae2f963694e5ab9c388886_Stiltsoft_Znak_Orange.png",
-        "rewardSummary": {
-            "summary": "$100 - $3,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/stiltsoft/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0180acd2-0a9c-4894-b956-a39eb0cdeb7c",
-                "name": "High-Priority |  In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 1800.0,
-                        "max": 1800.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/stiltsoft/target_groups/1f9011c1-450e-4d4b-a44f-435dc8cf56e4/targets",
-                "targets": [
-                    {
-                        "id": "adfef5da-9671-4f99-986b-4d013bbbbf87",
-                        "name": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "85756483-8cbd-4a28-8ec2-e4c59a7981fe",
-                                    "name": "Confluence"
-                                },
-                                {
-                                    "id": "d2e9f7fd-1403-4a01-b5b8-fba5e0f49e37",
-                                    "name": "ExpressJS"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
-                                    "name": "JSON"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6cb9e537-fa75-47d2-a7f1-a9467f8f0caa",
-                        "name": "https://marketplace.atlassian.com/apps/1214110/courses-and-quizzes-lms-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1214110/courses-and-quizzes-lms-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "85756483-8cbd-4a28-8ec2-e4c59a7981fe",
-                                    "name": "Confluence"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "82f40d98-028c-4068-90be-62d1e30c0253",
-                                    "name": "Play"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "da3f945f-15e3-4a7d-bf90-6fe9b1148f74",
-                        "name": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6aa5759f-3c91-49c8-97b8-6eed6d7e5d0d",
-                                    "name": "Git"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "82f40d98-028c-4068-90be-62d1e30c0253",
-                                    "name": "Play"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6804f735-7103-4d86-b365-5e2f4d0497e4",
-                        "name": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=server",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=server",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6aa5759f-3c91-49c8-97b8-6eed6d7e5d0d",
-                                    "name": "Git"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
-                                    "name": "JSON"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "213cd38a-c74e-434d-8166-051d34fead50",
-                        "name": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=datacenter",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "6aa5759f-3c91-49c8-97b8-6eed6d7e5d0d",
-                                    "name": "Git"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "6a9fe373-cb50-48a4-8f00-f390acde8447",
-                                    "name": "JSON"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e2493f34-053d-4171-9f46-cc655ffa885d",
-                "name": "Other - In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/stiltsoft/target_groups/62dff054-37f3-44c8-ac98-e34c36e68177/targets",
-                "targets": [
-                    {
-                        "id": "620a8012-0dfc-45e0-a1fa-000c415c05a4",
-                        "name": "https://marketplace.atlassian.com/apps/1222084/spreadsheet-issue-field-editor?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1222084/spreadsheet-issue-field-editor?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "c392035e-469e-4625-a2f9-bbf1ffb873d9",
-                                    "name": "Spring"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c8495e43-4ccc-4182-9bba-cf94d592825a",
-                        "name": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3c977455-8927-4e4a-92cb-60d76f9b6174",
-                        "name": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=server",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=server",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "85756483-8cbd-4a28-8ec2-e4c59a7981fe",
-                                    "name": "Confluence"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "63b88a4c-0d3a-4c17-9948-14c360e8f1f3",
-                        "name": "https://marketplace.atlassian.com/apps/1212507/smart-attachments-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1212507/smart-attachments-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29b28ccd-4801-41ae-803f-74d103419965",
-                                    "name": "Jira"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "c392035e-469e-4625-a2f9-bbf1ffb873d9",
-                                    "name": "Spring"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7982dc52-6502-4e05-9b61-4da057564864",
-                        "name": "https://marketplace.atlassian.com/apps/1212531/customer-case-jira-support-feedback?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1212531/customer-case-jira-support-feedback?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29b28ccd-4801-41ae-803f-74d103419965",
-                                    "name": "Jira"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "49243023-4919-4214-80d4-fda6fe1f09e0",
-                        "name": "https://marketplace.atlassian.com/apps/1210766/teamcity-integration-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1210766/teamcity-integration-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29b28ccd-4801-41ae-803f-74d103419965",
-                                    "name": "Jira"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "eaa69542-87cd-413a-9b74-3e75f9fb01e4",
-                                    "name": "Angular"
-                                },
-                                {
-                                    "id": "82f40d98-028c-4068-90be-62d1e30c0253",
-                                    "name": "Play"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8264c9c4-936d-4f2d-bc9a-b788baf139ad",
-                        "name": "https://marketplace.atlassian.com/apps/1214971/handy-macros-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1214971/handy-macros-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "85756483-8cbd-4a28-8ec2-e4c59a7981fe",
-                                    "name": "Confluence"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c392035e-469e-4625-a2f9-bbf1ffb873d9",
-                                    "name": "Spring"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "48592f3d-753f-474d-94b1-35245abda6c2",
-                        "name": "https://marketplace.atlassian.com/apps/1222102/webhook-manager-for-confluence-cloud?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1222102/webhook-manager-for-confluence-cloud?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "85756483-8cbd-4a28-8ec2-e4c59a7981fe",
-                                    "name": "Confluence"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "c392035e-469e-4625-a2f9-bbf1ffb873d9",
-                                    "name": "Spring"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5c1e68e5-ca20-4079-a6e8-7b56e9848ea8",
-                        "name": "https://marketplace.atlassian.com/apps/1222001/employee-performance-ratings?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1222001/employee-performance-ratings?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29b28ccd-4801-41ae-803f-74d103419965",
-                                    "name": "Jira"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "95cf953e-85ee-42c2-9123-09d81bfe7ba9",
-                                    "name": "PostgreSQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "c392035e-469e-4625-a2f9-bbf1ffb873d9",
-                                    "name": "Spring"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f22c56ef-2759-44e1-b653-f94314e54211",
-                        "name": "https://marketplace.atlassian.com/apps/1224994/poll-maker-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1224994/poll-maker-for-confluence?hosting=cloud",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "85756483-8cbd-4a28-8ec2-e4c59a7981fe",
-                                    "name": "Confluence"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                },
-                                {
-                                    "id": "69f9dcc7-e598-4efc-be48-7c36a7689651",
-                                    "name": "Atlassian Forge"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "0fbc6294-24bf-446d-8d67-3904e1053cd7",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/stiltsoft/target_groups/f312fc11-e41d-4efa-9a2e-5567311a021c/targets",
-                "targets": [
-                    {
-                        "id": "bb6e53d3-bcff-4616-ab35-adf415d11a13",
-                        "name": "*.atlassian.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.atlassian.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -25151,99 +23470,6 @@
         ]
     },
     {
-        "name": "Empower Personal Wealth",
-        "tagline": "Financial Software and Wealth Management",
-        "briefUrl": "/personalcapital",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/aa6e/1ddd/b355d142/98e1c38516319953f2b1bce945ecc7fb_EMP_bugcrowd.png",
-        "rewardSummary": {
-            "summary": "$150 - $4,000",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/personalcapital/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "9e5e96c0-2c0c-4527-b71c-9e19458f8b5b",
-                "name": "Primary Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4000.0
-                    },
-                    "2": {
-                        "min": 1200.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 550.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/personalcapital/target_groups/ab855f26-8f64-4e22-9850-184232b607a5/targets",
-                "targets": [
-                    {
-                        "id": "f342aa77-dbbb-479c-85a5-5b5634b98b6e",
-                        "name": "https://devstaging.pcapcloud.com/*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
-                                    "name": "Static Code Analysis"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Opsgenie",
         "tagline": "Opsgenie is a modern incident management platform for operating always-on services, empowering Dev & Ops teams to plan for service disruptions and stay in control during incidents.",
         "briefUrl": "/opsgenie",
@@ -27358,6 +25584,36 @@
         "target_groups": []
     },
     {
+        "name": "Nextup.ai",
+        "tagline": "Please submit your finding to Nextup.ai's bug bounty program",
+        "briefUrl": "/engagements/nextupai",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c03d/bb82/61862fce/b1fb9a4f7dbe10ea12b177a9c8efc1b6_nextup.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $1,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$1,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/nextupai/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Keeper Security Public Bounty Program",
         "tagline": "Keeper is the leading password management, privilege access management and secure messaging platform for consumers and businesses.",
         "briefUrl": "/engagements/keepersecurity",
@@ -28075,6 +26331,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/codefortynine/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Nubank Brasil Managed Bug Bounty Program",
+        "tagline": "Nubank Brasil is in a mission to fight complexity to empower people in their daily lives by reinventing financial services. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/nubank",
+        "backgroundColor": "#8303d2",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f21e/3f46/4f32c0b2/42cbdf52425e327f162e7df7a19e8614_nubank.png",
+        "rewardSummary": {
+            "summary": "$50 - $4,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/nubank/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Stiltsoft",
+        "tagline": "Stiltsoft's bug bounty program",
+        "briefUrl": "/engagements/stiltsoft",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7e2c/8219/7d610da3/e56919fc4eae2f963694e5ab9c388886_Stiltsoft_Znak_Orange.png",
+        "rewardSummary": {
+            "summary": "$100 - $3,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/stiltsoft/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -29287,6 +27603,126 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/t-mobile/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Empower Personal Wealth",
+        "tagline": "Financial Software and Wealth Management",
+        "briefUrl": "/engagements/personalcapital",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/aa6e/1ddd/b355d142/98e1c38516319953f2b1bce945ecc7fb_EMP_bugcrowd.png",
+        "rewardSummary": {
+            "summary": "$150 - $4,000",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/personalcapital/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "eazyBI",
+        "tagline": "eazyBI Bug Bounty Program ",
+        "briefUrl": "/engagements/eazybi",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/bec7/6531/1295ef20/ce67bbcbf8cc6a940cf9774c221798fd_eazybilogo.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $1,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$1,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/eazybi/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "GoPro Awards Webapp Public Program",
+        "tagline": "Submit your findings to GoPro's bug bounty program! Please note this is only for the Awards web application",
+        "briefUrl": "/engagements/gopro-og-public",
+        "backgroundColor": "#000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d653/af5f/c41aacdc/d892812eacfbe7347cd3d78c90fcf6f8_6c09ff85b1ba757766b0f46b8fb56ac6_6423906_300x300.jpg",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/gopro-og-public/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "The Plugin People",
+        "tagline": "Looking for bugs in our Enterprise Mail Handler app (DC and Cloud editions)",
+        "briefUrl": "/engagements/plugin-people",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7098/808f/b8bbd767/5e548ee8d44c91526d2e5522322a5c67_plugin.png",
+        "rewardSummary": {
+            "summary": "$100 - $1,800",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$1,800",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/plugin-people/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -31217,6 +29653,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/electroneum/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "K15t",
+        "tagline": "Apps to Amplify the Atlassian Experience for Everybody",
+        "briefUrl": "/engagements/k15t",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/aead/25a6/171b280b/7717b1c609d88e413ffd4382c3fbc045_K15t_Logo_RGB_Signet.png",
+        "rewardSummary": {
+            "summary": "$100 - $1,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$1,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/k15t/engagement_subscribers",
         "target_groups": []
     }
 ]
