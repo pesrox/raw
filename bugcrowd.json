@@ -1,5 +1,1073 @@
 [
     {
+        "name": "Latitude Financial Services Bug Bounty ",
+        "tagline": "We're revolutionising how people borrow money so our customers can live better with good money habits. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/latitude-financial-service-bugbounty",
+        "backgroundColor": "#004ab8",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/49c4/196c/edb3ee1e/d719b1ab4915edf140c8cc9e6a9da942_Latitude_Financial_Services.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/latitude-financial-service-bugbounty/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "8e2853ad-650e-4eba-b332-24bc6ed245f4",
+                "name": "In Scope Targets - Latitude Financial ",
+                "description_html": "<p>Please note that the two web applications are for mostly clones of each other. Submissions related to the common codebase will be treated as duplicates. However, it is still recommended checking both applications in the event you are able to find a vulnerability that is unique to that instance.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1250.0
+                    },
+                    "3": {
+                        "min": 450.0,
+                        "max": 600.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/latitude-financial-service-bugbounty/target_groups/4ab9f914-aded-490f-9394-e866912587e6/targets",
+                "targets": [
+                    {
+                        "id": "77b57f08-1361-45fd-a127-c6e465e70cbf",
+                        "name": "https://api.test.latitudefinancial.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b67e5263-29c5-41c0-8207-d812495fef23",
+                        "name": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
+                                    "name": "Amazon Cloudfront"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8a5d388b-9b87-443e-b556-64a4e6da17ee",
+                        "name": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/\t",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
+                                    "name": "Amazon S3"
+                                },
+                                {
+                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
+                                    "name": "Amazon Cloudfront"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7a5b7783-e14e-4a64-bff7-4279914f4350",
+                "name": "In scope - Latitude Financial Brands ",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2100.0,
+                        "max": 2500.0
+                    },
+                    "2": {
+                        "min": 1000.0,
+                        "max": 1250.0
+                    },
+                    "3": {
+                        "min": 450.0,
+                        "max": 600.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/latitude-financial-service-bugbounty/target_groups/e372c382-120e-4a3a-855b-c284102de127/targets",
+                "targets": [
+                    {
+                        "id": "2d0d4075-c13c-45a5-abb0-38d69d947c6c",
+                        "name": "*.28degreescard.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://28degreescard.com.au",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "50638355-c29e-4702-9ffa-f25afecfd46e",
+                        "name": "*.buyersedge.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://buyersedge.co.nz",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                    "name": "Lodash"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "98c273e0-9663-4261-add8-d7dfa46bdacf",
+                        "name": "*.carecredit.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://carecredit.com.au",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "fa6235de-0f25-4282-9c18-d4cfc7389ce2",
+                        "name": "*.gemcreditline.co.nz",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://gemcreditline.co.nz",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5ecacdb3-cb65-4a6b-bb4b-fe66b558262c",
+                        "name": "*.gemfinance.co.nz",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://gemfinance.co.nz",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4770badd-814e-4216-8d66-a2be52add539",
+                        "name": "*.gemvisa.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://gemvisa.com.au",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9edf0b62-b011-4bde-a886-176edd133a74",
+                        "name": "*.genoapay.co.nz",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1e6f8031-3cf3-4139-8565-68fb52e19ff3",
+                        "name": "*.genoapay.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "073f0fd7-1682-4562-8c66-1e1ea6a8de30",
+                        "name": "*.gomastercard.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://gomastercard.com.au",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5b802c89-ec15-420d-bb86-11b318349d88",
+                        "name": "*.interestfree.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://interestfree.com.au",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b8d042c5-e798-436d-b492-a092d92bcf0f",
+                        "name": "*.latitudefinancial.co.nz",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "752bfe2a-4e3d-40a1-8abf-28529b4a40a9",
+                        "name": "*.latitudefinancial.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e420fca8-aac2-4d32-9acf-1dc570f4ddd1",
+                        "name": "*.latitudefinancial.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "77948264-4892-440d-9cd4-2633db18de36",
+                        "name": "*.latitudeinfinity.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://latitudeinfinity.com.au",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "32a00682-97f0-4d01-852d-f06359bdc440",
+                                    "name": "Bootstrap"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 13,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "53e817bd-277c-4f6b-bf3f-ab1e2628f3cd",
+                        "name": "*.latitudepay.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 14,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "16a745c1-cb34-4d8e-b096-5b105593eb60",
+                        "name": "*.latitudepay.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
+                                    "name": "MySQL"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "abbd0575-727e-4565-8046-f7fa78eaf368",
+                                    "name": "PHP"
+                                }
+                            ]
+                        },
+                        "sort_order": 15,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "08bf0e89-5b6e-478f-b493-15eb685363d7",
+                        "name": "*.umiloans.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://umiloans.com.au",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
+                                    "name": "jQuery"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
+                                    "name": "Modernizr"
+                                }
+                            ]
+                        },
+                        "sort_order": 16,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "617bd502-283c-48bd-8dfd-0c23412324e2",
+                        "name": "images.latitudepayapps.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://images.latitudepayapps.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 17,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "805e9623-5cc9-4c81-9554-f8b39bd79b47",
+                        "name": "app.latitudepayapps.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://app.latitudepayapps.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 18,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2e6bc4e4-dd50-45a1-a4ea-bab24642740f",
+                        "name": "Sympleloans.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://sympleloans.com.au/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 19,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "275a6e98-e2fe-438f-bd7f-72580ee1f526",
+                        "name": " *.test.*.lfscnp.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 20,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c366917a-a2e6-4c2c-89c3-90df9b24eb29",
+                        "name": "*.dev.*.lfscnp.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 21,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c1163cf8-e8fb-4e34-bd11-07658612c7c3",
+                        "name": "*.sandbox.*.lfscnp.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 22,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f0af718e-cb54-4cab-909a-e8e96edcc504",
+                        "name": "*.-np.*.lfscnp.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                    "name": "AWS"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 23,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "e5211691-3111-4821-8094-e508cc2e6627",
+                "name": "Out of Scope Targets",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/latitude-financial-service-bugbounty/target_groups/5e122b10-a54d-4b8d-ab91-b39764cf7dcb/targets",
+                "targets": [
+                    {
+                        "id": "b0262463-7055-448c-a4bf-703796f70e07",
+                        "name": "https://investors.latitudefinancial.com.au",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ed397f8c-84f8-4f79-9211-bcda76fb4717",
+                        "name": "https://auth.latitudefinancial.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6a6422df-c1b1-41ec-b38b-dda504c1fee1",
+                                    "name": "Okta"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b31adade-a8bc-4b17-a22e-cf855c1d83f6",
+                        "name": "https://auth.*.latitudefinancial.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "6a6422df-c1b1-41ec-b38b-dda504c1fee1",
+                                    "name": "Okta"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7f73c2ca-6510-451e-af22-4aed155ba34f",
+                        "name": "*.latitudefs.com",
+                        "description": null,
+                        "category": "other",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "74a79798-a924-4b3b-bd44-a18a4c8253ff",
+                        "name": "https://*.my.latitudepay.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d8744e43-d5b4-4aad-9866-3054547af164",
+                        "name": "https://*.sg.latitudepay.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ff91cde6-a202-4559-81ed-ebc5707a621a",
+                        "name": "https://my.latitudepay.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8692db10-0a8c-4f47-97c6-5a6b607a28ce",
+                        "name": "https://sg.latitudepay.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "866992e9-3297-4b3d-99e3-d74493198f2c",
+                                    "name": "Google Cloud"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "756f1bf7-6da8-4a37-9c28-59f11b513fb7",
+                        "name": "https://t.latitudefinancial.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://t.latitudefinancial.com/*",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "eabc9fab-8c96-47ac-84e7-fa6e63b7e420",
+                        "name": "https://p.latitudefinancial.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://p.latitudefinancial.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
+                                    "name": "Azure"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Exoscale",
         "tagline": "European cloud provider. Simplicity, scalability and security.",
         "briefUrl": "/engagements/exoscale",
@@ -23072,368 +24140,6 @@
         ]
     },
     {
-        "name": "codefortynine",
-        "tagline": "Test codefortynine's targets!",
-        "briefUrl": "/codefortynine",
-        "backgroundColor": "#000049",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/87dc/8bd2/48797176/370b978ce3950d9599951f274ec90ac7_Codefortynine-GmbH-Signet_white_bg_blue49_border_1024x1024.png",
-        "rewardSummary": {
-            "summary": "$100 - $1,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$1,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/codefortynine/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "e2862812-512b-4ef4-a32b-4bab27c1ad47",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 300.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/codefortynine/target_groups/1c62c8da-3eea-461c-a954-1bca94d1d33b/targets",
-                "targets": [
-                    {
-                        "id": "2bfabcc3-bd91-43b8-af05-88bd56bc1f90",
-                        "name": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2c8190c4-602b-42d9-b146-a820a11d191d",
-                        "name": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cc9bbf1b-29c8-47ab-b7c8-592b1a7686f1",
-                        "name": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b2066e1e-0469-4c4c-bed7-e9bef14164bf",
-                        "name": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cf39b3dc-7132-4945-91e3-50a0f84e87eb",
-                        "name": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "41c1c1bb-3e3e-41ac-b49a-7a486f933018",
-                        "name": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "66704350-c92d-4d18-bb57-11ed99ba3baf",
-                        "name": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3f3766c9-1cb3-4f19-89ec-3e3057b58f27",
-                        "name": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "81af035f-28a1-4f6e-b55d-d7e7684f0046",
-                        "name": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "95a299e9-d15c-471e-94f2-97a7adfa36ea",
-                        "name": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0f2d7df9-6416-4478-8cdd-f26f4389c8eb",
-                        "name": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "76c0b8da-2594-43b8-b067-54159f867c15",
-                        "name": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a2446b1a-0c30-4e63-9ca2-3b12fb7b156d",
-                        "name": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "75f41c72-1aac-461f-a757-2f28e1178ca7",
-                        "name": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5390ae37-efd7-422a-b3a5-76fb50bd5374",
-                        "name": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1101d8fd-a7d5-4462-bdbd-be634968413c",
-                        "name": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Arlo Cash Rewards",
         "tagline": "Arlo Cash Rewards Program",
         "briefUrl": "/arlo",
@@ -27072,36 +27778,6 @@
         "target_groups": []
     },
     {
-        "name": "Rec Room Video Games",
-        "tagline": "Help secure Rec Room!",
-        "briefUrl": "/engagements/recroom-og",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/82f3/f343/ef815849/b59ec6dbe1192520f39c172ccff86bfb_Rec_Room_Logo.jpeg",
-        "rewardSummary": {
-            "summary": "$150 - $2,500",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/recroom-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Just Eat Takeaway.com",
         "tagline": "Lead, Deliver, Care - Takeaway.com",
         "briefUrl": "/engagements/justeattakeaway",
@@ -27339,6 +28015,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/aylo-trafficjunky-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Rec Room Video Games",
+        "tagline": "Help secure Rec Room!",
+        "briefUrl": "/engagements/recroom-og",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/82f3/f343/ef815849/b59ec6dbe1192520f39c172ccff86bfb_Rec_Room_Logo.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/recroom-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "codefortynine",
+        "tagline": "Test codefortynine's targets!",
+        "briefUrl": "/engagements/codefortynine",
+        "backgroundColor": "#000049",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/87dc/8bd2/48797176/370b978ce3950d9599951f274ec90ac7_Codefortynine-GmbH-Signet_white_bg_blue49_border_1024x1024.png",
+        "rewardSummary": {
+            "summary": "$100 - $1,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$1,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/codefortynine/engagement_subscribers",
         "target_groups": []
     },
     {
