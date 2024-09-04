@@ -1,5 +1,1131 @@
 [
     {
+        "name": "Tripadvisor ",
+        "tagline": "The world\u2019s largest travel site. Know better. Book better. Go better.",
+        "briefUrl": "/tripadvisor-bb-og",
+        "backgroundColor": "#1e201f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/85e6/3f88/041fa6d4/6ee5239552ab10b10c5406f689f53a36_tripadvisor_.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tripadvisor-bb-og/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "0126c074-3a0c-407b-8089-17dfd0b1dd15",
+                "name": "Tier 1 Targets",
+                "description_html": "<p>Our main web application www.tripadvisor.com communicates with tier1 APIs for payment functionalities. There is no public documentation for the CDE API, but all endpoints can be discovered by interacting with payment functionalities on www.tripadvisor.com.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 5000.0,
+                        "max": 5000.0
+                    },
+                    "2": {
+                        "min": 1250.0,
+                        "max": 1250.0
+                    },
+                    "3": {
+                        "min": 900.0,
+                        "max": 900.0
+                    },
+                    "4": {
+                        "min": 250.0,
+                        "max": 250.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/tripadvisor-bb-og/target_groups/f472e0bc-0c92-40d7-8bf0-be082d757c53/targets",
+                "targets": [
+                    {
+                        "id": "732d0085-a5d9-41fa-b049-e90f15ded5aa",
+                        "name": "api.production.cde.tamg.cloud",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.production.cde.tamg.cloud",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "5c0b5acf-c7a4-467a-876f-9b7299cb424b",
+                        "name": "partnerapi.tapayments.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://partnerapi.tapayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3e9b596d-4b02-4670-a404-1d5efa97becd",
+                        "name": "partnerapi1.tapayments.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://partnerapi1.tapayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "01563863-b343-44fb-b4c3-1dfb0d779e79",
+                        "name": "partnerapi2.tapayments.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://partnerapi2.tapayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6f85f707-1f44-4800-8413-f76f90f283aa",
+                        "name": "walletproxy.tapayments.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://walletproxy.tapayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b1bdcd30-c3ce-4b18-bf67-edf8a9d4c514",
+                        "name": "walletproxy1.tapayments.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://walletproxy1.tapayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "353836d9-c6e2-41ab-86c9-1a34d7b88b3e",
+                        "name": "walletproxy2.tapayments.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://walletproxy2.tapayments.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7579517e-d25b-40a5-887d-e74878ca5f58",
+                "name": "Tier 2 Targets",
+                "description_html": "<p>You may use the following API key: adf6d1b8-0aca-4b0c-a492-50530aadd7aa</p>\n\n<p>You can see overview of our APIs at <a href=\"https://developer-tripadvisor.com/home/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://developer-tripadvisor.com/home/</a><br>\nPartner API documentation can be found at <a href=\"http://api.tripadvisor.com/api/partner/2.0/doc?key=adf6d1b8-0aca-4b0c-a492-50530aadd7aa\" rel=\"nofollow noreferrer\" target=\"_blank\">http://api.tripadvisor.com/api/partner/2.0/doc?key=adf6d1b8-0aca-4b0c-a492-50530aadd7aa</a></p>\n\n<p>Tripadvisor has now enabled the ability to assign property ownership for testing. Use the Request a Response (RAR) feature to become an owner of a test property. </p>\n\n<p>Include in the request your @bugcrowdninja.com email address and the Property ID you want to own. </p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3000.0,
+                        "max": 3000.0
+                    },
+                    "2": {
+                        "min": 900.0,
+                        "max": 900.0
+                    },
+                    "3": {
+                        "min": 400.0,
+                        "max": 400.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 150.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/tripadvisor-bb-og/target_groups/7b360511-492e-409b-86ed-6a00081c3b6d/targets",
+                "targets": [
+                    {
+                        "id": "9a0c21ce-272a-40fe-a516-ccf6c1517920",
+                        "name": "www.tripadvisor.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4d4a6fa1-a40d-47fd-b792-d38afd769e40",
+                        "name": "Localized versions of www.tripadvisor.com available from the site's header or footer",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d7c87fb9-5a91-4a7d-a56f-54ee423e8374",
+                        "name": "api.tripadvisor.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ce0045c2-1d31-4ee9-ae61-382db646a95e",
+                        "name": "service.platform.tripadvisor.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://service.platform.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7b94aef4-b21b-4870-9265-dcbe70a41791",
+                        "name": "gwapi.tripadvisor.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://gwapi.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "66f26fce-66fc-46ff-9bde-8b294f5252fd",
+                        "name": "gwapi1.tripadvisor.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://gwapi1.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "b592c51a-62ea-4d5f-b39c-868bfc25f1b8",
+                        "name": "gwapi2.tripadvisor.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://gwapi2.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "383a59f0-83fb-4f47-960a-d57ab2c150a6",
+                "name": "Tier 3 Targets",
+                "description_html": "<p>Note that tamg.cloud subdomains that end with -sbx are sandbox (testing) projects. Normally, only test data flows through them therefore disclosing \"sensitive\" data on those is mostly not an issue in reality. </p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 1500.0,
+                        "max": 1500.0
+                    },
+                    "2": {
+                        "min": 450.0,
+                        "max": 450.0
+                    },
+                    "3": {
+                        "min": 150.0,
+                        "max": 150.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 50.0
+                    }
+                },
+                "sort_order": 2,
+                "targets_url": "/tripadvisor-bb-og/target_groups/7a6b8d82-189f-4f5c-9769-2990abb425b0/targets",
+                "targets": [
+                    {
+                        "id": "f7ab8a69-8212-44df-86c4-b8b4aa9a8916",
+                        "name": "Any publicly accessible Tripadvisor web asset or host (domains, ip space, etc) - except for assets listed as Out-of-Scope below. ",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7358db62-9b37-4044-b94b-7a8e3476a630",
+                "name": "Tripadvisor Mobile",
+                "description_html": "<p>The apps can be downloaded via Google Play for Android or the App Store for iOS:</p>\n\n<ul>\n<li>https://play.google.com/store/apps/details?id=com.tripadvisor.tripadvisor&amp;hl=en&amp;gl=US&amp;pli=1</li>\n<li>https://apps.apple.com/us/app/tripadvisor-plan-book-trips/id284876795</li>\n</ul>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 3500.0,
+                        "max": 3500.0
+                    },
+                    "2": {
+                        "min": 750.0,
+                        "max": 750.0
+                    },
+                    "3": {
+                        "min": 350.0,
+                        "max": 350.0
+                    },
+                    "4": {
+                        "min": 75.0,
+                        "max": 75.0
+                    }
+                },
+                "sort_order": 3,
+                "targets_url": "/tripadvisor-bb-og/target_groups/b2bddf64-0202-4843-9cff-49512f7ea535/targets",
+                "targets": [
+                    {
+                        "id": "6580d428-9e1f-420e-aebe-e11ce401b9b9",
+                        "name": "Tripadvisor Android App",
+                        "description": null,
+                        "category": "android",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "0c079d19-eb32-42df-99dd-1ffbe52ccc29",
+                        "name": "Tripadvisor iOS App",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "7960d184-c079-41e8-974d-164fe691126c",
+                "name": "Vacation Rentals",
+                "description_html": "<h4>Note that submissions for vacation rentals section are rewarded with points only, they are not eligible for bounties.</h4>\n\n<p>You can register a new owner account by clicking the \"Link your property\" link on the domain you are visiting.  To ensure a property is listed on a particular website use the registration link on that website.  For example, a home registered at FlipKey will definitely be listed on FlipKey but may not be listed at Holiday Lettings.</p>\n\n<p>A new account requires both the email address and the mobile number to be verified before properties can be published. The email address can be validated by clicking a link in the email sent. To verify the mobile number do either of the following:</p>\n\n<ul>\n<li>Register using the test number above and email bugcrowd-tavr@tripadvisor.com with the details of your account to get the test number verified.</li>\n<li>Register a real mobile number and enter the code sent via SMS when prompted.</li>\n</ul>\n\n<p>Once you have completed all the tests you wanted to execute against a test property, please disable that test property in order for it not show up anymore on the websites! We reserve the right to disable test properties if they do not meet the guideline or have been live for a while.</p>\n\n<p><strong>IMPORTANT: If you want your properties to be distributed to vacationhomerentals.com, you will need to request that explicitly. To do so, email bugcrowd-tavr@tripadvisor.com with the subject \"Request to switch owner to VHR\" and provide your owner ID. Once you submit the request allow up to a day for your property to appear in VHR listings</strong></p>",
+                "in_scope": true,
+                "reward_range": {},
+                "sort_order": 4,
+                "targets_url": "/tripadvisor-bb-og/target_groups/35af264c-a1bf-439b-b915-e7a79e2c6c23/targets",
+                "targets": [
+                    {
+                        "id": "c2acae67-39c0-4d96-8621-40d79078127b",
+                        "name": "rentals.tripadvisor.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://rentals.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4fbcc1a2-da2f-4781-b9bf-bc1bafa22f3b",
+                        "name": "*.vacationhomerentals.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.vacationhomerentals.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7c4c722b-b431-44dd-9d6f-eb7b7a29b100",
+                        "name": "*.holidaylettings.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.holidaylettings.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f25bea9a-bb77-48fc-9ac4-789764b3d78a",
+                        "name": "*.flipkey.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.flipkey.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "482d3724-f9fc-4ef9-b496-29fd8c54a050",
+                        "name": "*.niumba.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.niumba.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4e4ad5fc-8931-42d0-acd2-e94dd965819a",
+                        "name": "*.housetrip.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.housetrip.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "55cf5741-6cdd-447c-8763-6cd9a1242e9d",
+                        "name": "Tripadvisor Owner APP (https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8)",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "42d2b45b-3c43-4f30-b7b6-5f95a0e588da",
+                        "name": "marlo.ext.tripadvisor.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "http://marlo.ext.tripadvisor.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "6c195c17-86c8-451b-b79d-45990b1fbda9",
+                "name": "Bokun",
+                "description_html": "<h2>Access and Guidelines</h2>\n\n<h4>Note that submissions for Bokun section are rewarded with points only, they are not eligible for bounties.</h4>\n\n<h3>Accounts</h3>\n\n<p>You must be using \u201cvulnscan\u201d prefix in your vendor/supplier name when registering for an account for both types of scans (manual and/or automatic). Do not create an excessive number of accounts. Two accounts should be enough for testing the marketplace whereas a single account should be enough for any other intent or purpose.</p>\n\n<h3>Types of scans</h3>\n\n<p>Please focus on manual testing rather than using automated tools as the latter are already employed. Nevertheless, if you choose to ignore this advice and use automated tools, you must ensure the request rate to our systems does not exceed a 1 request per second. On top of that, we would also kindly ask you to use a HTTP Agent header which identifies such requests.</p>\n\n<p>Email us in advance (vulnerabilities@bokun.io) if you will be using an automated tool. Our working hours are mostly those in the UTC time zone. </p>\n\n<p>It is <strong>strictly forbidden</strong> to run automated or manual vulnerability testing on production systems (listed in \"Out of scope\" section below).</p>\n\n<h3>Information on systems in scope</h3>\n\n<p>Alias to this environment is \u201ctest\u201d. Both external domains are just synonyms to the same service. There should be no difference between using either of them.</p>\n\n<p>Our test environment, hosted at extranet.bokuntest.com has virtually identical setup as prod component-wise. We use this environment to experiment with near-prod-ready code branches which are otherwise hard to simulate on local environments as well as for general test reasons. Note that this environment is also used by some of our customers which are businesses experimenting with API integrations and/or trying out our system in some other ways. Making changes to certain system elements might be visible for those customers (e.g. via Marketplace) and therefore we insist on following rules:</p>\n\n<ul>\n<li>Do not create an infinite amount of certain entities, e.g. vendor accounts. If you managed to find a gap where such entities are allowed to be created without reasonable limit, you must stop early and let us know</li>\n<li>Some of these entities are displayed for our customers in certain contexts. Refrain from profanity or other offensive language</li>\n<li>If you want to test illegal data access between different multi-tenant accounts (IDOR etc) please create accounts on your own without harnessing existing accounts</li>\n</ul>\n\n<p>Our system exposes the ability to have embeddable widgets. Widgets are publicly accessible resources and are made accessible via widget.bokuntest.com.<br>\nSimilar to this, we provide a <a href=\"https://bokun.github.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">public RESTful API</a> via api.bokuntest.com. We\u2019re happy to work with you in providing more details for how to create relevant entities and access these both endpoints. Alternatively, consult our <a href=\"https://docs.bokun.io/docs/bokun-help-center\" rel=\"nofollow noreferrer\" target=\"_blank\">helpdesk page</a> as creating widgets / using API should hopefully not be too complicated.</p>",
+                "in_scope": true,
+                "reward_range": {},
+                "sort_order": 5,
+                "targets_url": "/tripadvisor-bb-og/target_groups/b1422e48-ba88-4c5b-b38c-ff792bb1bc22/targets",
+                "targets": [
+                    {
+                        "id": "76fbfbae-e2f1-4566-bd0b-2233ded8ab4b",
+                        "name": "*.bokundemo.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.bokundemo.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "09b04bfc-794a-4e2f-a9a8-f0c44a5da6c3",
+                        "name": "*.bokuntest.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.bokuntest.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "0710d591-5ac2-40a1-8dd0-65b09ce4905d",
+                "name": "Out of Scope Targets",
+                "description_html": "",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 6,
+                "targets_url": "/tripadvisor-bb-og/target_groups/7f38b2bc-7309-4e89-a84f-8db30c44ee88/targets",
+                "targets": [
+                    {
+                        "id": "2d7289eb-e573-48db-8d31-2ded8f2a7d7a",
+                        "name": " ir.tripadvisor.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a39a3fd5-6c2a-4341-8372-e82bef68dae5",
+                        "name": "*.tripadviser.at",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "d17288d6-d4df-4b07-8b30-0adabb9b8810",
+                        "name": "*.tripadvisor.cn",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "29aa8fa3-123c-4e7c-a656-b74e147c3d66",
+                        "name": "www.tripadvisor.*/Trips",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "154883bc-3a07-4174-aece-5626d696af76",
+                        "name": "www.tripadvisor.*/Mobile*",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "79d24a36-7b3d-48f8-92e0-51d8733cb907",
+                        "name": "www.tripadvisor.*/engineering",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "196a562c-72e5-4586-a6d5-35c1ebfc5ee3",
+                        "name": "www.tripadvisor.*/WidgetEmbed-*",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8c76731b-0b2c-4325-ac38-9b14cf848f2b",
+                        "name": "spotlight-dev.tripadvisor.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2a067793-85e8-4ded-ba49-0d8ea1f22d1c",
+                        "name": "spotlight.tripadvisor.*",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f7436377-f006-4da8-b0cb-5a67c3cc90f2",
+                        "name": "careers.tripadvisor.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "8818fdc9-95b7-4440-805c-f15df3ab9bcb",
+                        "name": "*.tripadvisoradexpress.*",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 10,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e2024c48-1f8a-4323-869f-6b55b698647d",
+                        "name": "*.tripadvisorwifi.*",
+                        "description": null,
+                        "category": "website",
+                        "uri": null,
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 11,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "991204a3-13a3-47f2-89c4-98dc75646872",
+                        "name": "*.bokun.io",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 12,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "9346f1cb-91ec-47a2-b9a2-03af2d64d366",
+                        "name": "*.bokun.is",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 13,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "90fd623e-a81a-40aa-92ec-79a23a4a6c1d",
+                        "name": "*.bokun.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 14,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "7d3969bc-378a-4230-a57a-f265e39197c7",
+                        "name": "*.bokun.app",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 15,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ba8ffedc-6a54-423a-8dca-803b904d16f0",
+                        "name": "*.bokun.eu",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 16,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e121ea38-fd35-4b33-863b-4b010531732a",
+                        "name": "*.bokun.team",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 17,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "2e359982-dd0e-4bc3-ab05-cd476fa25ec5",
+                        "name": "*.bokun.tools",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 18,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bc2f05b6-72e5-4581-8543-541d09def074",
+                        "name": "*.bokun.website",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 19,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "3c764eec-1c44-49c4-bb3a-d071db69ef8a",
+                        "name": "*.bokunmobile.website",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 20,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "499da5ab-bc44-47db-8173-27733c21b0bc",
+                        "name": "*.experiences.zone",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 21,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Luno Bug Bounty Program",
         "tagline": "Luno Bug Bounty Program",
         "briefUrl": "/engagements/luno-og",
@@ -15151,9 +16277,9 @@
         "backgroundColor": "#fff",
         "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2588/cc10/bf2e0ce4/84a6821a6ab01e5904e1867aee28fac7_new_300_UpworkLogo_UpGreen_WithClearspace.png",
         "rewardSummary": {
-            "summary": "$100 - $5,000",
+            "summary": "$120 - $5,000",
             "hint": "Up to $10,000",
-            "minReward": "$100",
+            "minReward": "$120",
             "maxReward": "$5,000",
             "compensationSummary": "Up to $10,000",
             "compensationHint": "max reward"
@@ -15197,10 +16323,10 @@
                     "program_max": 10000
                 },
                 "sort_order": 0,
-                "targets_url": "/upwork/target_groups/f5e63074-379e-45f9-aceb-945eec2b451b/targets",
+                "targets_url": "/upwork/target_groups/24a604e0-4f14-4d93-a734-c411cca0cf4d/targets",
                 "targets": [
                     {
-                        "id": "73b28e64-da82-4991-af48-fc162214bed2",
+                        "id": "2502f639-1f3d-4c9a-892c-d74662edda5c",
                         "name": "www.upwork.com",
                         "description": null,
                         "category": "website",
@@ -15263,7 +16389,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "fb4707f0-8211-40bf-800c-efb679b71327",
+                        "id": "5dd92085-5476-4c02-812c-9da86ce771b7",
                         "name": "Upwork - Android Application",
                         "description": null,
                         "category": "android",
@@ -15294,7 +16420,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "886ae395-75e1-48c4-9726-a6dc62d8c4a9",
+                        "id": "c6463cae-0845-41e3-a006-3708c66a0182",
                         "name": "Upwork - iOS Application",
                         "description": null,
                         "category": "ios",
@@ -15329,7 +16455,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "24e9edfd-dcb6-453c-89ad-82046966b319",
+                        "id": "ef71937b-afe7-4405-a948-c895e2f9354f",
                         "name": "Upwork Dash Messenger Desktop Version (www.upwork.com/downloads)",
                         "description": null,
                         "category": "hardware",
@@ -15348,7 +16474,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "67df6d96-4cd7-451c-9732-7dbdb2819f73",
+                        "id": "b5a2ace6-c154-4cdb-b9cc-a7af8ab0166e",
                         "name": "www.upwork.com/api ",
                         "description": null,
                         "category": "api",
@@ -15371,7 +16497,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "b5aafebe-ed4d-45fd-aa34-35a21aaa43bb",
+                        "id": "4b2f4cb6-c990-414e-9ce6-6b7b68f64992",
                         "name": "Direct Contracts",
                         "description": null,
                         "category": "website",
@@ -15390,7 +16516,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "6b92ec11-0172-4aec-bbfa-296e2a40691e",
+                        "id": "e8a339d0-7e4b-42bd-99de-f0b18793743e",
                         "name": "api.upwork.com/graphql",
                         "description": null,
                         "category": "api",
@@ -15421,27 +16547,27 @@
                 "in_scope": true,
                 "reward_range": {
                     "1": {
+                        "min": 2000.0,
+                        "max": 2000.0
+                    },
+                    "2": {
                         "min": 1000.0,
                         "max": 1000.0
                     },
-                    "2": {
+                    "3": {
                         "min": 500.0,
                         "max": 500.0
                     },
-                    "3": {
-                        "min": 200.0,
-                        "max": 200.0
-                    },
                     "4": {
-                        "min": 100.0,
-                        "max": 100.0
+                        "min": 250.0,
+                        "max": 250.0
                     }
                 },
                 "sort_order": 1,
-                "targets_url": "/upwork/target_groups/eb3f0c60-4813-4760-a555-80413dd3f9cc/targets",
+                "targets_url": "/upwork/target_groups/4407ad34-d97b-479b-afd7-f9ce2884f51c/targets",
                 "targets": [
                     {
-                        "id": "e148063b-d2ee-4d69-a482-4eab3d054859",
+                        "id": "63536d29-0c19-40d0-8a11-738be7440a5f",
                         "name": "Upwork - Desktop Application ",
                         "description": null,
                         "category": "website",
@@ -15455,7 +16581,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "14c230a5-77ef-4fd0-be03-b86e57b1a07b",
+                        "id": "3ad1a490-2524-4c8b-af56-45906157c086",
                         "name": "Upwork - Marketplace Portal",
                         "description": null,
                         "category": "website",
@@ -15469,7 +16595,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7190f6d8-67b2-4909-91f4-dcae03f6959d",
+                        "id": "54e5b816-1148-4c6d-ac26-42b6855cf653",
                         "name": "Upwork - Messages",
                         "description": null,
                         "category": "website",
@@ -15483,7 +16609,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "f648de69-f01b-428b-b881-f5ff912fc1ee",
+                        "id": "d6066220-b44d-4faf-b63d-12d3561d9f46",
                         "name": "Upwork - Mobile Application IOS",
                         "description": null,
                         "category": "ios",
@@ -15497,7 +16623,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1ab7ac0d-9c56-4ba6-a5ad-bf9e233c0579",
+                        "id": "7a7ecdaf-6b7b-4d6c-9b22-169a19d9ccea",
                         "name": "Upwork - Mobile Application Android",
                         "description": null,
                         "category": "android",
@@ -15511,7 +16637,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "3236dbd7-42bc-47f4-972f-f091033e7fed",
+                        "id": "1f0cb3cb-dd37-499d-8fc9-ecd31fb1dd0c",
                         "name": "Upwork - api.upwork.com/graphql",
                         "description": null,
                         "category": "api",
@@ -15533,10 +16659,10 @@
                 "in_scope": false,
                 "reward_range": {},
                 "sort_order": 2,
-                "targets_url": "/upwork/target_groups/568131cb-e6a3-4d9e-9d2d-c94f387da6b4/targets",
+                "targets_url": "/upwork/target_groups/9a5e285a-eb81-41ad-83a6-d6cc8645c792/targets",
                 "targets": [
                     {
-                        "id": "172f2633-506b-4d70-8600-c6f7cc193e06",
+                        "id": "3268ee7c-a3d5-4ffb-a872-b3f5f6399b11",
                         "name": "Social media hijacking",
                         "description": null,
                         "category": "other",
@@ -15550,7 +16676,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ce2f3dd9-5749-4bd0-9b49-9f26b16930eb",
+                        "id": "efe6d48a-832e-449f-8f19-a41a8389efdc",
                         "name": "Any subdomain/domain/property not listed in the 'in scope' section, is out of scope. ",
                         "description": null,
                         "category": "other",
@@ -15564,7 +16690,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "7b380c17-37d0-4daa-a250-6f8c47dd8f22",
+                        "id": "b51a70e5-93c4-47c0-a811-52ecaff1e7f7",
                         "name": "Any Third-party Services",
                         "description": null,
                         "category": "other",
@@ -15583,7 +16709,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "a68351ea-95cc-4d1b-952a-2e115b7e0438",
+                        "id": "5e032048-5ecd-4f22-b464-fff37a60ba0e",
                         "name": "support.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15602,7 +16728,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "47936e37-3f81-4981-82ca-61b82d672e9f",
+                        "id": "4b815c5b-22f4-4b63-ad64-ff9f0bbcb69c",
                         "name": "community.stage.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15621,7 +16747,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "aabadafb-6133-4f51-b308-8f6bd2910d39",
+                        "id": "0ae20787-6e8e-416f-b2d1-7908053a99c4",
                         "name": "community.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15640,7 +16766,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "31879a12-fd6f-4719-b59e-6a302fb0a270",
+                        "id": "05b85b3d-fb39-4b0c-904e-b0093d51af37",
                         "name": "stage.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15659,7 +16785,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "1984db2c-a65d-43b6-8ea6-44cfd825da17",
+                        "id": "a372fbfb-9955-45b5-8997-2d1e4a012eaa",
                         "name": "e.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15678,7 +16804,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "e3914497-bb3f-48fb-b1a7-3c0062350a57",
+                        "id": "3020da7b-38e5-4013-b1ce-551236d07427",
                         "name": "status.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15697,7 +16823,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "362fcd83-21d9-4ee9-a3f4-13ad3fc5b49d",
+                        "id": "058a6608-89a1-44d2-b002-78be30b61881",
                         "name": "signature.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15711,7 +16837,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "aea554df-e42d-4f98-ad5c-f2e923c344fe",
+                        "id": "7911e65b-4a17-47d0-8907-473c0a6f2812",
                         "name": "careers.upwork.com",
                         "description": null,
                         "category": "other",
@@ -15725,7 +16851,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "0bcea36a-f2ee-49d6-bd3d-55c3c77a6dd9",
+                        "id": "5dd46f6d-6023-46a1-bb94-42604c8d9f6b",
                         "name": "tip.upwork.com",
                         "description": null,
                         "category": "website",
@@ -15739,7 +16865,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ff225f4d-d7cd-404e-88a6-65c29d43b5bc",
+                        "id": "3ea79fc7-7e2b-41e1-945b-f28a1dff0a77",
                         "name": "tip.upwork.com ",
                         "description": null,
                         "category": "other",
@@ -15758,7 +16884,7 @@
                         "known_issues": {}
                     },
                     {
-                        "id": "ad1c33a7-f509-4a04-a37b-fa7b51702f1e",
+                        "id": "d27fcdcb-53a7-4df6-abdb-3e8fc6b6b82b",
                         "name": "pardot.upwork.com",
                         "description": null,
                         "category": "other",
@@ -18211,1132 +19337,6 @@
                             "tags": []
                         },
                         "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Tripadvisor ",
-        "tagline": "The world\u2019s largest travel site. Know better. Book better. Go better.",
-        "briefUrl": "/tripadvisor-bb-og",
-        "backgroundColor": "#1e201f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/85e6/3f88/041fa6d4/6ee5239552ab10b10c5406f689f53a36_tripadvisor_.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tripadvisor-bb-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0126c074-3a0c-407b-8089-17dfd0b1dd15",
-                "name": "Tier 1 Targets",
-                "description_html": "<p>Our main web application www.tripadvisor.com communicates with tier1 APIs for payment functionalities. There is no public documentation for the CDE API, but all endpoints can be discovered by interacting with payment functionalities on www.tripadvisor.com.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1250.0,
-                        "max": 1250.0
-                    },
-                    "3": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/tripadvisor-bb-og/target_groups/f472e0bc-0c92-40d7-8bf0-be082d757c53/targets",
-                "targets": [
-                    {
-                        "id": "732d0085-a5d9-41fa-b049-e90f15ded5aa",
-                        "name": "api.production.cde.tamg.cloud",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.production.cde.tamg.cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5c0b5acf-c7a4-467a-876f-9b7299cb424b",
-                        "name": "partnerapi.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://partnerapi.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3e9b596d-4b02-4670-a404-1d5efa97becd",
-                        "name": "partnerapi1.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://partnerapi1.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "01563863-b343-44fb-b4c3-1dfb0d779e79",
-                        "name": "partnerapi2.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://partnerapi2.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6f85f707-1f44-4800-8413-f76f90f283aa",
-                        "name": "walletproxy.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://walletproxy.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b1bdcd30-c3ce-4b18-bf67-edf8a9d4c514",
-                        "name": "walletproxy1.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://walletproxy1.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "353836d9-c6e2-41ab-86c9-1a34d7b88b3e",
-                        "name": "walletproxy2.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://walletproxy2.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7579517e-d25b-40a5-887d-e74878ca5f58",
-                "name": "Tier 2 Targets",
-                "description_html": "<p>You may use the following API key: adf6d1b8-0aca-4b0c-a492-50530aadd7aa</p>\n\n<p>You can see overview of our APIs at <a href=\"https://developer-tripadvisor.com/home/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://developer-tripadvisor.com/home/</a><br>\nPartner API documentation can be found at <a href=\"http://api.tripadvisor.com/api/partner/2.0/doc?key=adf6d1b8-0aca-4b0c-a492-50530aadd7aa\" rel=\"nofollow noreferrer\" target=\"_blank\">http://api.tripadvisor.com/api/partner/2.0/doc?key=adf6d1b8-0aca-4b0c-a492-50530aadd7aa</a></p>\n\n<p>Tripadvisor has now enabled the ability to assign property ownership for testing. Use the Request a Response (RAR) feature to become an owner of a test property. </p>\n\n<p>Include in the request your @bugcrowdninja.com email address and the Property ID you want to own. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "3": {
-                        "min": 400.0,
-                        "max": 400.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/tripadvisor-bb-og/target_groups/7b360511-492e-409b-86ed-6a00081c3b6d/targets",
-                "targets": [
-                    {
-                        "id": "9a0c21ce-272a-40fe-a516-ccf6c1517920",
-                        "name": "www.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4d4a6fa1-a40d-47fd-b792-d38afd769e40",
-                        "name": "Localized versions of www.tripadvisor.com available from the site's header or footer",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d7c87fb9-5a91-4a7d-a56f-54ee423e8374",
-                        "name": "api.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ce0045c2-1d31-4ee9-ae61-382db646a95e",
-                        "name": "service.platform.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://service.platform.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7b94aef4-b21b-4870-9265-dcbe70a41791",
-                        "name": "gwapi.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://gwapi.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "66f26fce-66fc-46ff-9bde-8b294f5252fd",
-                        "name": "gwapi1.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://gwapi1.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b592c51a-62ea-4d5f-b39c-868bfc25f1b8",
-                        "name": "gwapi2.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://gwapi2.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "383a59f0-83fb-4f47-960a-d57ab2c150a6",
-                "name": "Tier 3 Targets",
-                "description_html": "<p>Note that tamg.cloud subdomains that end with -sbx are sandbox (testing) projects. Normally, only test data flows through them therefore disclosing \"sensitive\" data on those is mostly not an issue in reality. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 450.0,
-                        "max": 450.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 150.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 50.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/tripadvisor-bb-og/target_groups/7a6b8d82-189f-4f5c-9769-2990abb425b0/targets",
-                "targets": [
-                    {
-                        "id": "f7ab8a69-8212-44df-86c4-b8b4aa9a8916",
-                        "name": "Any publicly accessible Tripadvisor web asset or host (domains, ip space, etc) - except for assets listed as Out-of-Scope below. ",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7358db62-9b37-4044-b94b-7a8e3476a630",
-                "name": "Tripadvisor Mobile",
-                "description_html": "<p>The apps can be downloaded via Google Play for Android or the App Store for iOS:</p>\n\n<ul>\n<li>https://play.google.com/store/apps/details?id=com.tripadvisor.tripadvisor&amp;hl=en&amp;gl=US&amp;pli=1</li>\n<li>https://apps.apple.com/us/app/tripadvisor-plan-book-trips/id284876795</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3500.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 750.0,
-                        "max": 750.0
-                    },
-                    "3": {
-                        "min": 350.0,
-                        "max": 350.0
-                    },
-                    "4": {
-                        "min": 75.0,
-                        "max": 75.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/tripadvisor-bb-og/target_groups/b2bddf64-0202-4843-9cff-49512f7ea535/targets",
-                "targets": [
-                    {
-                        "id": "6580d428-9e1f-420e-aebe-e11ce401b9b9",
-                        "name": "Tripadvisor Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0c079d19-eb32-42df-99dd-1ffbe52ccc29",
-                        "name": "Tripadvisor iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7960d184-c079-41e8-974d-164fe691126c",
-                "name": "Vacation Rentals",
-                "description_html": "<h4>Note that submissions for vacation rentals section are rewarded with points only, they are not eligible for bounties.</h4>\n\n<p>You can register a new owner account by clicking the \"Link your property\" link on the domain you are visiting.  To ensure a property is listed on a particular website use the registration link on that website.  For example, a home registered at FlipKey will definitely be listed on FlipKey but may not be listed at Holiday Lettings.</p>\n\n<p>A new account requires both the email address and the mobile number to be verified before properties can be published. The email address can be validated by clicking a link in the email sent. To verify the mobile number do either of the following:</p>\n\n<ul>\n<li>Register using the test number above and email bugcrowd-tavr@tripadvisor.com with the details of your account to get the test number verified.</li>\n<li>Register a real mobile number and enter the code sent via SMS when prompted.</li>\n</ul>\n\n<p>Once you have completed all the tests you wanted to execute against a test property, please disable that test property in order for it not show up anymore on the websites! We reserve the right to disable test properties if they do not meet the guideline or have been live for a while.</p>\n\n<p><strong>IMPORTANT: If you want your properties to be distributed to vacationhomerentals.com, you will need to request that explicitly. To do so, email bugcrowd-tavr@tripadvisor.com with the subject \"Request to switch owner to VHR\" and provide your owner ID. Once you submit the request allow up to a day for your property to appear in VHR listings</strong></p>",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/tripadvisor-bb-og/target_groups/35af264c-a1bf-439b-b915-e7a79e2c6c23/targets",
-                "targets": [
-                    {
-                        "id": "c2acae67-39c0-4d96-8621-40d79078127b",
-                        "name": "rentals.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://rentals.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4fbcc1a2-da2f-4781-b9bf-bc1bafa22f3b",
-                        "name": "*.vacationhomerentals.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.vacationhomerentals.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7c4c722b-b431-44dd-9d6f-eb7b7a29b100",
-                        "name": "*.holidaylettings.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.holidaylettings.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f25bea9a-bb77-48fc-9ac4-789764b3d78a",
-                        "name": "*.flipkey.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.flipkey.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "482d3724-f9fc-4ef9-b496-29fd8c54a050",
-                        "name": "*.niumba.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.niumba.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4e4ad5fc-8931-42d0-acd2-e94dd965819a",
-                        "name": "*.housetrip.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.housetrip.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "55cf5741-6cdd-447c-8763-6cd9a1242e9d",
-                        "name": "Tripadvisor Owner APP (https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "42d2b45b-3c43-4f30-b7b6-5f95a0e588da",
-                        "name": "marlo.ext.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://marlo.ext.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "6c195c17-86c8-451b-b79d-45990b1fbda9",
-                "name": "Bokun",
-                "description_html": "<h2>Access and Guidelines</h2>\n\n<h4>Note that submissions for Bokun section are rewarded with points only, they are not eligible for bounties.</h4>\n\n<h3>Accounts</h3>\n\n<p>You must be using \u201cvulnscan\u201d prefix in your vendor/supplier name when registering for an account for both types of scans (manual and/or automatic). Do not create an excessive number of accounts. Two accounts should be enough for testing the marketplace whereas a single account should be enough for any other intent or purpose.</p>\n\n<h3>Types of scans</h3>\n\n<p>Please focus on manual testing rather than using automated tools as the latter are already employed. Nevertheless, if you choose to ignore this advice and use automated tools, you must ensure the request rate to our systems does not exceed a 1 request per second. On top of that, we would also kindly ask you to use a HTTP Agent header which identifies such requests.</p>\n\n<p>Email us in advance (vulnerabilities@bokun.io) if you will be using an automated tool. Our working hours are mostly those in the UTC time zone. </p>\n\n<p>It is <strong>strictly forbidden</strong> to run automated or manual vulnerability testing on production systems (listed in \"Out of scope\" section below).</p>\n\n<h3>Information on systems in scope</h3>\n\n<p>Alias to this environment is \u201ctest\u201d. Both external domains are just synonyms to the same service. There should be no difference between using either of them.</p>\n\n<p>Our test environment, hosted at extranet.bokuntest.com has virtually identical setup as prod component-wise. We use this environment to experiment with near-prod-ready code branches which are otherwise hard to simulate on local environments as well as for general test reasons. Note that this environment is also used by some of our customers which are businesses experimenting with API integrations and/or trying out our system in some other ways. Making changes to certain system elements might be visible for those customers (e.g. via Marketplace) and therefore we insist on following rules:</p>\n\n<ul>\n<li>Do not create an infinite amount of certain entities, e.g. vendor accounts. If you managed to find a gap where such entities are allowed to be created without reasonable limit, you must stop early and let us know</li>\n<li>Some of these entities are displayed for our customers in certain contexts. Refrain from profanity or other offensive language</li>\n<li>If you want to test illegal data access between different multi-tenant accounts (IDOR etc) please create accounts on your own without harnessing existing accounts</li>\n</ul>\n\n<p>Our system exposes the ability to have embeddable widgets. Widgets are publicly accessible resources and are made accessible via widget.bokuntest.com.<br>\nSimilar to this, we provide a <a href=\"https://bokun.github.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">public RESTful API</a> via api.bokuntest.com. We\u2019re happy to work with you in providing more details for how to create relevant entities and access these both endpoints. Alternatively, consult our <a href=\"https://docs.bokun.io/docs/bokun-help-center\" rel=\"nofollow noreferrer\" target=\"_blank\">helpdesk page</a> as creating widgets / using API should hopefully not be too complicated.</p>",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 5,
-                "targets_url": "/tripadvisor-bb-og/target_groups/b1422e48-ba88-4c5b-b38c-ff792bb1bc22/targets",
-                "targets": [
-                    {
-                        "id": "76fbfbae-e2f1-4566-bd0b-2233ded8ab4b",
-                        "name": "*.bokundemo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.bokundemo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "09b04bfc-794a-4e2f-a9a8-f0c44a5da6c3",
-                        "name": "*.bokuntest.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.bokuntest.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "0710d591-5ac2-40a1-8dd0-65b09ce4905d",
-                "name": "Out of Scope Targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 6,
-                "targets_url": "/tripadvisor-bb-og/target_groups/7f38b2bc-7309-4e89-a84f-8db30c44ee88/targets",
-                "targets": [
-                    {
-                        "id": "2d7289eb-e573-48db-8d31-2ded8f2a7d7a",
-                        "name": " ir.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a39a3fd5-6c2a-4341-8372-e82bef68dae5",
-                        "name": "*.tripadviser.at",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d17288d6-d4df-4b07-8b30-0adabb9b8810",
-                        "name": "*.tripadvisor.cn",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "29aa8fa3-123c-4e7c-a656-b74e147c3d66",
-                        "name": "www.tripadvisor.*/Trips",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "154883bc-3a07-4174-aece-5626d696af76",
-                        "name": "www.tripadvisor.*/Mobile*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "79d24a36-7b3d-48f8-92e0-51d8733cb907",
-                        "name": "www.tripadvisor.*/engineering",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "196a562c-72e5-4586-a6d5-35c1ebfc5ee3",
-                        "name": "www.tripadvisor.*/WidgetEmbed-*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8c76731b-0b2c-4325-ac38-9b14cf848f2b",
-                        "name": "spotlight-dev.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2a067793-85e8-4ded-ba49-0d8ea1f22d1c",
-                        "name": "spotlight.tripadvisor.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f7436377-f006-4da8-b0cb-5a67c3cc90f2",
-                        "name": "careers.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8818fdc9-95b7-4440-805c-f15df3ab9bcb",
-                        "name": "*.tripadvisoradexpress.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e2024c48-1f8a-4323-869f-6b55b698647d",
-                        "name": "*.tripadvisorwifi.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "991204a3-13a3-47f2-89c4-98dc75646872",
-                        "name": "*.bokun.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9346f1cb-91ec-47a2-b9a2-03af2d64d366",
-                        "name": "*.bokun.is",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "90fd623e-a81a-40aa-92ec-79a23a4a6c1d",
-                        "name": "*.bokun.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7d3969bc-378a-4230-a57a-f265e39197c7",
-                        "name": "*.bokun.app",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba8ffedc-6a54-423a-8dca-803b904d16f0",
-                        "name": "*.bokun.eu",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e121ea38-fd35-4b33-863b-4b010531732a",
-                        "name": "*.bokun.team",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2e359982-dd0e-4bc3-ab05-cd476fa25ec5",
-                        "name": "*.bokun.tools",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bc2f05b6-72e5-4581-8543-541d09def074",
-                        "name": "*.bokun.website",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3c764eec-1c44-49c4-bb3a-d071db69ef8a",
-                        "name": "*.bokunmobile.website",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "499da5ab-bc44-47db-8173-27733c21b0bc",
-                        "name": "*.experiences.zone",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 21,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -24731,66 +24731,6 @@
         "target_groups": []
     },
     {
-        "name": "Cisco Meraki",
-        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
-        "briefUrl": "/engagements/ciscomeraki",
-        "backgroundColor": "#67B346",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Verisign",
-        "tagline": "Verisign",
-        "briefUrl": "/engagements/verisign",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6514/51ae/195faca4/82d1e10ae071fc4ea2d17dbf765baea7_250px-VRSNlogoAug2012.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/verisign/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Binance",
         "tagline": "Cryptocurrency Exchange\u200e",
         "briefUrl": "/engagements/binance",
@@ -24923,6 +24863,66 @@
         ]
     },
     {
+        "name": "Verisign",
+        "tagline": "Verisign",
+        "briefUrl": "/engagements/verisign",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6514/51ae/195faca4/82d1e10ae071fc4ea2d17dbf765baea7_250px-VRSNlogoAug2012.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/verisign/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Cisco Meraki",
+        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
+        "briefUrl": "/engagements/ciscomeraki",
+        "backgroundColor": "#67B346",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "NEOGOV Public Assets",
         "tagline": "Human Resource Software, SaaS & Cloud Solutions",
         "briefUrl": "/engagements/neohrms",
@@ -24983,36 +24983,6 @@
         "target_groups": []
     },
     {
-        "name": "Rec Room Video Games",
-        "tagline": "Help secure Rec Room!",
-        "briefUrl": "/engagements/recroom-og",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/82f3/f343/ef815849/b59ec6dbe1192520f39c172ccff86bfb_Rec_Room_Logo.jpeg",
-        "rewardSummary": {
-            "summary": "$150 - $2,500",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/recroom-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Lightspeed Retail",
         "tagline": "Lightspeed Retail is a public bug bounty program in Bugcrowd. We aim to build stronger relationships with the security community by rewarding security researchers for their work in finding security vulnerabilities.",
         "briefUrl": "/engagements/lightspeed-retail",
@@ -25040,36 +25010,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/lightspeed-retail/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "HubSpot",
-        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
-        "briefUrl": "/engagements/hubspot",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": "Up to $20,000",
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/hubspot/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -25700,6 +25640,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/wise/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "HubSpot",
+        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
+        "briefUrl": "/engagements/hubspot",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $10,000",
+            "hint": "Up to $20,000",
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/hubspot/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Rec Room Video Games",
+        "tagline": "Help secure Rec Room!",
+        "briefUrl": "/engagements/recroom-og",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/82f3/f343/ef815849/b59ec6dbe1192520f39c172ccff86bfb_Rec_Room_Logo.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/recroom-og/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -26386,6 +26386,66 @@
         "target_groups": []
     },
     {
+        "name": "Comcast Xfinity Bug Bounty",
+        "tagline": "Welcome to the Xfinity Bug Bounty program!",
+        "briefUrl": "/engagements/comcast-mbb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/comcast-mbb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Newfold Vdeck Bug Bounty",
+        "tagline": "Submit your finding to the program!",
+        "briefUrl": "/engagements/newfold-vdeck-bb",
+        "backgroundColor": "#f88e2a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c546/2331/b0681a33/8be670e5185fedbeac7415fcd972cc97_hostgator.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $2,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/newfold-vdeck-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Etsy",
         "tagline": "Shop for anything from creative people everywhere",
         "briefUrl": "/etsy",
@@ -26820,66 +26880,6 @@
                 ]
             }
         ]
-    },
-    {
-        "name": "Comcast Xfinity Bug Bounty",
-        "tagline": "Welcome to the Xfinity Bug Bounty program!",
-        "briefUrl": "/engagements/comcast-mbb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/comcast-mbb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Newfold Vdeck Bug Bounty",
-        "tagline": "Submit your finding to the program!",
-        "briefUrl": "/engagements/newfold-vdeck-bb",
-        "backgroundColor": "#f88e2a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c546/2331/b0681a33/8be670e5185fedbeac7415fcd972cc97_hostgator.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/newfold-vdeck-bb/engagement_subscribers",
-        "target_groups": []
     },
     {
         "name": "Smartmockups",
@@ -27660,36 +27660,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/afterpay/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "20 Minuten",
-        "tagline": "20 Minuten Bug Bounty Program",
-        "briefUrl": "/engagements/twentyminuten",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9b28/bc5d/c9b6e5c5/263ca267f5529f9c73b6b45304b6e5e3_20minuten.png",
-        "rewardSummary": {
-            "summary": "$250 - $5,000",
-            "hint": null,
-            "minReward": "$250",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/twentyminuten/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -29022,6 +28992,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/webdotcom/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "20 Minuten",
+        "tagline": "20 Minuten Bug Bounty Program",
+        "briefUrl": "/engagements/twentyminuten",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9b28/bc5d/c9b6e5c5/263ca267f5529f9c73b6b45304b6e5e3_20minuten.png",
+        "rewardSummary": {
+            "summary": "$250 - $5,000",
+            "hint": null,
+            "minReward": "$250",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/twentyminuten/engagement_subscribers",
         "target_groups": []
     }
 ]
