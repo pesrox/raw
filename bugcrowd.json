@@ -16907,287 +16907,6 @@
         ]
     },
     {
-        "name": "Pinterest",
-        "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
-        "briefUrl": "/pinterest",
-        "backgroundColor": "#BB0F23",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9cbb/3d6c/8a2f4ae1/08821bdd27acd21bbdda328e9ae7b939_3e77fd82e5fb782e4730615b2eccb53a_unnamed.png",
-        "rewardSummary": {
-            "summary": "$200 - $25,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/pinterest/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "a66afd7c-8bad-4bf2-8daa-af186f09fb77",
-                "name": "in scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 25000.0
-                    },
-                    "2": {
-                        "min": 5000.0,
-                        "max": 8000.0
-                    },
-                    "3": {
-                        "min": 1000.0,
-                        "max": 3000.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 500.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/pinterest/target_groups/852fbae6-26a8-42e2-afa9-424adca5441b/targets",
-                "targets": [
-                    {
-                        "id": "f503d9cd-5f55-4f9c-bbf0-284c588a0836",
-                        "name": "api.pinterest.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "a4603de0-3954-4611-9704-cebf3801dbf8",
-                                    "name": "Flask"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "972f9fba-2f5f-4c50-8643-5ca2a158461e",
-                        "name": "*.pinterest.com Web Apps",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "fb355f97-48d8-4444-9389-f68aa76db887",
-                        "name": "Pinterest iOS Mobile Application",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/pinterest/id429047995",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba7adf03-3dbf-41f0-b8c7-347762511c8b",
-                        "name": "Pinterest Android Mobile Application",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.pinterest&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "33de9146-3ab6-4f76-bdff-0aaa7513be9d",
-                        "name": "Pinterest Lite Android Mobile Application",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.pinterest.twa&hl=en_US&gl=US",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cd028b8d-161f-4bae-8f4e-cf2ea027fa49",
-                        "name": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
-                                    "name": "Browser Extension"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d380fd7f-9cfa-4d5f-a8b0-c9e456fda377",
-                        "name": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
-                                    "name": "Browser Extension"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5b372233-93bf-43e1-ab00-f9f018559ad2",
-                        "name": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://addons.mozilla.org/en-US/firefox/addon/pinterest/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "59791207-9cf4-4498-b5e1-510fee95dc40",
-                                    "name": "Browser Extension"
-                                },
-                                {
-                                    "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
-                                    "name": "Javascript"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8dc40b0b-f925-4f3d-a78f-4a90ca006aa5",
-                        "name": "Open source projects(non-forked) listed at github.com/pinterest/",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://github.com/pinterest/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "d58504e3-97f9-45ef-95aa-4a413a07190c",
-                                    "name": "Static Code Analysis"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Dell Technologies Application Bug Bounty",
         "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
         "briefUrl": "/dell-com",
@@ -24348,36 +24067,6 @@
         "target_groups": []
     },
     {
-        "name": "Verisign",
-        "tagline": "Verisign",
-        "briefUrl": "/engagements/verisign",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6514/51ae/195faca4/82d1e10ae071fc4ea2d17dbf765baea7_250px-VRSNlogoAug2012.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/verisign/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Cisco Meraki",
         "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
         "briefUrl": "/engagements/ciscomeraki",
@@ -24405,6 +24094,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Verisign",
+        "tagline": "Verisign",
+        "briefUrl": "/engagements/verisign",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6514/51ae/195faca4/82d1e10ae071fc4ea2d17dbf765baea7_250px-VRSNlogoAug2012.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/verisign/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -25320,36 +25039,6 @@
         "target_groups": []
     },
     {
-        "name": "Asana",
-        "tagline": "We're empowering teams to do great things together.",
-        "briefUrl": "/engagements/asana",
-        "backgroundColor": "#242B36",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a744/cc17/faf23ed3/2fd06e112ea1f26135f8253031539d11_asana-square.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "ngpt"
-        },
-        "subscriptionUrl": "/asana/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Nubank Brasil Managed Bug Bounty Program",
         "tagline": "Nubank Brasil is in a mission to fight complexity to empower people in their daily lives by reinventing financial services. Please submit your findings to this Bug Bounty Program.",
         "briefUrl": "/engagements/nubank",
@@ -25377,6 +25066,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/nubank/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Asana",
+        "tagline": "We're empowering teams to do great things together.",
+        "briefUrl": "/engagements/asana",
+        "backgroundColor": "#242B36",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a744/cc17/faf23ed3/2fd06e112ea1f26135f8253031539d11_asana-square.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "ngpt"
+        },
+        "subscriptionUrl": "/asana/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -26033,36 +25752,6 @@
         "target_groups": []
     },
     {
-        "name": "Comcast Xfinity Bug Bounty",
-        "tagline": "Welcome to the Xfinity Bug Bounty program!",
-        "briefUrl": "/engagements/comcast-mbb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/comcast-mbb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Etsy",
         "tagline": "Shop for anything from creative people everywhere",
         "briefUrl": "/etsy",
@@ -26499,36 +26188,6 @@
         ]
     },
     {
-        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
-        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/ultramobile",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
-        "rewardSummary": {
-            "summary": "$175 - $4,500",
-            "hint": null,
-            "minReward": "$175",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ultramobile/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Imperva Bug Bounty",
         "tagline": "Help secure Imperva",
         "briefUrl": "/engagements/imperva-mbb",
@@ -26559,6 +26218,36 @@
         "target_groups": []
     },
     {
+        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
+        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/ultramobile",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
+        "rewardSummary": {
+            "summary": "$175 - $4,500",
+            "hint": null,
+            "minReward": "$175",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ultramobile/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Newfold Vdeck Bug Bounty",
         "tagline": "Submit your finding to the program!",
         "briefUrl": "/engagements/newfold-vdeck-bb",
@@ -26586,6 +26275,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/newfold-vdeck-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Comcast Xfinity Bug Bounty",
+        "tagline": "Welcome to the Xfinity Bug Bounty program!",
+        "briefUrl": "/engagements/comcast-mbb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/comcast-mbb/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -27250,36 +26969,6 @@
         "target_groups": []
     },
     {
-        "name": "Indeed",
-        "tagline": "We help people get jobs.",
-        "briefUrl": "/engagements/indeed",
-        "backgroundColor": "#2763fd",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/31c9/4eb4/c1f21362/77aca7a0c2e1d0a71ca2a2f404b6c17d_Untitled.png",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/indeed/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Majid Al Futtaim Entertainment",
         "tagline": "Vox Cinemas + Entertainment",
         "briefUrl": "/engagements/vox",
@@ -27367,6 +27056,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/monash-mbb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Indeed",
+        "tagline": "We help people get jobs.",
+        "briefUrl": "/engagements/indeed",
+        "backgroundColor": "#2763fd",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/31c9/4eb4/c1f21362/77aca7a0c2e1d0a71ca2a2f404b6c17d_Untitled.png",
+        "rewardSummary": {
+            "summary": "$50 - $10,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/indeed/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -28729,6 +28448,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/soundcloud/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Pinterest",
+        "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
+        "briefUrl": "/engagements/pinterest",
+        "backgroundColor": "#BB0F23",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9cbb/3d6c/8a2f4ae1/08821bdd27acd21bbdda328e9ae7b939_3e77fd82e5fb782e4730615b2eccb53a_unnamed.png",
+        "rewardSummary": {
+            "summary": "$200 - $25,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/pinterest/engagement_subscribers",
         "target_groups": []
     }
 ]
