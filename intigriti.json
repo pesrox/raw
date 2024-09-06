@@ -18326,7 +18326,7 @@
     {
         "id": "ac81c127-b11b-469e-8060-e0fbb9c9c398",
         "handle": "aikidoruntime",
-        "name": "Aikido Security: Firewall for Node.js",
+        "name": "Aikido Security: Firewall ",
         "following": false,
         "minBounty": {
             "value": 100.0,
@@ -18366,6 +18366,19 @@
                 "description": "Tier 1 is for vulnerabilities which we potentially introduce via our own firewall component in the user's application.\n\nSee Severity Assessment for more information."
             },
             {
+                "id": "ead0a79d-292e-4849-b1fa-826d5de58507",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-python#Vulnerability",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
                 "id": "9e925b9e-bf10-49ae-9db5-279ea5e120a5",
                 "type": {
                     "id": 6,
@@ -18379,6 +18392,19 @@
                 "description": "Tier 2 is for bypasses in the vulnerability detection of the firewall component, such as a bypass of our SQL injection detection.\n\nSee Severity Assessment for more information."
             },
             {
+                "id": "6984a6b6-99e5-495d-b4f0-ffeed17bbe2c",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-python#Detection Bypass",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
                 "id": "c95bbdf7-3a0d-4533-891a-b1d300eb7f57",
                 "type": {
                     "id": 6,
@@ -18390,6 +18416,19 @@
                     "value": "Tier 3"
                 },
                 "description": "Tier 3 is for any false positives you encounter with our vulnerability detection. For example, cases where we falsely flag a SQL injection, while the user's input is safely encapsulated in the SQL query.\n\nSeverity assessments are slightly harder for these cases, see \"Severity Assessment\" for more information."
+            },
+            {
+                "id": "33854946-b649-445f-a2f4-53995e307319",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-python#False Positive",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
             }
         ]
     },
