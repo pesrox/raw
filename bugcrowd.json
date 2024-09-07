@@ -22483,103 +22483,6 @@
         "target_groups": []
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/6e3b90a0-fec7-4b40-9e86-d579e80f58e9/targets",
-                "targets": [
-                    {
-                        "id": "3c28afa3-63c6-4d70-84d5-52826acb1656",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>xxxlendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>MyLoanPortal.commercebank.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>loanapps.fcbca.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>portaltest.fisglobal.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>lendinghfs.hatborofed.com</li>\n<li>loans.bankofluxemburg.com</li>\n<li>loans.collinsstatebank.com</li>\n<li>loans.fmberlin.com</li>\n<li>creditcards.first-online.com</li>\n<li>loans.hickorypointbank.com</li>\n<li>loans.pattersonstatebank.com</li>\n<li>loan.summitfgi.com</li>\n<li>lending.tristar.bank</li>\n<li>idmt1.fisglobal.com</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>apuat-bankiowa.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com</li>\n<li>apuat-fcbca.fisglobal.com</li>\n<li>apuat-fnbgranbury.fisglobal.com</li>\n<li>apuat-highlands.fisglobal.com</li>\n<li>apuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>apuat-plainscapitol.fisglobal.com</li>\n<li>apuat-primesouth.fisglobal.com</li>\n<li>xxxap-uat3.fisglobal.com</li>\n<li>ID-UAT1.fisglobal.com</li>\n<li>apuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>apuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>id-uat.fisglobal.com</li>\n<li>id-uat3.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankiowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>sedgwick assets</li>\n<li>sungard availability services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>results-loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>intelhub-webuat.fisglobal.com</li>\n<li>intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>testintelhub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 9/20/2024) (All instances and environments)</li>\n<li>Adeptia assets (OOS effective 8/15 until 10/15/2024)</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/63b89d10-1218-4ec5-b253-980df5931f2c/targets",
-                "targets": [
-                    {
-                        "id": "0d51e4f4-7f0c-41db-841f-f93cd5ce64f4",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Cisco Meraki",
         "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
         "briefUrl": "/engagements/ciscomeraki",
@@ -22910,6 +22813,103 @@
         "target_groups": []
     },
     {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
+                "name": "In scope",
+                "description_html": "",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 10000.0,
+                        "max": 20000.0
+                    },
+                    "2": {
+                        "min": 2500.0,
+                        "max": 10000.0
+                    },
+                    "3": {
+                        "min": 200.0,
+                        "max": 2500.0
+                    },
+                    "4": {
+                        "min": 0,
+                        "max": 200.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/fis/target_groups/6e3b90a0-fec7-4b40-9e86-d579e80f58e9/targets",
+                "targets": [
+                    {
+                        "id": "3c28afa3-63c6-4d70-84d5-52826acb1656",
+                        "name": "Any FIS asset is in scope",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
+                "name": "Out of Scope",
+                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>xxxlendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>MyLoanPortal.commercebank.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>loanapps.fcbca.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>portaltest.fisglobal.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>lendinghfs.hatborofed.com</li>\n<li>loans.bankofluxemburg.com</li>\n<li>loans.collinsstatebank.com</li>\n<li>loans.fmberlin.com</li>\n<li>creditcards.first-online.com</li>\n<li>loans.hickorypointbank.com</li>\n<li>loans.pattersonstatebank.com</li>\n<li>loan.summitfgi.com</li>\n<li>lending.tristar.bank</li>\n<li>idmt1.fisglobal.com</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>apuat-bankiowa.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com</li>\n<li>apuat-fcbca.fisglobal.com</li>\n<li>apuat-fnbgranbury.fisglobal.com</li>\n<li>apuat-highlands.fisglobal.com</li>\n<li>apuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>apuat-plainscapitol.fisglobal.com</li>\n<li>apuat-primesouth.fisglobal.com</li>\n<li>xxxap-uat3.fisglobal.com</li>\n<li>ID-UAT1.fisglobal.com</li>\n<li>apuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>apuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>id-uat.fisglobal.com</li>\n<li>id-uat3.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankiowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>sedgwick assets</li>\n<li>sungard availability services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>results-loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>intelhub-webuat.fisglobal.com</li>\n<li>intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>testintelhub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 9/20/2024) (All instances and environments)</li>\n<li>Adeptia assets (OOS effective 8/15 until 10/15/2024)</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 1,
+                "targets_url": "/fis/target_groups/63b89d10-1218-4ec5-b253-980df5931f2c/targets",
+                "targets": [
+                    {
+                        "id": "0d51e4f4-7f0c-41db-841f-f93cd5ce64f4",
+                        "name": "Reference above out of scope targets",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://apuat-aaa.fisglobal.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Bugcrowd",
         "tagline": "Outhack Them All\u2122",
         "briefUrl": "/engagements/bugcrowd",
@@ -23042,36 +23042,6 @@
         "target_groups": []
     },
     {
-        "name": "Lightspeed Hospitality",
-        "tagline": "Lightspeed Hospitality is a public program in Bugcrowd. We aim to build stronger relationships with the security community by rewarding security researchers for their work in finding security vulnerabilities.",
-        "briefUrl": "/engagements/lightspeed-hospitality",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d27/d997/043b1d7f/c5b9a7ab8d615b2d06e99960ab9ab262_lightspeed.jpeg",
-        "rewardSummary": {
-            "summary": "$20 - $2,000",
-            "hint": null,
-            "minReward": "$20",
-            "maxReward": "$2,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/lightspeed-hospitality/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": " 1Password",
         "tagline": "1Password is the world's best password manager. Perfect for protecting your business, team, and family.",
         "briefUrl": "/engagements/agilebits",
@@ -23099,6 +23069,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/agilebits/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Elementor: Bug Bounty Program",
+        "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
+        "briefUrl": "/engagements/elementor",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a880/dc8a/18521ffb/68ba632ad0ea3d6739987c6435b17c32_elementor.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": "Up to $5,000",
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": "Up to $5,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/elementor/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -23132,24 +23132,24 @@
         "target_groups": []
     },
     {
-        "name": "Elementor: Bug Bounty Program",
-        "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
-        "briefUrl": "/engagements/elementor",
+        "name": "Lightspeed Hospitality",
+        "tagline": "Lightspeed Hospitality is a public program in Bugcrowd. We aim to build stronger relationships with the security community by rewarding security researchers for their work in finding security vulnerabilities.",
+        "briefUrl": "/engagements/lightspeed-hospitality",
         "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a880/dc8a/18521ffb/68ba632ad0ea3d6739987c6435b17c32_elementor.jpeg",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2d27/d997/043b1d7f/c5b9a7ab8d615b2d06e99960ab9ab262_lightspeed.jpeg",
         "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": "Up to $5,000",
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": "Up to $5,000",
-            "compensationHint": "max reward"
+            "summary": "$20 - $2,000",
+            "hint": null,
+            "minReward": "$20",
+            "maxReward": "$2,000",
+            "compensationSummary": null,
+            "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 2,
+        "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Technology",
+        "industryName": "Computer Software",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -23158,7 +23158,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/elementor/engagement_subscribers",
+        "subscriptionUrl": "/lightspeed-hospitality/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -23582,36 +23582,6 @@
         "target_groups": []
     },
     {
-        "name": "Square",
-        "tagline": "We make selling simple for businesses of all sizes.",
-        "briefUrl": "/engagements/square",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
-        "rewardSummary": {
-            "summary": "Points - $18,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$18,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/square/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Cisco ThousandEyes Vulnerability Hunting aka Bug Bounty ",
         "tagline": "ThousandEyes enables organizations to see and take action to maintain and optimize every digital journey that matters. ",
         "briefUrl": "/engagements/thousandeyes-og",
@@ -23972,6 +23942,36 @@
         "target_groups": []
     },
     {
+        "name": "Square",
+        "tagline": "We make selling simple for businesses of all sizes.",
+        "briefUrl": "/engagements/square",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "rewardSummary": {
+            "summary": "Points - $18,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$18,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/square/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Smartmockups",
         "tagline": "Help Secure Smartmockups",
         "briefUrl": "/engagements/smartmockups",
@@ -24119,36 +24119,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/k15t/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Entain Game Logic Flaws Bug Bounty Program",
-        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
-        "briefUrl": "/engagements/entain-glf-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $6,500",
-            "hint": "Up to $10,000",
-            "minReward": "Points",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Entertainment",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -24783,6 +24753,36 @@
         "target_groups": []
     },
     {
+        "name": "Entain Game Logic Flaws Bug Bounty Program",
+        "tagline": "Join the program and help us find game and business logic vulnerabilities in our Online Games and Sports Betting Games",
+        "briefUrl": "/engagements/entain-glf-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/1181/bd25/698b292e/e7fad5f9d17062a848f04ae577d712f0_e7867d9bc708190c2d7ce2baba6e4262_1607589296370.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $6,500",
+            "hint": "Up to $10,000",
+            "minReward": "Points",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/entain-glf-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Kenna Security",
         "tagline": "A Hosted Vulnerability Intelligence Platform",
         "briefUrl": "/engagements/kennasecurity",
@@ -25286,6 +25286,36 @@
         "target_groups": []
     },
     {
+        "name": "TIDAL",
+        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "briefUrl": "/engagements/tidal-bugbounty",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/engagements/comcast-mbb",
@@ -25343,36 +25373,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/codeorg/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "TIDAL",
-        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
-        "briefUrl": "/engagements/tidal-bugbounty",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -27204,66 +27204,6 @@
         "target_groups": []
     },
     {
-        "name": "Sendbird",
-        "tagline": "Boost app engagement with modern chat, voice and video features.",
-        "briefUrl": "/engagements/sendbird-mbb",
-        "backgroundColor": "#6210CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7790/9519/bdbc91ae/210983b0044133f8fc9f72107033767a_Screen_Shot_2022-06-29_at_10.41.20_AM.png",
-        "rewardSummary": {
-            "summary": "$100 - $2,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$2,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/sendbird-mbb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Pinterest",
-        "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
-        "briefUrl": "/engagements/pinterest",
-        "backgroundColor": "#BB0F23",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9cbb/3d6c/8a2f4ae1/08821bdd27acd21bbdda328e9ae7b939_3e77fd82e5fb782e4730615b2eccb53a_unnamed.png",
-        "rewardSummary": {
-            "summary": "$200 - $25,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/pinterest/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Web.com",
         "tagline": "You say it. We build it. It's as easy as Web.com! ",
         "briefUrl": "/engagements/webdotcom",
@@ -27321,6 +27261,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/t-mobile/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Pinterest",
+        "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
+        "briefUrl": "/engagements/pinterest",
+        "backgroundColor": "#BB0F23",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9cbb/3d6c/8a2f4ae1/08821bdd27acd21bbdda328e9ae7b939_3e77fd82e5fb782e4730615b2eccb53a_unnamed.png",
+        "rewardSummary": {
+            "summary": "$200 - $25,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/pinterest/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Sendbird",
+        "tagline": "Boost app engagement with modern chat, voice and video features.",
+        "briefUrl": "/engagements/sendbird-mbb",
+        "backgroundColor": "#6210CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7790/9519/bdbc91ae/210983b0044133f8fc9f72107033767a_Screen_Shot_2022-06-29_at_10.41.20_AM.png",
+        "rewardSummary": {
+            "summary": "$100 - $2,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$2,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/sendbird-mbb/engagement_subscribers",
         "target_groups": []
     }
 ]
