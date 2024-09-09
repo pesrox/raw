@@ -2844,7 +2844,7 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/kohls/program_subscribers",
-        "programMigrationInProgress": null,
+        "programMigrationInProgress": true,
         "target_groups": [
             {
                 "id": "4341ab70-f9e8-477c-a10f-a7216a0f2286",
@@ -15782,566 +15782,6 @@
         ]
     },
     {
-        "name": "SEEK ",
-        "tagline": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
-        "briefUrl": "/seek",
-        "backgroundColor": "#2a2d40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4a8f/3622/259cf49b/8fde5fec56f76f4641dfade8ca0ac21d_logo-seek-reverse.png",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/seek/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f3447377-d6db-4729-9520-a2867d04115a",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 700.0,
-                        "max": 5000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/seek/target_groups/8406e282-1f9d-4ce0-9832-d9a8f79c3485/targets",
-                "targets": [
-                    {
-                        "id": "6e882491-6dbb-423e-a45f-164a679bee01",
-                        "name": "*.seek.com.au",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "093d194e-6f54-46e0-9c49-d6ef3806527d",
-                        "name": "https://seekcdn.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://seekcdn.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "803518dc-5ae1-4e48-8de4-5b61b42a6bd0",
-                                    "name": "Amazon S3"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "99b98cb0-71d8-4346-a6e7-8d468d04de16",
-                        "name": "SEEK mobile app for iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/au/app/seek-jobs-job-search/id520400855",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "7cfc4b45-f690-4068-91cd-0a47a9d4eebf",
-                                    "name": "Cocoa"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9c86dc6f-4c33-4ccd-a7f0-3f6c8bf744c5",
-                        "name": "SEEK mobile app for Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=au.com.seek&hl=en_AU&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "df8870dd-9add-4493-bc06-4d84c1281292",
-                        "name": "*.skinfra.xyz",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "199fd609-cc69-486a-a527-9153c90b717e",
-                        "name": "*.outfra.xyz",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5a735e1c-02c4-49fa-86aa-5ea9a208a935",
-                        "name": "*.sol-data.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e8d9be9d-4f3c-459d-9ce0-5385c180f5db",
-                        "name": "*.jobapi.net",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f1ca75f0-c2ca-4173-bf67-332322261500",
-                        "name": "*.jobapi.io",
-                        "description": null,
-                        "category": "api",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0fac6be3-9b91-4e91-bd93-fb497d7d94a5",
-                        "name": "*.seekpass.co",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cc8b2a44-196b-4354-b659-c8d1a6c00c7a",
-                        "name": "*.seekpass-staging.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "db7f4892-7eaa-4d0d-826b-223a913c36a0",
-                        "name": "*.aips-internal.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "06c83590-dba7-4754-ba9f-cc72794464c1",
-                        "name": "*.certsy.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d7439cd0-f81e-4614-9ea9-25ddd7e84d3c",
-                        "name": "*.certsynonprod.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "0ce93ddf-31a4-4663-b1ca-9a1ac7da35a3",
-                                    "name": "Stripe"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "92794d05-29b3-4f0a-b328-e7239c0bfb0f",
-                        "name": "SEEK Pass Mobile App for iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/au/app/certsy/id1617796159",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "15b29de9-4d83-452d-822e-843099194928",
-                        "name": "SEEK Pass Mobile App for Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.certsy.app",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "5a54929b-9205-461a-af94-e4485e64fc89",
-                "name": "API",
-                "description_html": "<p>Developer documentation for SEEK APIs is available at <a href=\"https://developer.seek.com/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://developer.seek.com/</a>.</p>\n\n<p>Please remember to follow the program rules when testing SEEK APIs. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 10000.0
-                    },
-                    "2": {
-                        "min": 700.0,
-                        "max": 5000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/seek/target_groups/7f7b5c7f-5be6-4700-b4e1-cd2b594abd4b/targets",
-                "targets": [
-                    {
-                        "id": "d8c5503f-e8c5-48c1-8e71-56f87ebfc4cb",
-                        "name": "graphql.seek.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://graphql.seek.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
-                                    "name": "GraphQL"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c33b3165-34ce-422a-a04a-7d155c91a0c7",
-                        "name": "auth.seek.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://auth.seek.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Upwork",
         "tagline": "Upwork invites researchers to test our marketplace and apps to ensure a secure, vulnerability-free platform for our users",
         "briefUrl": "/upwork",
@@ -17950,868 +17390,6 @@
         ]
     },
     {
-        "name": "Under Armour Corporate",
-        "tagline": "Submit your finding to Under Armour's program!",
-        "briefUrl": "/underarmour-corp",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d1f1/c2de/a4cdcdff/2b82bb7653cca8da8e1870edf4af571f_under_armour.png",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/underarmour-corp/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f804df92-02d2-466b-acb5-1851cb176702",
-                "name": "Group 1",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/underarmour-corp/target_groups/807f3a71-8caf-47f1-ad1e-8b13ca5b3a1e/targets",
-                "targets": [
-                    {
-                        "id": "9c8d6b46-9c31-4450-b530-ee0b86fbbd81",
-                        "name": "apphouse.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apphouse.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "095946fb-1085-4898-bcc2-1986e99089e5",
-                        "name": "ourhouse.underarmour.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "http://ourhouse.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "8815ece4-5879-4243-a183-0cfcb8ba6e86",
-                "name": "Group 2",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/underarmour-corp/target_groups/4023eaae-1bc5-4c01-93ec-ceead86d552f/targets",
-                "targets": [
-                    {
-                        "id": "7fec89e3-ed6f-47dd-9e3e-9d744610a636",
-                        "name": "snc.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://snc.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2b88cd7f-da16-4988-8d27-a7c0969ca45b",
-                        "name": "snctest-s.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://snctest-s.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0d0de960-0ba6-4c73-8f2e-3988c2c7bfd3",
-                        "name": "snctest-c.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://snctest-c.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9e9b2b2f-7043-4f4d-8e93-499a0d401ca0",
-                        "name": "supplier.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://supplier.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "db0b4513-242d-4b90-9df4-f90fd4b69f68",
-                "name": "Group 3",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/underarmour-corp/target_groups/4815f8c4-4a05-457f-99b3-4d2ae08c722f/targets",
-                "targets": [
-                    {
-                        "id": "a49922ae-3fc2-4cf3-9eaa-fb73661136d3",
-                        "name": "transfer.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://transfer.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "0603e8f5-32a1-485d-b2cd-c62c9a5db377",
-                "name": "Group 4",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 3,
-                "targets_url": "/underarmour-corp/target_groups/6df67a88-944a-45c1-b788-026d1be52750/targets",
-                "targets": [
-                    {
-                        "id": "c73d758e-6dc6-43c3-9f14-3ba50ece4165",
-                        "name": "vpe-us.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://vpe-us.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "4b80a79c-6e6e-4989-8983-9deadc98365e",
-                "name": "Group 5",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/underarmour-corp/target_groups/37d55dd4-d868-43a3-b053-363dae948671/targets",
-                "targets": [
-                    {
-                        "id": "f708da0b-5b17-4bc7-9d03-74cd88b49802",
-                        "name": "vtxapp9p.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://vtxapp9p.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6c3187b0-9071-4049-a853-3a027aa94c2d",
-                        "name": "vtxapp9q.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://vtxapp9q.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "de620ee1-762b-4087-b117-e2d517969196",
-                        "name": "vtxapp9d.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://vtxapp9d.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "61614bbc-cbd0-49b8-bb2a-bd22f8e5f1cb",
-                        "name": "vtxappd.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://vtxappd.underarmour.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "19cb118a-f8ea-437f-b5b9-d44e91db21b4",
-                "name": "Group 6",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 5,
-                "targets_url": "/underarmour-corp/target_groups/1e0b0620-feaf-4aa5-b0bc-c8c0d85a0514/targets",
-                "targets": [
-                    {
-                        "id": "53e625c2-b623-4477-b3eb-5a238f299f56",
-                        "name": "204.29.196.0/23",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "22e83748-4198-498d-9e2c-8b85dda46f1a",
-                        "name": "3.223.149.182",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "91626dac-2652-4404-b3d9-233116ff7766",
-                        "name": "3.230.219.249",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a563e59a-ee02-4ee6-bbf8-a4b12201fea6",
-                        "name": "34.237.130.2",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4ed3c78d-d84f-4757-a3c9-d20252a01abf",
-                        "name": "34.239.5.227",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cde612d8-2d7c-4d6c-b475-34a0f3feb79a",
-                        "name": "52.220.158.49",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7db0fb26-74a4-4b73-9f8a-b60f4e01cc2c",
-                        "name": "52.76.174.107",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5b87baf3-0f5c-4f60-a992-4e0a0f93f585",
-                        "name": "13.238.112.7",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "55ecc706-b693-42bc-8d3d-01ffff6f77aa",
-                        "name": "52.67.69.35",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "bd99cd4d-d947-4aaf-a5b3-81823693666f",
-                "name": "Group 7",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 6,
-                "targets_url": "/underarmour-corp/target_groups/d92e98fd-089e-496b-bd98-58573fa8d528/targets",
-                "targets": [
-                    {
-                        "id": "63108ea3-8f07-4f5f-96b1-ff8516cac25b",
-                        "name": "52.44.176.187",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba14d338-32b0-4f0a-81c3-b8847cc9087d",
-                        "name": "52.86.17.52",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9ddfa8c1-5d80-476a-8d66-cf714ff2d175",
-                        "name": "54.83.32.16",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "a6e43fdf-7782-4083-bf4b-aeb01886c4ee",
-                "name": "Group 8",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 7,
-                "targets_url": "/underarmour-corp/target_groups/c84abf49-6f12-40d5-86a7-ea00c2cabff7/targets",
-                "targets": [
-                    {
-                        "id": "3bc3bfd3-acf6-4b8c-9f54-f93c2b262a1f",
-                        "name": "13.58.121.166",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5abb4458-c727-48fc-b234-4133a9754d06",
-                        "name": "3.133.230.28",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "107578a1-8409-4a34-83c7-cc547e0cb4da",
-                        "name": "3.19.172.158",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "057eb8bf-b949-4f16-95f2-5bd83851a78d",
-                                    "name": "Network Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e1be4437-f774-4b5e-a018-46895b727687",
-                "name": "Group 9",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 8,
-                "targets_url": "/underarmour-corp/target_groups/8fee3484-c43c-415c-97da-04990848a63b/targets",
-                "targets": [
-                    {
-                        "id": "74232583-17eb-4a36-a102-79d11d80eea7",
-                        "name": "underarmournext.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://underarmournext.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "c5acf81e-11af-459d-ad3a-2d36fb7cf389",
-                "name": "Out of Scope",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 9,
-                "targets_url": "/underarmour-corp/target_groups/240a3deb-7c87-4d28-8d71-d3dfcf6ef08b/targets",
-                "targets": [
-                    {
-                        "id": "82938eb8-9b53-41b0-8c8b-01406b7ff802",
-                        "name": "investor.underarmour.com ",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "02ddd6a8-0e9c-4406-b9bf-8491846d99ad",
-                        "name": "careers.underarmour.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "160b1693-f0f3-4c9a-9ed7-9c598698ac4c",
-                        "name": "www.underarmour.<country> ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e3ed1a4b-18ce-40d3-a71b-96aebed6b943",
-                        "name": "www.underarmour.com/en-us/affiliate-home",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8dc59c89-793c-47d1-b6ae-841add058559",
-                        "name": "www.uabiz.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cb2510a9-4674-44d1-a531-7ebba8c5c5a5",
-                        "name": "productsafety.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "99d8bf8c-b001-4500-934a-91bc1a563720",
-                        "name": "uabusiness.force.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "85013a06-f203-4428-96fd-819c26974a96",
-                        "name": "www.underarmour.jobs",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "19ddc751-d84e-4170-89e2-1c2c44c57da4",
-                        "name": "blog.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "59547e48-72ad-4282-9789-829383078126",
-                        "name": "www.uateamcatalogs.com ",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "02f8b72a-1e76-49e6-9a38-26784652519f",
-                        "name": "www.uaretail.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c214d093-143b-4827-8e6a-c535a8ff43cf",
-                        "name": "uaallaccess.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ca5e0f52-d56f-4604-8c10-5984381764a0",
-                        "name": "www.plankindustries.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "SpaceX/Starlink",
         "tagline": "Help Secure SpaceX and Starlink!",
         "briefUrl": "/spacex",
@@ -19795,210 +18373,6 @@
                             "tags": []
                         },
                         "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Jora",
-        "tagline": "Help Secure Jora",
-        "briefUrl": "/jora",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b1b9/c131/71ff95f5/3cb619fbea9faa0fb1dcaa8f2d4a4de2_jora-420x320-20180813.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $2,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/jora/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "ce78b979-f2da-4c92-b226-93b782ab0928",
-                "name": "In scope targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1000.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "3": {
-                        "min": 100.0,
-                        "max": 500.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/jora/target_groups/3aa80b08-bba4-427e-a502-bafed8cd9ea0/targets",
-                "targets": [
-                    {
-                        "id": "854d69ad-ded6-4db3-b285-17e0e61221a2",
-                        "name": "*.jora.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "dd477d24-b394-460d-aaf7-9bd213555968",
-                                    "name": "Ruby"
-                                },
-                                {
-                                    "id": "4e9d5c53-3b04-4bca-ba30-e8e33d87019a",
-                                    "name": "Ruby on Rails"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "85af1cc7-24a0-4e6b-a850-6b29aaea2246",
-                        "name": "*.jora.xyz",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "13ee0a60-6f84-4cbf-bc8d-f4e62d31d267",
-                        "name": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "14fe62a7-417b-4cec-b547-e3a00150a764",
-                        "name": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "06165124-7c28-4f6f-9647-063dc4824feb",
-                "name": null,
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/jora/target_groups/89e26d9e-aded-4b75-b3bf-1879e9c15318/targets",
-                "targets": [
-                    {
-                        "id": "bd4e4284-2878-4e32-90ad-b37747c4028d",
-                        "name": "*.joralocal.com.au\t",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -21718,342 +20092,6 @@
         ]
     },
     {
-        "name": "Under Armour AppSec",
-        "tagline": "Under Armour\u2019s vision is to inspire you with performance solutions you never knew you needed and can\u2019t imagine living without.",
-        "briefUrl": "/underarmour",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/53a6/d83f/42edad25/c2980dc46e95f8cd4d876f8e59ef243e_Untitled111.jpg",
-        "rewardSummary": {
-            "summary": "$125 - $2,500",
-            "hint": null,
-            "minReward": "$125",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/underarmour/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "f5608dff-14e2-4374-bf6f-34cbe2494493",
-                "name": "Paid Targets ",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1200.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 1200.0
-                    },
-                    "3": {
-                        "min": 400.0,
-                        "max": 600.0
-                    },
-                    "4": {
-                        "min": 125.0,
-                        "max": 125.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/underarmour/target_groups/5669c4b0-6d71-4a73-90c4-0dd5be3c0d21/targets",
-                "targets": [
-                    {
-                        "id": "0ef21378-1dd3-4759-bbf8-9779790b9eb2",
-                        "name": "www.underarmour.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.underarmour.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "3585ef4a-cd09-429b-ad25-5777064e59c5",
-                                    "name": "Moment.js"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "c3412833-26e7-4bbd-907f-760d9da61232",
-                                    "name": "Newrelic"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "72db4344-ff93-4d14-9d40-89194709a1a0",
-                        "name": "www.underarmour.co.uk",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.underarmour.co.uk",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "29ad39e7-82e8-4428-8474-fdfb5ceeb8d5",
-                                    "name": "Cloudflare CDN"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "6481be19-8d64-4bb2-8426-2f1f7afe32e6",
-                                    "name": "Modernizr"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "57d6a749-d2ca-4806-adc2-f05bce4a55b7",
-                        "name": "UA Shop iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/under-armour/id1092704571",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "632263db-a507-42d7-b660-f6e9521611d9",
-                        "name": "UA Shop Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.ua.shop&hl=en",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "f520b16b-cc93-4aa4-a2eb-d5c0dad140ba",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/underarmour/target_groups/9d633c91-cd85-43f8-8174-21f0e988d36b/targets",
-                "targets": [
-                    {
-                        "id": "562a87d0-a7c3-4e73-8c7e-b9e170db9ba4",
-                        "name": "https://api.shop.ua.com/graphql",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.shop.ua.com/graphql",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "be4e8a51-effd-4f7b-b998-4aebf99f6f0d",
-                        "name": "https://www.underarmournext.co.uk/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.underarmournext.co.uk/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "031fc269-387c-4168-b691-62f8ff2996e4",
-                        "name": "https://underarmournext.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://underarmournext.com/",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress"
-                                },
-                                {
-                                    "id": "5644ab16-c7ca-4ff7-ac95-383343dab77f",
-                                    "name": "MySQL"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8fef4c77-78f9-4ea6-850d-8b06505f97d8",
-                        "name": "*.api.ua.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "https://mapmyfitness.api.ua.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                },
-                                {
-                                    "id": "9dd4899d-3a63-4126-8c83-c1fc1de50c25",
-                                    "name": "Amazon Cloudfront"
-                                },
-                                {
-                                    "id": "7ff6bfde-4352-4ff1-b376-565d898c283f",
-                                    "name": "nginx"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e218744f-52f6-4ed8-8c06-1f6cb30c44dd",
-                        "name": "https://consumer-sustainability.underarmour.com/en",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://consumer-sustainability.underarmour.com/en",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
-                                    "name": "AWS"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Nextup.ai",
         "tagline": "Please submit your finding to Nextup.ai's bug bounty program",
         "briefUrl": "/engagements/nextupai",
@@ -22873,103 +20911,6 @@
         "target_groups": []
     },
     {
-        "name": "FIS",
-        "tagline": "Advancing the ways the world pays, banks and invests.",
-        "briefUrl": "/fis",
-        "backgroundColor": "#4BCD3E",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/fis/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5abd69de-ed12-43f7-bd0c-beed7f659829",
-                "name": "In scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/fis/target_groups/6e3b90a0-fec7-4b40-9e86-d579e80f58e9/targets",
-                "targets": [
-                    {
-                        "id": "3c28afa3-63c6-4d70-84d5-52826acb1656",
-                        "name": "Any FIS asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "da7a05e6-1da5-49b9-b82d-034635946999",
-                "name": "Out of Scope",
-                "description_html": "<p>Unless a return to scope date is explicitly specified, the following assets are considered indefinitely out of scope:</p>\n\n<ul>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>xxxlendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankIowa.com</li>\n<li>MyLoanPortal.commercebank.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>loanapps.fcbca.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>portaltest.fisglobal.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>lendinghfs.hatborofed.com</li>\n<li>loans.bankofluxemburg.com</li>\n<li>loans.collinsstatebank.com</li>\n<li>loans.fmberlin.com</li>\n<li>creditcards.first-online.com</li>\n<li>loans.hickorypointbank.com</li>\n<li>loans.pattersonstatebank.com</li>\n<li>loan.summitfgi.com</li>\n<li>lending.tristar.bank</li>\n<li>idmt1.fisglobal.com</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>apuat-aaa.fisglobal.com</li>\n<li>apuat-arvest.fisglobal.com</li>\n<li>apuat-associated.fisglobal.com</li>\n<li>apuat-bankiowa.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com</li>\n<li>apuat-fcbca.fisglobal.com</li>\n<li>apuat-fnbgranbury.fisglobal.com</li>\n<li>apuat-highlands.fisglobal.com</li>\n<li>apuat-icbc.fisglobal.com</li>\n<li>xxxapuat-bankofeastman.fisglobal.com</li>\n<li>ID-UAT2.fisglobal.com</li>\n<li>apuat-plainscapitol.fisglobal.com</li>\n<li>apuat-primesouth.fisglobal.com</li>\n<li>xxxap-uat3.fisglobal.com</li>\n<li>ID-UAT1.fisglobal.com</li>\n<li>apuat-riverwindbank.fisglobal.com</li>\n<li>apuat-summit.fisglobal.com</li>\n<li>apuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-unitedbankshares.fisglobal.com</li>\n<li>id-uat.fisglobal.com</li>\n<li>id-uat3.fisglobal.com</li>\n<li>xxxapuat-bankiowa.fisglobal.com</li>\n<li>xxxapuat-classicbank.fisglobal.com</li>\n<li>xxxapuat-fcbca.fisglobal.com</li>\n<li>xxxapuat-firstoptionbank.fisglobal.com</li>\n<li>xxxapuat-fnbgranbury.fisglobal.com</li>\n<li>xxxapuat-highlands.fisglobal.com</li>\n<li>xxxapuat-icbc.fisglobal.com</li>\n<li>xxxapuat-plainscapitol.fisglobal.com</li>\n<li>xxxapuat-primesouth.fisglobal.com</li>\n<li>xxxapuat-riverwindbank.fisglobal.com</li>\n<li>xxxapuat-superiornational.fisglobal.com</li>\n<li>xxxapuat-troybankandtrust.fisglobal.com</li>\n<li>apuat-commerce.fisglobal.com </li>\n<li>ap-uat3.fisglobal.com</li>\n<li>id-uat.fisglobal.com </li>\n<li>myloanportal.commercebank.com </li>\n<li>ap.acg.aaa.com</li>\n<li>creditportal.arvest.com</li>\n<li>lendportal.associatedbank.com</li>\n<li>applicant.bankofeastman.com</li>\n<li>applynowportal.bankiowa.com</li>\n<li>loanportal.classic.bank</li>\n<li>loanapps.fcbca.com</li>\n<li>loansap.firstoptionbank.com</li>\n<li>oaportal.fnbgranbury.com</li>\n<li>portal.highlandscommunitybank.com</li>\n<li>applicationportal.icbc-uscards.com</li>\n<li>portal.orientalbank.com</li>\n<li>myloanportal.plainscapital.com</li>\n<li>applicantportal.primesouth.com</li>\n<li>apply.riverwindbank.com</li>\n<li>loanportal.snb-t.com</li>\n<li>loanportal.troybankandtrust.com</li>\n<li>loanportal.bankwithunited.com</li>\n<li>payrix assets (effective 3/7/2023)</li>\n<li>idmt1.fisglobal.com (testing can be done here instead: id-uat1.fisglobal.com)</li>\n<li>idmt2.fisglobal.com</li>\n<li>idmt3.fisglobal.com</li>\n<li>sedgwick assets</li>\n<li>sungard availability services assets</li>\n<li>epicuat.fisglobal.com</li>\n<li>ibserrormgmnt.fisglobal.com</li>\n<li>infospace.fisglobal.com</li>\n<li>infospace-dr.fisglobal.com</li>\n<li>infospaceuat.fisglobal.com</li>\n<li>pulse.fisglobal.com</li>\n<li>pulse-dr.fisglobal.com</li>\n<li>pulseuat.fisglobal.com</li>\n<li>pulse-web.fisglobal.com</li>\n<li>pulse-web-dr.fisglobal.com</li>\n<li>qes.fisglobal.com</li>\n<li>qes-dr.fisglobal.com</li>\n<li>qesuat.fisglobal.com</li>\n<li>results.fisglobal.com</li>\n<li>results-loadituat.fisglobal.com</li>\n<li>resultsuat.fisglobal.com</li>\n<li>velocityapiuat.fisglobal.com</li>\n<li>velocitywebuat.fisglobal.com</li>\n<li>intelhub-b2b.fisglobal.com</li>\n<li>intelhub-dr.fisglobal.com</li>\n<li>intelhub-web-dr.fisglobal.com</li>\n<li>intelhub-web.fisglobal.com</li>\n<li>intelhub-webuat.fisglobal.com</li>\n<li>intelhub.fisglobal.com</li>\n<li>intelhubuat.fisglobal.com</li>\n<li>testintelhub.fisglobal.com</li>\n<li>bigeye-dr.fisglobal.com</li>\n<li>bigeye.fisglobal.com</li>\n<li>bigeye.infinity.com</li>\n<li>bigeyebpm-dr.fisglobal.com</li>\n<li>bigeyebpm.fisglobal.com</li>\n<li>bigeyebpmuat.fisglobal.com</li>\n<li>bigeyeuat.fisglobal.com</li>\n<li>prebot*.fisglobal.com</li>\n<li>portaldev.fisglobal.com</li>\n<li>Bond assets</li>\n<li>All Github/Postman Repos</li>\n<li>*.avantgardportal.com (OOS Effective 7/8/2024) </li>\n<li>*.accessmyiq.com (OOS per 05/7/2024 announcement, effective 07/08/2024, this will remain OOS until further notice.) (All instances and environments)</li>\n<li>ebtedge.com (OOS Effective 07/5/2024 until 10/05/2024) (All instances and environments) </li>\n<li>rgf.fisglobal.com/rdocs.fisglobal.com (OOS Effective 07/01/2024 until 09/08/2024) (All instances and environments)</li>\n<li>*.platformsecurities.com (OOS Effective 07/01/2024 until 09/01/2024) (All instances and environments)</li>\n<li>opsintcenter.fnis.com (OOS Until 09/01/2024)</li>\n<li>anywhere-connections.fisglobal.com (OOS until 9/20/2024) (All instances and environments)</li>\n<li>Adeptia assets (OOS effective 8/15 until 10/15/2024)</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/fis/target_groups/63b89d10-1218-4ec5-b253-980df5931f2c/targets",
-                "targets": [
-                    {
-                        "id": "0d51e4f4-7f0c-41db-841f-f93cd5ce64f4",
-                        "name": "Reference above out of scope targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://apuat-aaa.fisglobal.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Tesla",
         "tagline": "Accelerating the world\u2019s transition to sustainable energy",
         "briefUrl": "/engagements/tesla",
@@ -23060,78 +21001,6 @@
         "target_groups": []
     },
     {
-        "name": "Worldpay",
-        "tagline": "We are forging the future of payments.",
-        "briefUrl": "/worldpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $20,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$20,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/worldpay/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "5845c34c-dcd1-4ab2-84cb-627c97bb689d",
-                "name": "In Scope",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 10000.0,
-                        "max": 20000.0
-                    },
-                    "2": {
-                        "min": 2500.0,
-                        "max": 10000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 2500.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 200.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/worldpay/target_groups/4f354bee-0b30-4aa0-8232-862c6bc21949/targets",
-                "targets": [
-                    {
-                        "id": "5870ba2c-1a4d-4d56-bb56-9b39990cb7e5",
-                        "name": "Any Worldpay asset is in scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Cloudinary",
         "tagline": "Cloud image & video upload, storage, management & CDN",
         "briefUrl": "/engagements/cloudinary",
@@ -23159,6 +21028,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/cloudinary/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Jora",
+        "tagline": "Help Secure Jora",
+        "briefUrl": "/engagements/jora",
+        "backgroundColor": "#2a2d40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4a8f/3622/259cf49b/8fde5fec56f76f4641dfade8ca0ac21d_logo-seek-reverse.png",
+        "rewardSummary": {
+            "summary": "$50 - $2,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/jora/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -23972,6 +21871,66 @@
         "target_groups": []
     },
     {
+        "name": "FIS",
+        "tagline": "Advancing the ways the world pays, banks and invests.",
+        "briefUrl": "/engagements/fis",
+        "backgroundColor": "#4BCD3E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2617/46f9/8dbd1e55/62621542a061dcc0af8fe3e00062015a_x0QJftTr_400x400.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/fis/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Worldpay",
+        "tagline": "We are forging the future of payments.",
+        "briefUrl": "/engagements/worldpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d40a/dd6f/a49274f9/bd851fbe6bbee73b13b087eee68380a9_worldpay_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $20,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/worldpay/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Smartmockups",
         "tagline": "Help Secure Smartmockups",
         "briefUrl": "/engagements/smartmockups",
@@ -24633,24 +22592,24 @@
         "target_groups": []
     },
     {
-        "name": "Afterpay Bug Bounty Program",
-        "tagline": "Keeping Afterpay secure for our customers and merchants.",
-        "briefUrl": "/engagements/afterpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "name": "PlanetHoster",
+        "tagline": "PlanetHoster invites you to test their web hosting platform!",
+        "briefUrl": "/engagements/planethosterinc",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
         "rewardSummary": {
-            "summary": "$100 - $5,000",
+            "summary": "$200 - $3,000",
             "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
+            "minReward": "$200",
+            "maxReward": "$3,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 4,
+        "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "eCommerce",
+        "industryName": "Cloud",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -24659,7 +22618,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/afterpay/engagement_subscribers",
+        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -25286,36 +23245,6 @@
         "target_groups": []
     },
     {
-        "name": "TIDAL",
-        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
-        "briefUrl": "/engagements/tidal-bugbounty",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Code.org",
         "tagline": "Ensure that Code.org protects teacher and student privacy as we increase our reach to schools across the world.",
         "briefUrl": "/engagements/codeorg",
@@ -25343,6 +23272,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/codeorg/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "TIDAL",
+        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "briefUrl": "/engagements/tidal-bugbounty",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -25930,6 +23889,59 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Under Armour Corporate",
+        "tagline": "Submit your finding to Under Armour's program!",
+        "briefUrl": "/engagements/underarmour-corp",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d1f1/c2de/a4cdcdff/2b82bb7653cca8da8e1870edf4af571f_under_armour.png",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/underarmour-corp/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "SEEK ",
+        "tagline": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
+        "briefUrl": "/engagements/seek",
+        "backgroundColor": "#2a2d40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4a8f/3622/259cf49b/8fde5fec56f76f4641dfade8ca0ac21d_logo-seek-reverse.png",
+        "rewardSummary": {
+            "summary": "$50 - $10,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/seek/engagement_subscribers",
+        "target_groups": []
     },
     {
         "name": "GoPro Awards Webapp Public Program",
@@ -27321,6 +25333,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/quizlet/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Under Armour AppSec",
+        "tagline": "Under Armour\u2019s vision is to inspire you with performance solutions you never knew you needed and can\u2019t imagine living without.",
+        "briefUrl": "/engagements/underarmour",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/53a6/d83f/42edad25/c2980dc46e95f8cd4d876f8e59ef243e_Untitled111.jpg",
+        "rewardSummary": {
+            "summary": "$125 - $2,500",
+            "hint": null,
+            "minReward": "$125",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/underarmour/engagement_subscribers",
         "target_groups": []
     }
 ]
