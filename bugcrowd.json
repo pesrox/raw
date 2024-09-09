@@ -2819,587 +2819,6 @@
         ]
     },
     {
-        "name": "Kohl's",
-        "tagline": "Kohl's is committed to securing our customer's data, we value your feedback and will do everything possible to address any security issues you raise.",
-        "briefUrl": "/kohls",
-        "backgroundColor": "#86253e",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/bc7d/7c0c/fe89e93e/3e6f12c54cffeb42950a55e4d87e7b0d_kohls_logo.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $4,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/kohls/program_subscribers",
-        "programMigrationInProgress": true,
-        "target_groups": [
-            {
-                "id": "4341ab70-f9e8-477c-a10f-a7216a0f2286",
-                "name": "In Scope Targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 2000.0,
-                        "max": 3000.0
-                    },
-                    "3": {
-                        "min": 300.0,
-                        "max": 1500.0
-                    },
-                    "4": {
-                        "min": 100.0,
-                        "max": 300.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/kohls/target_groups/978c73c5-5533-436e-9410-7d48fe12b61e/targets",
-                "targets": [
-                    {
-                        "id": "012bc546-aabc-42a8-8433-bfa9bce9f8dd",
-                        "name": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1d5eb224-29a9-4b00-8f07-797e1c268a9e",
-                        "name": "www.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.kohls.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "08e84ba6-1e84-4c11-b559-a3b3b963546f",
-                                    "name": "Akamai CDN"
-                                },
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "9f26f47e-4acd-4d8d-aad2-414b6b367eb0",
-                                    "name": "Handlebars"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c8149ae9-7196-44e4-aee0-fac86c37b14b",
-                        "name": "Kohl's Mobile Application for iOS",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://www.kohls.com/feature/app.jsp",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f28d551b-becb-423d-b430-e1af8ef87fac",
-                        "name": "Kohl's Mobile Application for Android",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://www.kohls.com/feature/app.jsp",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "e53a71a8-8eac-4b2e-bbc7-5b2dc8bdb90b",
-                "name": "Out of Scope Targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 1,
-                "targets_url": "/kohls/target_groups/55948414-1089-45a3-8bee-2eb7e4086d05/targets",
-                "targets": [
-                    {
-                        "id": "eefd2e0b-c675-43a8-9326-a6b662591d5c",
-                        "name": "apply.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c0bbac52-c2e2-4f4b-9da6-f37548f44d6f",
-                        "name": "*kohls.com/kohlscredit/prequal",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1377a90c-b044-468f-94c1-5a81ae542ce5",
-                        "name": "*kohlsecommerce.com/kohlscredit/prequal",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1c442fd7-97a0-4694-973e-274c2183c7f6",
-                        "name": "corporate.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "da24873f-6c88-4278-af05-4637aa55bbe2",
-                        "name": "productchampions.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "95dd2e9f-7f86-4585-9e3d-f36dc80cd1d8",
-                        "name": "link-preprod.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8ea14cfd-958e-4108-aa58-ce468d693167",
-                        "name": "developer.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b9de9b46-2577-48dc-a732-4d36604c4969",
-                        "name": "lclive.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "85d88254-0d72-432f-ab94-d65968bd59fe",
-                        "name": "author-mykohls.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6ae6e349-2b81-429d-9ce8-26eb7f6f403d",
-                        "name": "mykohls-origin.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6ac2cfca-8826-43d3-a0d5-f532c03e5c9d",
-                        "name": "origin-stage65-corporate.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "de98cd1c-6277-44f0-b099-d64163d9fd7e",
-                        "name": "origin-stage65-mykohls.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c6e517de-c21f-43ac-8044-c6dea70995a2",
-                        "name": "author-stage65-mykohls.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b1b9f84d-8370-46b6-a9c4-3011d94d49a5",
-                        "name": "stage65-corporate.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9bf0607a-4208-4351-a760-d813d696b61f",
-                        "name": "stage65-mykohls.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b85d7b5d-6b72-4aa5-854e-dc6d29dbd09e",
-                        "name": "author-qa65-mykohls.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "255d0d40-5847-4a2e-a143-75877699b5e2",
-                        "name": "mykohls.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "08626662-4cdc-4af1-985e-070f5eb50d67",
-                        "name": "any domain with archaius.json endoint is out of scope",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "420e87e9-7604-4711-a8bc-eec7fff2a34e",
-                        "name": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b41ffe53-b1e9-4293-91e3-d4e894a33c5a",
-                        "name": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cc7bb2de-3f85-4e8e-8c00-6eb1b235e7c5",
-                        "name": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "09056a6b-e83d-4f84-b8d1-296c3cefc03e",
-                        "name": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 21,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cfeeb43c-58e7-4eda-a11e-b46d63c87174",
-                        "name": "vp-*.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 22,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5410a594-a362-4d75-bc37-6b444700abcd",
-                        "name": "*qa*.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 23,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "cc6126e7-735e-4cda-b3a7-97e9d535fb2c",
-                        "name": "wfh*.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 24,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5425d6ed-4eb7-49c1-93af-a4dc608e4768",
-                        "name": "kconnect.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 25,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a5cf6cf7-c9ff-4d6e-8d80-3635f005d147",
-                        "name": "connection.kohls.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 26,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "781b42f4-7f91-449d-a76b-136fbb1489a2",
-                        "name": "kohlsmerch.kohls.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 27,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Infinite Athlete",
         "tagline": "Infinite Athlete is the technological vanguard for the sports and entertainment industry. Merging sports, video, and data with innovation and accessibility, Tempus Ex technology enables the creation of new interactive experiences around live events.",
         "briefUrl": "/engagements/tempusex-public-mbb-og",
@@ -22055,24 +21474,24 @@
         "target_groups": []
     },
     {
-        "name": "Afterpay Bug Bounty Program",
-        "tagline": "Keeping Afterpay secure for our customers and merchants.",
-        "briefUrl": "/engagements/afterpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "name": "PlanetHoster",
+        "tagline": "PlanetHoster invites you to test their web hosting platform!",
+        "briefUrl": "/engagements/planethosterinc",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
         "rewardSummary": {
-            "summary": "$100 - $5,000",
+            "summary": "$200 - $3,000",
             "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
+            "minReward": "$200",
+            "maxReward": "$3,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 4,
+        "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "eCommerce",
+        "industryName": "Cloud",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -22081,7 +21500,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/afterpay/engagement_subscribers",
+        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -22708,36 +22127,6 @@
         "target_groups": []
     },
     {
-        "name": "TIDAL",
-        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
-        "briefUrl": "/engagements/tidal-bugbounty",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Code.org",
         "tagline": "Ensure that Code.org protects teacher and student privacy as we increase our reach to schools across the world.",
         "briefUrl": "/engagements/codeorg",
@@ -22768,6 +22157,36 @@
         "target_groups": []
     },
     {
+        "name": "TIDAL",
+        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "briefUrl": "/engagements/tidal-bugbounty",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/18811ce4de2c70d260fdf014491c3c0f_Untitled.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Moneytree KK",
         "tagline": "Your Lifetime Financial Record",
         "briefUrl": "/engagements/moneytreekkog",
@@ -22795,36 +22214,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/moneytreekkog/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
-        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/ultramobile",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
-        "rewardSummary": {
-            "summary": "$175 - $4,500",
-            "hint": null,
-            "minReward": "$175",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ultramobile/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -23404,6 +22793,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/seek/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
+        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/ultramobile",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
+        "rewardSummary": {
+            "summary": "$175 - $4,500",
+            "hint": null,
+            "minReward": "$175",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ultramobile/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Kohl's",
+        "tagline": "Kohl's is committed to securing our customer's data, we value your feedback and will do everything possible to address any security issues you raise.",
+        "briefUrl": "/engagements/kohls",
+        "backgroundColor": "#86253e",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/bc7d/7c0c/fe89e93e/3e6f12c54cffeb42950a55e4d87e7b0d_kohls_logo.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/kohls/engagement_subscribers",
         "target_groups": []
     },
     {
