@@ -1689,19 +1689,6 @@
                 "description": "Product of Accent\n**Please note:** Do not apply for jobs. This is a production website and you will  be contacted by a recruiter."
             },
             {
-                "id": "cfa59732-eaf0-43c9-9cfb-80703318fdb6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "backoffice.uat.nowjobs.dev",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Product of Nowjobs\nThis is a staging website, you may apply for jobs."
-            },
-            {
                 "id": "f7188841-a2cf-46bd-81e1-99d3428f9de0",
                 "type": {
                     "id": 1,
@@ -1754,19 +1741,6 @@
                 "description": "Product of Accent\n**Please note:** Do not apply for jobs. This is a production website and you will  be contacted by a recruiter."
             },
             {
-                "id": "344808c4-0f54-445c-a4e9-fe665a64812f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "testjobs.abylsen.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "Product of Abylsen\nThis is a staging website, you may apply for jobs.\n\n* Temporarily out of scope due to an discrepancy between the staging and production website"
-            },
-            {
                 "id": "3c6145a0-876c-4146-9080-8dd662fb248f",
                 "type": {
                     "id": 7,
@@ -1778,6 +1752,32 @@
                     "value": "Out Of Scope"
                 },
                 "description": "Swop will stop existing."
+            },
+            {
+                "id": "cfa59732-eaf0-43c9-9cfb-80703318fdb6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "backoffice.uat.nowjobs.dev",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Product of Nowjobs\n* Temporarily removed from Scope due to ongoing vulnerability."
+            },
+            {
+                "id": "344808c4-0f54-445c-a4e9-fe665a64812f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "testjobs.abylsen.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Product of Abylsen\nThis is a staging website, you may apply for jobs."
             }
         ]
     },
