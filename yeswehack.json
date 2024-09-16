@@ -1,9 +1,9 @@
 [
     {
-        "title": "DataDome Bug Bounty",
-        "slug": "datadome-bug-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
+        "title": "ownCloud - Bug Bounty Program",
+        "slug": "owncloud-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Tech - Other",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -11,7 +11,7 @@
         "public": true,
         "bounty": true,
         "gift": false,
-        "hall_of_fame": false,
+        "hall_of_fame": true,
         "hacktivity": false,
         "report_collaboration_active": true,
         "pid": null,
@@ -19,80 +19,140 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 257,
+        "reports_count": 59,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 8,
+        "bounty_reward_max": 5000,
+        "scopes_count": 18,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "2bf4b147-02d9-4451-bdd0-222232beaa49",
-            "original_name": "39075605-1411355165630647-161704930283880448-n.png",
-            "mime_type": "image/png",
-            "size": 15710,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/2bf4b147-02d9-4451-bdd0-222232beaa49"
+            "name": "c0c85dd9-2913-4241-91e3-73e81a3d4ab2",
+            "original_name": "owncloud.jpg",
+            "mime_type": "image/jpeg",
+            "size": 5637,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c0c85dd9-2913-4241-91e3-73e81a3d4ab2"
         },
         "event": null,
         "business_unit": {
-            "name": "DataDome",
-            "slug": "datadome",
-            "description": "Online fraud & bot management for mobile apps, websites & APIs",
-            "currency": "EUR",
+            "name": "ownCloud",
+            "slug": "owncloud",
+            "description": "ownCloud GmbH is the company behind the ownCloud Project - the most downloaded open source project for data and file sync, share and view.",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "2dbd89af-6605-4b83-845c-752b27da2ee1",
-                "original_name": "39075605-1411355165630647-161704930283880448-n.png",
+                "name": "4a48d029-b76e-4633-a731-a8bcfd1e777f",
+                "original_name": "5fd11c324df07e597eb78f6408fe2c2c871c1503f479ab4fa8446caf0eb02322.png",
                 "mime_type": "image/png",
-                "size": 15710,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/2dbd89af-6605-4b83-845c-752b27da2ee1"
+                "size": 5832,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/4a48d029-b76e-4633-a731-a8bcfd1e777f"
             }
         },
         "scopes": [
             {
-                "scope": "https://app.datadome.co",
-                "scope_type": "web-application",
+                "scope": "https://owncloud.org/install/#install-clients",
+                "scope_type": "application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://customer-api.datadome.co",
-                "scope_type": "api",
+                "scope": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+                "scope_type": "mobile-application-android",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://api.datadome.co",
-                "scope_type": "api",
+                "scope": "https://apps.apple.com/app/id1359583808",
+                "scope_type": "mobile-application-ios",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://api-js.datadome.co",
-                "scope_type": "api",
+                "scope": "https://github.com/owncloud/customgroups",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://*.captcha-delivery.com",
-                "scope_type": "web-application",
+                "scope": "https://github.com/owncloud/guests",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://auth.datadome.co",
-                "scope_type": "web-application",
+                "scope": "https://github.com/owncloud/richdocuments",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://datadome.co",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "scope": "https://github.com/owncloud/notifications",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://bot-tester.datadome.co/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
+                "scope": "https://github.com/owncloud/client",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/core",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/gallery",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/ocis",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/user_ldap",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/oauth2",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/activity",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/updater",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/core/tree/master/apps/files",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/android",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/ios-app",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -117,7 +177,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 606,
+        "reports_count": 607,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 32,
@@ -335,6 +395,104 @@
                 "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
                 "scope_type": "mobile-application-android",
                 "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DataDome Bug Bounty",
+        "slug": "datadome-bug-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 257,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 8,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "2bf4b147-02d9-4451-bdd0-222232beaa49",
+            "original_name": "39075605-1411355165630647-161704930283880448-n.png",
+            "mime_type": "image/png",
+            "size": 15710,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/2bf4b147-02d9-4451-bdd0-222232beaa49"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "DataDome",
+            "slug": "datadome",
+            "description": "Online fraud & bot management for mobile apps, websites & APIs",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "2dbd89af-6605-4b83-845c-752b27da2ee1",
+                "original_name": "39075605-1411355165630647-161704930283880448-n.png",
+                "mime_type": "image/png",
+                "size": 15710,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/2dbd89af-6605-4b83-845c-752b27da2ee1"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://app.datadome.co",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://customer-api.datadome.co",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.datadome.co",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api-js.datadome.co",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://*.captcha-delivery.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://auth.datadome.co",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://datadome.co",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bot-tester.datadome.co/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
@@ -1337,164 +1495,6 @@
             },
             {
                 "scope": "Domains where GovTech is the registrar",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "ownCloud - Bug Bounty Program",
-        "slug": "owncloud-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 58,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 18,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c0c85dd9-2913-4241-91e3-73e81a3d4ab2",
-            "original_name": "owncloud.jpg",
-            "mime_type": "image/jpeg",
-            "size": 5637,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c0c85dd9-2913-4241-91e3-73e81a3d4ab2"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "ownCloud",
-            "slug": "owncloud",
-            "description": "ownCloud GmbH is the company behind the ownCloud Project - the most downloaded open source project for data and file sync, share and view.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "4a48d029-b76e-4633-a731-a8bcfd1e777f",
-                "original_name": "5fd11c324df07e597eb78f6408fe2c2c871c1503f479ab4fa8446caf0eb02322.png",
-                "mime_type": "image/png",
-                "size": 5832,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/4a48d029-b76e-4633-a731-a8bcfd1e777f"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://owncloud.org/install/#install-clients",
-                "scope_type": "application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.owncloud.android",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/app/id1359583808",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/customgroups",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/guests",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/richdocuments",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/notifications",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/client",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/core",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/gallery",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/ocis",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/user_ldap",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/oauth2",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/activity",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/updater",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/core/tree/master/apps/files",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/android",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/ios-app",
                 "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
