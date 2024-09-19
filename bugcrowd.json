@@ -1,5 +1,527 @@
 [
     {
+        "name": "TheFork - B2C - WNG",
+        "tagline": "TheFork - B2C - WNG",
+        "briefUrl": "/thefork-b2c-wng",
+        "backgroundColor": "#8BFF6E",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/26bd/2d4c/c9aecf87/a0da92f29f2ee20b884d1842c45c94c5_logo-thefork-picto.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $3,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Hospitality",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/thefork-b2c-wng/program_subscribers",
+        "programMigrationInProgress": null,
+        "target_groups": [
+            {
+                "id": "7460c170-8b14-46b5-a81d-169a0aa0c677",
+                "name": "Main Group",
+                "description_html": "<h2>Web</h2>\n\n<ul>\n<li>\n<code>https://www.thefork.com</code> - This is the B2C version of TheForks' Business to Consumer web application. Researchers are invited to test the full functionality of this application, both from the logged in and anonymous perspective.</li>\n</ul>\n\n<p><strong>IMPORTANT: when booking reservations, please only used the 3 test restaurants provided in the \"Booking Restaurants\" section.<br>\nInteracting with live restaurants is strictly forbidden. Even minor actions such as booking restaurant.</strong></p>\n\n<h2>Mobile</h2>\n\n<ul>\n<li>Android App Name: TheFork - Restaurant bookings</li>\n<li>iOS App Name: TheFork - Restaurant bookings</li>\n</ul>\n\n<h2>API Documentation:</h2>\n\n<ul>\n<li><a href=\"https://api.thefork.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.thefork.com</a></li>\n<li><a href=\"https://google-reserve-api.thefork.io\" rel=\"nofollow noreferrer\" target=\"_blank\">https://google-reserve-api.thefork.io</a></li>\n</ul>\n\n<h2>Booking Restaurants:</h2>\n\n<p><strong>Only book on dedicated restaurants:</strong></p>\n\n<ul>\n<li><a href=\"https://www.thefork.com/restaurant/the-spanish-white-hacker-r685267\" rel=\"nofollow noreferrer\" target=\"_blank\">Spanish Restaurant</a></li>\n<li><a href=\"https://www.thefork.com/restaurant/the-italian-white-hacker-r685265\" rel=\"nofollow noreferrer\" target=\"_blank\">Italian Restaurant</a></li>\n<li><a href=\"https://www.thefork.com/restaurant/the-french-white-hacker-r717195\" rel=\"nofollow noreferrer\" target=\"_blank\">French Restaurant</a></li>\n</ul>\n\n<p><em>These restaurant couldn't be found through search field, please go directly through the link.</em></p>\n\n<h1>Payments</h1>\n\n<ul>\n<li>Make a reservation with your @bugcrowd.com or @bugcrowdninja.com account as close to the time of your test as possible. - Bookings can be made through the B2C website or mobile apps on one of the test restaurants.</li>\n<li>Payment functionality in TFPay only opens for the specific booking once your dining time has started and stays open for a maximum of 3hrs.</li>\n<li>To be able to perform test payments, you must have logged in to the mobile app with an @bugcrowd.com or @bugcrowdninja.com email account.</li>\n<li>Navigate to TheFork pay section through the menu in the app, add a <span class=\"rp-resources__download-link bc-m-0 bc-icon bc-icon--after cc-icon--download\" data-tooltip-id=\"3f1d1ab9-aa1c-4705-b1ea-583a32fd70fb\"><a href=\"https://bugcrowd.com/thefork-b2c-wng/attachments/3f1d1ab9-aa1c-4705-b1ea-583a32fd70fb\" download>test credit card &amp; gift cards</a></span> or select the the relevant booking, then add your test credit card &amp; gift cards</li>\n<li>Complete the payment. Note a maximum of 2 payments per reservation is allowed.</li>\n<li>Navigate to TheFork Pay section to verify the status of the payment.</li>\n</ul>\n\n<h1>Access</h1>\n\n<p>Please sign up for an account using your @bugcrowdninja.com email address. For more info regarding @bugcrowdninja email addresses, see <a href=\"https://docs.bugcrowd.com/researchers/participating-in-program/your-bugcrowdninja-email-address/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>.</p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 2500.0,
+                        "max": 3500.0
+                    },
+                    "2": {
+                        "min": 1500.0,
+                        "max": 1750.0
+                    },
+                    "3": {
+                        "min": 500.0,
+                        "max": 700.0
+                    },
+                    "4": {
+                        "min": 150.0,
+                        "max": 300.0
+                    }
+                },
+                "sort_order": 0,
+                "targets_url": "/thefork-b2c-wng/target_groups/3c4f0e27-7991-492d-82f1-dbc0b0a9d504/targets",
+                "targets": [
+                    {
+                        "id": "dff1e97b-dfdd-4cbe-8576-5ecaec86727d",
+                        "name": "https://www.thefork.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.thefork.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
+                                    "name": "GraphQL"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c00af7ed-b007-49e6-bdb1-2a80a68c6307",
+                        "name": "https://m.thefork.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://m.thefork.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
+                                    "name": "GraphQL"
+                                },
+                                {
+                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
+                                    "name": "ReactJS"
+                                },
+                                {
+                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
+                                    "name": "Varnish"
+                                },
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                },
+                                {
+                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
+                                    "name": "NextJS"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "18e47dfe-ecb7-4db5-972e-b5942614e4f9",
+                        "name": "https://blog.thefork.com/",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://blog.thefork.com/",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
+                                    "name": "Wordpress"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "ac33e179-4d36-4297-b302-6f268ea7457a",
+                        "name": "https://api.thefork.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.thefork.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "723eccca-33f6-4b3f-8612-e92dacdea245",
+                        "name": "https://api.lafourchette.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://api.lafourchette.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "70346ffd-45cb-4aaf-8774-bebda060b4e2",
+                        "name": "https://review-api.lafourchette.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://review-api.lafourchette.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 5,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "551b9e45-f69d-4864-9f74-14bffbaa263f",
+                        "name": "https://google-reserve-api.thefork.io ",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://google-reserve-api.thefork.io",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 6,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "c51aaeac-f1cb-40a5-809c-e663d85162e4",
+                        "name": "https://m-api.lafourchette.com",
+                        "description": null,
+                        "category": "api",
+                        "uri": "https://m-api.lafourchette.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
+                                    "name": "API Testing"
+                                },
+                                {
+                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
+                                    "name": "HTTP"
+                                }
+                            ]
+                        },
+                        "sort_order": 7,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "72383461-4765-4fd0-b2fd-496a6e79d597",
+                        "name": "The Fork Android App",
+                        "description": null,
+                        "category": "android",
+                        "uri": "https://play.google.com/store/apps/details?id=com.lafourchette.lafourchette",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
+                                    "name": "Java"
+                                },
+                                {
+                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
+                                    "name": "Android"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
+                                    "name": "Kotlin"
+                                }
+                            ]
+                        },
+                        "sort_order": 8,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "4cdd488c-32e0-44f7-920c-f070a24cee08",
+                        "name": "The Fork iOS App",
+                        "description": null,
+                        "category": "ios",
+                        "uri": "https://apps.apple.com/app/thefork-restaurants-bookings/id424850908",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
+                                    "name": "Objective-C"
+                                },
+                                {
+                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
+                                    "name": "SwiftUI"
+                                },
+                                {
+                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
+                                    "name": "Swift"
+                                },
+                                {
+                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
+                                    "name": "Mobile Application Testing"
+                                },
+                                {
+                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
+                                    "name": "iOS"
+                                }
+                            ]
+                        },
+                        "sort_order": 9,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "9a7b02c2-c3f7-4a75-be37-6e54ffa8a9f2",
+                "name": "Low reward",
+                "description_html": "<h1>Tools</h1>\n\n<p>All of our tools are under *.tools.thefork.tech, some of them are reachable only internally. </p>",
+                "in_scope": true,
+                "reward_range": {
+                    "1": {
+                        "min": 500.0,
+                        "max": 1000.0
+                    },
+                    "2": {
+                        "min": 200.0,
+                        "max": 400.0
+                    },
+                    "3": {
+                        "min": 100.0,
+                        "max": 200.0
+                    },
+                    "4": {
+                        "min": 50.0,
+                        "max": 100.0
+                    }
+                },
+                "sort_order": 1,
+                "targets_url": "/thefork-b2c-wng/target_groups/99c248a0-6c04-4cba-8fa6-81287f7dc518/targets",
+                "targets": [
+                    {
+                        "id": "18614a2f-02fa-4348-ae11-bc3f3fb12729",
+                        "name": "*.tools.thefork.tech",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.tools.thefork.tech",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "f5f71f41-97bc-422d-8862-6ced697041ec",
+                        "name": "www.restaurant-information.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.restaurant-information.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "1cda94b4-347b-4836-bea4-749955890bb7",
+                        "name": "widget.thefork.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://widget.thefork.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
+                                    "name": "TypeScript"
+                                },
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            },
+            {
+                "id": "396c969e-676c-4029-84ae-0d70e0fcbef6",
+                "name": "Out of scope",
+                "description_html": "<h2>Customer semi-login feature</h2>\n\n<ul>\n<li>We allow booking only with an e-mail address + First name + Last name + Phone number</li>\n<li>We don't check if e-mail address or Phone number are valid neither if the customer is the real owner of the e-mail address or Phone number.</li>\n<li>Customer can see obfuscated tel number, first letter first_name, first letter last_name and number of yums.</li>\n<li>It's possible to know if an e-mail address is registered or not in TheFork.</li>\n<li>It's possible to book with an e-mail address I am not the owner.</li>\n</ul>",
+                "in_scope": false,
+                "reward_range": {},
+                "sort_order": 2,
+                "targets_url": "/thefork-b2c-wng/target_groups/e45c0b91-6ce3-499a-a580-de1832a8dc3c/targets",
+                "targets": [
+                    {
+                        "id": "54db38f5-1a86-4757-abba-c42e72c4661b",
+                        "name": "https://www.lafourchette.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.lafourchette.com",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 0,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "e9cd9864-0f61-4d38-814d-831ca5679cb0",
+                        "name": "https://*.eltenedor.*",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://*.eltenedor.*",
+                        "ipAddress": null,
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 1,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "bed3965a-47b2-4522-a582-a57cd0972d93",
+                        "name": "https://www.thefork.*",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://www.thefork.*",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 2,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "a95e4f66-5f8b-4d97-8329-671c625f0c3d",
+                        "name": "Customer semi-login feature",
+                        "description": null,
+                        "category": "website",
+                        "uri": "",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": []
+                        },
+                        "sort_order": 3,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    },
+                    {
+                        "id": "6fe065df-6762-43d2-88bd-47684c7b706e",
+                        "name": "module.thefork.com",
+                        "description": null,
+                        "category": "website",
+                        "uri": "https://module.thefork.com",
+                        "ipAddress": "",
+                        "target": {
+                            "tags": [
+                                {
+                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                    "name": "Website Testing"
+                                }
+                            ]
+                        },
+                        "sort_order": 4,
+                        "display_known_issues": false,
+                        "known_issues": {}
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Aurory Managed Bug Bounty Engagement (Public)",
         "tagline": "On a mission to reshape gaming",
         "briefUrl": "/engagements/aurory-mbb-og2",
@@ -8851,36 +9373,6 @@
         "target_groups": []
     },
     {
-        "name": "EPAM Systems Managed Bug Bounty Program",
-        "tagline": "EPAM Systems leads the industry in digital and physical product development and digital platform engineering services. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/epam-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/10e3/be27/8c14ec20/f77dad8a59aa5c5d49d27a273a7c82c1_epam.jpeg",
-        "rewardSummary": {
-            "summary": "$150 - $1,000",
-            "hint": null,
-            "minReward": "$150",
-            "maxReward": "$1,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Business Management",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/epam-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Rapyd",
         "tagline": "We provide APIs that help integrate local payments and Fintech capabilities.",
         "briefUrl": "/engagements/rapyd",
@@ -9091,84 +9583,24 @@
         "target_groups": []
     },
     {
-        "name": "Rarible",
-        "tagline": "Help us secure the future!",
-        "briefUrl": "/engagements/rarible-ogmbb",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e85a/04bb/04ee0669/0c22d3478e0e659fd2c8356a98dc00f5_1583001724997.png",
-        "rewardSummary": {
-            "summary": "$25 - $5,000",
-            "hint": "Up to $10,000",
-            "minReward": "$25",
-            "maxReward": "$5,000",
-            "compensationSummary": "Up to $10,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/rarible-ogmbb/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "NEOGOV Public Assets",
-        "tagline": "Human Resource Software, SaaS & Cloud Solutions",
-        "briefUrl": "/engagements/neohrms",
-        "backgroundColor": "#245075",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5f75/c3e1/007ff13b/95cac496f8510e41494fd19a50aa8af2_b2567cd10edfe3e9b783b6b879498c54_Untitled321.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $3,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/neohrms/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Motorola Mobility Hardware Engagement",
-        "tagline": "Want in? Let\u2019s get started on something different, together.",
-        "briefUrl": "/engagements/motorolamobility-iot",
+        "name": "EPAM Systems Managed Bug Bounty Program",
+        "tagline": "EPAM Systems leads the industry in digital and physical product development and digital platform engineering services. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/epam-mbb-og",
         "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2cac/a8e4/ad2c10f1/7fb0be31e329dc3ae99299ea753eecd3_motorola-solutions-inc.jpg",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/10e3/be27/8c14ec20/f77dad8a59aa5c5d49d27a273a7c82c1_epam.jpeg",
         "rewardSummary": {
-            "summary": "$100 - $5,000",
+            "summary": "$150 - $1,000",
             "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
+            "minReward": "$150",
+            "maxReward": "$1,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 1,
+        "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Computer Hardware",
+        "industryName": "Business Management",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -9177,7 +9609,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/motorolamobility-iot/engagement_subscribers",
+        "subscriptionUrl": "/epam-mbb-og/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -9271,46 +9703,16 @@
         "target_groups": []
     },
     {
-        "name": "NEOGOV Public Assets",
-        "tagline": "Human Resource Software, SaaS & Cloud Solutions",
-        "briefUrl": "/engagements/neohrms",
-        "backgroundColor": "#245075",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5f75/c3e1/007ff13b/95cac496f8510e41494fd19a50aa8af2_b2567cd10edfe3e9b783b6b879498c54_Untitled321.jpg",
+        "name": "Phemex Bug Bounty",
+        "tagline": "Submit your finding to the program!",
+        "briefUrl": "/engagements/phemex",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c806/8f6b/4149b195/e403d5494327af704e3de49c1b62d691_1643170576502.jpeg",
         "rewardSummary": {
-            "summary": "$100 - $3,500",
+            "summary": "$150 - $2,500",
             "hint": null,
-            "minReward": "$100",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/neohrms/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Motorola Mobility Hardware Engagement",
-        "tagline": "Want in? Let\u2019s get started on something different, together.",
-        "briefUrl": "/engagements/motorolamobility-iot",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2cac/a8e4/ad2c10f1/7fb0be31e329dc3ae99299ea753eecd3_motorola-solutions-inc.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
+            "minReward": "$150",
+            "maxReward": "$2,500",
             "compensationSummary": null,
             "compensationHint": null
         },
@@ -9318,7 +9720,7 @@
         "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Computer Hardware",
+        "industryName": "Computer Software",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -9327,7 +9729,97 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/motorolamobility-iot/engagement_subscribers",
+        "subscriptionUrl": "/phemex/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Rarible",
+        "tagline": "Help us secure the future!",
+        "briefUrl": "/engagements/rarible-ogmbb",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e85a/04bb/04ee0669/0c22d3478e0e659fd2c8356a98dc00f5_1583001724997.png",
+        "rewardSummary": {
+            "summary": "$25 - $5,000",
+            "hint": "Up to $10,000",
+            "minReward": "$25",
+            "maxReward": "$5,000",
+            "compensationSummary": "Up to $10,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/rarible-ogmbb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Tamedia",
+        "tagline": "Tamedia is the leading private media group in Switzerland",
+        "briefUrl": "/engagements/tamedia",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/e2d8/64a5/08ae88fc/3f28dbf0311641e9869c7bc7f624899f_logo_tamedia_red.png",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Entertainment",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tamedia/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Phemex Bug Bounty",
+        "tagline": "Submit your finding to the program!",
+        "briefUrl": "/engagements/phemex",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c806/8f6b/4149b195/e403d5494327af704e3de49c1b62d691_1643170576502.jpeg",
+        "rewardSummary": {
+            "summary": "$150 - $2,500",
+            "hint": null,
+            "minReward": "$150",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/phemex/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -10141,6 +10633,36 @@
         "target_groups": []
     },
     {
+        "name": "Stiltsoft",
+        "tagline": "Stiltsoft's bug bounty program",
+        "briefUrl": "/engagements/stiltsoft",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7e2c/8219/7d610da3/e56919fc4eae2f963694e5ab9c388886_Stiltsoft_Znak_Orange.png",
+        "rewardSummary": {
+            "summary": "$100 - $3,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/stiltsoft/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Kenna Security",
         "tagline": "A Hosted Vulnerability Intelligence Platform",
         "briefUrl": "/engagements/kennasecurity",
@@ -10847,36 +11369,6 @@
         "target_groups": []
     },
     {
-        "name": "TIDAL",
-        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
-        "briefUrl": "/engagements/tidal-bugbounty",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/338116b6ef9acf0915bbbe549b1dbdbe_Screenshot_2024-09-17_at_4.33.16_PM.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Optimizely",
         "tagline": "Unlock Digital Potential",
         "briefUrl": "/engagements/optimizely",
@@ -11024,6 +11516,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/latitude-financial-service-bugbounty/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "TIDAL",
+        "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
+        "briefUrl": "/engagements/tidal-bugbounty",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/338116b6ef9acf0915bbbe549b1dbdbe_Screenshot_2024-09-17_at_4.33.16_PM.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -11534,36 +12056,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/stellantis/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Web.com",
-        "tagline": "You say it. We build it. It's as easy as Web.com! ",
-        "briefUrl": "/engagements/webdotcom",
-        "backgroundColor": "#2D72B4",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/11c1/3c18/ae692a84/becbbdbeae7c1a3b8507143c2d373e2d_webdotcom_gimp.jpg",
-        "rewardSummary": {
-            "summary": "Points - $3,000",
-            "hint": "Up to $5,000",
-            "minReward": "Points",
-            "maxReward": "$3,000",
-            "compensationSummary": "Up to $5,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/webdotcom/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -12137,6 +12629,36 @@
         "target_groups": []
     },
     {
+        "name": "Web.com",
+        "tagline": "You say it. We build it. It's as easy as Web.com! ",
+        "briefUrl": "/engagements/webdotcom",
+        "backgroundColor": "#2D72B4",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/11c1/3c18/ae692a84/becbbdbeae7c1a3b8507143c2d373e2d_webdotcom_gimp.jpg",
+        "rewardSummary": {
+            "summary": "Points - $3,000",
+            "hint": "Up to $5,000",
+            "minReward": "Points",
+            "maxReward": "$3,000",
+            "compensationSummary": "Up to $5,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/webdotcom/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Nextup.ai",
         "tagline": "Please submit your finding to Nextup.ai's bug bounty program",
         "briefUrl": "/engagements/nextupai",
@@ -12453,36 +12975,6 @@
         "target_groups": []
     },
     {
-        "name": "CyberGhost",
-        "tagline": "Make privacy your default setting!",
-        "briefUrl": "/engagements/cyberghost",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23b4/729e/e1e7b3e4/129582b79c8ae388289dff26341b684c_cyberghost.jpeg",
-        "rewardSummary": {
-            "summary": "$75 - $1,250",
-            "hint": null,
-            "minReward": "$75",
-            "maxReward": "$1,250",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/cyberghost/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Bitpanda Ongoing Bug Bounty",
         "tagline": "Submit your findings to the program!",
         "briefUrl": "/engagements/bitpanda-og-bb",
@@ -12510,6 +13002,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/bitpanda-og-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "CyberGhost",
+        "tagline": "Make privacy your default setting!",
+        "briefUrl": "/engagements/cyberghost",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23b4/729e/e1e7b3e4/129582b79c8ae388289dff26341b684c_cyberghost.jpeg",
+        "rewardSummary": {
+            "summary": "$75 - $1,250",
+            "hint": null,
+            "minReward": "$75",
+            "maxReward": "$1,250",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/cyberghost/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -12570,36 +13092,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/contrast-security/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": " 1Password",
-        "tagline": "1Password is the world's best password manager. Perfect for protecting your business, team, and family.",
-        "briefUrl": "/engagements/agilebits",
-        "backgroundColor": "#1A8CFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6de0/c267/09f3acb6/adf52a8b65406a0323c153ab8b27f505_1Password-Lock_2x.png",
-        "rewardSummary": {
-            "summary": "$50 - $30,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$30,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/agilebits/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -13313,6 +13805,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/dell-product/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": " 1Password",
+        "tagline": "1Password is the world's best password manager. Perfect for protecting your business, team, and family.",
+        "briefUrl": "/engagements/agilebits",
+        "backgroundColor": "#1A8CFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/6de0/c267/09f3acb6/adf52a8b65406a0323c153ab8b27f505_1Password-Lock_2x.png",
+        "rewardSummary": {
+            "summary": "$50 - $30,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$30,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/agilebits/engagement_subscribers",
         "target_groups": []
     }
 ]
