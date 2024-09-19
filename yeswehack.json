@@ -1,5 +1,135 @@
 [
     {
+        "title": "PowerDNS",
+        "slug": "powerdns",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 20,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 8000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "2d919ac8-60d7-4a44-8b9d-168c88b8afe7",
+            "original_name": "ywh-pdnslogo.png",
+            "mime_type": "image/png",
+            "size": 19874,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/2d919ac8-60d7-4a44-8b9d-168c88b8afe7"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Open-Xchange",
+            "slug": "open-xchange-gmbh",
+            "description": "Building a borderless Internet that is open, safe and free.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "563b6c81-283b-4bf1-af14-e1b47a8511f9",
+                "original_name": "ox.png",
+                "mime_type": "image/png",
+                "size": 8920,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/563b6c81-283b-4bf1-af14-e1b47a8511f9"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "PowerDNS authoritative server, recursor and DNSdist (see \"Software packages\" and \"Source-code\")",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
+        "slug": "ooredoo-qpsc-bug-bounty-program",
+        "country": "QA",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 328,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 1500,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c8b2e741-4de4-4e21-ad98-a3bd55ea1a25",
+            "original_name": "ooredoo-logo.PNG",
+            "mime_type": "image/png",
+            "size": 21769,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c8b2e741-4de4-4e21-ad98-a3bd55ea1a25"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Ooredoo QPSC",
+            "slug": "ooredoo-qpsc",
+            "description": "Ooredoo QPSC, is Qatari multinational telecommunications company headquartered in Doha, Qatar that provides mobile, wireless, wire line, and content services in business and residential markets.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "415e774a-f673-4af3-89c4-728720697770",
+                "original_name": "ooredoo-logo.PNG",
+                "mime_type": "image/png",
+                "size": 21769,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/415e774a-f673-4af3-89c4-728720697770"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.ooredoo.qa",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://mobile.ooredoo.qa",
+                "scope_type": "mobile-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Doctolib",
         "slug": "doctolib-public-bug-bounty-program",
         "country": "FR",
@@ -190,62 +320,6 @@
             {
                 "scope": "m.dana.id",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "PowerDNS",
-        "slug": "powerdns",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 20,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "2d919ac8-60d7-4a44-8b9d-168c88b8afe7",
-            "original_name": "ywh-pdnslogo.png",
-            "mime_type": "image/png",
-            "size": 19874,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/2d919ac8-60d7-4a44-8b9d-168c88b8afe7"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Open-Xchange",
-            "slug": "open-xchange-gmbh",
-            "description": "Building a borderless Internet that is open, safe and free.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "563b6c81-283b-4bf1-af14-e1b47a8511f9",
-                "original_name": "ox.png",
-                "mime_type": "image/png",
-                "size": 8920,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/563b6c81-283b-4bf1-af14-e1b47a8511f9"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "PowerDNS authoritative server, recursor and DNSdist (see \"Software packages\" and \"Source-code\")",
-                "scope_type": "other",
                 "asset_value": "LOW",
                 "report_count": null
             }
@@ -859,80 +933,6 @@
                 "scope": "Domains where GovTech is the registrar",
                 "scope_type": "other",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
-        "slug": "ooredoo-qpsc-bug-bounty-program",
-        "country": "QA",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 327,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 1500,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c8b2e741-4de4-4e21-ad98-a3bd55ea1a25",
-            "original_name": "ooredoo-logo.PNG",
-            "mime_type": "image/png",
-            "size": 21769,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c8b2e741-4de4-4e21-ad98-a3bd55ea1a25"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Ooredoo QPSC",
-            "slug": "ooredoo-qpsc",
-            "description": "Ooredoo QPSC, is Qatari multinational telecommunications company headquartered in Doha, Qatar that provides mobile, wireless, wire line, and content services in business and residential markets.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "415e774a-f673-4af3-89c4-728720697770",
-                "original_name": "ooredoo-logo.PNG",
-                "mime_type": "image/png",
-                "size": 21769,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/415e774a-f673-4af3-89c4-728720697770"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.ooredoo.qa",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://mobile.ooredoo.qa",
-                "scope_type": "mobile-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
