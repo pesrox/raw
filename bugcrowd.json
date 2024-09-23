@@ -1,527 +1,5 @@
 [
     {
-        "name": "TheFork - B2C - WNG",
-        "tagline": "TheFork - B2C - WNG",
-        "briefUrl": "/thefork-b2c-wng",
-        "backgroundColor": "#8bff6e",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/26bd/2d4c/c9aecf87/3befee67ee630e90879b17e929869fc0_TheFork_Symbol_Mint_RGB3.png",
-        "rewardSummary": {
-            "summary": "$50 - $3,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$3,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Hospitality",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/thefork-b2c-wng/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "7460c170-8b14-46b5-a81d-169a0aa0c677",
-                "name": "Main Group",
-                "description_html": "<h2>Web</h2>\n\n<ul>\n<li>\n<code>https://www.thefork.com</code> - This is the B2C version of TheForks' Business to Consumer web application. Researchers are invited to test the full functionality of this application, both from the logged in and anonymous perspective.</li>\n</ul>\n\n<p><strong>IMPORTANT: when booking reservations, please only used the 3 test restaurants provided in the \"Booking Restaurants\" section.<br>\nInteracting with live restaurants is strictly forbidden. Even minor actions such as booking restaurant.</strong></p>\n\n<h2>Mobile</h2>\n\n<ul>\n<li>Android App Name: TheFork - Restaurant bookings</li>\n<li>iOS App Name: TheFork - Restaurant bookings</li>\n</ul>\n\n<h2>API Documentation:</h2>\n\n<ul>\n<li><a href=\"https://api.thefork.com\" rel=\"nofollow noreferrer\" target=\"_blank\">https://api.thefork.com</a></li>\n<li><a href=\"https://google-reserve-api.thefork.io\" rel=\"nofollow noreferrer\" target=\"_blank\">https://google-reserve-api.thefork.io</a></li>\n</ul>\n\n<h2>Booking Restaurants:</h2>\n\n<p><strong>Only book on dedicated restaurants:</strong></p>\n\n<ul>\n<li><a href=\"https://www.thefork.com/restaurant/the-spanish-white-hacker-r685267\" rel=\"nofollow noreferrer\" target=\"_blank\">Spanish Restaurant</a></li>\n<li><a href=\"https://www.thefork.com/restaurant/the-italian-white-hacker-r685265\" rel=\"nofollow noreferrer\" target=\"_blank\">Italian Restaurant</a></li>\n<li><a href=\"https://www.thefork.com/restaurant/the-french-white-hacker-r717195\" rel=\"nofollow noreferrer\" target=\"_blank\">French Restaurant</a></li>\n</ul>\n\n<p><em>These restaurant couldn't be found through search field, please go directly through the link.</em></p>\n\n<h1>Payments</h1>\n\n<ul>\n<li>Make a reservation with your @bugcrowd.com or @bugcrowdninja.com account as close to the time of your test as possible. - Bookings can be made through the B2C website or mobile apps on one of the test restaurants.</li>\n<li>Payment functionality in TFPay only opens for the specific booking once your dining time has started and stays open for a maximum of 3hrs.</li>\n<li>To be able to perform test payments, you must have logged in to the mobile app with an @bugcrowd.com or @bugcrowdninja.com email account.</li>\n<li>Navigate to TheFork pay section through the menu in the app, add a <span class=\"rp-resources__download-link bc-m-0 bc-icon bc-icon--after cc-icon--download\" data-tooltip-id=\"3f1d1ab9-aa1c-4705-b1ea-583a32fd70fb\"><a href=\"https://bugcrowd.com/thefork-b2c-wng/attachments/3f1d1ab9-aa1c-4705-b1ea-583a32fd70fb\" download>test credit card &amp; gift cards</a></span> or select the the relevant booking, then add your test credit card &amp; gift cards</li>\n<li>Complete the payment. Note a maximum of 2 payments per reservation is allowed.</li>\n<li>Navigate to TheFork Pay section to verify the status of the payment.</li>\n</ul>\n\n<h1>Access</h1>\n\n<p>Please sign up for an account using your @bugcrowdninja.com email address. For more info regarding @bugcrowdninja email addresses, see <a href=\"https://docs.bugcrowd.com/researchers/participating-in-program/your-bugcrowdninja-email-address/\" rel=\"nofollow noreferrer\" target=\"_blank\">here</a>.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2500.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 1500.0,
-                        "max": 1750.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 700.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 300.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/thefork-b2c-wng/target_groups/3c4f0e27-7991-492d-82f1-dbc0b0a9d504/targets",
-                "targets": [
-                    {
-                        "id": "dff1e97b-dfdd-4cbe-8576-5ecaec86727d",
-                        "name": "https://www.thefork.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.thefork.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
-                                    "name": "GraphQL"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c00af7ed-b007-49e6-bdb1-2a80a68c6307",
-                        "name": "https://m.thefork.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://m.thefork.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "4aeb1677-ac84-4afd-827e-054b363ca984",
-                                    "name": "GraphQL"
-                                },
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "4077ab03-37ce-4c7d-8634-ea59ba5ef456",
-                                    "name": "Varnish"
-                                },
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "18e47dfe-ecb7-4db5-972e-b5942614e4f9",
-                        "name": "https://blog.thefork.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://blog.thefork.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "487e9af0-2610-4813-a092-ea46f4cb6de1",
-                                    "name": "Wordpress"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ac33e179-4d36-4297-b302-6f268ea7457a",
-                        "name": "https://api.thefork.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.thefork.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "723eccca-33f6-4b3f-8612-e92dacdea245",
-                        "name": "https://api.lafourchette.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.lafourchette.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "70346ffd-45cb-4aaf-8774-bebda060b4e2",
-                        "name": "https://review-api.lafourchette.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://review-api.lafourchette.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "551b9e45-f69d-4864-9f74-14bffbaa263f",
-                        "name": "https://google-reserve-api.thefork.io ",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://google-reserve-api.thefork.io",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "c51aaeac-f1cb-40a5-809c-e663d85162e4",
-                        "name": "https://m-api.lafourchette.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://m-api.lafourchette.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "72383461-4765-4fd0-b2fd-496a6e79d597",
-                        "name": "The Fork Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.lafourchette.lafourchette",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4cdd488c-32e0-44f7-920c-f070a24cee08",
-                        "name": "The Fork iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/app/thefork-restaurants-bookings/id424850908",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "9a7b02c2-c3f7-4a75-be37-6e54ffa8a9f2",
-                "name": "Low reward",
-                "description_html": "<h1>Tools</h1>\n\n<p>All of our tools are under *.tools.thefork.tech, some of them are reachable only internally. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "2": {
-                        "min": 200.0,
-                        "max": 400.0
-                    },
-                    "3": {
-                        "min": 100.0,
-                        "max": 200.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 100.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/thefork-b2c-wng/target_groups/99c248a0-6c04-4cba-8fa6-81287f7dc518/targets",
-                "targets": [
-                    {
-                        "id": "18614a2f-02fa-4348-ae11-bc3f3fb12729",
-                        "name": "*.tools.thefork.tech",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.tools.thefork.tech",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f5f71f41-97bc-422d-8862-6ced697041ec",
-                        "name": "www.restaurant-information.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.restaurant-information.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "1cda94b4-347b-4836-bea4-749955890bb7",
-                        "name": "widget.thefork.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://widget.thefork.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "33a7c027-8a7e-4564-8330-cb149ab4352e",
-                                    "name": "TypeScript"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "396c969e-676c-4029-84ae-0d70e0fcbef6",
-                "name": "Out of scope",
-                "description_html": "<h2>Customer semi-login feature</h2>\n\n<ul>\n<li>We allow booking only with an e-mail address + First name + Last name + Phone number</li>\n<li>We don't check if e-mail address or Phone number are valid neither if the customer is the real owner of the e-mail address or Phone number.</li>\n<li>Customer can see obfuscated tel number, first letter first_name, first letter last_name and number of yums.</li>\n<li>It's possible to know if an e-mail address is registered or not in TheFork.</li>\n<li>It's possible to book with an e-mail address I am not the owner.</li>\n</ul>",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 2,
-                "targets_url": "/thefork-b2c-wng/target_groups/e45c0b91-6ce3-499a-a580-de1832a8dc3c/targets",
-                "targets": [
-                    {
-                        "id": "54db38f5-1a86-4757-abba-c42e72c4661b",
-                        "name": "https://www.lafourchette.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.lafourchette.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e9cd9864-0f61-4d38-814d-831ca5679cb0",
-                        "name": "https://*.eltenedor.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.eltenedor.*",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bed3965a-47b2-4522-a582-a57cd0972d93",
-                        "name": "https://www.thefork.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.thefork.*",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a95e4f66-5f8b-4d97-8329-671c625f0c3d",
-                        "name": "Customer semi-login feature",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6fe065df-6762-43d2-88bd-47684c7b706e",
-                        "name": "module.thefork.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://module.thefork.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Aurory Managed Bug Bounty Engagement (Public)",
         "tagline": "On a mission to reshape gaming",
         "briefUrl": "/engagements/aurory-mbb-og2",
@@ -672,1132 +150,6 @@
         "target_groups": []
     },
     {
-        "name": "Tripadvisor ",
-        "tagline": "The world\u2019s largest travel site. Know better. Book better. Go better.",
-        "briefUrl": "/tripadvisor-bb-og",
-        "backgroundColor": "#1e201f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/85e6/3f88/041fa6d4/6ee5239552ab10b10c5406f689f53a36_tripadvisor_.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tripadvisor-bb-og/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0126c074-3a0c-407b-8089-17dfd0b1dd15",
-                "name": "Tier 1 Targets",
-                "description_html": "<p>Our main web application www.tripadvisor.com communicates with tier1 APIs for payment functionalities. There is no public documentation for the CDE API, but all endpoints can be discovered by interacting with payment functionalities on www.tripadvisor.com.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 5000.0,
-                        "max": 5000.0
-                    },
-                    "2": {
-                        "min": 1250.0,
-                        "max": 1250.0
-                    },
-                    "3": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "4": {
-                        "min": 250.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/tripadvisor-bb-og/target_groups/f472e0bc-0c92-40d7-8bf0-be082d757c53/targets",
-                "targets": [
-                    {
-                        "id": "732d0085-a5d9-41fa-b049-e90f15ded5aa",
-                        "name": "api.production.cde.tamg.cloud",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.production.cde.tamg.cloud",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "5c0b5acf-c7a4-467a-876f-9b7299cb424b",
-                        "name": "partnerapi.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://partnerapi.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3e9b596d-4b02-4670-a404-1d5efa97becd",
-                        "name": "partnerapi1.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://partnerapi1.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "01563863-b343-44fb-b4c3-1dfb0d779e79",
-                        "name": "partnerapi2.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://partnerapi2.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6f85f707-1f44-4800-8413-f76f90f283aa",
-                        "name": "walletproxy.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://walletproxy.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b1bdcd30-c3ce-4b18-bf67-edf8a9d4c514",
-                        "name": "walletproxy1.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://walletproxy1.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "353836d9-c6e2-41ab-86c9-1a34d7b88b3e",
-                        "name": "walletproxy2.tapayments.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://walletproxy2.tapayments.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7579517e-d25b-40a5-887d-e74878ca5f58",
-                "name": "Tier 2 Targets",
-                "description_html": "<p>You may use the following API key: adf6d1b8-0aca-4b0c-a492-50530aadd7aa</p>\n\n<p>You can see overview of our APIs at <a href=\"https://developer-tripadvisor.com/home/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://developer-tripadvisor.com/home/</a><br>\nPartner API documentation can be found at <a href=\"http://api.tripadvisor.com/api/partner/2.0/doc?key=adf6d1b8-0aca-4b0c-a492-50530aadd7aa\" rel=\"nofollow noreferrer\" target=\"_blank\">http://api.tripadvisor.com/api/partner/2.0/doc?key=adf6d1b8-0aca-4b0c-a492-50530aadd7aa</a></p>\n\n<p>Tripadvisor has now enabled the ability to assign property ownership for testing. Use the Request a Response (RAR) feature to become an owner of a test property. </p>\n\n<p>Include in the request your @bugcrowdninja.com email address and the Property ID you want to own. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3000.0,
-                        "max": 3000.0
-                    },
-                    "2": {
-                        "min": 900.0,
-                        "max": 900.0
-                    },
-                    "3": {
-                        "min": 400.0,
-                        "max": 400.0
-                    },
-                    "4": {
-                        "min": 150.0,
-                        "max": 150.0
-                    }
-                },
-                "sort_order": 1,
-                "targets_url": "/tripadvisor-bb-og/target_groups/7b360511-492e-409b-86ed-6a00081c3b6d/targets",
-                "targets": [
-                    {
-                        "id": "9a0c21ce-272a-40fe-a516-ccf6c1517920",
-                        "name": "www.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://www.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4d4a6fa1-a40d-47fd-b792-d38afd769e40",
-                        "name": "Localized versions of www.tripadvisor.com available from the site's header or footer",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d7c87fb9-5a91-4a7d-a56f-54ee423e8374",
-                        "name": "api.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ce0045c2-1d31-4ee9-ae61-382db646a95e",
-                        "name": "service.platform.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://service.platform.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7b94aef4-b21b-4870-9265-dcbe70a41791",
-                        "name": "gwapi.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://gwapi.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "66f26fce-66fc-46ff-9bde-8b294f5252fd",
-                        "name": "gwapi1.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://gwapi1.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "b592c51a-62ea-4d5f-b39c-868bfc25f1b8",
-                        "name": "gwapi2.tripadvisor.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://gwapi2.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "383a59f0-83fb-4f47-960a-d57ab2c150a6",
-                "name": "Tier 3 Targets",
-                "description_html": "<p>Note that tamg.cloud subdomains that end with -sbx are sandbox (testing) projects. Normally, only test data flows through them therefore disclosing \"sensitive\" data on those is mostly not an issue in reality. </p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1500.0,
-                        "max": 1500.0
-                    },
-                    "2": {
-                        "min": 450.0,
-                        "max": 450.0
-                    },
-                    "3": {
-                        "min": 150.0,
-                        "max": 150.0
-                    },
-                    "4": {
-                        "min": 50.0,
-                        "max": 50.0
-                    }
-                },
-                "sort_order": 2,
-                "targets_url": "/tripadvisor-bb-og/target_groups/7a6b8d82-189f-4f5c-9769-2990abb425b0/targets",
-                "targets": [
-                    {
-                        "id": "f7ab8a69-8212-44df-86c4-b8b4aa9a8916",
-                        "name": "Any publicly accessible Tripadvisor web asset or host (domains, ip space, etc) - except for assets listed as Out-of-Scope below. ",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7358db62-9b37-4044-b94b-7a8e3476a630",
-                "name": "Tripadvisor Mobile",
-                "description_html": "<p>The apps can be downloaded via Google Play for Android or the App Store for iOS:</p>\n\n<ul>\n<li>https://play.google.com/store/apps/details?id=com.tripadvisor.tripadvisor&amp;hl=en&amp;gl=US&amp;pli=1</li>\n<li>https://apps.apple.com/us/app/tripadvisor-plan-book-trips/id284876795</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 3500.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 750.0,
-                        "max": 750.0
-                    },
-                    "3": {
-                        "min": 350.0,
-                        "max": 350.0
-                    },
-                    "4": {
-                        "min": 75.0,
-                        "max": 75.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/tripadvisor-bb-og/target_groups/b2bddf64-0202-4843-9cff-49512f7ea535/targets",
-                "targets": [
-                    {
-                        "id": "6580d428-9e1f-420e-aebe-e11ce401b9b9",
-                        "name": "Tripadvisor Android App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0c079d19-eb32-42df-99dd-1ffbe52ccc29",
-                        "name": "Tripadvisor iOS App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "7960d184-c079-41e8-974d-164fe691126c",
-                "name": "Vacation Rentals",
-                "description_html": "<h4>Note that submissions for vacation rentals section are rewarded with points only, they are not eligible for bounties.</h4>\n\n<p>You can register a new owner account by clicking the \"Link your property\" link on the domain you are visiting.  To ensure a property is listed on a particular website use the registration link on that website.  For example, a home registered at FlipKey will definitely be listed on FlipKey but may not be listed at Holiday Lettings.</p>\n\n<p>A new account requires both the email address and the mobile number to be verified before properties can be published. The email address can be validated by clicking a link in the email sent. To verify the mobile number do either of the following:</p>\n\n<ul>\n<li>Register using the test number above and email bugcrowd-tavr@tripadvisor.com with the details of your account to get the test number verified.</li>\n<li>Register a real mobile number and enter the code sent via SMS when prompted.</li>\n</ul>\n\n<p>Once you have completed all the tests you wanted to execute against a test property, please disable that test property in order for it not show up anymore on the websites! We reserve the right to disable test properties if they do not meet the guideline or have been live for a while.</p>\n\n<p><strong>IMPORTANT: If you want your properties to be distributed to vacationhomerentals.com, you will need to request that explicitly. To do so, email bugcrowd-tavr@tripadvisor.com with the subject \"Request to switch owner to VHR\" and provide your owner ID. Once you submit the request allow up to a day for your property to appear in VHR listings</strong></p>",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 4,
-                "targets_url": "/tripadvisor-bb-og/target_groups/35af264c-a1bf-439b-b915-e7a79e2c6c23/targets",
-                "targets": [
-                    {
-                        "id": "c2acae67-39c0-4d96-8621-40d79078127b",
-                        "name": "rentals.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://rentals.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4fbcc1a2-da2f-4781-b9bf-bc1bafa22f3b",
-                        "name": "*.vacationhomerentals.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.vacationhomerentals.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7c4c722b-b431-44dd-9d6f-eb7b7a29b100",
-                        "name": "*.holidaylettings.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.holidaylettings.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f25bea9a-bb77-48fc-9ac4-789764b3d78a",
-                        "name": "*.flipkey.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.flipkey.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "482d3724-f9fc-4ef9-b496-29fd8c54a050",
-                        "name": "*.niumba.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.niumba.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "4e4ad5fc-8931-42d0-acd2-e94dd965819a",
-                        "name": "*.housetrip.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.housetrip.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "55cf5741-6cdd-447c-8763-6cd9a1242e9d",
-                        "name": "Tripadvisor Owner APP (https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8)",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "42d2b45b-3c43-4f30-b7b6-5f95a0e588da",
-                        "name": "marlo.ext.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "http://marlo.ext.tripadvisor.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "6c195c17-86c8-451b-b79d-45990b1fbda9",
-                "name": "Bokun",
-                "description_html": "<h2>Access and Guidelines</h2>\n\n<h4>Note that submissions for Bokun section are rewarded with points only, they are not eligible for bounties.</h4>\n\n<h3>Accounts</h3>\n\n<p>You must be using \u201cvulnscan\u201d prefix in your vendor/supplier name when registering for an account for both types of scans (manual and/or automatic). Do not create an excessive number of accounts. Two accounts should be enough for testing the marketplace whereas a single account should be enough for any other intent or purpose.</p>\n\n<h3>Types of scans</h3>\n\n<p>Please focus on manual testing rather than using automated tools as the latter are already employed. Nevertheless, if you choose to ignore this advice and use automated tools, you must ensure the request rate to our systems does not exceed a 1 request per second. On top of that, we would also kindly ask you to use a HTTP Agent header which identifies such requests.</p>\n\n<p>Email us in advance (vulnerabilities@bokun.io) if you will be using an automated tool. Our working hours are mostly those in the UTC time zone. </p>\n\n<p>It is <strong>strictly forbidden</strong> to run automated or manual vulnerability testing on production systems (listed in \"Out of scope\" section below).</p>\n\n<h3>Information on systems in scope</h3>\n\n<p>Alias to this environment is \u201ctest\u201d. Both external domains are just synonyms to the same service. There should be no difference between using either of them.</p>\n\n<p>Our test environment, hosted at extranet.bokuntest.com has virtually identical setup as prod component-wise. We use this environment to experiment with near-prod-ready code branches which are otherwise hard to simulate on local environments as well as for general test reasons. Note that this environment is also used by some of our customers which are businesses experimenting with API integrations and/or trying out our system in some other ways. Making changes to certain system elements might be visible for those customers (e.g. via Marketplace) and therefore we insist on following rules:</p>\n\n<ul>\n<li>Do not create an infinite amount of certain entities, e.g. vendor accounts. If you managed to find a gap where such entities are allowed to be created without reasonable limit, you must stop early and let us know</li>\n<li>Some of these entities are displayed for our customers in certain contexts. Refrain from profanity or other offensive language</li>\n<li>If you want to test illegal data access between different multi-tenant accounts (IDOR etc) please create accounts on your own without harnessing existing accounts</li>\n</ul>\n\n<p>Our system exposes the ability to have embeddable widgets. Widgets are publicly accessible resources and are made accessible via widget.bokuntest.com.<br>\nSimilar to this, we provide a <a href=\"https://bokun.github.io/api-docs/\" rel=\"nofollow noreferrer\" target=\"_blank\">public RESTful API</a> via api.bokuntest.com. We\u2019re happy to work with you in providing more details for how to create relevant entities and access these both endpoints. Alternatively, consult our <a href=\"https://docs.bokun.io/docs/bokun-help-center\" rel=\"nofollow noreferrer\" target=\"_blank\">helpdesk page</a> as creating widgets / using API should hopefully not be too complicated.</p>",
-                "in_scope": true,
-                "reward_range": {},
-                "sort_order": 5,
-                "targets_url": "/tripadvisor-bb-og/target_groups/b1422e48-ba88-4c5b-b38c-ff792bb1bc22/targets",
-                "targets": [
-                    {
-                        "id": "76fbfbae-e2f1-4566-bd0b-2233ded8ab4b",
-                        "name": "*.bokundemo.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.bokundemo.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "09b04bfc-794a-4e2f-a9a8-f0c44a5da6c3",
-                        "name": "*.bokuntest.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.bokuntest.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "0710d591-5ac2-40a1-8dd0-65b09ce4905d",
-                "name": "Out of Scope Targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 6,
-                "targets_url": "/tripadvisor-bb-og/target_groups/7f38b2bc-7309-4e89-a84f-8db30c44ee88/targets",
-                "targets": [
-                    {
-                        "id": "2d7289eb-e573-48db-8d31-2ded8f2a7d7a",
-                        "name": " ir.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a39a3fd5-6c2a-4341-8372-e82bef68dae5",
-                        "name": "*.tripadviser.at",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d17288d6-d4df-4b07-8b30-0adabb9b8810",
-                        "name": "*.tripadvisor.cn",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "29aa8fa3-123c-4e7c-a656-b74e147c3d66",
-                        "name": "www.tripadvisor.*/Trips",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "154883bc-3a07-4174-aece-5626d696af76",
-                        "name": "www.tripadvisor.*/Mobile*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "79d24a36-7b3d-48f8-92e0-51d8733cb907",
-                        "name": "www.tripadvisor.*/engineering",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "196a562c-72e5-4586-a6d5-35c1ebfc5ee3",
-                        "name": "www.tripadvisor.*/WidgetEmbed-*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8c76731b-0b2c-4325-ac38-9b14cf848f2b",
-                        "name": "spotlight-dev.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2a067793-85e8-4ded-ba49-0d8ea1f22d1c",
-                        "name": "spotlight.tripadvisor.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f7436377-f006-4da8-b0cb-5a67c3cc90f2",
-                        "name": "careers.tripadvisor.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8818fdc9-95b7-4440-805c-f15df3ab9bcb",
-                        "name": "*.tripadvisoradexpress.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e2024c48-1f8a-4323-869f-6b55b698647d",
-                        "name": "*.tripadvisorwifi.*",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "991204a3-13a3-47f2-89c4-98dc75646872",
-                        "name": "*.bokun.io",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "9346f1cb-91ec-47a2-b9a2-03af2d64d366",
-                        "name": "*.bokun.is",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "90fd623e-a81a-40aa-92ec-79a23a4a6c1d",
-                        "name": "*.bokun.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "7d3969bc-378a-4230-a57a-f265e39197c7",
-                        "name": "*.bokun.app",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 15,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ba8ffedc-6a54-423a-8dca-803b904d16f0",
-                        "name": "*.bokun.eu",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 16,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e121ea38-fd35-4b33-863b-4b010531732a",
-                        "name": "*.bokun.team",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 17,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "2e359982-dd0e-4bc3-ab05-cd476fa25ec5",
-                        "name": "*.bokun.tools",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 18,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "bc2f05b6-72e5-4581-8543-541d09def074",
-                        "name": "*.bokun.website",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 19,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3c764eec-1c44-49c4-bb3a-d071db69ef8a",
-                        "name": "*.bokunmobile.website",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 20,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "499da5ab-bc44-47db-8173-27733c21b0bc",
-                        "name": "*.experiences.zone",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 21,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Luno Bug Bounty Program",
         "tagline": "Luno Bug Bounty Program",
         "briefUrl": "/engagements/luno-og",
@@ -1916,488 +268,6 @@
         },
         "subscriptionUrl": "/tempusex-public-mbb-og/engagement_subscribers",
         "target_groups": []
-    },
-    {
-        "name": "Viator",
-        "tagline": "Viator - Travel with an Insider",
-        "briefUrl": "/viator",
-        "backgroundColor": "#00759a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9ba4/5da2/66f7c128/2a4682465d62350d6b039c0f31279664_ViatorLogo.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/viator/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "0869286b-c082-4ba1-b6f4-cc8ecd5bf8f4",
-                "name": "Viator In Scope Targets ",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 4100.0,
-                        "max": 4500.0
-                    },
-                    "2": {
-                        "min": 2000.0,
-                        "max": 2300.0
-                    },
-                    "3": {
-                        "min": 600.0,
-                        "max": 850.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 250.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/viator/target_groups/0119eae9-2819-4f91-b842-90b611d6f8a8/targets",
-                "targets": [
-                    {
-                        "id": "d68a5b3b-cc44-4cc2-b2cf-16b37bc56ebd",
-                        "name": "iOS Viator Tours & Activities App",
-                        "description": null,
-                        "category": "ios",
-                        "uri": "https://apps.apple.com/us/app/viator-tours-activities/id434832826",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "63c4a71d-215f-49ca-8ea8-240dfbf82d61",
-                                    "name": "Objective-C"
-                                },
-                                {
-                                    "id": "7692155d-e2db-4c50-abd5-208448a85fde",
-                                    "name": "SwiftUI"
-                                },
-                                {
-                                    "id": "a47bcaa8-a080-4539-b4ca-e699e72d2023",
-                                    "name": "Swift"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "e251f4f0-1204-4c8a-9e12-dba8fdaadf48",
-                                    "name": "iOS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "0db8b7e2-bc7d-4280-a7c7-1d35e04b5f73",
-                        "name": "Android Viator Tours & Activities App",
-                        "description": null,
-                        "category": "android",
-                        "uri": "https://play.google.com/store/apps/details?id=com.viator.mobile.android&hl=en_US&gl=US",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1892c58d-2dbd-4b0d-96ee-1d2322fd1711",
-                                    "name": "Java"
-                                },
-                                {
-                                    "id": "ee1461dd-e5fd-4e9d-8c95-0344ba08bdc2",
-                                    "name": "Android"
-                                },
-                                {
-                                    "id": "a6a12b60-e857-44a3-9cc9-3aa9a21aa203",
-                                    "name": "Mobile Application Testing"
-                                },
-                                {
-                                    "id": "c4d77d88-21a3-4a8d-81b7-555e301c483e",
-                                    "name": "Kotlin"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e180f129-0b14-43e1-a6bb-64f8bbe1650c",
-                        "name": "https://supplier.viator.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://supplier.viator.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
-                                    "name": "Lodash"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "6ae8ce39-6027-4154-a069-ba35fc3dc73d",
-                        "name": "https://viatorapi.viator.com/service/directory",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://viatorapi.viator.com/service/directory",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8a4fa9bd-fca6-4f7f-980a-ff0387ecdcf7",
-                        "name": "https://www.toursgds.com/",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://www.toursgds.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e9232bf0-8027-44c5-8378-902f3c666f70",
-                        "name": "https://www.toursgds.com/ToursGdsService?wsdl",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://www.toursgds.com/ToursGdsService?wsdl",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "96525e0e-0c3c-4ba0-8980-1c2d842243bc",
-                        "name": "https://www.toursgds.com/SupplierService?wsdl",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://www.toursgds.com/SupplierService?wsdl",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "cbf0ee58-c41b-4dee-9d08-cefd01f5d7d6",
-                                    "name": "HTTP"
-                                }
-                            ]
-                        },
-                        "sort_order": 6,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d094a953-198e-447a-8dc8-7361d3f68a2f",
-                        "name": "https://partners.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://partners.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 7,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f58fdd61-1013-438e-8d40-38f9a1c5bf5c",
-                        "name": "travelagents.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://travelagents.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "9dded18a-fb38-4faa-b2ac-82845ca03735",
-                                    "name": "ReactJS"
-                                },
-                                {
-                                    "id": "a51a78cb-e0a6-4043-a736-335dec2d238c",
-                                    "name": "jQuery"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 8,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "37fb2333-268e-4384-98d7-b64b5775c5e4",
-                        "name": "https://help.supplier.viator.com/en",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://help.supplier.viator.com/en",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 9,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ae37f411-8c55-4182-b2e8-c5bdd5628226",
-                        "name": "kiwi.partner.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://kiwi.partner.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e311d4eb-436d-46a2-9c93-024d2eb498e3",
-                        "name": "*.viatorinc.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.viatorinc.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 11,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "51856357-6785-4418-b7a5-7e2da7928ba5",
-                        "name": "selector.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://selector.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 12,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "3726c47e-7480-4b69-b88b-12118fc1c5b4",
-                        "name": "partnerhelp.viator.com/",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://partnerhelp.viator.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 13,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8c5a1a01-e13e-4d8e-b4cb-77bde8d3d75e",
-                        "name": "*.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 14,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "d68b4406-0c20-4058-8254-0b3d20533d28",
-                "name": "Viator Out of Scope Targets",
-                "description_html": "",
-                "in_scope": false,
-                "reward_range": {},
-                "sort_order": 0,
-                "targets_url": "/viator/target_groups/999a9000-de40-4eaa-9639-42a13cab8cfb/targets",
-                "targets": [
-                    {
-                        "id": "b27c9e31-f705-4a7a-87f8-6c9a5154561c",
-                        "name": "*.rc.viator.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8f912eaf-c2cd-416e-a3d8-b1ed2bf2e8ec",
-                        "name": "*.sandbox.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "06ddfa94-92d4-4ed5-9143-44546e1d36e3",
-                        "name": "*.partner.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": null,
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "722f6c23-7b65-42a6-b846-20d03ba644b4",
-                        "name": "agentcenter.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://agentcenter.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "d89bb48a-a3de-4580-9c85-de2c79fb8ca4",
-                        "name": "operatorresources.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://operatorresources.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 4,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e1da7961-6f3e-4df6-b881-df859eb98888",
-                        "name": "partnerresources.viator.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://partnerresources.viator.com",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 5,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
     },
     {
         "name": "New Relic Public Bug Bounty Program",
@@ -3787,434 +1657,6 @@
                             "tags": []
                         },
                         "sort_order": 10,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $20,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/openai/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "15729fe8-6010-4a3a-8c53-c7a9a73e48bc",
-                "name": "API Targets",
-                "description_html": "<p>The following services and applications are in-scope:</p>\n\n<ul>\n<li>The OpenAI APIs.</li>\n<li>Public cloud resources or infrastructure involved in serving the OpenAI API, including:\n\n<ul>\n<li>cloud storage accounts (e.g., Azure data blobs).</li>\n<li>cloud compute servers (e.g., Azure virtual machines).</li>\n</ul>\n</li>\n</ul>\n\n<p>As noted earlier, model safety and content issues are not eligible for reward in any of the categories.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 6500.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 500.0
-                    },
-                    "program_max": 20000
-                },
-                "sort_order": 0,
-                "targets_url": "/openai/target_groups/f3fa010f-b43a-46da-a28e-6e4b0605c0ee/targets",
-                "targets": [
-                    {
-                        "id": "42017874-1bdd-453f-95ab-c5979d748143",
-                        "name": "api.openai.com",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://api.openai.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "5205b8c4-15fe-4276-a676-65179a68f862",
-                "name": "ChatGPT",
-                "description_html": "<p>ChatGPT is in scope, including ChatGPT Plus, logins, subscriptions, OpenAI-created plugins (e.g. Browsing, Code Interpreter), plugins you create yourself, and all other functionality.</p>\n\n<p><strong>NOTE: You are not authorized to conduct security testing on plugins created by other people.</strong></p>\n\n<p>Examples of things we are interested in:</p>\n\n<ul>\n<li>Stored or Reflected XSS</li>\n<li>CSRF</li>\n<li>SQLi</li>\n<li>Authentication Issues</li>\n<li>Authorization Issues</li>\n<li>Data Exposure</li>\n<li>Payments issues</li>\n<li>Methods to bypass cloudflare protection by sending traffic to endpoints that are not protected by cloudflare</li>\n<li>Ability to run queries on pre-release or private models</li>\n<li>OpenAI created plugins:\n\n<ul>\n<li>Browsing</li>\n<li>Code Interpreter</li>\n</ul>\n</li>\n<li>Security issues with the plugin creation system:\n\n<ul>\n<li>Outputs which cause the browser application to crash</li>\n<li>Credential security</li>\n<li>OAuth</li>\n<li>SSRF</li>\n<li>Methods to cause the plugin service to make calls to unrelated domains from where the manifest was loaded</li>\n</ul>\n</li>\n</ul>\n\n<blockquote>\n<p><strong>Note:</strong> if your account is approved to create plugins, you may create and test your own plugins, their functionality, and their interactions with ChatGPT. You may <a href=\"https://openai.com/waitlist/plugins\" rel=\"nofollow noreferrer\" target=\"_blank\">sign up for the waitlist</a>, but OpenAI and bugcrowd cannot get you off the waitlist, do not ask. You may not perform security testing on plugins created by other people (e.g. Plugins in the plugin store).</p>\n</blockquote>\n\n<p>For model related issues, please use the reporting channels discussed earlier. <br>\n<strong>Model issues are strictly out of scope and will not be rewarded.</strong></p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 2000.0,
-                        "max": 6500.0
-                    },
-                    "2": {
-                        "min": 1000.0,
-                        "max": 2000.0
-                    },
-                    "3": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "4": {
-                        "min": 200.0,
-                        "max": 500.0
-                    },
-                    "program_max": 20000
-                },
-                "sort_order": 1,
-                "targets_url": "/openai/target_groups/53d2f5d0-3feb-49c2-baf3-0a00f7f1ad1e/targets",
-                "targets": [
-                    {
-                        "id": "38663aaf-a889-426c-976a-2191e16e1fa5",
-                        "name": "ChatGPT",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://chat.openai.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                },
-                                {
-                                    "id": "624f911d-7e8c-4d56-b523-e7416c1cc319",
-                                    "name": "NextJS"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "ac7c6cfd-c9c3-42f6-8a4d-55b9681ce2a6",
-                        "name": "ChatGPT Plugins",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://chat.openai.com",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "8c3436b1-a8b5-4dca-990d-9acee2d672ad",
-                "name": "Third Party Corporate Targets",
-                "description_html": "<p>This target group consists of confidential OpenAI corporate information that may be exposed through third parties. Some examples of the types vendors which would qualify in this category include:</p>\n\n<ul>\n<li>Google Workspace</li>\n<li>Asana, Trello, Jira, Monday.com</li>\n<li>Notion, Confluence, Evernote</li>\n<li>Intercom, Hubspot, Zendesk</li>\n<li>Stripe, Airbase, Navan</li>\n<li>Mode, Charthop, Looker</li>\n</ul>\n\n<p><strong>You are not authorized to perform additional security testing against these companies.</strong> Testing is limited to looking for confidential OpenAI information while following all laws and applicable terms of service. These companies are examples, and OpenAI does not necessarily do business with them.</p>\n\n<p><strong>Reports with multiple documents that share a root cause may be paid out at higher rates</strong>. Individual documents will typically be accepted at P4 or P5, which does not qualify for a monetary reward. For documents that contain particularly sensitive information, the reward category may be increased on a case-by-case basis. This will be rare.</p>\n\n<p><strong>Corporate target submissions must include detailed information to help us understand your discovery process.</strong></p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1000.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 500.0,
-                        "max": 1000.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 500.0
-                    },
-                    "program_max": 5000
-                },
-                "sort_order": 2,
-                "targets_url": "/openai/target_groups/77fcdb84-ad5e-415d-ba89-e50dbb5c20b9/targets",
-                "targets": [
-                    {
-                        "id": "8c072297-e40e-4288-a325-9f344e6a5031",
-                        "name": "Third Party Targets",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "d5969afa-0b85-4952-960c-5120edceac51",
-                "name": "OpenAI API Keys",
-                "description_html": "<p>API Key Security Initiative for OpenAI</p>\n\n<p>Our customers occasionally post their API keys on the internet. We need your help to keep them safe. Once a month, we will rank all submissions and award a bonus through the Bugcrowd platform to the researcher with the most impactful submission. Only the first submission of a given key will be considered. As a note, we will reach out to researchers that qualify for the reward. If you do not hear from us, it is safe to assume you did not win the current month. Please do not reach out to the Bugcrowd support team around the processing of these keys</p>\n\n<ol>\n<li>IMPORTANT: DO NOT SEND KEYS THROUGH BUGCROWD. Please report found API keys using the OpenAI API Key Bug Bounty Submission Form. Submissions to Bugcrowd will be marked as out-of-scope and will result in a point deduction.</li>\n<li>Do not post or share OpenAI API keys online.</li>\n<li>Valid OpenAI API Keys have the following structure: sk-w48. Any submission that does not adhere to this format will be rejected.</li>\n<li>Additional Things to Avoid:\n\n<ul>\n<li>Please don't submit the same keys repeatedly.</li>\n<li>Don't create keys just to submit them.</li>\n<li>Don't submit keys one-by-one - we can handle them in bulk.</li>\n</ul>\n</li>\n<li>Creating multiple accounts or generating many API keys for a single account is a violation of our terms. This may result in account suspension.\nPlay nicely. We keep a close eye on everything. Make sure that you act responsibly.</li>\n</ol>\n\n<p>Thank you for your assistance!</p>\n\n<p>This form is temporary - we will create an API for this soon.</p>\n\n<p>Submit all findings here:<br>\n<a href=\"https://forms.gle/h8bQ5YKWzXb8FtrQ8\" rel=\"nofollow noreferrer\" target=\"_blank\">OpenAI API Key Bug Bounty Submission</a></p>\n\n<blockquote>\n<h2>IMPORTANT</h2>\n\n<p>Do not submit API keys to bugcrowd. The submission will be marked as out of scope and you will lose points. You must submit through the form.</p>\n</blockquote>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 250.0,
-                        "max": 2500.0
-                    }
-                },
-                "sort_order": 3,
-                "targets_url": "/openai/target_groups/8f0aa428-3823-4bb4-b1b6-fb0799af941d/targets",
-                "targets": [
-                    {
-                        "id": "28f0dcd6-2a2b-4e87-89e3-533e0a664674",
-                        "name": "OpenAI API Keys",
-                        "description": null,
-                        "category": "api",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "221e628e-60f9-483f-8763-2fe5c43235f4",
-                "name": "OpenAI Research Org",
-                "description_html": "<p>Websites, services, and APIs operated by or for the OpenAI research organization. This category includes some websites which are subdomains of <code>openai.com</code>, but these targets will generally be found at <code>openai.org</code> and subdomains.</p>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1250.0,
-                        "max": 3500.0
-                    },
-                    "2": {
-                        "min": 600.0,
-                        "max": 1250.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 600.0
-                    },
-                    "program_max": 20000
-                },
-                "sort_order": 4,
-                "targets_url": "/openai/target_groups/000e31af-eab9-4b03-9edd-27a31019771d/targets",
-                "targets": [
-                    {
-                        "id": "56942e5e-88a3-4f18-91f1-66cc761eb704",
-                        "name": "https://openai.org",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://*.openai.org",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "1f2fc0ed-8b79-47a2-a6dc-564a2d9d0828",
-                                    "name": "API Testing"
-                                },
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "8f6a6c08-3c17-4f8a-81d7-78117edca4c4",
-                        "name": "*.openai.org",
-                        "description": null,
-                        "category": "api",
-                        "uri": "https://*.openai.org",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            },
-            {
-                "id": "51e3a719-f80e-4540-99db-903cd8ef3fa1",
-                "name": "Other OpenAI Targets",
-                "description_html": "<p>This target group includes:</p>\n\n<ul>\n<li>The OpenAI.com website.</li>\n<li>The OpenAI Developer Documentation.</li>\n<li>The Developer playground.</li>\n<li>Any other Internet-facing infrastructure operated by OpenAI and not specified in another target.</li>\n<li>Any other public cloud resources or infrastructure operated by OpenAI.</li>\n</ul>",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 1250.0,
-                        "max": 2500.0
-                    },
-                    "2": {
-                        "min": 600.0,
-                        "max": 1250.0
-                    },
-                    "3": {
-                        "min": 200.0,
-                        "max": 600.0
-                    }
-                },
-                "sort_order": 5,
-                "targets_url": "/openai/target_groups/9e6283ae-3642-42cf-832a-942927ce13f5/targets",
-                "targets": [
-                    {
-                        "id": "422dad9a-9afd-45c0-8313-43965c795e3a",
-                        "name": "openai.com",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://openai.com/",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "a95c42df-8249-4907-9a9b-dae12b709a98",
-                        "name": "*.openai.com",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                },
-                                {
-                                    "id": "ef82adfb-fd5b-439b-a090-ed44823bf259",
-                                    "name": "Azure"
-                                },
-                                {
-                                    "id": "f21f7de7-31b4-4cc8-89a4-39c9eb6b7345",
-                                    "name": "Python"
-                                }
-                            ]
-                        },
-                        "sort_order": 1,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "f038a572-cd28-440e-83db-44aa711de0b4",
-                        "name": "Developer Platform Playground",
-                        "description": null,
-                        "category": "website",
-                        "uri": "https://platform.openai.com/playground",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": [
-                                {
-                                    "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
-                                    "name": "Website Testing"
-                                }
-                            ]
-                        },
-                        "sort_order": 2,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    },
-                    {
-                        "id": "e5e62eaa-a4b8-49de-87a6-1f2c714631fc",
-                        "name": "Other",
-                        "description": null,
-                        "category": "other",
-                        "uri": "",
-                        "ipAddress": "",
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 3,
                         "display_known_issues": false,
                         "known_issues": {}
                     }
@@ -8030,78 +5472,6 @@
         ]
     },
     {
-        "name": "SpaceX/Starlink",
-        "tagline": "Help Secure SpaceX and Starlink!",
-        "briefUrl": "/spacex",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2a86/e629/8bcbecde/0c6ceca416865abd3e7e16067c012149_spacex.jpg",
-        "rewardSummary": {
-            "summary": "Points - $100,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$100,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/spacex/program_subscribers",
-        "programMigrationInProgress": null,
-        "target_groups": [
-            {
-                "id": "305a4535-4274-4d66-bb6b-fea92af70a9d",
-                "name": "In Scope targets",
-                "description_html": "",
-                "in_scope": true,
-                "reward_range": {
-                    "1": {
-                        "min": 0,
-                        "max": 100000.0
-                    },
-                    "2": {
-                        "min": 0,
-                        "max": 50000.0
-                    },
-                    "3": {
-                        "min": 0,
-                        "max": 10000.0
-                    },
-                    "4": {
-                        "min": 0,
-                        "max": 1000.0
-                    }
-                },
-                "sort_order": 0,
-                "targets_url": "/spacex/target_groups/105949df-2358-4f78-84fd-77f6a99d50c9/targets",
-                "targets": [
-                    {
-                        "id": "38a0980b-d304-46ae-8d16-02f07ba282c7",
-                        "name": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
-                        "description": null,
-                        "category": "website",
-                        "uri": "",
-                        "ipAddress": null,
-                        "target": {
-                            "tags": []
-                        },
-                        "sort_order": 0,
-                        "display_known_issues": false,
-                        "known_issues": {}
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Opsgenie",
         "tagline": "Opsgenie is a modern incident management platform for operating always-on services, empowering Dev & Ops teams to plan for service disruptions and stay in control during incidents.",
         "briefUrl": "/opsgenie",
@@ -9861,6 +7231,66 @@
         "target_groups": []
     },
     {
+        "name": "Tesla",
+        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
+        "briefUrl": "/engagements/tesla",
+        "backgroundColor": "#191919",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
+        "rewardSummary": {
+            "summary": "$100 - $100,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$100,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Automotive",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tesla/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Western Union",
+        "tagline": "Moving money for better",
+        "briefUrl": "/engagements/westernunion",
+        "backgroundColor": "#2a2d40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7cc0/9977/55c6405d/2bf144eae86c163d67b7d66081fcf726_Western_Union_Google_Plus_Logo.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $3,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/westernunion/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Dell Technologies Application Bug Bounty",
         "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
         "briefUrl": "/engagements/dell-com",
@@ -9918,66 +7348,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/octopus-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Western Union",
-        "tagline": "Moving money for better",
-        "briefUrl": "/engagements/westernunion",
-        "backgroundColor": "#2a2d40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7cc0/9977/55c6405d/2bf144eae86c163d67b7d66081fcf726_Western_Union_Google_Plus_Logo.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $3,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/westernunion/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Tesla",
-        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
-        "briefUrl": "/engagements/tesla",
-        "backgroundColor": "#191919",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
-        "rewardSummary": {
-            "summary": "$100 - $100,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$100,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Automotive",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tesla/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -10612,24 +7982,24 @@
         "target_groups": []
     },
     {
-        "name": "Mastercard Public Bug Bounty ",
-        "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
-        "briefUrl": "/engagements/mastercard",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b4a9/84bb/3dce2d73/b0f1f87e4b18bed77f9242b568d5f365_FINAL_-_Works_for_brief.png",
+        "name": "FoxyCart",
+        "tagline": "A superior ecommerce experience",
+        "briefUrl": "/engagements/foxycart",
+        "backgroundColor": "#633f6f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
         "rewardSummary": {
-            "summary": "$50 - $5,000",
+            "summary": "$25 - $600",
             "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
+            "minReward": "$25",
+            "maxReward": "$600",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 3,
+        "scopeRank": 2,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Finance",
+        "industryName": "eCommerce",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -10638,7 +8008,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/mastercard/engagement_subscribers",
+        "subscriptionUrl": "/foxycart/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -10732,36 +8102,6 @@
         "target_groups": []
     },
     {
-        "name": "Majid Al Futtaim Entertainment",
-        "tagline": "Vox Cinemas + Entertainment",
-        "briefUrl": "/engagements/vox",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/080f/3294/c7001f81/3df490d526a9a07ac91c8505bb58e57e_mYTEsbS__400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $2,500",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/vox/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Indeed",
         "tagline": "We help people get jobs.",
         "briefUrl": "/engagements/indeed",
@@ -10792,16 +8132,16 @@
         "target_groups": []
     },
     {
-        "name": "Motorola Mobility Hardware Engagement",
-        "tagline": "Want in? Let\u2019s get started on something different, together.",
-        "briefUrl": "/engagements/motorolamobility-iot",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2cac/a8e4/ad2c10f1/7fb0be31e329dc3ae99299ea753eecd3_motorola-solutions-inc.jpg",
+        "name": "SpaceX/Starlink",
+        "tagline": "Help Secure SpaceX and Starlink!",
+        "briefUrl": "/engagements/spacex",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2a86/e629/8bcbecde/0c6ceca416865abd3e7e16067c012149_spacex.jpg",
         "rewardSummary": {
-            "summary": "$100 - $5,000",
+            "summary": "Points - $100,000",
             "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
+            "minReward": "Points",
+            "maxReward": "$100,000",
             "compensationSummary": null,
             "compensationHint": null
         },
@@ -10809,7 +8149,7 @@
         "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Computer Hardware",
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -10818,7 +8158,37 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/motorolamobility-iot/engagement_subscribers",
+        "subscriptionUrl": "/spacex/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Majid Al Futtaim Entertainment",
+        "tagline": "Vox Cinemas + Entertainment",
+        "briefUrl": "/engagements/vox",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/080f/3294/c7001f81/3df490d526a9a07ac91c8505bb58e57e_mYTEsbS__400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $2,500",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/vox/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -10909,6 +8279,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/phemex/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Motorola Mobility Hardware Engagement",
+        "tagline": "Want in? Let\u2019s get started on something different, together.",
+        "briefUrl": "/engagements/motorolamobility-iot",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2cac/a8e4/ad2c10f1/7fb0be31e329dc3ae99299ea753eecd3_motorola-solutions-inc.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Hardware",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/motorolamobility-iot/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -11422,36 +8822,6 @@
         "target_groups": []
     },
     {
-        "name": "Nubank Brasil Managed Bug Bounty Program",
-        "tagline": "Nubank Brasil is in a mission to fight complexity to empower people in their daily lives by reinventing financial services. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/nubank",
-        "backgroundColor": "#8303d2",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f21e/3f46/4f32c0b2/42cbdf52425e327f162e7df7a19e8614_nubank.png",
-        "rewardSummary": {
-            "summary": "$50 - $4,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/nubank/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Worldpay",
         "tagline": "We are forging the future of payments.",
         "briefUrl": "/engagements/worldpay",
@@ -11839,6 +9209,96 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/fis/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Nubank Brasil Managed Bug Bounty Program",
+        "tagline": "Nubank Brasil is in a mission to fight complexity to empower people in their daily lives by reinventing financial services. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/nubank",
+        "backgroundColor": "#8303d2",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f21e/3f46/4f32c0b2/42cbdf52425e327f162e7df7a19e8614_nubank.png",
+        "rewardSummary": {
+            "summary": "$50 - $4,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/nubank/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "TheFork - B2C - WNG",
+        "tagline": "TheFork - B2C - WNG",
+        "briefUrl": "/engagements/thefork-b2c-wng",
+        "backgroundColor": "#8bff6e",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/26bd/2d4c/c9aecf87/3befee67ee630e90879b17e929869fc0_TheFork_Symbol_Mint_RGB3.png",
+        "rewardSummary": {
+            "summary": "$50 - $3,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Hospitality",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/thefork-b2c-wng/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Viator",
+        "tagline": "Viator - Travel with an Insider",
+        "briefUrl": "/engagements/viator",
+        "backgroundColor": "#00759a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9ba4/5da2/66f7c128/2a4682465d62350d6b039c0f31279664_ViatorLogo.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/viator/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -12725,6 +10185,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/hostgator-latam-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Tripadvisor ",
+        "tagline": "The world\u2019s largest travel site. Know better. Book better. Go better.",
+        "briefUrl": "/engagements/tripadvisor-bb-og",
+        "backgroundColor": "#1e201f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/85e6/3f88/041fa6d4/6ee5239552ab10b10c5406f689f53a36_tripadvisor_.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tripadvisor-bb-og/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -13835,6 +11325,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/flourish/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,500",
+            "hint": "Up to $20,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/openai/engagement_subscribers",
         "target_groups": []
     }
 ]
