@@ -16154,7 +16154,7 @@
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 4000.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -16173,6 +16173,19 @@
             "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/odoo/odoobb/detail"
         },
         "domains": [
+            {
+                "id": "54d3dfa3-e9e2-4fac-bd22-72b6f5e33317",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Odoo 18.0",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Odoo 18.0 is the next major version of Odoo, to be released in Octobre 2024. Details will follow on how to test it."
+            },
             {
                 "id": "2658ae3f-b204-47c0-9c61-dfca227a94da",
                 "type": {
