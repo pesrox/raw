@@ -3747,7 +3747,7 @@
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3000.0,
+            "value": 4000.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -3774,8 +3774,8 @@
                 },
                 "endpoint": "http://clp-accept-larry.my-clay.com/",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": "This is the API powering the Support application.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Support web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://clp-accept-larry.my-clay.com/swagger/index.html"
             },
@@ -3787,8 +3787,8 @@
                 },
                 "endpoint": "http://commissioningapi-accept.saltoks.com/",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": "This is the API powering the Commissioning application.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Commissioning web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://commissioningapi-accept.saltoks.com/swagger/index.html"
             },
@@ -3826,8 +3826,8 @@
                 },
                 "endpoint": "https://commissioning-accept.saltoks.com/",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": "This is our commissioning web app, our installer partners use this to create systems for our end users after they are done installing the physical locks. You can create additional test sites using this tool, but without hardware the sites will be limited. \n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. "
             },
@@ -3839,10 +3839,10 @@
                 },
                 "endpoint": "https://identity-acc-eu.my-clay.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
-                "description": "This is the IDS for the XS4Com application, eventually it will replace the IDS used for SALTO KS. "
+                "description": "This is our IDS for all our products. It stores the users in our applications to avoid having to duplicate them across products should a user be a user in more than one of them. In addition our IDS is responsible for handling authentication towards any of our applications or APIs, authorization is for now delegated to the application itself. "
             },
             {
                 "id": "f4beb3d0-4e68-484f-961d-984b9fe56a4d",
@@ -3878,8 +3878,8 @@
                 },
                 "endpoint": "https://support-accept.saltoks.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": "This is our support web app, it is used internally to support our customers. You will be able to see information about any site inside our Integriti environment.\n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. "
             },
@@ -3917,10 +3917,10 @@
                 },
                 "endpoint": "https://my-clay.com/",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
-                "description": "Employer branding/recruitment website, please remember to use your @intigriti.me address for any form submissions! "
+                "description": "Employer branding/recruitment website, please remember to use your @intigriti.me address for any form submissions! \n\nNote: We may award a bonus for any finding related to this resource but as it's decoupled from our applications/APIs entirely it's not in any of the normal bounty tiers. "
             },
             {
                 "id": "d1e40f21-dfd2-4c11-88e2-aa6a018e0768",
@@ -3930,10 +3930,10 @@
                 },
                 "endpoint": "https://saltoks.com/",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
-                "description": "Commercial website, please remember to use your @intigriti.me address for any form submissions! "
+                "description": "Commercial website, please remember to use your @intigriti.me address for any form submissions! \n\nNote: We may award a bonus for any finding related to this resource but as it's decoupled from our applications/APIs entirely it's not in any of the normal bounty tiers. "
             },
             {
                 "id": "41a73a3b-d3d1-4fb6-b6c5-2343c2afb4c6",
@@ -3943,10 +3943,10 @@
                 },
                 "endpoint": "Swagger",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
-                "description": "We consider any Swagger page to be tier 3"
+                "description": "We're likely to award a bonus for findings related to our swaggers depending on the severity. \n\nNote: Only Swaggers related to our API's listed in our program is in scope. "
             }
         ]
     },
