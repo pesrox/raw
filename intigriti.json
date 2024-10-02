@@ -3671,30 +3671,17 @@
         },
         "domains": [
             {
-                "id": "762aa6f8-c650-4a4f-9a0e-01bec2bce508",
+                "id": "15e714a5-ccda-4d26-aecd-ad076eb14576",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "http://clp-accept-larry.my-clay.com/",
+                "endpoint": "https://identity-acc.eu.my-clay.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
-                "description": "This is the API powering the Support application.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Support web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://clp-accept-larry.my-clay.com/swagger/index.html"
-            },
-            {
-                "id": "ba063764-9586-4acb-ad2e-d8735df9df0b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "http://commissioningapi-accept.saltoks.com/",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "This is the API powering the Commissioning application.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Commissioning web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://commissioningapi-accept.saltoks.com/swagger/index.html"
+                "description": "This is our IDS for all our products. It stores the users in our applications to avoid having to duplicate them across products should a user be a user in more than one of them. In addition our IDS is responsible for handling authentication towards any of our applications or APIs, authorization is for now delegated to the application itself. \n\nNote: Accessing IDS is generally done using one of our other applications"
             },
             {
                 "id": "4229fe5c-069f-47e9-9f0e-1bd7bf167d6b",
@@ -3723,32 +3710,6 @@
                 "description": "This is the Connect API which powers our web and mobile applications. \n\nThe easiest way to get a functional token for this API is to inspect any network request made by our web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nIf you need credentials reach out to us using the email in the FAQ. \n\t\nhttps://clp-accept-user.my-clay.com is the same API with another URL. It is considered in scope/the same scope as https://clp-accept-user.saltoks.com.\n\nSwagger is available https://clp-accept-user.my-clay.com/swagger"
             },
             {
-                "id": "08518e0b-40db-44de-8c56-caedbe678646",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://commissioning-accept.saltoks.com/",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "This is our commissioning web app, our installer partners use this to create systems for our end users after they are done installing the physical locks. You can create additional test sites using this tool, but without hardware the sites will be limited. \n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. "
-            },
-            {
-                "id": "15e714a5-ccda-4d26-aecd-ad076eb14576",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://identity-acc-eu.my-clay.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "This is our IDS for all our products. It stores the users in our applications to avoid having to duplicate them across products should a user be a user in more than one of them. In addition our IDS is responsible for handling authentication towards any of our applications or APIs, authorization is for now delegated to the application itself. "
-            },
-            {
                 "id": "f4beb3d0-4e68-484f-961d-984b9fe56a4d",
                 "type": {
                     "id": 1,
@@ -3775,19 +3736,6 @@
                 "description": "This is the outdoor app of the XS4Com, the part that your guest would see if they scanned an XS4Com QR code in order to call someone in the building. \n\nThe app requires a UUID appended at the end, we will supply a UUID when we create your XS4Com test setup. \n\nExample: https://outdoor-acc.xs4com.app/#/00000000-0000-0000-0000-000000000000\n\n**Note: A user will only show in the Outdoor App after they sign into the mobile application at least once**"
             },
             {
-                "id": "ecb19cde-9578-4b32-b730-1655843406c8",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://support-accept.saltoks.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "This is our support web app, it is used internally to support our customers. You will be able to see information about any site inside our Integriti environment.\n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. "
-            },
-            {
                 "id": "073d422d-d256-41fc-89df-8358b279fba3",
                 "type": {
                     "id": 1,
@@ -3812,6 +3760,58 @@
                     "value": "Tier 2"
                 },
                 "description": "This app is currently not available on the Play Store, but we can distribute an APK for you to test. "
+            },
+            {
+                "id": "762aa6f8-c650-4a4f-9a0e-01bec2bce508",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "http://clp-accept-larry.my-clay.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This is the API powering the Support application.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Support web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://clp-accept-larry.my-clay.com/swagger/index.html"
+            },
+            {
+                "id": "ba063764-9586-4acb-ad2e-d8735df9df0b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "http://commissioningapi-accept.saltoks.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This is the API powering the Commissioning application.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Commissioning web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://commissioningapi-accept.saltoks.com/swagger/index.html"
+            },
+            {
+                "id": "08518e0b-40db-44de-8c56-caedbe678646",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://commissioning-accept.saltoks.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This is our commissioning web app, our installer partners use this to create systems for our end users after they are done installing the physical locks. You can create additional test sites using this tool, but without hardware the sites will be limited. \n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. "
+            },
+            {
+                "id": "ecb19cde-9578-4b32-b730-1655843406c8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://support-accept.saltoks.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This is our support web app, it is used internally to support our customers. You will be able to see information about any site inside our Integriti environment.\n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. "
             },
             {
                 "id": "df10ff28-674f-4fbf-a854-69f697f24db9",
