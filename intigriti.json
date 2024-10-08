@@ -16264,14 +16264,14 @@
     {
         "id": "9745f974-3e85-40d3-aa9e-2d492245ad88",
         "handle": "odoobb",
-        "name": "Odoo 17.0 Bug Bounty program",
+        "name": "Odoo 18.0 Bug Bounty program",
         "following": false,
         "minBounty": {
             "value": 100.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 4000.0,
+            "value": 2000.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -16291,30 +16291,17 @@
         },
         "domains": [
             {
-                "id": "54d3dfa3-e9e2-4fac-bd22-72b6f5e33317",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Odoo 18.0",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Odoo 18.0 is the next major version of Odoo, to be released in Octobre 2024. From submissions created **between 2024-09-24 and 2024-10-07** (included), the amounts are doubled for submissions on Odoo 18.0.\n\nDatabases **must** be using version 18.0 to be accepted in this tier. Use the following URL to create databases in 18.0:\nhttps://www.odoo.com/start18\n(still in beta, availability may vary).\n"
-            },
-            {
                 "id": "2658ae3f-b204-47c0-9c61-dfca227a94da",
                 "type": {
                     "id": 6,
                     "value": "Other"
                 },
-                "endpoint": " Odoo 17.0 (Community and Enterprise edition)",
+                "endpoint": " Odoo 18.0 (Community and Enterprise edition)",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "The main goal of the program is to audit the software distributed to all users. This software can either be installed on a user's machine, a company's server or on Odoo S.A's dedicated SaaS plateform (through https://<companyname>.odoo.com). You accept reports on both the 16 and 17.0 versions.\n\t\nThere are three ways to use and test Odoo:\n\n* Both versions on the already deployed [Runbot version](https://runbot.odoo.com) of Odoo (go to the chosen version \u2192 odoo or enterprise \u2192 gear icon \u2192 database selector)\n* [Download](https://www.odoo.com/page/download) the community edition (Linux only), and install Odoo CE 17.0 on your machine (self-hosting mode)\n* [Create](https://www.odoo.com/trial) your own hosted instance using our 15 days free trial. The hosted version also includes the Enterprise Edition. Please use your @intigriti.me address.\n"
+                "description": "The main goal of the program is to audit the software distributed to all users. This software can either be installed on a user's machine, a company's server or on Odoo S.A's dedicated SaaS plateform (through https://<companyname>.odoo.com). You accept reports on the 16, 17.0 and 18.0 versions.\n\t\nThere are three ways to use and test Odoo:\n\n* Both versions on the already deployed [Runbot version](https://runbot.odoo.com) of Odoo (go to the chosen version \u2192 odoo or enterprise \u2192 gear icon \u2192 database selector)\n* [Download](https://www.odoo.com/page/download) the community edition (Linux only), and install Odoo CE 18.0 on your machine (self-hosting mode)\n* [Create](https://www.odoo.com/trial) your own hosted instance using our 15 days free trial. The hosted version also includes the Enterprise Edition. Please use your @intigriti.me address.\n"
             },
             {
                 "id": "3efb7f44-1b5c-4986-b05d-3f68f8a92a4c",
