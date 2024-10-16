@@ -733,7 +733,7 @@
         "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
@@ -920,36 +920,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/wise/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Asana",
-        "tagline": "We're empowering teams to do great things together.",
-        "briefUrl": "/engagements/asana",
-        "backgroundColor": "#242B36",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a744/cc17/faf23ed3/2fd06e112ea1f26135f8253031539d11_asana-square.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "ngpt"
-        },
-        "subscriptionUrl": "/asana/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -1163,36 +1133,6 @@
         "target_groups": []
     },
     {
-        "name": "Bitdefender",
-        "tagline": "Cybersecurity Solutions for Business and Personal Use",
-        "briefUrl": "/engagements/bitdefender",
-        "backgroundColor": "#D80916",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/749c/face/61362a72/42c35f74a1b7ede92978e5caed56d3e7_Untitled.jpg",
-        "rewardSummary": {
-            "summary": "$100 - $15,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$15,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitdefender/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "ClassDojo",
         "tagline": "ClassDojo is on a mission to help every teacher create an incredible classroom",
         "briefUrl": "/engagements/classdojo",
@@ -1310,36 +1250,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/justeattakeaway/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Etsy",
-        "tagline": "Help keep buyers and sellers across the world safe!",
-        "briefUrl": "/engagements/etsy",
-        "backgroundColor": "#e37e40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/etsy/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -1613,6 +1523,66 @@
         "target_groups": []
     },
     {
+        "name": "Bitdefender",
+        "tagline": "Cybersecurity Solutions for Business and Personal Use",
+        "briefUrl": "/engagements/bitdefender",
+        "backgroundColor": "#D80916",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/749c/face/61362a72/42c35f74a1b7ede92978e5caed56d3e7_Untitled.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $15,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitdefender/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Asana",
+        "tagline": "We're empowering teams to do great things together.",
+        "briefUrl": "/engagements/asana",
+        "backgroundColor": "#242B36",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a744/cc17/faf23ed3/2fd06e112ea1f26135f8253031539d11_asana-square.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "ngpt"
+        },
+        "subscriptionUrl": "/asana/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "TheFork - B2C - WNG",
         "tagline": "TheFork - B2C - WNG",
         "briefUrl": "/engagements/thefork-b2c-wng",
@@ -1640,6 +1610,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/thefork-b2c-wng/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Etsy",
+        "tagline": "Help keep buyers and sellers across the world safe!",
+        "briefUrl": "/engagements/etsy",
+        "backgroundColor": "#e37e40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c678/7530/6cf61d93/9d2b440e8154a57845f9a1337f91d025_etsy_gimp.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $10,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/etsy/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -3992,36 +3992,6 @@
         "target_groups": []
     },
     {
-        "name": "Tesla",
-        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
-        "briefUrl": "/engagements/tesla",
-        "backgroundColor": "#191919",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
-        "rewardSummary": {
-            "summary": "$100 - $100,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$100,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Automotive",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tesla/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Pexels",
         "tagline": "Pexels' Vulnerability Disclosure Program",
         "briefUrl": "/engagements/pexels",
@@ -4109,6 +4079,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/unity/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Tesla",
+        "tagline": "Accelerating the world\u2019s transition to sustainable energy",
+        "briefUrl": "/engagements/tesla",
+        "backgroundColor": "#191919",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b265/6d1f/a8ad595f/5a63bf599bb4db813eb159c6a32723dc_Tesla_T-Logo_Red-leeeeet.png",
+        "rewardSummary": {
+            "summary": "$100 - $100,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$100,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Automotive",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tesla/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -5118,36 +5118,6 @@
         "target_groups": []
     },
     {
-        "name": "iRobot",
-        "tagline": "Your Partner for a Cleaner Home",
-        "briefUrl": "/engagements/irobot",
-        "backgroundColor": "#64a70a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/77b1/f29b/948ed4dd/f170965393480a99e953718aca1fddf9_irobot.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $7,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$7,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Electronics",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/irobot/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Ultra Mobile Managed Bug Bounty Program - (Public) ",
         "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
         "briefUrl": "/engagements/ultramobile",
@@ -5708,6 +5678,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/orderlynetwork-mbb-og2/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "iRobot",
+        "tagline": "Your Partner for a Cleaner Home",
+        "briefUrl": "/engagements/irobot",
+        "backgroundColor": "#64a70a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/77b1/f29b/948ed4dd/f170965393480a99e953718aca1fddf9_irobot.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $7,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$7,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/irobot/engagement_subscribers",
         "target_groups": []
     }
 ]
