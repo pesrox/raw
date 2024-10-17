@@ -12417,15 +12417,15 @@
             {
                 "id": "724e9691-9a7d-47ca-9d37-c0700cccef0d",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 1,
+                    "value": "Url"
                 },
-                "endpoint": "*.sqills-integration-dev-test.cloud.sqills.com",
+                "endpoint": "admin.sqills-bugbounty-test.cloud.sqills.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Other endpoints and applications supporting the S3 Passenger suite. These are mainly management application (e.g. Jenkins deployment server). Most of these are behind the firewall and should not be accessible. "
+                "description": "This subdomain is for the S3 Passenger backoffice screens.\nThey are used for operational tasks as well as for data and configuration management. The backoffice is secured with username / password and optional MFA. You can request your set of credentials. More about these credentials can be found in the FAQ below."
             },
             {
                 "id": "77aaa21d-6627-4f83-a227-56052a98658e",
@@ -12433,41 +12433,15 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "admin.sqills-integration-dev-test.cloud.sqills.com",
+                "endpoint": "api.sqills-bugbounty-test.cloud.sqills.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "S3 Passenger - Backoffice that is used for operational tasks as well as for data and configuration management. The backoffice is secured with username / password and MFA (TOTP) and is publicly available (not behind firewall). Credentials are not issued yet (expected to be added to the program later)."
+                "description": "S3 Passenger API that is used by front-end clients to integrate with the S3 Passenger product. Most of the API endpoints are secured with JWT token authentication and role based authorization. More about this can be found below in the FAQ."
             },
             {
                 "id": "653eb783-098b-46b1-bdb5-f6ec5509caa1",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.sqills-integration-dev-test.cloud.sqills.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": " S3 Passenger API that is used by front-end clients to integrate with the S3 Passenger product. All API endpoints are secured with JWT token validation and role based authentication (roles and permission policies in the token)."
-            },
-            {
-                "id": "2ac2a263-3c5f-4c5e-a8c3-ef634b69f23c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "s3-portal.sqills-integration-dev-test.cloud.sqills.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "S3 Passenger - agent portal is used by sales agents (e.g. call centers, station staff or travel agents) to sell tickets and to perform other operational tasks to help customers (passengers). Agents need a username / password to login into this portal application. The portal application is publicly available (not behind firewall)."
-            },
-            {
-                "id": "ec862d5e-c39f-4328-9aec-3f8762e067a6",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
@@ -12477,20 +12451,20 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Additional product offerings and bespoke systems that integrate with the S3 Passenger product. All API endpoints are secured with JWT token validation and role based authentication (roles and permission policies in the token), just like the other S3 Passenger API's.\n\nThe format for s3p.cloud domain names is: [environment-name].[product name].s3p.cloud. Only sqills internal environments (environment-name prefixed with \"sqills-\") are in scope for this program."
+                "description": "Additional product offerings and bespoke systems that integrate with the S3 Passenger product.\n\nThe format for s3p.cloud domain names is: [environment-name].[product name].s3p.cloud. Only sqills internal environments (environment-name prefixed with \"sqills-\") are in scope for this program."
             },
             {
-                "id": "aac14891-1162-4dfb-a284-95728b9f3417",
+                "id": "2ac2a263-3c5f-4c5e-a8c3-ef634b69f23c",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "booking.sqills-integration-dev-test.cloud.sqills.com",
+                "endpoint": "*.sqills-bugbounty-test.cloud.sqills.com",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": "B2C front-end to demonstrate API features (not in scope of the test, but may be used to demonstratie issues on the API or to get you started on how to use our API). That means that issues related to this front-end application are not eligible for bounties, but issues found regarding the API that is used on this application can be reported on the relevant API domain (which is eligible for bounties)."
+                "description": "Other endpoints and applications supporting the S3 Passenger suite."
             }
         ]
     },
@@ -18438,115 +18412,6 @@
         ]
     },
     {
-        "id": "acb632b9-2605-47ec-9195-3ffb2f0fcae6",
-        "handle": "gulp",
-        "name": "GULP",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 4,
-            "value": "Suspended"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/randstad/gulp/detail"
-        },
-        "domains": [
-            {
-                "id": "e8fcf6b8-2ebe-4f85-9e30-efe3d2a3f3dd",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "www.gulp.ch/forum/*",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "75835c74-5d3f-4fbe-8162-c7b18501c9c0",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "www.gulp.de/forum/*",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "45ef69f0-ad17-4800-aa05-7d35667bcc90",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.gulp.ch",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "8606b627-d418-4866-b4e2-0d747ce15092",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.gulp.de",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "ae4342db-4257-419a-ba5e-5bbf07cba608",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "demo.tendertracker.de",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "d4ca2221-bda5-40f3-b1b6-22feed933b98",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.gulp-shop.de",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            }
-        ]
-    },
-    {
         "id": "afeb2624-ac2e-46bc-b078-b0e018baeb62",
         "handle": "cloudways",
         "name": "Cloudways by DigitalOcean",
@@ -24191,375 +24056,6 @@
                     "value": "Out Of Scope"
                 },
                 "description": "* Optional tools\n* Product-independent software\n* Software for products and technologies for out of scope products\n"
-            }
-        ]
-    },
-    {
-        "id": "e6a4bd31-e2bf-402d-ad0c-7492bffc3f6c",
-        "handle": "monsterworldwide",
-        "name": "Monster Worldwide",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/randstad/monsterworldwide/detail"
-        },
-        "domains": [
-            {
-                "id": "2a14a8c2-d6d9-4b5a-9c35-00a5d6c9abd2",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.cz",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "c3ae770f-5072-4df8-94d8-fd8dfba284fb",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monsterindia.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "045cf09c-d616-49d6-a914-31443a10ddf8",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.fi",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "4f77098e-ee1a-48a5-88b9-0dfef3db1f83",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "Any endpoints which are not owned by Monster & third party systems",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "8fe55599-1658-4cd8-8535-80493281b3e7",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.military.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "ef59d480-5d64-4f8b-9aaf-95083f2e26ee",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.at",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "cd559371-41bd-496d-bc6d-04e03da62940",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "69319ed9-f319-4989-aea8-d559b746322a",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.ca",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "0f420dbb-88c0-4846-96af-eb6fb12f99d8",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.ch",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "48aeec1b-7076-42dd-a1f2-99a84e765957",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.co.uk",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "51d12575-ea35-44ca-b7da-f1b08e9206ed",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "1414ef69-1e02-43f1-b75d-a3ef2ee50911",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.de",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "48548fbc-a119-410c-aa94-bf55c6918f2c",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.dk",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "31bd1f78-df94-484b-992e-5b4fecafa26e",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.es",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "6c077b08-129d-4764-adc3-1ffbd9cafadd",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.eu",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "779c330e-4394-402c-b2e6-b038974314c9",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.fr",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "99c555af-04db-483a-b99a-d05d44802a1c",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.hu",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "947610ee-67fc-46ee-9db2-0cd6f384ec05",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.ie",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "d202c833-860d-421f-afeb-9c8fa5a3b331",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.it",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "63cb7cd9-14a1-4aa2-af96-c2c31b49d130",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.lu",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "a04ff528-6cc9-4341-9ba5-140e627f15d4",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.no",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "d1d26d47-86cd-40c4-80fe-c7390cad17bb",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.pt",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "60606849-72a2-4723-80be-2ed4567b5eed",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monster.se",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "fd9343d7-b140-48d6-8d59-37492fb88ee3",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monsterboard.nl",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "c6eb3d7e-ef89-4c51-85bb-30d3bdc2f757",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.monsterpolska.pl",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
-            },
-            {
-                "id": "fa2ade09-098d-43d5-a291-5921ad631ea3",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "fastweb.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
             }
         ]
     },
