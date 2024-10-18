@@ -2423,36 +2423,6 @@
         "target_groups": []
     },
     {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $20,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/openai/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "T-Mobile",
         "tagline": "Welcome to The Uncarrier. Are You With Us?",
         "briefUrl": "/engagements/t-mobile",
@@ -2800,7 +2770,37 @@
         "scopeRank": 1,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": null,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/braze-bb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,500",
+            "hint": "Up to $20,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -2809,7 +2809,7 @@
             "label": "Public Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/braze-bb/engagement_subscribers",
+        "subscriptionUrl": "/openai/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -3436,36 +3436,6 @@
         "target_groups": []
     },
     {
-        "name": "FoxyCart",
-        "tagline": "A superior ecommerce experience",
-        "briefUrl": "/engagements/foxycart",
-        "backgroundColor": "#633f6f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
-        "rewardSummary": {
-            "summary": "$25 - $600",
-            "hint": null,
-            "minReward": "$25",
-            "maxReward": "$600",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/foxycart/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Canva",
         "tagline": "Design Anything. Publish Anywhere.",
         "briefUrl": "/engagements/canva",
@@ -3493,6 +3463,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/canva/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "FoxyCart",
+        "tagline": "A superior ecommerce experience",
+        "briefUrl": "/engagements/foxycart",
+        "backgroundColor": "#633f6f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/51a5/af5f/d3a4ef35/b0e9a7252d7e69fda4b4dbfb6e4cba08_Foxy_Icon__200x200__white_bg.png",
+        "rewardSummary": {
+            "summary": "$25 - $600",
+            "hint": null,
+            "minReward": "$25",
+            "maxReward": "$600",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/foxycart/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -5268,36 +5268,6 @@
         "target_groups": []
     },
     {
-        "name": "Tripadvisor ",
-        "tagline": "The world\u2019s largest travel site. Know better. Book better. Go better.",
-        "briefUrl": "/engagements/tripadvisor-bb-og",
-        "backgroundColor": "#1e201f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/85e6/3f88/041fa6d4/6ee5239552ab10b10c5406f689f53a36_tripadvisor_.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/tripadvisor-bb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "iRobot",
         "tagline": "Your Partner for a Cleaner Home",
         "briefUrl": "/engagements/irobot",
@@ -5708,6 +5678,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/wyze/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Tripadvisor ",
+        "tagline": "The world\u2019s largest travel site. Know better. Book better. Go better.",
+        "briefUrl": "/engagements/tripadvisor-bb-og",
+        "backgroundColor": "#1e201f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/85e6/3f88/041fa6d4/6ee5239552ab10b10c5406f689f53a36_tripadvisor_.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/tripadvisor-bb-og/engagement_subscribers",
         "target_groups": []
     }
 ]
