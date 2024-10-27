@@ -623,36 +623,6 @@
         "target_groups": []
     },
     {
-        "name": "USAA",
-        "tagline": "We proudly serve millions of military members and their families with competitive rates on insurance, banking and investment services.",
-        "briefUrl": "/engagements/usaa",
-        "backgroundColor": "#123958",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/31b0/e2aa/339ec192/976c6242148265bb29d011a46c1d041c_Screen_Shot_2020-01-09_at_8.03.20_AM.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/usaa/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Keeper Security Public Bounty Program",
         "tagline": "Keeper is the leading password management, privilege access management and secure messaging platform for consumers and businesses.",
         "briefUrl": "/engagements/keepersecurity",
@@ -1433,66 +1403,6 @@
         "target_groups": []
     },
     {
-        "name": "Aiven Managed Bug Bounty",
-        "tagline": "Aiven is a trusted open source data platform for everyone. Please submit your findings to this Bug Bounty program.",
-        "briefUrl": "/engagements/aiven-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2f7a/aeda/2c3bd592/5f27709d4d0c543665a7d1fa0bb2bc9f_1656939875704.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $25,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/aiven-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Council on Foreign Relations",
-        "tagline": "\u201cTo afford a continuous conference on international questions affecting the United States...\u201d",
-        "briefUrl": "/engagements/cfr",
-        "backgroundColor": "#412c26",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/df75/aa4f/9a3fb531/6c71bed621d07bd078af1cb05746e6ac_Screen_Shot_2017-09-11_at_4.36.11_PM.png",
-        "rewardSummary": {
-            "summary": "$100 - $2,100",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$2,100",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/cfr/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "HPE Aruba Networking Product Public Program",
         "tagline": "People move: Networks must follow.",
         "briefUrl": "/engagements/aruba-product-public",
@@ -1670,6 +1580,96 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/opsgenie/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Aiven Managed Bug Bounty",
+        "tagline": "Aiven is a trusted open source data platform for everyone. Please submit your findings to this Bug Bounty program.",
+        "briefUrl": "/engagements/aiven-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2f7a/aeda/2c3bd592/5f27709d4d0c543665a7d1fa0bb2bc9f_1656939875704.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $25,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/aiven-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "USAA",
+        "tagline": "We proudly serve millions of military members and their families with competitive rates on insurance, banking and investment services.",
+        "briefUrl": "/engagements/usaa",
+        "backgroundColor": "#123958",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/31b0/e2aa/339ec192/976c6242148265bb29d011a46c1d041c_Screen_Shot_2020-01-09_at_8.03.20_AM.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/usaa/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Council on Foreign Relations",
+        "tagline": "\u201cTo afford a continuous conference on international questions affecting the United States...\u201d",
+        "briefUrl": "/engagements/cfr",
+        "backgroundColor": "#412c26",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/df75/aa4f/9a3fb531/6c71bed621d07bd078af1cb05746e6ac_Screen_Shot_2017-09-11_at_4.36.11_PM.png",
+        "rewardSummary": {
+            "summary": "$100 - $2,100",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$2,100",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/cfr/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -1910,36 +1910,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/twentyminuten/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Directly",
-        "tagline": "CX Automation",
-        "briefUrl": "/engagements/directly",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/990a/d21c/4ae0fe65/e2cd6ece639388ac6dde4715f0abe0c2_directly-marketing-logo-square-03.png",
-        "rewardSummary": {
-            "summary": "$250 - $3,000",
-            "hint": null,
-            "minReward": "$250",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/directly/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -2813,6 +2783,36 @@
         "target_groups": []
     },
     {
+        "name": "Directly",
+        "tagline": "CX Automation",
+        "briefUrl": "/engagements/directly",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/990a/d21c/4ae0fe65/e2cd6ece639388ac6dde4715f0abe0c2_directly-marketing-logo-square-03.png",
+        "rewardSummary": {
+            "summary": "$250 - $3,000",
+            "hint": null,
+            "minReward": "$250",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/directly/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "Humble Bundle",
         "tagline": "Pay what you want and help charity",
         "briefUrl": "/engagements/humblebundle",
@@ -3226,36 +3226,6 @@
         "target_groups": []
     },
     {
-        "name": "Afterpay Bug Bounty Program",
-        "tagline": "Keeping Afterpay secure for our customers and merchants.",
-        "briefUrl": "/engagements/afterpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/338116b6ef9acf0915bbbe549b1dbdbe_Screenshot_2024-09-17_at_4.33.16_PM.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/afterpay/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Twilio",
         "tagline": "A Cloud Communications Company",
         "briefUrl": "/engagements/twilio",
@@ -3493,6 +3463,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/foxycart/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Afterpay Bug Bounty Program",
+        "tagline": "Keeping Afterpay secure for our customers and merchants.",
+        "briefUrl": "/engagements/afterpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/338116b6ef9acf0915bbbe549b1dbdbe_Screenshot_2024-09-17_at_4.33.16_PM.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/afterpay/engagement_subscribers",
         "target_groups": []
     },
     {
