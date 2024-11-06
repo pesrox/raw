@@ -24144,19 +24144,6 @@
         },
         "domains": [
             {
-                "id": "e37ccd68-183a-44ab-9f3a-2f83bf51a907",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.paperspace.com/",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
                 "id": "11711a6c-9d83-40b0-8433-6a7b2da4e598",
                 "type": {
                     "id": 7,
@@ -24207,19 +24194,6 @@
                     "value": "Tier 2"
                 },
                 "description": "Findings against resources owned by your account should be filed underneath this asset.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you."
-            },
-            {
-                "id": "e55e3804-3077-48a4-b82d-247ced501634",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "css-tricks.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
             },
             {
                 "id": "700f5797-30a5-4d11-9678-7f7c913baf45",
@@ -24441,6 +24415,19 @@
                     "value": "Tier 2"
                 },
                 "description": null
+            },
+            {
+                "id": "e028969b-4bc4-4df3-82b7-a947b6248135",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "paperspace.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "We do not currently offer bounty rewards for findings related to the `paperspace.com` domain or associated sub-domains."
             },
             {
                 "id": "00921202-f970-4c64-ac41-301a3380cfbd",
