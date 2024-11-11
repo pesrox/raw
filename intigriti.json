@@ -28545,5 +28545,231 @@
                 "description": null
             }
         ]
+    },
+    {
+        "id": "f8b4efd3-7722-40b1-8a96-faedf489c9d5",
+        "handle": "zabkagroup-vdp",
+        "name": "Zabka Group Vulnerability Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app-dev.intigriti.rocks/auth/dashboard?redirect=/programs/zabkapolska/zabkagroup-vdp/detail"
+        },
+        "domains": [
+            {
+                "id": "5cd4e429-a873-4274-87e4-7e49a0ddb93e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.zabka.pl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "5bc4d3de-f291-4274-b434-6a8706c66740",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://delio.com.pl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "499438af-f1f0-45cd-8044-85f94db36fa8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://dietly.pl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "5c698e36-e703-41aa-82e1-3e01f0adc87e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://jush.pl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "9ce7d8c6-c681-4ae4-8cc1-d94512d7e8b7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://lite.tech",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "6edf1ddb-745d-471b-acc0-ab580b664e45",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://maczfit.pl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "9d3e0feb-c72e-458e-965d-4d67a6614f80",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://masterlifecrm.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "7af99665-1d7a-4e76-9b02-3a70892c8362",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://zabka.pl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "04bbe823-ff52-43d7-bee1-f8d5eac27fb9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://zabkagroup.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "2bee4a27-7212-43e7-a4a9-4964fa69407e",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Mobile applications",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "[\u017babka Jush Android](https://play.google.com/store/apps/details?id=pl.jush.app)\n[\u017babka Jush iOS](https://apps.apple.com/pl/app/%C5%BCabka-jush-zakupy-z-dostaw%C4%85/id1585639034)\n[Bink Android](https://play.google.com/store/apps/details?id=app.lite.bink)\n[Maczfit Android](https://play.google.com/store/apps/details?id=com.maczfit.app2)\n[Maczfit iOS](https://apps.apple.com/pl/app/maczfit/id1519195072)\n[MaczDostawca Android](https://play.google.com/store/apps/details?id=pl.maczfit.maczdostawca2)\n[MaczDostawca iOS](https://apps.apple.com/pl/app/maczdostawca/id1621061172?)\n[Dietly Android](https://play.google.com/store/apps/details?id=com.dietly.panel)\n[Dietly iOS](https://apps.apple.com/pl/app/dietly/id1642713520)\n[Cyberstore Android](https://play.google.com/store/apps/details?id=pl.zabka.cyberstore&hl=pl)"
+            },
+            {
+                "id": "49d70256-511b-4456-b1b0-73119b312816",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.zabka-snrs.zabka.pl",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "c5668272-67ec-44eb-9c4f-e36423d7ca25",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "195.94.213.80 - 195.94.213.95",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "de526194-35a3-45e2-a7f2-91588267cf64",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "217.153.50.112 - 217.153.50.127",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "f600ac0c-7b01-4642-b772-3f4c3b33921e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "zabka-snrs.zabka.pl",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "6786685f-1e69-49c6-aabd-3ee372af8960",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "\u017babka Nano stores",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
     }
 ]
