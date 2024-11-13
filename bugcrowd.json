@@ -876,7 +876,7 @@
         "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
@@ -1326,7 +1326,7 @@
         "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
@@ -1536,7 +1536,7 @@
         "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
@@ -3602,36 +3602,6 @@
         "target_groups": []
     },
     {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $20,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/openai/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Under Armour AppSec",
         "tagline": "Under Armour\u2019s vision is to inspire you with performance solutions you never knew you needed and can\u2019t imagine living without.",
         "briefUrl": "/engagements/underarmour",
@@ -3659,36 +3629,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/underarmour/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Sendbird",
-        "tagline": "Boost app engagement with modern chat, voice and video features.",
-        "briefUrl": "/engagements/sendbird-mbb",
-        "backgroundColor": "#6210CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7790/9519/bdbc91ae/210983b0044133f8fc9f72107033767a_Screen_Shot_2022-06-29_at_10.41.20_AM.png",
-        "rewardSummary": {
-            "summary": "$100 - $2,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$2,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/sendbird-mbb/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -3779,6 +3719,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/linktree-mbb-og/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,500",
+            "hint": "Up to $20,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/openai/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Sendbird",
+        "tagline": "Boost app engagement with modern chat, voice and video features.",
+        "briefUrl": "/engagements/sendbird-mbb",
+        "backgroundColor": "#6210CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/7790/9519/bdbc91ae/210983b0044133f8fc9f72107033767a_Screen_Shot_2022-06-29_at_10.41.20_AM.png",
+        "rewardSummary": {
+            "summary": "$100 - $2,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$2,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/sendbird-mbb/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -4405,6 +4405,36 @@
         "target_groups": []
     },
     {
+        "name": "Mastercard Public Bug Bounty ",
+        "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
+        "briefUrl": "/engagements/mastercard",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b4a9/84bb/3dce2d73/b0f1f87e4b18bed77f9242b568d5f365_FINAL_-_Works_for_brief.png",
+        "rewardSummary": {
+            "summary": "$50 - $5,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/mastercard/engagement_subscribers",
+        "target_groups": []
+    },
+    {
         "name": "FoxyCart",
         "tagline": "A superior ecommerce experience",
         "briefUrl": "/engagements/foxycart",
@@ -4462,36 +4492,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/epam-mbb-og/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Mastercard Public Bug Bounty ",
-        "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
-        "briefUrl": "/engagements/mastercard",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b4a9/84bb/3dce2d73/b0f1f87e4b18bed77f9242b568d5f365_FINAL_-_Works_for_brief.png",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/mastercard/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -5381,36 +5381,6 @@
         "target_groups": []
     },
     {
-        "name": "Certinia (formerly FinancialForce)",
-        "tagline": "Certinia gives you a complete, customer-centric view of your business on the world's #1 cloud platform from Salesforce",
-        "briefUrl": "/engagements/financialforce",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/87cf/2179/789ee514/96318c0412eb5efd1b0174aec66a336b_Marquee_Monogram_Square_Black_Web__3_.png",
-        "rewardSummary": {
-            "summary": "$175 - $4,500",
-            "hint": null,
-            "minReward": "$175",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/financialforce/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "CyberGhost",
         "tagline": "Make privacy your default setting!",
         "briefUrl": "/engagements/cyberghost",
@@ -5468,36 +5438,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/bugcrowd/engagement_subscribers",
-        "target_groups": []
-    },
-    {
-        "name": "Dropbox",
-        "tagline": "Your stuff, anywhere",
-        "briefUrl": "/engagements/dropbox",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dropbox/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -5768,6 +5708,66 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/binance/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Certinia (formerly FinancialForce)",
+        "tagline": "Certinia gives you a complete, customer-centric view of your business on the world's #1 cloud platform from Salesforce",
+        "briefUrl": "/engagements/financialforce",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/87cf/2179/789ee514/96318c0412eb5efd1b0174aec66a336b_Marquee_Monogram_Square_Black_Web__3_.png",
+        "rewardSummary": {
+            "summary": "$175 - $4,500",
+            "hint": null,
+            "minReward": "$175",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/financialforce/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Dropbox",
+        "tagline": "Your stuff, anywhere",
+        "briefUrl": "/engagements/dropbox",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/0cc4/7b16/6385b5ca/f8628e7874cb382cdd59efd7aaa1aea1_Tab_-_256x265.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/dropbox/engagement_subscribers",
         "target_groups": []
     }
 ]
