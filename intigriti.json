@@ -3292,58 +3292,6 @@
         },
         "domains": [
             {
-                "id": "4dfbddce-c8c0-45c7-9a1a-e0a68d66c1af",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mynk-dash.ninjakiwi.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            },
-            {
-                "id": "4dd560cf-fba9-4429-85fc-6ae3bc44feb6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "support.ninjakiwi.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "1130fc41-6aeb-4e1d-892f-f25bb3115cf4",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "store.ninjakiwi.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "266f3f5e-c3d5-4f41-b81f-a662bd0c9951",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "boomer2.ninjakiwi.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            },
-            {
                 "id": "e9eaf570-8224-4198-acac-adc07ec79656",
                 "type": {
                     "id": 1,
@@ -3487,12 +3435,38 @@
                 "description": null
             },
             {
+                "id": "266f3f5e-c3d5-4f41-b81f-a662bd0c9951",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "boomer2.ninjakiwi.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
                 "id": "2654eace-28e5-444a-b782-4b3acaf3aa1c",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "ct.ninjakiwi.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "4dfbddce-c8c0-45c7-9a1a-e0a68d66c1af",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mynk-dash.ninjakiwi.com",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -3524,6 +3498,32 @@
                     "value": "No Bounty"
                 },
                 "description": "This domain will be considered out of scope unless it can be shown to allow an exploit on one of our Tier 1-3 domains.\n\n"
+            },
+            {
+                "id": "1130fc41-6aeb-4e1d-892f-f25bb3115cf4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "store.ninjakiwi.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "If you've found an issue with this domain you can contact Shopify here - https://www.shopify.com/bugbounty"
+            },
+            {
+                "id": "4dd560cf-fba9-4429-85fc-6ae3bc44feb6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "support.ninjakiwi.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "If you've found an issue with this domain you can contact Zendesk here - https://support.zendesk.com/hc/en-us/articles/4409154830874-Zendesk-Bug-Bounty-Program"
             }
         ]
     },
