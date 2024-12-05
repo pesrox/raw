@@ -20,7 +20,7 @@
         "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Public Bug Bounty",
@@ -120,29 +120,6 @@
         "target_groups": []
     },
     {
-        "name": "1Password Bug Bounty CTF",
-        "tagline": "We introduced a $1 million CTF bug bounty challenge in 2022 to further our commitment to providing an industry-leading security platform for individuals, families, and businesses.",
-        "briefUrl": "/engagements/agilebits-ctf",
-        "backgroundColor": "#1A8CFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d43f/c1cc/e438d387/2bf97c47692e17b59016dbec268cf05c_adf52a8b65406a0323c153ab8b27f505_1Password-Lock_2x.png",
-        "rewardSummary": null,
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/agilebits-ctf/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": " 1Password",
         "tagline": "1Password is the world's best password manager. Perfect for protecting your business, team, and family.",
         "briefUrl": "/engagements/agilebits",
@@ -170,6 +147,29 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/agilebits/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "1Password Bug Bounty CTF",
+        "tagline": "We introduced a $1 million CTF bug bounty challenge in 2022 to further our commitment to providing an industry-leading security platform for individuals, families, and businesses.",
+        "briefUrl": "/engagements/agilebits-ctf",
+        "backgroundColor": "#1A8CFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/d43f/c1cc/e438d387/2bf97c47692e17b59016dbec268cf05c_adf52a8b65406a0323c153ab8b27f505_1Password-Lock_2x.png",
+        "rewardSummary": null,
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/agilebits-ctf/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -3399,36 +3399,6 @@
         "target_groups": []
     },
     {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $20,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/openai/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Pinterest",
         "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
         "briefUrl": "/engagements/pinterest",
@@ -3606,6 +3576,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/sendbird-mbb/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,500",
+            "hint": "Up to $20,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/openai/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -4555,36 +4555,6 @@
         "target_groups": []
     },
     {
-        "name": "Bugcrowd",
-        "tagline": "Outhack Them All\u2122",
-        "briefUrl": "/engagements/bugcrowd",
-        "backgroundColor": "#1a1a1a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Intercom",
         "tagline": "A fundamentally new way to communicate with your customers. Intercom is one place for every team in an internet business to communicate with customers, personally, at scale\u2014on your website, inside web and mobile apps, and by email.",
         "briefUrl": "/engagements/intercom",
@@ -4882,6 +4852,36 @@
             "iconVariant": "ngpt"
         },
         "subscriptionUrl": "/shoppingcart/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Bugcrowd",
+        "tagline": "Outhack Them All\u2122",
+        "briefUrl": "/engagements/bugcrowd",
+        "backgroundColor": "#1a1a1a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
         "target_groups": []
     },
     {
@@ -5448,36 +5448,6 @@
         "target_groups": []
     },
     {
-        "name": "Moneytree KK",
-        "tagline": "Your Lifetime Financial Record",
-        "briefUrl": "/engagements/moneytreekkog",
-        "backgroundColor": "#11C048",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c891/9763/1f705e53/210983b0044133f8fc9f72107033767a_moneytree-logo.png",
-        "rewardSummary": {
-            "summary": "$300 - $5,000",
-            "hint": null,
-            "minReward": "$300",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/moneytreekkog/engagement_subscribers",
-        "target_groups": []
-    },
-    {
         "name": "Pantheon",
         "tagline": "Website development is complex. Hosting makes it harder. Top developers, marketers, and IT pros use Pantheon to build, launch, and run all their Drupal and WordPress sites. ",
         "briefUrl": "/engagements/pantheon",
@@ -5798,6 +5768,36 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/opera/engagement_subscribers",
+        "target_groups": []
+    },
+    {
+        "name": "Moneytree KK",
+        "tagline": "Your Lifetime Financial Record",
+        "briefUrl": "/engagements/moneytreekkog",
+        "backgroundColor": "#11C048",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c891/9763/1f705e53/210983b0044133f8fc9f72107033767a_moneytree-logo.png",
+        "rewardSummary": {
+            "summary": "$300 - $5,000",
+            "hint": null,
+            "minReward": "$300",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Public Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/moneytreekkog/engagement_subscribers",
         "target_groups": []
     }
 ]
