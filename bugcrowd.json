@@ -323,10 +323,10 @@
         "industryName": "Games",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
-            "label": "Public Bug Bounty",
+            "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/aurory-mbb-og2/engagement_subscribers",
@@ -1133,37 +1133,6 @@
         "target_groups": []
     },
     {
-        "name": "Nubank Brasil Managed Bug Bounty Program",
-        "tagline": "Nubank Brasil is in a mission to fight complexity to empower people in their daily lives by reinventing financial services. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/nubank",
-        "backgroundColor": "#8303d2",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f21e/3f46/4f32c0b2/42cbdf52425e327f162e7df7a19e8614_nubank.png",
-        "rewardSummary": {
-            "summary": "$50 - $4,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/nubank/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "ExpressVPN",
         "tagline": "Help us improve the security and privacy of ExpressVPN users.",
         "briefUrl": "/engagements/expressvpn",
@@ -1691,37 +1660,6 @@
         "target_groups": []
     },
     {
-        "name": "Viator",
-        "tagline": "Viator - Travel with an Insider",
-        "briefUrl": "/engagements/viator",
-        "backgroundColor": "#00759a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9ba4/5da2/66f7c128/2a4682465d62350d6b039c0f31279664_ViatorLogo.png",
-        "rewardSummary": {
-            "summary": "$200 - $4,500",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/viator/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "USAA",
         "tagline": "We proudly serve millions of military members and their families with competitive rates on insurance, banking and investment services.",
         "briefUrl": "/engagements/usaa",
@@ -1873,6 +1811,68 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/square/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Nubank Brasil Managed Bug Bounty Program",
+        "tagline": "Nubank Brasil is in a mission to fight complexity to empower people in their daily lives by reinventing financial services. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/nubank",
+        "backgroundColor": "#8303d2",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f21e/3f46/4f32c0b2/42cbdf52425e327f162e7df7a19e8614_nubank.png",
+        "rewardSummary": {
+            "summary": "$50 - $4,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/nubank/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Viator",
+        "tagline": "Viator - Travel with an Insider",
+        "briefUrl": "/engagements/viator",
+        "backgroundColor": "#00759a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9ba4/5da2/66f7c128/2a4682465d62350d6b039c0f31279664_ViatorLogo.png",
+        "rewardSummary": {
+            "summary": "$200 - $4,500",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/viator/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -2886,37 +2886,6 @@
         "target_groups": []
     },
     {
-        "name": "Bugcrowd",
-        "tagline": "Outhack Them All\u2122",
-        "briefUrl": "/engagements/bugcrowd",
-        "backgroundColor": "#1a1a1a",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
-        "rewardSummary": {
-            "summary": "$100 - $10,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Unity Technologies",
         "tagline": "Unity brings state-of-the-art, affordable multiplatform tools and services to developers of interactive content everywhere.",
         "briefUrl": "/engagements/unity",
@@ -3192,6 +3161,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/aylo-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Bugcrowd",
+        "tagline": "Outhack Them All\u2122",
+        "briefUrl": "/engagements/bugcrowd",
+        "backgroundColor": "#1a1a1a",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ef74/d1fa/62a5b64c/3809e0af42850a579f02c3434743e3ca_bugcrowd__1_.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bugcrowd/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -4894,37 +4894,6 @@
         "target_groups": []
     },
     {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $20,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/openai/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Sendbird",
         "tagline": "Boost app engagement with modern chat, voice and video features.",
         "briefUrl": "/engagements/sendbird-mbb",
@@ -5045,6 +5014,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/immutable/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
+        "rewardSummary": {
+            "summary": "$200 - $6,500",
+            "hint": "Up to $20,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/openai/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -5531,37 +5531,6 @@
         "target_groups": []
     },
     {
-        "name": "Bullish.com",
-        "tagline": "Help Secure Bullish - a new breed of exchange",
-        "briefUrl": "/engagements/bullish",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a096/19bc/33a8b4d8/182cd3c3d9ea5fa12c77d0670154750d_Bullish-logomark-black-128px.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $12,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$12,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Public Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bullish/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Comcast Xfinity Bug Bounty",
         "tagline": "Welcome to the Xfinity Bug Bounty program!",
         "briefUrl": "/engagements/comcast-mbb",
@@ -5992,6 +5961,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/entain-public-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Bullish.com",
+        "tagline": "Help Secure Bullish - a new breed of exchange",
+        "briefUrl": "/engagements/bullish",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a096/19bc/33a8b4d8/182cd3c3d9ea5fa12c77d0670154750d_Bullish-logomark-black-128px.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $12,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$12,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bullish/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     }
