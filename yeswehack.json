@@ -1,9 +1,9 @@
 [
     {
-        "title": "Yes We Hack",
-        "slug": "yes-we-hack",
-        "country": "FR",
-        "activity_area": "CyberSec",
+        "title": "toom Baumarkt GmbH - Bug Bounty Program (toom.de)",
+        "slug": "toom-baumarkt-gmbh-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Retail",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -19,50 +19,44 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 485,
+        "reports_count": 169,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 15000,
-        "scopes_count": 3,
+        "bounty_reward_max": 2000,
+        "scopes_count": 2,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "0db467e0-a45c-4515-8856-efc2cc12a41f",
-            "original_name": "YWH-logo.jpg",
-            "mime_type": "image/jpeg",
-            "size": 65866,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/0db467e0-a45c-4515-8856-efc2cc12a41f"
+            "name": null,
+            "original_name": null,
+            "mime_type": null,
+            "size": null,
+            "url": null
         },
         "event": null,
         "business_unit": {
-            "name": "Yes We Hack",
-            "slug": "yes-we-hack",
-            "description": "Global Bug Bounty & VDP Platform",
+            "name": "Toom Baumarkt",
+            "slug": "toom-baumarkt-gmbh",
+            "description": "toom Baumarkt GmbH",
             "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "9196423d-9223-4c0b-9548-0632f77d18ae",
-                "original_name": "YWH.jpg",
-                "mime_type": "image/jpeg",
-                "size": 81815,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/9196423d-9223-4c0b-9548-0632f77d18ae"
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
             }
         },
         "scopes": [
             {
-                "scope": "https://yeswehack.com",
+                "scope": "https://toom.de",
                 "scope_type": "web-application",
-                "asset_value": "CRITICAL",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://api.yeswehack.com",
+                "scope": "https://api.toom.de",
                 "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.yeswehack.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
+                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -87,7 +81,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 342,
+        "reports_count": 343,
         "bounty_reward_min": 100,
         "bounty_reward_max": 10000,
         "scopes_count": 9,
@@ -172,10 +166,10 @@
         ]
     },
     {
-        "title": "toom Baumarkt GmbH - Bug Bounty Program (toom.de)",
-        "slug": "toom-baumarkt-gmbh-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Retail",
+        "title": "Yes We Hack",
+        "slug": "yes-we-hack",
+        "country": "FR",
+        "activity_area": "CyberSec",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -191,44 +185,50 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 168,
+        "reports_count": 485,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 2,
+        "bounty_reward_max": 15000,
+        "scopes_count": 3,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": null,
-            "original_name": null,
-            "mime_type": null,
-            "size": null,
-            "url": null
+            "name": "0db467e0-a45c-4515-8856-efc2cc12a41f",
+            "original_name": "YWH-logo.jpg",
+            "mime_type": "image/jpeg",
+            "size": 65866,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/0db467e0-a45c-4515-8856-efc2cc12a41f"
         },
         "event": null,
         "business_unit": {
-            "name": "Toom Baumarkt",
-            "slug": "toom-baumarkt-gmbh",
-            "description": "toom Baumarkt GmbH",
+            "name": "Yes We Hack",
+            "slug": "yes-we-hack",
+            "description": "Global Bug Bounty & VDP Platform",
             "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
+                "name": "9196423d-9223-4c0b-9548-0632f77d18ae",
+                "original_name": "YWH.jpg",
+                "mime_type": "image/jpeg",
+                "size": 81815,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/9196423d-9223-4c0b-9548-0632f77d18ae"
             }
         },
         "scopes": [
             {
-                "scope": "https://toom.de",
+                "scope": "https://yeswehack.com",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://api.toom.de",
+                "scope": "https://api.yeswehack.com",
                 "scope_type": "api",
-                "asset_value": "LOW",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.yeswehack.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
