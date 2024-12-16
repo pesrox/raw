@@ -3705,7 +3705,7 @@
         "industryName": "Retail",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -4057,37 +4057,6 @@
         "target_groups": []
     },
     {
-        "name": "Skroutz Public Managed Bug Bounty",
-        "tagline": "Skroutz",
-        "briefUrl": "/engagements/skroutz",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $4,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/skroutz/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Atlassian",
         "tagline": "Collaboration tools for teams of all sizes",
         "briefUrl": "/engagements/atlassian",
@@ -4115,6 +4084,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/atlassian/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Skroutz Public Managed Bug Bounty",
+        "tagline": "Skroutz",
+        "briefUrl": "/engagements/skroutz",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eedc/7027/5e167a91/da511d3b0ab66f96649676e4a2ee0961_1624451643286.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/skroutz/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
