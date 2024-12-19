@@ -2127,11 +2127,11 @@
         "name": "Port of Antwerp-Bruges",
         "following": false,
         "minBounty": {
-            "value": 0.0,
+            "value": 50.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 3500.0,
+            "value": 4500.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -2369,7 +2369,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null
+                "description": "NEW login page"
             },
             {
                 "id": "920703a3-0d0e-41c0-a673-0d0a7297cad5",
@@ -2395,7 +2395,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null
+                "description": "New login page"
             },
             {
                 "id": "493e462c-0e6e-411d-be87-36b2269957ab",
@@ -17856,50 +17856,6 @@
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
-                },
-                "description": null
-            }
-        ]
-    },
-    {
-        "id": "9989861c-bd78-490b-b108-fc13869ba7c6",
-        "handle": "challenge1224",
-        "name": "Challenge 1224 by Jorian",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge1224/detail"
-        },
-        "domains": [
-            {
-                "id": "dca124f1-0b16-4514-960d-c8e6272e42d6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://challenge-1224.intigriti.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
                 },
                 "description": null
             }
