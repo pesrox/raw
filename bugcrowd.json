@@ -20,7 +20,7 @@
         "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -299,7 +299,7 @@
         "industryName": "Computer Software",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -5662,37 +5662,6 @@
         "target_groups": []
     },
     {
-        "name": "Afterpay Bug Bounty Program",
-        "tagline": "Keeping Afterpay secure for our customers and merchants.",
-        "briefUrl": "/engagements/afterpay",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/338116b6ef9acf0915bbbe549b1dbdbe_Screenshot_2024-09-17_at_4.33.16_PM.png",
-        "rewardSummary": {
-            "summary": "$100 - $5,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/afterpay/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Indeed",
         "tagline": "We help people get jobs.",
         "briefUrl": "/engagements/indeed",
@@ -5999,6 +5968,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/epam-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Afterpay Bug Bounty Program",
+        "tagline": "Keeping Afterpay secure for our customers and merchants.",
+        "briefUrl": "/engagements/afterpay",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/30b7/fab9/adf339aa/338116b6ef9acf0915bbbe549b1dbdbe_Screenshot_2024-09-17_at_4.33.16_PM.png",
+        "rewardSummary": {
+            "summary": "$100 - $5,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/afterpay/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     }
