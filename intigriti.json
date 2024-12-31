@@ -4663,25 +4663,64 @@
         },
         "domains": [
             {
-                "id": "0e99859f-1c63-415b-9dfa-2185de4b0deb",
+                "id": "c43a5f2c-5f77-4adc-b422-6254cce1ff45",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://mijn.jessazh.be/welkombezoekeracc/",
+                "endpoint": " jip.acc.jessazh.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "We are mainly interested in exploits for:\n\n* exploits in Azure authentication\n* resource protection\n* direct API Access\n* modifying resources\n* this is an internal site that should be be accessible to anonymous users\n\n\n\n"
+            },
+            {
+                "id": "e84b9432-51a3-47a6-9c46-6a119de6a39a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.acc.jessazh.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "We are mainly interested in exploits for:\n\n* exploits in Azure authentication\n* resource protection\n* direct API Access\n* modifying resources\n\nCurrently out of scope, HTML injection due to pending patches.\n\n\n"
+            },
+            {
+                "id": "1c72b6be-eb2f-456f-b766-233ec81fccb8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.acc.werkenbijjessa.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "We are mainly interested in exploits for:\n\n* exploits in Azure authentication\n* resource protection\n* direct API Access\n* modifying resources\n\n\n"
+            },
+            {
+                "id": "2ada7d0a-779d-4c81-a711-f7a4b54fbae5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "%/welkombezoeker/rest/visitor/bat/%",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Since these are covered in a different program:"
+                "description": null
             },
             {
-                "id": "ed1bf963-371c-4aef-874a-dc6ce48b7628",
+                "id": "81de52cd-a469-42f2-b967-7d419689495d",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://mijn.jessazh.be/welkombezoeker/",
+                "endpoint": "https://mijn.jessazh.be/ara/",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -4702,12 +4741,12 @@
                 "description": "Since these are covered in a different program:"
             },
             {
-                "id": "81de52cd-a469-42f2-b967-7d419689495d",
+                "id": "ed1bf963-371c-4aef-874a-dc6ce48b7628",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://mijn.jessazh.be/ara/",
+                "endpoint": "https://mijn.jessazh.be/welkombezoeker/",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -4715,69 +4754,17 @@
                 "description": "Since these are covered in a different program:"
             },
             {
-                "id": "2ada7d0a-779d-4c81-a711-f7a4b54fbae5",
+                "id": "0e99859f-1c63-415b-9dfa-2185de4b0deb",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "%/welkombezoeker/rest/visitor/bat/%",
+                "endpoint": "https://mijn.jessazh.be/welkombezoekeracc/",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": null
-            },
-            {
-                "id": "0e81fb5b-1b39-4c54-a2e9-5e813b04736e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mijn.jessazh.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "We are mainly interested in exploits for:\n\n* account takeover\n* resource protection"
-            },
-            {
-                "id": "c43a5f2c-5f77-4adc-b422-6254cce1ff45",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": " jip.acc.jessazh.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "We are mainly interested in exploits for:\n\n* exploits in Azure authentication\n* resource protection\n* direct API Access\n* modifying resources\n* this is an internal site that should be be accessible to anonymous users\n\n"
-            },
-            {
-                "id": "e84b9432-51a3-47a6-9c46-6a119de6a39a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.acc.jessazh.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "We are mainly interested in exploits for:\n\n* exploits in Azure authentication\n* resource protection\n* direct API Access\n* modifying resources\n\n\n"
-            },
-            {
-                "id": "1c72b6be-eb2f-456f-b766-233ec81fccb8",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.acc.werkenbijjessa.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "We are mainly interested in exploits for:\n\n* exploits in Azure authentication\n* resource protection\n* direct API Access\n* modifying resources\n\n\n"
+                "description": "Since these are covered in a different program:"
             }
         ]
     },
