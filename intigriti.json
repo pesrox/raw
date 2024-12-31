@@ -22465,30 +22465,17 @@
         },
         "domains": [
             {
-                "id": "71e869ed-57c7-47d2-baf1-53e9cd1d51f5",
+                "id": "603dbc64-ccaf-4cb1-b7d6-7b5849892ec9",
                 "type": {
-                    "id": 2,
-                    "value": "Android"
+                    "id": 1,
+                    "value": "Url"
                 },
-                "endpoint": "com.robinhood.gateway",
+                "endpoint": "shop.robinhood.com",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
-                "description": null
-            },
-            {
-                "id": "c23d69cf-0389-43f8-b4c5-058df70f6df5",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "com.robinhood.money",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
+                "description": "Report findings to Brilliant Made (https://www.brilliantmade.com/)"
             },
             {
                 "id": "ab9e02a7-042c-4376-a5e1-556a777fe79f",
@@ -22575,6 +22562,32 @@
                     "value": "Android"
                 },
                 "endpoint": "com.robinhood.android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "71e869ed-57c7-47d2-baf1-53e9cd1d51f5",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "com.robinhood.gateway",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "c23d69cf-0389-43f8-b4c5-058df70f6df5",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "com.robinhood.money",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
