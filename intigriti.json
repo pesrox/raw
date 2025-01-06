@@ -11820,6 +11820,102 @@
         ]
     },
     {
+        "id": "611efbaa-333e-4b7c-a3c0-89665abd3fe3",
+        "handle": "altera",
+        "name": "Altera",
+        "following": false,
+        "minBounty": {
+            "value": 500.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 30000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/altera/altera/detail"
+        },
+        "domains": [
+            {
+                "id": "5751ddf9-dee5-463b-88ee-a1b914c9cd9c",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Non Altera Products",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Any elements of a complete customer solution developed by entities other than Altera that may be included in a final customer solution.   Reports relating to such entities may be reported via the Altera Bug Bounty Program, but are not eligible for bounty payments. "
+            },
+            {
+                "id": "998ccf2a-dd3b-4477-a3a0-79cd7de62c01",
+                "type": {
+                    "id": 5,
+                    "value": "Device"
+                },
+                "endpoint": "Firmware",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Firmware developed by Altera that executes within our FPGA products regardless of the storage media.   Excludes any software that executes the Hard Processor Subsystem, or any software that executes on an embedded processor instantiated in soft-logic within the FPGA by a customer."
+            },
+            {
+                "id": "3a5e9025-295b-435a-bad1-8d8bd80173fc",
+                "type": {
+                    "id": 5,
+                    "value": "Device"
+                },
+                "endpoint": "Hardware",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "FPGA Integrated Circuit hardware.   This may includes both a base FPGA and any associated co-packaged integrated circuits. "
+            },
+            {
+                "id": "50d2d54b-31da-4174-a040-9a9679eb4671",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Software",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Altera Developed Device Drivers that execute on a host computer that is connected to an Altera FPGA, used to manage or control the FPGA or any functions implemented by the customer within the FPGA."
+            },
+            {
+                "id": "c542cc74-3298-42da-a9ab-0af9563e8796",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "FPGA Solution Development Tools and Utilities",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Tools developed by Altera such as the Quartus Tool Suite used by customers to develop a solution that may comprise software, soft-logic that is hosted within an Altera FPGA device.   Also includes various Altera authored supporting utilities used to manage deployment of customer designs to Altera FPGAs."
+            }
+        ]
+    },
+    {
         "id": "618bdc2f-9207-47cc-8c5c-71b734900359",
         "handle": "delijn",
         "name": "De Lijn",
@@ -21175,8 +21271,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
