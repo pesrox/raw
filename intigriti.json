@@ -6564,6 +6564,32 @@
         },
         "domains": [
             {
+                "id": "c6175577-8435-4395-b1d7-cfe51d38007c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.weareone.world",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Currently as T2, will be evaluated on individual basis."
+            },
+            {
+                "id": "f0cdc70c-6d9b-4940-ad90-05954a3fbca9",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.stag.weareone.world",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
                 "id": "7cc6754d-c09d-4ea9-bf4a-7c2f34357866",
                 "type": {
                     "id": 1,
@@ -6577,17 +6603,30 @@
                 "description": null
             },
             {
-                "id": "c15e0a3f-9182-4a44-940f-3fb15144b3a1",
+                "id": "25084e68-9269-45e7-b15c-04694a8ba502",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "cognito-idp.eu-west-1.amazonaws.com",
+                "endpoint": "belgium.tomorrowland.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null
+                "description": "Vulnerabilities found on either winter/brasil/belgium .tomorrowland.com will be considered duplicate."
+            },
+            {
+                "id": "875c6501-c2d7-464a-8309-3fe960c077c3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "brasil.tomorrowland.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Vulnerabilities found on either winter/brasil/belgium .tomorrowland.com will be considered duplicate."
             },
             {
                 "id": "b26fb1f6-791a-4025-a038-61eaad428b7e",
@@ -6668,6 +6707,58 @@
                 "description": null
             },
             {
+                "id": "3f835021-eb81-40c8-9310-5f1ee5c43346",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "tlbe.prod.tomorrowland.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Vulnerabilities found on either TLFR/TLBR/TLBE.prod.tomorrowland.com will be considered duplicate."
+            },
+            {
+                "id": "112bea72-b5a5-4c2e-a432-cf033339c789",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "tlbr.prod.tomorrowland.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Vulnerabilities found on either TLFR/TLBR/TLBE.prod.tomorrowland.com will be considered duplicate."
+            },
+            {
+                "id": "7f48018e-a1e7-4235-8105-24fc2943dbd9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "tlfr.prod.tomorrowland.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Vulnerabilities found on either TLFR/TLBR/TLBE.prod.tomorrowland.com will be considered duplicate."
+            },
+            {
+                "id": "64232cf1-2b53-45ac-a8a0-f4b7166555fe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "winter.tomorrowland.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Vulnerabilities found on either winter/brasil/belgium .tomorrowland.com will be considered duplicate."
+            },
+            {
                 "id": "df5b2091-cf3b-4c10-858d-c82914a19589",
                 "type": {
                     "id": 1,
@@ -6690,6 +6781,19 @@
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "3c7a6dde-b366-44e4-a23c-e6b91fafda0f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.stag.tomorrowland.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": null
             },
@@ -10968,6 +11072,63 @@
         ]
     },
     {
+        "id": "5d4636ea-c62f-4480-938c-85d5011bf0a5",
+        "handle": "vcf-hypervisors",
+        "name": "VCF - Hypervisors (Workstation, Fusion, ESXi)",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 10000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/vmware/vcf-hypervisors/detail"
+        },
+        "domains": [
+            {
+                "id": "5fa02967-14fe-4e29-a683-886b77cd15ac",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "ESXi",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The ESXi Test Environment has the following in-scope product:\n\n| VMware Product |  Version  |  Runs on |  Download | Remarks |\n| --- | --- | --- | --- | --- |\n| VMware ESXi | 8.0 | Bare metal or in a Virtual Machine | See Intigriti ESXi Deployment guide  |   |\n\n**Test Environment**\nParticipants will need to setup ESXi. To make this as easy as possible a deployment guide with screenshots is provided, see the document \"Intigriti ESXi Deployment guide\". For managing ESXi from VC, see the document \"Intigriti ESXi and vCenter Server Connect guide\".\n\n**Licenses**\nFor now, please use the build-in, free 60-day license. We are planning to provide ESXi licenses later in the program.\n\n**Attack surface**\nWe think a step up from trying to find issues on Workstation and Fusion would be to try to hack ESXi. Issues similar to those mentioned below are present in ESXi.\nExamples of previously fixed CVEs in ESXi:\n- [CVE-2024-22252](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24266) - code execution in host sandbox from Virtual Machine\n- [CVE-2024-22254](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24266) - sandbox escape on the host\n- [CVE-2021-21974](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23599) - unauthorized remote code execution\n\n**Please note that this specific ESXi issue is removed from scope**\n\u2022\tIssues with PXE booting of virtual machines\n\n**Additional Documentation**\n\u2022\t[Intigriti ESXi Deployment guide](https://docs.google.com/document/d/1xGz_axZK2Y21QHC4KM45kyNrPErkqLbKie5Y6nQmg0k/edit?usp=sharing)\n\u2022\t[Intigriti ESXi and vCenter Server Connect guide](https://docs.google.com/document/d/1Y3sEznjJ40JxF8rd9x02GCZ1Eb9mRjhuJPzQFeHUN6w/edit?usp=sharing)\n\u2022\t[ESXi Command Line Interface](https://developer.broadcom.com/powercli)"
+            },
+            {
+                "id": "fe80a0a8-4896-424d-86d0-39c31cfd9477",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Fusion, Workstation",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Workstation and Fusion Test Environments have the following in-scope products:\n\n| VMware Product |  Version  |  Runs on |  Download  |  Remarks |\n| --- | --- | --- | --- | --- |  \n| Workstation Pro |  17.5.2  |  Windows, Linux  | [Site](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro) |     Login to your free Broadcom Support account before download. |  \n| Fusion Pro |  13.5.2  |  MacOS | [Site](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Fusion) |  Login to your free Broadcom Support account before download. |  \n| [VMware Tools](https://docs.vmware.com/en/VMware-Tools/index.html)  |  12.4.0  |  Windows, MacOS | [Site](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Tools) |   Login to your free Broadcom Support account before download. When dowloading, don\u2019t forget to check \u201cI agree to Broadcom Terms and Conditions\u201d. |  \n| [open-vm-tools](https://kb.vmware.com/s/article/2073803) |  12.4.0 or above   |  Linux  | [Site](https://github.com/vmware/open-vm-tools) |   VMTools for Linux is included natively in most Linux distributions.  | \n\n**Test Environment**\nParticipants are expected to use their locally installed version of Workstation or Fusion.\n\n**Credentials**\nWorkstation and Fusion are now free when used for personal use and no license is provided through Intigriti. For more details why Broadcom made them free read Michael Roy\u2019s [Workstation blog post](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html) and [Fusion blog post](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html). See the table for download links.\n\n**Attack Surface Workstation & Fusion**\nThe installation of Workstation of Fusion on the host operating system might result in adding vulnerability to the host.\nExamples of previously fixed CVEs on the host are:\n- [CVE-2023-20854](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23659) - A less-privilege user on the host may delete arbitrary files\n- [CVE-2022-22983](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23651) - Disclosure of user passwords\n\nThe guest Virtual Machines and their interaction with the host are other areas where issues have been found. The guest is not expected to be able to disrupt the host or corrupt memory on the host. There might be privilege escalation possible on the guest due to VMware installed components. \nExamples of previously fixed CVEs that originated on the guest are:\n- [CVE-2024-22270](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24280) - information leak in the Host Guest File Sharing functionality\n- [CVE-2024-22268](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24280) - information leak in the vbluetooth device\n- [CVE-2024-22267](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24280) - Code execution on the host from the guest. Note: these issues are very hard to find and our expectation is that there are unlikely to be found in the program.\n\nAnother target is VMtools which runs in almost all Virtual Machines and has components on the host as well. VMTools enables features like cut & paste between the host and the guest.\nExamples of previously fixed CVEs in VMware Tools are:\n- [CVE-2023-34057](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23678) - privilege escalation in the Virtual Machine\n- [CVE-2023-34058](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23678) - SAML token by-pass\n\n**Please note that these specific Workstation and Fusion issues are removed from scope**\n* Issues in the Thinprint module in VMware Workstation. This module is not default enabled.\n* Local Privilege Escalation (LPE) on a system that runs VMware Fusion has been de-scoped. We are aware of these LPE issues and we are addressing the common root cause. LPE issues on Virtual Machines that run in Fusion are not de-scoped.\n* DLL hijacking in the host.\n* Issues resulting from a non-default install location of Workstation or Fusion\n* Issue that require the system to be prepared in a certain way prior to installation Workstation or Fusion\n\n\n**Additional Documentation**\nn/a"
+            }
+        ]
+    },
+    {
         "id": "5de2d6c2-26fa-44b2-ad27-a54beeb864ab",
         "handle": "prato",
         "name": "Prato",
@@ -10994,7 +11155,204 @@
         },
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/prato/prato/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "161d264a-86e9-463e-85f7-7cc7d6bd59e8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "11e26ddb-e573-4989-b4b3-37e1d61c5df3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://app-reporting-ui-intigrititestmt-test-001.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the Earnie reporting application.  "
+            },
+            {
+                "id": "3a7e4802-5f0f-4e4c-9de8-37367394147d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://azuregateway.prato.be/RDWeb",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Remote Desktop Services (RDS) plaform.\n\nWe are looking for unauthorized access (without login) to this production platform. Any proof of successful access (e.g. by reading sensitive customer data) will be considered a major submission and rewarded by us! Altering data in production is not allowed."
+            },
+            {
+                "id": "cd8db81b-cad9-4bdb-b886-f500772d0d56",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://earnie-bv.prato.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the BV service.  It contains a UI and services.  You get access to the UI from the dashboard link in PratoFlex ()"
+            },
+            {
+                "id": "df89f1bf-7634-43e7-bfd5-d2298850243e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://earnie-dmfa.prato.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "90559c4f-d581-4c40-b134-949f8170eecc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://earnie-dmfaui.prato.be/tenant/intigrititestmt",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "9b389515-0f58-491a-bb8b-046348b02ec2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://intigrititestmt.prato.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our PratoFlex domain.\n\n> Request credentials via the button.\n> More info about PratoFlex and Earnie can be found in the \"In Scope\" section"
+            },
+            {
+                "id": "1dde8ea1-b017-4ce7-a5fb-d45436540d59",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testearniedashboardintigrititestmtwa.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the Earnie dashboard.  It can be accessed from PratoFlex and centralizes access to the different Earnie microservices"
+            },
+            {
+                "id": "377606fe-2962-4e41-b204-e34ba03e152f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveasrintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "c0d153bf-f935-4799-b043-932e474236ec",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveasruiintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "e8b0f950-8d7d-4ddd-9545-f69e63c9065f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelvivebelcotaxintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "580f5b9c-5a98-4b7e-bd0d-00f38f9fcc3b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveboekhoudingintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "39e9e6f3-4555-4ce3-a836-b3c40be67e68",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveboekhoudinguiintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "0ca65eae-5886-42ed-8123-2d8b1503b804",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelvivebvuiintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "eb2356de-90cc-42fe-ba53-263e4b40bb52",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveloonbepalingintigrititestmtwa.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the loonbepaling microservices.  It is the new Earnie payroll engine."
+            }
+        ]
     },
     {
         "id": "5ed6962a-7017-4d60-8805-e169b638528d",
@@ -17836,6 +18194,50 @@
         ]
     },
     {
+        "id": "9d20f54a-a4af-4d59-9d11-3c7fe86a31ff",
+        "handle": "vcf-aria",
+        "name": "VCF - Aria Operations for Networks",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 10000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/vmware/vcf-aria/detail"
+        },
+        "domains": [
+            {
+                "id": "7785d537-bddf-4354-832f-7541da1adbf1",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Aria Operations for Networks",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Aria Operations for Networks (AON) Test Environment  has the following in-scope components:\n\n|  Component |  Location  |  Functionality |  Remarks |\n| --- | --- | --- | --- | \n| Aria Operations for Networks Platform |  Multi-tenant SaaS service managed by VMware |  Review network topology data, manage Collectors, set alerts | Credentials for an AON tenant account are provided through the \u201cShow Credentials\u201d button.  |    \n| Aria Operations for Networks Collector |  Customer\u2019s network, managed by customer   |  Data plane, provides end-points at customer\u2019s site.  |  |     \n\n**Test Environment**\nThe credentials give access to a tenant administrator account on the hosted Aria Operations for Networks Platform. The account is provided through VMware Cloud Services at console-stg.cloud.vmware.com. See the document Getting_started_on_Aria_Operations_for_Networks_environment.pdf on how to access the plaform. Due to resource limitations, the test environments are shared among participants.\n\n**Credentials**\nThe \u201cClaim\" button next to \"Credentials\" on this Web page will show set of credentials which can be used to login into CSP to access VMware Aria Operations for Networks.\nPlease see the details steps in the document Getting_started_on_Aria_Operations_for_Networks_environment.pdf\n\n**Issues we are most interested in**\n-\tTenant-to-tenant escape: get access to other tenant\u2019s data or environment.\n-\tTenant-to-Global escape: get access to VMware Cloud Services of another tenant.\n-\tRemote tenant entry: manage to compromise a tenant environment from the network\n-\tRemote Global entry: manage to compromise VMware Cloud Services from the network [VMSA-2023-0018](https://www.vmware.com/security/advisories/VMSA-2023-0018.html) \n-\tPrivilege escalation within the tenant environment (e.g., basic tenant user to admin tenant)\n-\tExploitation of the AON API (e.g., an escape issue or privilege escalation using the API instead of the UI)\n-\tCompromise of a Collector giving access to the underlaying Operating System.\n-\tCommand injection vulnerability to execute code within the trusted application [VMSA-2023-0012](https://www.vmware.com/security/advisories/VMSA-2023-0012.html) \n-\tStealing user credentials to simulate MITM attack\n\n**Issues removed from scope**\nN/A\n\n**Additional Documentation**\n\u2022\t[Getting_started_on_Aria_Operations_for_Networks.pdf](https://drive.google.com/file/d/1VVT6XVdK1WZ_IE1k2uSXwD5E34eEHBVl/view?usp=sharing)"
+            }
+        ]
+    },
+    {
         "id": "9ef59fe8-d021-4d23-9521-0d7d01da03ee",
         "handle": "peoplecert",
         "name": "PeopleCert VDP",
@@ -17862,7 +18264,92 @@
         },
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/peoplecert/peoplecert/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "7fdd67d7-d31d-41e6-9a15-b933fcc2d7e2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "selt.languagecert.org",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "6f4ed82e-b27c-43a6-851e-a0855d2e7d94",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.languagecert.org",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "2c15e6e9-3742-4e01-9554-7679ab7f5ba7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.peoplecert.org",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            }
+        ]
+    },
+    {
+        "id": "a057e36b-1c6a-4804-9291-76eff14cc09e",
+        "handle": "vmwareclouddirector",
+        "name": "VCF - VMware Cloud Director",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 10000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/vmware/vmwareclouddirector/detail"
+        },
+        "domains": [
+            {
+                "id": "1aee9f76-5977-4c7c-84c5-44b6d65fa881",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "VMware Cloud Director",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "As of September 13th 2024, the VMware Cloud Director (VCD) testing environment (bug.moonbeam.cloud) has been decommissioned. Going forward, we encourage you to continue sending reports should you find a vulnerability in an alternative environment running on the latest builds available.  \n\n**Issues we are most interested in** \n- Issues that allow to see data from other tenants or from the VCD management layer.\n- Issues that lead to compromise of the account of other tenants.\n- Privilege escalation between tenant accounts.\u2028\n- Manipulation of the underlaying vSphere layer (the Virtual Machines that are created in VCD run on ESXi managed by vCenter Server).\n\n**Issues removed from scope**\nN/A\n\n**Additional Documentation**\n\u2022\t[Video VMware Cloud Director 101 - Part 1: Core Concepts](https://www.youtube.com/watch?v=Q5Mc8hipq4I)\\\n\u2022 [VCD Guide for Tenant Administrator](https://docs.vmware.com/en/VMware-Cloud-Director/10.2/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-74C9E10D-9197-43B0-B469-126FFBCB5121.html)"
+            }
+        ]
     },
     {
         "id": "a09e497e-fd75-4b56-afa0-7a6689389b76",
@@ -17891,7 +18378,22 @@
         },
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/bpost/e-tracker/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "fec28ce5-1eb7-4ad8-80b3-0b07a8a825c7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://etracker.bpost.cloud/pro",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            }
+        ]
     },
     {
         "id": "a0e7388e-1ae4-497b-8e57-5be085fc1d10",
@@ -19273,6 +19775,50 @@
         ]
     },
     {
+        "id": "accb5edd-2337-4c87-9d49-f21a500b3bc0",
+        "handle": "vcf-management",
+        "name": "VCF - vCenter Server",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 10000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/vmware/vcf-management/detail"
+        },
+        "domains": [
+            {
+                "id": "c701f5ba-ff5e-4080-92be-4514a77ce04f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "vCenter Server",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The vCenter Server Test Environment has the following in-scope products:\n\n| Product |  Version  |  Runs on |  Remarks |\n| --- | --- | --- | --- | \n| VMware vCenter Server | 8.0 | Linux | vCenter Server is a virtual appliance. Its base OS is PhotonOS.  |    \n| vCenter Server vSphere Client (HTML5) | 8.0 | Web browser | Not to be confused with vCenter Server vSphere Client (FLEX/Flash) which is not present in vCenter Server 7.0 and above |\n| VMware Host Client | 8.0 | Web browser | The Host Client lets you connect to ESXi directly. |     \n\n**Test Environment**\nParticipants will need to setup vCenter Server (VC). To make this as easy as possible a deployment guide with screenshots is provided, see the document \"Intigriti vCenter Server Deployment guide\". For managing ESXi from VC, see the document \"Intigriti ESXi and vCenter Server Connect guide\".\n\n**Licenses**\nFor now, please use the build-in, free 60-day license. We are planning to provide vCenter Server licenses later in the program.\n\n**Issues we are most interested in**\n\u2022\tIssues that allow for remote code execution on vCenter Server (see for example [VMSA-2024-0012 section 3.a](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453) and [VMSA-2021-0020 section 3.a](https://www.vmware.com/security/advisories/VMSA-2021-0020.html)\n\u2022\tIssues that allow less-privileged users on vCenter Server to elevate their privileges or access to the underlaying BaseOS (see for example [VMSA-2024-0011 section 3.b](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24308) and [VMSA-2021-0020 section 3.e and 3.j](https://www.vmware.com/security/advisories/VMSA-2021-0020.html))\n\u2022\tIssues that manipulate the APIs and lead to data loss see for example [VMSA-2020-0020 section 3.d](https://www.vmware.com/security/advisories/VMSA-2021-0020.html))\n\n**Issues removed from scope**\n\u2022\tAny issue in vSphere auto-deploy which is an optional function and disabled by default \n\n**Additional Documentation**\n\u2022\t[Intigriti vCenter Server Deployment guide](https://docs.google.com/document/d/1oTw6Fr6FY-Ki36GHQS_tHmqY1MHVsmTpViVfPIM_6as/edit?usp=sharing)\n\u2022\t[Intigriti ESXi and vCenter Server Connect guide](https://docs.google.com/document/d/1Y3sEznjJ40JxF8rd9x02GCZ1Eb9mRjhuJPzQFeHUN6w/edit?usp=sharing)\n"
+            }
+        ]
+    },
+    {
         "id": "afeb2624-ac2e-46bc-b078-b0e018baeb62",
         "handle": "cloudways",
         "name": "Cloudways by DigitalOcean",
@@ -19299,7 +19845,126 @@
         },
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/digitalocean/cloudways/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "28ecbc8a-ebb2-4a0d-8ae6-d5d7a4853bf8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "css-tricks.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "9411901f-878b-4807-9f36-85e18789360d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.cloudways.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "All external services/software like `support.cloudways.com` and `feedback.cloudways.com` that are not owned, managed or controlled by Cloudways are considered out of scope and ineligible for rewards."
+            },
+            {
+                "id": "209dabb6-7db5-478a-8da2-661c0431d914",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.cloudways.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Cloudways API offers an alternative to the Cloudways Platform. Many, but not all actions that Cloudways Platform allows through the UI can also be performed through Cloudways API.\n\nIn the event a vulnerability is applicable to both the Cloudways Platform (platform.cloudways.com) and API, it will be treated as one root incident."
+            },
+            {
+                "id": "b150059d-6b03-4317-a56a-2ce8d52bd777",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "developers.cloudways.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Cloudways Developers authorizes the API key to use Cloudways API. The vulnerability testing of this target should focus on the process of API authorization ONLY. All other areas on Cloudways developers are strictly OUT OF SCOPE."
+            },
+            {
+                "id": "21b8bf23-e5bc-4f65-a421-967f0b860d6d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "platform.cloudways.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Cloudways Platform is the primary target for this program. Cloudways Platform is the main interaction point for Cloudways customers. Through the Platform, customers could launch managed cloud servers and then set up their application on these servers. Once the application is up, Cloudways Platform provides users with options to manage their servers and applications."
+            },
+            {
+                "id": "0e04c540-b88c-4df8-8712-d5f39a26e7f4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "unified.cloudways.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Cloudways Platofrm with new UI along with new api and backend to handle all the services of Cloudways"
+            },
+            {
+                "id": "a2c47331-b3a6-43e8-862b-582715a925db",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.cloudways.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Cloudways website is the corporate website that is often the initial touchpoint for a significant number of interactions between visitors, customers and Cloudways. It offers product details and related corporate information to visitors.\n"
+            },
+            {
+                "id": "2fc0d6aa-d58b-43d3-a3e8-eb9e0bc882e1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uacademy.ugurus.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Ugurus Platform is the main interaction point for Ugurus customers.\n"
+            },
+            {
+                "id": "4c821f87-755d-4d9a-bef2-56a45ca25ab7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ugurus.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "UGURUS offers elite training & mentorship for agency owners & growing freelancers. Ugurus website is the initial touchpoint for the number of interactions between visitors, customers and Ugurus. It offers product details and related corporate information to visitors."
+            }
+        ]
     },
     {
         "id": "b084e962-1d83-4bec-9d46-0f02c0f7bf88",
