@@ -11114,19 +11114,6 @@
         },
         "domains": [
             {
-                "id": "161d264a-86e9-463e-85f7-7cc7d6bd59e8",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
-            },
-            {
                 "id": "11e26ddb-e573-4989-b4b3-37e1d61c5df3",
                 "type": {
                     "id": 1,
@@ -11137,7 +11124,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This is the Earnie reporting application.  "
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of [https://app-superset-intigrititestmt-test-001.azurewebsites.net](https://).\nIt dos not even have a database."
             },
             {
                 "id": "3a7e4802-5f0f-4e4c-9de8-37367394147d",
@@ -11163,7 +11150,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This is the BV service.  It contains a UI and services.  You get access to the UI from the dashboard link in PratoFlex ()"
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface.\nIt stores its data in Azure Postgresql Flexible server. It stores documents in Azure blob storage.\nIts services are used from its UI (https://testelvivebvuiintigrititestmtwa.azurewebsites.net).\nIt is a multitenant application. The two tenants present in this setup are intigrititestmt and intigrititestmttwo.\nBoth tenants use a different database on the same flexible server instance.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus.\n\nA tenant header is passed with every API request:\n\nintigrititestmt\nintigrititestmttwo\nThe tenant header decides which tenant database is used.\n\nA bearer token is passed in the Authorization header with every API request containing the user id of the user in keycloak (claim preferred_username). Permissions are stored in the microservice tenant database based on this user id."
             },
             {
                 "id": "df89f1bf-7634-43e7-bfd5-d2298850243e",
@@ -11176,7 +11163,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface.\nIt stores its data in Azure Postgresql Flexible server. It stores documents in Azure blob storage.\nIts services are used from its UI (https://earnie-dmfaui.prato.be).\nIt is a multitenant application. The two tenants present in this setup are intigrititestmt and intigrititestmttwo.\nBoth tenants use a different database on the same flexible server instance.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus.\n\nA tenant header is passed with every API request:\n\ncc0c7395-ceb6-445c-9872-ee1f06b7d39e (=intigrititestmt)\nee6d4170-c12f-483c-80bb-4ee397500ad5 (=intigrititestmttwo)\nThe tenant header decides which tenant database is used.\n\nA bearer token is passed in the Authorization header with every API request containing the user id of the user in keycloak (claim preferred_username). Permissions are stored in the microservice tenant database based on this user id."
             },
             {
                 "id": "90559c4f-d581-4c40-b134-949f8170eecc",
@@ -11189,7 +11176,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of https://earnie-dmfa.prato.be."
             },
             {
                 "id": "9b389515-0f58-491a-bb8b-046348b02ec2",
@@ -11215,7 +11202,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This is the Earnie dashboard.  It can be accessed from PratoFlex and centralizes access to the different Earnie microservices"
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is contains only links to the UIs of the different services mentioned in this section."
             },
             {
                 "id": "377606fe-2962-4e41-b204-e34ba03e152f",
@@ -11228,7 +11215,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface.\nIt stores its data in Azure Postgresql Flexible server.\nIts services are used from its UI (https://testelviveasruiintigrititestmtwa.azurewebsites.net).\nIt is a multitenant application. The two tenants present in this setup are intigrititestmt and intigrititestmttwo.\nBoth tenants use a different database on the same flexible server instance.\nThe service communicates with the PratoFlex application and with the other Earnie micorservices using messaging via Azure Service bus.\n\nA tenant header is passed with every API request:\n\ncc0c7395-ceb6-445c-9872-ee1f06b7d39e (=intigrititestmt)\nee6d4170-c12f-483c-80bb-4ee397500ad5 (=intigrititestmttwo)\nThe tenant header decides which tenant database is used.\n\nA bearer token is passed in the Authorization header with every API request containing the user id of the user in keycloak (claim preferred_username). Permissions are stored in the microservice tenant database based on this user id."
             },
             {
                 "id": "c0d153bf-f935-4799-b043-932e474236ec",
@@ -11241,7 +11228,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of https://testelviveasrintigrititestmtwa.azurewebsites.net."
             },
             {
                 "id": "e8b0f950-8d7d-4ddd-9545-f69e63c9065f",
@@ -11254,7 +11241,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface.\nIt stores its data in Azure Postgresql Flexible server.\nThis application does not have a UI. It is used via swagger by internal Prato users.\nIt is a multitenant application. The two tenants present in this setup are intigrititestmt and intigrititestmttwo.\nBoth tenants use a different database on the same flexible server instance.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus.\n\nA tenant header is passed with every API request:\n\nintigrititestmt\nintigrititestmttwo\nThe tenant header decides which tenant database is used.\n\nA bearer token is passed in the Authorization header with every API request containing the user id of the user in keycloak (claim preferred_username). Permissions are stored in the microservice tenant database based on this user id."
             },
             {
                 "id": "580f5b9c-5a98-4b7e-bd0d-00f38f9fcc3b",
@@ -11267,7 +11254,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface.\nIt stores its data in Azure Postgresql Flexible server.\nIts services are used from its UI (https://testelviveboekhoudinguiintigrititestmtwa.azurewebsites.net).\nIt is a multitenant application. The two tenants present in this setup are intigrititestmt and intigrititestmttwo.\nBoth tenants use a different database on the same flexible server instance.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus.\n\nA tenant header is passed with every API request:\n\nintigrititestmt\nintigrititestmttwo\nThe tenant header decides which tenant database is used.\n\nA bearer token is passed in the Authorization header with every API request containing the user id of the user in keycloak (claim preferred_username). Permissions are stored in the microservice tenant database based on this user id."
             },
             {
                 "id": "39e9e6f3-4555-4ce3-a836-b3c40be67e68",
@@ -11280,7 +11267,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of https://testelviveboekhoudingintigrititestmtwa.azurewebsites.net."
             },
             {
                 "id": "0ca65eae-5886-42ed-8123-2d8b1503b804",
@@ -11293,7 +11280,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of https://earnie-bv.prato.be."
             },
             {
                 "id": "eb2356de-90cc-42fe-ba53-263e4b40bb52",
@@ -11306,7 +11293,20 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This is the loonbepaling microservices.  It is the new Earnie payroll engine."
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface (https://testelviveloonbepalingintigrititestmtwa.azurewebsites.net/swagger).\nIt stores its data in Azure Postgresql Flexible server.\nThe (Angular) UI is part of the same web application (https://testelviveloonbepalingintigrititestmtwa.azurewebsites.net/ui)\nIt is a multitenant application. The two tenants present in this setup are intigrititestmt and intigrititestmttwo.\nBoth tenants use a different database on the same flexible server instance.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus."
+            },
+            {
+                "id": "161d264a-86e9-463e-85f7-7cc7d6bd59e8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface (https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/swagger).\nIt stores its data in Azure Postgresql Flexible server.\nThe (Angular) UI is part of the same web application (https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/ui)\nThis application is single tenant.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus."
             }
         ]
     },
