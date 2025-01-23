@@ -11124,7 +11124,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of [https://app-superset-intigrititestmt-test-001.azurewebsites.net](https://).\nIt dos not even have a database."
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 20 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of [https://app-superset-intigrititestmt-test-001.azurewebsites.net](https://).\nIt dos not even have a database."
             },
             {
                 "id": "3a7e4802-5f0f-4e4c-9de8-37367394147d",
@@ -11202,7 +11202,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 18 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is contains only links to the UIs of the different services mentioned in this section."
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 20 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is contains only links to the UIs of the different services mentioned in this section."
             },
             {
                 "id": "377606fe-2962-4e41-b204-e34ba03e152f",
@@ -11307,6 +11307,32 @@
                     "value": "Tier 1"
                 },
                 "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface (https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/swagger).\nIt stores its data in Azure Postgresql Flexible server.\nThe (Angular) UI is part of the same web application (https://testelviveloonbetalingintigrititestmtwa.azurewebsites.net/ui)\nThis application is single tenant.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus."
+            },
+            {
+                "id": "5b9e2d3a-0dfb-4d91-b6b2-6a648b6ecb38",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https:// testelvivefacturatieintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface (https:// testelvivefacturatieintigrititestmtwa.azurewebsites.net/swagger).\nIt stores its data in Azure Postgresql Flexible server.\nDocuments are stored in blob storage.\nThis application is single tenant.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus."
+            },
+            {
+                "id": "3c8ea1eb-bd20-42d9-95ef-331deaf59880",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://testelvivefacturatieuiintigrititestmtwa.azurewebsites.net",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 20 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is only a UI for organizing the content of https://testelvivefacturatieintigrititestmtwa.azurewebsites.net."
             }
         ]
     },
