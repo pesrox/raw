@@ -11140,6 +11140,19 @@
                 "description": "Remote Desktop Services (RDS) plaform.\n\nWe are looking for unauthorized access (without login) to this production platform. Any proof of successful access (e.g. by reading sensitive customer data) will be considered a major submission and rewarded by us! Altering data in production is not allowed."
             },
             {
+                "id": "1dde8ea1-b017-4ce7-a5fb-d45436540d59",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://dashboardintigrititestmt.earnieapp.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 20 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is contains only links to the UIs of the different services mentioned in this section."
+            },
+            {
                 "id": "cd8db81b-cad9-4bdb-b886-f500772d0d56",
                 "type": {
                     "id": 1,
@@ -11190,19 +11203,6 @@
                     "value": "Tier 1"
                 },
                 "description": "This is our PratoFlex domain.\n\n> Request credentials via the button.\n> More info about PratoFlex and Earnie can be found in the \"In Scope\" section"
-            },
-            {
-                "id": "1dde8ea1-b017-4ce7-a5fb-d45436540d59",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://dashboardintigrititestmt.earnieapp.be",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "**Technology**: Angular application. Version 16.2.12\n**Hosting**: Azure Web app running Node 20 (linux app services plan)\n**Authentication**: keycloak\n\nThis application is contains only links to the UIs of the different services mentioned in this section."
             },
             {
                 "id": "377606fe-2962-4e41-b204-e34ba03e152f",
@@ -11314,12 +11314,12 @@
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https:// testelvivefacturatieintigrititestmtwa.azurewebsites.net",
+                "endpoint": "https://testelvivefacturatieintigrititestmtwa.azurewebsites.net",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface (https:// testelvivefacturatieintigrititestmtwa.azurewebsites.net/swagger).\nIt stores its data in Azure Postgresql Flexible server.\nDocuments are stored in blob storage.\nThis application is single tenant.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus."
+                "description": "**Technology**: .Net\n**Hosting**: Azure Web app running .Net 8 (linux app services plan)\n**Authentication**: keycloak\n\nThis application has a swagger interface (https://testelvivefacturatieintigrititestmtwa.azurewebsites.net/swagger).\nIt stores its data in Azure Postgresql Flexible server.\nDocuments are stored in blob storage.\nThis application is single tenant.\nThe service communicates with the PratoFlex application and with the other Earnie microservices using messaging via Azure Service bus."
             },
             {
                 "id": "3c8ea1eb-bd20-42d9-95ef-331deaf59880",
@@ -25064,6 +25064,19 @@
         },
         "domains": [
             {
+                "id": "5343d27d-0ba0-4115-b2e2-5a80eb9d7565",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "links.wolt.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
                 "id": "c8f7f362-bf9a-4aed-8b0b-83bc5dbf5491",
                 "type": {
                     "id": 1,
@@ -25075,19 +25088,6 @@
                     "value": "Tier 1"
                 },
                 "description": "#### Keywords: OAuth2, OIDC, JWT\n- Used by: Regular wolt.com users, Wolt employees, other services (service-to-service communication).\n- Handles the vast majority of our authN/authZ. In other words, JWTs signed by this service can grant you access to other services/APIs.\n- Your JWT as a regular wolt.com user comes from this service."
-            },
-            {
-                "id": "662c4a63-32a3-4b7b-81cb-66930c2e97b7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "wolt.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "- Used by: Everybody.\n- Our main web page.\n- Notable use-cases: Offering an in-browser JavaScript app to interact with other APIs and services. Offering HTTP endpoints to interact with this service's own APIs."
             },
             {
                 "id": "953bee20-3c08-412c-a3d2-5b9a3b0a5b3c",
@@ -25153,6 +25153,19 @@
                     "value": "Tier 1"
                 },
                 "description": "- Used by: Regular wolt.com users, Wolt employees, corporate customers, delivery partners, store managers.\n- Notable use-cases: Creating and editing users, placing orders, tracking orders, setting prices.\n- Your JWT as a regular wolt.com user should grant you access to most functionality for your user type.\n"
+            },
+            {
+                "id": "662c4a63-32a3-4b7b-81cb-66930c2e97b7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wolt.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "- Used by: Everybody.\n- Our main web page.\n- Notable use-cases: Offering an in-browser JavaScript app to interact with other APIs and services. Offering HTTP endpoints to interact with this service's own APIs."
             },
             {
                 "id": "56186309-bdd3-4d67-bb9b-d76bc1b0f545",
