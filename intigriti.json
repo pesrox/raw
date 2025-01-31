@@ -13233,12 +13233,51 @@
         },
         "domains": [
             {
-                "id": "a9aa8a3d-1132-4142-99fd-3f556950858d",
+                "id": "9c1484e5-a807-45d6-ae7e-136b7f04814a",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "https://*.personiowhistleblowing.com",
+                "endpoint": "*.app.personio-dev.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "c358adcf-e90a-4515-b28e-9da628d26d4f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.personio-dev.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "44e3d2b3-21be-4797-9526-512df43447be",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.app.personio.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "2c4b5634-c631-4478-b188-82c39106a8f2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.personio.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -13278,6 +13317,19 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "https://*.personio.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null
+            },
+            {
+                "id": "a9aa8a3d-1132-4142-99fd-3f556950858d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://*.personiowhistleblowing.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
