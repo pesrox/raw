@@ -19,7 +19,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 621,
+        "reports_count": 622,
         "bounty_reward_min": 100,
         "bounty_reward_max": 4000,
         "scopes_count": 12,
@@ -124,70 +124,64 @@
         ]
     },
     {
-        "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
-        "slug": "thuringer-aufbaubank-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Finance/Assurance",
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "country": "SG",
+        "activity_area": "Government",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
         "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
+        "bounty": false,
+        "gift": true,
+        "hall_of_fame": false,
         "hacktivity": false,
-        "report_collaboration_active": true,
+        "report_collaboration_active": false,
         "pid": null,
         "secured": false,
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 33,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 3,
+        "reports_count": 413,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 2,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "7eaaffd6-77dd-4083-be55-7e304a3e9a33",
-            "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
+            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
+            "original_name": "govtech_logo1.jpeg",
             "mime_type": "image/jpeg",
-            "size": 3259,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7eaaffd6-77dd-4083-be55-7e304a3e9a33"
+            "size": 88875,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
         },
         "event": null,
         "business_unit": {
-            "name": "Th\u00fcringer Aufbaubank",
-            "slug": "thuringer-aufbaubank",
-            "description": "Anstalt \u00f6ffentlichen Rechts",
-            "currency": "EUR",
+            "name": "Government Technology Agency of Singapore",
+            "slug": "government-technology-agency-of-singapore",
+            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "4ad2516f-6e14-4a14-bc6c-7b16cb00af8e",
-                "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
-                "mime_type": "image/jpeg",
-                "size": 3259,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/4ad2516f-6e14-4a14-bc6c-7b16cb00af8e"
+                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
+                "original_name": "GovTech300x300.png",
+                "mime_type": "image/png",
+                "size": 61833,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
             }
         },
         "kyc_required": null,
         "scopes_enabled": null,
         "scopes": [
             {
-                "scope": "https://thueringer-foerderportal.eu",
-                "scope_type": "web-application",
+                "scope": "*.gov.sg",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://ecohesion.aufbaubank.de",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://login.aufbaubank.de",
-                "scope_type": "web-application",
+                "scope": "Domains where GovTech is the registrar",
+                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             }
@@ -313,6 +307,182 @@
                 "scope": "t.swapcard.com",
                 "scope_type": "api",
                 "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Doctolib",
+        "slug": "doctolib-public-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 784,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 50000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7ef26a12-b824-4815-9a4d-71fcba3eab3a",
+            "original_name": "Capture d\u2019e\u0301cran 2024-10-25 a\u0300 20.20.42.png",
+            "mime_type": "image/png",
+            "size": 74448,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7ef26a12-b824-4815-9a4d-71fcba3eab3a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Doctolib",
+            "slug": "doctolib",
+            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7f0639078becd63ab17e57b318a6352e",
+                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
+                "mime_type": "image/png",
+                "size": 15879,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "www.doctolib.(fr|de|it)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Special scenarios (see description)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.doctolib.(fr|de|it|com|net)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.siilo.com",
+                "scope_type": "application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
+        "slug": "thuringer-aufbaubank-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 33,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7eaaffd6-77dd-4083-be55-7e304a3e9a33",
+            "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
+            "mime_type": "image/jpeg",
+            "size": 3259,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7eaaffd6-77dd-4083-be55-7e304a3e9a33"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Th\u00fcringer Aufbaubank",
+            "slug": "thuringer-aufbaubank",
+            "description": "Anstalt \u00f6ffentlichen Rechts",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "4ad2516f-6e14-4a14-bc6c-7b16cb00af8e",
+                "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
+                "mime_type": "image/jpeg",
+                "size": 3259,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/4ad2516f-6e14-4a14-bc6c-7b16cb00af8e"
+            }
+        },
+        "kyc_required": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "https://thueringer-foerderportal.eu",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://ecohesion.aufbaubank.de",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://login.aufbaubank.de",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -3864,70 +4034,6 @@
         ]
     },
     {
-        "title": "GovTech - Vulnerability Disclosure Programme",
-        "slug": "govtech-vulnerability-disclosure-programme-policy",
-        "country": "SG",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": false,
-        "gift": true,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": false,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 412,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
-            "original_name": "govtech_logo1.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 88875,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Government Technology Agency of Singapore",
-            "slug": "government-technology-agency-of-singapore",
-            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
-                "original_name": "GovTech300x300.png",
-                "mime_type": "image/png",
-                "size": 61833,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.gov.sg",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Domains where GovTech is the registrar",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Dailymotion public bug bounty",
         "slug": "dailymotion-public-bug-bounty",
         "country": "FR",
@@ -4041,112 +4147,6 @@
                 "scope": "Google Cloud Plateform Instances",
                 "scope_type": "other",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Doctolib",
-        "slug": "doctolib-public-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "HealthTech",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 783,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 50000,
-        "scopes_count": 9,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7ef26a12-b824-4815-9a4d-71fcba3eab3a",
-            "original_name": "Capture d\u2019e\u0301cran 2024-10-25 a\u0300 20.20.42.png",
-            "mime_type": "image/png",
-            "size": 74448,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7ef26a12-b824-4815-9a4d-71fcba3eab3a"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Doctolib",
-            "slug": "doctolib",
-            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7f0639078becd63ab17e57b318a6352e",
-                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
-                "mime_type": "image/png",
-                "size": 15879,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
-            }
-        },
-        "kyc_required": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "www.doctolib.(fr|de|it)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Special scenarios (see description)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.doctolib.(fr|de|it|com|net)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.siilo.com",
-                "scope_type": "application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
