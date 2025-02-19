@@ -979,8 +979,8 @@
                 },
                 "endpoint": "Modernized Discovery",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Modernized scanner to discover IT and OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/sites/install-network-discovery/ta-p/72388\n* Info on Modernized Discovery: https://community.lansweeper.com/t5/sites/lansweeper-discovery/ta-p/75199#feedbackquestions\n* OT specific: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599"
             },
@@ -20440,6 +20440,35 @@
         ]
     },
     {
+        "id": "b962ecba-799e-46b7-a33e-327212bc482e",
+        "handle": "exactvulnerabilitydisclosureprogram",
+        "name": "Exact Vulnerability Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/exact/exactvulnerabilitydisclosureprogram/detail"
+        }
+    },
+    {
         "id": "b98261a6-2339-4325-b00b-008e24b28e88",
         "handle": "kiwavdp",
         "name": "Kiwa Vulnerability Disclosure Program",
@@ -20466,7 +20495,87 @@
         },
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/kiwa/kiwavdp/detail"
-        }
+        },
+        "domains": [
+            {
+                "id": "d2aa7766-b6e0-4a50-9f1e-6e7105d50a6c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kiwa.info",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "34d2386b-21b7-48de-8744-e722e0cd551e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kiwa.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "8ce7e2e9-8ecb-4b27-b868-8dbea588b3d7",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kiwa.nl",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
+                "id": "b73e0291-551a-44ad-bf80-5c31969fad6a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://careers.kiwa.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "c17b4a7f-567f-4f85-abe1-15ec3394dbf9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://qr.kiwa.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "7a469f77-9645-4c72-aab5-94a50ef9e9a2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.kiwa.com/en/contact/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            }
+        ]
     },
     {
         "id": "baca9d50-2fd8-427f-bd56-e67f7f058573",
