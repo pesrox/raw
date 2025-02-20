@@ -4059,8 +4059,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -16378,7 +16378,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "Bild is the largest German tabloid newspaper. \nSome examples of subdomains are \n- meinkonto.bild.de (user settings)\n- signin.auth.bild.de (login)\n- hey.bild.de (AI chat assistant)\n- angebot.bild.de (offeres)\n\nYou are also welcome to create your own account to test our system. "
             },
             {
                 "id": "cf707b15-9ae1-44dc-ba0c-1f137a918780",
@@ -16391,7 +16391,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null
+                "description": "Is the television channel from Bild. "
             },
             {
                 "id": "1a35634d-fb18-45f2-8820-77449c9b2e3a",
@@ -16418,6 +16418,19 @@
                     "value": "Tier 1"
                 },
                 "description": null
+            },
+            {
+                "id": "104042f4-7cbe-490e-9f9c-19c29e097d19",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "18.184.198.198, 18.185.214.59, 18.194.109.179, 3.121.117.72, 3.121.138.10, 3.121.138.128, 3.121.138.134, 3.121.138.170, 3.121.138.33, 3.121.138.43, 3.124.248.208, 35.156.137.39",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "IP addresses of our backend systems, comma separated."
             },
             {
                 "id": "8380e382-bf65-4fbc-9cba-47d9fdc5e76c",
@@ -16457,19 +16470,6 @@
                     "value": "Tier 1"
                 },
                 "description": "Here is documentation to help with testing: https://dealer-docs.prod.ps.axelspringer.de/"
-            },
-            {
-                "id": "17859838-fde1-497b-a240-cf953131b41d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://secure.mypass.de/",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null
             },
             {
                 "id": "f909bba1-c151-4536-a9b6-1f213f498a6b",
