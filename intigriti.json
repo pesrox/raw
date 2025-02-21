@@ -5784,8 +5784,8 @@
                 },
                 "endpoint": "graphql.topperpay.com/graphql",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Production GraphQL API for Topper. Do not test service degradation attacks or horizontal privilege here.\n\nMore information available [here](https://docs.topperpay.com/intro)."
             },
@@ -5810,8 +5810,8 @@
                 },
                 "endpoint": "api-sandbox.uphold.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": "Sandbox Web Wallet API. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
             },
@@ -5862,8 +5862,8 @@
                 },
                 "endpoint": "wallet-sandbox.uphold.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": "Sandbox Web Wallet Application. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
             },
