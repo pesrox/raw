@@ -749,7 +749,14 @@
         "briefUrl": "/engagements/sap-private-invite",
         "backgroundColor": "#fff",
         "logoUrl": "https://logos.bugcrowdusercontent.com/logos/93e4/e8e7/ba7cc596/9fa2d16625fa91f12e3b8be0a39ffe4e_sap_logo.jpeg",
-        "rewardSummary": null,
+        "rewardSummary": {
+            "summary": "$250 - $20,000",
+            "hint": null,
+            "minReward": "$250",
+            "maxReward": "$20,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
         "isDemo": false,
         "scopeRank": 3,
         "isBanned": false,
@@ -757,7 +764,7 @@
         "industryName": "Computer Software",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": null,
+        "badgeVariant": "updated",
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -1109,37 +1116,6 @@
         "target_groups": []
     },
     {
-        "name": "Majid Al Futtaim Retail",
-        "tagline": "Carrefour UAE",
-        "briefUrl": "/engagements/carrefour",
-        "backgroundColor": "#FFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
-        "rewardSummary": {
-            "summary": "Points - $4,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$4,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Retail",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/carrefour/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Auth0 by Okta",
         "tagline": "We provide a universal authentication & authorization platform for web, mobile, and legacy applications.",
         "briefUrl": "/engagements/auth0-okta",
@@ -1167,6 +1143,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/auth0-okta/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Majid Al Futtaim Retail",
+        "tagline": "Carrefour UAE",
+        "briefUrl": "/engagements/carrefour",
+        "backgroundColor": "#FFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/edca/acf6/0fb50d7a/9c2550151faeb98fab8b7f4b26d286cd_PtZqwdtO_400x400.jpg",
+        "rewardSummary": {
+            "summary": "Points - $4,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$4,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Retail",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/carrefour/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -1543,68 +1550,6 @@
         "target_groups": []
     },
     {
-        "name": "HubSpot",
-        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
-        "briefUrl": "/engagements/hubspot",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
-        "rewardSummary": {
-            "summary": "$50 - $10,000",
-            "hint": "Up to $20,000",
-            "minReward": "$50",
-            "maxReward": "$10,000",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/hubspot/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
-        "name": "Atlassian",
-        "tagline": "Collaboration tools for teams of all sizes",
-        "briefUrl": "/engagements/atlassian",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28c0/23ec/6022bc42/ddca52b471e3ce27a2d600c0b9285b1b_bounty-logo-atlassian.png",
-        "rewardSummary": {
-            "summary": "$200 - $10,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$10,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/atlassian/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Viator",
         "tagline": "Viator - Travel with an Insider",
         "briefUrl": "/engagements/viator",
@@ -1636,33 +1581,33 @@
         "target_groups": []
     },
     {
-        "name": "Asana",
-        "tagline": "We're empowering teams to do great things together.",
-        "briefUrl": "/engagements/asana",
-        "backgroundColor": "#242B36",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a744/cc17/faf23ed3/2fd06e112ea1f26135f8253031539d11_asana-square.png",
+        "name": "HubSpot",
+        "tagline": "Marketing, Sales, and Service software platform for scaling companies",
+        "briefUrl": "/engagements/hubspot",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/65ef/7ade/71226f8a/b3cce4b621b52ed2f5609816412c56f1_sprocket_no_1.jpg",
         "rewardSummary": {
-            "summary": "$100 - $6,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,500",
-            "compensationSummary": null,
-            "compensationHint": null
+            "summary": "$50 - $10,000",
+            "hint": "Up to $20,000",
+            "minReward": "$50",
+            "maxReward": "$10,000",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
         },
         "isDemo": false,
         "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Computer Software",
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
-            "iconVariant": "ngpt"
+            "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/asana/engagement_subscribers",
+        "subscriptionUrl": "/hubspot/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -1729,6 +1674,68 @@
         "target_groups": []
     },
     {
+        "name": "Atlassian",
+        "tagline": "Collaboration tools for teams of all sizes",
+        "briefUrl": "/engagements/atlassian",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28c0/23ec/6022bc42/ddca52b471e3ce27a2d600c0b9285b1b_bounty-logo-atlassian.png",
+        "rewardSummary": {
+            "summary": "$200 - $10,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/atlassian/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Asana",
+        "tagline": "We're empowering teams to do great things together.",
+        "briefUrl": "/engagements/asana",
+        "backgroundColor": "#242B36",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/a744/cc17/faf23ed3/2fd06e112ea1f26135f8253031539d11_asana-square.png",
+        "rewardSummary": {
+            "summary": "$100 - $6,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$6,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "ngpt"
+        },
+        "subscriptionUrl": "/asana/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
         "name": "Opsgenie",
         "tagline": "Opsgenie is a modern incident management platform for operating always-on services, empowering Dev & Ops teams to plan for service disruptions and stay in control during incidents.",
         "briefUrl": "/engagements/opsgenie",
@@ -1791,37 +1798,6 @@
         "target_groups": []
     },
     {
-        "name": "USAA",
-        "tagline": "We proudly serve millions of military members and their families with competitive rates on insurance, banking and investment services.",
-        "briefUrl": "/engagements/usaa",
-        "backgroundColor": "#123958",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/31b0/e2aa/339ec192/976c6242148265bb29d011a46c1d041c_Screen_Shot_2020-01-09_at_8.03.20_AM.png",
-        "rewardSummary": {
-            "summary": "$100 - $6,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$6,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/usaa/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "FIS",
         "tagline": "Advancing the ways the world pays, banks and invests.",
         "briefUrl": "/engagements/fis",
@@ -1853,24 +1829,24 @@
         "target_groups": []
     },
     {
-        "name": "NEOGOV Public Assets",
-        "tagline": "Human Resource Software, SaaS & Cloud Solutions",
-        "briefUrl": "/engagements/neohrms",
-        "backgroundColor": "#245075",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5f75/c3e1/007ff13b/95cac496f8510e41494fd19a50aa8af2_b2567cd10edfe3e9b783b6b879498c54_Untitled321.jpg",
+        "name": "USAA",
+        "tagline": "We proudly serve millions of military members and their families with competitive rates on insurance, banking and investment services.",
+        "briefUrl": "/engagements/usaa",
+        "backgroundColor": "#123958",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/31b0/e2aa/339ec192/976c6242148265bb29d011a46c1d041c_Screen_Shot_2020-01-09_at_8.03.20_AM.png",
         "rewardSummary": {
-            "summary": "$100 - $3,500",
+            "summary": "$100 - $6,000",
             "hint": null,
             "minReward": "$100",
-            "maxReward": "$3,500",
+            "maxReward": "$6,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 3,
+        "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": null,
+        "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -1879,7 +1855,7 @@
             "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/neohrms/engagement_subscribers",
+        "subscriptionUrl": "/usaa/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -1911,6 +1887,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/skroutz/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "NEOGOV Public Assets",
+        "tagline": "Human Resource Software, SaaS & Cloud Solutions",
+        "briefUrl": "/engagements/neohrms",
+        "backgroundColor": "#245075",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/5f75/c3e1/007ff13b/95cac496f8510e41494fd19a50aa8af2_b2567cd10edfe3e9b783b6b879498c54_Untitled321.jpg",
+        "rewardSummary": {
+            "summary": "$100 - $3,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$3,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/neohrms/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -2163,37 +2170,6 @@
         "target_groups": []
     },
     {
-        "name": "PlanetHoster",
-        "tagline": "PlanetHoster invites you to test their web hosting platform!",
-        "briefUrl": "/engagements/planethosterinc",
-        "backgroundColor": "#FFFFFF",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
-        "rewardSummary": {
-            "summary": "$200 - $3,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "EPAM Systems Managed Bug Bounty Program",
         "tagline": "EPAM Systems leads the industry in digital and physical product development and digital platform engineering services. Please submit your findings to this Bug Bounty Program.",
         "briefUrl": "/engagements/epam-mbb-og",
@@ -2221,6 +2197,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/epam-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "PlanetHoster",
+        "tagline": "PlanetHoster invites you to test their web hosting platform!",
+        "briefUrl": "/engagements/planethosterinc",
+        "backgroundColor": "#FFFFFF",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9528/1050/1388c3d8/adaa4ccf79121daff74a1d1c627201c5_planethosterlogo.png",
+        "rewardSummary": {
+            "summary": "$200 - $3,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/planethosterinc/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -3372,37 +3379,6 @@
         "target_groups": []
     },
     {
-        "name": "Ultra Mobile Public Managed Bug Bounty Engagement 2025 ECOMM",
-        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/ultramobile-public-mbb-og",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
-        "rewardSummary": {
-            "summary": "$175 - $4,500",
-            "hint": null,
-            "minReward": "$175",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/ultramobile-public-mbb-og/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "SoundCloud",
         "tagline": "SoundCloud is the world\u2019s largest open audio platform. With over 200 million tracks from 20 million creators heard in 190 countries, what\u2019s next in music is first on SoundCloud.",
         "briefUrl": "/engagements/soundcloud",
@@ -3461,37 +3437,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/flourish/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
-        "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $20,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $20,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/openai/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -3713,24 +3658,24 @@
         "target_groups": []
     },
     {
-        "name": "Origin Energy - Retail",
-        "tagline": "An electricity, natural gas, LPG and solar provider. A good energy company.",
-        "briefUrl": "/engagements/originenergy-og1",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/950d/4899/0292dfa6/a91715fbef94b384d55b9eaf3b66c7d5_IA6jCLqi_400x400.jpg",
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/686094268269f7f3ae0a05ff011d42ab_openai-logomark_20x.png",
         "rewardSummary": {
-            "summary": "$50 - $2,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
+            "summary": "$200 - $6,500",
+            "hint": "Up to $20,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $20,000",
+            "compensationHint": "max reward"
         },
         "isDemo": false,
-        "scopeRank": 4,
+        "scopeRank": 3,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Utilities",
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -3739,7 +3684,7 @@
             "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/originenergy-og1/engagement_subscribers",
+        "subscriptionUrl": "/openai/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -3771,6 +3716,68 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/hutgroup-public/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Origin Energy - Retail",
+        "tagline": "An electricity, natural gas, LPG and solar provider. A good energy company.",
+        "briefUrl": "/engagements/originenergy-og1",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/950d/4899/0292dfa6/a91715fbef94b384d55b9eaf3b66c7d5_IA6jCLqi_400x400.jpg",
+        "rewardSummary": {
+            "summary": "$50 - $2,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/originenergy-og1/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Ultra Mobile Public Managed Bug Bounty Engagement 2025 ECOMM",
+        "tagline": "Ultra Mobile is a telecom company with tech sensibilities, always iterating on our latest achievements to make better products, provide better service and better customer experience. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/ultramobile-public-mbb-og",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/23a0/8c24/48c274bb/f9aabf5ec9b7f5683121244496fa0a4e_1631365748199.jpeg",
+        "rewardSummary": {
+            "summary": "$175 - $4,500",
+            "hint": null,
+            "minReward": "$175",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ultramobile-public-mbb-og/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
@@ -5862,37 +5869,6 @@
         "target_groups": []
     },
     {
-        "name": "Dell Technologies Application Bug Bounty",
-        "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
-        "briefUrl": "/engagements/dell-com",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c63e/8e43/7338d03a/f1e1e5bbb52c73c333a29b25feba8aae_1024px-Dell_Logo.svg.png",
-        "rewardSummary": {
-            "summary": "$50 - $2,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dell-com/engagement_subscribers",
-        "isPrivate": false,
-        "target_groups": []
-    },
-    {
         "name": "Cloudinary",
         "tagline": "Cloud image & video upload, storage, management & CDN",
         "briefUrl": "/engagements/cloudinary",
@@ -5920,6 +5896,37 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/cloudinary/engagement_subscribers",
+        "isPrivate": false,
+        "target_groups": []
+    },
+    {
+        "name": "Cisco Meraki",
+        "tagline": "Cisco Meraki is the leader in cloud controlled WiFi, routing, and security. Secure and scalable, Cisco Meraki enterprise networks simply work.",
+        "briefUrl": "/engagements/ciscomeraki",
+        "backgroundColor": "#67B346",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28f4/22c0/c172b7f6/83c52a802161900a5899365746e1dd14_logo.png",
+        "rewardSummary": {
+            "summary": "$100 - $10,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$10,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Electronics",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/ciscomeraki/engagement_subscribers",
         "isPrivate": false,
         "target_groups": []
     },
