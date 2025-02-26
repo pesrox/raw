@@ -6782,6 +6782,63 @@
         ]
     },
     {
+        "id": "2f896c63-2720-48f4-a727-aa919aeeec85",
+        "handle": "signicatresponsibledisclosure",
+        "name": "Signicat Responsible Disclosure",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/signicat/signicatresponsibledisclosure/detail"
+        },
+        "domains": [
+            {
+                "id": "f889a10b-42d8-4cdd-9204-1bb458f97af3",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Dokobit",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Any domains or services related to Dokobit by Signicat as a brand"
+            },
+            {
+                "id": "c192722c-12ae-4876-b0ef-4bde33c3c2b5",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Signicat",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Any domains or services related to Signicat as a brand"
+            }
+        ]
+    },
+    {
         "id": "2f8db691-ed2b-4796-9b31-d808efb80dfa",
         "handle": "onlineinschrijvingenbetalingstoepassing",
         "name": "Online enrollment for students Bug Bounty Program",
