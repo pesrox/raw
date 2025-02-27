@@ -5712,6 +5712,214 @@
         },
         "domains": [
             {
+                "id": "ff23efb4-6d31-4fd3-b71f-19c582228d4e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.uphold.com/graphql",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Sandbox Web Wallet GraphQL API. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
+            },
+            {
+                "id": "99a104b0-0672-4304-bdb9-8672cf7905a5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api-sandbox.uphold.com/graphql",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Sandbox Web Wallet GraphQL API. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
+            },
+            {
+                "id": "5bf70beb-300e-45b9-865f-5af4728afb41",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.sandbox.topperpay.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Topper Widget (https://app.topperpay.com) is a live, embeddable component designed for seamless integration into client platforms, enabling end-users to perform cryptocurrency on-ramp and off-ramp transactions. This widget facilitates the conversion between fiat and digital assets directly within the client\u2019s interface, providing a streamlined user experience.\n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+            },
+            {
+                "id": "58cce926-ddbf-4f1d-9fbb-c5e53223d3bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "portal.enterprise.uphold.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Uphold Enterprise Portal (https://portal.enterprise.uphold.com) is a secure platform for Uphold\u2019s enterprise clients, providing tools to manage enterprise wallets, delegate user roles and permissions, and integrate with Topper widgets. This portal enables businesses to oversee digital asset operations, facilitate transactions, and enforce access control within their organization. Key features include multi-user account management, real-time transaction monitoring, and compliance support, allowing enterprises to securely manage financial operations.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "c7291f86-3790-4e0a-a664-9f4b5ae0a70a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.portal.enterprise.uphold.com ",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Uphold Enterprise API (https://api.portal.enterprise.uphold.com/) is the backend service supporting the Uphold Enterprise Portal (portal.enterprise.uphold.com), enabling enterprise clients to manage their wallets, user delegations, and integrations with Topper widgets. This API facilitates secure enterprise-level account management, transaction processing, and access control. Security testing should focus on authentication mechanisms, authorization flows, data integrity, and potential vulnerabilities that could impact enterprise account security and operations.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "b256c2f6-dd61-4127-8373-2cc329f922a4",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.topperpay.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The wildcard domain *.topperpay.com covers any **unlisted** subdomains related to Topper, an Uphold brand that provides on-ramp and off-ramp solutions for digital assets, enabling users to seamlessly convert between fiat and cryptocurrency. Security testing should focus on identifying vulnerabilities that could impact user security, transaction integrity, or authentication mechanisms.\n\nWhile we have already listed some subdomains in scope, this wildcard serves to cover any additional subdomains that may be discovered. We are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance. "
+            },
+            {
+                "id": "05819916-b3fb-4c32-be7e-c51bfe509e17",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.uphodl.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The wildcard domain *.uphodl.com covers all subdomains related to UpHODL, Uphold Labs\u2019 self-custodial multichain crypto wallet, which enables users to securely manage their digital assets. Security testing should focus on identifying vulnerabilities that could impact user security, transaction integrity, or authentication mechanisms.\n\nWhile we have already listed some subdomains in scope, this wildcard serves to cover any additional subdomains that may be discovered. We are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance. "
+            },
+            {
+                "id": "8acf452b-2008-4cf8-90ac-5b9243df3d02",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.optimuscards.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The wildcard domain *.optimuscards.com includes all subdomains under optimuscards.com, covering various services related to Optimus Cards\u2019 white-label debit and credit card solutions, Banking as a Service (BaaS), and Cards as a Service (CaaS) for financial institutions and corporate clients. These subdomains may encompass customer account management platforms, API access for partners, administrative portals, and other operational services. Given the financial nature of these services, security testing should focus on identifying vulnerabilities that could impact user data, transactions, or system integrity.\n\nWe are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance. "
+            },
+            {
+                "id": "59e9a28f-6d4f-4ffd-b88f-145aaa958d17",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "support-sandbox.uphold.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Uphold Help Center is a comprehensive support platform designed to assist users with various aspects of their Uphold experience. It offers self-service options for tasks such as resetting passwords, managing two-factor authentication, and downloading transaction histories. The Help Center also provides detailed articles covering account setup, management, deposits, withdrawals, trading features, and security measures. Users can access guidance on updating account information, linking payment methods, understanding fees and limits, and ensuring account security. Additionally, the platform includes resources for reporting suspicious activities and accessing tax-related information. For personalized assistance, users can contact the support team directly through the Help Center.\n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+            },
+            {
+                "id": "f0614741-5d3e-47e4-b03c-c80181b392a1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "support-staging.topperpay.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Topper Support Website (https://support-staging.topperpay.com) serves as the informational and support platform for Topper, providing guidance on account management, verification processes, transaction tracking, and partnership opportunities. Users can access resources to understand Topper\u2019s on-ramp and off-ramp functionalities and submit support requests if needed. \n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+            },
+            {
+                "id": "3f9b5d02-9766-4813-b26b-29204ad00c23",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.topperpay.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Topper Production Website (https://www.topperpay.com) serves as the informational platform for Topper, an Uphold brand that provides on-ramp and off-ramp solutions for digital assets. The website explains how users can seamlessly convert fiat to crypto (on-ramp) and crypto to fiat (off-ramp) while integrating with various self-custodial wallets. It does not facilitate transactions directly but redirects users to app.topperpay.com for asset exchanges.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "3327315c-87c1-49ce-8c2b-e7a8a9f670d0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.uphodl.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The UpHODL Production Website (https://www.uphodl.com) serves as the institutional website for UpHODL, Uphold Labs\u2019 self-custodial crypto wallet. It provides information about the wallet\u2019s features, supported assets, security model, and integration with decentralized finance (DeFi) platforms. The site is designed for informational and marketing purposes, guiding users on how to download, set up, and use the UpHODL wallet. \n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "aa6f9a5a-e2d5-4839-b08e-d94bf06b3eac",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "status.uphold.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Uphold Status Page (https://status.uphold.com/) provides real-time and historical data on the operational status of Uphold\u2019s services, including the Mobile Wallet, Web Wallet, API, and more. It offers transparency regarding system performance, uptime statistics, and incident history, allowing users to monitor the health of Uphold\u2019s platform. \n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "a3c0f7b6-5085-4f37-81c8-ec993875d7bb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "docs.topperpay.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Topper Developer Documentation (https://docs.topperpay.com) provides technical guidance for business customers looking to integrate with Topper, a service that facilitates cryptocurrency purchases and payments. It outlines the onboarding process, API authentication, transaction workflows, and integration requirements for businesses leveraging Topper\u2019s platform. This documentation is intended to assist companies in securely and efficiently embedding Topper\u2019s services into their products. \n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "d17202e2-80d2-4e18-8ea4-5afa74954df1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "docs.uphold.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Uphold API Documentation (https://docs.uphold.com) serves as the official resource for developers integrating with the Uphold Platform. It provides detailed guidance on API authentication, endpoints, request/response structures, and best practices for interacting with Uphold\u2019s financial services. The documentation covers topics such as account management, transactions, currency conversion, and security protocols. Bug bounty participants can review the documentation for misconfigurations, security flaws, or exposed sensitive information that could impact the integrity of the Uphold API ecosystem.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "45e9a892-ed7e-49dc-bf17-0bcde8a54237",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "docs.api.enterprise.uphold.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Uphold Enterprise API Documentation (https://docs.api.enterprise.uphold.com) provides technical resources for Uphold-as-a-Service, a fully licensed white-label solution that enables financial institutions and business partners to integrate and deploy their own branded digital asset services. This platform offers comprehensive API functionality for managing transactions, compliance, user accounts, and asset trading, while ensuring regulatory compliance and security.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
                 "id": "7095c181-e1b9-4be3-abb7-166e20577397",
                 "type": {
                     "id": 3,
@@ -5738,6 +5946,19 @@
                 "description": "UpHODL - iOS application. This is currently installable on Jailbroken devices, but we don't allow the user to proceed with creating a wallet. Please read the out-of-scope findings."
             },
             {
+                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api-sandbox.uphold.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Sandbox Web Wallet Rest API. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
+            },
+            {
                 "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
                 "type": {
                     "id": 1,
@@ -5748,7 +5969,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Production Web Wallet API. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
+                "description": "Production Web Wallet Rest API. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
             },
             {
                 "id": "42070f84-c98c-4cc7-b494-1194f4ed0467",
@@ -5777,17 +5998,17 @@
                 "description": "Uphold Wallet - Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
             },
             {
-                "id": "0d76f706-3c5f-4fc3-a418-34af7b0dd8cd",
+                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "graphql.topperpay.com/graphql",
+                "endpoint": "wallet-sandbox.uphold.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
-                "description": "Production GraphQL API for Topper. Do not test service degradation attacks or horizontal privilege here.\n\nMore information available [here](https://docs.topperpay.com/intro)."
+                "description": "Sandbox Web Wallet Application. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
             },
             {
                 "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
@@ -5801,19 +6022,6 @@
                     "value": "Tier 1"
                 },
                 "description": "Production Web Wallet Application. Do not test service degradation attacks or horizontal privilege here."
-            },
-            {
-                "id": "52b83125-601a-46a5-820c-ad96d6e35550",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api-sandbox.uphold.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Sandbox Web Wallet API. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
             },
             {
                 "id": "3edffdbb-70dd-4e28-867b-aeb72664f3f1",
@@ -5855,17 +6063,17 @@
                 "description": "Sandbox GraphQL API for Topper. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks.\n\nMore information available [here](https://docs.topperpay.com/intro).\n\n"
             },
             {
-                "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
+                "id": "0d76f706-3c5f-4fc3-a418-34af7b0dd8cd",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "wallet-sandbox.uphold.com",
+                "endpoint": "graphql.topperpay.com/graphql",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": "Sandbox Web Wallet Application. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
+                "description": "Production GraphQL API for Topper. Do not test service degradation attacks or horizontal privilege here.\n\nMore information available [here](https://docs.topperpay.com/intro)."
             },
             {
                 "id": "adbd7f13-fdf0-4bf7-a6b9-7404518bc210",
@@ -5875,10 +6083,10 @@
                 },
                 "endpoint": "www.uphold.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
-                "description": "Our institutional website. We're looking for issues that could impact our image and our users (defacement, XSS, etc.)"
+                "description": "The Uphold Website (https://www.uphold.com) serves as the company\u2019s main informational platform, providing an overview of Uphold\u2019s services, institutional offerings, and financial transparency. It includes key sections such as the Transparency Page (real-time reserves data), Institutional and Enterprise offerings, Market Prices, Blog, and Academy, along with general company updates. While the website itself does not provide transactional functionalities, it acts as a gateway to Uphold\u2019s wallet, trading platform, and other financial services.\n\nTechnical Note: Each menu category (Individuals, Enterprise, Institutional, Market Prices, Blog, Academy, Transparency) may be powered by different back-end services, meaning security assessments should consider the possibility of varying architectures, data sources, and API implementations.\n\nSecurity testing should focus on identifying vulnerabilities related to content integrity, redirections, and potential misconfigurations. Please note that service degradation attacks are not permitted."
             },
             {
                 "id": "427d6242-1254-4741-bea7-a912bebf17b9",
@@ -5891,7 +6099,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "We are willing to give bonuses on anything you find and we agree is impactful, in the rest of our domain. Please note that third party services are out of scope unless the issue is caused due to a misconfiguration by Uphold.\n\n"
+                "description": "The wildcard domain *.uphold.com covers any **unlisted** or **undisclosed** subdomains related to Uphold\u2019s financial platform, which provides multi-asset trading, digital wallets, and financial services. While most core assets are explicitly listed in scope, this wildcard serves to cover any additional subdomains that may be discovered. Security testing should focus on identifying vulnerabilities that could impact authentication, transaction integrity, or overall platform security.\n\nWe are willing to give bonuses for any impactful issues found across the rest of our domain, provided we agree on their severity and relevance."
             }
         ]
     },
