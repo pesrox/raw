@@ -5712,6 +5712,19 @@
         },
         "domains": [
             {
+                "id": "75dc2766-b548-466e-81e9-517ea9eca11e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://github.com/uphold",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The wildcard scope github.com/uphold/* covers any public repositories made available by Uphold on GitHub. These repositories may include SDKs, developer tools, open-source projects, documentation, and other publicly accessible codebases that support Uphold\u2019s ecosystem.\n\nSecurity testing should focus on identifying misconfigurations, exposed sensitive information, or vulnerabilities that could impact Uphold\u2019s security posture.\n\nWe are willing to give bonuses for any impactful issues found across our repositories, provided we agree on their severity and relevance. Please note that third-party dependencies are out of scope unless the issue is caused by a misconfiguration or security oversight by Uphold."
+            },
+            {
                 "id": "7095c181-e1b9-4be3-abb7-166e20577397",
                 "type": {
                     "id": 3,
@@ -5722,7 +5735,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Uphold Wallet - iOS application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+                "description": "The Uphold Wallet iOS Application is the primary mobile platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the app.\n\nThis is currently installable on Jailbroken devices, please read the out-of-scope findings."
             },
             {
                 "id": "60a97b8a-ef29-4f39-8abe-0a2400af217c",
@@ -5735,7 +5748,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "UpHODL - iOS application. This is currently installable on Jailbroken devices, but we don't allow the user to proceed with creating a wallet. Please read the out-of-scope findings."
+                "description": "The UpHODL Wallet App is a self-custodial, multichain wallet developed by Uphold Labs, allowing users to securely store, manage, and transact digital assets while maintaining full control over their private keys. The wallet supports Bitcoin (BTC), Ethereum (ETH), XRP, ERC-20 tokens, NFTs, and other blockchain networks, offering seamless DeFi access via WalletConnect and the ability to purchase cryptocurrencies directly using a card.\n\nThis is currently installable on Jailbroken devices, but we don't allow the user to proceed with creating a wallet. Please read the out-of-scope findings."
             },
             {
                 "id": "52b83125-601a-46a5-820c-ad96d6e35550",
@@ -5748,7 +5761,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Sandbox Web Wallet Rest API. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
+                "description": "The Uphold Wallet REST API (https://api.uphold.com) offers developers comprehensive access to Uphold\u2019s financial platform, enabling the creation of innovative services. This API allows for operations such as retrieving account details, managing user accounts, initiating transactions, accessing transaction history, and obtaining real-time market data. By integrating with this API, developers can seamlessly incorporate Uphold\u2019s multi-asset trading and digital wallet functionalities into their applications.\n\nMore information available [here](https://docs.uphold.com).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production; if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support their assessment.\n\n"
             },
             {
                 "id": "99a104b0-0672-4304-bdb9-8672cf7905a5",
@@ -5761,33 +5774,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Sandbox Web Wallet GraphQL API. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin).\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
-            },
-            {
-                "id": "303df51a-31a4-4152-8422-5e9d1cc16277",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.uphold.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Production Web Wallet Rest API. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
-            },
-            {
-                "id": "ff23efb4-6d31-4fd3-b71f-19c582228d4e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.uphold.com/graphql",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Sandbox Web Wallet GraphQL API. Do not test service degradation attacks or horizontal privilege here.\n\nOn the business app side, we allow you to create apps in sandbox, but you shouldn't be able to create them in Production.\n\nMore information available [here](https://docs.uphold.com)."
+                "description": "The Uphold Wallet GraphQL API (https://api-sandbox.uphold.com/graphql) serves as the API gateway for Uphold\u2019s wallet UIs, facilitating seamless interactions between the front-end interfaces and multiple back-end microservices. Unlike the REST API, which is designed for user automation and third-party integrations, the GraphQL API is primarily responsible for enabling the wallet\u2019s web and mobile applications to fetch and interact with user data, transactions, and account-related functionalities.\n\nMore information available [here](https://docs.uphold.com).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production; if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support their assessment."
             },
             {
                 "id": "42070f84-c98c-4cc7-b494-1194f4ed0467",
@@ -5800,7 +5787,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "UpHODL - Android application. This is currently installable on Jailbroken devices, but we don't allow the user to proceed with creating a wallet. Please read the out-of-scope findings."
+                "description": "The UpHODL Wallet App is a self-custodial, multichain wallet developed by Uphold Labs, allowing users to securely store, manage, and transact digital assets while maintaining full control over their private keys. The wallet supports Bitcoin (BTC), Ethereum (ETH), XRP, ERC-20 tokens, NFTs, and other blockchain networks, offering seamless DeFi access via WalletConnect and the ability to purchase cryptocurrencies directly using a card."
             },
             {
                 "id": "75c47cc9-9c5e-4850-ae46-918150071c08",
@@ -5813,7 +5800,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Uphold Wallet - Android application. This is currently installable on Jailbroken devices, please read the out-of-scope findings."
+                "description": "The Uphold Wallet Android Application is the primary mobile platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the app."
             },
             {
                 "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
@@ -5826,20 +5813,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Sandbox Web Wallet Application. Use this environment for financial transaction testing, degradation attacks, or horizontal privilege attacks. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)"
-            },
-            {
-                "id": "f4bcf66b-ce3e-449f-ad82-097af06591be",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "wallet.uphold.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Production Web Wallet Application. Do not test service degradation attacks or horizontal privilege here."
+                "description": "The Uphold Wallet Web Application (https://wallet.uphold.com) is the primary UI platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the application. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.\n"
             },
             {
                 "id": "c7291f86-3790-4e0a-a664-9f4b5ae0a70a",
@@ -5865,7 +5839,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "The Topper REST API (https://api.topperpay.com) provides a pre-widget integration layer, allowing clients to retrieve essential information before initializing a Topper widget. This API enables businesses to fetch supported countries, assets, and payment methods, as well as generate pricing simulations for specific transaction flows. By leveraging this API, clients can display relevant information to users before engaging with the Topper on-ramp or off-ramp services.\n\nMore information available [here](https://api.topperpay.com/docs/static/index.html).\n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+                "description": "The Topper REST API (https://api.topperpay.com) provides a pre-widget integration layer, allowing clients to retrieve essential information before initializing a Topper widget. This API enables businesses to fetch supported countries, assets, and payment methods, as well as generate pricing simulations for specific transaction flows. By leveraging this API, clients can display relevant information to users before engaging with the Topper on-ramp or off-ramp services.\n\nMore information available [here](https://api.topperpay.com/docs/static/index.html).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment."
             },
             {
                 "id": "5bf70beb-300e-45b9-865f-5af4728afb41",
@@ -5878,7 +5852,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "The Topper Widget (https://app.topperpay.com) is a live, embeddable component designed for seamless integration into client platforms, enabling end-users to perform cryptocurrency on-ramp and off-ramp transactions. This widget facilitates the conversion between fiat and digital assets directly within the client\u2019s interface, providing a streamlined user experience.\n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+                "description": "The Topper Widget (https://app.topperpay.com) is a live, embeddable component designed for seamless integration into client platforms, enabling end-users to perform cryptocurrency on-ramp and off-ramp transactions. This widget facilitates the conversion between fiat and digital assets directly within the client\u2019s interface, providing a streamlined user experience.\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment."
             },
             {
                 "id": "6fb9dfc7-c0f0-4198-8130-81798299ecad",
@@ -5891,7 +5865,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "The Topper GraphQL API (https://graphql.topperpay.com/graphql) serves as the API gateway for app.topperpay.com and all client-integrated Topper widgets, facilitating seamless interaction between external applications and Topper\u2019s internal services. This API routes requests to multiple microservices handling user management, KYC verification, transaction processing, and other core functionalities.\n\nMore information available [here](https://docs.topperpay.com/intro).\n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+                "description": "The Topper GraphQL API (https://graphql.topperpay.com/graphql) serves as the API gateway for app.topperpay.com and all client-integrated Topper widgets, facilitating seamless interaction between external applications and Topper\u2019s internal services. This API routes requests to multiple microservices handling user management, KYC verification, transaction processing, and other core functionalities.\n\nMore information available [here](https://docs.topperpay.com/intro).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment."
             },
             {
                 "id": "58cce926-ddbf-4f1d-9fbb-c5e53223d3bd",
@@ -6021,7 +5995,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "The Uphold Help Center is a comprehensive support platform designed to assist users with various aspects of their Uphold experience. It offers self-service options for tasks such as resetting passwords, managing two-factor authentication, and downloading transaction histories. The Help Center also provides detailed articles covering account setup, management, deposits, withdrawals, trading features, and security measures. Users can access guidance on updating account information, linking payment methods, understanding fees and limits, and ensuring account security. Additionally, the platform includes resources for reporting suspicious activities and accessing tax-related information. For personalized assistance, users can contact the support team directly through the Help Center.\n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+                "description": "The Uphold Help Center is a comprehensive support platform designed to assist users with various aspects of their Uphold experience. It offers self-service options for tasks such as resetting passwords, managing two-factor authentication, and downloading transaction histories. The Help Center also provides detailed articles covering account setup, management, deposits, withdrawals, trading features, and security measures. Users can access guidance on updating account information, linking payment methods, understanding fees and limits, and ensuring account security. Additionally, the platform includes resources for reporting suspicious activities and accessing tax-related information. For personalized assistance, users can contact the support team directly through the Help Center.\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment."
             },
             {
                 "id": "f0614741-5d3e-47e4-b03c-c80181b392a1",
@@ -6034,7 +6008,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "The Topper Support Website (https://support-staging.topperpay.com) serves as the informational and support platform for Topper, providing guidance on account management, verification processes, transaction tracking, and partnership opportunities. Users can access resources to understand Topper\u2019s on-ramp and off-ramp functionalities and submit support requests if needed. \n\nThis is a sandbox environment, allowing for more extensive testing\u2014please focus security assessments here rather than on the production version."
+                "description": "The Topper Support Website (https://support-staging.topperpay.com) serves as the informational and support platform for Topper, providing guidance on account management, verification processes, transaction tracking, and partnership opportunities. Users can access resources to understand Topper\u2019s on-ramp and off-ramp functionalities and submit support requests if needed. \n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment."
             },
             {
                 "id": "3f9b5d02-9766-4813-b26b-29204ad00c23",
