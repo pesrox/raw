@@ -5712,6 +5712,110 @@
         },
         "domains": [
             {
+                "id": "fb541580-4cd5-4d65-9d8f-ff48576e7a4c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.uphold.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Uphold API (https://api.uphold.com) serves as the production API endpoint for Uphold\u2019s platform, facilitating financial transactions, account management, and other core functionalities. As this is an actively used environment, it is out of scope for security testing."
+            },
+            {
+                "id": "beda8165-905b-4664-bed3-12a7f8edf3a2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.uphold.com/graphql",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Uphold GraphQL API (https://api.uphold.com/graphql) is the production GraphQL endpoint supporting data retrieval and transactional interactions within the Uphold ecosystem. As this is an actively used environment, it is out of scope for security testing."
+            },
+            {
+                "id": "85ba138e-daf8-4b89-badc-5233f510a226",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wallet.uphold.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Uphold Wallet (https://wallet.uphold.com) serves as the production interface for users to access their Uphold accounts, manage assets, and perform transactions. As this is an actively used environment, it is out of scope for security testing.\n"
+            },
+            {
+                "id": "5818e053-3349-40ef-a8f1-247fafd17abe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.topperpay.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Topper API (https://api.topperpay.com) serves as the production API for processing transactions and account-related operations. As this is an actively used environment, it is out of scope for security testing.\n"
+            },
+            {
+                "id": "5710eafb-d1cf-4006-a1f0-57f8c0760056",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.topperpay.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Topper App (https://app.topperpay.com) is the production web application for users to manage their Topper accounts and perform financial operations. As this is an actively used environment, it is out of scope for security testing.\n"
+            },
+            {
+                "id": "08ffe489-4101-49dd-a830-9875d76e07ff",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "graphql.topperpay.com/graphql",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Topper GraphQL API (https://graphql.topperpay.com/graphql) serves as the production GraphQL endpoint for data retrieval and financial interactions within the Topper platform. As this is an actively used environment, it is out of scope for security testing."
+            },
+            {
+                "id": "380daf5a-6d6f-4ae3-b5b6-e3a8fd6274cf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "support.topperpay.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Topper Support (https://support.topperpay.com) provides customer support and documentation for Topper users. As this is an actively used environment, it is out of scope for security testing."
+            },
+            {
+                "id": "26ad51e2-461c-48f1-91f9-3f9565c30040",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "support.uphold.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Uphold Support (https://support.uphold.com) provides customer support and knowledge base resources for Uphold users. As this is an actively used environment, it is out of scope for security testing.\n"
+            },
+            {
                 "id": "7095c181-e1b9-4be3-abb7-166e20577397",
                 "type": {
                     "id": 3,
@@ -5764,6 +5868,19 @@
                 "description": "The Uphold Wallet GraphQL API (https://api-sandbox.uphold.com/graphql) serves as the API gateway for Uphold\u2019s wallet UIs, facilitating seamless interactions between the front-end interfaces and multiple back-end microservices. Unlike the REST API, which is designed for user automation and third-party integrations, the GraphQL API is primarily responsible for enabling the wallet\u2019s web and mobile applications to fetch and interact with user data, transactions, and account-related functionalities.\n\nMore information available [here](https://docs.uphold.com).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production; if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support their assessment."
             },
             {
+                "id": "c7291f86-3790-4e0a-a664-9f4b5ae0a70a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.portal.enterprise.uphold.com ",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Uphold Enterprise API (https://api.portal.enterprise.uphold.com/) is the backend service supporting the Uphold Enterprise Portal (portal.enterprise.uphold.com), enabling enterprise clients to manage their wallets, user delegations, and integrations with Topper widgets. This API facilitates secure enterprise-level account management, transaction processing, and access control. Security testing should focus on authentication mechanisms, authorization flows, data integrity, and potential vulnerabilities that could impact enterprise account security and operations.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
                 "id": "42070f84-c98c-4cc7-b494-1194f4ed0467",
                 "type": {
                     "id": 2,
@@ -5790,6 +5907,19 @@
                 "description": "The Uphold Wallet Android Application is the primary mobile platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the app."
             },
             {
+                "id": "58cce926-ddbf-4f1d-9fbb-c5e53223d3bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "portal.enterprise.uphold.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Uphold Enterprise Portal (https://portal.enterprise.uphold.com) is a secure platform for Uphold\u2019s enterprise clients, providing tools to manage enterprise wallets, delegate user roles and permissions, and integrate with Topper widgets. This portal enables businesses to oversee digital asset operations, facilitate transactions, and enforce access control within their organization. Key features include multi-user account management, real-time transaction monitoring, and compliance support, allowing enterprises to securely manage financial operations.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
                 "id": "ed3fc36b-ed8a-416b-b9ef-424d0b05b538",
                 "type": {
                     "id": 1,
@@ -5801,19 +5931,6 @@
                     "value": "Tier 1"
                 },
                 "description": "The Uphold Wallet Web Application (https://wallet.uphold.com) is the primary UI platform for Uphold users to manage their wallets, providing a full suite of financial services, including account management, real-time price quotes, transactions, and access to account history. Users can deposit, withdraw, exchange assets, and complete KYC verification directly through the application. Fund with Crypto Testnet Faucet (e.g. https://coinfaucet.eu/en/btc-testnet/ for Bitcoin)\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment.\n"
-            },
-            {
-                "id": "c7291f86-3790-4e0a-a664-9f4b5ae0a70a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.portal.enterprise.uphold.com ",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "The Uphold Enterprise API (https://api.portal.enterprise.uphold.com/) is the backend service supporting the Uphold Enterprise Portal (portal.enterprise.uphold.com), enabling enterprise clients to manage their wallets, user delegations, and integrations with Topper widgets. This API facilitates secure enterprise-level account management, transaction processing, and access control. Security testing should focus on authentication mechanisms, authorization flows, data integrity, and potential vulnerabilities that could impact enterprise account security and operations.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
             },
             {
                 "id": "3edffdbb-70dd-4e28-867b-aeb72664f3f1",
@@ -5855,17 +5972,17 @@
                 "description": "The Topper GraphQL API (https://graphql.topperpay.com/graphql) serves as the API gateway for app.topperpay.com and all client-integrated Topper widgets, facilitating seamless interaction between external applications and Topper\u2019s internal services. This API routes requests to multiple microservices handling user management, KYC verification, transaction processing, and other core functionalities.\n\nMore information available [here](https://docs.topperpay.com/intro).\n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment."
             },
             {
-                "id": "58cce926-ddbf-4f1d-9fbb-c5e53223d3bd",
+                "id": "4c45ba4f-b1f0-4370-b47a-60f82d14bf83",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "portal.enterprise.uphold.com",
+                "endpoint": "uatcms.optimuscards.com",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": "The Uphold Enterprise Portal (https://portal.enterprise.uphold.com) is a secure platform for Uphold\u2019s enterprise clients, providing tools to manage enterprise wallets, delegate user roles and permissions, and integrate with Topper widgets. This portal enables businesses to oversee digital asset operations, facilitate transactions, and enforce access control within their organization. Key features include multi-user account management, real-time transaction monitoring, and compliance support, allowing enterprises to securely manage financial operations.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+                "description": "Optimus Cards Management Portal (https://uatcms.optimuscards.com) serves as the User Acceptance Testing (UAT) environment for Optimus Cards\u2019 internal management system. This portal is designed for internal use by authorized personnel to manage and oversee various card services and operations. While it mirrors the functionalities of the production environment (https://cms.optimuscards.com), the UAT portal is intended for testing and validation purposes prior to deploying updates to the live system.\n\nBoth the UAT and production portals may be powered by similar back-end services; however, security assessments should focus exclusively on the UAT environment (https://uatcms.optimuscards.com). This approach allows for the identification of potential vulnerabilities without impacting live operations. \n\nSecurity testing should concentrate on identifying vulnerabilities related to authentication mechanisms, access controls, data handling, and potential misconfigurations within the UAT environment. \n\nPlease note that service degradation attacks are not permitted."
             },
             {
                 "id": "8acf452b-2008-4cf8-90ac-5b9243df3d02",
@@ -5931,6 +6048,19 @@
                     "value": "Tier 3"
                 },
                 "description": "The Uphold Enterprise API Documentation (https://docs.api.enterprise.uphold.com) provides technical resources for Uphold-as-a-Service, a fully licensed white-label solution that enables financial institutions and business partners to integrate and deploy their own branded digital asset services. This platform offers comprehensive API functionality for managing transactions, compliance, user accounts, and asset trading, while ensuring regulatory compliance and security.\n\nThis is a production environment\u2014please review the program policy to avoid denial of service and other types of unavailability during security testing."
+            },
+            {
+                "id": "f604f118-86bf-459e-a248-8795deda1afd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "docs.optimuscards.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Optimus Cards Developer Documentation (https://docs.optimuscards.com) serves as the primary resource for developers integrating with Optimus Cards\u2019 services. This site provides comprehensive API documentation, integration guides, and technical references necessary for implementing Optimus Cards\u2019 payment solutions into applications. While the documentation itself does not process transactions, it acts as a crucial gateway for developers to access sandbox environments, test APIs, and understand the functionalities offered by Optimus Cards.\n\nEach API endpoint and service described in the documentation may be powered by different back-end systems, implying that security assessments should consider varying architectures, data sources, and authentication mechanisms.\n\nSecurity testing should focus on identifying vulnerabilities related to API endpoint security, data exposure, and potential misconfigurations. \n\nPlease note that service degradation attacks are not permitted."
             },
             {
                 "id": "a3c0f7b6-5085-4f37-81c8-ec993875d7bb",
@@ -6011,6 +6141,19 @@
                 "description": "The Topper Support Website (https://support-staging.topperpay.com) serves as the informational and support platform for Topper, providing guidance on account management, verification processes, transaction tracking, and partnership opportunities. Users can access resources to understand Topper\u2019s on-ramp and off-ramp functionalities and submit support requests if needed. \n\nThis is a sandbox environment designed to closely mimic the production environment, allowing for more extensive testing. However, for a reported issue to be considered valid, it must be reproducible in the production environment. The Uphold security team will verify and confirm the issue in production, and if it cannot be replicated, the report will not be considered. In such cases, the team will provide evidence to support the assessment."
             },
             {
+                "id": "f4adf49c-12d4-46c7-a0d6-d4499c104c33",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.optimuscards.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Optimus Cards Website (https://www.optimuscards.com) serves as the main informational platform for Optimus Cards, providing an overview of its card issuing and payment solutions. The website primarily offers details on the company\u2019s services, regulatory compliance, and contact information. While it does not facilitate financial transactions or serve as a gateway to customer platforms, it functions as a static informational site for prospective clients and partners.\n\nThe website operates as a standalone informational resource without direct integrations to financial systems or user authentication mechanisms. Security assessments should focus on identifying vulnerabilities related to content integrity, redirections, and potential misconfigurations.\n\nPlease note that service degradation attacks are not permitted."
+            },
+            {
                 "id": "3f9b5d02-9766-4813-b26b-29204ad00c23",
                 "type": {
                     "id": 1,
@@ -6048,6 +6191,19 @@
                     "value": "Tier 3"
                 },
                 "description": "The Uphold Website (https://www.uphold.com) serves as the company\u2019s main informational platform, providing an overview of Uphold\u2019s services, institutional offerings, and financial transparency. It includes key sections such as the Transparency Page (real-time reserves data), Institutional and Enterprise offerings, Market Prices, Blog, and Academy, along with general company updates. While the website itself does not provide transactional functionalities, it acts as a gateway to Uphold\u2019s wallet, trading platform, and other financial services.\n\nTechnical Note: Each menu category (Individuals, Enterprise, Institutional, Market Prices, Blog, Academy, Transparency) may be powered by different back-end services, meaning security assessments should consider the possibility of varying architectures, data sources, and API implementations.\n\nSecurity testing should focus on identifying vulnerabilities related to content integrity, redirections, and potential misconfigurations. Please note that service degradation attacks are not permitted."
+            },
+            {
+                "id": "7ad8ccbb-86c0-4ed2-ab82-e1988f717dd3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cms.optimuscards.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Optimus Cards Management Portal (https://cms.optimuscards.com) serves as the production version of the internal management system used for overseeing various card services and operations. As this is an actively used environment, it is out of scope for security testing.\n\nPlease note that security testing against the production system (https://cms.optimuscards.com) is strictly prohibited, and service degradation attacks are not permitted."
             }
         ]
     },
@@ -12604,8 +12760,8 @@
                 },
                 "endpoint": "https://detect.pdq.tools/ ",
                 "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": "Test environment for PDQ Detect"
             }
