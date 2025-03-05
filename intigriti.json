@@ -18358,50 +18358,6 @@
         ]
     },
     {
-        "id": "9d20f54a-a4af-4d59-9d11-3c7fe86a31ff",
-        "handle": "vcf-aria",
-        "name": "VCF - Aria Operations for Networks",
-        "following": false,
-        "minBounty": {
-            "value": 100.0,
-            "currency": "USD"
-        },
-        "maxBounty": {
-            "value": 10000.0,
-            "currency": "USD"
-        },
-        "confidentialityLevel": {
-            "id": 3,
-            "value": "Registered"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/vmware/vcf-aria/detail"
-        },
-        "domains": [
-            {
-                "id": "7785d537-bddf-4354-832f-7541da1adbf1",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Aria Operations for Networks",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "The Aria Operations for Networks (AON) Test Environment  has the following in-scope components:\n\n|  Component |  Location  |  Functionality |  Remarks |\n| --- | --- | --- | --- | \n| Aria Operations for Networks Platform |  Multi-tenant SaaS service managed by VMware |  Review network topology data, manage Collectors, set alerts | Credentials for an AON tenant account are provided through the \u201cShow Credentials\u201d button.  |    \n| Aria Operations for Networks Collector |  Customer\u2019s network, managed by customer   |  Data plane, provides end-points at customer\u2019s site.  |  |     \n\n**Test Environment**\nThe credentials give access to a tenant administrator account on the hosted Aria Operations for Networks Platform. The account is provided through VMware Cloud Services at console-stg.cloud.vmware.com. See the document Getting_started_on_Aria_Operations_for_Networks_environment.pdf on how to access the plaform. Due to resource limitations, the test environments are shared among participants.\n\n**Credentials**\nThe \u201cClaim\" button next to \"Credentials\" on this Web page will show set of credentials which can be used to login into CSP to access VMware Aria Operations for Networks.\nPlease see the details steps in the document Getting_started_on_Aria_Operations_for_Networks_environment.pdf\n\n**Issues we are most interested in**\n-\tTenant-to-tenant escape: get access to other tenant\u2019s data or environment.\n-\tTenant-to-Global escape: get access to VMware Cloud Services of another tenant.\n-\tRemote tenant entry: manage to compromise a tenant environment from the network\n-\tRemote Global entry: manage to compromise VMware Cloud Services from the network [VMSA-2023-0018](https://www.vmware.com/security/advisories/VMSA-2023-0018.html) \n-\tPrivilege escalation within the tenant environment (e.g., basic tenant user to admin tenant)\n-\tExploitation of the AON API (e.g., an escape issue or privilege escalation using the API instead of the UI)\n-\tCompromise of a Collector giving access to the underlaying Operating System.\n-\tCommand injection vulnerability to execute code within the trusted application [VMSA-2023-0012](https://www.vmware.com/security/advisories/VMSA-2023-0012.html) \n-\tStealing user credentials to simulate MITM attack\n\n**Issues removed from scope**\nN/A\n\n**Additional Documentation**\n\u2022\t[Getting_started_on_Aria_Operations_for_Networks.pdf](https://drive.google.com/file/d/1VVT6XVdK1WZ_IE1k2uSXwD5E34eEHBVl/view?usp=sharing)"
-            }
-        ]
-    },
-    {
         "id": "9ef59fe8-d021-4d23-9521-0d7d01da03ee",
         "handle": "peoplecert",
         "name": "PeopleCert VDP",
@@ -21369,8 +21325,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
