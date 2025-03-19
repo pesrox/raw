@@ -28159,6 +28159,19 @@
         },
         "domains": [
             {
+                "id": "f3f69e52-5dff-4224-8c5b-619560f4849c",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "https://github.com/cmdotcom",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Our public code repositories are being used by our customers. In scope for this domain is issues with the public code we host (vulnerabilities, libraries that have known security concerns, keys accidentally pushed to the public GitHub etc.). \n**Testing the GitHub itself is out-of-scope**, they have their own bug bounty program if you are interested :)  "
+            },
+            {
                 "id": "c2ea9e52-cb22-4f74-8df9-63e0f622d546",
                 "type": {
                     "id": 1,
@@ -28237,6 +28250,32 @@
                 "description": null
             },
             {
+                "id": "be76ef3b-4f12-47b6-b60d-abbd465fdf05",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "appmiral.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
+                "id": "30dfdf74-d2f8-4c6f-9e49-96476af038bc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "building-blocks.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
+            },
+            {
                 "id": "aa00fe91-7017-4710-91a7-146f1160baa4",
                 "type": {
                     "id": 1,
@@ -28248,6 +28287,19 @@
                     "value": "Tier 3"
                 },
                 "description": "An application that makes it possible for developers to do a limited test of sending messages using the CM.COM business messaging API.\n\nWhat we would like to know is:\n* Can the application be exploited to allow sending more than the allowed number of messages?\n* Can the app be exploited to send to other recipients besides the whitelisted recipients?"
+            },
+            {
+                "id": "64a79ef7-334f-4c47-98a3-139e966afbaf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cmcom.atlassian.net",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null
             },
             {
                 "id": "e836e34b-a943-4cde-ae07-5ea264923c7d",
@@ -28326,45 +28378,6 @@
                     "value": "No Bounty"
                 },
                 "description": "Right now we don't have a way to make test accounts for these apps, this will be added in the future"
-            },
-            {
-                "id": "be76ef3b-4f12-47b6-b60d-abbd465fdf05",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "appmiral.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            },
-            {
-                "id": "30dfdf74-d2f8-4c6f-9e49-96476af038bc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "building-blocks.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
-            },
-            {
-                "id": "64a79ef7-334f-4c47-98a3-139e966afbaf",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "cmcom.atlassian.net",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null
             },
             {
                 "id": "fbada37c-4dbc-4d2a-910a-446010cb057d",
