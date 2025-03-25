@@ -338,19 +338,6 @@
         },
         "domains": [
             {
-                "id": "7478cb9a-9306-4bfe-8574-ffb7d884a683",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "pay.staging-enviso.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The Enviso Pay app allows you to see payments and manage payment settings."
-            },
-            {
                 "id": "b62965e0-86c7-4df2-b0fa-0c30ae6066c3",
                 "type": {
                     "id": 1,
@@ -624,6 +611,19 @@
                 "description": "\n* [Documentation: eLoxx API](https://help.gantner.com/eloxx-365/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/withdatacarriers\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers/{datacarrierid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers/{maintenancedatacarrierid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
             },
             {
+                "id": "7478cb9a-9306-4bfe-8574-ffb7d884a683",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pay.staging-enviso.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Enviso Pay app allows you to see payments and manage payment settings."
+            },
+            {
                 "id": "1d28165e-2d91-41e5-9b4c-7e25893f8f1a",
                 "type": {
                     "id": 1,
@@ -683,8 +683,8 @@
                 },
                 "endpoint": "api.staging-enviso.io/systemcenterapi",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "The System Center API is used by our different applications (primarily the Admin app) to manage Users and Roles."
             },
