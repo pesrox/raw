@@ -19330,8 +19330,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -21117,8 +21117,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -28676,6 +28676,32 @@
         },
         "domains": [
             {
+                "id": "8feb4bd9-fca0-46d7-b3d5-5edc3de81952",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.vlerick.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "When you start testing www.vlerick.com, **visit www.vlerick.com/en?internal first**. In this way, your testing is not taken into account in our web stats.\nFeel free to test & scan our new submdomain https://my.vlerick.com/ as well."
+            },
+            {
+                "id": "af983766-fe21-4abe-bb24-c5c393ba42ed",
+                "type": {
+                    "id": 4,
+                    "value": "IpRange"
+                },
+                "endpoint": "193.190.150.0/24",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null
+            },
+            {
                 "id": "e4191f3c-cad7-4bb5-833d-b7f50d38fd02",
                 "type": {
                     "id": 1,
@@ -28695,32 +28721,6 @@
                     "value": "Url"
                 },
                 "endpoint": "https://www-tst.vlerick.com/en/",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null
-            },
-            {
-                "id": "8feb4bd9-fca0-46d7-b3d5-5edc3de81952",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.vlerick.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "When you start testing www.vlerick.com, **visit www.vlerick.com/en?internal first**. In this way, your testing is not taken into account in our web stats."
-            },
-            {
-                "id": "af983766-fe21-4abe-bb24-c5c393ba42ed",
-                "type": {
-                    "id": 4,
-                    "value": "IpRange"
-                },
-                "endpoint": "193.190.150.0/24",
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
