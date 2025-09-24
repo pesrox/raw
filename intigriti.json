@@ -13819,6 +13819,122 @@
         ]
     },
     {
+        "id": "5ec1446f-cf57-419b-b9bc-65dd012a1a85",
+        "handle": "engel&vlkers",
+        "name": "Engel & V\u00f6lkers",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/engelandvolkers/engel%26vlkers/detail"
+        },
+        "industry": "Real Estate",
+        "domains": [
+            {
+                "id": "471b3b0b-5c3f-4782-ab5a-0c82599a51a1",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://login.engelvoelkers.com/*",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3fa2ef46-da1e-4d8a-9144-6f7aeafa4e6b",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "www.engelvoelkers.com/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ab154d82-5a70-4f47-81ae-b94e9a235344",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://www.engelvoelkers.com/search/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "cd96a1e5-bc84-48e5-9acd-4c9bf2ee5461",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://leadhub.engelvoelkers.com/*\t",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6ac10525-0763-4c52-b9c8-e5e8f769f9e2",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.envdevel.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "adfb51c9-e671-4023-8980-356038fe1354",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.envstage.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "5ed6962a-7017-4d60-8805-e169b638528d",
         "handle": "sqillscorporatewebsite",
         "name": "Sqills",
