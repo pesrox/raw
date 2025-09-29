@@ -172,6 +172,52 @@
         ]
     },
     {
+        "id": "0083c917-80ac-4943-90b7-ee60dc1bdb17",
+        "handle": "vdp",
+        "name": "VDP",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/showpad/vdp/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "55713502-02cb-4618-9ff8-3eedb270796c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.showpad.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "025558a4-e74e-41eb-9bf6-a01dbe8e5a7a",
         "handle": "coca-cola",
         "name": "The Coca-Cola Company Vulnerability Disclosure Program",
