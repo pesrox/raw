@@ -532,7 +532,7 @@
         "industryName": "Retail",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": null,
+        "badgeVariant": "updated",
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -2208,38 +2208,6 @@
         "target_groups": []
     },
     {
-        "name": "Backblaze",
-        "tagline": "Help Secure Backblaze",
-        "briefUrl": "/engagements/backblaze",
-        "backgroundColor": "#a90f0f",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9764/5768/5322bd2e/f740efd2c7fbdae04a8751433a567d2c_5bNX_lVF_400x400.png",
-        "rewardSummary": {
-            "summary": "$500 - $6,500",
-            "hint": "Up to $15,000",
-            "minReward": "$500",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $15,000",
-            "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Cloud",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/backblaze/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Bullish Exchange",
         "tagline": "Help Secure Bullish - a new breed of exchange",
         "briefUrl": "/engagements/bullish-exchange",
@@ -2432,38 +2400,6 @@
         "target_groups": []
     },
     {
-        "name": "T-Mobile",
-        "tagline": "Welcome to The Uncarrier. Are You With Us?",
-        "briefUrl": "/engagements/t-mobile",
-        "backgroundColor": "#e20074",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
-        "rewardSummary": {
-            "summary": "Points - $133,700",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$133,700",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Utilities",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/t-mobile/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Linktree",
         "tagline": "Linktree enables creators, brands, artists, publishers, agencies, and businesses of all sizes to curate a place where they can share, sell and grow. Please submit your findings to this Bug Bounty program.",
         "briefUrl": "/engagements/linktree-mbb-og",
@@ -2589,6 +2525,70 @@
         "subscriptionUrl": "/openai/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Priority Triage",
+        "target_groups": []
+    },
+    {
+        "name": "Backblaze",
+        "tagline": "Help Secure Backblaze",
+        "briefUrl": "/engagements/backblaze",
+        "backgroundColor": "#a90f0f",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9764/5768/5322bd2e/f740efd2c7fbdae04a8751433a567d2c_5bNX_lVF_400x400.png",
+        "rewardSummary": {
+            "summary": "$500 - $6,500",
+            "hint": "Up to $15,000",
+            "minReward": "$500",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $15,000",
+            "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Cloud",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/backblaze/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "T-Mobile",
+        "tagline": "Welcome to The Uncarrier. Are You With Us?",
+        "briefUrl": "/engagements/t-mobile",
+        "backgroundColor": "#e20074",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/536d/20c9/6661dfe6/222ce2fcbe4559e1a34d9bf812be42c6_T-Digit_Logo_Ltd-Use_RGB_W_2022-03-14.png",
+        "rewardSummary": {
+            "summary": "Points - $133,700",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$133,700",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/t-mobile/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
         "target_groups": []
     },
     {
@@ -2811,38 +2811,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/afterpay/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
-        "name": "Canva",
-        "tagline": "Design Anything. Publish Anywhere.",
-        "briefUrl": "/engagements/canva",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
-        "rewardSummary": {
-            "summary": "$200 - $15,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$15,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/canva/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -3200,24 +3168,24 @@
         "target_groups": []
     },
     {
-        "name": "SpaceX/Starlink",
-        "tagline": "Help Secure SpaceX and Starlink!",
-        "briefUrl": "/engagements/spacex",
-        "backgroundColor": "#000000",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2a86/e629/8bcbecde/0c6ceca416865abd3e7e16067c012149_spacex.jpg",
+        "name": "Mastercard Public Bug Bounty ",
+        "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
+        "briefUrl": "/engagements/mastercard",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b4a9/84bb/3dce2d73/b0f1f87e4b18bed77f9242b568d5f365_FINAL_-_Works_for_brief.png",
         "rewardSummary": {
-            "summary": "Points - $100,000",
+            "summary": "$50 - $5,000",
             "hint": null,
-            "minReward": "Points",
-            "maxReward": "$100,000",
+            "minReward": "$50",
+            "maxReward": "$5,000",
             "compensationSummary": null,
             "compensationHint": null
         },
         "isDemo": false,
-        "scopeRank": 1,
+        "scopeRank": 3,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Technology",
+        "industryName": "Finance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -3226,9 +3194,9 @@
             "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/spacex/engagement_subscribers",
+        "subscriptionUrl": "/mastercard/engagement_subscribers",
         "isPrivate": false,
-        "serviceLevel": "Self-managed",
+        "serviceLevel": "Platform",
         "target_groups": []
     },
     {
@@ -3264,6 +3232,70 @@
         "target_groups": []
     },
     {
+        "name": "Canva",
+        "tagline": "Design Anything. Publish Anywhere.",
+        "briefUrl": "/engagements/canva",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://assets.bugcrowdusercontent.com/assets/2014/icons/logo-empty-4e1094ffd36460e61f051b0f3834fef94110c1db0c1cbd4774d4970723d50b6f.png",
+        "rewardSummary": {
+            "summary": "$200 - $15,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$15,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/canva/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "SpaceX/Starlink",
+        "tagline": "Help Secure SpaceX and Starlink!",
+        "briefUrl": "/engagements/spacex",
+        "backgroundColor": "#000000",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2a86/e629/8bcbecde/0c6ceca416865abd3e7e16067c012149_spacex.jpg",
+        "rewardSummary": {
+            "summary": "Points - $100,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$100,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/spacex/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Self-managed",
+        "target_groups": []
+    },
+    {
         "name": "EPAM Systems Managed Bug Bounty Program",
         "tagline": "EPAM Systems leads the industry in digital and physical product development and digital platform engineering services. Please submit your findings to this Bug Bounty Program.",
         "briefUrl": "/engagements/epam-mbb-og",
@@ -3291,38 +3323,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/epam-mbb-og/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
-        "name": "Mastercard Public Bug Bounty ",
-        "tagline": "Mastercard operates the world\u2019s fastest payments processing network, connecting consumers, financial institutions, merchants, governments and businesses in more than 210 countries and territories. ",
-        "briefUrl": "/engagements/mastercard",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/b4a9/84bb/3dce2d73/b0f1f87e4b18bed77f9242b568d5f365_FINAL_-_Works_for_brief.png",
-        "rewardSummary": {
-            "summary": "$50 - $5,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/mastercard/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -3661,7 +3661,7 @@
         "industryName": "Entertainment",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -5227,38 +5227,6 @@
         "target_groups": []
     },
     {
-        "name": "Dell Technologies Application Bug Bounty",
-        "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
-        "briefUrl": "/engagements/dell-com",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c63e/8e43/7338d03a/f1e1e5bbb52c73c333a29b25feba8aae_1024px-Dell_Logo.svg.png",
-        "rewardSummary": {
-            "summary": "$50 - $2,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dell-com/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "SnapNames Bug Bounty",
         "tagline": "SnapNames is the web's domain name marketplace of choice throughout the world. We bring businesses global access to already-registered domains with the convenience of online and mobile shopping.",
         "briefUrl": "/engagements/snapnames",
@@ -5387,38 +5355,6 @@
         "target_groups": []
     },
     {
-        "name": "TRM Labs Public Bug Bounty Engagement",
-        "tagline": "Digital Asset Compliance & Risk Management Platform",
-        "briefUrl": "/engagements/trm-labs-public-mbb",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9897/51b7/3795c801/c3f4e294150ed7e9755e13da4e1dde89_trmlabs_logo.jpeg",
-        "rewardSummary": {
-            "summary": "Points - $1,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$1,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/trm-labs-public-mbb/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Tesla",
         "tagline": "Accelerating the world\u2019s transition to sustainable energy",
         "briefUrl": "/engagements/tesla",
@@ -5510,6 +5446,70 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/kucoin/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "TRM Labs Public Bug Bounty Engagement",
+        "tagline": "Digital Asset Compliance & Risk Management Platform",
+        "briefUrl": "/engagements/trm-labs-public-mbb",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9897/51b7/3795c801/c3f4e294150ed7e9755e13da4e1dde89_trmlabs_logo.jpeg",
+        "rewardSummary": {
+            "summary": "Points - $1,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$1,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/trm-labs-public-mbb/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Dell Technologies Application Bug Bounty",
+        "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
+        "briefUrl": "/engagements/dell-com",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c63e/8e43/7338d03a/f1e1e5bbb52c73c333a29b25feba8aae_1024px-Dell_Logo.svg.png",
+        "rewardSummary": {
+            "summary": "$50 - $2,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/dell-com/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -6123,38 +6123,6 @@
         "target_groups": []
     },
     {
-        "name": "Aiven Managed Bug Bounty",
-        "tagline": "Aiven is a trusted open source data platform for everyone. Please submit your findings to this Bug Bounty program.",
-        "briefUrl": "/engagements/aiven-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2f7a/aeda/2c3bd592/5f27709d4d0c543665a7d1fa0bb2bc9f_1656939875704.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $25,000",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/aiven-mbb-og/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Auth0 by Okta",
         "tagline": "We provide a universal authentication & authorization platform for web, mobile, and legacy applications.",
         "briefUrl": "/engagements/auth0-okta",
@@ -6379,38 +6347,6 @@
         "target_groups": []
     },
     {
-        "name": "Square",
-        "tagline": "We make selling simple for businesses of all sizes.",
-        "briefUrl": "/engagements/square",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/engagement_brief_logos/engagement_brief/logo/51ebe36a-3948-46f5-b345-f20f98ec4962/8ab1f416-fc3f-4718-a966-659c9800c993.png",
-        "rewardSummary": {
-            "summary": "Points - $18,000",
-            "hint": null,
-            "minReward": "Points",
-            "maxReward": "$18,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/square/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Bitso Managed Bug Bounty Engagement",
         "tagline": "Bitso is Latin America\u2019s leading Financial Services company powered by crypto.",
         "briefUrl": "/engagements/bitso-mbb-og",
@@ -6438,6 +6374,70 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/bitso-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Aiven Managed Bug Bounty",
+        "tagline": "Aiven is a trusted open source data platform for everyone. Please submit your findings to this Bug Bounty program.",
+        "briefUrl": "/engagements/aiven-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/2f7a/aeda/2c3bd592/5f27709d4d0c543665a7d1fa0bb2bc9f_1656939875704.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $25,000",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/aiven-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Square",
+        "tagline": "We make selling simple for businesses of all sizes.",
+        "briefUrl": "/engagements/square",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/engagement_brief_logos/engagement_brief/logo/51ebe36a-3948-46f5-b345-f20f98ec4962/8ab1f416-fc3f-4718-a966-659c9800c993.png",
+        "rewardSummary": {
+            "summary": "Points - $18,000",
+            "hint": null,
+            "minReward": "Points",
+            "maxReward": "$18,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/square/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
