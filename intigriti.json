@@ -11744,6 +11744,287 @@
         ]
     },
     {
+        "id": "4d41a636-c811-4757-8fd9-007d7f18e212",
+        "handle": "excoscalebugbounty",
+        "name": "Excoscale Bug Bounty",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 5000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/exoscale/excoscalebugbounty/detail"
+        },
+        "industry": "IT Services",
+        "domains": [
+            {
+                "id": "ff0c047a-b2b6-4524-9e89-c47ea42e43f2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://portal.exoscale.com/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our web portal. A good place to start to create your test accounts, deploy your first resources and play around with our services.",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "2d0cdb57-33b5-4004-8bf3-914aeeb55deb",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": " https://api-*exoscale.com/v2",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our public API to deploy and interact with our different services. Have a look at [the API documentation](https://openapi-v2.exoscale.com/).\n\nThe API is deployed across multiple zones with different URLs:\n\nhttps://api-ch-gva-2.exoscale.com/v2\nhttps://api-ch-dk-2.exoscale.com/v2\nhttps://api-de-fra-1.exoscale.com/v2\nhttps://api-de-muc-1.exoscale.com/v2\nhttps://api-at-vie-1.exoscale.com/v2\nhttps://api-at-vie-2.exoscale.com/v2\nhttps://api-bg-sof-1.exoscale.com/v2\nhttps://api-hr-zag-1.exoscale.com/v2",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "b48abb1a-ba2a-4bc4-8a67-65c76f3a7e1d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://sos-*.exo.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "sos-*.exo.io are the subdomains related to our S3-compatible Object Storage service (called SOS). Have a look at [the SOS product documentation](https://community.exoscale.com/product/storage/object-storage/). These endpoints implement the S3 protocol. \n\n\nThere is a subdomain for each zone where the service is offered: \n\nhttps://sos-ch-gva-2.exo.io\nhttps://sos-ch-dk-2.exo.io\nhttps://sos-de-fra-1.exo.io\nhttps://sos-de-muc-1.exo.io\nhttps://sos-at-vie-1.exo.io\nhttps://sos-at-vie-2.exo.io\nhttps://sos-bg-sof-1.exo.io\nhttps://sos-hr-zag-1.exo.io\n\nPlease note that there may be resources owned by customers on these domains. Customers' resources are out of scope. ",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
+            },
+            {
+                "id": "dcbfb3ad-9e86-4e20-9aa9-5ea7a790d4c1",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://sks-*.exo.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "sks-*.exo.io are the subdomains related to our managed Kubernetes (SKS) clusters. Have a look at [the SKS product documentation](https://community.exoscale.com/product/compute/containers/).\n\n\nThere is a subdomain for each zone where the service is offered: \n\nhttps://sks-ch-gva-2.exo.io\nhttps://sks-ch-dk-2.exo.io\nhttps://sks-de-fra-1.exo.io\nhttps://sks-de-muc-1.exo.io\nhttps://sks-at-vie-1.exo.io\nhttps://sks-at-vie-2.exo.io\nhttps://sks-bg-sof-1.exo.io\nhttps://sks-hr-zag-1.exo.io\n\nPlease note that there may be resources owned by customers on these domains. Customers' resources are out of scope. ",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
+            },
+            {
+                "id": "419eb8ff-dfe0-4b0f-a141-8f348053321f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.internal.exoscale.ch",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Exoscale internal services. Not accessible to the outside world.",
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "066ffcf3-e45c-4db3-bb6f-e34ecdc01830",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.exoscale.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Our [public website](https://www.exoscale.com/). A great way to start to familiarise with our products and services and learn more about everything Exoscale has to offer!",
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "623bcd1b-47c7-431d-828e-53c2fa7b64e4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://community.exoscale.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Our [public documentation](https://community.exoscale.com/). Another great way familiarise with our products and services and learn more about everything Exoscale has to offer!",
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "fe64f98a-1bd6-42bb-bead-39d4c43f7949",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://changelog.exoscale.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "bd1e9028-dfc2-4a55-8a6d-39b9188101e6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://exoscalestatus.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "907840dd-5233-40a3-8a4b-181fe5d1af1f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://academy.exoscale.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "17c279cd-5257-4f75-9840-5c9c853e38d2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://jobs.exoscale.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a8598463-682a-4633-90c1-9f90776dfb94",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "CDN service",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Exoscale offers a CDN service in partnership with Ducksify, member of the Akamai NetAlliance Partner network. The CDN service is out of scope of this program. ",
+                "requiredSkills": []
+            },
+            {
+                "id": "670917a2-be61-4c75-aa11-aa817de89557",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Marketplace products",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Exoscale offers instant deployments of certain partner solutions through a marketplace. The marketplace products are out of scope of this program. ",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "51bde6cd-ee7e-4236-98f0-60166bea28e3",
         "handle": "twago",
         "name": "Twago",
@@ -12095,8 +12376,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
