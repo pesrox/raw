@@ -1,5 +1,289 @@
 [
     {
+        "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
+        "slug": "fdj-united-online-betting-gaming-bug-bounty-program",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 250,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 7000,
+        "scopes_count": 33,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "2c7792a5-972a-4843-a94c-1c57d9304a47",
+            "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
+            "mime_type": "image/png",
+            "size": 11827,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/2c7792a5-972a-4843-a94c-1c57d9304a47"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "FDJ UNITED (Online Betting and Gaming)",
+            "slug": "fdj-united-online-betting-gaming",
+            "description": "FDJ UNITED (Online Betting and Gaming) is an online betting and gaming operator offering products like online casino, poker, bingo, and sports betting through different brands, like Unibet, Maria Casino, Vlad Cazino, and 32Red.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "d3d9d45b-ae76-4a4c-9d95-d0422fcace37",
+                "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
+                "mime_type": "image/png",
+                "size": 15368,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/d3d9d45b-ae76-4a4c-9d95-d0422fcace37"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-10-08T16:06:54+02:00",
+        "scopes": [
+            {
+                "scope": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au|mt)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "fi.unibet.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au|mt)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.mariacasino.(com|se|ee|dk)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "fi.mariacasino.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.mariacasino.(com|se|ee|dk)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "int.32red.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.bingo.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "(se|fi|uk).bingo.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.bingo.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.ottokasino.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "en.ottokasino.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.ottokasino.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.ottocasino.se",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.ottocasino.se",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.kolikkopelit.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "en.kolikkopelit.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.kolikkopelit.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.storspiller.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.storspiller.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.storspelare.se",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.storspelare.se",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.casinohuone.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "en.casinohuone.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.casinohuone.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "www.vladcazino.ro",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "payment.vladcazino.ro",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://pci.kindredgroup.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.32red.com/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "/blog/ endpoints on our sites",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "DINUM - AGORA GOUV - Public Bug Bounty Program",
         "slug": "agora",
         "country": "FR",
@@ -19,7 +303,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 68,
+        "reports_count": 69,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 4,
@@ -174,7 +458,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1665,
+        "reports_count": 1666,
         "bounty_reward_min": 5,
         "bounty_reward_max": 1500,
         "scopes_count": 40,
@@ -507,7 +791,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1122,
+        "reports_count": 1124,
         "bounty_reward_min": 0,
         "bounty_reward_max": 50000,
         "scopes_count": 9,
@@ -687,290 +971,6 @@
                 "scope_type": "application",
                 "scope_type_name": "Application",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
-        "slug": "fdj-united-online-betting-gaming-bug-bounty-program",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 250,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 7000,
-        "scopes_count": 33,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "2c7792a5-972a-4843-a94c-1c57d9304a47",
-            "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
-            "mime_type": "image/png",
-            "size": 11827,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/2c7792a5-972a-4843-a94c-1c57d9304a47"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "FDJ UNITED (Online Betting and Gaming)",
-            "slug": "fdj-united-online-betting-gaming",
-            "description": "FDJ UNITED (Online Betting and Gaming) is an online betting and gaming operator offering products like online casino, poker, bingo, and sports betting through different brands, like Unibet, Maria Casino, Vlad Cazino, and 32Red.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "d3d9d45b-ae76-4a4c-9d95-d0422fcace37",
-                "original_name": "LOGOFDJUNITEDIconeBleuClairRVB.png",
-                "mime_type": "image/png",
-                "size": 15368,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/d3d9d45b-ae76-4a4c-9d95-d0422fcace37"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-09-30T16:56:16+02:00",
-        "scopes": [
-            {
-                "scope": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au|mt)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "fi.unibet.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|fr|ee|ie|com.au|mt)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.mariacasino.(com|se|ee|dk)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "fi.mariacasino.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.mariacasino.(com|se|ee|dk)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "int.32red.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.bingo.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "(se|fi|uk).bingo.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.bingo.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.ottokasino.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "en.ottokasino.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.ottokasino.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.ottocasino.se",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.ottocasino.se",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.kolikkopelit.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "en.kolikkopelit.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.kolikkopelit.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.storspiller.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.storspiller.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.storspelare.se",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.storspelare.se",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.casinohuone.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "en.casinohuone.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.casinohuone.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "www.vladcazino.ro",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "payment.vladcazino.ro",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://pci.kindredgroup.com",
-                "scope_type": "mobile-application",
-                "scope_type_name": "Mobile application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.32red.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "/blog/ endpoints on our sites",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -2029,7 +2029,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 56,
+        "reports_count": 57,
         "bounty_reward_min": 10,
         "bounty_reward_max": 1200,
         "scopes_count": 6,
@@ -3237,7 +3237,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1117,
+        "reports_count": 1118,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 7,
@@ -6315,7 +6315,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 42,
+        "reports_count": 43,
         "bounty_reward_min": 250,
         "bounty_reward_max": 10000,
         "scopes_count": 3,
@@ -7276,7 +7276,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 265,
+        "reports_count": 266,
         "bounty_reward_min": 0,
         "bounty_reward_max": 2500,
         "scopes_count": 5,
