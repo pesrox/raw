@@ -11822,7 +11822,7 @@
     {
         "id": "4d41a636-c811-4757-8fd9-007d7f18e212",
         "handle": "excoscalebugbounty",
-        "name": "Excoscale Bug Bounty",
+        "name": "Exoscale Bug Bounty",
         "following": false,
         "minBounty": {
             "value": 50.0,
@@ -16857,8 +16857,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16870,45 +16870,31 @@
         "industry": "Real Estate",
         "domains": [
             {
-                "id": "2e14a51a-f6d2-4835-a9f0-3bcd601f654e",
-                "type": {
-                    "id": 4,
-                    "value": "IpRange"
-                },
-                "endpoint": "185.12.120.84",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "This internet outbreak is used in our datacenter where we host a Microsoft Active Directory plus various traditional on premise applications.\nHaving this connection compromised would lead to a lot of resources possibly being breached.\n\nScan it and see if you get in ;) (please be moderate on the load due to performance issues)",
-                "requiredSkills": []
-            },
-            {
-                "id": "f1d1a0de-d827-40e9-aebe-1ac11804b3aa",
+                "id": "76fd8959-a50a-4437-a97d-46424138d7bd",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "aovpn.zowonen.com",
+                "endpoint": "Https://zowonen.mind2pay.com",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This VPN is important for us as it's being used for our employees to connect to corporate resources.\nHaving this VPN compromised would lead to a lot of resources possibly being breached.\nScan it and see if you get in ;) (please be moderate on the load due to performance issues)\n\nInfo on used technology for this domain:\nhttps://docs.microsoft.com/en-us/windows-server/remote/remote-access/vpn/always-on-vpn/always-on-vpn-technology-overview",
+                "description": "This is a third party software solution by Mind2Pay designed for payments cli\u00ebnts",
                 "requiredSkills": []
             },
             {
-                "id": "c09cd634-2c23-4ad6-9e96-37bdcb74be07",
+                "id": "79bcddaf-674d-413f-a36b-4ac2d36029cd",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "empire.zowonen.com",
+                "endpoint": "https://portal.24rosa.nl/",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This is a browser based client for our Dynamics Empire ERP application. \nThis ERP application is based on Microsoft Business Central.\n\nThis part of the scope is hosted by our partner NEH. ",
+                "description": "This is a third party software solution by 24rosa.nl designed for intake of repair requests for our tenants",
                 "requiredSkills": []
             },
             {
@@ -16937,48 +16923,6 @@
                     "value": "Tier 1"
                 },
                 "description": "\nThis is an interface based on the KOVRA (ketenstandaard / DICO) standard\nhttps://www.2ba.nl/nl/documentatie/bestandsuitwisseling/bestandsformaten/sales005\n\nThis part of the scope is hosted by our partner NEH. ",
-                "requiredSkills": []
-            },
-            {
-                "id": "31731ff8-1b74-4c98-afd2-25706a9ec8b0",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "vera.zowonen.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "This is an interface based on the VERA standard.\n\nhttps://github.com/vereniging-corponet/VERA-Standaard/tree/gh-pages/VERA%203.2\n\nThis part of the scope is hosted by our partner NEH. ",
-                "requiredSkills": []
-            },
-            {
-                "id": "0ee625c5-a313-45ef-84d7-1e1b56a46940",
-                "type": {
-                    "id": 4,
-                    "value": "IpRange"
-                },
-                "endpoint": "77.61.97.226",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This internet outbreak is used in our main office to give internet access to all our on site employees.\nScan it and see if you get in ;) (please be moderate on the load due to performance issues)",
-                "requiredSkills": []
-            },
-            {
-                "id": "3eb4e827-8e31-4732-ade7-40ef8c85bc5e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://rosa-staging.azurewebsites.net/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is a third party software solution by 24rosa.nl designed for intake of repair requests for our tenants",
                 "requiredSkills": []
             },
             {
@@ -20567,8 +20511,8 @@
                 },
                 "endpoint": "technik.autobild.de",
                 "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -20581,8 +20525,8 @@
                 },
                 "endpoint": "technik.beta.autobild.de",
                 "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -27538,8 +27482,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
