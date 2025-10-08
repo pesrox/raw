@@ -259,7 +259,12 @@
                     "value": "Tier 2"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             }
         ]
     },
@@ -12447,8 +12452,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
