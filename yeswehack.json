@@ -1,5 +1,160 @@
 [
     {
+        "title": "DINUM - AGORA GOUV - Public Bug Bounty Program",
+        "slug": "agora",
+        "country": "FR",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 68,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "f8dc9933-0be0-4da3-a16e-bc77ce00be33",
+            "original_name": "AgoraLogo512.png",
+            "mime_type": "image/png",
+            "size": 25937,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/f8dc9933-0be0-4da3-a16e-bc77ce00be33"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
+            "slug": "dinum",
+            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
+                "original_name": "logo-marianne-dinsic-300x300.jpg",
+                "mime_type": "image/jpeg",
+                "size": 45646,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-10-08T08:57:17+02:00",
+        "scopes": [
+            {
+                "scope": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://app.sandbox.agora.incubateur.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Memento - Public Bug Bounty Program",
+        "slug": "memento-bug-bounty-program",
+        "country": "SG",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 7,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "ee15c7a7-cd0a-4a9c-a8f0-184b77b65df2",
+            "original_name": "thumbnail_ywh.png",
+            "mime_type": "image/png",
+            "size": 18301,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/ee15c7a7-cd0a-4a9c-a8f0-184b77b65df2"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Memento Blockchain Services",
+            "slug": "memento-blockchain-services",
+            "description": "Founded in 2017 by a team with finance and tech expertise, Memento Blockchain is specialized in blockchain-based services.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-10-08T08:48:48+02:00",
+        "scopes": [
+            {
+                "scope": "https://bug-bounty-dfm.mementoblockchain.com/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.dextf.com/dd/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.dextf.com/dcd/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "VFS Global Bug Bounty Program",
         "slug": "vfs-global-bug-bounty-program",
         "country": "IN",
@@ -5793,7 +5948,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 40,
+        "reports_count": 41,
         "bounty_reward_min": 250,
         "bounty_reward_max": 10000,
         "scopes_count": 3,
@@ -9217,94 +9372,6 @@
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "BETA.GOUV.FR - AGORA GOUV - Public Bug Bounty Program",
-        "slug": "agora",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 68,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 5,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "f8dc9933-0be0-4da3-a16e-bc77ce00be33",
-            "original_name": "AgoraLogo512.png",
-            "mime_type": "image/png",
-            "size": 25937,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/f8dc9933-0be0-4da3-a16e-bc77ce00be33"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
-            "slug": "dinum",
-            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
-                "original_name": "logo-marianne-dinsic-300x300.jpg",
-                "mime_type": "image/jpeg",
-                "size": 45646,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2024-03-18T09:25:00+01:00",
-        "scopes": [
-            {
-                "scope": "Agora for Android (see dowload link for APK file and mobile app GitHub repository in description)",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Agora for iOS (see dowload link for IPA file and mobile app GitHub repository in description)",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://app.sandbox.agora.incubateur.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://content.agora.beta.gouv.fr",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
