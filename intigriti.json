@@ -3518,7 +3518,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**Visma Online**\nThis is the old interface for the customer's administrators to administrate the company, where we still have some functionality that has not been moved to the new interface. For example invoicing information and everything regarding collaborations with AO. The collaboration part is out of scope as long as the use of student companies.\nPlease read the Getting Started Instructions in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* The collaboration part is out of scope as long as the use of student companies. Collaboration is between Accounting Office and Client\n",
+                "description": "**Visma Online**\nThis is the old interface for the customer's administrators to administrate the company, where we still have some functionality that has not been moved to the new interface. For example invoicing information and everything regarding collaborations with AO. The collaboration part is out of scope as long as the use of student companies.\nPlease read the Getting Started Instructions in the \"myservices.stage.vismaonline.com\" asset description.\n\n**Out of scope:**\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* The collaboration part is out of scope as long as the use of student companies. Collaboration is between Accounting Office and Client. \n\t- This includes using `/Customer/StudentSignup.aspx` to create companies with arbitrary emails\n",
                 "requiredSkills": []
             },
             {
@@ -8497,7 +8497,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**Liferay DXP** is a Java based, open source enterprise portal used by businesses to create intranet and extranets.\n\nThe latest Quarterly Release of Liferay DXP 2025.Q3 is DXP 2025.Q3.2.\n\n* [Docker Image](https://hub.docker.com/r/liferay/dxp/tags?page=1&name=2025.q3.2)\n\t* `docker pull liferay/dxp:2025.q3.2`\n* [Documentation](https://learn.liferay.com/w/dxp/index)\n* [Release Notes](https://support.liferay.com/e/release-notes/release-highlights/20004/26014824?r=26014824)\n* Release date: Sep 18, 2025\n\n",
+                "description": "**Liferay DXP** is a Java based, open source enterprise portal used by businesses to create intranet and extranets.\n\nThe latest Quarterly Release of Liferay DXP 2025.Q3 is DXP 2025.Q3.3.\n\n* [Docker Image](https://hub.docker.com/r/liferay/dxp/tags?page=1&name=2025.q3.3)\n\t* `docker pull liferay/dxp:2025.q3.3`\n* [Documentation](https://learn.liferay.com/w/dxp/index)\n* [Release Notes](https://support.liferay.com/e/release-notes/release-highlights/20004/26014824?r=26014824)\n* Release date: Oct 3, 2025",
                 "requiredSkills": []
             },
             {
