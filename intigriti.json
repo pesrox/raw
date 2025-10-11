@@ -29216,10 +29216,10 @@
             {
                 "id": "940e5357-57f9-4bd3-8325-d65542e6c5a9",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "snapshooter.com",
+                "endpoint": "*.snapshooter.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -29394,7 +29394,16 @@
                     "value": "Tier 3"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "fca0f9d1-c02e-4154-8132-de56c6c65807",
