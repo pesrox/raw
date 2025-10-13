@@ -12438,8 +12438,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -12963,6 +12963,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "95bfd5ce-485e-484c-b28f-15a78d721a36",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.docs.globalsign.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "294a93e4-97cb-4b53-a00a-cd3c5ec75f97",
                 "type": {
                     "id": 1,
@@ -12988,6 +13002,20 @@
                     "value": "Tier 2"
                 },
                 "description": "Out of scope: IDOR / Broken Access Control vulnerabilities are currently out of scope, as the vendor is working on fixing this structural issue.",
+                "requiredSkills": []
+            },
+            {
+                "id": "a2edd6fc-3c57-43e1-acc5-f6031b5a9b34",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "docs.globalsign.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
                 "requiredSkills": []
             },
             {
