@@ -218,6 +218,57 @@
         ]
     },
     {
+        "id": "01c958af-2886-4deb-a63b-e6b49809c247",
+        "handle": "challenge1025",
+        "name": "Challenge 1025",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge1025/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "a01f9d4b-1178-4254-a430-71b22d0635c2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://challenge-1025.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "025558a4-e74e-41eb-9bf6-a01dbe8e5a7a",
         "handle": "coca-cola",
         "name": "The Coca-Cola Company Vulnerability Disclosure Program",
