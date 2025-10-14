@@ -1300,7 +1300,7 @@
         "industryName": "Computer Software",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": null,
+        "badgeVariant": "updated",
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -2176,38 +2176,6 @@
         "target_groups": []
     },
     {
-        "name": "Pinterest",
-        "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
-        "briefUrl": "/engagements/pinterest",
-        "backgroundColor": "#BB0F23",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9cbb/3d6c/8a2f4ae1/08821bdd27acd21bbdda328e9ae7b939_3e77fd82e5fb782e4730615b2eccb53a_unnamed.png",
-        "rewardSummary": {
-            "summary": "$200 - $25,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Media",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/pinterest/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "T-Mobile",
         "tagline": "Welcome to The Uncarrier. Are You With Us?",
         "briefUrl": "/engagements/t-mobile",
@@ -2400,56 +2368,24 @@
         "target_groups": []
     },
     {
-        "name": "Quizlet",
-        "tagline": "Simple tools for learning anything. Improve your grades by studying with flashcards, games and more.",
-        "briefUrl": "/engagements/quizlet",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/373c/7b28/1193eab4/a964e552d246410f1d528d9dfbff6045_quizlet-155fcff7.png",
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/3b82dca429ba76bf224abbec781356a8_OpenAI-black-monoblossom.png",
         "rewardSummary": {
-            "summary": "$150 - $2,000",
-            "hint": "Up to $5,000",
-            "minReward": "$150",
-            "maxReward": "$2,000",
-            "compensationSummary": "Up to $5,000",
+            "summary": "$200 - $6,500",
+            "hint": "Up to $100,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $100,000",
             "compensationHint": "max reward"
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Education",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/quizlet/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
-        "name": "The Hut Group: Public Managed Bug Bounty Engagement",
-        "tagline": "The Hut Group Bug Bounty Program",
-        "briefUrl": "/engagements/hutgroup-public",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4101/fb5d/666c82db/e5c325738941bdaf9cf74a6ba90761b7_THG.png",
-        "rewardSummary": {
-            "summary": "$100 - $2,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
         },
         "isDemo": false,
         "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Retail",
+        "industryName": "Technology",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -2458,7 +2394,39 @@
             "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/hutgroup-public/engagement_subscribers",
+        "subscriptionUrl": "/openai/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Priority Triage",
+        "target_groups": []
+    },
+    {
+        "name": "Pinterest",
+        "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
+        "briefUrl": "/engagements/pinterest",
+        "backgroundColor": "#BB0F23",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/9cbb/3d6c/8a2f4ae1/08821bdd27acd21bbdda328e9ae7b939_3e77fd82e5fb782e4730615b2eccb53a_unnamed.png",
+        "rewardSummary": {
+            "summary": "$200 - $25,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Media",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/pinterest/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -2528,24 +2496,56 @@
         "target_groups": []
     },
     {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/3b82dca429ba76bf224abbec781356a8_OpenAI-black-monoblossom.png",
+        "name": "Quizlet",
+        "tagline": "Simple tools for learning anything. Improve your grades by studying with flashcards, games and more.",
+        "briefUrl": "/engagements/quizlet",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/373c/7b28/1193eab4/a964e552d246410f1d528d9dfbff6045_quizlet-155fcff7.png",
         "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $100,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $100,000",
+            "summary": "$150 - $2,000",
+            "hint": "Up to $5,000",
+            "minReward": "$150",
+            "maxReward": "$2,000",
+            "compensationSummary": "Up to $5,000",
             "compensationHint": "max reward"
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Education",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/quizlet/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "The Hut Group: Public Managed Bug Bounty Engagement",
+        "tagline": "The Hut Group Bug Bounty Program",
+        "briefUrl": "/engagements/hutgroup-public",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4101/fb5d/666c82db/e5c325738941bdaf9cf74a6ba90761b7_THG.png",
+        "rewardSummary": {
+            "summary": "$100 - $2,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
         },
         "isDemo": false,
         "scopeRank": 4,
         "isBanned": false,
         "isFollowing": false,
-        "industryName": "Technology",
+        "industryName": "Retail",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
         "badgeVariant": null,
@@ -2554,9 +2554,9 @@
             "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/openai/engagement_subscribers",
+        "subscriptionUrl": "/hutgroup-public/engagement_subscribers",
         "isPrivate": false,
-        "serviceLevel": "Priority Triage",
+        "serviceLevel": "Platform",
         "target_groups": []
     },
     {
@@ -3673,38 +3673,6 @@
         "target_groups": []
     },
     {
-        "name": "Comcast Xfinity Bug Bounty",
-        "tagline": "Welcome to the Xfinity Bug Bounty program!",
-        "briefUrl": "/engagements/comcast-mbb",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
-        "rewardSummary": {
-            "summary": "$50 - $5,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$5,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/comcast-mbb/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Pantheon",
         "tagline": "Website development is complex. Hosting makes it harder. Top developers, marketers, and IT pros use Pantheon to build, launch, and run all their Drupal and WordPress sites. ",
         "briefUrl": "/engagements/pantheon",
@@ -4308,6 +4276,38 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/anytask-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Comcast Xfinity Bug Bounty",
+        "tagline": "Welcome to the Xfinity Bug Bounty program!",
+        "briefUrl": "/engagements/comcast-mbb",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/605d/97ab/be55d53b/3b8b67094243191dc0132258430846b4_comcast.jpeg",
+        "rewardSummary": {
+            "summary": "$50 - $5,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$5,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/comcast-mbb/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -5163,38 +5163,6 @@
         "target_groups": []
     },
     {
-        "name": "Dell Technologies Application Bug Bounty",
-        "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
-        "briefUrl": "/engagements/dell-com",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c63e/8e43/7338d03a/f1e1e5bbb52c73c333a29b25feba8aae_1024px-Dell_Logo.svg.png",
-        "rewardSummary": {
-            "summary": "$50 - $2,500",
-            "hint": null,
-            "minReward": "$50",
-            "maxReward": "$2,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Technology",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/dell-com/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Elementor: Bug Bounty Program",
         "tagline": "Elementor is the best WordPress Website Builder, with over 10 million active installs.",
         "briefUrl": "/engagements/elementor",
@@ -5478,6 +5446,38 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/trello/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Dell Technologies Application Bug Bounty",
+        "tagline": "Giving you what you need to securely connect, produce, and collaborate; anywhere at any time.",
+        "briefUrl": "/engagements/dell-com",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/c63e/8e43/7338d03a/f1e1e5bbb52c73c333a29b25feba8aae_1024px-Dell_Logo.svg.png",
+        "rewardSummary": {
+            "summary": "$50 - $2,500",
+            "hint": null,
+            "minReward": "$50",
+            "maxReward": "$2,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Technology",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/dell-com/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
