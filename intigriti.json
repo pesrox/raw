@@ -2266,8 +2266,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -26037,6 +26037,2764 @@
         },
         "industry": "Energy, Utilities & Waste",
         "domains": [
+            {
+                "id": "fde4b2c3-70a4-44cf-9245-2ecf7a0b6072",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prod.tardis.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "96c53498-fb3a-474c-bbef-393072310ae7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pol.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7cd6fc29-c3a5-4264-a8d4-9131179e207d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "notification-service.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "798ae611-f28c-4de1-9860-1537dcbb7346",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "developer.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e074a314-2458-41ea-a616-63efe96cacd4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "aws.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "fe920cb5-a096-4f81-8cf3-021ef7c6d864",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.prd.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8e37a08f-82a9-45d8-8506-53b55facf23e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cheque-payouts.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8474e650-382f-469d-88fb-0fb3e59bab6e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "servicecomms-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d72eab75-7465-4e7e-8595-e1e820158193",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payments-api.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e707f529-fb5f-44e4-bbe3-6494ed2049c7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "direct-debit-review.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "9e1681a6-60e2-4891-a1a6-46a4269ca376",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "argocd.metering-shared-test.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e4ebbbe5-c17c-421c-a5ba-262bc35a7b58",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mon.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "31b0ab17-17a7-4e1e-95af-1774bd1e5446",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "worldpay-webhook-ovotest.uat.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "bf297309-829a-459b-8b63-9c25c1907dc9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "kafka-connect-fintxns.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "808d0cc9-b800-4e36-86f1-bf2e2361365c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "recommended-dds.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6ea7eb9d-e9de-4aac-94ae-2dccbbd9257a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "engineering-handbook.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5762d801-260b-4552-9dda-a5773f1a74c8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "login-aggregator.internal.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "262f927a-4408-4ca3-8c5d-b73fdcc3fae6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "aiven-kafka-users-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "55e21366-3702-40ea-8d95-05c0b14b438d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "retail-payg.gcp.nonprod.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "91267351-9719-4e12-bc92-0d9c13de3339",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "keg-tap-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f5781c4f-5d06-4405-9f66-08d52b82d407",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mq01.dev.ptl.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "296bfbc4-a2af-4456-aba4-f8f075ac1a02",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "kafka-connect-fintxns.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "c240530b-dbc5-4e32-8d4a-66b6d0602155",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "test-simple-event.data-availability.gcp.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "28e2e62a-8a63-48db-a771-d13565aafcdb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "id-oot.dev.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "67b0e75e-e3ca-45f1-b9fa-4204a3a50915",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "retail-aiven-kafka-users.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5c2ef42b-a099-45e2-9f00-ff9988eeeb50",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "oot.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "dc57c3cb-2823-4c1f-8aa7-e37f591975d9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "smex-scheduler-test.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6dac982f-ae7c-44ab-9f96-5bac8c60959b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prod.flow-platform.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "bbd38c94-99f7-44c2-bcdb-238f2da0e5cb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "rac-spam.uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ec52abed-67c5-4bda-a767-693368c889f6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "admin.internal.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e26873ef-e735-455f-92a9-2c20b921bea0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "tardis.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "fed94c6b-b60f-4b26-bf05-64033328f395",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bast-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "cb0939d8-f4b8-4d83-89f4-38fddd6400eb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "artemis.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "bb94a470-6109-4e56-b12f-48df3e9fdb8f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "accounts-internal-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6a6a52a0-bea8-40bc-90f7-d271a88f1369",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "fakeidserver.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3a6a6051-11f9-4f19-8985-f76ead0c6722",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "log.prd.mon.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7c6bc9a4-69aa-45da-bb82-45af1bae7a1a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prx01.uat.ptl.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ac117efb-be09-4c5f-8076-47249e0524b6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "argocd.metering-shared-sandbox.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6041811a-58f8-4b41-a478-d8bc927b990b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bast-aus.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8eeb489d-b060-48e6-82d5-e369b1028ab3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "worldpay-webhook-orion.uat.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "62f4532b-6cb0-43b2-ab61-bf812df43862",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "flow-platform.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "355ed137-37ee-4534-bcbc-4eb96c5f8453",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "c51603b4-71f9-4516-a37b-e29796efa985",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bast-uat-aus.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "50d0382d-e905-4de8-9b9e-9004cd62c259",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "internal.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "09c2e631-b2db-4c80-a636-b89363a42659",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "eng-svc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ec2ce3eb-b69d-4b13-bb0a-48ff836d7d5d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "smex-scheduler-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d1cceb5f-0467-47db-bf6a-5c1bc039ca36",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cms-flags.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a42168dc-9939-4df2-8214-dec79d58029d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "tariffs-service.prd.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "51d8762d-2654-40fb-aa2e-f4eb8813270e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "contracts-api.prd.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a04a10ca-4432-4612-8b54-d3fed96ddce3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "jaws-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5f3c5284-58a8-4535-bc7e-72548a81b525",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cloudquery-grafana.seceng-prod-aws.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "fa5cb0d3-b05f-4f03-b194-09399b8ef10f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "internal.prod.tardis.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "543e5db5-70aa-4cdd-abbf-40ea3b1af115",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a9382ed1-aaad-4a80-a043-7d5e1f9149ad",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "account-transaction.rise.gcp.nonprod.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f2d1865f-a4f3-4057-965c-1eb1160203b8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "impulsive.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "133b7506-5cb2-48de-9ccd-868311efb91b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sis.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "84d2d762-5cbc-44a6-b965-845fdf39c955",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "profile-coefficients.prd.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "da95cdba-60e3-495d-812a-14e6dab18787",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.smb.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "31c8150d-f831-483b-918b-5d3c740dd8ca",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "frontend-api.prod.usage.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "486b0a7e-cf12-4bbf-b131-44129daee0f3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "retail-payg.gcp.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "cbe6a5d2-6cda-4a3b-9028-fca4777b52f3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "webhook.uat.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "73d18350-0059-4422-a5b8-3d2bfe2c1bbd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "c83052b9-57d3-49fb-a04d-c33529d991ff",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.uat.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "602c9c8f-c9eb-4bfc-9b84-e344650b72a7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "recommended-dds.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "46e947da-d3f4-48fd-b8f0-54d11e78a4fa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "orion-bolton-service.prd.props.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "58ac6af7-f3d0-4eb8-8215-8136c8232286",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "direct-debit-review.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ca74e8ac-1fea-4bc2-baff-0d0b315afe95",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "smex-scheduler-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "46b89430-c1eb-4f6c-acd3-087581aa0d5d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.test.he.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f748a359-799e-48c4-927d-146d318f4b71",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "argocd.metering-shared-non-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7807a75c-1b42-46a5-9e03-85bc2d80e6e8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "aiven-kafka-users.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "42984c13-ffdf-4a18-bd0a-88bccd232392",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bast-load-test.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "299bee4c-62aa-4d7e-85a8-9d50b3447112",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "load-test-event.test-tap-team.gcp.nonprod.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "39269267-7f92-4a6a-bca1-543533cbf134",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth0.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0a5430ac-af60-4a5a-b387-2d67722fa73d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "public.bws-testing.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b0a3f748-04aa-4ac0-ab50-c684f420697f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "testlab.gcp.infosec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1218d328-be5e-44cf-80c2-ba7c545f703f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "terraform.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7ea93c0d-fc45-45a5-af0f-87b84536985f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "notification-service-public.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2a5d09c9-5a7f-4e79-9945-fe8d7aef6558",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "estimation.uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d2216648-668e-4d06-9802-42d9500409fe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "infosec-audit.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "13a17ef4-dbb5-46de-80f8-79196a22f93f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "contract-update-service.prd.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5710fbb5-9703-4bae-8351-a98cdfe1d773",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "manual-readings.uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "51542e2d-31fa-4bb3-a47f-fa1ed1df8ad1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "webhook.prd.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "48034e1e-75a6-4f90-bfb6-e7bffcb1d950",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "servicecomms-dev.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "39cf1ba9-b913-434e-a7d7-8ae36b3b3fdf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "data-availability.gcp.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1aee5dbe-7441-4db7-9fdc-6bcfc4ff7a98",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "salesforce.prod.oot.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "c9c379af-f175-4922-8f88-42df0aded65c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "self-serve-refunds.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ac237919-cbb8-4114-bd03-c95aceac449d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cip.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6f691062-e0ce-437a-9b3e-a52bd54118e5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bws-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e8406d93-550f-4fee-bba3-6afa97cd5196",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth.id.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7b390700-e70e-457d-88eb-436b0633d822",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "smex-scheduler-sandbox.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a4094ea1-eb30-497e-ac84-33e62828d1e3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "nonprod.cip.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "fcb0d8ab-d982-46b1-9e3d-8e81f54d8aa6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "accounts-internal-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "bf8f93c3-f5df-4b3d-842a-eea1f57afd36",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sis-sandbox.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ce22fa40-332b-4a64-aee7-e56733fb5931",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cheque-payouts.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "40ea3706-373b-4cc9-963c-be024c0e05fe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "accounts-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e17b89f4-e31c-4a1b-bb0a-46529d9c3933",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "jaws-testing.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a95c4075-b125-4a93-9f05-c95a8b5e49df",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7779df9e-9a95-442f-a956-0b344bde910a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "orion-bolton-service.uat.props.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f672fe25-04d2-4e10-b89c-c975c857de8d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "17c6d3ea-bd31-400d-a265-407baf32d92c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "nonprod.tardis.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ff450c5b-dc6a-4f83-b8d3-e7aff6769b5a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payments-api.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "57a0caf9-469a-476d-8b38-63d8f93051d6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "replay.prd.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "eb1bfbb9-50be-4b46-a7e6-9453aa037eb0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "login.internal.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8807423f-170d-4eb5-accd-4e8a83a3de61",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bws.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "dd3bb7e8-ef01-406b-baa8-0cac2806715c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bws-testing.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "fc382262-40e1-4744-91c7-7207147555b5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "argocd.metering-shared-non-prod-aus.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "965d7963-0f40-464c-ab94-05824c8d46f0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prd.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5723abc5-c4ca-45a9-89c0-2faab8d4cf36",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prod.growth.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "10ab64cd-f554-4ae4-b84b-f6a489fbece5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sme.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7e2cb28f-c9ef-4d0c-8336-2b031e9ff6d6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "seceng-nonprod-aws.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0d2ee38b-aa71-4a05-bce3-eea186393c66",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "nonprod.growth.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "37327cb8-66c9-4502-ad6a-75f89081122a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "jaws-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "11d5cdd9-6d13-4c85-b7c6-c97539f25731",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "orion-onboarding-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3f9d72bc-cff7-414f-a582-26e3b263a5aa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "argocd.metering-shared-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6198294e-6909-47f3-a531-06d06110e2b0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "worldpay-webhook-orion.prd.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "c785e789-cfa3-4282-a77a-53c68e85583e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "internal.id-test.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8db8a779-9f0a-4d4b-b991-30b8b21137de",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "notification-service-uat-public.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1964e5c0-e83d-4d22-b6e5-248827711b38",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "14b2189e-d90f-4e03-a544-15753cc97848",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "nonprod.flow-platform.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7e3bd220-2ca0-41c6-a584-14a86468df09",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "contract-update-service.uat.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d5e07a12-31ea-49b6-9b85-33a6b5103223",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "kafka-connect-fintxns.prod.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d28cd789-6ecc-496d-8942-562f0ec2b9c2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "rise.gcp.nonprod.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ec4be423-6fb5-438b-8ada-c7c6262bafa7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prod.oot.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "dcda5df7-bdb3-4e30-a69b-d2c43ea1ebcb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "test-cert-manager.uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f504279c-3023-49ff-8837-e2ffc06abc74",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth-green.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7431c6e3-3dea-4005-9926-a71f5e22c6ff",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "servicecomms.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4cd3f84b-f34b-4a0f-ada0-54b58cbc93cf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "165a4714-b2d0-4113-8d35-9da646caa13c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "reads-lifecycle-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a23d6701-4e86-4a7e-bba3-7969035c7164",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "tariffs-service.uat.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "379de9c0-fabb-4568-8966-e2c89760514a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "public-manual-readings.prd.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a7f2a0c3-2d6f-4135-b582-75307a0fe260",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.payments.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5319042a-0bc5-4154-a4dd-d4c704f7e5c4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "774ee285-8141-4dca-904d-b6108e89d9bc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5f406748-59d5-4f42-b82d-03817a80fa8f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bws-sandbox.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6bca985d-0b1c-43c3-91f8-496a78c25eb2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "profile-coefficients.uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b6b6908e-87a9-4392-917d-2f2f81c74705",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "asp-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "fb279e4d-bbda-4bb3-b00a-6491611fa7c0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "internal.nonprod.tardis.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b6712611-c6f2-4949-887e-a77b944b02a9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bast.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e0c2f318-6488-4ab7-8d3d-47a93de38ee1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.nonprod.flow-platform.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2e06e347-4078-41d4-8c55-687576223b35",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "rise.gcp.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8e8c4235-aca5-4b9b-860f-e66ac955bc86",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "asp-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d8dba0cb-78aa-444d-84da-fd28a448cdc9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "estimation.prd.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2f93a62e-e677-44b6-8ee8-d000dfd38f18",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ipam.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2acb0e02-b636-451f-938b-314e4c51396b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "replay.uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d27e72f2-2ffb-4867-813a-7c415ce420ac",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "homemoves-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ff993b5c-c349-4d0b-a87b-97154480c69d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth-green.internal.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "54db616d-4a13-4c4b-97f6-c2bf2702f814",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.prd.meters.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ade5252c-a803-4485-afae-169c78d172a9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.onboarding.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6e5b8c95-314e-46eb-bfab-6c46f862d9ab",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "homemoves-prod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "cc0a1390-a628-4d48-9990-7fed8dd43d83",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payment-dd-service.uat.ptl.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "821460ff-0460-46d2-8a3d-1c66efd6cce0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "frontend-api.uat.usage.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "9f99d3bb-523d-4982-8591-fdf88ca6fea1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "orion-onboarding.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3732b261-d598-4e6d-a7f3-7f1938a9bb39",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "account-activation-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b8acdee4-b69c-416f-8695-3a650478123a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prd.smb.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "02dd07b7-c4fe-4435-bf4e-134e996ad46f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "03b8b2b2-3d78-40f6-9b43-5d3f4d077eb6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "move-ins.prod.homemoves.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3fa07662-3712-4957-8605-0c589f5c23cd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cost-usage.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "309b5ef1-7eb4-4199-93ae-8a2198ce5400",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sonarqube.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "304911dc-35e4-4fb5-80ad-0fe0387c39aa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "public-manual-readings.uat.randc.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "84b7d7f1-0d82-40a1-9e1b-3885e4444109",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "nonprod.oot.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "72f35e06-00ed-452b-829b-0541d439243f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sis-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "66c74ada-2320-4bfa-b74f-5277a5920c24",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "direct-debit-review-exemption.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "06ff7d8c-8b5a-4995-9e6e-5bea767eef35",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "accounts-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "c6868f49-9dd5-4453-9304-affbabbfc8d3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "contracts-api.uat.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "16090732-8a94-41ce-9321-0db1a592209f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "log.uat.mon.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1115353a-6bcb-48d6-9c85-d3ba5c53999f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "scully-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "45f4cf69-1402-492d-862d-0e89fe5e4453",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "self-serve-refunds.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8098091b-0ed1-4acc-acad-76db3afc136b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "shipit.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8b1e2d1a-6652-41c2-a561-c0c03bc72ec9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "core-billing.gcp.nonprod.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4ac88fc5-e16a-4c1a-a99d-d81ed94df8e8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "notification-service-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "919b16f9-5a12-4e87-8ea4-d36efbe45f20",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "feb1a261-ea27-4568-8e35-73e90d73ad0d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "manual-reads.prd.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7234a74e-b731-4491-9249-406211d70418",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pol-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "38d93327-f489-40b2-92ff-ae5f6fd6e67c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth.internal.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "19625daa-3c04-487e-9bb9-92befea6be06",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "admin.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f1b609d8-37da-4d62-853e-51c89c0a1601",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bast-test-aus.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6f7c9204-0a56-48ba-938b-fdec3208e1ad",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.he.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "767bbc6a-40e1-4e02-91c3-01dc2a11f7c5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prd.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5b8af379-e586-4ca8-a340-15e4e78ea293",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "account-transaction.rise.gcp.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "be7710af-760c-4394-b8e1-7fc16cd2973e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "rac-spam.prd.rac.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0943cb56-f517-49cf-9acb-d4cd67335680",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "prod.usage.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e445b485-acf3-468a-b140-401c0e09a6a3",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.nonprod.oot.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d9263bf4-5f10-4211-afed-15bc0b25ff1a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "public.homemoves-*.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d735c8aa-17fb-4669-aa51-b0b8a8587a7a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "contracts-api.*.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2ac8a4f6-c287-4482-bd14-73955f4c8a86",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.prod.oot.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f1d280e7-6f9e-41aa-908a-2605ad84c6d2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.uat.meters.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ab7b42ee-d7fa-4cf4-8e02-9907ee74b41b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "auth-internal.id-uat.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "bdb1f2aa-90ae-48d2-a0df-f2424da790fe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "payment-dd-service.prd.ptl.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b61b766f-d385-455f-b23a-7842cc419d49",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pol-staging.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8b2260e5-0773-4361-a08d-62c9a9c55f4e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "reads-lifecycle-nonprod.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3b0944a6-c01c-4e38-8eef-67e51209a68c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cms-flags.uat.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a6ac6b9b-fe1a-424c-abfa-515ae1f0c388",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "move-ins.nonprod.homemoves.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "928310b4-6948-4ac2-a039-3b703681d800",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "jaws-sandbox.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3da75dde-2690-42e2-be33-bb63be53344c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uat.usage.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "714cf07a-2927-4fb1-a250-4364f5fe7bb9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "direct-debit-review-exemption.prd.pace.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "9216e9bb-53ea-4b44-a7c2-b8469243a74a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "data-availability.gcp.nonprod.bedrock.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a97a691b-238c-4fa2-9ffc-0199711d0cba",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.ec.ovotech.org.uk",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
             {
                 "id": "a84154ba-0b88-4ff3-8ffa-8900f8ae695a",
                 "type": {
