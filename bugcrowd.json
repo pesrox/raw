@@ -1172,7 +1172,7 @@
         "industryName": "Insurance",
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": null,
+        "badgeVariant": "updated",
         "endsAt": null,
         "productEngagementType": {
             "label": "Bug Bounty",
@@ -3200,6 +3200,38 @@
         "target_groups": []
     },
     {
+        "name": "Skyscanner",
+        "tagline": "We\u2019re the travel company who puts you first. All the flight, hotel and car hire options you need, all in one place.  We are offering $100 - $8000 per vulnerability.",
+        "briefUrl": "/engagements/skyscanner",
+        "backgroundColor": "#0770e3",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f385/4e29/59412af3/0ec567cf519e0103e54b114559943588_square_logo.png",
+        "rewardSummary": {
+            "summary": "$100 - $8,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$8,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 4,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/skyscanner/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
         "name": "Majid Al Futtaim Lifestyle",
         "tagline": "Majid Al Futtaim Lifestyle",
         "briefUrl": "/engagements/maffashion",
@@ -3264,38 +3296,6 @@
         "target_groups": []
     },
     {
-        "name": "Skyscanner",
-        "tagline": "We\u2019re the travel company who puts you first. All the flight, hotel and car hire options you need, all in one place.  We are offering $100 - $8000 per vulnerability.",
-        "briefUrl": "/engagements/skyscanner",
-        "backgroundColor": "#0770e3",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/f385/4e29/59412af3/0ec567cf519e0103e54b114559943588_square_logo.png",
-        "rewardSummary": {
-            "summary": "$100 - $8,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$8,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 4,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/skyscanner/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Backblaze",
         "tagline": "Help Secure Backblaze",
         "briefUrl": "/engagements/backblaze",
@@ -3323,38 +3323,6 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/backblaze/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
-        "name": "Bullish Exchange",
-        "tagline": "Help Secure Bullish - a new breed of exchange",
-        "briefUrl": "/engagements/bullish-exchange",
-        "backgroundColor": "#ffffff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ae43/4b85/2a2bcfab/eca17da8feb0b048b7965c312bbc752c_Bullish-logomark-black-128px.jpg",
-        "rewardSummary": {
-            "summary": "$200 - $25,000",
-            "hint": null,
-            "minReward": "$200",
-            "maxReward": "$25,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Finance",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bullish-exchange/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -3419,6 +3387,38 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/sendbird-mbb/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Bullish Exchange",
+        "tagline": "Help Secure Bullish - a new breed of exchange",
+        "briefUrl": "/engagements/bullish-exchange",
+        "backgroundColor": "#ffffff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/ae43/4b85/2a2bcfab/eca17da8feb0b048b7965c312bbc752c_Bullish-logomark-black-128px.jpg",
+        "rewardSummary": {
+            "summary": "$200 - $25,000",
+            "hint": null,
+            "minReward": "$200",
+            "maxReward": "$25,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Finance",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bullish-exchange/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -5209,38 +5209,6 @@
         "target_groups": []
     },
     {
-        "name": "AnyTask: Freelancer Platform",
-        "tagline": "Join us in securing the global freelancer platform. Find bugs, report issues, earn rewards.",
-        "briefUrl": "/engagements/anytask-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/engagement_brief_logos/engagement_brief/logo/fe0ae74a-dd86-474e-8fa4-8bc864a592ab/60a0c82d-1c39-44e0-9b1b-7f88d21d4a96.png",
-        "rewardSummary": {
-            "summary": "$120 - $5,000",
-            "hint": null,
-            "minReward": "$120",
-            "maxReward": "$5,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "eCommerce",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/anytask-mbb-og/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "TIDAL",
         "tagline": "TIDAL is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality.",
         "briefUrl": "/engagements/tidal-bugbounty",
@@ -5268,6 +5236,38 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/tidal-bugbounty/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "AnyTask: Freelancer Platform",
+        "tagline": "Join us in securing the global freelancer platform. Find bugs, report issues, earn rewards.",
+        "briefUrl": "/engagements/anytask-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/engagement_brief_logos/engagement_brief/logo/fe0ae74a-dd86-474e-8fa4-8bc864a592ab/60a0c82d-1c39-44e0-9b1b-7f88d21d4a96.png",
+        "rewardSummary": {
+            "summary": "$120 - $5,000",
+            "hint": null,
+            "minReward": "$120",
+            "maxReward": "$5,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "eCommerce",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/anytask-mbb-og/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
