@@ -34063,7 +34063,7 @@
     {
         "id": "eb340a46-b5b8-4165-b8d8-bc032493e8a6",
         "handle": "ubisoftvdp",
-        "name": "Ubisoft VDP",
+        "name": "Ubisoft Responsible Disclosure Program",
         "following": false,
         "minBounty": {
             "value": 0.0,
@@ -34091,17 +34091,31 @@
         "industry": "Media & Entertainment",
         "domains": [
             {
-                "id": "fb3328b7-45c6-4c95-b740-799b1014f6ce",
+                "id": "7eadf34f-8689-45d0-9348-4a65c9debbc2",
                 "type": {
                     "id": 6,
                     "value": "Other"
                 },
-                "endpoint": "Ubisoft",
+                "endpoint": "Game Titles",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Ubisoft services available from the internet and any software developed by Ubisoft that is not listed as Out of Scope. This includes our web applications, servers, and all our game(s) within 1 year of the last patch/update.",
+                "description": "**Active in-scope Game Titles** - *last updated 08/12/25*\n\nPlatforms: all officially supported platforms and distribution channels for each title (e.g., PC, PlayStation, Xbox, Switch, iOS, Android, cloud services, and web-based games playable in a web browser).\n\n* R6 Siege\n* TCTD2\n* For Honor\n* Skull & Bones\n* The Crew: Motorfest\n* Just Dance\n* Watch Dogs Legion\n* Laser\n* Genesis\n* GR: Wildlands\n* AC: Shadows\n* Hungry Shark World\n* Hungry Shark Evolution\n* Invincible\n* Howrse\n* Brawlhalla\n* R6Mobile\n* M&M Era of Chaos\n* JD:Now\n* AC Mirage\n* AC Shadows\n* POP Lost Crown",
+                "requiredSkills": []
+            },
+            {
+                "id": "b199f434-998e-43ac-9253-641b5c3c72c8",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "First-party Ubisoft Web, Desktop and Mobile applications",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "* Public-facing web applications and APIs owned and operated by Ubisoft (e.g., *.ubisoft.com, *.ubi.com, *.ubisoftconnect.com).\n* Official desktop applications (e.g., Ubisoft Connect and similar Ubisoft-owned client software) and official mobile applications (iOS/Android). Mobile applications that provide corporate services, account management, companion functionality, or other non\u2011game features are in scope; mobile games are excluded (see Game\u2011specific exclusions).\n* Corporate/online services and infrastructure exposed to the internet where Ubisoft is the owner/operator (e.g., partner/employee portals, admin panels, CDNs, storage endpoints).",
                 "requiredSkills": []
             },
             {
