@@ -1,5 +1,72 @@
 [
     {
+        "title": "DECATHLON",
+        "slug": "decathlon",
+        "country": "FR",
+        "activity_area": "Retail",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 374,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2500,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "1a97a63d-ff3e-4d3a-b211-cfe24770d671",
+            "original_name": "2025-LOGO DKT - YWH.png",
+            "mime_type": "image/png",
+            "size": 33901,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1a97a63d-ff3e-4d3a-b211-cfe24770d671"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Decathlon",
+            "slug": "decathlon",
+            "description": "Decathlon",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-10-23T13:55:43+02:00",
+        "scopes": [
+            {
+                "scope": "https://www.decathlon.(ch|fr|hu|pl|ro|cz|com.tr)/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.decathlon.(co.uk|it|nl|de|pt|es|be)/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
         "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
         "country": "FR",
@@ -897,7 +964,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 157,
+        "reports_count": 158,
         "bounty_reward_min": 5,
         "bounty_reward_max": 3000,
         "scopes_count": 4,
@@ -2690,87 +2757,6 @@
                 "scope_type": "mobile-application-ios",
                 "scope_type_name": "Mobile application IOS",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "DECATHLON",
-        "slug": "decathlon",
-        "country": "FR",
-        "activity_area": "Retail",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 374,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2500,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "1a97a63d-ff3e-4d3a-b211-cfe24770d671",
-            "original_name": "2025-LOGO DKT - YWH.png",
-            "mime_type": "image/png",
-            "size": 33901,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1a97a63d-ff3e-4d3a-b211-cfe24770d671"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Decathlon",
-            "slug": "decathlon",
-            "description": "Decathlon",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-09-22T11:47:57+02:00",
-        "scopes": [
-            {
-                "scope": "https://www.decathlon.(ch|fr|hu|pl|ro|cz|com.tr)/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.decathlon.(co.uk|it|nl|de|pt|es|be)/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://login.decathlon.net/*",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://account.decathlon.com/*",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -6736,7 +6722,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 57,
+        "reports_count": 58,
         "bounty_reward_min": 500,
         "bounty_reward_max": 10000,
         "scopes_count": 22,
@@ -9519,7 +9505,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 532,
+        "reports_count": 533,
         "bounty_reward_min": 100,
         "bounty_reward_max": 10000,
         "scopes_count": 9,
@@ -9809,7 +9795,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1514,
+        "reports_count": 1515,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 11,
