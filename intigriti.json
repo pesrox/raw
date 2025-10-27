@@ -15653,6 +15653,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "2bb1d47a-b60d-478c-bef1-76cfc68557e2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://auth2.pdq.tools/dev/mailbox",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "377c8976-8ea7-4d9a-8a52-5ee8071192cf",
                 "type": {
                     "id": 1,
@@ -35424,8 +35438,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
