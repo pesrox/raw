@@ -3264,38 +3264,6 @@
         "target_groups": []
     },
     {
-        "name": "Moovit Managed Bug Bounty Program",
-        "tagline": "Moovit is a leading Mobility as a Service (MaaS) solutions company and the #1 urban mobility app. Please submit your findings to this Bug Bounty Program.",
-        "briefUrl": "/engagements/moovit-mbb-og",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/49ba/0d50/2a4e89d7/580df1f70018824f774c6f14dff1e55a_moovit_logo.jpeg",
-        "rewardSummary": {
-            "summary": "$100 - $7,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$7,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 1,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Utilities",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/moovit-mbb-og/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Pinterest",
         "tagline": "Discover ideas for any project or interest, hand-picked by people like you.",
         "briefUrl": "/engagements/pinterest",
@@ -3424,18 +3392,18 @@
         "target_groups": []
     },
     {
-        "name": "Seek.com",
-        "tagline": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
-        "briefUrl": "/engagements/seek-com",
-        "backgroundColor": "#2a2d40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4a8f/3622/259cf49b/8fde5fec56f76f4641dfade8ca0ac21d_logo-seek-reverse.png",
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/3b82dca429ba76bf224abbec781356a8_OpenAI-black-monoblossom.png",
         "rewardSummary": {
-            "summary": "$25 - $1,500",
-            "hint": null,
-            "minReward": "$25",
-            "maxReward": "$1,500",
-            "compensationSummary": null,
-            "compensationHint": null
+            "summary": "$200 - $6,500",
+            "hint": "Up to $100,000",
+            "minReward": "$200",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $100,000",
+            "compensationHint": "max reward"
         },
         "isDemo": false,
         "scopeRank": 4,
@@ -3450,9 +3418,9 @@
             "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/seek-com/engagement_subscribers",
+        "subscriptionUrl": "/openai/engagement_subscribers",
         "isPrivate": false,
-        "serviceLevel": "Platform",
+        "serviceLevel": "Priority Triage",
         "target_groups": []
     },
     {
@@ -3488,18 +3456,18 @@
         "target_groups": []
     },
     {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/3b82dca429ba76bf224abbec781356a8_OpenAI-black-monoblossom.png",
+        "name": "Seek.com",
+        "tagline": "SEEK is a diverse group of companies that have a unified purpose to help people live more fulfilling and productive working lives and help organisations succeed.",
+        "briefUrl": "/engagements/seek-com",
+        "backgroundColor": "#2a2d40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/4a8f/3622/259cf49b/8fde5fec56f76f4641dfade8ca0ac21d_logo-seek-reverse.png",
         "rewardSummary": {
-            "summary": "$200 - $6,500",
-            "hint": "Up to $100,000",
-            "minReward": "$200",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $100,000",
-            "compensationHint": "max reward"
+            "summary": "$25 - $1,500",
+            "hint": null,
+            "minReward": "$25",
+            "maxReward": "$1,500",
+            "compensationSummary": null,
+            "compensationHint": null
         },
         "isDemo": false,
         "scopeRank": 4,
@@ -3514,9 +3482,41 @@
             "label": "Bug Bounty",
             "iconVariant": "bug-bounty"
         },
-        "subscriptionUrl": "/openai/engagement_subscribers",
+        "subscriptionUrl": "/seek-com/engagement_subscribers",
         "isPrivate": false,
-        "serviceLevel": "Priority Triage",
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Moovit Managed Bug Bounty Program",
+        "tagline": "Moovit is a leading Mobility as a Service (MaaS) solutions company and the #1 urban mobility app. Please submit your findings to this Bug Bounty Program.",
+        "briefUrl": "/engagements/moovit-mbb-og",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/49ba/0d50/2a4e89d7/580df1f70018824f774c6f14dff1e55a_moovit_logo.jpeg",
+        "rewardSummary": {
+            "summary": "$100 - $7,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$7,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 1,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Utilities",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/moovit-mbb-og/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
         "target_groups": []
     },
     {
@@ -5803,38 +5803,6 @@
         "target_groups": []
     },
     {
-        "name": "Atlassian-Built Apps",
-        "tagline": "Marketplace apps officially developed and supported by Atlassian",
-        "briefUrl": "/engagements/atlassianapps",
-        "backgroundColor": "#0052CC",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28c0/23ec/6022bc42/ddca52b471e3ce27a2d600c0b9285b1b_bounty-logo-atlassian.png",
-        "rewardSummary": {
-            "summary": "$100 - $3,000",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$3,000",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 3,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": null,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/atlassianapps/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "Nutaku Managed Bug Bounty Program",
         "tagline": "Nutaku is a tech pioneer offering world class adult content platforms. Please submit your findings to this Bug Bounty Program.",
         "briefUrl": "/engagements/aylo-nutaku-mbb-og",
@@ -5926,6 +5894,38 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/opensea/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "Atlassian-Built Apps",
+        "tagline": "Marketplace apps officially developed and supported by Atlassian",
+        "briefUrl": "/engagements/atlassianapps",
+        "backgroundColor": "#0052CC",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/28c0/23ec/6022bc42/ddca52b471e3ce27a2d600c0b9285b1b_bounty-logo-atlassian.png",
+        "rewardSummary": {
+            "summary": "$100 - $3,000",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$3,000",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 3,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": null,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/atlassianapps/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
@@ -6187,38 +6187,6 @@
         "target_groups": []
     },
     {
-        "name": "BitGo Managed Public Bug Bounty Engagement ",
-        "tagline": "BitGo offers secure, scalable solutions for the digital asset economy, including regulated custody, borrowing, lending, and core infrastructure for investors and builders.",
-        "briefUrl": "/engagements/bitgo-mbb-og-public",
-        "backgroundColor": "#2a2d40",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3247/aa28/654fcb53/1652b0cca1522011e5bd40ae0023656c_Shield_Logo_Blue-Dark.png",
-        "rewardSummary": {
-            "summary": "$100 - $4,500",
-            "hint": null,
-            "minReward": "$100",
-            "maxReward": "$4,500",
-            "compensationSummary": null,
-            "compensationHint": null
-        },
-        "isDemo": false,
-        "scopeRank": 2,
-        "isBanned": false,
-        "isFollowing": false,
-        "industryName": "Computer Software",
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/bitgo-mbb-og-public/engagement_subscribers",
-        "isPrivate": false,
-        "serviceLevel": "Platform",
-        "target_groups": []
-    },
-    {
         "name": "CoinDesk Data - Data API ",
         "tagline": "CoinDesk Data is a central authority for clear and concise information, offering unrivalled breadth, scope and depth of data, bridging the gap between the crypto asset and traditional financial markets.",
         "briefUrl": "/engagements/CCData-mbb-og",
@@ -6406,6 +6374,38 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/trello/engagement_subscribers",
+        "isPrivate": false,
+        "serviceLevel": "Platform",
+        "target_groups": []
+    },
+    {
+        "name": "BitGo Managed Public Bug Bounty Engagement ",
+        "tagline": "BitGo offers secure, scalable solutions for the digital asset economy, including regulated custody, borrowing, lending, and core infrastructure for investors and builders.",
+        "briefUrl": "/engagements/bitgo-mbb-og-public",
+        "backgroundColor": "#2a2d40",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/3247/aa28/654fcb53/1652b0cca1522011e5bd40ae0023656c_Shield_Logo_Blue-Dark.png",
+        "rewardSummary": {
+            "summary": "$100 - $4,500",
+            "hint": null,
+            "minReward": "$100",
+            "maxReward": "$4,500",
+            "compensationSummary": null,
+            "compensationHint": null
+        },
+        "isDemo": false,
+        "scopeRank": 2,
+        "isBanned": false,
+        "isFollowing": false,
+        "industryName": "Computer Software",
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": null,
+        "endsAt": null,
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/bitgo-mbb-og-public/engagement_subscribers",
         "isPrivate": false,
         "serviceLevel": "Platform",
         "target_groups": []
