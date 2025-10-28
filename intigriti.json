@@ -12401,8 +12401,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -15583,6 +15583,34 @@
         "industry": "Software",
         "domains": [
             {
+                "id": "5b50d752-0bc7-4b48-8dd2-b824ea60f461",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://app.pdq.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Production environment for our PDQ Connect \u2014 please take care not to disrupt any services when testing",
+                "requiredSkills": []
+            },
+            {
+                "id": "0ce8647b-f67c-44d7-87e5-90d609d7d308",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://portal.pdq.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Production environment for our billing portal \u2014 please take care not to disrupt any services when testing",
+                "requiredSkills": []
+            },
+            {
                 "id": "ea6bb05a-43f7-4762-a98f-a11952ddfa00",
                 "type": {
                     "id": 1,
@@ -15597,87 +15625,31 @@
                 "requiredSkills": []
             },
             {
-                "id": "83d38347-fe64-4bd5-8b4b-c890f79a0d1c",
+                "id": "abb17d8e-dc5f-45b6-8290-08dbefb5052b",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://auth2.pdq.tools/ ",
+                "endpoint": "https://auth2.pdq.com/",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Test environment for our authentication tool",
+                "description": "Production environment for our authentication tool \u2014 please take care not to disrupt any services when testing",
                 "requiredSkills": []
             },
             {
-                "id": "d84e1eff-a24a-4a37-87a6-b4c3a4ade1d5",
+                "id": "38db4f24-4dcb-458a-9635-16e87e540010",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://library-staging.pdq.tools/ ",
+                "endpoint": "https://library.pdq.com/",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Test environment for our Package Library",
-                "requiredSkills": []
-            },
-            {
-                "id": "62e25a3b-96b2-45b9-9672-d1c6baae8339",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://houston-staging.pdq.tools",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Test environment for PDQ Connect",
-                "requiredSkills": []
-            },
-            {
-                "id": "542a382a-c13f-4e8b-8e29-15054d4b7626",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://portal-staging.pdq.tools/ ",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Test environment for our billing portal",
-                "requiredSkills": []
-            },
-            {
-                "id": "2bb1d47a-b60d-478c-bef1-76cfc68557e2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://auth2.pdq.tools/dev/mailbox",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "377c8976-8ea7-4d9a-8a52-5ee8071192cf",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://detect.pdq.tools/",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
+                "description": "Production environment for our Package Library \u2014 please take care not to disrupt any services when testing",
                 "requiredSkills": []
             },
             {
@@ -15687,6 +15659,20 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "https://*.pdq.com/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "9d871b82-2fe8-446c-a21c-c618887afb32",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://*.pdq.tools/",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
