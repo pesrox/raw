@@ -4319,7 +4319,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "XS4 Com is our Intercom solution allowing users to receive video calls when someone is at their door, they can even unlock the door for them. XS4 Com integrates with various other Salto locking solutions. Your test site will be setup with a dummy integration. \n\nThis is the \"indoor\" app. This app is used by intercom administrators and to a lesser extent tenants living in the building. Administrators can administrate all aspects of the application, tenants can receive calls. Tenants will typically receive calls using the mobile application instead of the web app. ",
+                "description": "XS4 Com is our Intercom solution allowing users to receive video calls when someone is at their door, they can even unlock the door for them. XS4 Com integrates with various other Salto locking solutions. Your test site will be setup with a dummy integration. \n\nThis is the \"indoor\" app. This app is used by intercom administrators and to a lesser extent tenants living in the building. Administrators can administrate all aspects of the application, tenants can receive calls. Tenants will typically receive calls using the mobile application instead of the web app.",
                 "requiredSkills": []
             },
             {
@@ -4402,7 +4402,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Salto KS is one of our web apps which is used to manage access to the Salto locks installed in a building. Salto KS makes it easy to manage users and their access rights while at the same time providing clear audit logs of lock events. \n\nThe web app is built upon the Connect API, any action you can take inside the web app will be powered by the Connect API meaning the API is responsible for business logic. In some cases a flow or modal in the web app might not show all options available in the API to guide user behaviour (such as when creating an access group). In these cases the user should be able to take the same action in another screen (when editing the newly created access group). ",
+                "description": "Salto KS is one of our web apps which is used to manage access to the Salto locks installed in a building. Salto KS makes it easy to manage users and their access rights while at the same time providing clear audit logs of lock events. \n\nThe web app is built upon the Connect API, any action you can take inside the web app will be powered by the Connect API meaning the API is responsible for business logic. In some cases a flow or modal in the web app might not show all options available in the API to guide user behaviour (such as when creating an access group). In these cases the user should be able to take the same action in another screen (when editing the newly created access group).",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -4448,7 +4448,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is the Core API, Core API allows someone to directly interact with SALTO hardware. The Core API does not have a user layer like our connect API does, instead an accessor is an anonymous entity which represents an entity which has one or more lock access credentials and functions similar to a user. The integration partner has to tie these accessor to user entities on their end. \n\nPlease reach out to us using the email in the FAQ if you are interested in testing this API. \n\nSwagger is available https://clp-accept-hardware.my-clay.com/swagger/index.html. \n",
+                "description": "This is the Core API, Core API allows someone to directly interact with SALTO hardware. The Core API does not have a user layer like our connect API does, instead an accessor is an anonymous entity which represents an entity which has one or more lock access credentials and functions similar to a user. The integration partner has to tie these accessor to user entities on their end. \n\nPlease reach out to us using the email in the FAQ if you are interested in testing this API. \n\nSwagger is available https://clp-accept-hardware.my-clay.com/swagger/index.html.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -4471,7 +4471,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "This is our support web app, it is used internally to support our customers. You will be able to see information about any site inside our Integriti environment.\n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. ",
+                "description": "This is our support web app, it is used internally to support our customers. You will be able to see information about any site inside our Integriti environment.\n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -4517,7 +4517,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "This is our commissioning web app, our installer partners use this to create systems for our end users after they are done installing the physical locks. You can create additional test sites using this tool, but without hardware the sites will be limited. \n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how. ",
+                "description": "This is our commissioning web app, our installer partners use this to create systems for our end users after they are done installing the physical locks. You can create additional test sites using this tool, but without hardware the sites will be limited. \n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -4553,36 +4553,17 @@
                 ]
             },
             {
-                "id": "d1e40f21-dfd2-4c11-88e2-aa6a018e0768",
+                "id": "7d613375-9e88-411c-88fa-47dc183fffa1",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://my-clay.com/",
+                "endpoint": "https://saltocloudworks.com/",
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "Employer branding/recruitment website, please remember to use your @intigriti.me address for any form submissions! \n\nNote: We may award a bonus for any finding related to this resource but as it's decoupled from our applications/APIs entirely it's not in any of the normal bounty tiers. ",
-                "requiredSkills": [
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "41a73a3b-d3d1-4fb6-b6c5-2343c2afb4c6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://saltoks.com/",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Commercial website, please remember to use your @intigriti.me address for any form submissions! \n\nNote: We may award a bonus for any finding related to this resource but as it's decoupled from our applications/APIs entirely it's not in any of the normal bounty tiers. ",
+                "description": "Employer branding/recruitment website, please remember to use your @intigriti.me address for any form submissions! \n\nNote: We may award a bonus for any finding related to this resource but as it's decoupled from our applications/APIs entirely it's not in any of the normal bounty tiers.",
                 "requiredSkills": [
                     {
                         "id": "web_hacking",
@@ -4601,7 +4582,7 @@
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "We're likely to award a bonus for findings related to our swaggers depending on the severity. \n\nNote: Only Swaggers related to our API's listed in our program is in scope. ",
+                "description": "We're likely to award a bonus for findings related to our swaggers depending on the severity. \n\nNote: Only Swaggers related to our API's listed in our program is in scope.",
                 "requiredSkills": []
             }
         ]
@@ -4964,7 +4945,12 @@
                     "value": "Tier 2"
                 },
                 "description": "Mathem iOS app",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "197b603a-6d2b-46c2-ab41-b16c70b3561c",
@@ -4978,7 +4964,12 @@
                     "value": "Tier 2"
                 },
                 "description": "Oda android app",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "e8057e8b-415f-4b43-bc16-5fbdb6c56049",
@@ -4992,7 +4983,16 @@
                     "value": "Tier 2"
                 },
                 "description": "The main shop and brand in Sweden.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "95430c8e-3876-4fa2-a7f6-b53cb513dd5c",
@@ -5006,7 +5006,16 @@
                     "value": "Tier 2"
                 },
                 "description": "The main shop used in Norway.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "4e618c42-fe4c-4f52-80b5-dc4b27096e91",
@@ -5020,7 +5029,12 @@
                     "value": "Tier 2"
                 },
                 "description": "The Oda android app",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "4021567f-803c-4577-9c06-e2f23adcaab4",
@@ -5034,7 +5048,12 @@
                     "value": "Tier 2"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "244c67c6-985f-4e98-9521-2b38dfc0eab5",
@@ -5048,7 +5067,12 @@
                     "value": "Tier 3"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "7d314335-120c-4f4f-a91a-240a0fad0c48",
@@ -5062,7 +5086,24 @@
                     "value": "Tier 3"
                 },
                 "description": "Should mostly be internal services",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             }
         ]
     },
