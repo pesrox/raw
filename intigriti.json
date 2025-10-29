@@ -12214,8 +12214,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -25164,7 +25164,12 @@
                     "value": "No Bounty"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "c520ba12-7b73-453a-87e9-5ca1e814c6d3",
@@ -30258,8 +30263,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -32962,6 +32967,10 @@
                     {
                         "id": "web_hacking",
                         "name": "Web Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
                     }
                 ]
             },
