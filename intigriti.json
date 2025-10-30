@@ -2136,8 +2136,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -8367,7 +8367,7 @@
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "Any domains or services related to ReadID by Signicat as a brand",
+                "description": "Any domains or services related to our ReadID product",
                 "requiredSkills": []
             },
             {
@@ -9008,7 +9008,12 @@
                     "value": "Tier 2"
                 },
                 "description": "Our iOS application.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "61b46302-a4c9-448c-8b14-16e834a17aac",
@@ -9022,7 +9027,12 @@
                     "value": "Tier 2"
                 },
                 "description": "Our Android application.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "808c72c5-119e-41fe-a9a7-f44921bcaf96",
@@ -9036,7 +9046,16 @@
                     "value": "Tier 2"
                 },
                 "description": "The API used by our mobile applications. ",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "d1f17fbe-265e-4f41-8ce8-4a6a6f65026f",
@@ -9050,7 +9069,24 @@
                     "value": "Tier 2"
                 },
                 "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain. ",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    }
+                ]
             },
             {
                 "id": "56f14710-e82d-4873-bac0-6c1af8aa2cbe",
@@ -9078,7 +9114,24 @@
                     "value": "Tier 2"
                 },
                 "description": "\nThe scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "230cf580-f3b1-484d-b868-37d8bc17e2cc",
