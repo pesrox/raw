@@ -2136,8 +2136,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -8356,6 +8356,20 @@
         },
         "industry": "Software",
         "domains": [
+            {
+                "id": "31e7f8a5-adc4-4aff-b67b-a30eb6448f14",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "ReadID",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Any domains or services related to ReadID by Signicat as a brand",
+                "requiredSkills": []
+            },
             {
                 "id": "f889a10b-42d8-4cdd-9204-1bb458f97af3",
                 "type": {
