@@ -2136,8 +2136,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -4319,7 +4319,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "XS4 Com is our Intercom solution allowing users to receive video calls when someone is at their door, they can even unlock the door for them. XS4 Com integrates with various other Salto locking solutions. Your test site will be setup with a dummy integration. \n\nThis is the \"indoor\" app. This app is used by intercom administrators and to a lesser extent tenants living in the building. Administrators can administrate all aspects of the application, tenants can receive calls. Tenants will typically receive calls using the mobile application instead of the web app.",
+                "description": "XS4 Com is our Intercom solution allowing users to receive video calls when someone is at their door, they can even unlock the door for them. XS4 Com integrates with various other Salto locking solutions. Your test site will be setup with a dummy integration. \n\nThis is the \"indoor\" app. This app is used by intercom administrators and to a lesser extent tenants living in the building. Administrators can administrate all aspects of the application, tenants can receive calls. Tenants will typically receive calls using the mobile application instead of the web app.\n\nLearn more about how the app is used by browsing our manual https://support.saltosystems.com/xs4com/.",
                 "requiredSkills": []
             },
             {
@@ -4333,7 +4333,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is the outdoor app of the XS4 Com, the part that your guest would see if they scanned an XS4Com QR code or interacted with the hardware version. It is used to make calls to residents of a building outfitted with XS4 Com.\n\nThe app requires a UUID appended at the end, we will supply a UUID when we create your XS4 Com test setup. \n\nExample: https://outdoor-acc.xs4com.app/#/00000000-0000-0000-0000-000000000000\n\n**Note: A user must sign into either the mobile application or the web application to show in the outdoor app. The user must be a resident in at least one XS4 Com site as well as subscribed**",
+                "description": "This is the outdoor app of the XS4 Com, the part that your guest would see if they scanned an XS4Com QR code or interacted with the hardware version. It is used to make calls to residents of a building outfitted with XS4 Com.\n\nThe app requires a UUID appended at the end, we will supply a UUID when we create your XS4 Com test setup. \n\nExample: https://outdoor-acc.xs4com.app/#/00000000-0000-0000-0000-000000000000\n\n**Note: A user must sign into either the mobile application or the web application to show in the outdoor app. The user must be a resident in at least one XS4 Com site as well as subscribed**\n\nLearn more about how the app is used by browsing our manual https://support.saltosystems.com/xs4com/.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -12509,8 +12509,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -25884,6 +25884,66 @@
                     "value": "No Bounty"
                 },
                 "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "c45fe6df-1e31-4701-8e75-e9f01919ea20",
+        "handle": "nvidiavdp",
+        "name": "NVIDIA Vulnerability Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/nvidia/nvidiavdp/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "d49cf54d-a7d3-4e8d-a3db-7033a0f2b73c",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "All NVIDIA assets are in scope! Including NVIDIA.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f8b03186-ecc6-4e3c-9872-3ac8c4988f6b",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Third-party systems or domains referencing NVIDIA, non-secure error reporting 3rd party vulns already disclosed",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Before initiating any testing or submitting a report, please ensure that the asset in question is genuinely owned or operated by NVIDIA. Descriptive phrases such as \u201ccompatible with NVIDIA GPU\u201d do not constitute confirmation of NVIDIA\u2019s ownership or control. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems.\n",
                 "requiredSkills": []
             }
         ]
