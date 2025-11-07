@@ -23688,6 +23688,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "e1edc961-cb35-40bc-8ede-845ccc6f87ac",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-php#Vulnerability",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "ead0a79d-292e-4849-b1fa-826d5de58507",
                 "type": {
                     "id": 6,
@@ -23716,6 +23730,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "323e6574-2196-41a2-b5c8-ebc828925a8b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-php#Detection Bypass",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "6984a6b6-99e5-495d-b4f0-ffeed17bbe2c",
                 "type": {
                     "id": 6,
@@ -23741,6 +23769,20 @@
                     "value": "Tier 3"
                 },
                 "description": "Tier 3 is for any false positives you encounter with our vulnerability detection. For example, cases where we falsely flag a SQL injection, while the user's input is safely encapsulated in the SQL query.\n\nSeverity assessments are slightly harder for these cases, see \"Severity Assessment\" for more information.",
+                "requiredSkills": []
+            },
+            {
+                "id": "4f252c9e-dff0-4f13-9db8-cf974c7632be",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-php#False Positive",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
                 "requiredSkills": []
             },
             {
@@ -25702,8 +25744,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
