@@ -8096,6 +8096,80 @@
         ]
     },
     {
+        "id": "3f79ce72-f3f5-4ec4-9b4b-b8328d577e78",
+        "handle": "qualifiedresponsibledisclosureprogram",
+        "name": "Qualified Responsible Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/qualified/qualifiedresponsibledisclosureprogram/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "25eb4c39-eac4-4dba-810b-030cf3c9d631",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.qualified-dev.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "be322faa-4223-45b4-b3b6-630b2a6a3ae2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.qualified.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "47a1c4d8-96b4-46ce-830e-fe511e53184a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.qualified.com/v1",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "406fd572-83b2-49de-9200-594c484d5bb9",
         "handle": "hetparool",
         "name": "Het Parool",
