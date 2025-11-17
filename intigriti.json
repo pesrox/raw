@@ -14164,8 +14164,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -15927,194 +15927,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "298eb5f8-0c59-46d6-8529-aeea5e7ab727",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.intigriti.io",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "a29fdcc7-4ade-4e1a-b9d4-7bba9b94faac",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.intigriti.me",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "026d6adb-3412-477c-9692-b660960f702e",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.intigriti.net",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "22537fac-2bc7-4fba-b2f1-a4ac0585e4af",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "any intigriti CTF or challenge",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "e892c9e9-9d1e-4658-8ee3-4777295df1be",
+                "id": "cb79b1eb-d9dd-4525-99af-3147023c00ea",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "api.intercom.io",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "d0a506a3-58c5-4d0b-86f5-9ba6ee6d2060",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "autodiscover.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "a623524c-a5f2-4ef9-8bf3-44e533f0d0b2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "careers.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "4bc8b1d6-339d-4431-b4ba-956c23ecd7bd",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "click.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "ce98ec7c-ac3a-41da-a8da-7f0b943716c3",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "go.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "55071818-be20-4439-8832-e81aa2913931",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "kb.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "d7afb2b5-89f6-46bf-a63a-678a02acfb2e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mail.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "b4341689-1423-4952-a64c-d3f10a6ae638",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "newsletter.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "0a81612d-597e-4efd-9ca1-0f0c90321c90",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "0b7600f0-6e71-4858-bc29-c1162695316f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "status.intigriti.com",
+                "endpoint": "trust.intigriti.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -16137,12 +15955,194 @@
                 "requiredSkills": []
             },
             {
-                "id": "cb79b1eb-d9dd-4525-99af-3147023c00ea",
+                "id": "0b7600f0-6e71-4858-bc29-c1162695316f",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "trust.intigriti.com",
+                "endpoint": "status.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0a81612d-597e-4efd-9ca1-0f0c90321c90",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b4341689-1423-4952-a64c-d3f10a6ae638",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "newsletter.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d7afb2b5-89f6-46bf-a63a-678a02acfb2e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mail.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "55071818-be20-4439-8832-e81aa2913931",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "kb.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ce98ec7c-ac3a-41da-a8da-7f0b943716c3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "go.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4bc8b1d6-339d-4431-b4ba-956c23ecd7bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "click.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a623524c-a5f2-4ef9-8bf3-44e533f0d0b2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "careers.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d0a506a3-58c5-4d0b-86f5-9ba6ee6d2060",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "autodiscover.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e892c9e9-9d1e-4658-8ee3-4777295df1be",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.intercom.io",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "22537fac-2bc7-4fba-b2f1-a4ac0585e4af",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "any intigriti CTF or challenge",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "026d6adb-3412-477c-9692-b660960f702e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.net",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a29fdcc7-4ade-4e1a-b9d4-7bba9b94faac",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.me",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "298eb5f8-0c59-46d6-8529-aeea5e7ab727",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.io",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -22040,8 +22040,8 @@
             "currency": "EUR"
         },
         "confidentialityLevel": {
-            "id": 3,
-            "value": "Registered"
+            "id": 4,
+            "value": "Public"
         },
         "status": {
             "id": 3,
@@ -23824,8 +23824,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
