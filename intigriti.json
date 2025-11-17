@@ -2164,8 +2164,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -7495,6 +7495,20 @@
         "industry": "Hospitals & Healthcare",
         "domains": [
             {
+                "id": "2cb13ddd-b63f-4c7a-82a2-83a244949df2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "preview.redcap.gbiomed.kuleuven.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "b070af79-3cd3-4a18-a1a8-cdc959cb230d",
                 "type": {
                     "id": 1,
@@ -7659,7 +7673,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "These are the ip's used by our reverse proxy.\nThe Host header will determine the bounty tier.\nIf a report is submitted where the Host header is not used we will default to Tier 2. ",
+                "description": "These are the ip's used by our reverse proxy.\nThe Host header will determine the bounty tier.\nIf a report is submitted where the Host header is not used we will default to Tier 2.",
                 "requiredSkills": []
             },
             {
@@ -14164,8 +14178,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -19692,94 +19706,6 @@
                     "value": "No Bounty"
                 },
                 "description": null,
-                "requiredSkills": []
-            }
-        ]
-    },
-    {
-        "id": "8ffc1f31-1891-491c-8897-a7859d510699",
-        "handle": "smartpensionvdp",
-        "name": "Smart Pension VDP",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "GBP"
-        },
-        "confidentialityLevel": {
-            "id": 3,
-            "value": "Registered"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/smartpension/smartpensionvdp/detail"
-        },
-        "industry": "Software",
-        "domains": [
-            {
-                "id": "53653d7c-820a-4628-ad25-e030eb71a2c9",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.sandbox.autoenrolment.co.uk",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "The auto enrolment web application allows for employees to access a workplace pension scheme. The application comprises of member, employee and adviser portal.\n\nThis is the main endpoint for the Smart API.\n",
-                "requiredSkills": []
-            },
-            {
-                "id": "29d39bf6-3401-4436-9666-00d14de77e14",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "id.sandbox.autoenrolment.co.uk/customer/sign-in",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Web portal used by employers to manage their pension scheme. Allows employers to enrol employees, manage employer details and upload pension contributions. ",
-                "requiredSkills": []
-            },
-            {
-                "id": "ce89c440-2117-4d17-bed2-6df9e11aa1b5",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "id.sandbox.autoenrolment.co.uk/employee/sign-in ",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Web portal used by an employee/member of pension scheme to check their personal pension account. Employees can view and change contributions and investment options.",
-                "requiredSkills": []
-            },
-            {
-                "id": "12204a2d-38fa-4295-ac56-89add649234e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "id.sandbox.autoenrolment.co.uk/user/sign-in ",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Web portal used by an accountant, IFA or Payroll Bureau to manage their clients. Adviser portal provides the functionality to add a new company, maintain and view company and member details.                                                                                                                              ",
                 "requiredSkills": []
             }
         ]
