@@ -836,6 +836,80 @@
         ]
     },
     {
+        "title": "Keycloak Bug Bounty Program",
+        "slug": "keycloak-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 11,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "2b1e8fd5-7797-4a3d-a75a-404995078583",
+            "original_name": "logo CK.jpg",
+            "mime_type": "image/jpeg",
+            "size": 11491,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/2b1e8fd5-7797-4a3d-a75a-404995078583"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "keycloak",
+            "slug": "keycloak",
+            "description": "Keycloak is an open-source Identity and Access Management (IAM) solution providing Single Sign-On (SSO), identity brokering, and user federation. It supports standard protocols like OpenID Connect (OIDC), OAuth 2.0, and SAML 2.0. As a CNCF incubating project, Keycloak runs on a lightweight Quarkus stack, making it fast, efficient, and ideal for containerized environments.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "835fe46a-562d-4cb2-9fd3-75bce2fcd58a",
+                "original_name": "logo CK.jpg",
+                "mime_type": "image/jpeg",
+                "size": 11491,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/835fe46a-562d-4cb2-9fd3-75bce2fcd58a"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-11-07T10:19:24+01:00",
+        "scopes": [
+            {
+                "scope": "Keycloak Server",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Keycloak Operator",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "JavaScript Client Adapter",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Memento - Public Bug Bounty Program",
         "slug": "memento-bug-bounty-program",
         "country": "SG",
@@ -3568,7 +3642,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 73,
+        "reports_count": 74,
         "bounty_reward_min": 10,
         "bounty_reward_max": 1200,
         "scopes_count": 6,
@@ -6296,7 +6370,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 57,
+        "reports_count": 58,
         "bounty_reward_min": 50,
         "bounty_reward_max": 1250,
         "scopes_count": 12,
