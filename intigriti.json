@@ -259,7 +259,28 @@
                     "value": "Tier 2"
                 },
                 "description": "Brand sites owned by The Coca-Cola Company.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "43dadb9d-80d9-48be-84e6-2175e911492d",
@@ -273,7 +294,24 @@
                     "value": "Tier 2"
                 },
                 "description": "*.us.coca-cola.com\n*.coca-cola.com\n*.ko.com\n*.testko.com\n*.coca-colacompany.com\n*.coke.com\n*.cokeurl.com\n*.tccc-aem.com",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    }
+                ]
             },
             {
                 "id": "91e3423a-cf81-4d0b-8d1e-4832b448e449",
@@ -315,7 +353,28 @@
                     "value": "Tier 2"
                 },
                 "description": "Researchers are welcome to submit reports on any publicly facing asset(s) attributed to The Coca-Cola Company.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    },
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    }
+                ]
             },
             {
                 "id": "f3f32d46-ff45-4be5-9967-c2ed1749c1b3",
@@ -8520,8 +8579,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
