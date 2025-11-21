@@ -6487,52 +6487,6 @@
         ]
     },
     {
-        "id": "21d92048-d4d8-4781-8f37-3209a1b60fe1",
-        "handle": "azenaresponsibledisclosure",
-        "name": "Azena",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/azena/azenaresponsibledisclosure/detail"
-        },
-        "industry": "Manufacturing - Consumer",
-        "domains": [
-            {
-                "id": "cd54a0fc-3e74-47cb-9504-78c3be92ec4f",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.azena.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "All assets including azena.com and subdomains.\nNote that connect.azena.com and any subdomain of connect.azena.com is a remote connection service to devices owned and controlled by third parties. Therefore, these targets are out of scope and not covered by this program.",
-                "requiredSkills": []
-            }
-        ]
-    },
-    {
         "id": "23f5d877-7948-4740-830c-393e66753fc4",
         "handle": "monzopublicbugbountyprogram",
         "name": "Monzo Public Bug Bounty Program",
