@@ -7325,6 +7325,234 @@
         ]
     },
     {
+        "id": "2a8404d4-25b6-45f4-96b5-be2b2aea01d1",
+        "handle": "nexuzhealth",
+        "name": "Nexuzhealth",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/nexuzhealth/nexuzhealth/detail"
+        },
+        "industry": "Hospitals & Healthcare",
+        "domains": [
+            {
+                "id": "2a9606cb-c840-4043-9043-460134951edb",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "be.nexuzhealth.mobile.cpv",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "[CPV](https://play.google.com/store/apps/details?id=be.nexuzhealth.mobile.cpv)\nThis application is only to be used by personnel responsible for transport of patients. No logon information will be given.",
+                "requiredSkills": []
+            },
+            {
+                "id": "a413e5fe-84fd-4f9b-aee8-45de8f35d1d6",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "be.nexuzhealth.mobile.kws",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "[KWS Companion](https://play.google.com/store/apps/details?id=be.nexuzhealth.mobile.kws)\nThis application is only to be used by healthcare professionals. No logon information will be given.",
+                "requiredSkills": []
+            },
+            {
+                "id": "a1290329-f41e-4eaf-ae19-9c7f7c7ae065",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "be.nexuzhealth.mobile.mynexuz",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "[mynexuzhealth](https://play.google.com/store/apps/details?id=be.nexuzhealth.mobile.mynexuz)\nThis application is intended to be used by patients in order to consult their medical data, their doctors appointments and more. Login: see below.",
+                "requiredSkills": []
+            },
+            {
+                "id": "f509201a-18de-4bdc-b674-cdaf9bcb11ba",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "kws-companion/id1342124012",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "[KWS Companion](https://apps.apple.com/be/app/kws-companion/id1342124012)\nThis application is only to be used by healthcare professionals. No logon information will be given.",
+                "requiredSkills": []
+            },
+            {
+                "id": "f0442a0f-7f8b-4492-aba8-a1d2606a4bca",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mynexuz.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This website is intended to be used by patients in order to consult their private data, their doctors & appointments and more. Login: see below.",
+                "requiredSkills": []
+            },
+            {
+                "id": "91b11d4b-dbea-4b42-b374-f043c21bc6fb",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "mynexuzhealth/id1459856321",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "[mynexuzhealth](https://apps.apple.com/be/app/mynexuzhealth/id1459856321)\nThis application is intended to be used by patients in order to consult their medical data, their doctors appointments and more. Login: see below.",
+                "requiredSkills": []
+            },
+            {
+                "id": "3796a6e0-cc21-450d-8854-600a0958c2ed",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "liquidfiles.nexuzhealth.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Our large and secure file transfer solution",
+                "requiredSkills": []
+            },
+            {
+                "id": "35690eba-105e-4b33-9501-8027a3e9b742",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.nexuzhealth.*",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8c518423-c39b-4321-bce8-36d924101d75",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.nexuzhealth.pro",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Platform for healthcare providers (nexuzhealth pro)",
+                "requiredSkills": []
+            },
+            {
+                "id": "3180ed87-2376-41f4-b05a-293b9c6ecfc2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "idp-contact.nexuzhealth.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Please check the **UZ Leuven** public program",
+                "requiredSkills": []
+            },
+            {
+                "id": "d5b72e99-6f1f-43d1-aea6-7200ba79d1cd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.nexuzhealth.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Please check the **UZ Leuven** public program",
+                "requiredSkills": []
+            },
+            {
+                "id": "922be180-19e4-41e8-a74e-e032e1c7df69",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "nexuzhealth-pro/id1623165353",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "iOS App: nexuzhealth pro ",
+                "requiredSkills": []
+            },
+            {
+                "id": "7add125b-c413-413b-a6d0-6777f9ec201d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "nexuzhealth.atlassian.net",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "af96585f-c7d8-4b55-b042-e37425c09371",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "pro.nexuzhealth.hn",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Android App: nexuzhealth pro ",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "2b664acb-80d4-4edb-9fcc-bcc562987f92",
         "handle": "dstnybugbounty",
         "name": "Dstny",
@@ -30573,6 +30801,52 @@
                     "value": "Tier 2"
                 },
                 "description": "\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7\ud83c\uddf3\ud83c\uddf1",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "d489d81f-6b42-4ef1-b7f8-f16d9b404621",
+        "handle": "nexuzhealthvdp",
+        "name": "Nexuzhealth VDP",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/nexuzhealth/nexuzhealthvdp/detail"
+        },
+        "industry": "Hospitals & Healthcare",
+        "domains": [
+            {
+                "id": "6581b521-ba5c-4bec-afe5-9254f8d66d86",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "All assets related to nexuzhealth ",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
                 "requiredSkills": []
             }
         ]
