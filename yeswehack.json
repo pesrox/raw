@@ -1,5 +1,209 @@
 [
     {
+        "title": "Ezviz - Bug Bounty Program",
+        "slug": "ezviz-bug-bounty-program",
+        "country": "CN",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 3,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 346,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 5000,
+        "scopes_count": 13,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "72ccf6a5-6ad7-4813-baaa-6190bbb22ce9",
+            "original_name": "\u622a\u53d6\u56fe\u7247_20230816153159.png",
+            "mime_type": "image/png",
+            "size": 9014,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/72ccf6a5-6ad7-4813-baaa-6190bbb22ce9"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "ezviz",
+            "slug": "ezviz",
+            "description": "Established in 2013, EZVIZ dedicates itself to creating a safe, convenient and smart life for users through its intelligent devices, advanced AI technologies and cloud services.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-11-25T09:42:17+01:00",
+        "scopes": [
+            {
+                "scope": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Hardware found on https://www.ezviz.com/category/smart-home",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.ezvizlife.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "open.ys7.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.ezviz.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.ezviz.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.ys7.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.ezvizlife.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.eziot.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.ezviz7.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.hicloudcam.com,",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.hikops.com,",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.ezvizru.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "ImageMagick Bug Bounty Program",
+        "slug": "imagemagick-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 2,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "6b39b604-b06b-4e6f-94c6-e2630bb5af71",
+            "original_name": "IM logo.png",
+            "mime_type": "image/png",
+            "size": 39927,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/6b39b604-b06b-4e6f-94c6-e2630bb5af71"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "ImageMagick",
+            "slug": "imagemagick",
+            "description": "ImageMagick is a free and open-source software suite for reading, writing, and manipulating images in various formats.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "56b16c01-4b41-4ebe-aa74-718c8a1ec570",
+                "original_name": "IM logo.png",
+                "mime_type": "image/png",
+                "size": 39927,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/56b16c01-4b41-4ebe-aa74-718c8a1ec570"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-11-25T08:47:41+01:00",
+        "scopes": [
+            {
+                "scope": "https://github.com/ImageMagick/ImageMagick",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
         "slug": "fdj-united-online-betting-gaming-bug-bounty-program",
         "country": "SE",
@@ -453,66 +657,6 @@
         ]
     },
     {
-        "title": "ImageMagick Bug Bounty Program",
-        "slug": "imagemagick-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 2,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "6b39b604-b06b-4e6f-94c6-e2630bb5af71",
-            "original_name": "IM logo.png",
-            "mime_type": "image/png",
-            "size": 39927,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/6b39b604-b06b-4e6f-94c6-e2630bb5af71"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "ImageMagick",
-            "slug": "imagemagick",
-            "description": "ImageMagick is a free and open-source software suite for reading, writing, and manipulating images in various formats.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "56b16c01-4b41-4ebe-aa74-718c8a1ec570",
-                "original_name": "IM logo.png",
-                "mime_type": "image/png",
-                "size": 39927,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/56b16c01-4b41-4ebe-aa74-718c8a1ec570"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-24T09:36:14+01:00",
-        "scopes": [
-            {
-                "scope": "https://github.com/ImageMagick/ImageMagick",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Jenkins Bug Bounty Program",
         "slug": "jenkins-bug-bounty-program",
         "country": "BE",
@@ -532,7 +676,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 6,
+        "reports_count": 7,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 8,
@@ -1625,7 +1769,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1493,
+        "reports_count": 1494,
         "bounty_reward_min": 100,
         "bounty_reward_max": 7000,
         "scopes_count": 40,
@@ -1958,7 +2102,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2661,
+        "reports_count": 2662,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -2545,7 +2689,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 346,
+        "reports_count": 348,
         "bounty_reward_min": 0,
         "bounty_reward_max": 2500,
         "scopes_count": 5,
@@ -3692,73 +3836,6 @@
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Ezviz - Bug Bounty Program",
-        "slug": "ezviz-bug-bounty-program",
-        "country": "CN",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 3,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 346,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 5000,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "72ccf6a5-6ad7-4813-baaa-6190bbb22ce9",
-            "original_name": "\u622a\u53d6\u56fe\u7247_20230816153159.png",
-            "mime_type": "image/png",
-            "size": 9014,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/72ccf6a5-6ad7-4813-baaa-6190bbb22ce9"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "ezviz",
-            "slug": "ezviz",
-            "description": "Established in 2013, EZVIZ dedicates itself to creating a safe, convenient and smart life for users through its intelligent devices, advanced AI technologies and cloud services.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-09-16T10:14:23+02:00",
-        "scopes": [
-            {
-                "scope": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Hardware found on https://www.ezviz.com/category/smart-home",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
