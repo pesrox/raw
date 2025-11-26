@@ -1,5 +1,65 @@
 [
     {
+        "title": "BIND 9 Bug Bounty Program",
+        "slug": "bind-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 8,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "e42484de-466f-4b39-91a9-6ab7e0c54404",
+            "original_name": "logomark.png",
+            "mime_type": "image/png",
+            "size": 34656,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/e42484de-466f-4b39-91a9-6ab7e0c54404"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Bind",
+            "slug": "bind",
+            "description": "BIND9 is one of the most widely used DNS (Domain Name System) server software packages. It translates human-readable domain names into IP addresses and vice versa.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "cb94ac4c-3465-4ea4-ba46-178a98ae7bb3",
+                "original_name": "Bind_9_Mark_ISC_Blue250x250.jpg",
+                "mime_type": "image/jpeg",
+                "size": 20602,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/cb94ac4c-3465-4ea4-ba46-178a98ae7bb3"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-11-26T09:47:42+01:00",
+        "scopes": [
+            {
+                "scope": "https://gitlab.isc.org/isc-projects/bind9",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Ezviz - Bug Bounty Program",
         "slug": "ezviz-bug-bounty-program",
         "country": "CN",
@@ -19,7 +79,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 355,
+        "reports_count": 357,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -139,6 +199,234 @@
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
                 "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Nextcloud Bug Bounty Program",
+        "slug": "nextcloud",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 2,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 10000,
+        "scopes_count": 25,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "830626e6-26b2-40a3-af95-b87e576762f2",
+            "original_name": "Nextcloud-Logo.png",
+            "mime_type": "image/png",
+            "size": 83092,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/830626e6-26b2-40a3-af95-b87e576762f2"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Nextcloud",
+            "slug": "nextcloud",
+            "description": "Nextcloud offers the quickest and most seamless solutions to the combined need for security and ubiquitous access to data and collaboration technology. Our platform combines the convenience and ease of use of consumer-grade solutions like Dropbox and Microsoft 365 with the security and control of business needs. With top-rated mobile, web, and desktop clients, users can access, sync, and share their data, use video chat, access calendars, edit documents, or manage tasks within and across organizational borders while the IT team can keep tabs on data access and ensure compliance.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "48d9000d-1f58-4f5f-8c7c-f613f5b3c6bb",
+                "original_name": "nextcloud_gmbh_logo.jpg",
+                "mime_type": "image/jpeg",
+                "size": 7455,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/48d9000d-1f58-4f5f-8c7c-f613f5b3c6bb"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-11-25T11:17:53+01:00",
+        "scopes": [
+            {
+                "scope": "https://github.com/nextcloud/server",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/activity",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/bruteforcesettings",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/circles",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/files_pdfviewer",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/firstrunwizard",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/logreader",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/nextcloud_announcements",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/notifications",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/password_policy",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/photos",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/privacy",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/recommendations",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/related_resources",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/serverinfo",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/survey_client",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/suspicious_login",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/text",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/twofactor_totp",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/updater",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/user_saml",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/viewer",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/android",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/ios",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/desktop",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
@@ -684,66 +972,6 @@
             },
             {
                 "scope": "https://github.com/bigbluebutton/bbb-playback",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "BIND 9 Bug Bounty Program",
-        "slug": "bind-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 8,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "e42484de-466f-4b39-91a9-6ab7e0c54404",
-            "original_name": "logomark.png",
-            "mime_type": "image/png",
-            "size": 34656,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/e42484de-466f-4b39-91a9-6ab7e0c54404"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Bind",
-            "slug": "bind",
-            "description": "BIND9 is one of the most widely used DNS (Domain Name System) server software packages. It translates human-readable domain names into IP addresses and vice versa.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "cb94ac4c-3465-4ea4-ba46-178a98ae7bb3",
-                "original_name": "Bind_9_Mark_ISC_Blue250x250.jpg",
-                "mime_type": "image/jpeg",
-                "size": 20602,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/cb94ac4c-3465-4ea4-ba46-178a98ae7bb3"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-24T09:52:03+01:00",
-        "scopes": [
-            {
-                "scope": "https://gitlab.isc.org/isc-projects/bind9",
                 "scope_type": "open-source",
                 "scope_type_name": "Open Source",
                 "asset_value": "MEDIUM",
@@ -1435,7 +1663,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 154,
+        "reports_count": 155,
         "bounty_reward_min": 50,
         "bounty_reward_max": 7000,
         "scopes_count": 13,
@@ -1864,7 +2092,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1498,
+        "reports_count": 1503,
         "bounty_reward_min": 100,
         "bounty_reward_max": 7000,
         "scopes_count": 40,
@@ -9445,7 +9673,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 318,
+        "reports_count": 319,
         "bounty_reward_min": 0,
         "bounty_reward_max": 3000,
         "scopes_count": 12,
