@@ -20042,6 +20042,20 @@
         "industry": "Media & Entertainment",
         "domains": [
             {
+                "id": "ffb63d9f-c7ab-4061-9756-2b8749325ea7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "politico.eu",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "politico.eu covers politics with a European lens, featuring Berlin Playbook briefings and POLITICO Pro analysis.",
+                "requiredSkills": []
+            },
+            {
                 "id": "36a28955-8a89-4ebc-84e5-1d8f43c42b99",
                 "type": {
                     "id": 1,
@@ -20067,20 +20081,6 @@
                     "value": "Tier 1"
                 },
                 "description": "technical domain used for advertising management on our brand websites.",
-                "requiredSkills": []
-            },
-            {
-                "id": "32a8c14c-d245-43c0-b1c5-d9f892579689",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "germany.politico.eu",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "germany.politico.eu covers German politics with a European lens, featuring Berlin Playbook briefings and POLITICO Pro analysis.\n",
                 "requiredSkills": []
             },
             {
@@ -20248,7 +20248,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "The account setting of a BILD user. ",
+                "description": "The account setting of a BILD user.",
                 "requiredSkills": []
             },
             {
@@ -20262,7 +20262,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This is the livestream of the Bild television channel. ",
+                "description": "This is the livestream of the Bild television channel.",
                 "requiredSkills": []
             },
             {
@@ -20276,7 +20276,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Is a magazine  with the topic computer from Bild. \nSome examples of subdomains are\n- vip-club.computerbild.de (VIP club)\n- signin.auth.computerbild.de (login) \n\nother interesting paths \n- computerbild.de/download (download center)\n\nYou are also welcome to create your own account to test our system. ",
+                "description": "Is a magazine  with the topic computer from Bild. \nSome examples of subdomains are\n- vip-club.computerbild.de (VIP club)\n- signin.auth.computerbild.de (login) \n\nother interesting paths \n- computerbild.de/download (download center)\n\nYou are also welcome to create your own account to test our system.",
                 "requiredSkills": []
             },
             {
@@ -20332,7 +20332,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Large german broadsheet newspaper. \n\nYou are also welcome to create your own account to test our system. ",
+                "description": "Large german broadsheet newspaper. \n\nYou are also welcome to create your own account to test our system.",
                 "requiredSkills": []
             },
             {
@@ -20346,7 +20346,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Bild is the largest German tabloid newspaper. \nSome examples of subdomains are \n- angebot.bild.de (offers)\n\nYou are also welcome to create your own account to test our system. ",
+                "description": "Bild is the largest German tabloid newspaper. \nSome examples of subdomains are \n- angebot.bild.de (offers)\n\nYou are also welcome to create your own account to test our system.",
                 "requiredSkills": []
             },
             {
@@ -20360,7 +20360,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Is a magazine  with the topic cars from Bild. \nSome examples of subdomains\n- club.autobild.de\n\nYou are also welcome to create your own account to test our system. ",
+                "description": "Is a magazine  with the topic cars from Bild. \nSome examples of subdomains\n- club.autobild.de\n\nYou are also welcome to create your own account to test our system.",
                 "requiredSkills": []
             },
             {
@@ -20374,7 +20374,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": " Berlin based tabloid newspaper. \nSome examples of subdomains \n- backend.bz-berlin.de",
+                "description": "Berlin based tabloid newspaper. \nSome examples of subdomains \n- backend.bz-berlin.de",
                 "requiredSkills": []
             },
             {
@@ -20444,7 +20444,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Charity organisation for children in Germany. ",
+                "description": "Charity organisation for children in Germany.",
                 "requiredSkills": []
             },
             {
@@ -20458,7 +20458,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Magazine focusing on fitness topics. ",
+                "description": "Magazine focusing on fitness topics.",
                 "requiredSkills": []
             },
             {
@@ -20472,7 +20472,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Magazine focusing on home and garden topics. ",
+                "description": "Magazine focusing on home and garden topics.",
                 "requiredSkills": []
             },
             {
@@ -20486,7 +20486,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "English version of the petbook. ",
+                "description": "English version of the petbook.",
                 "requiredSkills": []
             },
             {
@@ -20500,7 +20500,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Magazine focusing on pet topics. ",
+                "description": "Magazine focusing on pet topics.",
                 "requiredSkills": []
             },
             {
@@ -20514,7 +20514,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Magazine focusing on style topics. ",
+                "description": "Magazine focusing on style topics.",
                 "requiredSkills": []
             },
             {
@@ -20528,7 +20528,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Magazine focusing on tech topics. ",
+                "description": "Magazine focusing on tech topics.",
                 "requiredSkills": []
             },
             {
@@ -20542,7 +20542,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Magazine focusing on travel topics. ",
+                "description": "Magazine focusing on travel topics.",
                 "requiredSkills": []
             },
             {
@@ -20556,7 +20556,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Whistleblower form from BILD.  ",
+                "description": "Whistleblower form from BILD.",
                 "requiredSkills": []
             },
             {
