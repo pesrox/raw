@@ -5000,7 +5000,7 @@
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 4000.0,
+            "value": 5000.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -5020,6 +5020,20 @@
         },
         "industry": "Retail",
         "domains": [
+            {
+                "id": "74f69a99-622f-4da8-bf5b-562a21bf91b5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "login.prod.nube.tech",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
             {
                 "id": "ccac0361-df2d-4b54-bfe6-6aa18c27be9d",
                 "type": {
