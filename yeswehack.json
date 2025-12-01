@@ -48,10 +48,763 @@
         },
         "hunter_audience": null,
         "scopes_enabled": null,
-        "last_update_at": "2025-12-01T10:49:23+01:00",
+        "last_update_at": "2025-12-01T17:46:49+01:00",
         "scopes": [
             {
                 "scope": "https://github.com/opf/openproject",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Nextcloud Bug Bounty Program",
+        "slug": "nextcloud",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 20,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 10000,
+        "scopes_count": 25,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "830626e6-26b2-40a3-af95-b87e576762f2",
+            "original_name": "Nextcloud-Logo.png",
+            "mime_type": "image/png",
+            "size": 83092,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/830626e6-26b2-40a3-af95-b87e576762f2"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "Nextcloud",
+            "slug": "nextcloud",
+            "description": "Nextcloud offers the quickest and most seamless solutions to the combined need for security and ubiquitous access to data and collaboration technology. Our platform combines the convenience and ease of use of consumer-grade solutions like Dropbox and Microsoft 365 with the security and control of business needs. With top-rated mobile, web, and desktop clients, users can access, sync, and share their data, use video chat, access calendars, edit documents, or manage tasks within and across organizational borders while the IT team can keep tabs on data access and ensure compliance.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "48d9000d-1f58-4f5f-8c7c-f613f5b3c6bb",
+                "original_name": "nextcloud_gmbh_logo.jpg",
+                "mime_type": "image/jpeg",
+                "size": 7455,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/48d9000d-1f58-4f5f-8c7c-f613f5b3c6bb"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-01T17:46:45+01:00",
+        "scopes": [
+            {
+                "scope": "https://github.com/nextcloud/server",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/activity",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/bruteforcesettings",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/circles",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/files_pdfviewer",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/firstrunwizard",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/logreader",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/nextcloud_announcements",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/notifications",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/password_policy",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/photos",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/privacy",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/recommendations",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/related_resources",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/serverinfo",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/survey_client",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/suspicious_login",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/text",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/twofactor_totp",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/updater",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/user_saml",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/viewer",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/android",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/ios",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/nextcloud/desktop",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Keycloak Bug Bounty Program",
+        "slug": "keycloak-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 27,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "2b1e8fd5-7797-4a3d-a75a-404995078583",
+            "original_name": "logo CK.jpg",
+            "mime_type": "image/jpeg",
+            "size": 11491,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/2b1e8fd5-7797-4a3d-a75a-404995078583"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "keycloak",
+            "slug": "keycloak",
+            "description": "Keycloak is an open-source Identity and Access Management (IAM) solution providing Single Sign-On (SSO), identity brokering, and user federation. It supports standard protocols like OpenID Connect (OIDC), OAuth 2.0, and SAML 2.0. As a CNCF incubating project, Keycloak runs on a lightweight Quarkus stack, making it fast, efficient, and ideal for containerized environments.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "835fe46a-562d-4cb2-9fd3-75bce2fcd58a",
+                "original_name": "logo CK.jpg",
+                "mime_type": "image/jpeg",
+                "size": 11491,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/835fe46a-562d-4cb2-9fd3-75bce2fcd58a"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-01T17:46:42+01:00",
+        "scopes": [
+            {
+                "scope": "Keycloak Server",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Keycloak Operator",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "JavaScript Client Adapter",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Jenkins Bug Bounty Program",
+        "slug": "jenkins-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 16,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 8,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "238c2751-8c85-4ff6-9c99-cca35384b299",
+            "original_name": "jenkins logo.jpg",
+            "mime_type": "image/jpeg",
+            "size": 9811,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/238c2751-8c85-4ff6-9c99-cca35384b299"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "Jenkins",
+            "slug": "jenkins",
+            "description": "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "175107e5-fc97-4b38-b1f4-1ee9b9d2123d",
+                "original_name": "jenkins logo.jpg",
+                "mime_type": "image/jpeg",
+                "size": 9811,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/175107e5-fc97-4b38-b1f4-1ee9b9d2123d"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-01T17:46:38+01:00",
+        "scopes": [
+            {
+                "scope": "https://github.com/jenkinsci/jenkins",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/stapler",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/jelly",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/winstone",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/script-security-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/credentials-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/credentials-binding-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/workflow-cps-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "BigBlueButton Bug Bounty Program",
+        "slug": "bigbluebutton-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 23,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 7,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "f7ca2e96-4cd6-4da4-91f3-a67f0898f02a",
+            "original_name": "bigbluebutton_logo.jpg",
+            "mime_type": "image/jpeg",
+            "size": 8380,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/f7ca2e96-4cd6-4da4-91f3-a67f0898f02a"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "BigBlueButton",
+            "slug": "bigbluebutton",
+            "description": "BigBlueButton is the leading open-source virtual classroom software, purpose-built for world-class online teaching organizations. At BigBlueButton, our platform offers features such as video, live chat, an interactive whiteboard, learning analytics, emojis, breakout rooms, and collaborative tools. Designed with a focus on education, our platform is ideal for remote learning, virtual classrooms, online training, and webinars.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "08ecd764-1ab2-483e-a7c4-c44ff8e8a7a2",
+                "original_name": "bigbluebutton_logo.jpg",
+                "mime_type": "image/jpeg",
+                "size": 8380,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/08ecd764-1ab2-483e-a7c4-c44ff8e8a7a2"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-01T17:46:34+01:00",
+        "scopes": [
+            {
+                "scope": "https://github.com/bigbluebutton/bigbluebutton",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/blindsidenetworks/scalelite",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/bigbluebutton/bbb-webrtc-sfu",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/bigbluebutton/bbb-webrtc-recorder",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/bigbluebutton/greenlight",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/bigbluebutton/bbb-presentation-video",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/bigbluebutton/bbb-playback",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "BIND 9 Bug Bounty Program",
+        "slug": "bind-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 12,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "e42484de-466f-4b39-91a9-6ab7e0c54404",
+            "original_name": "logomark.png",
+            "mime_type": "image/png",
+            "size": 34656,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/e42484de-466f-4b39-91a9-6ab7e0c54404"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "Bind",
+            "slug": "bind",
+            "description": "BIND9 is one of the most widely used DNS (Domain Name System) server software packages. It translates human-readable domain names into IP addresses and vice versa.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "cb94ac4c-3465-4ea4-ba46-178a98ae7bb3",
+                "original_name": "Bind_9_Mark_ISC_Blue250x250.jpg",
+                "mime_type": "image/jpeg",
+                "size": 20602,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/cb94ac4c-3465-4ea4-ba46-178a98ae7bb3"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-01T17:46:30+01:00",
+        "scopes": [
+            {
+                "scope": "https://gitlab.isc.org/isc-projects/bind9",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "ImageMagick Bug Bounty Program",
+        "slug": "imagemagick-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 15,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "6b39b604-b06b-4e6f-94c6-e2630bb5af71",
+            "original_name": "IM logo.png",
+            "mime_type": "image/png",
+            "size": 39927,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/6b39b604-b06b-4e6f-94c6-e2630bb5af71"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "ImageMagick",
+            "slug": "imagemagick",
+            "description": "ImageMagick is a free and open-source software suite for reading, writing, and manipulating images in various formats.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "56b16c01-4b41-4ebe-aa74-718c8a1ec570",
+                "original_name": "IM logo.png",
+                "mime_type": "image/png",
+                "size": 39927,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/56b16c01-4b41-4ebe-aa74-718c8a1ec570"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-01T17:46:27+01:00",
+        "scopes": [
+            {
+                "scope": "https://github.com/ImageMagick/ImageMagick",
                 "scope_type": "open-source",
                 "scope_type_name": "Open Source",
                 "asset_value": "MEDIUM",
@@ -393,86 +1146,6 @@
         ]
     },
     {
-        "title": "BIND 9 Bug Bounty Program",
-        "slug": "bind-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 12,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "e42484de-466f-4b39-91a9-6ab7e0c54404",
-            "original_name": "logomark.png",
-            "mime_type": "image/png",
-            "size": 34656,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/e42484de-466f-4b39-91a9-6ab7e0c54404"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "Bind",
-            "slug": "bind",
-            "description": "BIND9 is one of the most widely used DNS (Domain Name System) server software packages. It translates human-readable domain names into IP addresses and vice versa.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "cb94ac4c-3465-4ea4-ba46-178a98ae7bb3",
-                "original_name": "Bind_9_Mark_ISC_Blue250x250.jpg",
-                "mime_type": "image/jpeg",
-                "size": 20602,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/cb94ac4c-3465-4ea4-ba46-178a98ae7bb3"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-27T15:27:48+01:00",
-        "scopes": [
-            {
-                "scope": "https://gitlab.isc.org/isc-projects/bind9",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Ezviz - Bug Bounty Program",
         "slug": "ezviz-bug-bounty-program",
         "country": "CN",
@@ -492,7 +1165,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 385,
+        "reports_count": 386,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -617,254 +1290,6 @@
         ]
     },
     {
-        "title": "Nextcloud Bug Bounty Program",
-        "slug": "nextcloud",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 20,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 10000,
-        "scopes_count": 25,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "830626e6-26b2-40a3-af95-b87e576762f2",
-            "original_name": "Nextcloud-Logo.png",
-            "mime_type": "image/png",
-            "size": 83092,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/830626e6-26b2-40a3-af95-b87e576762f2"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "Nextcloud",
-            "slug": "nextcloud",
-            "description": "Nextcloud offers the quickest and most seamless solutions to the combined need for security and ubiquitous access to data and collaboration technology. Our platform combines the convenience and ease of use of consumer-grade solutions like Dropbox and Microsoft 365 with the security and control of business needs. With top-rated mobile, web, and desktop clients, users can access, sync, and share their data, use video chat, access calendars, edit documents, or manage tasks within and across organizational borders while the IT team can keep tabs on data access and ensure compliance.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "48d9000d-1f58-4f5f-8c7c-f613f5b3c6bb",
-                "original_name": "nextcloud_gmbh_logo.jpg",
-                "mime_type": "image/jpeg",
-                "size": 7455,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/48d9000d-1f58-4f5f-8c7c-f613f5b3c6bb"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-25T11:17:53+01:00",
-        "scopes": [
-            {
-                "scope": "https://github.com/nextcloud/server",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/activity",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/bruteforcesettings",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/circles",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/files_pdfviewer",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/firstrunwizard",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/logreader",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/nextcloud_announcements",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/notifications",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/password_policy",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/photos",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/privacy",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/recommendations",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/related_resources",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/serverinfo",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/survey_client",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/suspicious_login",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/text",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/twofactor_totp",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/updater",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/user_saml",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/viewer",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/android",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/ios",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/nextcloud/desktop",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "DataDome Bot Bounty",
         "slug": "datadome-bot-bounty",
         "country": "FR",
@@ -960,86 +1385,6 @@
         ]
     },
     {
-        "title": "ImageMagick Bug Bounty Program",
-        "slug": "imagemagick-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 15,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "6b39b604-b06b-4e6f-94c6-e2630bb5af71",
-            "original_name": "IM logo.png",
-            "mime_type": "image/png",
-            "size": 39927,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/6b39b604-b06b-4e6f-94c6-e2630bb5af71"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "ImageMagick",
-            "slug": "imagemagick",
-            "description": "ImageMagick is a free and open-source software suite for reading, writing, and manipulating images in various formats.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "56b16c01-4b41-4ebe-aa74-718c8a1ec570",
-                "original_name": "IM logo.png",
-                "mime_type": "image/png",
-                "size": 39927,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/56b16c01-4b41-4ebe-aa74-718c8a1ec570"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-25T08:47:41+01:00",
-        "scopes": [
-            {
-                "scope": "https://github.com/ImageMagick/ImageMagick",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
         "slug": "fdj-united-online-betting-gaming-bug-bounty-program",
         "country": "SE",
@@ -1059,7 +1404,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 302,
+        "reports_count": 303,
         "bounty_reward_min": 50,
         "bounty_reward_max": 15000,
         "scopes_count": 34,
@@ -1325,257 +1670,6 @@
                 "scope": "www.unibet.fr",
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "BigBlueButton Bug Bounty Program",
-        "slug": "bigbluebutton-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 23,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "f7ca2e96-4cd6-4da4-91f3-a67f0898f02a",
-            "original_name": "bigbluebutton_logo.jpg",
-            "mime_type": "image/jpeg",
-            "size": 8380,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/f7ca2e96-4cd6-4da4-91f3-a67f0898f02a"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "BigBlueButton",
-            "slug": "bigbluebutton",
-            "description": "BigBlueButton is the leading open-source virtual classroom software, purpose-built for world-class online teaching organizations. At BigBlueButton, our platform offers features such as video, live chat, an interactive whiteboard, learning analytics, emojis, breakout rooms, and collaborative tools. Designed with a focus on education, our platform is ideal for remote learning, virtual classrooms, online training, and webinars.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "08ecd764-1ab2-483e-a7c4-c44ff8e8a7a2",
-                "original_name": "bigbluebutton_logo.jpg",
-                "mime_type": "image/jpeg",
-                "size": 8380,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/08ecd764-1ab2-483e-a7c4-c44ff8e8a7a2"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-24T11:02:17+01:00",
-        "scopes": [
-            {
-                "scope": "https://github.com/bigbluebutton/bigbluebutton",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/blindsidenetworks/scalelite",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/bigbluebutton/bbb-webrtc-sfu",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/bigbluebutton/bbb-webrtc-recorder",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/bigbluebutton/greenlight",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/bigbluebutton/bbb-presentation-video",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/bigbluebutton/bbb-playback",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Jenkins Bug Bounty Program",
-        "slug": "jenkins-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 16,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 8,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "238c2751-8c85-4ff6-9c99-cca35384b299",
-            "original_name": "jenkins logo.jpg",
-            "mime_type": "image/jpeg",
-            "size": 9811,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/238c2751-8c85-4ff6-9c99-cca35384b299"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "Jenkins",
-            "slug": "jenkins",
-            "description": "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "175107e5-fc97-4b38-b1f4-1ee9b9d2123d",
-                "original_name": "jenkins logo.jpg",
-                "mime_type": "image/jpeg",
-                "size": 9811,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/175107e5-fc97-4b38-b1f4-1ee9b9d2123d"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-24T09:28:24+01:00",
-        "scopes": [
-            {
-                "scope": "https://github.com/jenkinsci/jenkins",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/stapler",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/jelly",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/winstone",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/script-security-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/credentials-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/credentials-binding-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/workflow-cps-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
                 "asset_value": "HIGH",
                 "report_count": null
             }
@@ -2412,100 +2506,6 @@
                 "scope": "*.findaya.co.id",
                 "scope_type": "wildcard",
                 "scope_type_name": "Wildcard",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Keycloak Bug Bounty Program",
-        "slug": "keycloak-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 27,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "2b1e8fd5-7797-4a3d-a75a-404995078583",
-            "original_name": "logo CK.jpg",
-            "mime_type": "image/jpeg",
-            "size": 11491,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/2b1e8fd5-7797-4a3d-a75a-404995078583"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "keycloak",
-            "slug": "keycloak",
-            "description": "Keycloak is an open-source Identity and Access Management (IAM) solution providing Single Sign-On (SSO), identity brokering, and user federation. It supports standard protocols like OpenID Connect (OIDC), OAuth 2.0, and SAML 2.0. As a CNCF incubating project, Keycloak runs on a lightweight Quarkus stack, making it fast, efficient, and ideal for containerized environments.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "835fe46a-562d-4cb2-9fd3-75bce2fcd58a",
-                "original_name": "logo CK.jpg",
-                "mime_type": "image/jpeg",
-                "size": 11491,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/835fe46a-562d-4cb2-9fd3-75bce2fcd58a"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-11-07T10:19:24+01:00",
-        "scopes": [
-            {
-                "scope": "Keycloak Server",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Keycloak Operator",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "JavaScript Client Adapter",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
                 "asset_value": "MEDIUM",
                 "report_count": null
             }
@@ -9231,7 +9231,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 679,
+        "reports_count": 680,
         "bounty_reward_min": 50,
         "bounty_reward_max": 15000,
         "scopes_count": 4,
