@@ -1,5 +1,86 @@
 [
     {
+        "title": "BforBank Mobile",
+        "slug": "blackbox-bforbank-mobile",
+        "country": "FR",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 24,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 4000,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "4d53f42e-877d-4558-9698-be27cb0c4075",
+            "original_name": "newBFB.JPG",
+            "mime_type": "image/jpeg",
+            "size": 22560,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/4d53f42e-877d-4558-9698-be27cb0c4075"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "BforBank",
+            "slug": "bforbank",
+            "description": "Banque en ligne du Groupe Credit Agricole",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "f979e2d8-f07b-42f3-92e2-4b0926fc0070",
+                "original_name": "BFB.png",
+                "mime_type": "image/png",
+                "size": 23697,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/f979e2d8-f07b-42f3-92e2-4b0926fc0070"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-02T14:30:03+01:00",
+        "scopes": [
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.bforbank.android",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/us/app/bforbank-banque-en-ligne/id1607839793",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://gtw-b2capps.bforbank.com/*",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://gtw-b2capps.bforbank.com/customer-acquisition/access-management/users*",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "OpenProject Bug Bounty Program",
         "slug": "openproject",
         "country": "BE",
@@ -327,7 +408,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 28,
+        "reports_count": 29,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 3,
@@ -421,7 +502,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 16,
+        "reports_count": 17,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 8,
@@ -832,7 +913,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1530,
+        "reports_count": 1532,
         "bounty_reward_min": 100,
         "bounty_reward_max": 7000,
         "scopes_count": 40,
@@ -4236,7 +4317,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 298,
+        "reports_count": 299,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2000,
         "scopes_count": 3,
@@ -8518,87 +8599,6 @@
                 "scope_type": "other",
                 "scope_type_name": "Other",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Blackbox BforBank Mobile",
-        "slug": "blackbox-bforbank-mobile",
-        "country": "FR",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 24,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 4000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "4d53f42e-877d-4558-9698-be27cb0c4075",
-            "original_name": "newBFB.JPG",
-            "mime_type": "image/jpeg",
-            "size": 22560,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/4d53f42e-877d-4558-9698-be27cb0c4075"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "BforBank",
-            "slug": "bforbank",
-            "description": "Banque en ligne du Groupe Credit Agricole",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "f979e2d8-f07b-42f3-92e2-4b0926fc0070",
-                "original_name": "BFB.png",
-                "mime_type": "image/png",
-                "size": 23697,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/f979e2d8-f07b-42f3-92e2-4b0926fc0070"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-03-20T09:48:04+01:00",
-        "scopes": [
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.bforbank.android",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/us/app/bforbank-banque-en-ligne/id1607839793",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://gtw-b2capps.bforbank.com/*",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://gtw-b2capps.bforbank.com/customer-acquisition/access-management/users*",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
