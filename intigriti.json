@@ -15437,8 +15437,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -17293,8 +17293,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -17306,56 +17306,10 @@
         "industry": "Software",
         "domains": [
             {
-                "id": "aa8df65c-7b63-4f93-9509-25668119a465",
+                "id": "d5fac176-355c-48cf-b7f7-9a3f1778a739",
                 "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "TrustedFirmware-A (TF-A)",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The Trusted Firmware-A project provides a reference implementation of secure world software for Armv8-A and Armv9-A class processors.",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    },
-                    {
-                        "id": "hardware_iot_firmware",
-                        "name": "Hardware / IoT / Firmware"
-                    }
-                ]
-            },
-            {
-                "id": "3029c1e8-0cb7-4c44-8c43-1e4cf8287f85",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "TrustedFirmware-M (TF-M)",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55, Cortex-M85 processors) or dual-core platforms. It is the platform security architecture reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    },
-                    {
-                        "id": "hardware_iot_firmware",
-                        "name": "Hardware / IoT / Firmware"
-                    }
-                ]
-            },
-            {
-                "id": "9244ada9-11bf-4d6c-8eb6-fc2e7b386923",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
+                    "id": 6,
+                    "value": "Other"
                 },
                 "endpoint": "OP-TEE",
                 "tier": {
@@ -17365,20 +17319,20 @@
                 "description": "OP-TEE is a Trusted Execution Environment (TEE) designed as companion to a non-secure Linux kernel running on Arm; Cortex-A cores using the TrustZone technology.",
                 "requiredSkills": [
                     {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    },
-                    {
                         "id": "hardware_iot_firmware",
                         "name": "Hardware / IoT / Firmware"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
                     }
                 ]
             },
             {
-                "id": "988461e5-6a76-4810-935b-2489d942b588",
+                "id": "0683f6af-ad8f-4e5d-9f7d-0e6d2eee5e08",
                 "type": {
-                    "id": 8,
-                    "value": "SourceCode"
+                    "id": 6,
+                    "value": "Other"
                 },
                 "endpoint": "Mbed TLS & TF-PSA-Crypto",
                 "tier": {
@@ -17388,12 +17342,58 @@
                 "description": "Mbed TLS is a C library that implements X.509 certificate manipulation and the TLS and DTLS protocols. Its small code footprint makes it suitable for embedded systems. Mbed TLS includes the TF-PSA-Crypto repository that provides an implementation of the PSA Cryptography API.",
                 "requiredSkills": [
                     {
+                        "id": "hardware_iot_firmware",
+                        "name": "Hardware / IoT / Firmware"
+                    },
+                    {
                         "id": "source_code_review",
                         "name": "Source Code Review"
-                    },
+                    }
+                ]
+            },
+            {
+                "id": "80a6541f-d792-4a2b-b104-ccaee46ebf1f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "TrustedFirmware-A (TF-A)",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Trusted Firmware-A project provides a reference implementation of secure world software for Armv8-A and Armv9-A class processors.",
+                "requiredSkills": [
                     {
                         "id": "hardware_iot_firmware",
                         "name": "Hardware / IoT / Firmware"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "0ed0a736-fb20-4e54-ae67-f7b7a18eadcc",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "TrustedFirmware-M (TF-M)",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) for Armv8-M, Armv8.1-M architectures (e.g. the Cortex-M33, Cortex-M23, Cortex-M55, Cortex-M85 processors) or dual-core platforms. It is the platform security architecture reference implementation aligning with PSA Certified guidelines, enabling chips, Real Time Operating Systems and devices to become PSA Certified.",
+                "requiredSkills": [
+                    {
+                        "id": "hardware_iot_firmware",
+                        "name": "Hardware / IoT / Firmware"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
                     }
                 ]
             }
