@@ -16228,6 +16228,20 @@
                 ]
             },
             {
+                "id": "a29fdcc7-4ade-4e1a-b9d4-7bba9b94faac",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.intigriti.me",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Asset used for our [mail-forwarding system](https://kb.intigriti.com/en/articles/2642598-intigriti-me-email-alias)",
+                "requiredSkills": []
+            },
+            {
                 "id": "9c5687a3-c9e3-46c0-81e2-960eb244a43c",
                 "type": {
                     "id": 7,
@@ -16242,194 +16256,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "58b041aa-5e82-466a-9ca1-621ab2896499",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "posthog.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "PostHog proxy: https://posthog.com/docs/advanced/proxy\nAlso the PostHog token is meant to be publicly available see: https://posthog.com/docs/api\n\nPlease don't test against this subdomain since you are directly testing PostHog which we don't control.",
-                "requiredSkills": []
-            },
-            {
-                "id": "cb79b1eb-d9dd-4525-99af-3147023c00ea",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "trust.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "5d600efe-5b44-421f-8da5-efa35069674c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "swag.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "0b7600f0-6e71-4858-bc29-c1162695316f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "status.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "0a81612d-597e-4efd-9ca1-0f0c90321c90",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "b4341689-1423-4952-a64c-d3f10a6ae638",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "newsletter.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "d7afb2b5-89f6-46bf-a63a-678a02acfb2e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mail.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "55071818-be20-4439-8832-e81aa2913931",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "kb.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "ce98ec7c-ac3a-41da-a8da-7f0b943716c3",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "go.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "4bc8b1d6-339d-4431-b4ba-956c23ecd7bd",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "click.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "a623524c-a5f2-4ef9-8bf3-44e533f0d0b2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "careers.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "d0a506a3-58c5-4d0b-86f5-9ba6ee6d2060",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "autodiscover.intigriti.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "e892c9e9-9d1e-4658-8ee3-4777295df1be",
+                "id": "298eb5f8-0c59-46d6-8529-aeea5e7ab727",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.intercom.io",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "22537fac-2bc7-4fba-b2f1-a4ac0585e4af",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "any intigriti CTF or challenge",
+                "endpoint": "*.intigriti.io",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -16452,12 +16284,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "a29fdcc7-4ade-4e1a-b9d4-7bba9b94faac",
+                "id": "22537fac-2bc7-4fba-b2f1-a4ac0585e4af",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "*.intigriti.me",
+                "endpoint": "any intigriti CTF or challenge",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -16466,12 +16298,180 @@
                 "requiredSkills": []
             },
             {
-                "id": "298eb5f8-0c59-46d6-8529-aeea5e7ab727",
+                "id": "e892c9e9-9d1e-4658-8ee3-4777295df1be",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.intigriti.io",
+                "endpoint": "*.intercom.io",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d0a506a3-58c5-4d0b-86f5-9ba6ee6d2060",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "autodiscover.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a623524c-a5f2-4ef9-8bf3-44e533f0d0b2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "careers.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4bc8b1d6-339d-4431-b4ba-956c23ecd7bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "click.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ce98ec7c-ac3a-41da-a8da-7f0b943716c3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "go.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "55071818-be20-4439-8832-e81aa2913931",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "kb.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d7afb2b5-89f6-46bf-a63a-678a02acfb2e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mail.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b4341689-1423-4952-a64c-d3f10a6ae638",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "newsletter.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0b7600f0-6e71-4858-bc29-c1162695316f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "status.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5d600efe-5b44-421f-8da5-efa35069674c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "swag.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "cb79b1eb-d9dd-4525-99af-3147023c00ea",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "trust.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "58b041aa-5e82-466a-9ca1-621ab2896499",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "posthog.intigriti.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "PostHog proxy: https://posthog.com/docs/advanced/proxy\nAlso the PostHog token is meant to be publicly available see: https://posthog.com/docs/api\n\nPlease don't test against this subdomain since you are directly testing PostHog which we don't control.",
+                "requiredSkills": []
+            },
+            {
+                "id": "0a81612d-597e-4efd-9ca1-0f0c90321c90",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "our hubspot pages (/hs-fs/, /hubfs/, /hs/, /_hcms/, landing/, report/, webinar/, /datasheet, /customer/, /video/...)",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -18281,6 +18281,66 @@
                     "value": "Out Of Scope"
                 },
                 "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "784ffbc6-daaa-4e7e-8eba-c38a101d7b12",
+        "handle": "voivulnerabilitydisclosureprogram",
+        "name": "Voi Vulnerability Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/voi/voivulnerabilitydisclosureprogram/detail"
+        },
+        "industry": "Transportation & Logistics",
+        "domains": [
+            {
+                "id": "066050f5-888b-43f2-a4c3-af90ab9ccd2f",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "All Voi assets",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "fe301ed6-6f62-48fc-8018-5d0e653f8b59",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Third-party systems or domains referencing Voi",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Before testing or reporting a vulnerability, confirm that the target asset is owned or managed by Voi. When in doubt, we strongly encourage you to verify the asset's ownership through the program team to avoid unintentional testing of third-party systems.",
                 "requiredSkills": []
             }
         ]
@@ -33168,8 +33228,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
