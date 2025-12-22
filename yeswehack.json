@@ -22,7 +22,7 @@
         "reports_count": 2,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
-        "scopes_count": 0,
+        "scopes_count": 6,
         "pentest_campaign_status": null,
         "thumbnail": {
             "name": "f2945295-5edf-4e19-9c37-c934a1913a7f",
@@ -47,9 +47,52 @@
             }
         },
         "hunter_audience": "verified",
-        "scopes_enabled": false,
-        "last_update_at": "2025-12-22T11:13:54+01:00",
-        "scopes": []
+        "scopes_enabled": true,
+        "last_update_at": "2025-12-22T15:27:17+01:00",
+        "scopes": [
+            {
+                "scope": "*.vlaanderen.be",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://beta.gastwebsite-acm.burgerprofiel.ext-vlaanderen.be",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://beta.gastwebsite.burgerprofiel.ext-vlaanderen.be",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://beta.widgets.burgerprofiel.dev-vlaanderen.be/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://burgerprofiel.beta-vlaanderen.be",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://vo-gebruikersbeheer.vlaanderen.be",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
     },
     {
         "title": "Zivver \u2013 Bug Bounty Program",
@@ -71,7 +114,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 170,
+        "reports_count": 171,
         "bounty_reward_min": 1,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -338,7 +381,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 218,
+        "reports_count": 220,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 22,
@@ -1998,7 +2041,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2797,
+        "reports_count": 2798,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -2234,7 +2277,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 461,
+        "reports_count": 462,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -2680,7 +2723,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 56,
+        "reports_count": 57,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 1,
