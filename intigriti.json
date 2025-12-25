@@ -37650,5 +37650,51 @@
                 "requiredSkills": []
             }
         ]
+    },
+    {
+        "id": "f8e8224d-3732-4705-8657-2580ebc75ba9",
+        "handle": "challengesantacloud",
+        "name": "SantaCloud Challenge",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challengesantacloud/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "2dc91c34-0639-4756-baae-43274b516824",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://santacloud.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
     }
 ]
