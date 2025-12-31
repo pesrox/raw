@@ -1,5 +1,261 @@
 [
     {
+        "title": "ExpressVPN - Bug Bounty Program",
+        "slug": "expressvpn-bug-bounty-program",
+        "country": "IM",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 203,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2500,
+        "scopes_count": 29,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "620b1436-c25b-4ffe-b94d-00c896280f0f",
+            "original_name": "expressvpn-logo.png",
+            "mime_type": "image/png",
+            "size": 13396,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/620b1436-c25b-4ffe-b94d-00c896280f0f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Kape Technologies",
+            "slug": "kape-technologies",
+            "description": null,
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2025-12-31T09:11:08+01:00",
+        "scopes": [
+            {
+                "scope": "*.expressvpn.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "expressvpn.jobs",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ExpressVPN APIs",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://xv-cp.apis-staging.xvtest.net/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://cp.expressapisv2.net",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.expressvpn.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.enc.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.dbs.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.dts.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.blts.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.pcrs.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.jwks.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ExpressVPN VPN servers",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ExpressVPN Router",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.xvtest.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "1pw-scim.prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "gatekeeper.prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "vector.prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "gh-mail.expressvpn.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.polymoon.it",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "corp.polymoon.it",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "networkguard.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Any Applications under https://www.expressvpn.com/latest",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/expressvpn/lightway",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "TrustedServer 100,000 Bonus Award (See Program Policy for Info)",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Digital Flanders Vulnerability Disclosure Program",
         "slug": "digital-flanders-vulnerability-disclosure-program",
         "country": "BE",
@@ -381,7 +637,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 230,
+        "reports_count": 231,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 22,
@@ -2041,7 +2297,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2827,
+        "reports_count": 2828,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -2277,7 +2533,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 468,
+        "reports_count": 469,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -6828,269 +7084,6 @@
         ]
     },
     {
-        "title": "ExpressVPN - Bug Bounty Program",
-        "slug": "expressvpn-bug-bounty-program",
-        "country": "IM",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 203,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2500,
-        "scopes_count": 30,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "620b1436-c25b-4ffe-b94d-00c896280f0f",
-            "original_name": "expressvpn-logo.png",
-            "mime_type": "image/png",
-            "size": 13396,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/620b1436-c25b-4ffe-b94d-00c896280f0f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Kape Technologies",
-            "slug": "kape-technologies",
-            "description": null,
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-08-18T10:26:20+02:00",
-        "scopes": [
-            {
-                "scope": "*.expressvpn.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "expressvpn.jobs",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ExpressVPN APIs",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://xv-cp.apis-staging.xvtest.net/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://cp.expressapisv2.net",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.expressvpn.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.enc.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.dbs.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.dts.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.blts.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.pcrs.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.jwks.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ExpressVPN VPN servers",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ExpressVPN Router",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.xvtest.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "1pw-scim.prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "gatekeeper.prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "vector.prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "gh-mail.expressvpn.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.polymoon.it",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "corp.polymoon.it",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "networkguard.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Any Applications under https://www.expressvpn.com/latest",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/expressvpn/lightway-core",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/expressvpn/lightway",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "TrustedVPN 100,000 Bonus Award (See Program Policy for Info)",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "KOMOJU - Public Bug Bounty Program",
         "slug": "komoju-public-bug-bounty-program",
         "country": "JP",
@@ -7378,7 +7371,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 576,
+        "reports_count": 577,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 10,
@@ -8424,7 +8417,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 100,
+        "reports_count": 102,
         "bounty_reward_min": 500,
         "bounty_reward_max": 10000,
         "scopes_count": 22,
@@ -9221,7 +9214,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 45,
+        "reports_count": 47,
         "bounty_reward_min": 100,
         "bounty_reward_max": 10000,
         "scopes_count": 5,
