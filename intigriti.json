@@ -11380,8 +11380,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -17200,8 +17200,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -19238,66 +19238,6 @@
                     "value": "Tier 2"
                 },
                 "description": "including login page",
-                "requiredSkills": []
-            }
-        ]
-    },
-    {
-        "id": "87a468af-75ac-4e99-b061-0c40517a784c",
-        "handle": "suivoweb",
-        "name": "Suivo bug bounty",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2000.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 4,
-            "value": "Suspended"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/suivo/suivoweb/detail"
-        },
-        "industry": "Software",
-        "domains": [
-            {
-                "id": "c1998423-274b-4a48-b9a4-9cfc36c89f3f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": " aweb.suivo.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "For this domain, you can self-register. More information see FAQ",
-                "requiredSkills": []
-            },
-            {
-                "id": "1f891d47-d3c5-4f30-8ec3-49f3877b1dc6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "asupport.suivo.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
                 "requiredSkills": []
             }
         ]
