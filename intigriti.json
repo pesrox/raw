@@ -1116,7 +1116,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Domain used during the two-way sync process between the local web console (on-premises software) and the cloud platform. \n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.",
+                "description": "Domain used during the two-way sync process between the local web console (on-premises software) and the cloud platform. \n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises scanner and the sync process (edge.lansweeper.com) between these two. You have to install our scanner locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.",
                 "requiredSkills": []
             },
             {
@@ -1130,7 +1130,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "API used for integrations with our cloud platform (app.lansweeper.com). \nMore information about our API: https://docs.lansweeper.com/docs",
+                "description": "Data API used for integrations with our cloud platform (app.lansweeper.com). \nMore information about our Data API: https://developer.lansweeper.com/docs/data-api/get-started/welcome",
                 "requiredSkills": []
             },
             {
@@ -1144,7 +1144,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "The cloud Platform, this also includes lecstaticcontent.lansweeper.com\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.\n",
+                "description": "The cloud Platform, this also includes lecstaticcontent.lansweeper.com\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises scanner and the sync process (edge.lansweeper.com) between these two. You have to install our scanner somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.",
                 "requiredSkills": []
             },
             {
@@ -1172,7 +1172,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Our cloud relay server connection using LsAgent. If the computers you're scanning do not have a direct connection to your Lansweeper installation, scanned LsAgent data can be sent to our relay server in the cloud. \n\nOur LsAgent is a cross-platform scanning agent that can scan computers both inside and outside of your network. It automatically collects an inventory from the computer it's installed on and sends the data back to the Lansweeper installation, this can be done through our relay server in the cloud.\n\nFor this, you must enable relay access in your Lansweeper installation. \nScanned LsAgent data is sent securely over HTTPS (TLS 1.2) to the relay server in Microsoft Azure, where it is encrypted as well. Your Lansweeper scanning server can retrieve the scanned data from the relay server, after which it is deleted from the relay. In order to use the relay server, make sure outbound traffic is allowed on your Lansweeper scanning server. Specifically, the scanning server must be able to make an outbound connection to port 443 of lsagentrelay.lansweeper.com, the cloud relay server. \n\nMore information about LsAgent can be found on our website: https://community.lansweeper.com/t5/scanning-your-network/introduction-to-lsagent-for-windows-linux-and-mac/ta-p/64473\n\nThe use of the relay server must explicitly be enabled in the Lansweeper web console. It is not enabled by default!",
+                "description": "Our cloud relay server connection using LsAgent. If the computers you're scanning do not have a direct connection to your Lansweeper installation, scanned LsAgent data can be sent to our relay server in the cloud. This is only used in our old Lansweeper Classic software.\n\nOur LsAgent is a cross-platform scanning agent that can scan computers both inside and outside of your network. It automatically collects an inventory from the computer it's installed on and sends the data back to the Lansweeper Classic installation, this can be done through our relay server in the cloud.\n\nFor this, you must enable relay access in your Lansweeper Classic installation. \nScanned LsAgent data is sent securely over HTTPS (TLS 1.2) to the relay server in Microsoft Azure, where it is encrypted as well. Your Lansweeper scanning server can retrieve the scanned data from the relay server, after which it is deleted from the relay. In order to use the relay server, make sure outbound traffic is allowed on your Lansweeper scanning server. Specifically, the scanning server must be able to make an outbound connection to port 443 of lsagentrelay.lansweeper.com, the cloud relay server. \n\nMore information about LsAgent can be found on our website: https://community.lansweeper.com/t5/scanning-your-network/introduction-to-lsagent-for-windows-linux-and-mac/ta-p/64473\n\nThe use of the relay server must explicitly be enabled in the Lansweeper web console. It is not enabled by default!",
                 "requiredSkills": []
             },
             {
@@ -1186,7 +1186,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Modernized scanner to discover IT and OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/sites/install-network-discovery/ta-p/72388\n* Info on Modernized Discovery: https://community.lansweeper.com/t5/sites/lansweeper-discovery/ta-p/75199#feedbackquestions\n* OT specific: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599",
+                "description": "Our new Lansweeper Discovery to discover IT and OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/sites/install-network-discovery/ta-p/72388\n* Info on Modernized Discovery: https://community.lansweeper.com/t5/sites/lansweeper-discovery/ta-p/75199#feedbackquestions\n* OT specific: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599",
                 "requiredSkills": []
             },
             {
@@ -1242,7 +1242,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Auth0 identitiy provider for cloud platform.\nAlways use \"intigriti.me\" address for any user account\n\n",
+                "description": "Auth0 identitiy provider for cloud platform.\nAlways use \"intigriti.me\" address for any user account",
                 "requiredSkills": []
             },
             {
@@ -1270,7 +1270,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Always use \"intigriti.me\" address for any web form\n\n**Out of scope for this domain:**\nStore.lansweeper.com\nwww.lansweeper.com/forum\nThird-party plug-ins (e.g. Pardot - CleverBridge - Botpress)\n",
+                "description": "Always use \"intigriti.me\" address for any web form\n\n**Out of scope for this domain:**\nStore.lansweeper.com\nwww.lansweeper.com/forum\nThird-party plug-ins (e.g. Pardot - CleverBridge - Botpress)",
                 "requiredSkills": []
             },
             {
@@ -8837,7 +8837,7 @@
         "name": "Vinted - Bug Bounty Program",
         "following": true,
         "minBounty": {
-            "value": 10.0,
+            "value": 20.0,
             "currency": "EUR"
         },
         "maxBounty": {
@@ -8862,6 +8862,132 @@
         "industry": "Retail",
         "domains": [
             {
+                "id": "65a4d303-e556-4ffa-b30c-d891352da929",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*sandbox*.vintedgo.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "caca08db-431b-4d15-a5b9-4d9840e26905",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*sandbox*.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0f54db84-70af-4efc-90cb-df33e3be6687",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*old.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a000dea3-0eb8-45c3-84cf-9905959596db",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*test-escalations.vintedgo.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "89bb69cc-701e-4d3c-9adf-7f04c8b70e1c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*badger.it.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6d671140-9bcc-45e6-843c-203715206668",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*careers.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "28c4d26c-e5b1-4d9a-b970-358de602e236",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*news.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6f2beae8-06ff-4ac6-8fba-ff685dddd935",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*company.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b7532230-b73c-4e1a-926c-75798eaf39fa",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Scam",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "We welcome and accept reports about scam activity related to our brand/products (e.g., phishing sites, fake domains, impersonation accounts, fraudulent apps, or social engineering campaigns). Please include clear evidence (URLs, screenshots, message headers, transaction details where applicable), steps to reproduce/verify, and the estimated impact so we can validate and take action quickly.",
+                "requiredSkills": []
+            },
+            {
                 "id": "8bc69d23-2aae-43f3-a09b-0e8b60cfac0a",
                 "type": {
                     "id": 3,
@@ -8869,8 +8995,8 @@
                 },
                 "endpoint": "632064380",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "iOS application for Vinted",
                 "requiredSkills": []
@@ -8883,8 +9009,8 @@
                 },
                 "endpoint": "fr.vinted",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Android application for Vinted",
                 "requiredSkills": []
@@ -8897,8 +9023,8 @@
                 },
                 "endpoint": "*.vinted.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -8911,8 +9037,8 @@
                 },
                 "endpoint": "*.vinted.fr",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -8925,8 +9051,8 @@
                 },
                 "endpoint": "*.vintedgo.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": "Vinted shipping website",
                 "requiredSkills": []
@@ -8939,8 +9065,8 @@
                 },
                 "endpoint": "*.homerr.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": "One of our sister company for shipping",
                 "requiredSkills": []
@@ -35593,8 +35719,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
