@@ -1106,6 +1106,48 @@
         "industry": "Software",
         "domains": [
             {
+                "id": "61a53bf8-47e7-4a80-bca2-b9700eaeb4a4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "Lansweeper Discovery",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our new Lansweeper Discovery to discover IT and OT devices. This is the default software you will get when you start a trial.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/sites/install-network-discovery/ta-p/72388\n* Info on Lansweeper Discovery: https://community.lansweeper.com/t5/sites/lansweeper-discovery/ta-p/75199#feedbackquestions\n* OT specific: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599",
+                "requiredSkills": []
+            },
+            {
+                "id": "81e8856c-bcb2-469c-aa5d-57a7e21e8767",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.lansweeper.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The cloud Platform, this also includes lecstaticcontent.lansweeper.com\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com) and Lansweeper Discovery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "0a6ce5eb-b1f0-44c5-a7f5-6b1bfd0c1f74",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "fb.lansweeper.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "More information: https://www.lansweeper.com/product/features/integrate/flow-builder/",
+                "requiredSkills": []
+            },
+            {
                 "id": "1fa3f131-ef7d-477e-9a52-46f4da7293da",
                 "type": {
                     "id": 1,
@@ -1116,7 +1158,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Domain used during the two-way sync process between the local web console (on-premises software) and the cloud platform. \n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises scanner and the sync process (edge.lansweeper.com) between these two. You have to install our scanner locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.",
+                "description": "Domain used during the two-way sync process between the local web console (on-premises software) and the cloud platform. \n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account. You have to install the on-premises software (try on-premises software) and link this to a cloud version. With this set-up you get access to our cloud platform (app.lansweeper.com), our on-premises scanner and the sync process (edge.lansweeper.com) between these two.",
                 "requiredSkills": []
             },
             {
@@ -1131,20 +1173,6 @@
                     "value": "Tier 2"
                 },
                 "description": "Data API used for integrations with our cloud platform (app.lansweeper.com). \nMore information about our Data API: https://developer.lansweeper.com/docs/data-api/get-started/welcome",
-                "requiredSkills": []
-            },
-            {
-                "id": "81e8856c-bcb2-469c-aa5d-57a7e21e8767",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "app.lansweeper.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The cloud Platform, this also includes lecstaticcontent.lansweeper.com\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises scanner and the sync process (edge.lansweeper.com) between these two. You have to install our scanner somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.",
                 "requiredSkills": []
             },
             {
@@ -1172,21 +1200,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Our cloud relay server connection using LsAgent. If the computers you're scanning do not have a direct connection to your Lansweeper installation, scanned LsAgent data can be sent to our relay server in the cloud. This is only used in our old Lansweeper Classic software.\n\nOur LsAgent is a cross-platform scanning agent that can scan computers both inside and outside of your network. It automatically collects an inventory from the computer it's installed on and sends the data back to the Lansweeper Classic installation, this can be done through our relay server in the cloud.\n\nFor this, you must enable relay access in your Lansweeper Classic installation. \nScanned LsAgent data is sent securely over HTTPS (TLS 1.2) to the relay server in Microsoft Azure, where it is encrypted as well. Your Lansweeper scanning server can retrieve the scanned data from the relay server, after which it is deleted from the relay. In order to use the relay server, make sure outbound traffic is allowed on your Lansweeper scanning server. Specifically, the scanning server must be able to make an outbound connection to port 443 of lsagentrelay.lansweeper.com, the cloud relay server. \n\nMore information about LsAgent can be found on our website: https://community.lansweeper.com/t5/scanning-your-network/introduction-to-lsagent-for-windows-linux-and-mac/ta-p/64473\n\nThe use of the relay server must explicitly be enabled in the Lansweeper web console. It is not enabled by default!",
-                "requiredSkills": []
-            },
-            {
-                "id": "bdb51a62-4de1-4ed0-90ec-5a270a1324e5",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "Modernized Discovery",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Our new Lansweeper Discovery to discover IT and OT devices.\n\n* Scanner can be downloaded from the cloud platform, more info here: https://community.lansweeper.com/t5/sites/install-network-discovery/ta-p/72388\n* Info on Modernized Discovery: https://community.lansweeper.com/t5/sites/lansweeper-discovery/ta-p/75199#feedbackquestions\n* OT specific: https://community.lansweeper.com/t5/lansweeper-ot/how-to-scan-your-ot/ta-p/64599",
+                "description": "Our cloud relay server connection using LsAgent. If the computers you're scanning do not have a direct connection to your Lansweeper installation, scanned LsAgent data can be sent to our relay server in the cloud. This is only used in our old Lansweeper Classic software, so if you start the trial you should select our on-premises software (Lansweeper Classic).\n\nOur LsAgent is a cross-platform scanning agent that can scan computers both inside and outside of your network. It automatically collects an inventory from the computer it's installed on and sends the data back to the Lansweeper Classic installation, this can be done through our relay server in the cloud.\n\nFor this, you must enable relay access in your Lansweeper Classic installation. \nScanned LsAgent data is sent securely over HTTPS (TLS 1.2) to the relay server in Microsoft Azure, where it is encrypted as well. Your Lansweeper scanning server can retrieve the scanned data from the relay server, after which it is deleted from the relay. In order to use the relay server, make sure outbound traffic is allowed on your Lansweeper scanning server. Specifically, the scanning server must be able to make an outbound connection to port 443 of lsagentrelay.lansweeper.com, the cloud relay server. \n\nMore information about LsAgent can be found on our website: https://community.lansweeper.com/t5/scanning-your-network/introduction-to-lsagent-for-windows-linux-and-mac/ta-p/64473\n\nThe use of the relay server must explicitly be enabled in the Lansweeper web console. It is not enabled by default!",
                 "requiredSkills": []
             },
             {
@@ -1256,7 +1270,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "The on-premises software is the latest available version on our website (www.lansweeper.com/changelog).\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account\n\nWith this trial you get access to our cloud platform (app.lansweeper.com), our on-premises software and the sync process (edge.lansweeper.com) between these two. You have to install our on-premises software somewhere locally and this will allow you to scan your local network and push the results to the cloud platform via the sync process.",
+                "description": "The on-premises software is the latest available version on our website (www.lansweeper.com/changelog).\n\nYou can request your trial on our website: https://www.lansweeper.com/download/ but always use \"intigriti.me\" address for any user account. Click on 'try on-premises' below.",
                 "requiredSkills": []
             },
             {
@@ -4808,8 +4822,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -23812,8 +23826,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
