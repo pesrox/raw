@@ -6746,8 +6746,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -9421,8 +9421,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16453,34 +16453,6 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "*.nestle.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "ab75d552-4297-4b9b-96b1-d653ddd11ddf",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "Any domain related to Nestl\u00e9 brands",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "You can find the Nestl\u00e9 brands in scope [in this link](https://www.nestle.com/brands).",
-                "requiredSkills": []
-            },
-            {
-                "id": "bbccca15-9139-4e30-a20f-45f9450a0d95",
-                "type": {
-                    "id": 5,
-                    "value": "Device"
-                },
-                "endpoint": "Any IoT device sold by Nestl\u00e9 Brands",
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
