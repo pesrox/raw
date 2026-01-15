@@ -12718,8 +12718,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -23654,8 +23654,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -34637,6 +34637,20 @@
         "industry": "Financial Services & Insurance",
         "domains": [
             {
+                "id": "c36f3c68-e124-4243-8c6f-12c940a522ef",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "trust.truelayer.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "8084bdd1-0038-40ca-a2d7-f9870b4ebc2a",
                 "type": {
                     "id": 1,
@@ -34829,7 +34843,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Remember Me functionality for payments. See https://truelayer.com/legal/enduser_tos/#save-my-details-remember-me ",
+                "description": "Remember Me functionality for payments. See https://truelayer.com/legal/enduser_tos/#save-my-details-remember-me",
                 "requiredSkills": []
             },
             {
