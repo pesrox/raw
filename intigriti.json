@@ -4434,7 +4434,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is the outdoor app of the XS4 Com, the part that your guest would see if they scanned an XS4Com QR code or interacted with the hardware version. It is used to make calls to residents of a building outfitted with XS4 Com.\n\nThe app requires a UUID appended at the end, we will supply a UUID when we create your XS4 Com test setup. \n\nExample: https://outdoor-acc.xs4com.app/#/00000000-0000-0000-0000-000000000000\n\n**Note: A user must sign into either the mobile application or the web application to show in the outdoor app. The user must be a resident in at least one XS4 Com site as well as subscribed**\n\nLearn more about how the app is used by browsing our manual https://support.saltosystems.com/xs4com/.",
+                "description": "This is the outdoor app of the XS4 Com, the part that your guest would see if they scanned an XS4Com QR code or interacted with the hardware version. It is used to make calls to residents of a building outfitted with XS4 Com.\n\nThe app requires a UUID appended at the end example: https://outdoor-acc.xs4com.app/#/00000000-0000-0000-0000-000000000000.\n\nThe UUID for our test setup is \"122ef75c-1963-4aac-b0df-6dbd48157386\" which means the URL is https://outdoor-acc.xs4com.app/#/122ef75c-1963-4aac-b0df-6dbd48157386\n\n**Note: A user must sign into either the mobile application or the web application to show in the outdoor app. The user must be a resident in at least one XS4 Com site as well as subscribed. As default you are invited as an Admin, not a resident. Admins can add residents**\n\nLearn more about how the app is used by browsing our manual https://support.saltosystems.com/xs4com/.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -12946,8 +12946,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
