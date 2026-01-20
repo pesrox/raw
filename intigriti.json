@@ -2,7 +2,7 @@
     {
         "id": "0083a5bf-e54f-4f79-a972-12a795272c8b",
         "handle": "innovapost",
-        "name": "Canada Post + Purolator - Responsible Disclosure Program",
+        "name": "Canada Post - Responsible Disclosure Program",
         "following": false,
         "minBounty": {
             "value": 0.0,
@@ -86,20 +86,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "0dd0c864-edcd-46fe-a377-698997b98305",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.purolator.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Any subdomain of purolator.com (eg. www.purolator.com, eshiponline.purolator.com and billingcentre.purolator.com)",
-                "requiredSkills": []
-            },
-            {
                 "id": "a1e53e3c-f352-4f6a-81d3-acc8a23c97c9",
                 "type": {
                     "id": 3,
@@ -114,20 +100,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "8717f48d-156a-4a4b-b081-d4785d1aacc4",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "438701193",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Purolator's mobile application for iOS",
-                "requiredSkills": []
-            },
-            {
                 "id": "9ef03414-3950-458b-a888-9045a008cfa0",
                 "type": {
                     "id": 2,
@@ -139,34 +111,6 @@
                     "value": "No Bounty"
                 },
                 "description": "Canada Post's mobile application for Android",
-                "requiredSkills": []
-            },
-            {
-                "id": "265923c3-1103-4649-9811-2c6003bd11d8",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "com.purolator.mobileapp",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Purolator's mobile application for Android",
-                "requiredSkills": []
-            },
-            {
-                "id": "0dc7178c-8120-4769-8e76-19da74ee1396",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*/scripts/cgiip.exe/*",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "XSS in any parameter on the endpoint */scripts/cgiip.exe/* (any in scope domain)",
                 "requiredSkills": []
             }
         ]
@@ -15366,8 +15310,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -31755,64 +31699,6 @@
                 ]
             },
             {
-                "id": "53f03f9c-f8ce-4376-8430-7e45e4c84be9",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/do-agent",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "A daemon that helps collect system metrics from droplets.",
-                "requiredSkills": [
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "a5d2b4cf-233d-461a-a402-3d02de483266",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/droplet-agent",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "A daemon that enables web console access on droplets",
-                "requiredSkills": [
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    },
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
                 "id": "b25618fb-c259-40b7-a006-891fb30db2a2",
                 "type": {
                     "id": 1,
@@ -31890,6 +31776,64 @@
                     {
                         "id": "web_hacking",
                         "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "53f03f9c-f8ce-4376-8430-7e45e4c84be9",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/do-agent",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "A daemon that helps collect system metrics from droplets.",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "a5d2b4cf-233d-461a-a402-3d02de483266",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/droplet-agent",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "A daemon that enables web console access on droplets",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
                     }
                 ]
             },
@@ -32032,6 +31976,29 @@
                     {
                         "id": "source_code_review",
                         "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "b9245781-2b1f-4886-884d-56b1ae915584",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/do-markdownit",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community.",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
                     }
                 ]
             },
@@ -32189,29 +32156,6 @@
                     {
                         "id": "api",
                         "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "b9245781-2b1f-4886-884d-56b1ae915584",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/do-markdownit",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community.",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
                     },
                     {
                         "id": "web_hacking",
