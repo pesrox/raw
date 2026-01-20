@@ -9434,63 +9434,33 @@
         "industry": "Retail",
         "domains": [
             {
-                "id": "aa3fc693-66c1-4e15-96e4-5363f619a338",
+                "id": "0850a5a0-3bcb-4001-a7fd-f9b43570cff6",
                 "type": {
-                    "id": 3,
-                    "value": "iOS"
+                    "id": 1,
+                    "value": "Url"
                 },
-                "endpoint": "1174047097",
+                "endpoint": "www.coolblue.nl",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Our iOS application.",
+                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
                 "requiredSkills": [
                     {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "61b46302-a4c9-448c-8b14-16e834a17aac",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "eu.coolblue.shop",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Our Android application.",
-                "requiredSkills": [
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "808c72c5-119e-41fe-a9a7-f44921bcaf96",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "mobile-api.coolblue-production.eu",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The API used by our mobile applications. ",
-                "requiredSkills": [
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    },
                     {
                         "id": "api",
                         "name": "API"
                     },
                     {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
                     }
                 ]
             },
@@ -9505,7 +9475,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain. ",
+                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
                 "requiredSkills": [
                     {
                         "id": "ai_llm",
@@ -9536,37 +9506,67 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "\nThe scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
+                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
                 "requiredSkills": []
             },
             {
-                "id": "0850a5a0-3bcb-4001-a7fd-f9b43570cff6",
+                "id": "61b46302-a4c9-448c-8b14-16e834a17aac",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 2,
+                    "value": "Android"
                 },
-                "endpoint": "www.coolblue.nl",
+                "endpoint": "eu.coolblue.shop",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 2,
+                    "value": "Tier 3"
                 },
-                "description": "\nThe scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
+                "description": "Our Android application.",
                 "requiredSkills": [
                     {
-                        "id": "ai_llm",
-                        "name": "AI / LLM"
-                    },
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "aa3fc693-66c1-4e15-96e4-5363f619a338",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1174047097",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Our iOS application.",
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "808c72c5-119e-41fe-a9a7-f44921bcaf96",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "mobile-api.coolblue-production.eu",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The API used by our mobile applications.",
+                "requiredSkills": [
                     {
                         "id": "api",
                         "name": "API"
                     },
                     {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
                     }
                 ]
             },
@@ -9637,7 +9637,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.\n",
+                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.",
                 "requiredSkills": []
             },
             {
