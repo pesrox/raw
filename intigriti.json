@@ -4331,39 +4331,6 @@
         "industry": "Manufacturing - Consumer",
         "domains": [
             {
-                "id": "fd7e689d-7994-47f2-b17f-1f8700267753",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://saltocloudworks.com/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "f18eef32-e304-4e39-bff6-4da840725e11",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Swagger",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
                 "id": "77944075-9ed3-48d1-8eef-0724d711f486",
                 "type": {
                     "id": 1,
@@ -4371,8 +4338,8 @@
                 },
                 "endpoint": "https://identity-acc.eu.my-clay.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": null,
                 "requiredSkills": [
@@ -4387,12 +4354,12 @@
                 ]
             },
             {
-                "id": "aabd26ba-26d3-48ce-80f1-0767859ea491",
+                "id": "943aafac-8ef0-4450-b36c-c9798d0627bd",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://commissioning-accept.saltoks.com/",
+                "endpoint": "https://api-acc.eu.xs4com.app/",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -4410,12 +4377,31 @@
                 ]
             },
             {
-                "id": "ee780e1b-1e6a-4a01-826d-eddd5ff6b746",
+                "id": "89b6c0ac-64a1-4d3f-ada9-8738d3a40031",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "https://commissioningapi-accept.saltoks.com/",
+                "endpoint": "https://indoor-acc.xs4com.app/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "f6cfb7ed-a33a-49bd-a69d-4004c74356c7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://outdoor-acc.xs4com.app/",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -4433,12 +4419,12 @@
                 ]
             },
             {
-                "id": "20f974f9-1bde-48a2-aaab-3cb0b77a90ef",
+                "id": "e0d5a54d-6437-49fd-8883-1512f2475938",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 2,
+                    "value": "Android"
                 },
-                "endpoint": "https://support-accept.saltoks.com",
+                "endpoint": "XS4 Com Android application",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -4450,31 +4436,8 @@
                         "name": "API"
                     },
                     {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "5bc3aeac-5ac1-4e9a-bfef-0ea2502f6007",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://clp-accept-larry.my-clay.com/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
                     }
                 ]
             },
@@ -4548,311 +4511,7 @@
                 ]
             },
             {
-                "id": "943aafac-8ef0-4450-b36c-c9798d0627bd",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://api-acc.eu.xs4com.app/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "89b6c0ac-64a1-4d3f-ada9-8738d3a40031",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://indoor-acc.xs4com.app/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "f6cfb7ed-a33a-49bd-a69d-4004c74356c7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://outdoor-acc.xs4com.app/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "e0d5a54d-6437-49fd-8883-1512f2475938",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "XS4 Com Android application",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "15e714a5-ccda-4d26-aecd-ad076eb14576",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://identity-acc.eu.my-clay.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "This is our IDS for all our products. It stores the users in our applications to avoid having to duplicate them across products should a user be a user in more than one of them. In addition our IDS is responsible for handling authentication towards any of our applications or APIs, authorization is for now delegated to the application itself. \n\nNote: Accessing IDS is generally done using one of our other applications although a user which does not belong to any application can still access their IDS profile page",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "f1892f52-dede-4468-a95d-b42e5b4c5677",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://indoor-acc.xs4com.app/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "XS4 Com is our Intercom solution allowing users to receive video calls when someone is at their door, they can even unlock the door for them. XS4 Com integrates with various other Salto locking solutions. Your test site will be setup with a dummy integration. \n\nThis is the \"indoor\" app. This app is used by intercom administrators and to a lesser extent tenants living in the building. Administrators can administrate all aspects of the application, tenants can receive calls. Tenants will typically receive calls using the mobile application instead of the web app.\n\nLearn more about how the app is used by browsing our manual https://support.saltosystems.com/xs4com/.",
-                "requiredSkills": []
-            },
-            {
-                "id": "073d422d-d256-41fc-89df-8358b279fba3",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://outdoor-acc.xs4com.app/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is the outdoor app of the XS4 Com, the part that your guest would see if they scanned an XS4Com QR code or interacted with the hardware version. It is used to make calls to residents of a building outfitted with XS4 Com.\n\nThe app requires a UUID appended at the end example: https://outdoor-acc.xs4com.app/#/00000000-0000-0000-0000-000000000000.\n\nThe UUID for our test setup is \"122ef75c-1963-4aac-b0df-6dbd48157386\" which means the URL is https://outdoor-acc.xs4com.app/#/122ef75c-1963-4aac-b0df-6dbd48157386\n\n**Note: A user must sign into either the mobile application or the web application to show in the outdoor app. The user must be a resident in at least one XS4 Com site as well as subscribed. As default you are invited as an Admin, not a resident. Admins can add residents**\n\nLearn more about how the app is used by browsing our manual https://support.saltosystems.com/xs4com/.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "762aa6f8-c650-4a4f-9a0e-01bec2bce508",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "XS4 Com Android application",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The Intigriti testing environment version of this app is currently not available on the Play Store, but we can distribute an APK for you to test. \n\nThis is an mobile app version of the indoor XS4 Com web app. The app is primarily used by residents to receive incoming intercom calls.\n\nRequest access [here](https://appdistribution.firebase.google.com/pub/i/0d5a076bb21dada5) using your @intigriti.me email address.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "2ad7518a-4a51-40ac-af60-1947b1c6aa2e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://api-acc.eu.xs4com.app/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is the API which powers our XS4 Com web and mobile applications. All business logic is handled by the API.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by an XS4 Com web app and grab the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nIf you need credentials reach out to us using the email in the FAQ. \n\nSwagger is available: https://api-acc.eu.xs4com.app/swagger/index.html",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "f4beb3d0-4e68-484f-961d-984b9fe56a4d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://intigriti-accept.saltoks.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Salto KS is one of our web apps which is used to manage access to the Salto locks installed in a building. Salto KS makes it easy to manage users and their access rights while at the same time providing clear audit logs of lock events. \n\nThe web app is built upon the Connect API, any action you can take inside the web app will be powered by the Connect API meaning the API is responsible for business logic. In some cases a flow or modal in the web app might not show all options available in the API to guide user behaviour (such as when creating an access group). In these cases the user should be able to take the same action in another screen (when editing the newly created access group).",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "eae579a6-d561-4ed8-9e67-d675489bd8ae",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://clp-accept-user.saltoks.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is the Connect API which powers our Salto KS web and mobile applications. \n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Salto KS web app and grab the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nIf you need credentials reach out to us using the email in the FAQ. \n\t\nhttps://clp-accept-user.my-clay.com is the same API with another URL. It is considered in scope/the same scope as https://clp-accept-user.saltoks.com.\n\nSwagger is available https://clp-accept-user.my-clay.com/swagger",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "4229fe5c-069f-47e9-9f0e-1bd7bf167d6b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://clp-accept-hardware.my-clay.com/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is the Core API, Core API allows someone to directly interact with SALTO hardware. The Core API does not have a user layer like our connect API does, instead an accessor is an anonymous entity which represents an entity which has one or more lock access credentials and functions similar to a user. The integration partner has to tie these accessor to user entities on their end. \n\nPlease reach out to us using the email in the FAQ if you are interested in testing this API. \n\nSwagger is available https://clp-accept-hardware.my-clay.com/swagger/index.html.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "df10ff28-674f-4fbf-a854-69f697f24db9",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://support-accept.saltoks.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "This is our support web app, it is used internally to support our customers. You will be able to see information about any site inside our Integriti environment.\n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "ba063764-9586-4acb-ad2e-d8735df9df0b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://clp-accept-larry.my-clay.com/",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "This is the API powering the Support application. All business logic is handled by the API.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Support web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://clp-accept-larry.my-clay.com/swagger/index.html",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "ecb19cde-9578-4b32-b730-1655843406c8",
+                "id": "aabd26ba-26d3-48ce-80f1-0767859ea491",
                 "type": {
                     "id": 1,
                     "value": "Url"
@@ -4862,7 +4521,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "This is our commissioning web app, our installer partners use this to create systems for our end users after they are done installing the physical locks. You can create additional test sites using this tool, but without hardware the sites will be limited. \n\nWe have created a dedicated environment for Intigriti. If you need to access production please reach out to us using the email in the FAQ section and describe what/why/how.",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -4875,7 +4534,7 @@
                 ]
             },
             {
-                "id": "08518e0b-40db-44de-8c56-caedbe678646",
+                "id": "ee780e1b-1e6a-4a01-826d-eddd5ff6b746",
                 "type": {
                     "id": 1,
                     "value": "Url"
@@ -4885,7 +4544,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "This is the API powering the Commissioning application. All business logic is handled by the API.\n\nThe easiest way to get a functional token for this API is to inspect any network request made by the Commissioning web app and grabbing the JWT found in the request headers (Authorisation, Bearer xxxxx).\n\nSwagger is available: https://commissioningapi-accept.saltoks.com/swagger/index.html",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -4898,7 +4557,53 @@
                 ]
             },
             {
-                "id": "7d613375-9e88-411c-88fa-47dc183fffa1",
+                "id": "20f974f9-1bde-48a2-aaab-3cb0b77a90ef",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://support-accept.saltoks.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "5bc3aeac-5ac1-4e9a-bfef-0ea2502f6007",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://clp-accept-larry.my-clay.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "fd7e689d-7994-47f2-b17f-1f8700267753",
                 "type": {
                     "id": 1,
                     "value": "Url"
@@ -4908,7 +4613,7 @@
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "Employer branding/recruitment website, please remember to use your @intigriti.me address for any form submissions! \n\nNote: We may award a bonus for any finding related to this resource but as it's decoupled from our applications/APIs entirely it's not in any of the normal bounty tiers.",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "web_hacking",
@@ -4917,7 +4622,7 @@
                 ]
             },
             {
-                "id": "dddab5fc-e46f-4e3a-9e39-99c405c869d3",
+                "id": "f18eef32-e304-4e39-bff6-4da840725e11",
                 "type": {
                     "id": 6,
                     "value": "Other"
@@ -4927,7 +4632,7 @@
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "We're likely to award a bonus for findings related to our swaggers depending on the severity. \n\nNote: Only Swaggers related to our API's listed in our program is in scope.",
+                "description": null,
                 "requiredSkills": []
             }
         ]
