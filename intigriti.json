@@ -1307,8 +1307,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16922,8 +16922,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -31561,7 +31561,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Public IPs belonging to AS14061(DigitalOcean, LLC) are assigned to DigitalOcean customers and should be considered out of scope.\n\n**The following subdomains are out of scope:**\n\n* cloudsupport.digitalocean.com\n* ideas.digitalocean.com\n* investor.digitalocean.com\n* investors.digitalocean.com\n* ir.digitalocean.com\n* deploy.digitalocean.com\n* pilot.digitalocean.com\n* rewards.digitalocean.com\n* anchor.digitalocean.com\n* waves.digitalocean.com\n* brand.digitalocean.com\n* go.digitalocean.com\n* groove.digitalocean.com\n* email.digitalocean.com\n* status.digitalocean.com\n* events.digitalocean.com\n* helpdesk.digitalocean.com\n* mirrors.digitalocean.com\n* segment.digitalocean.com\n* tracking.digitalocean.com",
+                "description": "Public IPs belonging to AS14061(DigitalOcean, LLC) are assigned to DigitalOcean customers and should be considered out of scope.\n\n**The following subdomains are out of scope:**\n\n* anchor.digitalocean.com\n* brand.digitalocean.com\n* cloudsupport.digitalocean.com\n* deploy.digitalocean.com\n* email.digitalocean.com\n* events.digitalocean.com\n* go.digitalocean.com\n* groove.digitalocean.com\n* helpdesk.digitalocean.com\n* ideas.digitalocean.com\n* investor.digitalocean.com\n* investors.digitalocean.com\n* ir.digitalocean.com\n* mirrors.digitalocean.com\n* pilot.digitalocean.com\n* rewards.digitalocean.com\n* segment.digitalocean.com\n* status.digitalocean.com\n* tracking.digitalocean.com\n* waves.digitalocean.com",
                 "requiredSkills": [
                     {
                         "id": "web_hacking",
@@ -31576,6 +31576,286 @@
                         "name": "API"
                     }
                 ]
+            },
+            {
+                "id": "d9e0f067-25e0-4a35-b0c5-80dfd3027fa2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "anchor.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1b996aa4-37ab-443d-b4b2-b2d2425bb660",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "brand.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "07666906-0d1f-4a71-b7c0-94749c65ad7c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cloudsupport.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6cb42e6c-5a0d-4e18-ba20-041cbb406df6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "deploy.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0a856ce3-2516-4370-b0c5-4bdab2d738b4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "email.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3b287d3d-9197-413d-a7d0-500ca09b8d24",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "events.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6f9e034f-0f2a-4178-9e35-22ab8f5586fb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "go.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0c874bfc-4b57-42f5-a9c5-90b3e6ee2a1c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "groove.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1d6ba909-0622-4ceb-9c9a-1b9bcde15e19",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "helpdesk.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b5f2fff1-b570-49cb-8315-452aa915c3aa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ideas.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "97649615-0de1-4cc7-95c2-ed24be570b2b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "investor.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "16113221-d9a3-4ec2-a745-a3533b111cfe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "investors.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "591a6b32-dd6d-46dc-9596-b7591cf8c6ea",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ir.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2c21a558-49ef-492b-bb8d-96a9f83feb7a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mirrors.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b788465d-9b3d-472f-85dd-96d8b53f6bfa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "pilot.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "825ef607-bcbe-4297-a923-3f7c4e7a7f99",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "rewards.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "195f1472-3413-4f4a-9e5b-e12e6bcb4f14",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "segment.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4c253ab3-8003-4bbc-b698-8c23a940403a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "status.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "de657003-62ac-4891-89e5-e945f6d381bf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "tracking.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f2008330-f2e3-49f6-a309-918d59f06f95",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "waves.digitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
             },
             {
                 "id": "c84df8df-3e50-41cb-b294-aa46c7b046ca",
@@ -31664,7 +31944,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This asset follows the same testing guidelines as `cloud.digitalocean.com`.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.",
+                "description": "This asset follows the same testing guidelines as `cloud.digitalocean.com`.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.\n\nNote that we consider `cloud.digitalocean.com` and `amd.digitalocean.com` as having functionally the same backend codebase.",
                 "requiredSkills": [
                     {
                         "id": "cloud_hacking",
