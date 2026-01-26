@@ -1,5 +1,264 @@
 [
     {
+        "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
+        "slug": "thuringer-aufbaubank-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 0,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 41,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 7000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7eaaffd6-77dd-4083-be55-7e304a3e9a33",
+            "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
+            "mime_type": "image/jpeg",
+            "size": 3259,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7eaaffd6-77dd-4083-be55-7e304a3e9a33"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Th\u00fcringer Aufbaubank",
+            "slug": "thuringer-aufbaubank",
+            "description": "Anstalt \u00f6ffentlichen Rechts",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "4ad2516f-6e14-4a14-bc6c-7b16cb00af8e",
+                "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
+                "mime_type": "image/jpeg",
+                "size": 3259,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/4ad2516f-6e14-4a14-bc6c-7b16cb00af8e"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-01-26T16:58:15+01:00",
+        "scopes": [
+            {
+                "scope": "https://thueringer-foerderportal.eu",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://ecohesion.aufbaubank.de",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://login.aufbaubank.de",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Jenkins Bug Bounty Program",
+        "slug": "jenkins-bug-bounty-program",
+        "country": "BE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 68,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 16,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "238c2751-8c85-4ff6-9c99-cca35384b299",
+            "original_name": "jenkins logo.jpg",
+            "mime_type": "image/jpeg",
+            "size": 9811,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/238c2751-8c85-4ff6-9c99-cca35384b299"
+        },
+        "event": {
+            "name": "Open the code, source the bounty",
+            "slug": "open-the-code-source-the-bounty",
+            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
+            "start_date": "2024-10-01T01:00:00+02:00",
+            "end_date": null,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            },
+            "banner": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "business_unit": {
+            "name": "Jenkins",
+            "slug": "jenkins",
+            "description": "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "175107e5-fc97-4b38-b1f4-1ee9b9d2123d",
+                "original_name": "jenkins logo.jpg",
+                "mime_type": "image/jpeg",
+                "size": 9811,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/175107e5-fc97-4b38-b1f4-1ee9b9d2123d"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-01-26T14:28:47+01:00",
+        "scopes": [
+            {
+                "scope": "https://github.com/jenkinsci/jenkins",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/stapler",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/jelly",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/winstone",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/script-security-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/credentials-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/credentials-binding-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/workflow-cps-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/ldap-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/ssh-credentials-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/plain-credentials-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/matrix-auth-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/ssh-agents-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/git-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/git-client-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/jenkinsci/workflow-scm-step-plugin",
+                "scope_type": "open-source",
+                "scope_type_name": "Open Source",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Deezer Bug Bounty Program",
         "slug": "deezer-bug-bounty-program-2019",
         "country": "FR",
@@ -19,7 +278,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 921,
+        "reports_count": 924,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 14,
@@ -170,7 +429,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 22,
+        "reports_count": 23,
         "bounty_reward_min": 100,
         "bounty_reward_max": 10000,
         "scopes_count": 1,
@@ -250,7 +509,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1906,
+        "reports_count": 1907,
         "bounty_reward_min": 5,
         "bounty_reward_max": 1500,
         "scopes_count": 40,
@@ -805,7 +1064,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 367,
+        "reports_count": 372,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 8,
@@ -914,7 +1173,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 61,
+        "reports_count": 62,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2000,
         "scopes_count": 1,
@@ -994,7 +1253,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 3099,
+        "reports_count": 3100,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -1418,7 +1677,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 400,
+        "reports_count": 404,
         "bounty_reward_min": 1,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -1548,7 +1807,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1837,
+        "reports_count": 1838,
         "bounty_reward_min": 50,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -1678,7 +1937,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 143,
+        "reports_count": 144,
         "bounty_reward_min": 10,
         "bounty_reward_max": 5000,
         "scopes_count": 1,
@@ -2247,7 +2506,7 @@
         "disabled": false,
         "vdp": true,
         "archived": false,
-        "reports_count": 111,
+        "reports_count": 116,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 6,
@@ -2874,7 +3133,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 257,
+        "reports_count": 258,
         "bounty_reward_min": 50,
         "bounty_reward_max": 7000,
         "scopes_count": 14,
@@ -3954,7 +4213,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1253,
+        "reports_count": 1254,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 9,
@@ -4664,135 +4923,6 @@
         ]
     },
     {
-        "title": "Jenkins Bug Bounty Program",
-        "slug": "jenkins-bug-bounty-program",
-        "country": "BE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 67,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 8,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "238c2751-8c85-4ff6-9c99-cca35384b299",
-            "original_name": "jenkins logo.jpg",
-            "mime_type": "image/jpeg",
-            "size": 9811,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/238c2751-8c85-4ff6-9c99-cca35384b299"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "Jenkins",
-            "slug": "jenkins",
-            "description": "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "175107e5-fc97-4b38-b1f4-1ee9b9d2123d",
-                "original_name": "jenkins logo.jpg",
-                "mime_type": "image/jpeg",
-                "size": 9811,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/175107e5-fc97-4b38-b1f4-1ee9b9d2123d"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-12-01T17:46:38+01:00",
-        "scopes": [
-            {
-                "scope": "https://github.com/jenkinsci/jenkins",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/stapler",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/jelly",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/winstone",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/script-security-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/credentials-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/credentials-binding-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/jenkinsci/workflow-cps-plugin",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "BigBlueButton Bug Bounty Program",
         "slug": "bigbluebutton-bug-bounty-program",
         "country": "BE",
@@ -5029,7 +5159,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 333,
+        "reports_count": 334,
         "bounty_reward_min": 50,
         "bounty_reward_max": 15000,
         "scopes_count": 34,
@@ -5626,7 +5756,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 599,
+        "reports_count": 600,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 12,
@@ -5957,7 +6087,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 413,
+        "reports_count": 415,
         "bounty_reward_min": 0,
         "bounty_reward_max": 2500,
         "scopes_count": 5,
@@ -6231,7 +6361,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1582,
+        "reports_count": 1583,
         "bounty_reward_min": 50,
         "bounty_reward_max": 12500,
         "scopes_count": 3,
@@ -7415,7 +7545,7 @@
         "disabled": false,
         "vdp": true,
         "archived": false,
-        "reports_count": 846,
+        "reports_count": 847,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 2,
@@ -9262,7 +9392,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 99,
+        "reports_count": 100,
         "bounty_reward_min": 0,
         "bounty_reward_max": 30000,
         "scopes_count": 5,
@@ -9522,80 +9652,6 @@
                 "scope_type": "mobile-application-ios",
                 "scope_type_name": "Mobile application IOS",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
-        "slug": "thuringer-aufbaubank-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 0,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 41,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7eaaffd6-77dd-4083-be55-7e304a3e9a33",
-            "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
-            "mime_type": "image/jpeg",
-            "size": 3259,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7eaaffd6-77dd-4083-be55-7e304a3e9a33"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Th\u00fcringer Aufbaubank",
-            "slug": "thuringer-aufbaubank",
-            "description": "Anstalt \u00f6ffentlichen Rechts",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "4ad2516f-6e14-4a14-bc6c-7b16cb00af8e",
-                "original_name": "224ea7f2-cc65-4ca8-8d67-011cb758267c_thumb.jpg",
-                "mime_type": "image/jpeg",
-                "size": 3259,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/4ad2516f-6e14-4a14-bc6c-7b16cb00af8e"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-02-11T10:00:33+01:00",
-        "scopes": [
-            {
-                "scope": "https://thueringer-foerderportal.eu",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://ecohesion.aufbaubank.de",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://login.aufbaubank.de",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -10060,7 +10116,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 681,
+        "reports_count": 682,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 6,
@@ -10229,7 +10285,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 68,
+        "reports_count": 69,
         "bounty_reward_min": 100,
         "bounty_reward_max": 8000,
         "scopes_count": 1,
@@ -10615,7 +10671,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 549,
+        "reports_count": 550,
         "bounty_reward_min": 100,
         "bounty_reward_max": 10000,
         "scopes_count": 9,
@@ -10731,7 +10787,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 257,
+        "reports_count": 258,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 3,
