@@ -2181,8 +2181,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -15802,8 +15802,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -30782,57 +30782,6 @@
                 },
                 "description": null,
                 "requiredSkills": []
-            }
-        ]
-    },
-    {
-        "id": "cb696cc3-eb4e-44ee-86bd-004fb4d8beb9",
-        "handle": "challenge0126",
-        "name": "Challenge 0126",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge0126/detail"
-        },
-        "industry": "Software",
-        "domains": [
-            {
-                "id": "4deed8d9-5818-4438-a982-bbf4dfd652b4",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://challenge-0126.intigriti.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
             }
         ]
     },
