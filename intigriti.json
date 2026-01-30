@@ -24548,8 +24548,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -36146,7 +36146,12 @@
                     "value": "Tier 1"
                 },
                 "description": "The majority of our API endpoints live here",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "d1a9f8a7-ebb9-4ab5-8840-2c8bff5a72f6",
@@ -36160,7 +36165,12 @@
                     "value": "Tier 1"
                 },
                 "description": "The same API as `api.truelayer[-sandbox].com` but with mutual TLS setup",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "1e66fed8-785d-406f-8acf-5bb55a749f2c",
@@ -36174,7 +36184,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Our service for getting OAuth access tokens to access our APIs",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "8b2dee51-aec0-4a3d-b0f8-e12a60a94f55",
@@ -36188,7 +36203,12 @@
                     "value": "Tier 1"
                 },
                 "description": "The same service as `auth.truelayer[-sandbox].com` but with mutual TLS setup",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "617368f4-cc8d-4f78-95cb-cbd96124b92e",
@@ -36202,7 +36222,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Hosted Payments Page v2",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "a70dd5d3-3784-46c2-b9e8-fb12974579ea",
@@ -36216,7 +36241,12 @@
                     "value": "Tier 1"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "898936f0-8b3d-4ab6-9a72-a76e5e11b9ef",
@@ -36244,7 +36274,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Used in the developer console",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "023618d2-8342-4af1-b0b4-b0051ccef2de",
@@ -36258,7 +36293,12 @@
                     "value": "Tier 1"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "03968ede-b94d-426b-8a99-dc9893b8e05a",
@@ -36272,7 +36312,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "c037271c-5fa6-473d-8563-9a2a2ddbb75e",
@@ -36286,7 +36331,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Some of our older payment API endpoints live here rather than on api.truelayer.com",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "972686fd-54e9-4424-bc67-c201df074c48",
@@ -36300,7 +36350,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Our hosted payments page for merchants that want us to manage the UI screens for making payments",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "4e7fda63-434b-4170-a096-a7532db0629f",
@@ -36314,7 +36369,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Hosted Payments Page dependency (e.g. for handoff)",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "45f0eb14-1cd6-46b6-a23e-4e6c48432ded",
@@ -36328,7 +36388,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Remember Me functionality for payments. See https://truelayer.com/legal/enduser_tos/#save-my-details-remember-me",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "1a1628d2-73a3-4853-ab25-20db8701bbfc",
@@ -36342,7 +36407,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Internal service for managing users",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "16a1c955-37bb-4566-a52d-06c9b3931c1d",
@@ -36356,7 +36426,12 @@
                     "value": "Tier 2"
                 },
                 "description": "https://github.com/TrueLayer/truelayer-dotnet",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "8803c160-7cad-4fd1-a6e8-48d4bf3dcd92",
@@ -36370,7 +36445,12 @@
                     "value": "Tier 2"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "e44627b5-2a8b-4c92-a43d-a5a67caf438d",
@@ -36384,7 +36464,12 @@
                     "value": "Tier 2"
                 },
                 "description": "Our developer console where you can login, create applications, manage your OAuth client ID/secret, upload public keys for request signing, view transactions",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "ee744062-9e8f-4a2b-b546-01f82d634cef",
@@ -36412,7 +36497,12 @@
                     "value": "Tier 2"
                 },
                 "description": "https://github.com/TrueLayer/truelayer-java",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "7dfacbe4-920e-4a54-98c2-4882573d5ace",
@@ -36426,7 +36516,12 @@
                     "value": "Tier 2"
                 },
                 "description": "https://github.com/TrueLayer/truelayer-php",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "daeccb18-34be-4fbe-bed6-8bfa36b131c9",
@@ -36440,7 +36535,12 @@
                     "value": "Tier 2"
                 },
                 "description": "https://github.com/TrueLayer/magento2",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "60da33b2-4b67-4964-9049-0cfc41b99079",
@@ -36454,7 +36554,12 @@
                     "value": "Tier 2"
                 },
                 "description": "https://wordpress.org/plugins/truelayer-for-woocommerce/ is our WordPress plugin allowing you to use TrueLayer as a checkout option in your WooCommerce store. The source code is also [available on GitHub](https://github.com/TrueLayer/truelayer-woocommerce).",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "76b44967-b5bb-4ff3-a864-66347cde8274",
@@ -36482,7 +36587,12 @@
                     "value": "Tier 2"
                 },
                 "description": "Shopify Plugin backend API. See https://docs.truelayer.com/docs/shopify",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "fb218f67-49cb-45ee-be21-5b0d666d3688",
@@ -36496,7 +36606,12 @@
                     "value": "Tier 2"
                 },
                 "description": "https://github.com/TrueLayer/truelayer-signing is our open source library for generating signed requests for calling TrueLayer APIs. Many languages are supported including Rust, C#, NodeJS, Go, Java and PHP.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "ca738126-43be-4564-9f7b-864db78e60c6",
@@ -36566,7 +36681,12 @@
                     "value": "Tier 3"
                 },
                 "description": "https://github.com/TrueLayer/TrueLayer-iOS-SDK",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "3962ef5d-2213-4f6a-bf59-fda64d5f55ca",
@@ -36580,7 +36700,12 @@
                     "value": "Tier 3"
                 },
                 "description": "https://github.com/TrueLayer/truelayer-react-native-sdk",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "44fbf8ea-024f-43c3-9351-78e129a1401f",
@@ -36594,7 +36719,12 @@
                     "value": "Tier 3"
                 },
                 "description": "https://www.npmjs.com/package/truelayer-web-sdk\n\nA lightweight web SDK for integrating Truelayer's payment services into your web application.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "977bf245-0209-4d4c-a187-7f5f4f27d807",
@@ -36608,7 +36738,12 @@
                     "value": "No Bounty"
                 },
                 "description": "https://github.com/TrueLayer/truelayer-rust\n\nCurrently we are not paying bounties for this asset as it's still in alpha.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
             },
             {
                 "id": "b629905d-26d4-4ff7-abdf-eed80d293293",
