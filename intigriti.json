@@ -8278,6 +8278,133 @@
         ]
     },
     {
+        "id": "2de0c513-e7e8-4e4f-b0d9-885e45c1f767",
+        "handle": "bitvavovdp",
+        "name": "Bitvavo VDP",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/bitvavo/bitvavovdp/detail"
+        },
+        "industry": "Financial Services & Insurance",
+        "domains": [
+            {
+                "id": "75786503-83b8-43b8-b873-c6209ff72e5d",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1483903423",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "0b526cad-9862-42d3-8bf6-c37873da4168",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "com.bitvavo.android",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "a7fbffad-b7e6-47bc-ad26-902b470e082a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://api.bitvavo.com/v2/*",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "This is the base REST API endpoint for Bitvavo. For the full list of available methods, endpoints, schema definition, and auth requirement consult the canonical API documentation: \n\nhttps://docs.bitvavo.com/docs/rest-api/\n\nBitvavo offers two protocols for interacting with its platform: **REST** and **WebSocket**. Both protocols return JSON-encoded responses, and use standard HTTP status codes. However, each protocol is optimized for different use cases:\n\n**REST API**\n* Best suited for synchronous, request-response interactions.\n* Client initiates every call, and the server responds with the requested data.\n\nFor more details, read carefully our API docs at https://docs.bitvavo.com/docs/get-started/",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
+            },
+            {
+                "id": "aeb6b3ee-9156-47bb-9259-367656f4d449",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "wss://ws.bitvavo.com/v2 *",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "This is the base WebSocket API endpoint for Bitvavo. For the full list of available methods, endpoints, schema definition, and auth requirement consult the canonical API documentation: \n\nhttps://docs.bitvavo.com/docs/websocket-api/\n\nBitvavo offers two protocols for interacting with its platform: **REST** and **WebSocket**. Both protocols return JSON-encoded responses, and use standard HTTP status codes. However, each protocol is optimized for different use cases:\n\n**WebSocket API**\n* Ideal for real-time, event-driven communication.\n* Once connected, the server continuously pushes updates to the client without requiring repeated requests.\n\nFor more details, read carefully our API docs at https://docs.bitvavo.com/docs/get-started/",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
+            },
+            {
+                "id": "8a6625f9-63fb-4758-b002-2b3f8ae67ea0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://bitvavo.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2e52d6d3-da18-467f-836e-7a22b82bef5f",
         "handle": "tomorrowland",
         "name": "Tomorrowland",
