@@ -1,5 +1,93 @@
 [
     {
+        "title": "BookBeat",
+        "slug": "bookbeat",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 324,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 5,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
+            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+            "mime_type": "image/png",
+            "size": 7732,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "BookBeat",
+            "slug": "bookbeat",
+            "description": "BookBeat",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
+                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+                "mime_type": "image/png",
+                "size": 7732,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-02-03T09:32:52+01:00",
+        "scopes": [
+            {
+                "scope": "https://www.bookbeat.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.bookbeat.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://search-api.bookbeat.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.bookbeat.android&hl=en&pli=1",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/se/app/bookbeat-audiobooks-e-books/id1056652614?l=en-GB",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
         "slug": "thuringer-aufbaubank-bug-bounty-program",
         "country": "DE",
@@ -509,7 +597,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 110,
+        "reports_count": 111,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 2,
@@ -1874,7 +1962,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1924,
+        "reports_count": 1925,
         "bounty_reward_min": 50,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -2004,7 +2092,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 179,
+        "reports_count": 180,
         "bounty_reward_min": 10,
         "bounty_reward_max": 5000,
         "scopes_count": 1,
@@ -2878,7 +2966,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 69,
+        "reports_count": 70,
         "bounty_reward_min": 250,
         "bounty_reward_max": 10000,
         "scopes_count": 16,
@@ -3200,7 +3288,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 276,
+        "reports_count": 277,
         "bounty_reward_min": 50,
         "bounty_reward_max": 7000,
         "scopes_count": 14,
@@ -4396,7 +4484,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 504,
+        "reports_count": 505,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -6922,80 +7010,6 @@
         ]
     },
     {
-        "title": "BookBeat",
-        "slug": "bookbeat",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 324,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
-            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-            "mime_type": "image/png",
-            "size": 7732,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "BookBeat",
-            "slug": "bookbeat",
-            "description": "BookBeat",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
-                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-                "mime_type": "image/png",
-                "size": 7732,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-09-30T13:21:39+02:00",
-        "scopes": [
-            {
-                "scope": "https://www.bookbeat.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.bookbeat.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://search-api.bookbeat.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Sant\u00e9 Publique France Bug Bounty Program",
         "slug": "sante-publique-france-bugbounty-public-program",
         "country": "FR",
@@ -8083,7 +8097,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 592,
+        "reports_count": 593,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 10,
