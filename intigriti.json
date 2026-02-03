@@ -2164,6 +2164,430 @@
         ]
     },
     {
+        "id": "0cff4473-e61f-47fa-b840-154a75128796",
+        "handle": "superdrug",
+        "name": "Superdrug",
+        "following": false,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 8500.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/aswatson/superdrug/detail"
+        },
+        "industry": "Retail",
+        "domains": [
+            {
+                "id": "8dd13551-fbba-4096-abcd-cf07a880f523",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.superdrug.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Superdrug, our online Pharmacy in the UK",
+                "requiredSkills": []
+            },
+            {
+                "id": "aad85630-77d0-436b-ae35-4e893c974939",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Superdrug iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Superdrug (iOS) app.\nApp link:\u00a0https://apps.apple.com/gb/app/superdrug/id1267896687",
+                "requiredSkills": []
+            },
+            {
+                "id": "cb501752-2158-4e60-b435-6a5fd8156e4a",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Superdrug Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Superdrug (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=superdrug.com.beautycard",
+                "requiredSkills": []
+            },
+            {
+                "id": "fdb14375-2d3a-4ec4-8248-a17382f5cbba",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.superdrug.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.superdrug.com\u00a0website\nAPI spec:\u00a0https://api.superdrug.com/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "d9f5f5fd-0af8-4c91-a5e1-08f10a921654",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.superdrug.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.superdrug.com\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "7bef18ce-0814-4e78-87e1-65c2a2a3f6ff",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.superdrug.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Superdrug mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "76aa5438-72da-4c18-a72e-7bab61512006",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Superdrug",
+                "requiredSkills": []
+            },
+            {
+                "id": "512490c7-a53d-435c-b0d0-9ad7cf1ce2fe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "community.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the social community website from Superdrug",
+                "requiredSkills": []
+            },
+            {
+                "id": "8d1ce4d9-ef84-48ae-afae-b2179b63471d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Superdrug",
+                "requiredSkills": []
+            },
+            {
+                "id": "d4b3a64c-2856-4cd0-8e24-d6605e61e13f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "videogp-api.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the API server for the Superdrug Video GP website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "82fc4d87-d55f-4e01-9d7f-255eec818d34",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "healthclinics.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the Superdrug Healthclinics website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "9f320c21-7228-4856-a42c-f6facdbccc8e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "innovation.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Superdrug",
+                "requiredSkills": []
+            },
+            {
+                "id": "d4e1620c-6dbf-4eaf-8896-a1ff3297ab1d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "onlinedoctor.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the Superdrug Online Doctor website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "8c26146d-7169-4602-818f-7fe119b93241",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "onlinepharmacy.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the Superdrug Online Pharmacy (Wordpress) website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "196c4ec7-08fe-417d-ad4f-83d6cf6be639",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "videogp.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This website can be used by customers to set a video appointment with a GP.",
+                "requiredSkills": []
+            },
+            {
+                "id": "c7e84a46-8c2a-4031-86db-15982a007126",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.pharmacy.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the authenticated portal for customers from Superdrug Online Pharmacy website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "956a74d6-3238-4b3f-a91f-57d0ac79384e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "appt.healthclinics.superdrug.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the online booking system for Superdrug Healthclinics.",
+                "requiredSkills": []
+            },
+            {
+                "id": "37d1186d-2647-4ec5-8155-e3300a6b7c78",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.superdrug.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned in the scope.\nReports on these applications may be eligible for bonuses, chosen by the program team.",
+                "requiredSkills": []
+            },
+            {
+                "id": "15855fa4-e29b-4f0a-a5ff-b1eeb427bdb9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.savers.co.uk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Savers, our online Pharmacy in the UK",
+                "requiredSkills": []
+            },
+            {
+                "id": "b18b81fa-282c-423a-864d-08d436132687",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Savers iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Savers (iOS) app.\nApp link: https://apps.apple.com/gb/app/savers/id6451311397",
+                "requiredSkills": []
+            },
+            {
+                "id": "08584e78-7d33-4bdf-8666-76f7141d6c5c",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Savers Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Savers (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=uk.co.savers",
+                "requiredSkills": []
+            },
+            {
+                "id": "5f6afda7-a36d-4bfa-9cdc-f2a2399df3fb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.savers.co.uk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.savers.co.uk\u00a0website\nAPI spec:\u00a0https://api.savers.co.uk/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "676397d2-dbae-4d80-a0bd-3643c609028d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.savers.co.uk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.savers.co.uk\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "3208e21b-b483-4ee5-b582-e7e59e77b844",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.savers.co.uk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Savers mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "de8aa7ea-309e-4081-98e4-5818d942f155",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.superdrugmobile.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the Superdrug Mobile website",
+                "requiredSkills": []
+            },
+            {
+                "id": "de6ef8e2-6f6d-41fd-8d11-1aa1a3482727",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.savers.co.uk",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Superdrug",
+                "requiredSkills": []
+            },
+            {
+                "id": "5d5a9611-e0c9-4359-b496-f610c84a9477",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.savers.co.uk",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Superdrug",
+                "requiredSkills": []
+            },
+            {
+                "id": "a4915971-bf90-4494-9c23-9db86022670d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.savers.co.uk",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned in the scope.\nReports on these applications may be eligible for bonuses, chosen by the program team.",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "0d0034de-b53e-47b8-9a9d-41c302c49b5a",
         "handle": "torfs",
         "name": "Torfs",
@@ -15424,34 +15848,6 @@
                 },
                 "description": null,
                 "requiredSkills": []
-            },
-            {
-                "id": "344ee7bb-679b-4d56-80b2-fd1928ca1ff6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "elevate.pdm.sqills.team",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "33ae245f-88c8-461f-be2f-eb1fb926d567",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.elevate.pdm.sqills.team",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
             }
         ]
     },
@@ -19859,6 +20255,1746 @@
                     "value": "Tier 2"
                 },
                 "description": "including login page",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "8a9c91c0-dd4f-4ed3-bb65-3c6b68e76b24",
+        "handle": "watsons",
+        "name": "Watsons",
+        "following": false,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 8500.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/aswatson/watsons/detail"
+        },
+        "industry": "Retail",
+        "domains": [
+            {
+                "id": "fa461e10-d6d6-4839-abd5-9e87f97fe9a2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.com.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Hong Kong.",
+                "requiredSkills": []
+            },
+            {
+                "id": "37932c71-e181-42b0-a207-197bc7a7c0ef",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.com.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Hong Kong mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "4ed16b96-a78e-4295-bf91-fbf40f3a54e8",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Hong Kong Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Hong Kong Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=com.ndn.android.watsons",
+                "requiredSkills": []
+            },
+            {
+                "id": "740ae660-07df-49b3-99ad-cb3925f850c5",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Hong Kong iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Hong Kong (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/%E5%B1%88%E8%87%A3%E6%B0%8F%E9%A6%99%E6%B8%AF/id479512803",
+                "requiredSkills": []
+            },
+            {
+                "id": "1277f897-404c-41fe-8415-93edec590a7d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.com.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.com.hk website",
+                "requiredSkills": []
+            },
+            {
+                "id": "22bef76a-41c8-4900-af48-31a68809cdf9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.com.hk",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.com.hk e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "a0d2cd27-e95b-429e-88ce-6e8d49c176da",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.com.hk",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "d03e6e03-2154-4db2-95db-8cb007259dd4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.co.th",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Thailand.",
+                "requiredSkills": []
+            },
+            {
+                "id": "55a9d9fb-6de8-44d2-86a4-65b4e6677b51",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.co.th",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Thailand mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "33b441ce-efea-4de1-9240-363c60ec950a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www20.watsons.co.th",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Thailand mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "dc968ab3-c976-46b9-b60f-60078a84639d",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Thailand iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Thailand (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/watsons-th/id619935224",
+                "requiredSkills": []
+            },
+            {
+                "id": "0fe842ce-8016-496a-8732-373379148e86",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Thailand Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Thailand Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=com.mtelnet.watson.thailand",
+                "requiredSkills": []
+            },
+            {
+                "id": "42ead7f2-ccae-4637-9c34-57280ea4adeb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.co.th",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.co.th website",
+                "requiredSkills": []
+            },
+            {
+                "id": "830ab7a2-d500-4add-9bab-de5c6c2e1520",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "community.watsons.co.th",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "The asset is community forum of watsons.co.th",
+                "requiredSkills": []
+            },
+            {
+                "id": "7583149a-d261-44bb-af05-e3db8678082e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.co.th",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.co.th e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "0e1f9607-0532-4562-99dc-794ad0f274f7",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.co.th",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "8840e44c-094a-452f-a6fc-b94455c689f1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.com.tw",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Taiwan.",
+                "requiredSkills": []
+            },
+            {
+                "id": "3634ac0d-f125-4623-9275-614b6dcee7ac",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.com.tw",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Taiwan mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "7b276ef7-e69e-4744-85b6-ea08f502b948",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Taiwan Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Taiwan Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=tw.com.watsons.app",
+                "requiredSkills": []
+            },
+            {
+                "id": "b913db6e-054e-4ffa-9d7e-c866ae1c9285",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Taiwan iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Taiwan (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/%E5%B1%88%E8%87%A3%E6%B0%8F%E5%8F%B0%E7%81%A3/id477968775",
+                "requiredSkills": []
+            },
+            {
+                "id": "4fa0fd5e-6a71-42ef-8447-f91dc1a2d8ed",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.com.tw",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.com.tw website",
+                "requiredSkills": []
+            },
+            {
+                "id": "30684beb-7373-4b24-8fcf-792ce766c8da",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "member.watsons.com.tw",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "The asset is promotion website of watsons.com.tw.",
+                "requiredSkills": []
+            },
+            {
+                "id": "53f2fc22-0e3d-4df5-9504-9be5ff1854b0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.com.tw",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.com.tw e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "4bb5546a-ba31-4d78-a892-29271d23ef7c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.com.tw",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "12df8e15-0b9e-4c5f-88ef-9348e2084afc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.com.sg",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Singapore.",
+                "requiredSkills": []
+            },
+            {
+                "id": "9a5b33ac-ef06-4b28-a046-912e8027850f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.com.sg",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Singapore mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "a1602fa7-6220-4097-8a5e-bb471158ce97",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Singapore iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Singapore (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/watsons-sg-the-official-app/id449412168",
+                "requiredSkills": []
+            },
+            {
+                "id": "a59dee7b-0214-4e44-841d-294b971a7005",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Singapore Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Singapore Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=com.watsons.sg.android",
+                "requiredSkills": []
+            },
+            {
+                "id": "915c38cf-15d6-42d2-a0d0-822d0803ee31",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.com.sg",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.com.sg website",
+                "requiredSkills": []
+            },
+            {
+                "id": "efc675db-a024-496b-a931-ad2b92a4fb8e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.com.sg",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.com.sg e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "f911d408-c918-405e-8a78-42ad51ea9719",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.com.sg",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "cd3c16b4-3d59-4600-8f44-8246108aa3cb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.com.ph",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Philippines.",
+                "requiredSkills": []
+            },
+            {
+                "id": "a09f680a-c1bf-470c-aac7-1c3dae2152e5",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Philippines iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Philippines (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/watsons-philippines/id1438203234",
+                "requiredSkills": []
+            },
+            {
+                "id": "a0f2e4bc-0818-4830-9600-73997066d2a4",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Philippines Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Philippines Mobile (Android) app. \nApp Link:https://play.google.com/store/apps/details?id=com.mtelnet.watson.ph",
+                "requiredSkills": []
+            },
+            {
+                "id": "73c84ef3-c34c-457d-b445-a58ed5c23d01",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.com.ph",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.com.ph website",
+                "requiredSkills": []
+            },
+            {
+                "id": "b6574379-8266-42c8-b58f-ec5380e4b9ee",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.com.ph",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Philippines mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "e97df847-971e-40e5-a80b-b671d2ec1215",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "community.watsons.com.ph",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "The asset is community forum of watsons.com.ph.",
+                "requiredSkills": []
+            },
+            {
+                "id": "1a82bc94-b423-4778-9d6b-0eefe13a457f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.com.ph",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.com.ph e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "bbaaea56-8985-4026-a276-affc1da76b63",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.com.ph",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "d13e6825-4e6c-4deb-a385-11f5f09d1248",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.lookatme.com.ph",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4286f342-5ff9-4a34-bdac-2b9a0d3994bc",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "LookAtMe Philippines Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "53b0248a-7b4b-4a55-850b-8ea5bfa61970",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "LookAtMe Philippines iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1012a6c4-f7fb-4c5e-b207-1ea50265e878",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.lookatme.com.ph",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ed013cdb-3feb-4ccd-9de1-86da1ccf0901",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.lookatme.com.ph",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "35daea5e-0a44-49db-a64e-cb7fb2e9c241",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.lookatme.com.ph",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a6f1f8d7-ff46-485f-8fe9-bbed1ab52422",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.com.my",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Malaysia.",
+                "requiredSkills": []
+            },
+            {
+                "id": "5e24f40a-a860-433c-af7a-8d7dd0a22a49",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.com.my",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Malaysia mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "dc2e58f4-e57f-495f-be83-0e264addae5a",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Malaysia Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Malaysia Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=com.watsons.mcommerce",
+                "requiredSkills": []
+            },
+            {
+                "id": "b47573ed-0417-4a94-89da-1f952bd610b7",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Malaysia iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Malaysia (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/watsons-my/id1112796292",
+                "requiredSkills": []
+            },
+            {
+                "id": "f358f6a9-f0a9-4050-a893-ea5e931b8056",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.com.my",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.com.my website",
+                "requiredSkills": []
+            },
+            {
+                "id": "59389f13-e579-4d04-8b6d-665267c332ba",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "community.watsons.com.my",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "The asset is community forum of watsons.com.my.",
+                "requiredSkills": []
+            },
+            {
+                "id": "1a036d6a-ea41-4fd1-8ec6-c4ca1157c920",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.com.my",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.com.my e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "ff2ba7a7-bd04-4654-acda-e71d781da6e9",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.com.my",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "ccd08792-96c7-4770-a571-f76d3d27e5ec",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.co.id",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Indonesia.",
+                "requiredSkills": []
+            },
+            {
+                "id": "f0c406e5-fa1e-494a-8f68-5d3cf39313ac",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.co.id",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Indonesia mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "15ef2fa0-62c5-4df0-9b34-56e6ea30eb4e",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Indonesia Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Indonesia Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=com.watsons.id.android",
+                "requiredSkills": []
+            },
+            {
+                "id": "dc2f720c-e564-4348-884d-04b90f4887a5",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Indonesia iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Indonesia (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/watsons-id/id1184851346",
+                "requiredSkills": []
+            },
+            {
+                "id": "4dbb0f5f-2e80-4adb-b773-083b5d66ae7c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.co.id",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.co.id website",
+                "requiredSkills": []
+            },
+            {
+                "id": "be1a43d2-5de3-43af-8caa-bfc6f90e7e70",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.co.id",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.co.id e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "6f7e47c4-caed-4e1b-a273-eaaae8fa85ea",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.co.id",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "66c31029-626f-400f-a5d8-d7da35fcd025",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.vn",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Vietnam.",
+                "requiredSkills": []
+            },
+            {
+                "id": "6f8b6ceb-0bef-4c2c-ac7a-23796a867549",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.watsons.vn",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Vietnam mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "7a082274-f794-4fcd-be24-0075d6b6e4be",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Vietnam iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Vietnam (iOS) app.\nApp link:\u00a0https://apps.apple.com/in/app/watsons-vietnam/id1446869800",
+                "requiredSkills": []
+            },
+            {
+                "id": "0a913fa6-3826-4458-8d2b-08ff98aa6a64",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Vietnam Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Vietnam Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=com.watsons.vn.android",
+                "requiredSkills": []
+            },
+            {
+                "id": "1c6d57af-309f-41cf-98f8-2a2e989584fd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.vn",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.watsons.vn website",
+                "requiredSkills": []
+            },
+            {
+                "id": "9b51bbf9-ef0e-4a6c-a1cb-0154a91af840",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.watsons.vn",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.watsons.vn e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "bdf31b4e-4425-49dd-8d90-42c36b0b0408",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.vn",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "dc58c06b-3da1-4ccb-bdc6-e0a2fd936639",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.pns.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for ParkNShop Hong Kong.",
+                "requiredSkills": []
+            },
+            {
+                "id": "e641252b-2e54-4002-b955-74d88d78270e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.pns.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the PNS mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "8f8a5411-8ebe-4489-b336-6df36e66689a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.pns.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.pns.hk website",
+                "requiredSkills": []
+            },
+            {
+                "id": "dd06a644-fdd2-4ae2-b5bb-e517e6e4be13",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "PNS iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our PNS (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/parknshop/id840837558",
+                "requiredSkills": []
+            },
+            {
+                "id": "a9c547e5-f9ba-4b06-bb03-38eb6e2cdeee",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "PNS Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our PNS Mobile (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=com.parknshop.parknshopapp",
+                "requiredSkills": []
+            },
+            {
+                "id": "33d98837-854e-4a72-8f04-d0c2155e6a78",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.pns.hk",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.pns.hk e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "9b84f042-9c96-4c13-b016-050958bf5ae5",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.pns.hk",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "cd97de60-dcfb-434f-a1d1-ede4141b0e54",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.parknshop.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "18baf532-a0bb-4a4d-a5ca-ab1552089d46",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.fortress.com.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for Fortress Hong Kong.",
+                "requiredSkills": []
+            },
+            {
+                "id": "29c376a1-6cbd-4297-bab7-fb0ae52a8e17",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www10.fortress.com.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Fortress Hong Kong mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "ea2ee105-8e41-41a8-9f51-39acf19b1c49",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Fortress Hong Kong Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Fortress (Android) app. \nApp Link: https://play.google.com/store/apps/details?id=fortress.fortressapp",
+                "requiredSkills": []
+            },
+            {
+                "id": "c8a4865e-2af3-4eb4-a843-b9f3cebbcf40",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Fortress Hong Kong iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Fortress (iOS) app.\nApp link:\u00a0https://apps.apple.com/hk/app/fortress/id1133110850",
+                "requiredSkills": []
+            },
+            {
+                "id": "8163cdd9-aba9-4f23-b44b-8ebaca28975f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.fortress.com.hk",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.fortress.com.hk website",
+                "requiredSkills": []
+            },
+            {
+                "id": "49a0ba40-e6e2-4cae-8484-992b1c0a619c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "medias.fortress.com.hk",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the www.fortress.com.hk e-commerce website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "d93f3bca-fdd9-492f-8293-2d089959dd68",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.fortress.com.hk",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "8ff22f18-9f28-4372-9187-b7fe635b22e2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.moneyback.com.hk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the Moneyback website, our Hong Kong loyalty reward program. MoneyBack has turned shopping into fantastic rewards for families across Hong Kong.",
+                "requiredSkills": []
+            },
+            {
+                "id": "56751632-7153-4c82-be35-72e986178bd0",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Moneyback Android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Moneyback (Android) app.\nApp link: https://play.google.com/store/apps/details?id=com.asw.moneyback",
+                "requiredSkills": []
+            },
+            {
+                "id": "ad2f9df2-18bc-47bd-b7ea-d0a334c910dc",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Moneyback iOS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Moneyback (iOS) app.\nApp link: https://apps.apple.com/hk/app/moneyback/id1230818544",
+                "requiredSkills": []
+            },
+            {
+                "id": "ed8ba9ab-5d7c-4412-9e74-f0f7acfc2db0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mapi.moneyback.com.hk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API Server for our MoneyBack Mobile app.",
+                "requiredSkills": []
+            },
+            {
+                "id": "f7383529-5947-4dd3-ba08-aadfad08f00e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.moneyback.com.hk",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "d51fd772-1fae-433e-a6ff-2758f81b5b20",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsons.com.tr",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Turkey.",
+                "requiredSkills": []
+            },
+            {
+                "id": "c30b8e7e-47a6-4a8f-a8b2-51ff3b2ab637",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Watsons Turkey Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Turkey (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=com.mobular.watsons",
+                "requiredSkills": []
+            },
+            {
+                "id": "76b7c85d-9365-4b28-bd96-dfb4b7e0d6b2",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Watsons Turkey iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Watsons Turkey (iOS) app.\nApp link:\u00a0https://apps.apple.com/tr/app/watsons-kozmetik-ve-al%C4%B1%C5%9Fveri%C5%9F/id1507132907",
+                "requiredSkills": []
+            },
+            {
+                "id": "592b28c9-d053-4415-8d04-e6c09469b6af",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.watsons.com.tr",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Watsons Turkey mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "e5a9e2b2-52f0-4842-9f1b-e735842900e0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.watsons.com.tr",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.watsons.com.tr\u00a0website\nAPI spec:\u00a0https://api.watsons.com.tr/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "04470e7d-bb9c-4f21-a56d-4a7075a56879",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "blog.watsons.com.tr",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the blog website for Watsons Turkey.",
+                "requiredSkills": []
+            },
+            {
+                "id": "391cd841-7869-4537-a481-2f3cb951e1e0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "c2434341-bf83-461e-abae-9a98e91accca",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "adayevrak.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is an HR related application from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "e726c59c-eb40-4ed8-9eee-6c3007774984",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "katalog.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "f37c3e44-6302-49d3-bd58-cf69b82d1f82",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.watsonsbeautystudio.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is Watsons Turkey's Beauty Studio website",
+                "requiredSkills": []
+            },
+            {
+                "id": "f6d8a99f-df6f-4cfa-806d-d75055aef49d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ik.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is an HR related application from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "3e54da69-12ea-42e8-9fd5-cb26900ea7a1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "gc.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "5acc1039-36d1-495d-9fa6-78b5aa150f23",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "odul.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "106705f7-39a1-4db3-85ba-d6bbacba6db3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wasapi.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the API server for the odul.watsons.com.tr application",
+                "requiredSkills": []
+            },
+            {
+                "id": "4560a25e-ca8d-434b-b034-5fa8c4798c2f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.watsons.com.tr\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "af0629dc-fa47-4c72-9786-f51b930b95f5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "scp.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a supplier portal from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "b4fe3065-cf67-4411-b776-7e0953baa6a4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "scpapi.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the API server for the supplier portal from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "a0c1ef67-ab2b-4148-a3aa-90d0a691f3c1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bulten.watsons.com.tr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Watsons Turkey",
+                "requiredSkills": []
+            },
+            {
+                "id": "4c577c7c-d0dc-4ccd-81ca-186cc318e5c7",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.watsons.com.tr",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "c9f5904c-b2c2-4ee2-8a2e-e7885bca1f3f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.drogas.lt",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Lithuania.",
+                "requiredSkills": []
+            },
+            {
+                "id": "10895daa-fd9e-4d71-81ba-99b28cae02aa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.drogas.lv",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our online retail platform for health and beauty products in Latvia.",
+                "requiredSkills": []
+            },
+            {
+                "id": "2ee0091c-ee8f-4db2-b077-1de746eba2e6",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Drogas Latvia Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Drogas Latvia (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=lv.drogas.consumer",
+                "requiredSkills": []
+            },
+            {
+                "id": "9eb51638-86d0-4ac5-ac2b-d151c4fdc939",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Drogas Latvia iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Drogas Latvia (iOS) app.\nApp link:\u00a0https://apps.apple.com/lv/app/drogas/id1564705644",
+                "requiredSkills": []
+            },
+            {
+                "id": "28e6ff1e-cae4-42cb-9239-447b26cd473a",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Drogas Lithuania Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Drogas Lithuania (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=lt.drogas.consumer",
+                "requiredSkills": []
+            },
+            {
+                "id": "1080ed3f-8c02-4c33-9b0d-3d899ab3e237",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Drogas Lithuania iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Drogas Lithuania (iOS) app.\nApp link: https://apps.apple.com/lt/app/drogas/id1571651832",
+                "requiredSkills": []
+            },
+            {
+                "id": "cdbbc3d8-6fdb-4442-861f-717a813b0be3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.drogas.lt",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Drogas Lithuania mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "72be4bed-bb7e-4b72-b2e9-204627203183",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.drogas.lv",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.watsons.com.tr\u00a0website\nAPI spec:\u00a0https://api.drogas.lv/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "45c8b617-c6fc-4de9-899d-2221e196a93f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.drogas.lt",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.drogas.lt\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "6692f439-62e3-49ac-98a4-7ae2330e31bf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.drogas.lv",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Drogas Latvia mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "a3ef9b66-9089-4682-8549-53b2b35b4cb1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.drogas.lt",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.watsons.com.tr\u00a0website\nAPI spec:\u00a0https://api.drogas.lt/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "36d0270d-7745-44c7-9b82-b2e26c967d80",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.drogas.lv",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.drogas.lv\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "ca749b43-97e7-4109-a2a6-b68327c3f55e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.drogas.lt",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Drogas",
+                "requiredSkills": []
+            },
+            {
+                "id": "9f7f1579-3cad-4707-9796-89b81368f8d7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.drogas.lv",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Drogas",
+                "requiredSkills": []
+            },
+            {
+                "id": "b95eaa7e-a456-4716-94ce-f989dae6013a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.drogas.lt",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "943a322b-91d5-4273-9208-cbec849f838e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.drogas.lv",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
                 "requiredSkills": []
             }
         ]
@@ -25111,6 +27247,1074 @@
         ]
     },
     {
+        "id": "ad2bd496-536c-4c24-b885-ce01d66966b9",
+        "handle": "marionnaud",
+        "name": "Marionnaud",
+        "following": false,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 8500.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/aswatson/marionnaud/detail"
+        },
+        "industry": "Retail",
+        "domains": [
+            {
+                "id": "167e09d1-0e91-44d8-9a8f-ed7e7fe6c872",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.fr",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Marionnaud France, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "5455d9e2-9ed5-4bba-ba4b-69ba3aca85a3",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud France Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud France (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=com.marionnaud.marionnaudfrance",
+                "requiredSkills": []
+            },
+            {
+                "id": "9e29290e-e180-45c9-ae5e-abc7318f027f",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud France iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud France (iOS) app.\nApp link:\u00a0https://apps.apple.com/fr/app/marionnaud-france/id1127368763",
+                "requiredSkills": []
+            },
+            {
+                "id": "c3d0c27f-f6c8-4b44-8714-71a6f6409c1e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.fr",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Marionnaud France mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "5d58fc49-acb6-4843-9a76-6d7dfef1d26b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.fr",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.fr e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "ca589da8-81d6-4f73-92cb-92e9dffd31a1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.fr",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6be8876c-f924-438d-a746-19300658ca8a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.marionnaud.fr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "32ef041f-774d-47fc-a9cb-cd7e7ef2c893",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bdes-api.marionnaud.fr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the API for the bdese.marionnaud.fr supplier portal",
+                "requiredSkills": []
+            },
+            {
+                "id": "2951fe8e-d71c-4ec6-87b6-d0383428e700",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bdese.marionnaud.fr",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a supplier portal for Marionnaud France",
+                "requiredSkills": []
+            },
+            {
+                "id": "7e75dbd8-0439-48ed-aa20-7892ddd8423e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.fr",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "cf98c559-f142-4d3b-813b-e3deb10a4b4f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.es",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "50c3eb38-ebf5-4cd8-ae8d-5951c028607f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.paris",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "0e0b56fb-e40f-4b57-b2e7-7e197d05ee30",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "2ad663e9-1df4-4a6b-ab20-1112acae0c15",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.at",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Marionnaud Austria, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "cfafa7b6-2d39-4492-b356-cfa4127928bb",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud Austria iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud Austria (iOS) app.\nApp link:\u00a0https://apps.apple.com/gb/app/marionnaud-%C3%B6sterreich/id1114541888",
+                "requiredSkills": []
+            },
+            {
+                "id": "0f3b8620-5715-4a46-873a-fa4b75cde830",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud Austria Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud Austria (Android) app.\nApp link:\u00a0App Link https://play.google.com/store/apps/details?id=at.marionnaud.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "fc3fee16-5fc2-4b29-8475-a1cc5cfed357",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.at",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Marionnaud Austria mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "c4dbbb48-525b-4b4a-ba5a-77df1707b942",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.at",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.marionnaud.at\u00a0website\nAPI spec:\u00a0https://api.marionnaud.at/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "784f3ba1-2a9c-4187-ad9d-64bf75e9c71b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.at",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.at e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "c87b8205-c5e4-45b3-b114-995b22b0aaeb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.marionnaud.at",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "8bcb3d79-ed54-4b55-98e1-df3fd50c53e7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.marionnaud.at",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "0ecc2e4f-a29b-4933-ba8d-39b8c0f930eb",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.de",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "4f2b3aec-f5d4-4fb7-ac73-5e02b73913ee",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.at",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "eef2ba81-2975-42a4-af12-8b3eea11b922",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.ch",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Marionnaud Switzerland, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "60f49bf5-e9a6-4612-ad91-693847d727d4",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud Switzerland iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud Switzerland (iOS) app.\nApp link:\u00a0https://apps.apple.com/ch/app/id1486316902",
+                "requiredSkills": []
+            },
+            {
+                "id": "ba0e280a-7206-41d9-a2f5-1e189f14e810",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud Switzerland Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud Switzerland (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=ch.marionnaud.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "2fcac315-654e-4019-a07b-cfad9522b3f2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.ch",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Marionnaud Switzerland mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "b2be0a6a-dcf2-4073-b2c8-ec1188016fcf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.ch",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.marionnaud.ch\u00a0website\nAPI spec:\u00a0https://api.marionnaud.ch/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "ddb74825-61d6-4bf9-a234-2c397956140d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.ch",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.ch e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "63bf24a3-14d8-4e91-9530-16d7a0885b97",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.marionnaud.ch",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "0637d132-3f17-4cc0-8523-ab3c0e2aa48e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.marionnaud.ch",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "7b19b127-6a02-4cc6-a5b6-6be3e5348ff5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "extranet.marionnaud.ch",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the extranet for Marionnaud Switzerland",
+                "requiredSkills": []
+            },
+            {
+                "id": "da6345a4-cd21-48cf-9820-5d670177fa45",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.ch",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "ffbc6c83-0b44-4ce6-ba56-d19bc5897300",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.it",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Marionnaud Italy, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "4c694f00-60e8-4677-855f-9051a7ea60a6",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud Italy iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud Italy (iOS) app.\nApp link:\u00a0https://apps.apple.com/it/app/marionnaud/id883671274",
+                "requiredSkills": []
+            },
+            {
+                "id": "27d97718-0e02-4ba2-aeec-e60733938c92",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud Italy Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Marionnaud Italy (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=it.marionnaud.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "32fef0c4-4f91-450b-bb9b-b349acf805ba",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.it",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Marionnaud Italy mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "0c41ac28-a6f4-4770-b109-723d9ee7a642",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.it",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.marionnaud.it\u00a0website\nAPI spec:\u00a0https://api.marionnaud.it/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "69568ea7-3348-437e-8412-b92286f92f7f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.it",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.it e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "e20e45be-077e-4a12-8f3f-6b5012da39b8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.marionnaud.it",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "058b4144-313a-4490-8695-aaf5e8bc3d99",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.marionnaud.it",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "62e334ed-83d0-4676-8f08-324bc686d2ac",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.it",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "6d557d79-0925-4af9-9ec2-73ff05c6c82b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.hu",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is Marionnaud Hungary, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "ba0eae3f-9689-4caf-bbbe-fb5a66b1874f",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud Hungary iOS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Hungary (iOS) app.\nApp link:\u00a0https://apps.apple.com/hu/app/marionnaud-magyarorsz%C3%A1g/id1645840482",
+                "requiredSkills": []
+            },
+            {
+                "id": "e25dd707-069f-483f-bf66-e21821e7b3fa",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud Hungary Android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Hungary (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=hu.marionnaud.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "28419866-6e5f-452e-91a2-149d09af1192",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.hu",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.hu e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "80dbe54f-8351-4dd0-8242-e71437fd1707",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.hu",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server for the\u00a0www.marionnaud.hu\u00a0website\nAPI spec:\u00a0https://api.marionnaud.hu/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "7fc3118f-7b04-47ae-b18c-6d273922f6e7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.hu",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server of the Marionnaud Hungary mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "75cf1a16-4e40-4ba3-93ea-7b063c21a43c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.marionnaud.hu",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "2c8b9061-14b3-4dd5-88ab-fe754e1ead2d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.marionnaud.hu",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "a11227d5-11b9-4cfb-921f-ac33b8a1849f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.hu",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "a46e1e56-3db3-4d1b-9a07-2d7ff9f67378",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.cz",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is Marionnaud Czech Republic, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "725cd7e6-d994-4b73-9010-9cf00ed1f98c",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud Czech Republic iOS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Czech Republic (iOS) app.\nApp link:\u00a0https://apps.apple.com/cz/app/marionnaud-%C4%8Desko/id1641863747",
+                "requiredSkills": []
+            },
+            {
+                "id": "a6c0d870-1ccf-49dd-8593-3bde3d49499d",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud Czech Republic Android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Czech Republic (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=cz.marionnaud.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "04837a51-a1c0-4a58-a724-d2f9a65b1310",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.cz",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.cz e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "d0526967-3b0e-4448-a48e-00a4c4a8839c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.cz",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server for the\u00a0www.marionnaud.cz\u00a0website\nAPI spec:\u00a0https://api.marionnaud.cz/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "b50d35e0-83dd-42e4-b272-81d0223f2dba",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.cz",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server of the Marionnaud Czech Republic mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "6b7d50bc-563e-439d-9ee5-597633ac75e9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.marionnaud.cz",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "6c0e4b8c-d646-4f0f-b1ff-19e8706af16d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.marionnaud.cz",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "f5b73443-9e74-45a0-82b9-5cedbd7f60d5",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.cz",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "6b75f35a-9b11-416c-bf97-b1a8cdeef784",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.ro",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is Marionnaud Romania, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "f9353bb0-302a-4270-9cf4-ae84aba90c7e",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud Romania Android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Romania (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=ro.marionnaud.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "c728f534-7511-423c-bdd8-f3e68a5f9226",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud Romania iOS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Romania (iOS) app.\nApp link:\u00a0https://apps.apple.com/ro/app/marionnaud-romania/id1021924260",
+                "requiredSkills": []
+            },
+            {
+                "id": "03f646e3-29eb-4150-b551-8e9921f7cfee",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.ro",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server for the\u00a0www.marionnaud.ro\u00a0website\nAPI spec:\u00a0https://api.marionnaud.ro/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "568a0616-3eab-47cf-857d-e24a54affead",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.ro",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server of the Marionnaud Romania mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "0d4bb1a7-912d-43c5-90dc-05f1e6b6c6ea",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.ro",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.ro e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "3cf41468-8545-4063-b35e-4af591431c6e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.ro",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "eef86e81-4c1e-4b15-8420-a777651a345f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.marionnaud.sk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is Marionnaud Slovakia, our online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "c7abbdf5-d979-470e-a8af-27e81b7950e6",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Marionnaud Slovakia iOS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Slovakia (iOS) app.\nApp link:\u00a0https://apps.apple.com/gb/app/marionnaud-beaut%C3%A9-soins/id1127368763",
+                "requiredSkills": []
+            },
+            {
+                "id": "25eec5bc-9e71-4c38-921b-6b7d85c27705",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Marionnaud Slovakia Android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Marionnaud Slovakia (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=sk.marionnaud.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "59c0c35c-a126-4bc0-a664-b48bbbe4a965",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.marionnaud.sk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.marionnaud.sk e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "bfc45b13-0d0d-48e6-b835-6ca7bf80a1f2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.marionnaud.sk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server of the Marionnaud Slovakia mobile app",
+                "requiredSkills": []
+            },
+            {
+                "id": "694dae75-f308-41f7-adc1-586fff460b0d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.marionnaud.sk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API server for the\u00a0www.marionnaud.sk\u00a0website\nAPI spec:\u00a0https://api.marionnaud.sk/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "ba64d9f7-25dd-4326-bd65-9ef417ef8cdb",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.marionnaud.sk",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "afaeab02-261f-486e-8a43-4dee76fccabb",
         "handle": "rivianbugbounty",
         "name": "Rivian Bug Bounty",
@@ -26055,6 +29259,178 @@
                     "value": "Out Of Scope"
                 },
                 "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "b1be2cd1-cb7c-4456-86f4-8e541955a51a",
+        "handle": "theperfumeshop",
+        "name": "The Perfume Shop",
+        "following": false,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 8500.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/aswatson/theperfumeshop/detail"
+        },
+        "industry": "Retail",
+        "domains": [
+            {
+                "id": "59177bf9-a537-4f37-a70b-f6447ea3d47c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.theperfumeshop.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is The Perfume Shop, our online Perfumery in the UK",
+                "requiredSkills": []
+            },
+            {
+                "id": "5be52650-bbdd-40e0-9b9c-7a15fba69441",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.theperfumeshop.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the The Perfume Shop mobile app in the UK",
+                "requiredSkills": []
+            },
+            {
+                "id": "0cf50a6f-22de-4974-879f-35944aa245ad",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.theperfumeshop.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.theperfumeshop.com\u00a0website\nAPI spec:\u00a0https://api.theperfumeshop.com/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "b27c783c-5b77-4baf-b683-2d52a3f9879d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.theperfumeshop.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.theperfumeshop.com\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "474d64ca-b905-4aa0-86e7-248a252d7cfd",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "The Perfume Shop Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our The Perfume Shop (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=com.theperfumeshop.customer",
+                "requiredSkills": []
+            },
+            {
+                "id": "cdd9f1cf-e6cd-4a7b-844e-21c9bfb134ef",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "The Perfume Shop iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our The Perfume Shop (iOS) app.\nApp link:\u00a0https://apps.apple.com/gb/app/the-perfume-shop/id1202206665",
+                "requiredSkills": []
+            },
+            {
+                "id": "334ac0f2-79db-4b34-860e-af02e14af464",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.theperfumeshop.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "9b1f1dbb-68ae-404d-a0b8-8f63624da3b9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaigns.theperfumeshop.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "9eedf484-6889-43fb-8957-6f5420109c26",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.theperfumeshop.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from The Perfume Shop",
+                "requiredSkills": []
+            },
+            {
+                "id": "8d84d430-b026-4e86-b67f-fbff855a7c6d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.theperfumeshop.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
                 "requiredSkills": []
             }
         ]
@@ -31332,6 +34708,724 @@
                         "name": "Web Hacking"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id": "d108eca8-374c-4e6f-a996-4af69c7bd079",
+        "handle": "kruidvat",
+        "name": "Kruidvat",
+        "following": false,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 8500.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/aswatson/kruidvat/detail"
+        },
+        "industry": "Retail",
+        "domains": [
+            {
+                "id": "2b163291-42ae-4356-9ca4-d6a134a804ee",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.kruidvat.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Kruidvat NL, our Dutch online Pharmacy.\nAPI spec: https://www.kruidvat.nl/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "790844d1-dc94-46bc-a726-a42eda573ce4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.kruidvat.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is Kruidvat BE, our Belgian online Pharmacy.\nAPI spec: https://www.kruidvat.be/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "4af3cce1-9372-4082-9455-ac6dc499ed9a",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Kruidvat BE iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Kruidvat mobile app for Belgium.\nApp Link:\u00a0https://apps.apple.com/be/app/kruidvat/id1151434781",
+                "requiredSkills": []
+            },
+            {
+                "id": "aab4c615-a8c8-4e1c-9804-5dd8d39bb2f7",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Kruidvat NL iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Kruidvat mobile app for The Netherlands.\nApp Link:\u00a0https://itunes.apple.com/nl/app/kruidvat-mobiele-app/id531631058",
+                "requiredSkills": []
+            },
+            {
+                "id": "fe710753-e137-4016-aa34-628e74f52afe",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Kruidvat BE Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our Kruidvat mobile app for Belgium.\nApp Link:\u00a0https://play.google.com/store/apps/details?id=nl.kruidvat.voordeelkaart",
+                "requiredSkills": []
+            },
+            {
+                "id": "5d70acfe-ece7-4fdb-ad78-a8e734060316",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Kruidvat NL Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "TThis is our Kruidvat mobile app for The Netherlands.\nApp Link:\u00a0https://play.google.com/store/apps/details?id=be.kruidvat.voordeelkaart",
+                "requiredSkills": []
+            },
+            {
+                "id": "bac86cb9-2291-4faf-a926-0eccfdd76f65",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.kruidvatkids.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our Kruidvat Kids e-commerce website, specifically for the daycare market",
+                "requiredSkills": []
+            },
+            {
+                "id": "6d55a9fb-7783-4752-85b6-93c7c0234cd6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "speelgoedfolder.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "64a98225-636a-4c50-87a0-39de651f1be2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "depliantdejouets.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "36f0e1ee-a4ac-4310-b786-a174de28815f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "folder.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "afc76661-1c13-4a59-9723-45d8ca3f88d4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "folder.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "08b90d76-e35c-4a61-9274-bfd3b93883ab",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "speelgoedfolder.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "7c85ed88-3230-4386-8eca-5a4941eab5e5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-static.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "a42bad0e-70a7-44cd-8fab-01b014df7f3d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-static.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "f590f8d0-e93e-4612-b637-23f8f6f24a6e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "856d540a-56ad-4f6d-a48c-a30f6aa68713",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "magazine.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "8118daa4-b9fa-4294-a570-6be4b0a2ebf2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "44cd289e-64fc-4e8a-84e5-61f33c431912",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "9e77e665-886b-44f9-938a-acaa5dcc3e71",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "e3574f48-88e0-4916-bda0-460b62a8c3cc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign-uat.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "c588508c-e128-4018-887d-d1f274915d2a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign-uat.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "f8635786-26fa-4a68-bd0c-981577104741",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cewe.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Netherlands Fotoservice by CEWE",
+                "requiredSkills": []
+            },
+            {
+                "id": "81721968-ec53-4073-a307-de32ca988438",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cewe.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Belgium Fotoservice by CEWE",
+                "requiredSkills": []
+            },
+            {
+                "id": "d140e40c-c008-4142-b07c-3090c94cadd7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cewetest.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Netherlands Fotoservice by CEWE",
+                "requiredSkills": []
+            },
+            {
+                "id": "f58ca40f-0964-4333-8580-44a1f02e38e0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cewetest.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Belgium Fotoservice by CEWE",
+                "requiredSkills": []
+            },
+            {
+                "id": "aa84f447-0a5e-473b-ab38-90bc966ddbb7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "digital.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "d9732757-7c85-4d41-8bcd-f00a055a1ad3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "digital.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "d7480eec-444c-4275-a684-f2b14bbd00dc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "foto.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Belgium Fotoservice by our own brand",
+                "requiredSkills": []
+            },
+            {
+                "id": "fec3a4c9-a92a-49b1-a732-2e28a24b1975",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "foto.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Netherlands Fotoservice by our own brand",
+                "requiredSkills": []
+            },
+            {
+                "id": "909be33d-8874-4ba4-98e5-add5acb34cd0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "fotoservice.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Netherlands Fotoservice by our own brand",
+                "requiredSkills": []
+            },
+            {
+                "id": "522118a5-25c8-40b7-9fe6-275b41ff0d47",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "fotoservice.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Belgium Fotoservice by our own brand",
+                "requiredSkills": []
+            },
+            {
+                "id": "918231e2-b7d4-497b-8b46-3c418859f9e0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "photo.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Belgium Fotoservice by our own brand",
+                "requiredSkills": []
+            },
+            {
+                "id": "a60e9cfe-25ed-4ce4-8468-ee27b8b483f9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "service.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "7583ea26-753f-411f-a66f-d56443a31825",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "service.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "0ca1d820-17a1-4daf-8077-278896ea4849",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "servicefr.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "3df47908-a34b-4fef-a9aa-73eca5d511e2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.cewe.kruidvat.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Belgium Fotoservice by CEWE",
+                "requiredSkills": []
+            },
+            {
+                "id": "109de42d-d675-49fe-8441-7190473f79ce",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.cewe.kruidvat.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our third party website from the Kruidvat Netherlands Fotoservice by CEWE",
+                "requiredSkills": []
+            },
+            {
+                "id": "e42371af-d430-4e44-baf7-f292e2423aef",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kruidvatkids.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "4fe87ae8-b835-409c-be4b-0d6762a540ca",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kruidvat.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "a63a613d-9536-49a2-8aa7-433ee2e28959",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kruidvat.be",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "8ded7e64-97bf-4ade-b290-fd22eff87b25",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.trekpleister.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "\"This is Trekpleister, our Dutch online Pharmacy.\nAPI spec:\u00a0https://www.trekpleister.nl/api/v2/api-docs\"",
+                "requiredSkills": []
+            },
+            {
+                "id": "b19771f2-46b1-4953-bcb5-4c6f629bf114",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign.trekpleister.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "e173615f-7b8b-45bb-ad53-959b43fcb0e6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campaign-uat.trekpleister.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "a7c1865e-9198-4af6-9d9e-8145feac8822",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "ecom-data.trekpleister.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "0a1e1e2a-4efd-49de-a41c-74ce560fe928",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "service.trekpleister.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "3607a9b0-47d0-4d98-a880-c42fef9ef18f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "folder.trekpleister.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from Kruidvat",
+                "requiredSkills": []
+            },
+            {
+                "id": "682bd1c7-aaea-4fd0-83cc-8d903387e14f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.trekpleister.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "b479074f-1596-42fe-816b-3c112b329ec2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.prijsmepper.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is the website for the Prijsmepper brand",
+                "requiredSkills": []
+            },
+            {
+                "id": "1cbcae34-eaa1-4277-a6d6-7d39dea95f6a",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.prijsmepper.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
             }
         ]
     },
@@ -38730,6 +42824,556 @@
                     "value": "Out Of Scope"
                 },
                 "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "f6f576c3-c066-4be1-9d0b-f6d934d682f6",
+        "handle": "iciparisxl",
+        "name": "ICI PARIS XL",
+        "following": false,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 8500.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/aswatson/iciparisxl/detail"
+        },
+        "industry": "Retail",
+        "domains": [
+            {
+                "id": "b1058151-f35f-452d-b7fc-fee55ca082fc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.iciparisxl.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is ICI Paris XL NL, our Dutch online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "baf03ae8-345f-48ed-a5e9-a6519a6e674d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.iciparisxl.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is ICI Paris XL BE, our Belgian online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "298700a1-b0bd-4c15-94a9-d1ba1f7a78b5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.iciparisxl.lu",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is ICI Paris XL LU, our Luxembourgish online Perfumery.",
+                "requiredSkills": []
+            },
+            {
+                "id": "77a4a7d1-307b-4ea4-bb27-c1a161ae0910",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "ICI Paris XL Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our ICI Paris XL (Android) app.\nApp link:\u00a0https://play.google.com/store/apps/details?id=com.iciparisxl.app",
+                "requiredSkills": []
+            },
+            {
+                "id": "d3cdd4d2-94e2-4ab0-9315-bbde20597226",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "ICI Paris XL iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is our ICI Paris XL (iOS) app.\nApp link [https://apps.apple.com/nl/app/ici-paris-xl-beauty/id1061895392](https://)",
+                "requiredSkills": []
+            },
+            {
+                "id": "c933d86a-d454-419e-b3f5-b3d77cc704dc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.iciparisxl.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the ICI Paris XL mobile app in Belgium",
+                "requiredSkills": []
+            },
+            {
+                "id": "fe193566-5075-4019-bacf-9fe7f4154939",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.iciparisxl.lu",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the ICI Paris XL mobile app in Luxembourg",
+                "requiredSkills": []
+            },
+            {
+                "id": "f0b5ccef-0926-4652-a139-430402f36866",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.iciparisxl.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the ICI Paris XL mobile app in the Netherlands",
+                "requiredSkills": []
+            },
+            {
+                "id": "13224bd1-d975-4441-9f39-c8044dd9e0b4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.iciparisxl.lu",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.iciparisxl.lu\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "3100651b-b7aa-4d6c-99d2-33f90cf9b491",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.iciparisxl.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.iciparisxl.nl\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "b6840abb-4ffe-488e-b763-2018a8b9bcbc",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.iciparisxl.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the\u00a0www.iciparisxl.be\u00a0e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "72625360-9ce3-4678-8163-89c9af07f72d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.iciparisxl.lu",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.iciparisxl.lu\u00a0website\nAPI spec:\u00a0https://api.iciparisxl.lu/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "c640f827-6802-450f-bb45-d362583a1768",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.iciparisxl.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.iciparisxl.nl\u00a0website\nAPI spec:\u00a0https://api.iciparisxl.nl/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "c92efc86-0f4f-4311-a786-34efc2b50dfe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.iciparisxl.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the\u00a0www.iciparisxl.be\u00a0website\nAPI spec:\u00a0https://api.iciparisxl.be/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "6187adc9-a07e-408b-8fa3-82ebce204155",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.iciparisxl.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a referral page to the ICI Paris XL e-commerce websites",
+                "requiredSkills": []
+            },
+            {
+                "id": "745ef8cf-b420-4bbc-8849-06a68ce6402b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "xlence.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "ad702280-b554-47c2-90e6-8c8edd87620e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "newsletter.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "10936206-c782-4e15-9ab2-e40bcfb53621",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "newsletter-feedback.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "c2573aac-c32f-4cda-9350-cabe28e9334d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "beauty-and-you.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "b54a101e-a5a7-4ef5-ac37-6eda034ff544",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "folder.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "ec41d19a-322d-4faa-b084-4bee60d268a6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "folders.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "3a8acb97-16f8-428b-a14e-f9fca3f2948b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "edition.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a marketing related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "1d7d9105-45d8-4a58-b9ed-500296deb985",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "servicefr.iciparisxl.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "995d54f2-b0de-4a73-84c6-52091ccdf116",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wifi-in-store.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is an application used to connect to in-store WIFI in the ICI Paris XL stores",
+                "requiredSkills": []
+            },
+            {
+                "id": "35dc8db9-989b-4312-a976-6e5d45e5771d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wifi-in-store.iciparisxl.lu",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is an application used to connect to in-store WIFI in the ICI Paris XL stores",
+                "requiredSkills": []
+            },
+            {
+                "id": "c53670cc-04aa-46b5-891b-d95766d3140c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "wifi-in-store.iciparisxl.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is an application used to connect to in-store WIFI in the ICI Paris XL stores",
+                "requiredSkills": []
+            },
+            {
+                "id": "4a4ee203-b895-4be4-ab42-0f7f0216332f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "service.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "da84c9df-17e3-4f33-888b-d2cecac722c3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "servicefr.iciparisxl.lu",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "547f02d0-e4f8-48a7-a365-4b0281183c30",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campagne.iciparisxl.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "23168f1a-3cb2-43f0-8f0c-7d055f67c911",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campagne.iciparisxl.lu",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "c608a5c7-d6e1-433d-b3f6-d5e581fc2ae2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "campagne.iciparisxl.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "An Adobe Campaign application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "98c5fd19-edea-45af-a3df-2841b6cb9d85",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "servicenl.iciparisxl.be",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is a customer service related application from ICI Paris XL",
+                "requiredSkills": []
+            },
+            {
+                "id": "211a51cc-fd68-466d-b84b-4daafb2fac74",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.iciparisxl.lu",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b4dbe76b-1f16-4176-aaea-3a9a9ae6686d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.iciparisxl.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "4ba42e16-9e13-47e9-874c-59a878883251",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.iciparisxl.be",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "5e5d2d36-b9cf-49fb-8eff-05d5645ac911",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.pourvous.nl",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "This is our Pour Vous e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "d15c0377-b89c-4ded-9cb7-f91661b49ac2",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.pourvous.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
                 "requiredSkills": []
             }
         ]
