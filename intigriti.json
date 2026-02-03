@@ -2605,8 +2605,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -21438,76 +21438,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "8ff22f18-9f28-4372-9187-b7fe635b22e2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.moneyback.com.hk",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is the Moneyback website, our Hong Kong loyalty reward program. MoneyBack has turned shopping into fantastic rewards for families across Hong Kong.",
-                "requiredSkills": []
-            },
-            {
-                "id": "56751632-7153-4c82-be35-72e986178bd0",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "Moneyback Android",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is our Moneyback (Android) app.\nApp link: https://play.google.com/store/apps/details?id=com.asw.moneyback",
-                "requiredSkills": []
-            },
-            {
-                "id": "ad2f9df2-18bc-47bd-b7ea-d0a334c910dc",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "Moneyback iOS",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is our Moneyback (iOS) app.\nApp link: https://apps.apple.com/hk/app/moneyback/id1230818544",
-                "requiredSkills": []
-            },
-            {
-                "id": "ed8ba9ab-5d7c-4412-9e74-f0f7acfc2db0",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mapi.moneyback.com.hk",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This is the API Server for our MoneyBack Mobile app.",
-                "requiredSkills": []
-            },
-            {
-                "id": "f7383529-5947-4dd3-ba08-aadfad08f00e",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.moneyback.com.hk",
-                "tier": {
-                    "id": 7,
-                    "value": "Tier 5"
-                },
-                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
-                "requiredSkills": []
-            },
-            {
                 "id": "d51fd772-1fae-433e-a6ff-2758f81b5b20",
                 "type": {
                     "id": 1,
@@ -21585,8 +21515,8 @@
                 },
                 "endpoint": "blog.watsons.com.tr",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 6,
+                    "value": "Tier 4"
                 },
                 "description": "This is the blog website for Watsons Turkey.",
                 "requiredSkills": []
@@ -21990,6 +21920,76 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "*.drogas.lv",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            },
+            {
+                "id": "8ff22f18-9f28-4372-9187-b7fe635b22e2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.moneyback.com.hk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the Moneyback website, our Hong Kong loyalty reward program. MoneyBack has turned shopping into fantastic rewards for families across Hong Kong.",
+                "requiredSkills": []
+            },
+            {
+                "id": "56751632-7153-4c82-be35-72e986178bd0",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Moneyback Android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Moneyback (Android) app.\nApp link: https://play.google.com/store/apps/details?id=com.asw.moneyback",
+                "requiredSkills": []
+            },
+            {
+                "id": "ad2f9df2-18bc-47bd-b7ea-d0a334c910dc",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Moneyback iOS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Moneyback (iOS) app.\nApp link: https://apps.apple.com/hk/app/moneyback/id1230818544",
+                "requiredSkills": []
+            },
+            {
+                "id": "ed8ba9ab-5d7c-4412-9e74-f0f7acfc2db0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "mapi.moneyback.com.hk",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is the API Server for our MoneyBack Mobile app.",
+                "requiredSkills": []
+            },
+            {
+                "id": "f7383529-5947-4dd3-ba08-aadfad08f00e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.moneyback.com.hk",
                 "tier": {
                     "id": 7,
                     "value": "Tier 5"
@@ -26811,8 +26811,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -26969,8 +26969,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
