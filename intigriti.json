@@ -10268,8 +10268,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -26866,6 +26866,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "4c067865-5046-4f36-9309-1038cf542c53",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-ruby#Vulnerability",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "e1edc961-cb35-40bc-8ede-845ccc6f87ac",
                 "type": {
                     "id": 1,
@@ -26908,6 +26922,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "b0e4280e-a651-4ac1-85d0-8a1dfaecce49",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-ruby#Detection Bypass",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "323e6574-2196-41a2-b5c8-ebc828925a8b",
                 "type": {
                     "id": 1,
@@ -26947,6 +26975,20 @@
                     "value": "Tier 3"
                 },
                 "description": "Tier 3 is for any false positives you encounter with our vulnerability detection. For example, cases where we falsely flag a SQL injection, while the user's input is safely encapsulated in the SQL query.\n\nSeverity assessments are slightly harder for these cases, see \"Severity Assessment\" for more information.",
+                "requiredSkills": []
+            },
+            {
+                "id": "e4495ddd-2ddc-4525-a225-2014db6ae609",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://github.com/AikidoSec/firewall-ruby#False Positive",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
                 "requiredSkills": []
             },
             {
