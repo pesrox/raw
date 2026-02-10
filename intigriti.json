@@ -4251,8 +4251,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -10268,8 +10268,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -23317,6 +23317,20 @@
                     "value": "Tier 2"
                 },
                 "description": "Bild is the largest German tabloid newspaper. \nSome examples of subdomains are \n- angebot.bild.de (offers)\n\nYou are also welcome to create your own account to test our system.",
+                "requiredSkills": []
+            },
+            {
+                "id": "d701fd31-dd52-47d8-b65f-135e5b69da8c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.bild.design",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
                 "requiredSkills": []
             },
             {
