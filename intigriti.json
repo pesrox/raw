@@ -16380,122 +16380,6 @@
         ]
     },
     {
-        "id": "618bdc2f-9207-47cc-8c5c-71b734900359",
-        "handle": "delijn",
-        "name": "De Lijn",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 4,
-            "value": "Suspended"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/delijn/delijn/detail"
-        },
-        "industry": "Transportation & Logistics",
-        "domains": [
-            {
-                "id": "c833f8c9-a5ab-4c27-962b-90f02d320a0a",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "456910787",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "af186597-b2a5-4c15-8c51-1992a68f3376",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "accept.delijn.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "0676077b-3afb-49d4-bcde-b006d35e5484",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api-a.delijn.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "25fd4952-d086-4e35-8842-56f613c2d669",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.delijn.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "82da7d04-8ceb-4bfd-8944-5eebb676922f",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "com.themobilecompany.delijn",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "3115a76e-fb13-480a-8e42-c64979e501fc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.delijn.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            }
-        ]
-    },
-    {
         "id": "61e0e37c-19cc-4abe-af51-108a78bee995",
         "handle": "bmwgroup",
         "name": "BMW Group",
@@ -40981,171 +40865,17 @@
         "industry": "Retail",
         "domains": [
             {
-                "id": "8c2dd3f6-51dd-4d18-81bf-922238cb21ff",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "949829216",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "iOS app of GAMMA NL",
-                "requiredSkills": []
-            },
-            {
-                "id": "2578fff5-3b90-48e3-968f-49140c6fb239",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "950680989",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "iOS app of Karwei",
-                "requiredSkills": []
-            },
-            {
-                "id": "a51f30d1-0256-476f-8547-9d361e34ab86",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "950693949",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "iOS app of GAMMA BE",
-                "requiredSkills": []
-            },
-            {
-                "id": "c752feeb-d95b-4fac-9bb2-6eae96277ca9",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "be.gamma.app.android",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Android app of GAMMA BE",
-                "requiredSkills": []
-            },
-            {
-                "id": "2458a0c9-7639-4d45-9d08-27247bf951a9",
+                "id": "65870cd2-6ef8-44c1-88c4-a3085df8adda",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "kassa.gamma.be/*",
+                "endpoint": "www.gamma.nl/*",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
                 "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "845153aa-bbff-403c-a7ad-6e79b6842ece",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "kassa.gamma.nl/*",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "1816747a-c42c-4d24-858c-a6060071c3e3",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "kassa.karwei.nl/*",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "ae25eeee-6143-47f5-8686-bbecad2dff21",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "mijn.gamma.be/*",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "7ecffc13-5974-4206-ad0c-55cd79a13d19",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "mijn.gamma.nl/*",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "24c571e9-ae1f-4ac7-8841-6d69d9ccd36e",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "mijn.karwei.nl/*",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "49f019a2-a1d7-4327-9c84-b91a14e0c7b4",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "nl.gamma.app.android",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Android app of GAMMA NL",
-                "requiredSkills": []
-            },
-            {
-                "id": "c810191e-89dc-49f4-a115-4df46a4077a3",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "nl.karwei.app.android",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Android app of Karwei",
                 "requiredSkills": []
             },
             {
@@ -41155,20 +40885,6 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "www.gamma.be/*",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "65870cd2-6ef8-44c1-88c4-a3085df8adda",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "www.gamma.nl/*",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -41191,17 +40907,185 @@
                 "requiredSkills": []
             },
             {
-                "id": "84673259-4bb2-4500-aaba-33fbb91ddbba",
+                "id": "845153aa-bbff-403c-a7ad-6e79b6842ece",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.gamma.be/*",
+                "endpoint": "kassa.gamma.nl/*",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2458a0c9-7639-4d45-9d08-27247bf951a9",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "kassa.gamma.be/*",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "1816747a-c42c-4d24-858c-a6060071c3e3",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "kassa.karwei.nl/*",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "7ecffc13-5974-4206-ad0c-55cd79a13d19",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "mijn.gamma.nl/*",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ae25eeee-6143-47f5-8686-bbecad2dff21",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "mijn.gamma.be/*",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "24c571e9-ae1f-4ac7-8841-6d69d9ccd36e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "mijn.karwei.nl/*",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "8c2dd3f6-51dd-4d18-81bf-922238cb21ff",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "949829216",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "iOS app of GAMMA NL",
+                "requiredSkills": []
+            },
+            {
+                "id": "a51f30d1-0256-476f-8547-9d361e34ab86",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "950693949",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "iOS app of GAMMA BE",
+                "requiredSkills": []
+            },
+            {
+                "id": "2578fff5-3b90-48e3-968f-49140c6fb239",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "950680989",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "iOS app of Karwei",
+                "requiredSkills": []
+            },
+            {
+                "id": "21dd6973-6ed4-4714-a829-cae866757272",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "1558129454",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**Out of scope: mail.gamma.be**\n\nThis covers all subdomains of gamma.be not listed in Tier 1",
+                "description": "Our brand new iOS app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the Android version",
+                "requiredSkills": []
+            },
+            {
+                "id": "49f019a2-a1d7-4327-9c84-b91a14e0c7b4",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "nl.gamma.app.android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Android app of GAMMA NL",
+                "requiredSkills": []
+            },
+            {
+                "id": "c752feeb-d95b-4fac-9bb2-6eae96277ca9",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "be.gamma.app.android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Android app of GAMMA BE",
+                "requiredSkills": []
+            },
+            {
+                "id": "c810191e-89dc-49f4-a115-4df46a4077a3",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "nl.karwei.app.android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Android app of Karwei",
                 "requiredSkills": []
             },
             {
@@ -41216,6 +41100,34 @@
                     "value": "Tier 2"
                 },
                 "description": "**Out of scope: mail.gamma.nl**\n\n\nThis covers all subdomains of gamma.nl not listed in Tier 1",
+                "requiredSkills": []
+            },
+            {
+                "id": "84673259-4bb2-4500-aaba-33fbb91ddbba",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.gamma.be/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "**Out of scope: mail.gamma.be**\n\nThis covers all subdomains of gamma.be not listed in Tier 1",
+                "requiredSkills": []
+            },
+            {
+                "id": "8730a180-f81d-4bee-9100-0fec0b3c5b6b",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.karwei.nl/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1",
                 "requiredSkills": []
             },
             {
@@ -41247,20 +41159,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "8730a180-f81d-4bee-9100-0fec0b3c5b6b",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.karwei.nl/*",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "**Out of scope: mail.karwei.nl**\n\n**api.maakafspraak.karwei.nl and maakafspraak.karwei.nl are listed seperately**\n\nThis covers all subdomains of Karwei.nl not listed in Tier 1",
-                "requiredSkills": []
-            },
-            {
                 "id": "80901414-c005-46bf-8875-bf146b9b8cbe",
                 "type": {
                     "id": 7,
@@ -41272,20 +41170,6 @@
                     "value": "Tier 2"
                 },
                 "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "21dd6973-6ed4-4714-a829-cae866757272",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1558129454",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Our brand new iOS app fully dedicated to paint, with nice features to use AR and see how the paint looks on your own wall.\nShares various web views with our website.\n\nTechnically equal to the Android version",
                 "requiredSkills": []
             },
             {
@@ -41303,12 +41187,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "8517d896-60c1-4e8d-ba34-1beaa5469fae",
+                "id": "9b233015-9a5b-4a18-ae8b-608ae7910fa5",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.werkenbijgamma.be",
+                "endpoint": "*.werkenbijgamma.nl",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -41317,12 +41201,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "9b233015-9a5b-4a18-ae8b-608ae7910fa5",
+                "id": "8517d896-60c1-4e8d-ba34-1beaa5469fae",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.werkenbijgamma.nl",
+                "endpoint": "*.werkenbijgamma.be",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
