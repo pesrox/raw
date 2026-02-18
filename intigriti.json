@@ -4251,8 +4251,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16309,8 +16309,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -22710,6 +22710,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "108542b8-3224-40ff-aee3-a31ad9b2c6d2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "fm.voiapp.io",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "3d214482-bcbc-4640-b83a-3885655f4520",
                 "type": {
                     "id": 1,
@@ -22720,7 +22734,35 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Partner API as documented at https://docs.voiscooters.com/",
+                "description": "Partner API as documented at https://docs.voi.com/",
+                "requiredSkills": []
+            },
+            {
+                "id": "881489bf-682f-4650-989c-a86474cf352c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.voi.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This wildcard is intended to cover internally developed applications",
+                "requiredSkills": []
+            },
+            {
+                "id": "202f7e77-3309-47f6-9d5f-1721cbd96c3a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://repair.voiweb.net",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
                 "requiredSkills": []
             },
             {
@@ -22758,20 +22800,6 @@
                     "value": "Url"
                 },
                 "endpoint": "voi.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Informational Website",
-                "requiredSkills": []
-            },
-            {
-                "id": "46b0cc7e-21b3-4226-955e-83ad3827e607",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.voiscooters.com",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
