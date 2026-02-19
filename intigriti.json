@@ -9427,6 +9427,48 @@
         "industry": "Retail",
         "domains": [
             {
+                "id": "8d599810-67ba-441f-a4e8-d7355a30b755",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "callbacks.prod.svc.vintedpay.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d92df62f-8266-4399-80a1-9a925cee3795",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.prod.svc.vintedpay.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d37c2b40-d892-4e26-bf12-4e51881c5825",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*vintedpay.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "35eeb88e-44ab-4b2a-b048-a8e089e655f3",
                 "type": {
                     "id": 7,
