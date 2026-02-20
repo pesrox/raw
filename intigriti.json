@@ -7164,8 +7164,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -9428,8 +9428,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -13238,6 +13238,62 @@
         "industry": "Financial Services & Insurance",
         "domains": [
             {
+                "id": "8d521c48-214f-4eab-9672-1a266067faf8",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.storebrand.se",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e13c90b5-6629-4895-bb99-1f16b75a1268",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.storebrand.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "b2bdecfc-3a14-4eb1-a138-9b98bb5de667",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.cubera.no",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d71e5c4a-ad29-4ee4-9076-9e88cf1f8664",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.cubera.se",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "9d3bb4fb-0af6-4400-aaf0-6c62ec9bc857",
                 "type": {
                     "id": 1,
@@ -13510,20 +13566,6 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "*.storebrandfastigheter.se",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "0dae8a50-00fd-479b-95bf-179bcc7f7cee",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.cubera.no",
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
