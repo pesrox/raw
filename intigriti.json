@@ -9428,8 +9428,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16253,8 +16253,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -22257,13 +22257,18 @@
                     "id": 3,
                     "value": "iOS"
                 },
-                "endpoint": "1617623127",
+                "endpoint": "MyToyota",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
                 "description": "MyToyota mobile iOS application\nhttps://apps.apple.com/be/app/mytoyota/id1617623127",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "6a5ed1ad-7e54-42ef-b368-4694041e064e",
@@ -22271,13 +22276,18 @@
                     "id": 3,
                     "value": "iOS"
                 },
-                "endpoint": "1618744308",
+                "endpoint": "Lexus Link+",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
                 "description": "MyLexus Link+ mobile iOS application\nhttps://apps.apple.com/be/app/lexus-link/id1618744308",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "6827b839-b234-4f27-a8e7-e0a4e60fc101",
@@ -22285,7 +22295,7 @@
                     "id": 2,
                     "value": "Android"
                 },
-                "endpoint": "com.lexus.oneapp.eu",
+                "endpoint": "Lexus Link+",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -22299,13 +22309,18 @@
                     "id": 2,
                     "value": "Android"
                 },
-                "endpoint": "com.toyota.oneapp.eu",
+                "endpoint": "MyToyota",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
                 "description": "MyToyota mobile Android application",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "953db9b0-19e5-451f-a2b2-6c8af9ed72cd",
