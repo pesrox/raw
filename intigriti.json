@@ -9657,11 +9657,11 @@
                     "id": 6,
                     "value": "Tier 4"
                 },
-                "description": "We welcome and accept reports about scam activity related to our brand/products (e.g., phishing sites, fake domains, impersonation accounts, fraudulent apps, or social engineering campaigns). Please include clear evidence (URLs, screenshots, message headers, transaction details where applicable), steps to reproduce/verify, and the estimated impact so we can validate and take action quickly.",
+                "description": "Non-public source code of any automated tool made for Vinted. Failing that: detailed analysis of the tool with identifiable results of its action (such as servers, users or items impacted and time of impact, preferably in a video format)\n\nInside knowledge of any groups working on Vinted (related to scams, fraud, counterfeits, dropshipping, shipment abuse, or any other type of abuse) that would lead to actionable results (tutorials, methods, patterns of operation, infrastructure, indicators of vulnerabilities)\n\nWe are interested in compromised Vinted employees.",
                 "requiredSkills": []
             },
             {
-                "id": "d92df62f-8266-4399-80a1-9a925cee3795",
+                "id": "a845d217-b3ec-4336-b155-c3617e81de15",
                 "type": {
                     "id": 1,
                     "value": "Url"
@@ -9675,7 +9675,7 @@
                 "requiredSkills": []
             },
             {
-                "id": "8d599810-67ba-441f-a4e8-d7355a30b755",
+                "id": "57ba676a-dafd-49eb-b6b3-d8214a0392c9",
                 "type": {
                     "id": 1,
                     "value": "Url"
@@ -9703,26 +9703,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "d37c2b40-d892-4e26-bf12-4e51881c5825",
+                "id": "ec1c58b7-fdc4-40bf-93a3-f7dc06bd3daf",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
                 "endpoint": "*vintedpay.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "34e85458-dc16-4db2-99f5-01d6736303a0",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.people.vinted.*",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -9737,6 +9723,20 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "*.vinted.ca ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "34e85458-dc16-4db2-99f5-01d6736303a0",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.people.vinted.*",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -10089,7 +10089,7 @@
         "name": "Coolblue",
         "following": false,
         "minBounty": {
-            "value": 50.0,
+            "value": 25.0,
             "currency": "EUR"
         },
         "maxBounty": {
@@ -10114,17 +10114,17 @@
         "industry": "Retail",
         "domains": [
             {
-                "id": "0850a5a0-3bcb-4001-a7fd-f9b43570cff6",
+                "id": "4aa3d2bd-d38a-4d0e-b83d-62eee138f178",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "www.coolblue.nl",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
-                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "ai_llm",
@@ -10145,17 +10145,17 @@
                 ]
             },
             {
-                "id": "d1f17fbe-265e-4f41-8ce8-4a6a6f65026f",
+                "id": "cb3039e7-da69-4f28-9932-4bfbe38f26df",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "www.coolblue.be",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
-                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "ai_llm",
@@ -10176,31 +10176,48 @@
                 ]
             },
             {
-                "id": "56f14710-e82d-4873-bac0-6c1af8aa2cbe",
+                "id": "a8fab8d5-eacc-4bb4-a9ff-0b5061517508",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "www.coolblue.de",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
-                "description": "The scope for the program is our whole webshop platform. This includes our customer login, order and payment flows, product, search and filterpages, etc. These are all part of the www-domain.",
-                "requiredSkills": []
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
-                "id": "61b46302-a4c9-448c-8b14-16e834a17aac",
+                "id": "dfde74c8-780a-4dc5-974d-b30495a84fc1",
                 "type": {
                     "id": 2,
                     "value": "Android"
                 },
                 "endpoint": "eu.coolblue.shop",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": "Our Android application.",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "mobile_hacking",
@@ -10209,17 +10226,17 @@
                 ]
             },
             {
-                "id": "aa3fc693-66c1-4e15-96e4-5363f619a338",
+                "id": "21578c23-7cc9-415b-b4bb-1fce17a08a34",
                 "type": {
                     "id": 3,
                     "value": "iOS"
                 },
                 "endpoint": "1174047097",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": "Our iOS application.",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "mobile_hacking",
@@ -10228,17 +10245,17 @@
                 ]
             },
             {
-                "id": "808c72c5-119e-41fe-a9a7-f44921bcaf96",
+                "id": "fb1daeef-729b-48ad-b973-6051525b39cb",
                 "type": {
                     "id": 6,
                     "value": "Other"
                 },
                 "endpoint": "mobile-api.coolblue-production.eu",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
-                "description": "The API used by our mobile applications.",
+                "description": null,
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -10249,90 +10266,6 @@
                         "name": "Mobile Hacking"
                     }
                 ]
-            },
-            {
-                "id": "230cf580-f3b1-484d-b868-37d8bc17e2cc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "arbeitenbeicoolblue.de",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.",
-                "requiredSkills": []
-            },
-            {
-                "id": "7b4a4ed4-168b-42f4-94b9-a69c146b481d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "careersatcoolblue.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.",
-                "requiredSkills": []
-            },
-            {
-                "id": "e083ddbd-0dee-4cfd-89e8-2e545367d182",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "travaillerchezcoolblue.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.",
-                "requiredSkills": []
-            },
-            {
-                "id": "026c7d2d-6b9b-4f26-ae2e-473015954ae9",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "werkenbijcoolblue.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.",
-                "requiredSkills": []
-            },
-            {
-                "id": "a95e54ef-bd88-4a43-aabc-ad85894da03b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "werkenbijcoolblue.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.",
-                "requiredSkills": []
-            },
-            {
-                "id": "257698b0-3e67-4da5-a51e-970877669144",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "werkenbijcoolblue.nl",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Site designed to handle our job offers and vacancies.\nNot developed by Coolblue, but by an external party, so validation and acceptance by the Coolblue-team might take a bit longer.",
-                "requiredSkills": []
             }
         ]
     },
@@ -15783,8 +15716,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -18015,8 +17948,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
