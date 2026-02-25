@@ -6950,8 +6950,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -12028,6 +12028,10 @@
                     {
                         "id": "cloud_hacking",
                         "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
                     }
                 ]
             },
@@ -12055,6 +12059,10 @@
                     {
                         "id": "cloud_hacking",
                         "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
                     }
                 ]
             },
@@ -12127,7 +12135,12 @@
                     "value": "Tier 2"
                 },
                 "description": "The Capital.com API allows direct access to the latest version of our trading engine.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "0c0381c4-3ce1-4b2b-874e-2ccb599bdad4",
@@ -12145,6 +12158,22 @@
                     {
                         "id": "web_hacking",
                         "name": "Web Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
                     }
                 ]
             },
@@ -12168,6 +12197,14 @@
                     {
                         "id": "web_hacking",
                         "name": "Web Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
                     }
                 ]
             },
@@ -39415,7 +39452,32 @@
                     "value": "No Bounty"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    }
+                ]
             },
             {
                 "id": "f8863835-2e2b-40d9-b453-23f1ff5c0edc",
@@ -39429,21 +39491,67 @@
                     "value": "Out Of Scope"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    },
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    }
+                ]
             },
             {
                 "id": "5485d130-45b0-4b67-b2cb-d7da66d618f3",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "www.driessen.nl/mijn/solliciteren/",
+                "endpoint": "www.driessen.nl/mijn/solliciteren/*",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    }
+                ]
             }
         ]
     },
