@@ -14945,8 +14945,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -14968,7 +14968,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "*Requires organization creation see FAQ*\n\nThe primary platform endpoint. You will be redirected to the other endpoits listed below depending on the features you use.\n\n# Non exhaustive list of possible starting points:\n* [Crawlers](https://docs.coveo.com/en/mc2a1538/index-content/crawler-directives) that will visit your malicious pages\n* RCE Sandbox escape from [Indexing Pipeline Extensions](https://docs.coveo.com/en/1556/index-content/indexing-pipeline-extension-overview)\n* In house [OAuth/SAML authorization server](https://docs.coveo.com/en/158/manage-an-organization/use-the-authorization-server-api) vulnerabilities\n* [Search document access permissions](https://docs.coveo.com/en/2007/index-content/permission-sets) violations\n* [Ecommerce](https://docs.coveo.com/en/1499/coveo-for-commerce/coveo-for-commerce) and [Merchandising hub](https://docs.coveo.com/en/o6lb0453/coveo-merchandising-hub/merchandising-hub-interface) vulnerabilities",
+                "description": "*Requires organization creation see FAQ*\n\nThe primary platform endpoint. You will be redirected to the other endpoits listed below depending on the features you use.\n\n# Non exhaustive list of possible starting points:\n* [Crawlers](https://docs.coveo.com/en/mc2a1538/index-content/crawler-directives) that will visit your malicious pages\n* RCE Sandbox escape from [Indexing Pipeline Extensions](https://docs.coveo.com/en/1556/index-content/indexing-pipeline-extension-overview) **WARNING**: Please read the out of scope section for IPE RCE, we will imediately close your requests if you do not meet our report impact requirements\n* In house [OAuth/SAML authorization server](https://docs.coveo.com/en/158/manage-an-organization/use-the-authorization-server-api) vulnerabilities\n* [Search document access permissions](https://docs.coveo.com/en/2007/index-content/permission-sets) violations\n* [Ecommerce](https://docs.coveo.com/en/1499/coveo-for-commerce/coveo-for-commerce) and [Merchandising hub](https://docs.coveo.com/en/o6lb0453/coveo-merchandising-hub/merchandising-hub-interface) vulnerabilities",
                 "requiredSkills": []
             },
             {
