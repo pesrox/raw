@@ -4795,7 +4795,7 @@
     {
         "id": "14b2f2ef-0c38-4da8-ae6d-c1e8fa663860",
         "handle": "salto-ks",
-        "name": "SALTO CloudWorks",
+        "name": "Salto CloudWorks",
         "following": false,
         "minBounty": {
             "value": 10.0,
@@ -4834,6 +4834,52 @@
                     "value": "Tier 1"
                 },
                 "description": "This is our Identity Server which is used for authentication for all our applications. This enables a single users across multiple applications such as Salto KS and XS4 Com. \n\nYou gain access when requesting credentials for our other applications. You can access your IDS profile by signing into one of the applications and clicking on your profile picture (or icon) in the top corner.",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "f278e088-6fb8-4443-bba9-532b559f15c7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://intigriti-accept.saltoks.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Salto KS allows users to easily manage access to their buildings and to track the status of their Salto locks. You will receive an admin account which can be used to create lower privilege users. \n\nCheck out our supper section for useful information on the capabilities of the application: https://support.saltosystems.com/ks/",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "f507d0da-d7d3-4e68-9c74-76682a6fd710",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://clp-accept-user.saltoks.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The API handles all business logic and is what powers Salto KS. Our API is available to integration partners which allows customisation of the Salto KS experience. \n\nCheck out the Swagger for more information: https://clp-accept-user.my-clay.com/swagger",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -4922,52 +4968,6 @@
                     "value": "Tier 2"
                 },
                 "description": "The API handles all business logic and is what powers the indoor and outdoor web applications as well as the mobile application.\n\nCheck out the Swagger for more information: https://api-acc.eu.xs4com.app/swagger/index.html.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "f278e088-6fb8-4443-bba9-532b559f15c7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://intigriti-accept.saltoks.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Salto KS allows users to easily manage access to their buildings and to track the status of their Salto locks. You will receive an admin account which can be used to create lower privilege users. \n\nCheck out our supper section for useful information on the capabilities of the application: https://support.saltosystems.com/ks/",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "f507d0da-d7d3-4e68-9c74-76682a6fd710",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://clp-accept-user.saltoks.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The API handles all business logic and is what powers Salto KS. Our API is available to integration partners which allows customisation of the Salto KS experience. \n\nCheck out the Swagger for more information: https://clp-accept-user.my-clay.com/swagger",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -13907,8 +13907,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -14121,8 +14121,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -16733,8 +16733,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -18181,8 +18181,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
