@@ -3039,8 +3039,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -11442,8 +11442,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -12804,122 +12804,6 @@
                     "value": "Out Of Scope"
                 },
                 "description": null,
-                "requiredSkills": []
-            }
-        ]
-    },
-    {
-        "id": "4b42f282-8197-41ec-a623-67f6ba21f914",
-        "handle": "stepstone",
-        "name": "The Stepstone Group",
-        "following": false,
-        "minBounty": {
-            "value": 25.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 2500.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 3,
-            "value": "Registered"
-        },
-        "status": {
-            "id": 4,
-            "value": "Suspended"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/axelspringerse/stepstone/detail"
-        },
-        "industry": "Media & Entertainment",
-        "domains": [
-            {
-                "id": "42dbedca-548f-4a3a-ac92-3eb545b4bc1b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "api.stepstone.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "a0228dbf-be18-457c-ae17-5ed8f31f1efb",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.stepstone.de",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "f0956d58-081b-41ed-a069-6cbdaa3ae9da",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.totaljobs.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "e84d7903-5f3d-403d-98d1-188df9b12986",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "developer.stepstone.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "f2a7eb93-a6ee-4e2b-a08d-55fbef345d7d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.thestepstonegroup.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "b12a8f38-1ded-4fb7-bbfc-c5b3f26bc041",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.stepstonegroup.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "This domain belongs to a company that is not affiliated with our organisation.",
                 "requiredSkills": []
             }
         ]
@@ -33892,6 +33776,94 @@
                     "value": "Out Of Scope"
                 },
                 "description": "## In Scope\n* [Yahoo TW Store Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.ecstore)\n* [Yahoo TW Store iOS](https://itunes.apple.com/tw/app/yahoo%E5%A5%87%E6%91%A9%E8%B6%85%E7%B4%9A%E5%95%86%E5%9F%8E/id778296354?mt=8)\n* Yahoo TW Store\n  * *.tw.mall.yahoo.com\n  * m.mall.yahoo.com\n  * Web: https://tw.mall.yahoo.com/\n  * Mobile Web: https://m.tw.mall.yahoo.com/\n  * API: https://tw.ews.mall.yahooapis.com/\n* Search API: tw.search.ec.yahoo.com\n\n## Out of Scope\n* *.yahoo.com.tw",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "d9bdb5cf-cd43-469b-a777-f550e9d660fb",
+        "handle": "thestepstonegroup",
+        "name": "The Stepstone Group",
+        "following": false,
+        "minBounty": {
+            "value": 25.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/thestepstonegroupgmbh/thestepstonegroup/detail"
+        },
+        "industry": "Media & Entertainment",
+        "domains": [
+            {
+                "id": "922e8072-9cf2-4cd3-b19c-8c9142bf5e0f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.totaljobs.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Our main platform for jobseekers and recruiters in the United Kingdom.\n\nSelf-registration is possible, please use your '@intigriti' email account.",
+                "requiredSkills": []
+            },
+            {
+                "id": "b173ca24-17be-424c-9ba5-c8a4ffad0420",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.stepstone.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Our main platform for jobseekers and recruiters in Germany.\n\nSelf-registration is possible, please use your '@intigriti' email account.",
+                "requiredSkills": []
+            },
+            {
+                "id": "54479168-f652-4891-a80d-6d5de0c6c111",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.thestepstonegroup.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Wordpress instance presenting our groups, our mission and values, and providing the visitor with information about our products.",
+                "requiredSkills": []
+            },
+            {
+                "id": "72c080fb-591e-4d40-ae73-05a865dee12b",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.stepstonegroup.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
                 "requiredSkills": []
             }
         ]
