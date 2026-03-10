@@ -5423,224 +5423,6 @@
         ]
     },
     {
-        "id": "188976b1-e8b3-4132-a6f6-e96113599474",
-        "handle": "oda",
-        "name": "Oda",
-        "following": false,
-        "minBounty": {
-            "value": 75.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 4000.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 4,
-            "value": "Suspended"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/oda/oda/detail"
-        },
-        "industry": "Retail",
-        "domains": [
-            {
-                "id": "74f69a99-622f-4da8-bf5b-562a21bf91b5",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "login.prod.nube.tech",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "ccac0361-df2d-4b54-bfe6-6aa18c27be9d",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1076840480",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Mathem iOS app - used by our swedish customers to order groceries",
-                "requiredSkills": [
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "197b603a-6d2b-46c2-ab41-b16c70b3561c",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "1079537578",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Oda iOS app - used by our norwegian customers to order groceries",
-                "requiredSkills": [
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "e8057e8b-415f-4b43-bc16-5fbdb6c56049",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://mathem.se",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The main shop and brand in Sweden.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "95430c8e-3876-4fa2-a7f6-b53cb513dd5c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://oda.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "The main shop used in Norway.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "4e618c42-fe4c-4f52-80b5-dc4b27096e91",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "no.kolonial.tienda",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Oda android app  - used by our norwegian customers to order groceries",
-                "requiredSkills": [
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "4021567f-803c-4577-9c06-e2f23adcaab4",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "se.mathem.mathem",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Mathem android app - used by our swedish customers to order groceries",
-                "requiredSkills": [
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "244c67c6-985f-4e98-9521-2b38dfc0eab5",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.oda.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "7d314335-120c-4f4f-a91a-240a0fad0c48",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.prod.nube.tech",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Should mostly be internal services",
-                "requiredSkills": [
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id": "196fa177-ac2d-41b0-91bb-07bc9db43b7a",
         "handle": "sbbglobal",
         "name": "SBB - Swiss Federal Railways",
@@ -22964,8 +22746,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -28953,8 +28735,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -30651,8 +30433,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -37377,8 +37159,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
