@@ -1,5 +1,65 @@
 [
     {
+        "title": "DINUM - ProConnect Identit\u00e9 - Public Bug Bounty Program",
+        "slug": "proconnect-identite",
+        "country": "FR",
+        "activity_area": "Government",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 69,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "ea95467c-8879-4258-9953-80b8fe7c5a6a",
+            "original_name": "da0e351a-3d70-49c3-b1a0-935f625faf8e.png",
+            "mime_type": "image/png",
+            "size": 23784,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/ea95467c-8879-4258-9953-80b8fe7c5a6a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
+            "slug": "dinum",
+            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
+                "original_name": "logo-marianne-dinsic-300x300.jpg",
+                "mime_type": "image/jpeg",
+                "size": 45646,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-03-13T09:15:37+01:00",
+        "scopes": [
+            {
+                "scope": "https://identite-sandbox.proconnect.gouv.fr",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "systemd Bug Bounty Program",
         "slug": "systemd-bug-bounty-program",
         "country": "DE",
@@ -839,7 +899,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 668,
+        "reports_count": 669,
         "bounty_reward_min": 1,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -3252,100 +3312,6 @@
         ]
     },
     {
-        "title": "ntpd-rs Bug Bounty Program",
-        "slug": "pendulum-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 139,
-        "bounty_reward_min": 250,
-        "bounty_reward_max": 10000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "1916b960-fd0c-4d43-8644-186a11cbbdf9",
-            "original_name": "bug-bounty-program-thumbnail-v1.png",
-            "mime_type": "image/png",
-            "size": 4497,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1916b960-fd0c-4d43-8644-186a11cbbdf9"
-        },
-        "event": {
-            "name": "Open the code, source the bounty",
-            "slug": "open-the-code-source-the-bounty",
-            "description": "<hr />\n<p>The following programs are currently part of this Open-Source leaderboard:<br />\n<a href=\"https://yeswehack.com/programs/powerdns\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/powerdns\">PowerDNS</a> ; <a href=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/owncloud-bug-bounty-program\">OwnCloud</a> ; <a href=\"https://yeswehack.com/programs/dovecot\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/dovecot\">Dovecot</a> ; <a href=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/sequoia-pgp-bug-bounty-program\">Sequoia PGP</a> ; <a href=\"https://yeswehack.com/programs/gnome-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/gnome-bug-bounty-program\">GNOME</a> ; <a href=\"https://yeswehack.com/programs/log4j-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/log4j-bug-bounty-program\">Apache Log4J</a> ; <a href=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/pendulum-bug-bounty-program\">NTPD-RS</a> ; <a href=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/openpgp-js-bug-bounty-program\">OpenPGP.js</a> ; <a href=\"https://yeswehack.com/programs/systemd-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/systemd-bug-bounty-program\">SystemD</a> ; <a href=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/cyclonedx-rust-cargo-bounty-program\">CycloneDX</a> ; <a href=\"https://yeswehack.com/programs/app-suite\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/app-suite\">OX App Suite</a> ; <a href=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/keycloak-bug-bounty-program\">Keycloak</a> ; <a href=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/jenkins-bug-bounty-program\">Jenkins</a> ; <a href=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bigbluebutton-bug-bounty-program\">BigBlueButton</a> ; <a href=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/imagemagick-bug-bounty-program\">ImageMagick</a> ; <a href=\"https://yeswehack.com/programs/nextcloud\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/nextcloud\">Nextcloud</a> ; <a href=\"https://yeswehack.com/programs/bind-bug-bounty-program\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" title=\"https://yeswehack.com/programs/bind-bug-bounty-program\">Bind 9</a></p>",
-            "start_date": "2024-10-01T01:00:00+02:00",
-            "end_date": null,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            },
-            "banner": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "business_unit": {
-            "name": "Sovereign Tech Agency",
-            "slug": "sovereign-tech-fund",
-            "description": "Securing Open Source Ecosystem",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "a830199e-cc21-46fa-b712-0861b4e5363c",
-                "original_name": "STA-Logo-Short-Color-RGB.png",
-                "mime_type": "image/png",
-                "size": 18245,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/a830199e-cc21-46fa-b712-0861b4e5363c"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-12-16T15:23:33+01:00",
-        "scopes": [
-            {
-                "scope": "https://github.com/pendulum-project/ntpd-rs",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/pendulum-project/timestamped-socket",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/pendulum-project/clock-steering",
-                "scope_type": "open-source",
-                "scope_type_name": "Open Source",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "GOJEK - Public Bounty Program",
         "slug": "gojek-bug-bounty-program",
         "country": "ID",
@@ -3976,7 +3942,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1835,
+        "reports_count": 1836,
         "bounty_reward_min": 100,
         "bounty_reward_max": 7000,
         "scopes_count": 40,
@@ -6285,66 +6251,6 @@
                 "scope": "https://api.sandbox.agora.incubateur.net  (source code available on GitHub, see description)",
                 "scope_type": "api",
                 "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "DINUM - ProConnect Identit\u00e9 - Public Bug Bounty Program",
-        "slug": "proconnect-identite",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 69,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "ea95467c-8879-4258-9953-80b8fe7c5a6a",
-            "original_name": "da0e351a-3d70-49c3-b1a0-935f625faf8e.png",
-            "mime_type": "image/png",
-            "size": 23784,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/ea95467c-8879-4258-9953-80b8fe7c5a6a"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
-            "slug": "dinum",
-            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
-                "original_name": "logo-marianne-dinsic-300x300.jpg",
-                "mime_type": "image/jpeg",
-                "size": 45646,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-09-15T12:14:04+02:00",
-        "scopes": [
-            {
-                "scope": "https://identite-sandbox.proconnect.gouv.fr",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             }
@@ -9966,7 +9872,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 117,
+        "reports_count": 118,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 1,
