@@ -11234,37 +11234,7 @@
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/skodaauto/skodaautoprivatebugbountyprogram/detail"
         },
-        "industry": "Manufacturing - Consumer",
-        "domains": [
-            {
-                "id": "1a009af5-03e1-4c22-bee5-7cd52add1cb2",
-                "type": {
-                    "id": 3,
-                    "value": "iOS"
-                },
-                "endpoint": "https://apps.apple.com/cz/app/my%C5%A1koda/id1632202810",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "b177593a-bee1-45ec-a024-a7e9716e2a48",
-                "type": {
-                    "id": 2,
-                    "value": "Android"
-                },
-                "endpoint": "cz.skodaauto.myskoda",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            }
-        ]
+        "industry": "Manufacturing - Consumer"
     },
     {
         "id": "43c4b274-ccbd-4ea2-8047-d40b0b4205ac",
@@ -15021,197 +14991,7 @@
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/dpgm/hetlaatstenieuws/detail"
         },
-        "industry": "Media & Entertainment",
-        "domains": [
-            {
-                "id": "6af41ba8-7b36-4706-a684-2d2a38a06f37",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hln.be/inloggen",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "b9bd529f-4251-4874-9241-e41a1c7ee613",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hln.be/login",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "54258031-d1ad-4c7e-8039-6499aad8354a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hln.be/registreren",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "8ce77270-e090-4a7d-88ab-be08f1b3afb1",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hln.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "1da5bea7-5746-4ce3-978e-73bc62c1bf65",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "myaccount.hln.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "94a4bab9-ec67-4c3b-a8b8-c6b71808e044",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.hln.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "excluding\n* hln.be/service\n* hln.be/inloggen\n* hln.be/login\n* hln.be/registreren",
-                "requiredSkills": [
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "c85cbba1-eefe-4cf3-b5b5-f52073e1eb8f",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.hln.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "hardware_iot_firmware",
-                        "name": "Hardware / IoT / Firmware"
-                    },
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "36c740bc-9772-4b4e-9cde-91787ba8f0ec",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "hln.be/service",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            }
-        ]
+        "industry": "Media & Entertainment"
     },
     {
         "id": "5cb6c4a1-0192-4ff7-a237-3f0a666c5461",
@@ -17754,6 +17534,36 @@
         ]
     },
     {
+        "id": "6c8455c8-66b7-4360-bc6d-45b854c6fa85",
+        "handle": "postibugbounty",
+        "name": "Posti Bug Bounty ",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/posti/postibugbounty/detail"
+        },
+        "industry": "Transportation & Logistics"
+    },
+    {
         "id": "6d1b587f-8d04-471f-939e-0ed401537c51",
         "handle": "zowonen",
         "name": "ZOwonen",
@@ -17781,7 +17591,79 @@
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/zowonen/zowonen/detail"
         },
-        "industry": "Real Estate"
+        "industry": "Real Estate",
+        "domains": [
+            {
+                "id": "76fd8959-a50a-4437-a97d-46424138d7bd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "Https://zowonen.mind2pay.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "This is a third party software solution by Mind2Pay designed for payments cli\u00ebnts.\nWhe closed this site for this moment because there is to much traffic to the site.",
+                "requiredSkills": []
+            },
+            {
+                "id": "79bcddaf-674d-413f-a36b-4ac2d36029cd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://portal.24rosa.nl/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is a third party software solution by 24rosa.nl designed for intake of repair requests for our tenants",
+                "requiredSkills": []
+            },
+            {
+                "id": "e962d4c7-96fc-4196-9585-7a3e4864a009",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "klantportaal.zowonen.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Client portal for our residents which has an interface to our ERP.\n\nThe site is closed for this moment.",
+                "requiredSkills": []
+            },
+            {
+                "id": "9895340b-72d2-4854-9c7a-1e65c25be891",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.zowonen.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Our corporate website\n\nThis website is in scope but our rewards are lower as there is no sensitive customer information on this website",
+                "requiredSkills": []
+            },
+            {
+                "id": "95856bb6-9124-43aa-a433-6343f143719c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "zowonen.ucsnet.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our Azure-hosted telephone platform\n\nMore info on our vendor:\nhttps://www.unexus.nl/",
+                "requiredSkills": []
+            }
+        ]
     },
     {
         "id": "72251963-9df7-4fab-af7d-35d0305d63cc",
@@ -19011,247 +18893,7 @@
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/waterlink/water-link/detail"
         },
-        "industry": "Energy, Utilities & Waste",
-        "domains": [
-            {
-                "id": "327d5d79-3f71-47f3-8dd3-fa53b87e58c6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://desktop.water-link.be/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Our Citrix environment for remote access",
-                "requiredSkills": []
-            },
-            {
-                "id": "db15fd95-cad8-4e72-84a9-ef283075550e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://pit.water-link.be/",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Our intranet portal",
-                "requiredSkills": []
-            },
-            {
-                "id": "7b0fee2a-65d6-4c5d-b399-b81025f84903",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.water-link.be/",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "75bfc6e8-d9df-4817-a836-799345462415",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://www.water-link-jaarverslag.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Domain with the annual figures of our organisation.",
-                "requiredSkills": []
-            },
-            {
-                "id": "6cf0cba0-e617-4397-b499-6767badd45bf",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://www.water-link.be",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "This is the general public website for our citizens.",
-                "requiredSkills": []
-            },
-            {
-                "id": "6dfa0865-faa0-42a2-a073-ac951cd68370",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://www.waterstoring.be/",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Here our citizens can check if their is a (un)planned interruption of the watersupply.",
-                "requiredSkills": []
-            },
-            {
-                "id": "4fa17081-1396-4a7f-ade7-9d8ced76261b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "aquawardsspatial.water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "f22e1557-cf9d-478e-b87a-502fc9b03694",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "gisacc(*).water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "0a8f2fed-2a6f-44cc-8505-aa536c152364",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://aquawardsoperate.water-link.be/",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "59ce3ce0-e3a9-4b03-9b3a-749261aa50d2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://aquawardsoperateacc.water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "855c5baf-e6e9-4567-a3fa-d735ad4a7936",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://feedback.water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "SAAS application managed by an external partner",
-                "requiredSkills": []
-            },
-            {
-                "id": "fc29d951-895b-4dee-84fd-80ce754a4f57",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://gis.water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "6d854f94-6a94-424f-8387-c0f3d6b0efa2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://gis1.water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "39dbf1ee-d271-45b6-9ac2-98efa263e271",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://gis2.water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "c99788fb-56b6-456b-8e7d-ca58dcfd10ff",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://jobs.water-link.be",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "SAP application managed by an external partner\n",
-                "requiredSkills": []
-            },
-            {
-                "id": "bbdfd9ae-0ee5-430c-a2a7-c0d35031398b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://wl_acc.water-link.be/",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "dev environment for our public website",
-                "requiredSkills": []
-            },
-            {
-                "id": "1b213311-e95c-4a1e-95eb-ee5165601aaa",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://wl_dev.water-link.be/",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "dev environment for our public website",
-                "requiredSkills": []
-            }
-        ]
+        "industry": "Energy, Utilities & Waste"
     },
     {
         "id": "7e3ebdf6-3679-418d-b3e6-faa1fc6344bb",
@@ -27200,8 +26842,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -30150,6 +29792,36 @@
         ]
     },
     {
+        "id": "b43c8579-c85d-4aee-8d39-61fa4831409d",
+        "handle": "mlbvdp",
+        "name": "MLB Vulnerability Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/majorleaguebaseball/mlbvdp/detail"
+        },
+        "industry": "Media & Entertainment"
+    },
+    {
         "id": "b962ecba-799e-46b7-a33e-327212bc482e",
         "handle": "exactvulnerabilitydisclosureprogram",
         "name": "Exact Vulnerability Disclosure Program",
@@ -30177,7 +29849,233 @@
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/exact/exactvulnerabilitydisclosureprogram/detail"
         },
-        "industry": "Software"
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "73d3c9c0-5947-4309-8454-b27a1ba74bcf",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.itscope.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "ITscope is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "dbe13781-0294-40ea-a820-e69a1c8d9b75",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.itscope.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "ITscope  is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "c02c6c68-aac9-4324-9ae5-5eb2d5b68643",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.itscope.de",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "ITscope  is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "b42b9abb-d392-4eb9-9d10-89ac021894e6",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.itscope.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "ITscope  is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "c6bce3bb-e4eb-4d9a-b6ad-08af5e48f188",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.gripp.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Gripp is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "b1fa0e57-9daf-4cd4-a5e4-121a07b0c57b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.gripp.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "Gripp is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "e8699fd5-9733-493c-8bd3-afab25caf3f5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.fiscaalgemak.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "Fiscaalgemaak is a Product of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "a69266fd-b511-43bc-b400-b6db72e302f8",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.fiscaalgemak.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Fiscaalgemaak is a Product of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "2c16e93c-e434-4edc-b3cb-29332d0e1f2b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.bouw7.nl",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "Bouw7 is a Product of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "7f4b0dea-f729-4303-8fdc-46732acc7b47",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.bouw7.nl",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Bouw7 is a Product of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "808bb40d-7f6f-43a3-b841-a5a404eaf9bb",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.horeko.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Horeko is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "198cc389-7f20-4027-80b5-23310960cf0c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.horeko.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "Horeko is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "8925691f-568a-472b-a2d6-ba4c084250ae",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.weclapp.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "weclapp is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "4f85c637-93cf-4c61-9b96-d7c0fa5d6350",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.weclapp.com",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "weclapp is part of Exact Group",
+                "requiredSkills": []
+            },
+            {
+                "id": "c29dd126-de05-4e28-822f-a4a9a03aab94",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "All Exact Group Related Domains",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f3e629d7-ac7f-4496-813c-6e25f62d9a18",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://www.exact.com/*",
+                "tier": {
+                    "id": 7,
+                    "value": "Tier 5"
+                },
+                "description": "Marketing website of Exact Group",
+                "requiredSkills": []
+            }
+        ]
     },
     {
         "id": "b98261a6-2339-4325-b00b-008e24b28e88",
@@ -35004,23 +34902,7 @@
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/anacondainc/anacondavdp/detail"
         },
-        "industry": "Software",
-        "domains": [
-            {
-                "id": "6ef593d0-a5c0-40ca-b3e9-24ccf81b9e69",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "anaconda.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            }
-        ]
+        "industry": "Software"
     },
     {
         "id": "e540980d-b56e-4956-afff-f914653a4f6e",
@@ -37303,8 +37185,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
