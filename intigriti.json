@@ -7006,8 +7006,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -18101,8 +18101,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -28587,6 +28587,52 @@
                     "value": "Tier 5"
                 },
                 "description": "This asset contains all other applications on this wildcard not explicitly mentioned elsewhere in the scope",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "ad9f9711-339c-4519-a193-fea9350cd6db",
+        "handle": "challenge0326",
+        "name": "Challenge 0326",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge0326/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "a8bcebae-b51a-4c88-b958-e2c643559a85",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://challenge-0326.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
                 "requiredSkills": []
             }
         ]
