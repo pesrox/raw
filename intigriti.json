@@ -12134,8 +12134,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -33934,229 +33934,6 @@
                 ]
             },
             {
-                "id": "53f03f9c-f8ce-4376-8430-7e45e4c84be9",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/do-agent",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "A daemon that helps collect system metrics from droplets",
-                "requiredSkills": [
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "a5d2b4cf-233d-461a-a402-3d02de483266",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/droplet-agent",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "A daemon that enables web console access on droplets",
-                "requiredSkills": [
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    },
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "00fa5b59-f038-4c49-99da-bd64e621f43e",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/doctl",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "The official command line interface for the DigitalOcean API",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "5de1c650-744a-48c5-95cd-dc0e9d9fe250",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/action-doctl",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "GitHub Actions for DigitalOcean - doctl",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    },
-                    {
-                        "id": "supply_chain",
-                        "name": "Supply Chain"
-                    }
-                ]
-            },
-            {
-                "id": "dd41bc97-b02d-43fc-8148-5f138775e2d2",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/godo",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "DigitalOcean's Go API client",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    },
-                    {
-                        "id": "supply_chain",
-                        "name": "Supply Chain"
-                    }
-                ]
-            },
-            {
-                "id": "1063153f-3106-432a-9d1e-8ed0775ed6bf",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/pydo",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "DigitalOcean's Python API client",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    },
-                    {
-                        "id": "supply_chain",
-                        "name": "Supply Chain"
-                    }
-                ]
-            },
-            {
-                "id": "1328a39c-4d53-4934-ba8c-1ef49a49c471",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/terraform-provider-digitalocean",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "DigitalOcean's official Terraform provider",
-                "requiredSkills": [
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "b60bcdcf-3cfd-4df1-986b-53933f128212",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/go-nbd",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Golang-only network block device client",
-                "requiredSkills": [
-                    {
-                        "id": "network_infrastructure",
-                        "name": "Network / Infrastructure"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "b9245781-2b1f-4886-884d-56b1ae915584",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/do-markdownit",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
                 "id": "700f5797-30a5-4d11-9678-7f7c913baf45",
                 "type": {
                     "id": 1,
@@ -34627,6 +34404,229 @@
                 },
                 "description": null,
                 "requiredSkills": []
+            },
+            {
+                "id": "53f03f9c-f8ce-4376-8430-7e45e4c84be9",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/do-agent",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "A daemon that helps collect system metrics from droplets",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "a5d2b4cf-233d-461a-a402-3d02de483266",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/droplet-agent",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "A daemon that enables web console access on droplets",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "00fa5b59-f038-4c49-99da-bd64e621f43e",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/doctl",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "The official command line interface for the DigitalOcean API",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "5de1c650-744a-48c5-95cd-dc0e9d9fe250",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/action-doctl",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "GitHub Actions for DigitalOcean - doctl",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    }
+                ]
+            },
+            {
+                "id": "dd41bc97-b02d-43fc-8148-5f138775e2d2",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/godo",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "DigitalOcean's Go API client",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    }
+                ]
+            },
+            {
+                "id": "1063153f-3106-432a-9d1e-8ed0775ed6bf",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/pydo",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "DigitalOcean's Python API client",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    }
+                ]
+            },
+            {
+                "id": "1328a39c-4d53-4934-ba8c-1ef49a49c471",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/terraform-provider-digitalocean",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "DigitalOcean's official Terraform provider",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "b60bcdcf-3cfd-4df1-986b-53933f128212",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/go-nbd",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Golang-only network block device client",
+                "requiredSkills": [
+                    {
+                        "id": "network_infrastructure",
+                        "name": "Network / Infrastructure"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "b9245781-2b1f-4886-884d-56b1ae915584",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/do-markdownit",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "00921202-f970-4c64-ac41-301a3380cfbd",
