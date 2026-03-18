@@ -12578,8 +12578,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -13595,34 +13595,6 @@
                     "value": "Tier 2"
                 },
                 "description": "Some assets under this wildcard is protected by [Google IAP](https://cloud.google.com/iap).",
-                "requiredSkills": []
-            },
-            {
-                "id": "0669ada6-d6e7-48a1-8750-f0ef4fec2b2a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "asset-metadata-api.embark.net",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This asset is protected by [Google IAP](https://cloud.google.com/iap).",
-                "requiredSkills": []
-            },
-            {
-                "id": "6472fd85-1c5c-4e26-848d-2d51d71e8458",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "grafana.embark.net",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "This asset is protected by [Google IAP](https://cloud.google.com/iap).",
                 "requiredSkills": []
             },
             {
