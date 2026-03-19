@@ -35744,7 +35744,7 @@
         "name": "AMD Product Security Bug Bounty Program",
         "following": false,
         "minBounty": {
-            "value": 500.0,
+            "value": 0.0,
             "currency": "USD"
         },
         "maxBounty": {
@@ -35756,8 +35756,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -35811,6 +35811,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "d1f68047-fbca-4fee-b159-b2a0a5ffde6c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "No Bounty",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "* Optional tools\n* Installer issues\n* Product-independent software\n* Software for out-of-scope products and technologies\n* *see below for a comprehensive list and descriptions*",
+                "requiredSkills": []
+            },
+            {
                 "id": "04e96f07-6eb0-47ea-a610-672e5fc41c3d",
                 "type": {
                     "id": 6,
@@ -35821,7 +35835,7 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "* Optional tools\n* Installer issues\n* Product-independent software\n* Software for products and technologies for out of scope products\n",
+                "description": "\u2022\tWeb/IT Infrastructure \n\u2022\t3rd Party Component Bugs\n\u2022\tPhysical Attacks\n\u2022\t*see below for a comprehensive list and descriptions*",
                 "requiredSkills": []
             }
         ]
