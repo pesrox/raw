@@ -1,93 +1,5 @@
 [
     {
-        "title": "FranceConnect / FranceConnect+ - DINUM",
-        "slug": "franceconnect-proconnect-public",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 227,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 30000,
-        "scopes_count": 5,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "67037104-87fe-4369-9080-ce3b229bbe78",
-            "original_name": "logo.png",
-            "mime_type": "image/png",
-            "size": 82114,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/67037104-87fe-4369-9080-ce3b229bbe78"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
-            "slug": "dinum",
-            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
-                "original_name": "logo-marianne-dinsic-300x300.jpg",
-                "mime_type": "image/jpeg",
-                "size": 45646,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2026-03-20T15:07:46+01:00",
-        "scopes": [
-            {
-                "scope": "Specific scenarios (see program description)",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "FranceConnect+ (see program description for github link)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "FranceConnect (see program description for github link)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "eIDAS Bridge  (see program description for github link)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "User Dashboard  (see program description for github link)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Infomaniak Bug Bounty program",
         "slug": "infomaniak-bug-bounty-program",
         "country": "CH",
@@ -107,10 +19,10 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1929,
+        "reports_count": 1933,
         "bounty_reward_min": 100,
         "bounty_reward_max": 7000,
-        "scopes_count": 41,
+        "scopes_count": 42,
         "pentest_campaign_status": null,
         "thumbnail": {
             "name": "a8ed0d8c-1e61-434d-997f-e25e3c45f1e8",
@@ -136,7 +48,7 @@
         },
         "hunter_audience": null,
         "scopes_enabled": null,
-        "last_update_at": "2026-03-18T14:58:08+01:00",
+        "last_update_at": "2026-03-24T08:54:32+01:00",
         "scopes": [
             {
                 "scope": "ksuite.infomaniak.com",
@@ -424,6 +336,101 @@
                 "scope_type_name": "Web application",
                 "asset_value": "HIGH",
                 "report_count": null
+            },
+            {
+                "scope": "newsletter.infomaniak.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "FranceConnect / FranceConnect+ - DINUM",
+        "slug": "franceconnect-proconnect-public",
+        "country": "FR",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 228,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 30000,
+        "scopes_count": 5,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "67037104-87fe-4369-9080-ce3b229bbe78",
+            "original_name": "logo.png",
+            "mime_type": "image/png",
+            "size": 82114,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/67037104-87fe-4369-9080-ce3b229bbe78"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
+            "slug": "dinum",
+            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
+                "original_name": "logo-marianne-dinsic-300x300.jpg",
+                "mime_type": "image/jpeg",
+                "size": 45646,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-03-20T15:07:46+01:00",
+        "scopes": [
+            {
+                "scope": "Specific scenarios (see program description)",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "FranceConnect+ (see program description for github link)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "FranceConnect (see program description for github link)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "eIDAS Bridge  (see program description for github link)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "User Dashboard  (see program description for github link)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
             }
         ]
     },
@@ -521,7 +528,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1972,
+        "reports_count": 1973,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3300,
         "scopes_count": 18,
@@ -760,7 +767,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 167,
+        "reports_count": 168,
         "bounty_reward_min": 150,
         "bounty_reward_max": 10000,
         "scopes_count": 17,
@@ -1822,7 +1829,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 706,
+        "reports_count": 707,
         "bounty_reward_min": 1,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -4921,7 +4928,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 567,
+        "reports_count": 568,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -7530,7 +7537,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 624,
+        "reports_count": 625,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 10,
@@ -10328,7 +10335,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 153,
+        "reports_count": 154,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 1,
