@@ -1,5 +1,114 @@
 [
     {
+        "title": "DataDome Bug Bounty",
+        "slug": "datadome-bug-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 4,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 403,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 8,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "6ae061a9-bae0-44f2-b4dd-2723d003f082",
+            "original_name": "DataDome-Icon-Logo-Brand-Square-Background.png",
+            "mime_type": "image/png",
+            "size": 19483,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/6ae061a9-bae0-44f2-b4dd-2723d003f082"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "DataDome",
+            "slug": "datadome",
+            "description": "Online fraud & bot management for mobile apps, websites & APIs",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "f35b357d-44bf-49de-acdb-d68af627bcba",
+                "original_name": "images.jpg",
+                "mime_type": "image/jpeg",
+                "size": 4056,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/f35b357d-44bf-49de-acdb-d68af627bcba"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-03-24T12:06:08+01:00",
+        "scopes": [
+            {
+                "scope": "https://app.datadome.co",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api-app.datadome.co/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://customer-api.datadome.co",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.datadome.co",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api-js.datadome.co",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://*.captcha-delivery.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://auth.datadome.co",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://datadome.co",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Infomaniak Bug Bounty program",
         "slug": "infomaniak-bug-bounty-program",
         "country": "CH",
@@ -19,7 +128,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1941,
+        "reports_count": 1945,
         "bounty_reward_min": 100,
         "bounty_reward_max": 7000,
         "scopes_count": 42,
@@ -454,7 +563,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 347,
+        "reports_count": 348,
         "bounty_reward_min": 50,
         "bounty_reward_max": 7000,
         "scopes_count": 3,
@@ -959,7 +1068,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 191,
+        "reports_count": 192,
         "bounty_reward_min": 50,
         "bounty_reward_max": 1500,
         "scopes_count": 8,
@@ -1068,7 +1177,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 101,
+        "reports_count": 102,
         "bounty_reward_min": 50,
         "bounty_reward_max": 7000,
         "scopes_count": 3,
@@ -1384,7 +1493,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 918,
+        "reports_count": 919,
         "bounty_reward_min": 100,
         "bounty_reward_max": 230000,
         "scopes_count": 4,
@@ -1465,7 +1574,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 444,
+        "reports_count": 446,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 22,
@@ -3957,115 +4066,6 @@
         ]
     },
     {
-        "title": "DataDome Bug Bounty",
-        "slug": "datadome-bug-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 4,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 402,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 8,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "6ae061a9-bae0-44f2-b4dd-2723d003f082",
-            "original_name": "DataDome-Icon-Logo-Brand-Square-Background.png",
-            "mime_type": "image/png",
-            "size": 19483,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/6ae061a9-bae0-44f2-b4dd-2723d003f082"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "DataDome",
-            "slug": "datadome",
-            "description": "Online fraud & bot management for mobile apps, websites & APIs",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "f35b357d-44bf-49de-acdb-d68af627bcba",
-                "original_name": "images.jpg",
-                "mime_type": "image/jpeg",
-                "size": 4056,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/f35b357d-44bf-49de-acdb-d68af627bcba"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2026-01-16T17:45:39+01:00",
-        "scopes": [
-            {
-                "scope": "https://app.datadome.co",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://api-app.datadome.co/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://customer-api.datadome.co",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.datadome.co",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://api-js.datadome.co",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://*.captcha-delivery.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://auth.datadome.co",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://datadome.co",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Doctolib",
         "slug": "doctolib-public-bug-bounty-program",
         "country": "FR",
@@ -4928,7 +4928,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 568,
+        "reports_count": 570,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -5706,7 +5706,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 389,
+        "reports_count": 390,
         "bounty_reward_min": 100,
         "bounty_reward_max": 4000,
         "scopes_count": 31,
@@ -7734,7 +7734,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 183,
+        "reports_count": 184,
         "bounty_reward_min": 50,
         "bounty_reward_max": 8000,
         "scopes_count": 34,
@@ -9446,7 +9446,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 370,
+        "reports_count": 372,
         "bounty_reward_min": 100,
         "bounty_reward_max": 20000,
         "scopes_count": 10,
@@ -9833,7 +9833,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 152,
+        "reports_count": 154,
         "bounty_reward_min": 100,
         "bounty_reward_max": 8000,
         "scopes_count": 1,
@@ -10335,7 +10335,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 154,
+        "reports_count": 156,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 1,
