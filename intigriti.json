@@ -3039,8 +3039,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -22346,13 +22346,18 @@
                     "id": 3,
                     "value": "iOS"
                 },
-                "endpoint": "1395921017",
+                "endpoint": "Voi \u2013 e-scooters & e-bikes",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
                 "description": "iOS Mobile Application",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "496c0a21-2f7d-4e76-9345-ecbec91d3f44",
@@ -22366,7 +22371,12 @@
                     "value": "Tier 1"
                 },
                 "description": "Backend REST API",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
             },
             {
                 "id": "e856acdc-41d5-4e50-a124-861631c1afef",
@@ -22374,13 +22384,18 @@
                     "id": 2,
                     "value": "Android"
                 },
-                "endpoint": "io.voiapp.voi",
+                "endpoint": "Voi \u2013 e-scooter & e-bike hire",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
                 "description": "Android Mobile Application",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "108542b8-3224-40ff-aee3-a31ad9b2c6d2",
@@ -22394,7 +22409,12 @@
                     "value": "Tier 1"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "3d214482-bcbc-4640-b83a-3885655f4520",
@@ -22436,7 +22456,12 @@
                     "value": "Tier 3"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "058953ad-cbd1-4d2c-9cb9-d5d3f038bcc9",
@@ -22464,7 +22489,12 @@
                     "value": "Tier 3"
                 },
                 "description": "Website to report badly parked scooters.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "e5da831b-066d-41d6-8a02-95d20abf68a8",
@@ -22478,7 +22508,12 @@
                     "value": "Tier 3"
                 },
                 "description": "Informational Website",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             }
         ]
     },
@@ -25338,6 +25373,20 @@
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "76a24d78-a57a-41c8-b207-ad7c1ca2c73c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "sts.corporate.argenta.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null,
                 "requiredSkills": []
