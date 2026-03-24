@@ -17655,8 +17655,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -19183,6 +19183,20 @@
                     "value": "Tier 3"
                 },
                 "description": "_Only applicable to domains that are **100% owned by DPG**.  \nFor example, projects that are partly owned by DPG and where DPG media is not responsible for the IT infrastructure are **not** in scope._\n\nYou can easily validate based on Domain Whois:\n\nDe Persgroep Publishing nv\nBrusselstesteenweg 347\n1730 Asse\nBelgi\u00eb\n\nDPG Media Services NV \nMediaplein 1 \n2018 Antwerpen \nBelgium",
+                "requiredSkills": []
+            },
+            {
+                "id": "53b2302e-7878-4fe5-9fb2-a14dd4f60ae8",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "visitors.dpgmedia.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Issues related to Zendesk beyond our control are Out of Scope",
                 "requiredSkills": []
             }
         ]
@@ -24857,6 +24871,20 @@
                         "name": "Web Hacking"
                     }
                 ]
+            },
+            {
+                "id": "99714b0d-bcb3-4719-a20c-70802b24632b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "customerservice.vtm.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Issues related to Zendesk beyond our control are Out of Scope",
+                "requiredSkills": []
             }
         ]
     },
