@@ -1,5 +1,441 @@
 [
     {
+        "title": "Coindcx - Bug Bounty Program",
+        "slug": "coindcx-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 249,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
+            "original_name": "coindcx.png",
+            "mime_type": "image/png",
+            "size": 3849,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Coindcx",
+            "slug": "coindcx",
+            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-01T09:17:49+02:00",
+        "scopes": [
+            {
+                "scope": "*.coindcx.com",
+                "scope_type": "wildcard",
+                "scope_type_name": "Wildcard",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.coindcx.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Okto - Bug Bounty Program",
+        "slug": "okto-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 118,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9b812e13-d351-4a48-a338-d0c2b2a1f4aa",
+            "original_name": "image (6).png",
+            "mime_type": "image/png",
+            "size": 71540,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9b812e13-d351-4a48-a338-d0c2b2a1f4aa"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Coindcx",
+            "slug": "coindcx",
+            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-01T09:17:36+02:00",
+        "scopes": [
+            {
+                "scope": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "BitOasis - Bug Bounty Program",
+        "slug": "bitoasis-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 164,
+        "bounty_reward_min": 5,
+        "bounty_reward_max": 2000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "54b9f272-da02-4df0-885f-2cf90529637d",
+            "original_name": "bitoasis.png",
+            "mime_type": "image/png",
+            "size": 11427,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/54b9f272-da02-4df0-885f-2cf90529637d"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Coindcx",
+            "slug": "coindcx",
+            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-01T09:17:03+02:00",
+        "scopes": [
+            {
+                "scope": "*.bitoasis.net",
+                "scope_type": "wildcard",
+                "scope_type_name": "Wildcard",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.bitoasis&hl=en",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ae/app/bitoasis-buy-bitcoin-crypto/id1521661794",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Pine Labs Bug Bounty Program",
+        "slug": "pine-labs-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 525,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 1000,
+        "scopes_count": 23,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "599499f2-1770-4d00-8b67-9111cc6c55f2",
+            "original_name": "pinelabs_logo.png",
+            "mime_type": "image/png",
+            "size": 2368,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/599499f2-1770-4d00-8b67-9111cc6c55f2"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Pine Labs Pvt Ltd",
+            "slug": "pine-labs-pvt-ltd",
+            "description": "Payment Services for Retail Merchant",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "6e236e18-fa57-42d0-be2e-588038dd22cc",
+                "original_name": "pinelabs_logo.png",
+                "mime_type": "image/png",
+                "size": 2368,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/6e236e18-fa57-42d0-be2e-588038dd22cc"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-01T08:51:17+02:00",
+        "scopes": [
+            {
+                "scope": "https://billingserver.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "dashboard.pluralonline.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://lounge.pinelabs.com/loungeui/login",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://pinepgconsole.in:9099",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "analytics.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://myplutus.pinelabs.my",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "trm.pinepaymentsolutions.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://trm.pinelabs.ae",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.letspaylater.ph",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://credit.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://plmcixt.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://emistores.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.pinelabs.my",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.pinelabs.ae",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.pinelabs.us",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://board.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://nbs.pinelabs.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.pluralonline.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.pluralpay.in",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://pinepg.in",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://pluralcheckout.pinepg.in",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
         "slug": "thuringer-aufbaubank-bug-bounty-program",
         "country": "DE",
@@ -202,7 +638,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 3729,
+        "reports_count": 3730,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -262,7 +698,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 425,
+        "reports_count": 429,
         "bounty_reward_min": 50,
         "bounty_reward_max": 15000,
         "scopes_count": 33,
@@ -729,7 +1165,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2012,
+        "reports_count": 2014,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3300,
         "scopes_count": 18,
@@ -908,7 +1344,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 147,
+        "reports_count": 148,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 1,
@@ -1269,7 +1705,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1539,
+        "reports_count": 1542,
         "bounty_reward_min": 100,
         "bounty_reward_max": 4000,
         "scopes_count": 27,
@@ -1956,7 +2392,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 742,
+        "reports_count": 743,
         "bounty_reward_min": 1,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -3051,7 +3487,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2133,
+        "reports_count": 2132,
         "bounty_reward_min": 50,
         "bounty_reward_max": 10000,
         "scopes_count": 11,
@@ -3504,7 +3940,7 @@
         "disabled": false,
         "vdp": true,
         "archived": false,
-        "reports_count": 230,
+        "reports_count": 232,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 6,
@@ -3727,6 +4163,73 @@
             },
             {
                 "scope": "https://preprod-datahub.xelians.fr/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "GRW Trading FZE - Open Bug Bounty Program",
+        "slug": "grw-trading-fze-bug-bounty-program",
+        "country": "AE",
+        "activity_area": "Retail",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 128,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": null,
+            "original_name": null,
+            "mime_type": null,
+            "size": null,
+            "url": null
+        },
+        "event": null,
+        "business_unit": {
+            "name": "GRW Trading FZE",
+            "slug": "grw-trading-fze",
+            "description": "GRW Trading FZE is the global B2B selling arm of dropXL, powering cross-border commerce through strategic partnerships and solutions. dropXL is our fast-growing dropshipping platform that enables entrepreneurs worldwide to sell from a catalog of up to 90,000 products without holding inventory. With a focus on seamless global logistics, reliable automation, and scalable growth, we\u2019re committed to delivering secure, high-performance platforms.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-01-22T18:05:43+01:00",
+        "scopes": [
+            {
+                "scope": "https://*.grwtrading.com",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://*.dropxl.com",
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
                 "asset_value": "CRITICAL",
@@ -4819,7 +5322,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 584,
+        "reports_count": 585,
         "bounty_reward_min": 0,
         "bounty_reward_max": 5000,
         "scopes_count": 13,
@@ -4963,7 +5466,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 254,
+        "reports_count": 255,
         "bounty_reward_min": 50,
         "bounty_reward_max": 10000,
         "scopes_count": 25,
@@ -5211,7 +5714,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 66,
+        "reports_count": 67,
         "bounty_reward_min": 200,
         "bounty_reward_max": 5000,
         "scopes_count": 6,
@@ -5831,73 +6334,6 @@
         ]
     },
     {
-        "title": "Okto - Bug Bounty Program",
-        "slug": "okto-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 118,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9b812e13-d351-4a48-a338-d0c2b2a1f4aa",
-            "original_name": "image (6).png",
-            "mime_type": "image/png",
-            "size": 71540,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9b812e13-d351-4a48-a338-d0c2b2a1f4aa"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Coindcx",
-            "slug": "coindcx",
-            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-10-30T10:51:07+01:00",
-        "scopes": [
-            {
-                "scope": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "DECATHLON",
         "slug": "decathlon",
         "country": "FR",
@@ -5917,7 +6353,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 540,
+        "reports_count": 541,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 2,
@@ -6072,7 +6508,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 456,
+        "reports_count": 457,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 19,
@@ -6332,7 +6768,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 135,
+        "reports_count": 137,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 4,
@@ -6770,227 +7206,6 @@
         ]
     },
     {
-        "title": "Pine Labs Bug Bounty Program",
-        "slug": "pine-labs-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 525,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 1000,
-        "scopes_count": 24,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "599499f2-1770-4d00-8b67-9111cc6c55f2",
-            "original_name": "pinelabs_logo.png",
-            "mime_type": "image/png",
-            "size": 2368,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/599499f2-1770-4d00-8b67-9111cc6c55f2"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Pine Labs Pvt Ltd",
-            "slug": "pine-labs-pvt-ltd",
-            "description": "Payment Services for Retail Merchant",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "6e236e18-fa57-42d0-be2e-588038dd22cc",
-                "original_name": "pinelabs_logo.png",
-                "mime_type": "image/png",
-                "size": 2368,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/6e236e18-fa57-42d0-be2e-588038dd22cc"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-09-03T09:40:50+02:00",
-        "scopes": [
-            {
-                "scope": "https://billingserver.pinelabs.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "dashboard.pluralonline.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://lounge.pinelabs.com/loungeui/login",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://pinepgconsole.in:9099",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "analytics.pinelabs.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://myplutus.pinelabs.my/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "trm.pinepaymentsolutions.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://trm.pinelabs.ae",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.pinelabs.ae/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.letspaylater.ph/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://credit.pinelabs.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://plmcixt.pinelabs.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://emistores.pinelabs.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.pinelabs.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.pinelabs.my/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.pinelabs.ae/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.pinelabs.us/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://board.pinelabs.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://nbs.pinelabs.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.pluralonline.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.pluralpay.in",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://pinepg.in/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://pluralcheckout.pinepg.in",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "GovTech - Vulnerability Disclosure Programme",
         "slug": "govtech-vulnerability-disclosure-programme-policy",
         "country": "SG",
@@ -7241,80 +7456,6 @@
         ]
     },
     {
-        "title": "BitOasis - Bug Bounty Program",
-        "slug": "bitoasis-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 164,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "54b9f272-da02-4df0-885f-2cf90529637d",
-            "original_name": "bitoasis.png",
-            "mime_type": "image/png",
-            "size": 11427,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/54b9f272-da02-4df0-885f-2cf90529637d"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Coindcx",
-            "slug": "coindcx",
-            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-07-09T09:33:05+02:00",
-        "scopes": [
-            {
-                "scope": "*.bitoasis.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.bitoasis&hl=en",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ae/app/bitoasis-buy-bitcoin-crypto/id1521661794",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Mon Espace Sant\u00e9 (MES)",
         "slug": "mon-espace-sante-mes",
         "country": "FR",
@@ -7334,7 +7475,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 190,
+        "reports_count": 193,
         "bounty_reward_min": 50,
         "bounty_reward_max": 8000,
         "scopes_count": 34,
@@ -7875,87 +8016,6 @@
                 "scope_type": "application",
                 "scope_type_name": "Application",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Coindcx - Bug Bounty Program",
-        "slug": "coindcx-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 249,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
-            "original_name": "coindcx.png",
-            "mime_type": "image/png",
-            "size": 3849,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Coindcx",
-            "slug": "coindcx",
-            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-05-28T10:18:21+02:00",
-        "scopes": [
-            {
-                "scope": "*.coindcx.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.coindcx.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -8817,7 +8877,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 633,
+        "reports_count": 634,
         "bounty_reward_min": 50,
         "bounty_reward_max": 1500,
         "scopes_count": 5,
