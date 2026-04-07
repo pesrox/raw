@@ -1,5 +1,191 @@
 [
     {
+        "title": "Dailymotion Public Bug Bounty",
+        "slug": "dailymotion-public-bug-bounty",
+        "country": "FR",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 2052,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3300,
+        "scopes_count": 19,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
+            "original_name": "dailymotion-logo-ogtag-new.png",
+            "mime_type": "image/png",
+            "size": 84668,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Dailymotion",
+            "slug": "dailymotion",
+            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "34d87a778f698f059187586302527e70",
+                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
+                "mime_type": "image/png",
+                "size": 6885,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-07T14:43:49+02:00",
+        "scopes": [
+            {
+                "scope": "*.dailymotion.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "AS41690",
+                "scope_type": "ip-address",
+                "scope_type_name": "IP Address",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.api.dailymotion.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.kube.dm.gg",
+                "scope_type": "wildcard",
+                "scope_type_name": "Wildcard",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.dm.gg",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.dmxleo.com",
+                "scope_type": "wildcard",
+                "scope_type_name": "Wildcard",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.dmcdn.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dm-event.net",
+                "scope_type": "wildcard",
+                "scope_type_name": "Wildcard",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://n8n-staging.k8s.dm.gg/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://n8n.pub.k8s.dm.gg/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://airflow-mcp.data.dailymotion.com/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://bigquery-mcp.data.dailymotion.com/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://dailymotion.webflow.io/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://business.dailymotion.com/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://pro.dailymotion.com/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://ray.dailymotion.com/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "dailymotionadvertising.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "DECATHLON",
         "slug": "decathlon",
         "country": "FR",
@@ -19,7 +205,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 546,
+        "reports_count": 550,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 5,
@@ -1153,7 +1339,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 3811,
+        "reports_count": 3812,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -1656,185 +1842,6 @@
                 "scope_type": "other",
                 "scope_type_name": "Other",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Dailymotion Public Bug Bounty",
-        "slug": "dailymotion-public-bug-bounty",
-        "country": "FR",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 2052,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3300,
-        "scopes_count": 18,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
-            "original_name": "dailymotion-logo-ogtag-new.png",
-            "mime_type": "image/png",
-            "size": 84668,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Dailymotion",
-            "slug": "dailymotion",
-            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "34d87a778f698f059187586302527e70",
-                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
-                "mime_type": "image/png",
-                "size": 6885,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2026-03-16T09:42:15+01:00",
-        "scopes": [
-            {
-                "scope": "*.dailymotion.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "AS41690",
-                "scope_type": "ip-address",
-                "scope_type_name": "IP Address",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.api.dailymotion.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.kube.dm.gg",
-                "scope_type": "wildcard",
-                "scope_type_name": "Wildcard",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.dm.gg",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.dmxleo.com",
-                "scope_type": "wildcard",
-                "scope_type_name": "Wildcard",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.dmcdn.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dm-event.net",
-                "scope_type": "wildcard",
-                "scope_type_name": "Wildcard",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://n8n-staging.k8s.dm.gg/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://n8n.pub.k8s.dm.gg/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://airflow-mcp.data.dailymotion.com/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://bigquery-mcp.data.dailymotion.com/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://dailymotion.webflow.io/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://business.dailymotion.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://pro.dailymotion.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://ray.dailymotion.com/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -2845,7 +2852,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 325,
+        "reports_count": 326,
         "bounty_reward_min": 0,
         "bounty_reward_max": 10000,
         "scopes_count": 4,
@@ -2926,7 +2933,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 455,
+        "reports_count": 456,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 6,
@@ -3249,7 +3256,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 333,
+        "reports_count": 334,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 2,
@@ -4382,7 +4389,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1430,
+        "reports_count": 1431,
         "bounty_reward_min": 0,
         "bounty_reward_max": 50000,
         "scopes_count": 9,
@@ -4498,7 +4505,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 427,
+        "reports_count": 428,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 12,
@@ -6604,7 +6611,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 145,
+        "reports_count": 146,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 4,
@@ -7311,7 +7318,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 203,
+        "reports_count": 204,
         "bounty_reward_min": 50,
         "bounty_reward_max": 8000,
         "scopes_count": 34,
