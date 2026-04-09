@@ -16526,7 +16526,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null,
+                "description": "See scope section for feature toggles.",
                 "requiredSkills": []
             },
             {
@@ -16540,7 +16540,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null,
+                "description": "See scope section for feature toggles.",
                 "requiredSkills": []
             },
             {
@@ -16554,7 +16554,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null,
+                "description": "Grafana Enterprise is not in scope. See scope section for feature toggles.",
                 "requiredSkills": [
                     {
                         "id": "web_hacking",
@@ -16581,7 +16581,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null,
+                "description": "See scope section for feature toggles.",
                 "requiredSkills": [
                     {
                         "id": "source_code_review",
@@ -16600,7 +16600,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": null,
+                "description": "See scope section for feature toggles.",
                 "requiredSkills": []
             },
             {
@@ -16618,6 +16618,34 @@
                 "requiredSkills": []
             },
             {
+                "id": "35350cc0-0e9b-4bcf-b484-333991ed0e64",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Public Preview feature toggles in Tier 1 products",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "If your report for a Tier 1 product uses a Public Preview feature toggle, it will become Tier 2.",
+                "requiredSkills": []
+            },
+            {
+                "id": "09fd5ccd-3843-4ba0-9dab-86643ed47a6a",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Reports utilising feature toggles",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "If your report uses a Private Preview or Experimental feature toggle, it will be accepted, but is not eligible for a bounty. We may award a small bonus for these reports at the sole discretion of Grafana Labs.",
+                "requiredSkills": []
+            },
+            {
                 "id": "4ad726d7-e638-4bb3-8143-e9dcad07b8ec",
                 "type": {
                     "id": 6,
@@ -16628,7 +16656,7 @@
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty. ",
+                "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty.",
                 "requiredSkills": [
                     {
                         "id": "supply_chain",
@@ -16701,8 +16729,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -36868,7 +36896,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "#### Keywords: admin\n- Used by: Wolt employees, delivery partners.\n- Admin portal for Wolt's last-mile delivery partners.\n- Your JWT as a regular wolt.com user should grant you limited access.\n",
+                "description": "#### Keywords: admin\n- Used by: Wolt employees, delivery partners.\n- Admin portal for Wolt's last-mile delivery partners.\n- Your JWT as a regular wolt.com user should grant you limited access.",
                 "requiredSkills": []
             },
             {
@@ -36910,7 +36938,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "- Used by: Regular wolt.com users, Wolt employees, corporate customers, delivery partners, store managers.\n- Notable use-cases: Creating and editing users, placing orders, tracking orders, setting prices.\n- Your JWT as a regular wolt.com user should grant you access to most functionality for your user type.\n",
+                "description": "- Used by: Regular wolt.com users, Wolt employees, corporate customers, delivery partners, store managers.\n- Notable use-cases: Creating and editing users, placing orders, tracking orders, setting prices.\n- Your JWT as a regular wolt.com user should grant you access to most functionality for your user type.",
                 "requiredSkills": []
             },
             {
@@ -36998,40 +37026,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "3f40bc4e-dde0-4d9c-87ad-3aee927cc0b5",
+                "id": "1c59e1c5-38be-44f9-b175-4d3a82f783c8",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "blog.wolt.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "#### Keywords: Third-party SaaS, WordPress\n- Used by: Wolt employees.\n- WordPress blog hosted by wpengine.com.\n- wpengine.com owns the infrastructure, but we maintain the WordPress installation.\n- **Note:** Only WordPress-level probes are allowed.",
-                "requiredSkills": []
-            },
-            {
-                "id": "9354e76b-21b0-48fc-87c2-6150a2d4f7cd",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "gettest.wolt.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "Low severity issues affecting gettest.wolt.com",
-                "requiredSkills": []
-            },
-            {
-                "id": "5343d27d-0ba0-4115-b2e2-5a80eb9d7565",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "links.wolt.com",
+                "endpoint": "wolt.atlassian.net",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -37054,17 +37054,45 @@
                 "requiredSkills": []
             },
             {
-                "id": "1c59e1c5-38be-44f9-b175-4d3a82f783c8",
+                "id": "5343d27d-0ba0-4115-b2e2-5a80eb9d7565",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "wolt.atlassian.net",
+                "endpoint": "links.wolt.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
                 "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "9354e76b-21b0-48fc-87c2-6150a2d4f7cd",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "gettest.wolt.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Low severity issues affecting gettest.wolt.com",
+                "requiredSkills": []
+            },
+            {
+                "id": "3f40bc4e-dde0-4d9c-87ad-3aee927cc0b5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "blog.wolt.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "#### Keywords: Third-party SaaS, WordPress\n- Used by: Wolt employees.\n- WordPress blog hosted by wpengine.com.\n- wpengine.com owns the infrastructure, but we maintain the WordPress installation.\n- **Note:** Only WordPress-level probes are allowed.",
                 "requiredSkills": []
             }
         ]
