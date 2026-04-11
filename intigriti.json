@@ -32975,11 +32975,11 @@
         "name": "EURid",
         "following": false,
         "minBounty": {
-            "value": 0.0,
+            "value": 50.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 1500.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -33007,8 +33007,8 @@
                 },
                 "endpoint": "my.eurid.eu",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "My .eu is the registrant or domain holder portal and requires a registered domain name in one of our supported scripts to access.",
                 "requiredSkills": []
@@ -33105,8 +33105,8 @@
                 },
                 "endpoint": "*.yadifa.eu",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -33119,8 +33119,8 @@
                 },
                 "endpoint": "YADIFA authoritative name server",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": "YADIFA is EURid's authoritative name server software which can be downloaded from the yadifa.eu website.",
                 "requiredSkills": []
