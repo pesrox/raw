@@ -33680,76 +33680,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "aaf8ff68-9211-4e52-b2f6-cdeb4a1437f8",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "AOL (misc)",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "## In Scope ##\n* *.aol.com\n\n## Notes\nOnly use this asset when nothing else can be reasonably selected.\n\nBugs with AOL that are not listed in scope of our other AOL-related assets can still be submitted to this asset and **_*might*_** be eligible for award, at the sole discretion of the Yahoo Bug Bounty team.\n\n## Out of Scope ##\n* *nat.aol.com\n* *.ipt.aol.com",
-                "requiredSkills": []
-            },
-            {
-                "id": "9efd8418-3110-4a06-91ac-49b14fd41168",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "AOL Help",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "## In Scope ##\n* help.aol.com\n* assistance.aol.fr\n* help.aol.co.uk\n* hilfe.aol.de\n\n## Notes ##\nAny bugs found in non-production environments will **not** be eligible for the `Same Bug Different Host` bonus if the issue also exists in production.\n\n## Out of Scope ##\n* assist.aol.com (2nd party service)\n* helpisp.netscape.com\n* helpconnect.netscape.com\n* help.compuserve.com\n",
-                "requiredSkills": []
-            },
-            {
-                "id": "1dd3bd42-82fd-4f57-9ce5-41333b228cf4",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "AOL Homepage",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "## In Scope ##\n* www.aol.de\n* www.aol.co.uk\n* www.aol.in\n* www.aol.ca\n* www.aol.com\n* www.aol.com/*\n* AOL Games Landing Page - https://www.aol.com/games/ -> see 3rd Party Notes Below\n\n## Notes ##\n* OOS Exception: 3rd party components that affect aol.com (e.g. XSS executes in AOL.com domain resulting from abuse of TravelZoo module on Travel page)\n\n## Out of Scope ##\n**First Party Things:**\n* https://ottr.video.yahoo.com/v1/video-exp/schedule\n* https://s.yimg.com/rb/screwdriver/ctv/ve-module/builds/prod/aol/dist/vem.js\n**Second Party Things:**\n* DataMask by AOL (White Label app)\n* AOL OnePoint (White Label app)\n* Private WiFi by AOL (White Label app)\n* AOL Games (White Label app)\n**Third Party Things:**\n* 3rd Party Ad Integration. (Third Party, Taboola)\n* Popular in the Community, More Conversations for You, Commenting on articles (and more) (Third Party, OpenWeb)\n* spot.im (Third Party, OpenWeb)\n* Individual AOL Games pages are rendered by us, but we iFrame in the Masque game urls. (Third Party, Masque)\n* games.com, fungames.aol.com & fungames.com (Third Party, Masque)\n* Comparecards.aol.com is CNAME\u2019d to our own ATS cluster which forward maps requests to the comparecards cloudfront distribution. (Third Party, CompareCards)\n* JS widget on the AOL.com homepage providing news stories. (Third Party, Zergnet)\n* Serverside rendered module on aol.com/real-estate, data comes from Zillow api. (Third Party, Zillow)\n* Serverside rendered module on www.aol.com/travel, data comes from TravelZoo api. (Third Party, Travel Zoo)\n* rezserver.com (Third Party, Travel Zoo)",
-                "requiredSkills": []
-            },
-            {
-                "id": "c69c893a-6dce-4bf1-bd58-5e49cd745072",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "AOL Mail",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "## In Scope ##\n* *.mail.aol.com (see exclusions below)\n* Rpc.mail.aol.com\n* [AOL iOS](https://apps.apple.com/us/app/aol-news-email-weather-video/id646100661)\n* [AOL Android](https://play.google.com/store/apps/details?id=com.aol.mobile.aolapp&hl=en_US)\n* [AOL FireOS](https://www.amazon.com/AOL-Inc-Mail-News-Video/dp/B011VYAGSY)\n\n ## Notes ## \n* oidc.mail.aol.com (Hosted by Mail, but belongs to Membership)\n\n ## Out of Scope ## \n* mail.aol.com/calsvc\n* AOL Desktop Gold\n* apis.mail.aol.com\n* test-apis.mail.aol.com\n* *.aolmail.com\n* mail.aol.com/classicab\n* mail.aol.com/getmydata\n* mail.aol.com/ws\n* *.aol.com",
-                "requiredSkills": []
-            },
-            {
-                "id": "a6d420f8-adfb-4043-9a33-c0ee8acf03f8",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "AOL Search",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "## In Scope ##\n* search.aol.ca\n* search.aol.co.uk\n* search.aol.com\n* recherche.aol.fr\n* suche.aol.de\n\n## Notes ##\nAny bugs found in non-production environments will **not** be eligible for the `Same Bug Different Host` bonus if the issue also exists in production.\n",
-                "requiredSkills": []
-            },
-            {
                 "id": "31230a8f-6ff9-482a-a5d3-13e7b6df6689",
                 "type": {
                     "id": 1,
@@ -33816,7 +33746,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "## In Scope ##\n* *.isp.netscape.com\n* *.lite.aol.com\n* *.compuserve.com\n* www.wmconnect.com\n\n## Other places to look ##\n* www.getnetscape.com\n* netscape.compuserve.com\n\n## Out of Scope ##\n* Subdomains of wmconnect.com outside of www\n\n## Notes ##\n* These services are designed for delivery through slow internet connections.\n* Registration for these services has been disabled.\n* Help-related pages/domains should be reported to the AOL Help asset.",
+                "description": "## In Scope ##\n* *.isp.netscape.com\n* *.compuserve.com\n* www.wmconnect.com\n\n## Other places to look ##\n* www.getnetscape.com\n* netscape.compuserve.com\n\n## Out of Scope ##\n* Subdomains of wmconnect.com outside of www\n\n## Notes ##\n* These services are designed for delivery through slow internet connections.\n* Registration for these services has been disabled.",
                 "requiredSkills": []
             },
             {
@@ -33830,7 +33760,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "## In Scope ##\n* https://login.yahoo.com\n* https://login.aol.com\n* https://api.login.yahoo.com\n* https://api.login.aol.com\n* http://credstore.yahoo.com/\n\nSome documentation that may help:\nhttps://developer.yahoo.com/oauth2/guide/\nSpecific paths to target\u2026.\nFor `login.*.com`\n* /account/logout\n* /auth/2.0/credentials\n* /auth/1.0/\n* /saml2/\n* /account\n* /oauth2\n* /ylc\n* /account/challenges\n* /account/access\n* /oauth2/device_auth\n* /ctv\n* /activate\n* /forgot\n\nFor `api.login.*.com`\n* /api\n* /oauth2/get_token\n* /oauth2/web_session\n* /oauth2/device_sessions\n* /oauth2/device_authorization\n* /oauth2/device_auth\n* /oauth2/revoke\n* /oauth2/introspect\n\n## Out of Scope ##\n* Any rate limits for authentication attempts. \n* Any differentiated treatment based on account, browser, IP address etc.\n\n## Limits ##\n* Limit traffic against our services to < 10/second when probing or testing.",
+                "description": "## In Scope ##\n* https://login.yahoo.com\n* https://api.login.yahoo.com\n* http://credstore.yahoo.com/\n\nSome documentation that may help:\nhttps://developer.yahoo.com/oauth2/guide/\nSpecific paths to target\u2026.\nFor `login.*.com`\n* /account/logout\n* /auth/2.0/credentials\n* /auth/1.0/\n* /saml2/\n* /account\n* /oauth2\n* /ylc\n* /account/challenges\n* /account/access\n* /oauth2/device_auth\n* /ctv\n* /activate\n* /forgot\n\nFor `api.login.*.com`\n* /api\n* /oauth2/get_token\n* /oauth2/web_session\n* /oauth2/device_sessions\n* /oauth2/device_authorization\n* /oauth2/device_auth\n* /oauth2/revoke\n* /oauth2/introspect\n\n## Out of Scope ##\n* Any rate limits for authentication attempts. \n* Any differentiated treatment based on account, browser, IP address etc.\n\n## Limits ##\n* Limit traffic against our services to < 10/second when probing or testing.",
                 "requiredSkills": []
             },
             {
@@ -33848,20 +33778,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "54b9b116-d804-4e89-a06e-bacb5fe94399",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Online Marketplace",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Online Marketplace (MyAccount) supports many AOL properties and can be accessed by a variety of CNAME records.\n* billupdate.aol.com\n* myaccount.aol.com\n* myservices.aol.com\n* payments.aol.com\n* mybenefits.aol.com\n* cancel.aol.com\n* bill.aol.com\n\nPlease consolidate your reports.\n**Note: Reporting the same issue separately for multiple CNAMEs will result in reports being marked as `Duplicate` at best.**",
-                "requiredSkills": []
-            },
-            {
                 "id": "b25968de-0d8b-40b4-9b89-defb2749ec69",
                 "type": {
                     "id": 6,
@@ -33872,7 +33788,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Only use this asset when nothing else can be reasonably selected. \n\nBugs with Yahoo products that are not listed in scope of our [Public Program](https://app.intigriti.com/company/programs/yahoo/yahoobugbounty/detail) can still be submitted to this asset and _*might*_ be eligible for award, at the sole discretion of the Yahoo Bug Bounty team .\n\nUse this asset for:\n* `*.oath.cloud`\n* `*.yahoo.cloud`\n\n## Bastion Subdomains:\n* `bastion.*.oath.cloud`\n* `bastion.*.yahoo.cloud`\n\nNote: Reports of Bastion host subdomain takeovers submitted that only show takeover of the destination IP are most likely to be closed as `Informative` and not eligible for bounty. Most valid bugs will require a proof-of-concept or proof-of-exploit that escalates into one of the primary brand or product domains(e.g., yahoo.com, aol.com, etc) to be potentially eligible for bounty.",
+                "description": "Only use this asset when nothing else can be reasonably selected. \n\nBugs with Yahoo products that are not listed in scope of our [Public Program](https://app.intigriti.com/company/programs/yahoo/yahoobugbounty/detail) can still be submitted to this asset and _*might*_ be eligible for award, at the sole discretion of the Yahoo Bug Bounty team .\n\nUse this asset for:\n* `*.oath.cloud`\n* `*.yahoo.cloud`\n\n## Bastion Subdomains:\n* `bastion.*.oath.cloud`\n* `bastion.*.yahoo.cloud`\n\nNote: Reports of Bastion host subdomain takeovers submitted that only show takeover of the destination IP are most likely to be closed as `Informative` and not eligible for bounty. Most valid bugs will require a proof-of-concept or proof-of-exploit that escalates into one of the primary brand or product domains(e.g., yahoo.com, etc) to be potentially eligible for bounty.",
                 "requiredSkills": []
             },
             {
@@ -33914,7 +33830,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "## In Scope\n* [Yahoo TW Auctions Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.ecauction)\n* [Yahoo TW Auctions iOS](https://itunes.apple.com/tw/app/yahoo%E6%8B%8D%E8%B3%A3-%E5%88%8A%E7%99%BB%E5%85%8D%E8%B2%BB/id1033771352?mt=8)\n* Yahoo TW Auctions: \n  * *.bid.yahoo.com\n  * https://tw.bid.yahoo.com\n* Yahoo TW Auctions APIs:\n  * https://tw.bid.yahoo.com/api/\n  * https://tw.api.bid.yahoo.com:4443\n* Search API: tw.search.ec.yahoo.com\n\n## Notes\n* Access to the Taiwan sites from some countries in Europe may be blocked. \n* `Buyer` accounts can be set up for any Yahoo user.\n* `Seller` accounts require a TW phone number and 2FA.\n* **Do not** use fake data (like nid) when operating the cash functions, it may cause real money to be stuck; **we will hold you accountable for broken workflows.**\n* You are required to clean up all the testing data related to posting new products. \n* You **must** include the following \u201ctest\u201d label in **ALL** posts (in the most visible location)  to prevent regular users from interacting with hacker-created content: `[PARANOIDS-\u52ff\u4e0b\u6a19][TEST]`\n-- *Any reports identified that are missing this label, will not receive a bounty.*\n\n## Out of Scope\n* *.yahoo.com.tw\n* ismarus-ap-94600.tw.juiker.net\n* *.tw.juiker.net\n*  auth.tw.juiker.net/oauth2/getUserTokenByTurnkey\n* *.straas.net\n* iOS: JuikerIMSDK.framework, StraaS-iOS-SDK\n* Android: io.straas.android.sdk\n* ecfme.famiport.com.tw (Third Party)\r\n",
+                "description": "## In Scope\n* [Yahoo TW Auctions Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.ecauction)\n* [Yahoo TW Auctions iOS](https://itunes.apple.com/tw/app/yahoo%E6%8B%8D%E8%B3%A3-%E5%88%8A%E7%99%BB%E5%85%8D%E8%B2%BB/id1033771352?mt=8)\n* Yahoo TW Auctions: \n  * *.bid.yahoo.com\n  * https://tw.bid.yahoo.com\n* Yahoo TW Auctions APIs:\n  * https://tw.bid.yahoo.com/api/\n  * https://tw.api.bid.yahoo.com:4443\n* Search API: tw.search.ec.yahoo.com\n\n## Notes\n* Access to the Taiwan sites from some countries in Europe may be blocked. \n* `Buyer` accounts can be set up for any Yahoo user.\n* `Seller` accounts require a TW phone number and 2FA.\n* **Do not** use fake data (like nid) when operating the cash functions, it may cause real money to be stuck; **we will hold you accountable for broken workflows.**\n* You are required to clean up all the testing data related to posting new products. \n* You **must** include the following \u201ctest\u201d label in **ALL** posts (in the most visible location)  to prevent regular users from interacting with hacker-created content: `[PARANOIDS-\u52ff\u4e0b\u6a19][TEST]`\n-- *Any reports identified that are missing this label, will not receive a bounty.*\n\n## Out of Scope\n* *.yahoo.com.tw\n* ismarus-ap-94600.tw.juiker.net\n* *.tw.juiker.net\n*  auth.tw.juiker.net/oauth2/getUserTokenByTurnkey\n* *.straas.net\n* iOS: JuikerIMSDK.framework, StraaS-iOS-SDK\n* Android: io.straas.android.sdk\n* ecfme.famiport.com.tw (Third Party)",
                 "requiredSkills": []
             },
             {
@@ -34068,7 +33984,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Select open source projects are now eligible for bounties.\nThe [rest of our open source projects](https://developer.yahoo.com/opensource/projectindex/) are technically in scope, but at a reduced rate for the time being. \n ",
+                "description": "Select open source projects are now eligible for bounties.\nThe [rest of our open source projects](https://developer.yahoo.com/opensource/projectindex/) are technically in scope, but at a reduced rate for the time being.",
                 "requiredSkills": []
             },
             {
@@ -34096,7 +34012,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "## In Scope ##\n* https://bestball.fantasysports.yahoo.com/\n",
+                "description": "## In Scope ##\n* https://bestball.fantasysports.yahoo.com/",
                 "requiredSkills": []
             },
             {
@@ -34110,7 +34026,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "## In Scope ##\n* https://sports.yahoo.com/dailyfantasy/\n* https://sports.yahoo.com/dailyfantasy/contest/create\n",
+                "description": "## In Scope ##\n* https://sports.yahoo.com/dailyfantasy/\n* https://sports.yahoo.com/dailyfantasy/contest/create",
                 "requiredSkills": []
             },
             {
@@ -34124,7 +34040,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "## In Scope ##\n* https://sports.yahoo.com/\n* https://api-secure.sports.yahoo.com\n\n ## Out of scope ##\n* shop.yahoosports.com (Third party)\n",
+                "description": "## In Scope ##\n* https://sports.yahoo.com/\n* https://api-secure.sports.yahoo.com\n\n ## Out of scope ##\n* shop.yahoosports.com (Third party)",
                 "requiredSkills": []
             },
             {
@@ -34138,7 +34054,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "## In Scope ##\n* https://sports.yahoo.com/fantasy/\n* [Fantasy Basketball](https://basketball.fantasysports.yahoo.com/)\n* [Fantasy Hockey](https://hockey.fantasysports.yahoo.com/)\n* [Fantasy User Profiles](https://profiles.sports.yahoo.com/)\n* [Fantasy Football](https://football.fantasysports.yahoo.com/) (out of season)\n* [Public cookie-based API endpoints](https://pub-api-ro.fantasysports.yahoo.com/) (used by some FE stacks)\n* [Public OAuth2 endpoints](https://fantasysports.yahooapis.com/)\n* tournament.fantasysports.yahoo.com\n\n ## Out of Scope ##\n* *.sendbird.com (Third Party, SendBird)\n",
+                "description": "## In Scope ##\n* https://sports.yahoo.com/fantasy/\n* [Fantasy Basketball](https://basketball.fantasysports.yahoo.com/)\n* [Fantasy Hockey](https://hockey.fantasysports.yahoo.com/)\n* [Fantasy User Profiles](https://profiles.sports.yahoo.com/)\n* [Fantasy Football](https://football.fantasysports.yahoo.com/) (out of season)\n* [Public cookie-based API endpoints](https://pub-api-ro.fantasysports.yahoo.com/) (used by some FE stacks)\n* [Public OAuth2 endpoints](https://fantasysports.yahooapis.com/)\n* tournament.fantasysports.yahoo.com\n\n ## Out of Scope ##\n* *.sendbird.com (Third Party, SendBird)",
                 "requiredSkills": []
             },
             {
@@ -34152,7 +34068,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": " ## In Scope ## \n* https://sports.yahoo.com/fantasyslate\n",
+                "description": "## In Scope ## \n* https://sports.yahoo.com/fantasyslate",
                 "requiredSkills": []
             },
             {
@@ -34166,7 +34082,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": " ## In Scope ## \n* [Yahoo Fantasy Sports Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.fantasyfootball)\n* [Yahoo Fantasy Sports iOS](https://itunes.apple.com/us/app/yahoo-fantasy-sports/id328415391?mt=8)\n* [Yahoo Fantasy Sports (web)](https://sports.yahoo.com/fantasy/)\n* https://sports.yahoo.com/odds/\n\n ## Notes ## \nThe betting feature in Fantasy is provided by a third party, BetMGM. https://sports.yahoo.com/odds/, is the page from where it redirects the user to the BetMGM. This is geographically restricted.\n",
+                "description": "## In Scope ## \n* [Yahoo Fantasy Sports Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.fantasyfootball)\n* [Yahoo Fantasy Sports iOS](https://itunes.apple.com/us/app/yahoo-fantasy-sports/id328415391?mt=8)\n* [Yahoo Fantasy Sports (web)](https://sports.yahoo.com/fantasy/)\n* https://sports.yahoo.com/odds/\n\n ## Notes ## \nThe betting feature in Fantasy is provided by a third party, BetMGM. https://sports.yahoo.com/odds/, is the page from where it redirects the user to the BetMGM. This is geographically restricted.",
                 "requiredSkills": []
             },
             {
@@ -34180,7 +34096,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": " ## In Scope ## \n* https://sports.yahoo.com/dailyfantasy/account/addfunds\n",
+                "description": "## In Scope ## \n* https://sports.yahoo.com/dailyfantasy/account/addfunds",
                 "requiredSkills": []
             },
             {
@@ -34194,7 +34110,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": " ## In Scope ## \n* [Yahoo Sports Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.sportacular)\n* [Yahoo Sports iOS](https://itunes.apple.com/us/app/yahoo-sports-teams-scores-news-highlights/id286058814?mt=8)\n* *.protrade.com\n",
+                "description": "## In Scope ## \n* [Yahoo Sports Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.sportacular)\n* [Yahoo Sports iOS](https://itunes.apple.com/us/app/yahoo-sports-teams-scores-news-highlights/id286058814?mt=8)\n* *.protrade.com",
                 "requiredSkills": []
             },
             {
@@ -34250,7 +34166,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "yimg is a resource storage and content distribution network (CDN).\n** Note:  Reports submitted that exploit bugs only in the context of the `yimg.com` domain are most likely to be closed as `Informative`.  Most bugs in `*.yimg.com` will require a proof-of-concept or proof-of-exploit that escalates into one of the primary brand or product domains (e.g. yahoo.com or aol.com) to be eligible for bounty. CVSS Environmental scores have been set to account for this limitation.**\n\nWhat does that mean for my report?\n1. If you show escalation into a trusted domain's context (such as yahoo.com) it will be accepted at 100% bounty rate. A bonus may be applied for different instances within the trusted domain list only; not for other instances of vulnerabilities content on yimg.com.\n2. If you show execution in the context of *.yimg.com only, the vulnerability MAY be accepted by the business owner in some instances. In that case, a minimum bounty would be offered only if the content is removed. There are no \"same bug different host\" or other vulnerability grouping bonus offers for this asset.",
+                "description": "yimg is a resource storage and content distribution network (CDN).\n** Note:  Reports submitted that exploit bugs only in the context of the `yimg.com` domain are most likely to be closed as `Informative`.  Most bugs in `*.yimg.com` will require a proof-of-concept or proof-of-exploit that escalates into one of the primary brand or product domains (e.g. yahoo.com) to be eligible for bounty. CVSS Environmental scores have been set to account for this limitation.**\n\nWhat does that mean for my report?\n1. If you show escalation into a trusted domain's context (such as yahoo.com) it will be accepted at 100% bounty rate. A bonus may be applied for different instances within the trusted domain list only; not for other instances of vulnerabilities content on yimg.com.\n2. If you show execution in the context of *.yimg.com only, the vulnerability MAY be accepted by the business owner in some instances. In that case, a minimum bounty would be offered only if the content is removed. There are no \"same bug different host\" or other vulnerability grouping bonus offers for this asset.",
                 "requiredSkills": []
             },
             {
