@@ -1,5 +1,216 @@
 [
     {
+        "title": "Moneybox Bug Bounty",
+        "slug": "moneybox-bug-bounty",
+        "country": "GB",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 70,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 6,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "18faebfb-3fc7-47d2-ad8f-0f9e8af2512b",
+            "original_name": "digital_moneybox_logo.jpg",
+            "mime_type": "image/jpeg",
+            "size": 2950,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/18faebfb-3fc7-47d2-ad8f-0f9e8af2512b"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Moneybox",
+            "slug": "moneybox",
+            "description": "Save and invest for your future. We offer cash savings products and long term investment products. As with all investing, your capital is at risk.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-22T17:26:09+02:00",
+        "scopes": [
+            {
+                "scope": "https://api.moneyboxapp.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://admin.moneyboxapp.org",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://admin-roundups.moneyboxapp.org",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.moneyboxapp",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://sycamore.moneyboxapp.org",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Doctolib",
+        "slug": "doctolib-public-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 1448,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 50000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7ef26a12-b824-4815-9a4d-71fcba3eab3a",
+            "original_name": "Capture d\u2019e\u0301cran 2024-10-25 a\u0300 20.20.42.png",
+            "mime_type": "image/png",
+            "size": 74448,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7ef26a12-b824-4815-9a4d-71fcba3eab3a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Doctolib",
+            "slug": "doctolib",
+            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7f0639078becd63ab17e57b318a6352e",
+                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
+                "mime_type": "image/png",
+                "size": 15879,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-22T17:17:33+02:00",
+        "scopes": [
+            {
+                "scope": "www.doctolib.(fr|de|it)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Special scenarios (see description)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.doctolib.(fr|de|it|com|net)",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.siilo.com",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Contentsquare Bug Bounty Program",
         "slug": "contentsquare-bug-bounty-program",
         "country": "FR",
@@ -19,7 +230,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 531,
+        "reports_count": 532,
         "bounty_reward_min": 0,
         "bounty_reward_max": 2500,
         "scopes_count": 5,
@@ -107,7 +318,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1382,
+        "reports_count": 1383,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 9,
@@ -339,7 +550,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 238,
+        "reports_count": 239,
         "bounty_reward_min": 50,
         "bounty_reward_max": 8000,
         "scopes_count": 43,
@@ -1266,7 +1477,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2178,
+        "reports_count": 2179,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3300,
         "scopes_count": 19,
@@ -1452,7 +1663,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 610,
+        "reports_count": 611,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 5,
@@ -2390,7 +2601,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 3948,
+        "reports_count": 3949,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -2903,7 +3114,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 217,
+        "reports_count": 218,
         "bounty_reward_min": 50,
         "bounty_reward_max": 1500,
         "scopes_count": 8,
@@ -3720,7 +3931,7 @@
         ]
     },
     {
-        "title": "toom Baumarkt GmbH - Bug Bounty Program (toom.de)",
+        "title": "toom Baumarkt GmbH - Webshop",
         "slug": "toom-baumarkt-gmbh-bug-bounty-program",
         "country": "DE",
         "activity_area": "Retail",
@@ -4787,122 +4998,6 @@
                 "scope": "https://apps.apple.com/fr/app/cryptobox/id972602802",
                 "scope_type": "mobile-application-ios",
                 "scope_type_name": "Mobile application IOS",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Doctolib",
-        "slug": "doctolib-public-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "HealthTech",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1448,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 50000,
-        "scopes_count": 9,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7ef26a12-b824-4815-9a4d-71fcba3eab3a",
-            "original_name": "Capture d\u2019e\u0301cran 2024-10-25 a\u0300 20.20.42.png",
-            "mime_type": "image/png",
-            "size": 74448,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7ef26a12-b824-4815-9a4d-71fcba3eab3a"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Doctolib",
-            "slug": "doctolib",
-            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7f0639078becd63ab17e57b318a6352e",
-                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
-                "mime_type": "image/png",
-                "size": 15879,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-12-17T15:13:28+01:00",
-        "scopes": [
-            {
-                "scope": "www.doctolib.(fr|de|it)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Special scenarios (see description)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.doctolib.(fr|de|it|com|net)",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.siilo.com",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
                 "asset_value": "MEDIUM",
                 "report_count": null
             }
@@ -6125,7 +6220,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1647,
+        "reports_count": 1648,
         "bounty_reward_min": 50,
         "bounty_reward_max": 12500,
         "scopes_count": 3,
@@ -6656,7 +6751,7 @@
         "disabled": false,
         "vdp": true,
         "archived": false,
-        "reports_count": 958,
+        "reports_count": 959,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 2,
@@ -7412,7 +7507,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 105,
+        "reports_count": 106,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 9,
@@ -7855,101 +7950,6 @@
                 "scope": "Specific scenarios (see program description)",
                 "scope_type": "other",
                 "scope_type_name": "Other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Moneybox Bug Bounty",
-        "slug": "moneybox-bug-bounty",
-        "country": "GB",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 70,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 6,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "18faebfb-3fc7-47d2-ad8f-0f9e8af2512b",
-            "original_name": "digital_moneybox_logo.jpg",
-            "mime_type": "image/jpeg",
-            "size": 2950,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/18faebfb-3fc7-47d2-ad8f-0f9e8af2512b"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Moneybox",
-            "slug": "moneybox",
-            "description": "Save and invest for your future. We offer cash savings products and long term investment products. As with all investing, your capital is at risk.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2024-11-08T15:50:20+01:00",
-        "scopes": [
-            {
-                "scope": "https://api.moneyboxapp.com/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://admin.moneyboxapp.org/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://admin-roundups.moneyboxapp.org/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.moneyboxapp",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://sycamore.moneyboxapp.org/",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             }
