@@ -5419,6 +5419,20 @@
                 ]
             },
             {
+                "id": "a6c64caf-992e-4817-bad6-534fbe8ab952",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Salto KS Android application",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Salto KS Android application allows user to generate a digital key and perform remote openings. Depending on the rights of the user certain administrative actions are possible as well. You can request a testable version by following the link in the request section. Both Android and iOS is available in production but due to distribution limitations by Apple for beta applications we only provide the Android version.\n\nYou need to select \"Acceptance-Intigriti\" in the environment selector in order for you to use the application. \n\nCheck out our support section for useful information on the capabilities of the application: https://support.saltosystems.com/ks/",
+                "requiredSkills": []
+            },
+            {
                 "id": "f507d0da-d7d3-4e68-9c74-76682a6fd710",
                 "type": {
                     "id": 1,
@@ -5429,7 +5443,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "The API handles all business logic and is what powers Salto KS. Our API is available to integration partners which allows customisation of the Salto KS experience. \n\nCheck out the Swagger for more information: https://clp-accept-user.my-clay.com/swagger",
+                "description": "The API handles all business logic and is what powers Salto KS. Our API is available to integration partners which allows customisation of the Salto KS experience. To authenticate against API calls we recommend grabbing the JWT from the network tab when making requests in the web application.\n\nWe recommend you access the UI before using the API to get a better understanding of what the API and application is meant to do. \n\nCheck out the Swagger for more information: https://clp-accept-user.my-clay.com/swagger",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -5563,7 +5577,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "The API handles all business logic and is what powers the Commissioning application. \n\nCheck out the Swagger for more information: https://commissioningapi-accept.saltoks.com/swagger/index.html",
+                "description": "The API handles all business logic and is what powers the Commissioning application. To authenticate against API calls we recommend grabbing the JWT from the network tab when making requests in the web application.\n\nWe recommend you access the UI before using the API to get a better understanding of what the API and application is meant to do. \n\nCheck out the Swagger for more information: https://commissioningapi-accept.saltoks.com/swagger/index.html",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -5609,7 +5623,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "The API handles all business logic and is what powers the Support application. \n\nCheck out the Swagger for more information: https://clp-accept-larry.my-clay.com/swagger/index.html",
+                "description": "The API handles all business logic and is what powers the Support application. To authenticate against API calls we recommend grabbing the JWT from the network tab when making requests in the web application.\n\nWe recommend you access the UI before using the API to get a better understanding of what the API and application is meant to do. \n\nCheck out the Swagger for more information: https://clp-accept-larry.my-clay.com/swagger/index.html",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -10665,8 +10679,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -14599,8 +14613,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -30847,6 +30861,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "3f055ae6-00a7-4ca2-be86-8d9e0d76e405",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.kiwaimpact.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "d2aa7766-b6e0-4a50-9f1e-6e7105d50a6c",
                 "type": {
                     "id": 7,
@@ -30875,12 +30903,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "4e18608c-db05-4d82-bdfa-ba77ed4a1799",
+                "id": "e9603c2b-8e0f-4c8e-85f1-13197bf5a076",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.kiwa.no",
+                "endpoint": "*.kiwa.se",
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
@@ -30889,12 +30917,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "e9603c2b-8e0f-4c8e-85f1-13197bf5a076",
+                "id": "4e18608c-db05-4d82-bdfa-ba77ed4a1799",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
-                "endpoint": "*.kiwa.se",
+                "endpoint": "*.kiwa.no",
                 "tier": {
                     "id": 1,
                     "value": "No Bounty"
