@@ -14613,8 +14613,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -32186,6 +32186,90 @@
                     "value": "Tier 1"
                 },
                 "description": "TThis is our Kruidvat mobile app for The Netherlands.\nApp Link:\u00a0https://play.google.com/store/apps/details?id=be.kruidvat.voordeelkaart",
+                "requiredSkills": []
+            },
+            {
+                "id": "0c795dec-0596-462f-b56e-d860aef8fdd5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.kruidvat.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.kruidvat.nl website\nAPI spec: https://api.kruidvat.nl/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "4ce12bca-0fef-4d20-8602-aef8ff082d18",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.kruidvat.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server for the www.kruidvat.be website\nAPI spec: https://api.kruidvat.be/api/v2/api-docs",
+                "requiredSkills": []
+            },
+            {
+                "id": "e9331260-dc5f-4b54-aa36-cb0825fa20b4",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.kruidvat.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Kruidvat mobile app in The Netherlands",
+                "requiredSkills": []
+            },
+            {
+                "id": "75091717-7cdc-4eda-ba18-1b973e1f948e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.kruidvat.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This is the API server of the Kruidvat mobile app in Belgium",
+                "requiredSkills": []
+            },
+            {
+                "id": "6434be3a-5b93-4e89-88c0-c1a3c988d238",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.kruidvat.nl",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the www.kruidvat.nl e-commerce website",
+                "requiredSkills": []
+            },
+            {
+                "id": "d166bf52-77c9-4be5-8c61-309cb042bb5f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "media.kruidvat.be",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This subdomain is used to store static content for the www.kruidvat.be e-commerce website",
                 "requiredSkills": []
             },
             {
