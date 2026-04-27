@@ -452,8 +452,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -7296,8 +7296,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -39470,6 +39470,66 @@
                     "value": "Out Of Scope"
                 },
                 "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "ef919950-9ced-48c3-b1f4-2379c43c8ec5",
+        "handle": "wartsila-vdp",
+        "name": "W\u00e4rtsil\u00e4 Vulnerability Disclosure Program",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/wartsila/wartsila-vdp/detail"
+        },
+        "industry": "Manufacturing - Industrial",
+        "domains": [
+            {
+                "id": "cd332a65-ddcd-4f3e-b1b9-cb267b2bf29e",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.wartsila.com",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "45fca1ab-7160-4fa7-9ffa-2a138ce13419",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "Any Wartsila related domain ",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Please verify ownership or legitimate association via WHOIS, reverse DNS, delegated DNS, or other reliable means to ensure the asset is intended for W\u00e4rtsil\u00e4 use and that W\u00e4rtsil\u00e4 is the appropriate recipient of the disclosure.",
                 "requiredSkills": []
             }
         ]
