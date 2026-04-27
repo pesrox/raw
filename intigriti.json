@@ -8594,12 +8594,54 @@
         "industry": "Hospitals & Healthcare",
         "domains": [
             {
-                "id": "2cb13ddd-b63f-4c7a-82a2-83a244949df2",
+                "id": "1627ffc0-ebe6-4890-a8cb-4c969d3af7f4",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "preview.redcap.gbiomed.kuleuven.be",
+                "endpoint": "uz-laboboeken.web.app",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "121a6456-4f4d-4494-ac9c-415bfa50b908",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "laboboeken.uzleuven.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "158b6f77-e0c2-439f-97e1-1b6d87602df9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "boekentoy.firebaseio.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "e01b2841-6d9b-4b0d-b8c3-f7b55e2e4c32",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "uz-laboboeken.firebaseio.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
