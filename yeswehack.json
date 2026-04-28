@@ -1,100 +1,5 @@
 [
     {
-        "title": "BookBeat",
-        "slug": "bookbeat",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 444,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 6,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
-            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-            "mime_type": "image/png",
-            "size": 7732,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "BookBeat",
-            "slug": "bookbeat",
-            "description": "BookBeat",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
-                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-                "mime_type": "image/png",
-                "size": 7732,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2026-04-28T14:56:55+02:00",
-        "scopes": [
-            {
-                "scope": "https://www.bookbeat.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.bookbeat.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://search-api.bookbeat.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.bookbeat.android&hl=en&pli=1",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/se/app/bookbeat-audiobooks-e-books/id1056652614?l=en-GB",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "edge.bookbeat.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "HARMAN International - Web Applications",
         "slug": "harman-international-web-applications",
         "country": "US",
@@ -114,10 +19,10 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1634,
+        "reports_count": 1638,
         "bounty_reward_min": 100,
         "bounty_reward_max": 4000,
-        "scopes_count": 27,
+        "scopes_count": 28,
         "pentest_campaign_status": null,
         "thumbnail": {
             "name": "893e330d-95e9-48d1-bb81-0ad52b2d2cdc",
@@ -143,7 +48,7 @@
         },
         "hunter_audience": null,
         "scopes_enabled": null,
-        "last_update_at": "2026-04-27T18:17:47+02:00",
+        "last_update_at": "2026-04-28T20:46:59+02:00",
         "scopes": [
             {
                 "scope": "*.jbl.com",
@@ -332,6 +237,108 @@
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
                 "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.harman.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "BookBeat",
+        "slug": "bookbeat",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 445,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 6,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
+            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+            "mime_type": "image/png",
+            "size": 7732,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "BookBeat",
+            "slug": "bookbeat",
+            "description": "BookBeat",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
+                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+                "mime_type": "image/png",
+                "size": 7732,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-04-28T14:56:55+02:00",
+        "scopes": [
+            {
+                "scope": "https://www.bookbeat.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.bookbeat.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://search-api.bookbeat.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.bookbeat.android&hl=en&pli=1",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/se/app/bookbeat-audiobooks-e-books/id1056652614?l=en-GB",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "edge.bookbeat.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -947,7 +954,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 685,
+        "reports_count": 686,
         "bounty_reward_min": 100,
         "bounty_reward_max": 10000,
         "scopes_count": 9,
@@ -1063,7 +1070,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 255,
+        "reports_count": 256,
         "bounty_reward_min": 50,
         "bounty_reward_max": 8000,
         "scopes_count": 43,
@@ -1417,7 +1424,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 69,
+        "reports_count": 70,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2000,
         "scopes_count": 10,
@@ -2249,7 +2256,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2173,
+        "reports_count": 2174,
         "bounty_reward_min": 5,
         "bounty_reward_max": 1500,
         "scopes_count": 42,
@@ -6240,7 +6247,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1655,
+        "reports_count": 1657,
         "bounty_reward_min": 50,
         "bounty_reward_max": 12500,
         "scopes_count": 3,
@@ -6771,7 +6778,7 @@
         "disabled": false,
         "vdp": true,
         "archived": false,
-        "reports_count": 963,
+        "reports_count": 964,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 2,
@@ -8090,7 +8097,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 239,
+        "reports_count": 240,
         "bounty_reward_min": 100,
         "bounty_reward_max": 2000,
         "scopes_count": 3,
@@ -8381,7 +8388,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 117,
+        "reports_count": 118,
         "bounty_reward_min": 50,
         "bounty_reward_max": 1000,
         "scopes_count": 4,
@@ -8522,7 +8529,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 126,
+        "reports_count": 127,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2000,
         "scopes_count": 3,
