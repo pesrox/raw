@@ -5285,20 +5285,6 @@
         "industry": "Public Services",
         "domains": [
             {
-                "id": "99e00bd1-35e0-4138-9624-5afcd0bbc3c1",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "annualreport.cybersecuritycoalition.be",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
                 "id": "925c19b8-eae1-45fd-ab0e-23bb3c5b27ae",
                 "type": {
                     "id": 1,
@@ -11334,6 +11320,66 @@
         ]
     },
     {
+        "id": "3d6dfea5-b7f6-4bca-98a3-a1c6b8a4c7dd",
+        "handle": "qcvdp",
+        "name": "QC VDP",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/quadcode/qcvdp/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "f37a1964-a4e0-4bbc-a037-1ebe04baeca2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "iqoption.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "> **Description:** A trading platform with self-registration option\n> This Tier is concentrated within any security issues which are related to trading areas such as exchange, withdrawal, deposit, and other billing-related operations\n> List of countries where the service is restricted (see FAQ section):\n> Registration is available via  [link](https://iqoption.com/en/register)",
+                "requiredSkills": []
+            },
+            {
+                "id": "87f9d92b-7d32-4c28-b659-c13bf2e3dde3",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "quadcode.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "> The Quadcode's main webside representing the company information, mission, solutions.\n\n**Registration is not available**",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "3e51fb18-7082-4ce5-85d0-2bd889b5ed4e",
         "handle": "VismaResponsibleDisclosure",
         "name": "Visma Responsible Disclosure",
@@ -16785,8 +16831,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
