@@ -5790,8 +5790,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -9802,8 +9802,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -14394,6 +14394,20 @@
         "industry": "Software",
         "domains": [
             {
+                "id": "9e581344-45a7-4de5-95ee-347435b8d4ad",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "app.aikido.dev",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This is our main application, which hosts the API as well as the front-end application.\n\nOur public API is also accessible via this host. Documentation is available here: https://apidocs.aikido.dev/.",
+                "requiredSkills": []
+            },
+            {
                 "id": "fe6965b5-bf44-4368-be8f-72fc2b5c7428",
                 "type": {
                     "id": 6,
@@ -14408,17 +14422,17 @@
                 "requiredSkills": []
             },
             {
-                "id": "9e581344-45a7-4de5-95ee-347435b8d4ad",
+                "id": "49aa2703-2432-4b2d-9973-dbc79715ff1e",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 8,
+                    "value": "SourceCode"
                 },
-                "endpoint": "app.aikido.dev",
+                "endpoint": "https://github.com/AikidoSec/safe-chain",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our main application, which hosts the API as well as the front-end application.\n\nOur public API is also accessible via this host. Documentation is available here: https://apidocs.aikido.dev/.",
+                "description": null,
                 "requiredSkills": []
             },
             {
@@ -14655,8 +14669,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -18335,8 +18349,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -23008,8 +23022,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -37987,8 +38001,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
