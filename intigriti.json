@@ -6979,7 +6979,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "This is the authentication service for our membership and community, mostly used for all of our membership (e.g. LIR) applications.\nWe strongly suggest you to adjust your scanners to the limit where we mentioned in the req/sec.\n\nPlease adhere to the **out of scope** rules below.\n",
+                "description": "This is the authentication service for our membership and community, mostly used for all of our membership (e.g. LIR) applications.",
                 "requiredSkills": []
             },
             {
@@ -7021,7 +7021,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "RIPE Database whois code repository.\n\n",
+                "description": "RIPE Database whois code repository.",
                 "requiredSkills": []
             },
             {
@@ -7049,7 +7049,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Our main domain.\nWe suggest you to check out of scope section of our program if you discover any vulnerabilities on this domain or it's subdomains.\nTo make your reports better, we suggest you to check the IP address of the asset you've found so you can understand the address if in scope or out of scope.\n",
+                "description": "Our main domain.\nWe suggest you to check out of scope section of our program if you discover any vulnerabilities on this domain or its subdomains.\nTo make your reports better, we suggest you to check the IP address of the asset you've found so you can understand the address if in scope or out of scope.",
                 "requiredSkills": []
             },
             {
@@ -7063,7 +7063,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This is our IP Range.\nSince we are letting some people to host their content, there are some exclusions.",
+                "description": "This is our IP space.\nThe RIPE NCC hosts websites for other organizations and therefore only assets in the ripe.net zones are included.",
                 "requiredSkills": []
             },
             {
@@ -9802,8 +9802,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
