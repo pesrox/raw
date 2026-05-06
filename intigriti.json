@@ -321,40 +321,54 @@
                 ]
             },
             {
-                "id": "f3f32d46-ff45-4be5-9967-c2ed1749c1b3",
+                "id": "2d79e849-504c-4627-ae3e-f672f7e1ee80",
                 "type": {
                     "id": 6,
                     "value": "Other"
                 },
-                "endpoint": "All Coke Stores",
+                "endpoint": "Food and Beverage Dispensing Devices",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Applications or assets related to any Coke Stores.",
+                "description": "Due to the unique nature of these devices (usually present on networks operated by 3rd parties), we do not authorize testing against them.\n\n* Coca-Cola Freestyle Machines\n* Dasani Purefill Water Dispensers\n* Intelligent Vending Machines\n* Connected Coolers",
                 "requiredSkills": []
             },
             {
-                "id": "a86eb92b-f72f-412e-8d21-94962deee120",
+                "id": "98677d6d-f789-483b-991e-3ea4722b6393",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "*.crewconnect.coca-cola.com",
+                "endpoint": "Coke One North America (CONA)",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": null,
+                "description": "Any application or asset owned by Coke One North America (CONA)",
                 "requiredSkills": []
             },
             {
-                "id": "724d7b05-bee0-4ed0-b6e6-7bf46e48f9a8",
+                "id": "b9a5e668-c4c0-49df-871e-739fd76dc1c6",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "*.connect.coca-cola.com",
+                "endpoint": "Assets Related to China",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "All assets located in or related to China are out of scope and reports will not be accepted.",
+                "requiredSkills": []
+            },
+            {
+                "id": "ec91eb2a-491f-4525-b51b-4af5f292a446",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "limonsoda.cl",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -377,12 +391,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "ec91eb2a-491f-4525-b51b-4af5f292a446",
+                "id": "724d7b05-bee0-4ed0-b6e6-7bf46e48f9a8",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "limonsoda.cl",
+                "endpoint": "*.connect.coca-cola.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -391,45 +405,31 @@
                 "requiredSkills": []
             },
             {
-                "id": "b9a5e668-c4c0-49df-871e-739fd76dc1c6",
+                "id": "a86eb92b-f72f-412e-8d21-94962deee120",
                 "type": {
-                    "id": 6,
-                    "value": "Other"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "Assets Related to China",
+                "endpoint": "*.crewconnect.coca-cola.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "All assets located in or related to China are out of scope and reports will not be accepted.",
+                "description": null,
                 "requiredSkills": []
             },
             {
-                "id": "98677d6d-f789-483b-991e-3ea4722b6393",
+                "id": "f3f32d46-ff45-4be5-9967-c2ed1749c1b3",
                 "type": {
                     "id": 6,
                     "value": "Other"
                 },
-                "endpoint": "Coke One North America (CONA)",
+                "endpoint": "All Coke Stores",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Any application or asset owned by Coke One North America (CONA)",
-                "requiredSkills": []
-            },
-            {
-                "id": "2d79e849-504c-4627-ae3e-f672f7e1ee80",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Food and Beverage Dispensing Devices",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "Due to the unique nature of these devices (usually present on networks operated by 3rd parties), we do not authorize testing against them.\n\n* Coca-Cola Freestyle Machines\n* Dasani Purefill Water Dispensers\n* Intelligent Vending Machines\n* Connected Coolers",
+                "description": "Applications or assets related to any Coke Stores.",
                 "requiredSkills": []
             }
         ]
