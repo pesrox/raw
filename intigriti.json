@@ -8521,8 +8521,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -8533,6 +8533,20 @@
         },
         "industry": "Hospitals & Healthcare",
         "domains": [
+            {
+                "id": "c7d3481b-63fb-438a-9f4c-62d16f7dd569",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "boekentoy.uzleuven.be",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
             {
                 "id": "1627ffc0-ebe6-4890-a8cb-4c969d3af7f4",
                 "type": {
@@ -38065,8 +38079,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
