@@ -14383,7 +14383,7 @@
         "name": "Aikido Security: Bug Bounty Program",
         "following": false,
         "minBounty": {
-            "value": 0.0,
+            "value": 50.0,
             "currency": "EUR"
         },
         "maxBounty": {
@@ -14431,20 +14431,6 @@
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "d08c83f1-4541-4e72-b354-a100aacf338c",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/AikidoSec/safe-chain",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -16966,34 +16952,6 @@
         "industry": "Software",
         "domains": [
             {
-                "id": "5b50d752-0bc7-4b48-8dd2-b824ea60f461",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://app.pdq.com/",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Production environment for our PDQ Connect \u2014 please take care not to disrupt any services when testing",
-                "requiredSkills": []
-            },
-            {
-                "id": "0ce8647b-f67c-44d7-87e5-90d609d7d308",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://portal.pdq.com/",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Production environment for our billing portal \u2014 please take care not to disrupt any services when testing",
-                "requiredSkills": []
-            },
-            {
                 "id": "ea6bb05a-43f7-4762-a98f-a11952ddfa00",
                 "type": {
                     "id": 1,
@@ -17033,6 +16991,34 @@
                     "value": "Tier 2"
                 },
                 "description": "Production environment for our Package Library \u2014 please take care not to disrupt any services when testing",
+                "requiredSkills": []
+            },
+            {
+                "id": "0ce8647b-f67c-44d7-87e5-90d609d7d308",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://portal.pdq.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Production environment for our billing portal \u2014 please take care not to disrupt any services when testing",
+                "requiredSkills": []
+            },
+            {
+                "id": "5b50d752-0bc7-4b48-8dd2-b824ea60f461",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://app.pdq.com/",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Production environment for our PDQ Connect \u2014 please take care not to disrupt any services when testing",
                 "requiredSkills": []
             },
             {
