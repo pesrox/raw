@@ -16619,8 +16619,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16642,7 +16642,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Firmware developed by Altera that executes within our FPGA products regardless of the storage media.   Excludes any software that executes the Hard Processor Subsystem, or any software that executes on an embedded processor instantiated in soft-logic within the FPGA by a customer.",
+                "description": "Firmware developed by Altera that executes within our FPGA products regardless of the storage media.   Excludes any software that executes the Hard Processor Subsystem (HPS), or any software that executes on an embedded processor instantiated in soft-logic within the FPGA by a customer.",
                 "requiredSkills": []
             },
             {
@@ -16656,7 +16656,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "FPGA Integrated Circuit hardware.   This may includes both a base FPGA and any associated co-packaged integrated circuits. ",
+                "description": "FPGA Integrated Circuit hardware.   This may includes both a base FPGA and any associated co-packaged integrated circuits.",
                 "requiredSkills": []
             },
             {
@@ -16667,8 +16667,8 @@
                 },
                 "endpoint": "FPGA Solution Development Tools and Utilities",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
                 "description": "Tools developed by Altera such as the Quartus Tool Suite used by customers to develop a solution that may comprise software, soft-logic that is hosted within an Altera FPGA device.   Also includes various Altera authored supporting utilities used to manage deployment of customer designs to Altera FPGAs.",
                 "requiredSkills": []
@@ -16681,8 +16681,8 @@
                 },
                 "endpoint": "Software",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
                 "description": "Altera Developed Device Drivers that execute on a host computer that is connected to an Altera FPGA, used to manage or control the FPGA or any functions implemented by the customer within the FPGA.",
                 "requiredSkills": []
@@ -16698,7 +16698,7 @@
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "Any elements of a complete customer solution developed by entities other than Altera that may be included in a final customer solution.   Reports relating to such entities may be reported via the Altera Bug Bounty Program, but are not eligible for bounty payments. ",
+                "description": "Any elements of a complete customer solution developed by entities other than Altera that may be included in a final customer solution.   Reports relating to such entities may be reported via the Altera Bug Bounty Program, but are not eligible for bounty payments.",
                 "requiredSkills": []
             }
         ]
@@ -30918,8 +30918,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
