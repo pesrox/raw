@@ -5790,8 +5790,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -7282,8 +7282,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -9816,8 +9816,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -10489,8 +10489,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -12410,8 +12410,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -14383,7 +14383,7 @@
         "name": "Aikido Security: Bug Bounty Program",
         "following": false,
         "minBounty": {
-            "value": 50.0,
+            "value": 0.0,
             "currency": "EUR"
         },
         "maxBounty": {
@@ -14431,6 +14431,20 @@
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d08c83f1-4541-4e72-b354-a100aacf338c",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/AikidoSec/safe-chain",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -15219,8 +15233,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16598,232 +16612,6 @@
                 },
                 "description": null,
                 "requiredSkills": []
-            }
-        ]
-    },
-    {
-        "id": "611c246e-1bf9-42b7-a458-af832582d0d7",
-        "handle": "grafanaossbbp",
-        "name": "Grafana Labs",
-        "following": false,
-        "minBounty": {
-            "value": 10.0,
-            "currency": "USD"
-        },
-        "maxBounty": {
-            "value": 15000.0,
-            "currency": "USD"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/grafanalabs/grafanaossbbp/detail"
-        },
-        "industry": "Software",
-        "domains": [
-            {
-                "id": "4786abfb-4c39-4270-abe7-cbd9e054e075",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Grafana Loki",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "See scope section for feature toggles.",
-                "requiredSkills": []
-            },
-            {
-                "id": "62eac875-1eae-48d6-b8e0-d48eebccdad7",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Grafana Mimir",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "See scope section for feature toggles.",
-                "requiredSkills": []
-            },
-            {
-                "id": "54fb526c-d86c-4dc6-bb33-18b494a1ebd5",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Grafana OSS",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Grafana Enterprise is not in scope. See scope section for feature toggles.",
-                "requiredSkills": [
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    },
-                    {
-                        "id": "supply_chain",
-                        "name": "Supply Chain"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "60452904-89da-4d25-839e-566d6af4ed42",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Grafana Pyroscope",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "See scope section for feature toggles.",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "34a99085-6d42-404a-be50-6a2e4c48f9f6",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Grafana Tempo",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "See scope section for feature toggles.",
-                "requiredSkills": []
-            },
-            {
-                "id": "1c0f875a-6561-41d9-9251-0c085ddc870f",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "https://github.com/grafana/*",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Only repository misconfigurations for non-archived repositories are in scope - please read '**In scope**' section below for detailed scope.",
-                "requiredSkills": []
-            },
-            {
-                "id": "35350cc0-0e9b-4bcf-b484-333991ed0e64",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Public Preview feature toggles in Tier 1 products",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "If your report for a Tier 1 product uses a Public Preview feature toggle, it will become Tier 2.",
-                "requiredSkills": []
-            },
-            {
-                "id": "09fd5ccd-3843-4ba0-9dab-86643ed47a6a",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Reports utilising feature toggles",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "If your report uses a Private Preview or Experimental feature toggle, it will be accepted, but is not eligible for a bounty. We may award a small bonus for these reports at the sole discretion of Grafana Labs.",
-                "requiredSkills": []
-            },
-            {
-                "id": "4ad726d7-e638-4bb3-8143-e9dcad07b8ec",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Non-Core Grafana Plugins",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty.",
-                "requiredSkills": [
-                    {
-                        "id": "supply_chain",
-                        "name": "Supply Chain"
-                    },
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "f25edc5a-6639-4351-a1c9-005693b83d07",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.grafana.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "110d7c70-52cf-4430-a135-6d2a0d4c4c21",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.grafana.net",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "ai_llm",
-                        "name": "AI / LLM"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
             }
         ]
     },
@@ -23082,8 +22870,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -25853,8 +25641,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -31144,8 +30932,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -38065,8 +37853,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -38876,8 +38664,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
