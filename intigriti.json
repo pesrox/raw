@@ -15219,8 +15219,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -27281,6 +27281,52 @@
         ]
     },
     {
+        "id": "a9e340fc-58e9-4832-9396-729312d59572",
+        "handle": "challenge0526",
+        "name": "Challenge 0526",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge0526/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "78d25df0-3805-44ef-bae6-3e265833f7b9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://challenge-0526.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "acb142c1-ffeb-41c3-a9e7-1624054f42e4",
         "handle": "veriffbugbounty",
         "name": "Veriff Bug Bounty",
@@ -32723,8 +32769,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
