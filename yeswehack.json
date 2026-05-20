@@ -86,7 +86,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 376,
+        "reports_count": 378,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 2,
@@ -213,7 +213,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 619,
+        "reports_count": 621,
         "bounty_reward_min": 5,
         "bounty_reward_max": 5000,
         "scopes_count": 12,
@@ -2177,7 +2177,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2217,
+        "reports_count": 2218,
         "bounty_reward_min": 5,
         "bounty_reward_max": 1500,
         "scopes_count": 42,
@@ -4197,7 +4197,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 486,
+        "reports_count": 487,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 30,
@@ -7508,129 +7508,6 @@
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "DINUM - Tchap - Bug Bounty Program",
-        "slug": "tchap-public",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 522,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 20000,
-        "scopes_count": 10,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "ba26dbf0-87e4-4e11-8b8d-3b1c4c40b0cc",
-            "original_name": "unnamed-1.png",
-            "mime_type": "image/png",
-            "size": 4950,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/ba26dbf0-87e4-4e11-8b8d-3b1c4c40b0cc"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
-            "slug": "dinum",
-            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
-                "original_name": "logo-marianne-dinsic-300x300.jpg",
-                "mime_type": "image/jpeg",
-                "size": 45646,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-01-15T09:24:05+01:00",
-        "scopes": [
-            {
-                "scope": "https://www.tchap.gouv.fr",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.agent.tchap.gouv.fr",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.agent.*.tchap.gouv.fr",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/tchapgouv",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/tchap/id1446253779",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.beta.tchap.gouv.fr",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.i.tchap.gouv.fr",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.e.tchap.gouv.fr",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Specific scenarios (see program description)",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
