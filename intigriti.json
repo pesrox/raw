@@ -9816,8 +9816,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -18027,6 +18027,126 @@
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "69a64cbf-305d-4f48-90e5-0b7377c67bac",
+        "handle": "grafanalabsvdp",
+        "name": "Grafana Labs - Vulnerability Disclosure Program (VDP)",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/grafanalabs/grafanalabsvdp/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "b78c144c-e065-482f-8f99-f9c2ebe0048b",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana OSS",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "f594ec79-cb3c-46ae-b800-1b8bdf4be4a9",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Tempo",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "baf72405-c1f5-49fd-bee8-01c4c82a624c",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Pyroscope",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "895e4ce2-c7af-47a3-8c67-224b4f13ff3b",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Loki",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3ee5d289-2245-455d-a470-3cb63a2b2e44",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Mimir",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -29975,6 +30095,290 @@
         ]
     },
     {
+        "id": "b1a1cbbb-f927-49d5-a9c8-2ea03a626270",
+        "handle": "nexo",
+        "name": "Nexo",
+        "following": false,
+        "minBounty": {
+            "value": 125.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 4800.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/nexo/nexo/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "f4e6637f-f7ca-4a63-a2e6-28f187eb84bb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/create_recurring_payment",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API sets and creates new recurring payment which will occurs every X days.",
+                "requiredSkills": []
+            },
+            {
+                "id": "13e46c07-f47d-42ac-b928-25fd6f703e74",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/exchange_order",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Endpoint\u2019s functionality is to trigger and convert an exchange between two currencies.",
+                "requiredSkills": []
+            },
+            {
+                "id": "40d25331-fa09-4399-a26f-63c2c086d57e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/exchange_request_quote",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API endpoint requests a quote which is used for calculating the amount that will be received.",
+                "requiredSkills": []
+            },
+            {
+                "id": "8f3ede54-1c98-49d6-8ad9-fd66d5e78c8e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/get_pay_to_card_fee",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "An API endpoint that generates the fees for the user.",
+                "requiredSkills": []
+            },
+            {
+                "id": "ac6e1b47-b267-435c-9a72-9ffa11ee219e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/request_bwc_quote",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint fetches and returns buy with card quote.",
+                "requiredSkills": []
+            },
+            {
+                "id": "b250526e-792f-4745-81c8-332553a11cee",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/request_capture_payment",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint that allows users to buy crypto with a card.",
+                "requiredSkills": []
+            },
+            {
+                "id": "0eebfba5-4ae7-45da-90f2-ebf6f4f6bd83",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/request_crypto_withdrawal",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint that allows users to withdraw their crypto.",
+                "requiredSkills": []
+            },
+            {
+                "id": "35a24c9a-33ec-4895-a4a4-9c4a4255ef5a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/request_pay_to_card",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Endpoint\u2019s functionality is to perform Withdraw Transaction to a Card.",
+                "requiredSkills": []
+            },
+            {
+                "id": "8fffc0c0-b8f4-4660-b13f-5cfa689c49f0",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/1/term/deposits/user/create",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint that creates a fixed-term deposit.",
+                "requiredSkills": []
+            },
+            {
+                "id": "03a0e8b2-9bc2-44cd-b448-9d315a1edcd5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/platform/exchange/v1/booster/quotes",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint requests a quote for our [booster product](https://support.nexo.com/article/nexo-booster-explained). The transactions are made based on this quote.",
+                "requiredSkills": []
+            },
+            {
+                "id": "0ebb0457-b418-4739-90e2-db2b2ea58e7b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/platform/exchange/v2/booster/orders",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The Endpoint\u2019s functionality is to return the orders that have been made by the user.",
+                "requiredSkills": []
+            },
+            {
+                "id": "165323de-673d-4d1c-93e0-6b4446a80a3e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/platform/exchange/v2/exchange/orders",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint used to convert one crypto to another.",
+                "requiredSkills": []
+            },
+            {
+                "id": "384d6226-93e0-44ae-a451-fe575d68b69f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/deposit",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint used to add assets to the user's trading wallet.",
+                "requiredSkills": []
+            },
+            {
+                "id": "cebc18fc-af20-46e1-845d-a4b82002aa77",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/fees",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Endpoint to fetch deposit fees.",
+                "requiredSkills": []
+            },
+            {
+                "id": "ec43610a-5bc5-4c9b-a48d-1bbe6602459c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/order/futures",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint used to open a future position.",
+                "requiredSkills": []
+            },
+            {
+                "id": "7a802e92-983e-4d0a-b411-2c0774163c25",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/api/trading/advanced/facade/api/v1/withdraw",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "API Endpoint used to withdraw assets from your trading wallet to your savings wallet.",
+                "requiredSkills": []
+            },
+            {
+                "id": "aefa0925-f0ab-4cd9-b8c4-54697ead85bb",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://nexo.com/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "On this website you can get familiar with our products.",
+                "requiredSkills": []
+            },
+            {
+                "id": "0b0fc5a8-b188-4496-b728-f427f3654864",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://platform.nexo.com/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "On this website you can use our products.",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "b1be2cd1-cb7c-4456-86f4-8e541955a51a",
         "handle": "theperfumeshop",
         "name": "The Perfume Shop",
@@ -31281,8 +31685,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
