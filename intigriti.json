@@ -5775,7 +5775,7 @@
     {
         "id": "18058413-5255-4f5c-a9db-c6ac027bb5d6",
         "handle": "soundtrackyourbrand",
-        "name": "Soundtrack Your Brand",
+        "name": "Soundtrack Technologies",
         "following": false,
         "minBounty": {
             "value": 50.0,
@@ -5803,6 +5803,20 @@
         "industry": "Media & Entertainment",
         "domains": [
             {
+                "id": "708bd9d2-e269-49fa-bf92-7a36ff73be35",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://soundtrack.io",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Our public web site.",
+                "requiredSkills": []
+            },
+            {
                 "id": "c427e807-e72a-4dee-bcb6-f42325ed88b9",
                 "type": {
                     "id": 3,
@@ -5813,7 +5827,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "The iOS Player app that allows you to browse and play music.\n\nIn order to use the iOS Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg",
+                "description": "The iOS Player app that allows you to browse and play music.\n\nIn order to use the iOS Player you will need a pairing code that you can obtain through https://app.soundtrack.io/ using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg",
                 "requiredSkills": []
             },
             {
@@ -5827,7 +5841,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "The iOS Remote that allows you to remotely control your Soundtrack Players.\n\nIn order to use the iOS Remote you will need a remote code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=cmAe1kRvOeY",
+                "description": "The iOS Remote that allows you to remotely control your Soundtrack Players.\n\nIn order to use the iOS Remote you will need a remote code that you can obtain through https://app.soundtrack.io/ using the test credentials.\n\nhttps://www.youtube.com/watch?v=cmAe1kRvOeY",
                 "requiredSkills": []
             },
             {
@@ -5897,7 +5911,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "The Android Player app that allows you to browse and play music.\n\nIn order to use the Android Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg",
+                "description": "The Android Player app that allows you to browse and play music.\n\nIn order to use the Android Player you will need a pairing code that you can obtain through https://app.soundtrack.io/ using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg",
                 "requiredSkills": []
             },
             {
@@ -5925,7 +5939,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "The Windows Player that allows you to play music. No user interface except for a tray icon.\n\nIn order to use the Windows Player you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=HjFfXcjSEmM",
+                "description": "The Windows Player that allows you to play music. No user interface except for a tray icon.\n\nIn order to use the Windows Player you will need a pairing code that you can obtain through https://app.soundtrack.io/ using the test credentials.\n\nhttps://www.youtube.com/watch?v=HjFfXcjSEmM",
                 "requiredSkills": []
             },
             {
@@ -5943,20 +5957,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "63a457a9-c532-4ba9-9113-d3f12d18823f",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://www.soundtrackyourbrand.com",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": "Our public website.",
-                "requiredSkills": []
-            },
-            {
                 "id": "a101797e-b947-4f3a-9b89-835b2551a5e8",
                 "type": {
                     "id": 6,
@@ -5967,7 +5967,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "The macOS Player app allows you to browse and play music. You can find it in the App Store: https://apps.apple.com/se/app/soundtrack-player/id1114799709?l=en\n\nIn order to use the macOS you will need a pairing code that you can obtain through https://business.soundtrackyourbrand.com using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg",
+                "description": "The macOS Player app allows you to browse and play music. You can find it in the App Store: https://apps.apple.com/se/app/soundtrack-player/id1114799709?l=en\n\nIn order to use the macOS you will need a pairing code that you can obtain through https://app.soundtrack.io/ using the test credentials.\n\nhttps://www.youtube.com/watch?v=y7HGAtsB6Tg",
                 "requiredSkills": []
             }
         ]
@@ -10489,8 +10489,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
