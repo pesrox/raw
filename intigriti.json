@@ -27603,6 +27603,150 @@
         ]
     },
     {
+        "id": "a5bd8905-a802-41c7-b31d-03d5f521f876",
+        "handle": "saltohomesolutions",
+        "name": "Salto Home Solutions",
+        "following": false,
+        "minBounty": {
+            "value": 5.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2000.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/saltosystems/saltohomesolutions/detail"
+        },
+        "industry": "Manufacturing - Consumer",
+        "domains": [
+            {
+                "id": "3b4fc2e2-0975-4c77-908c-6e6906ed2ce6",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "staging.api.danalock.com",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "# Environment Prefixing Policy\nOur API endpoints are identified by a specific prefix in the URL to distinguish between development tiers:\n\n* Production: api.domain.com (Base URL)\n* Staging: staging.api.domain.com (Prefix: staging.)\n* Development: dev.api.domain.com (Prefix: dev.)\n\nProduction Environment: https://api.danalock.com\nStaging Environment: https://staging.api.danalock.com\nDevelopment Environment: https://dev.api.danalock.com\n\n**Please use the staging environment! We have provided user and lock for only the staging part, and we would very much like to avoid any and all disruption to the production enviorment!**\n\n# Here is how you can get access to staging api\n\n```\ncurl --request POST \\\n  --url https://staging.api.danalock.com/oauth2/token \\\n  --header 'Content-Type: application/x-www-form-urlencoded' \\\n  --data client_id=danalock-web \\\n  --data grant_type=password \\\n  --data username=shs-intigriti@saltosystems.com \\\n  --data password=FxaK7Q27E3airx1\n```\n\nLogin: shs-intigriti@saltosystems.com / FxaK7Q27E3airx1\nhttps://staging.my.danalock.com/\n\nYou could also create your own staging account and insert username + password into the CURL command instead of the designated user, but only the one we provide will have a lock, pad & brigde connected to the user. A Danalock V3 has been made avalible for testing. It has the Danabridge accessory added as well. The placement is our office and connection is our guest WiFi.\n\n# Create a staging account\nIf you want to you can create your own account of course:\n\nGo to https://staging.my.danalock.com/\nClick Sign-in\nClick \u201cCreate Account\u201d\nEnter email and password.\n\nFurther information regarding api operations for danaserver & brigde has been attached as .md files in the \"In scope\" section.",
+                "requiredSkills": []
+            },
+            {
+                "id": "ffc230ab-7adf-4308-aa69-18fc753b7b0d",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Danalock Android",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Danalock main app for Android costumers.\n\nhttps://play.google.com/store/apps/details?id=com.danalock.wormhole&hl=da\n\nFrom version 3.0 of both Android and iOS Wormhole, it\u2019s possible to change Danaserver environment in the app. From the login screen: Toggle the custom backend option by tapping the corners of the screen like this:\n\nUR UR DL DR UL UL DL DR",
+                "requiredSkills": []
+            },
+            {
+                "id": "d20cd761-a8bc-4124-b3a1-b14b2feebb03",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Danalock IOS",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Danalock main app for IOS costumers.\n\nhttps://apps.apple.com/dk/app/danalock/id1606883818?l=da\n\nFrom version 3.0 of both Android and iOS Wormhole, it\u2019s possible to change Danaserver environment in the app. From the login screen: Toggle the custom backend option by tapping the corners of the screen like this:\n\nUR UR DL DR UL UL DL DR",
+                "requiredSkills": []
+            },
+            {
+                "id": "3d5845dc-dc1c-47c7-9689-a48908f099b5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://danalock.com/",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Danalock main webiste for costumers.",
+                "requiredSkills": []
+            },
+            {
+                "id": "8984e65d-05bf-439a-a073-a4c3f5117d15",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://staging.airbnb.danalock.com/login",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "The Danalock-Airbnb partnership enables automated, keyless entry for guests by automatically generating, updating, and deleting unique PIN codes for the Danapad V3 based on Airbnb booking dates.\n\nYou can find this in https://staging.danalock.com/login in the top right corner.\n\nA Danalock V3 has been made avalible for testing. It has the Danabridge accessory added as well. The placement is our office and connection is our guest WiFi.\n\nLogin: shs-intigriti@saltosystems.com / FxaK7Q27E3airx1\nhttps://staging.danalock.com/login\nhttps://staging.airbnb.danalock.com/login",
+                "requiredSkills": []
+            },
+            {
+                "id": "63b7ad6c-9f54-4805-800b-dcb6c3b54d58",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://api.danalock.com/swagger/index.html",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "DanaServer API is documented using Swagger tool.\nThe URL shows the current production API documentation.\nWe may award a bonus for Swagger related findings depending on the business impact.",
+                "requiredSkills": []
+            },
+            {
+                "id": "bdfe1320-a3ef-4a20-822c-8620cc6a24b1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://api.danalock.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0e1aea9e-c2f9-44b7-bf1a-ea61d142981c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://dev.api.danalock.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "a765798c-f66e-4839-8b65-6979993abd98",
         "handle": "bankvanbreda",
         "name": "Bank J.Van Breda & C\u00b0",
