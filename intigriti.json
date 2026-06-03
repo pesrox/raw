@@ -6036,7 +6036,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "[Swisspass](https://www.swisspass.ch/home?lang=en) is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services.",
+                "description": "[Swisspass](https://www.swisspass.ch/home?lang=en) is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services.\n\nAusgenommen sind Links der Form: `https://mailing.swisspass.ch/r/wxmc/swisspass/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
                 "requiredSkills": []
             },
             {
@@ -6064,7 +6064,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": null,
+                "description": "Ausgenommen sind Links der Form: `https://order.info.sbb.ch/r/wxmc/sbb/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
                 "requiredSkills": []
             },
             {
@@ -18697,8 +18697,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
