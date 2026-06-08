@@ -1051,8 +1051,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -6050,7 +6050,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "[Swisspass](https://www.swisspass.ch/home?lang=en) is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services.\n\nAusgenommen sind Links der Form: `https://mailing.swisspass.ch/r/wxmc/swisspass/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
+                "description": "[Swisspass](https://www.swisspass.ch/home?lang=en) is the key to mobility in Switzerland.\n\nWith SwissPass customers can manage their travelcard details easily and use the partner services.\n\nPlease note that the following URL scheme is excluded from the program: `https://mailing.swisspass.ch/r/wxmc/swisspass/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
                 "requiredSkills": []
             },
             {
@@ -6078,7 +6078,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Ausgenommen sind Links der Form: `https://order.info.sbb.ch/r/wxmc/sbb/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
+                "description": "Please note that the following URL scheme is excluded from the program: `https://order.info.sbb.ch/r/wxmc/sbb/{20-chars}/{20-chars}/{13-chars}/{26-chars}`",
                 "requiredSkills": []
             },
             {
@@ -7296,8 +7296,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -8154,8 +8154,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -8382,8 +8382,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -9830,8 +9830,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -10503,8 +10503,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -14571,8 +14571,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -15525,8 +15525,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -19025,8 +19025,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -26882,8 +26882,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -31275,8 +31275,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -35698,6 +35698,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "f612fadc-6972-447b-89cd-6fa5abc16e2d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.ondbaasdev.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "0e25fc10-1b0e-42b7-ab1c-ab0b73742725",
                 "type": {
                     "id": 6,
@@ -38196,8 +38210,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -40028,8 +40042,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
