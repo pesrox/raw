@@ -465,6 +465,20 @@
         "industry": "Manufacturing - Consumer",
         "domains": [
             {
+                "id": "942c8023-d004-44c1-af29-b8de85caf45b",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "api.staging-enviso.io/lockerreportingapi/graphql",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "b62965e0-86c7-4df2-b0fa-0c30ae6066c3",
                 "type": {
                     "id": 1,
@@ -769,7 +783,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "\n* [Documentation: eLoxx API](https://help.gantner.com/eloxx-365/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/withdatacarriers\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers/{datacarrierid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers/{maintenancedatacarrierid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*",
+                "description": "* [Documentation: eLoxx API](https://help.gantner.com/eloxx-365/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/withdatacarriers\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers/{datacarrierid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers/{maintenancedatacarrierid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*",
                 "requiredSkills": []
             },
             {
@@ -881,7 +895,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "\n* [Documentation: eLoxx API](https://help.gantner.com/eloxx-365/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/devices/\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/firmwareversions\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/subdevices\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/mastercardset\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* POST https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* PUT https://api.staging-enviso.io/eloxxapi/v1/mastercards/{mastercardsetid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*",
+                "description": "* [Documentation: eLoxx API](https://help.gantner.com/eloxx-365/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/devices/\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/firmwareversions\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/subdevices\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/mastercardset\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* POST https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* PUT https://api.staging-enviso.io/eloxxapi/v1/mastercards/{mastercardsetid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*",
                 "requiredSkills": []
             },
             {
@@ -11734,8 +11748,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -12387,6 +12401,20 @@
                     "value": "Url"
                 },
                 "endpoint": "kroki.devops.buhlergroup.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f3d14f2f-9bc3-44b6-9b98-7e425ad9db97",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "puml.devops.buhlergroup.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
