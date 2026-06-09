@@ -3169,8 +3169,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -10702,31 +10702,73 @@
         "industry": "Software",
         "domains": [
             {
-                "id": "f37a1964-a4e0-4bbc-a037-1ebe04baeca2",
+                "id": "624e6c7d-ebbc-4424-8c82-318817f119e9",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "iqoption.com",
+                "endpoint": "Trading Scope",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
-                "description": "> **Description:** A trading platform with self-registration option\n> This Tier is concentrated within any security issues which are related to trading areas such as exchange, withdrawal, deposit, and other billing-related operations\n> List of countries where the service is restricted (see FAQ section):\n> Registration is available via  [link](https://iqoption.com/en/register)",
+                "description": "## Description\n\nA trading platform with open self-registration. This scope covers security issues affecting trading-related and billing operations \u2014 exchange, deposit, withdrawal, refund, bonuses, and identity verification (KYC).\n\n- Registration: https://eu.iqoption.com/en/register\n\n## Assets\n\n```\niqoption.com\n*.iqoption.com\n```\n\n## What this scope covers\n\nThis scope is about flaws in the **trading, payment, and verification logic itself** \u2014 business-logic, flow, and architectural issues that let a user perform monetary or verification operations which deviate from the intended behaviour and can cause financial or regulatory harm to the company. Typical impact: creating or inflating funds out of nothing, moving money out in ways the flow should not allow, abusing bonuses, or bypassing KYC.\n\n> **The vulnerability must reside in the money/verification flow itself.** A monetary loss achieved through otherwise legitimate functionality after a separate compromise \u2014 for example, taking over an account via XSS, CSRF, IDOR, or leaked credentials and then using the normal withdrawal feature \u2014 is classified under the scope of that underlying vulnerability (e.g. Main Scope), not here. In this scope the unexpected movement of money or bypass of verification **is** the vulnerability, not merely its impact.\n\nIn short, we are looking for cases where an attacker can:\n\n1. Circumvent verification processes for deposits, refunds, or withdrawals.\n2. Manipulate system logic to bypass restrictions (e.g. the withdrawal block for non-verified users).\n3. Gain unauthorized access to funds or perform operations contrary to the intended flow \u2014 e.g. balance inflation, bonus abuse, double-spending, or rounding/arithmetic flaws affecting monetary calculations.\n\n## User & verification model\n\n**Non-verified users** \u2014 identity not confirmed (no KYC).\n- Allowed: deposit funds (no limit); refund deposited funds to the original card.\n- Restricted: all withdrawals other than card-based refunds are blocked; winnings cannot be withdrawn without triggering verification.\n\n**Verified users** \u2014 identity confirmed via official documents (e.g. passport).\n- All operations (deposit, withdrawal, refund) are gated by verification, starting from the first deposit.\n\n## In-scope vulnerability classes\n\n### Document integrity\n- Forged, AI-generated, or altered documents passing verification undetected, including repeated submission of modified versions of the same document.\n- Tampering with uploaded document metadata to bypass manual review.\n\n### Deposits\n- Inflating account balance without an actual payment (tampering with transaction requests/responses).\n- Using a verification-required payment method \u2014 or one disabled in the UI for a given country \u2014 via direct API calls.\n- Duplicate / replayed deposit transactions, or modified deposit amounts.\n\n### Withdrawals\n- Withdrawing funds (including winnings) to a card other than the deposit card without triggering verification where it should be required.\n- Withdrawing or refunding funds beyond the amount eligible \u2014 e.g. a non-verified user getting back more than was deposited, or before a refund is completed.\n- Inconsistencies between client-side and server-side enforcement of withdrawal blocks.\n- Altering withdrawal limits or changing the beneficiary account/card via the API.\n\n### Refunds\n- Issuing multiple refunds for a single deposit (double refunds), or refunding more than the original deposit amount.\n- Using the refund flow to cash out funds unrelated to the original deposit (e.g. winnings).\n- Manipulating another account's transaction ID to trigger an unauthorized refund, or redirecting a refund to an unauthorized account/card.\n- Triggering refunds without the proper KYC checks.\n\n### Bonuses & promo codes\n- Any use of bonuses or promo codes outside their intended scenario that produces a monetary or security impact. This includes, but is not limited to: reuse or replay of single-use codes, multi-accounting / self-referral to farm bonuses, stacking promotions that should not combine, inflating a bonus value, and claiming a promotion the user is not eligible for.\n\n### Authorization on monetary operations\n- Missing or broken ownership / authorization checks on monetary endpoints that allow a user to act on another user's funds or account \u2014 for example, an IDOR or parameter swap (user_id, account_id, card_id, transaction_id) that withdraws, refunds, or moves another user's balance, or operates on their billing data. The vulnerability is the absent authorization on the money operation itself, not access obtained through a separate compromise.\n\n### Business logic & payment-gateway integrity\n- Manipulating communication between the platform and the payment gateway, or failed/declined payments still being credited to the account.\n- Double-spending / duplicate processing of the same transaction (e.g. replaying a transaction ID).\n- Rounding or arithmetic errors that create or destroy value.\n- Combining otherwise-legitimate flows to reach an unintended outcome (e.g. using the refund mechanism to circumvent the withdrawal block).",
                 "requiredSkills": []
             },
             {
-                "id": "87f9d92b-7d32-4c28-b659-c13bf2e3dde3",
+                "id": "186527cc-26b4-44d2-9972-2341c3931165",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "quadcode.com",
+                "endpoint": "Main Scope",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
-                "description": "> The Quadcode's main webside representing the company information, mission, solutions.\n\n**Registration is not available**",
+                "description": "## Description\n\nThis scope covers general application-security vulnerabilities on the platform that do **not** reside in the trading, payment, or verification (KYC) flows. Issues whose core defect is in the money or verification logic belong to Trading Scope.\n\n## Assets\n\n```\niqoption.com\n*.iqoption.com\n```\n\nThe scope applies to the root domain and all sub-domains, except those listed in the Out of Scope section.\n\n## What this scope covers\n\nTechnical web-application vulnerabilities affecting the confidentiality, integrity, or availability of the platform and its users, where the flaw is not in a monetary or verification operation itself. Typical classes include (non-exhaustive): XSS, SSRF (reaching internal resources or cloud metadata), injection (SQLi, command, template, etc.), authentication / session / authorization flaws, IDOR on non-monetary objects, access-control bypass, and sensitive-data exposure.\n\n## Relationship to Trading Scope\n\nWhere a vulnerability in this scope produces a monetary or verification impact through otherwise-legitimate functionality \u2014 e.g. taking over an account via XSS, IDOR, or leaked credentials and then using the normal withdrawal or refund feature \u2014 the finding is classified here, under the underlying vulnerability, not under Trading Scope. Trading Scope is reserved for cases where the unexpected movement of money or bypass of verification **is** the vulnerability.\n\n> **Note:** Account takeover via the `ssid` cookie \u2014 arising from the lack of the `HttpOnly` attribute \u2014 is a known and accepted issue. A report will not gain additional severity from chaining this vector (e.g. XSS \u2192 `ssid` theft \u2192 ATO \u2192 withdrawal). The underlying vulnerability (e.g. the XSS itself) is still assessed on its own merits.",
+                "requiredSkills": []
+            },
+            {
+                "id": "37c74590-8dc5-42ad-ba36-f57033b5ebff",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Corporate Scope",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "## Description\n\nThe Quadcode corporate website, presenting company information, mission, and solutions.\n\n## Assets\n\n```\nquadcode.com\n*.quadcode.com\n```\n\nThe scope is currently limited to the domains listed above.\n\n## What this scope covers\n\nThe same technical web-application vulnerability classes as Main Scope (XSS, SSRF, injection, authentication / session / authorization flaws, IDOR, access-control bypass, sensitive-data exposure, etc.), as they apply to the corporate website.",
+                "requiredSkills": []
+            },
+            {
+                "id": "a07c05ed-3943-444a-9760-6eeceab34594",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Asset, Data & Secret Exposure",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "## Description\n\nA scope for high-impact findings that fall outside Trading, Main, and Corporate Scope \u2014 typically the exposure of Quadcode-owned assets, data, secrets, or infrastructure on systems that are not among the listed in-scope domains. A demonstrated security impact is mandatory; severity is assessed by that impact, as described below.\n\n## What this scope covers\n\nExposure of Quadcode assets, data, or secrets outside the listed scope, **where a concrete security impact can be demonstrated**, including but not limited to:\n\n- Leaked or exposed Quadcode credentials, API keys, tokens, or other secrets \u2014 including valid credentials found in breached or leaked databases \u2014 where the access or capability they grant is demonstrated.\n- Container images pushed to public registries (e.g. Docker Hub) that expose secrets or other sensitive internal details.\n- Misconfigured or open cloud storage (e.g. S3 buckets) containing Quadcode data.\n- Other comparable exposures with a realistic, serious security impact on Quadcode or its customers.\n\n## Impact, severity, and eligibility\n\n- **A demonstrated security impact is mandatory.** The mere existence of exposed material \u2014 a credential string, a token, a public artifact \u2014 is **not** sufficient on its own. Findings without a demonstrated impact are out of scope.\n- For reports involving exposed secrets specifically, you must demonstrate that:\n  - the secret belongs to Quadcode;\n  - the secret is currently valid; and\n  - it grants access to non-public resources or data.\n- Demonstrate impact only to the **minimum** extent necessary (e.g. confirm that authentication succeeds); do not go further (see the rules below).\n- Severity reflects the sensitivity of the exposed asset/account and the real, demonstrated impact on Quadcode's infrastructure and customers \u2014 not the mere existence of access. Valid credentials or access that pose no direct risk to our customers' data (e.g. those belonging to B2B partners) are treated accordingly.\n- Before reporting, confirm the asset actually belongs to Quadcode. Findings on third-party or unrelated assets are out of scope.\n- We reserve the final right to determine the scope and severity of findings in this area.\n\n## Rules for this scope\n\nThese reinforce the global Rules of Engagement and apply strictly here:\n\n- **Demonstrate impact only to the minimum required, then stop.** Confirm the exposure is real and exploitable (e.g. that a credential authenticates), but do not access, download, or extract data beyond that minimum.\n- Do not pivot, escalate, or use any discovered access to reach further systems.\n- Report immediately and do not retain copies of any exposed data or secrets.",
+                "requiredSkills": []
+            },
+            {
+                "id": "72dee34e-193e-44a4-9a64-c6d0c47a28f3",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.cpa.iqoption.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
                 "requiredSkills": []
             }
         ]
@@ -14571,8 +14613,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -16090,6 +16132,232 @@
                 },
                 "description": null,
                 "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "611c246e-1bf9-42b7-a458-af832582d0d7",
+        "handle": "grafanaossbbp",
+        "name": "Grafana Labs",
+        "following": false,
+        "minBounty": {
+            "value": 10.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 15000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 4,
+            "value": "Suspended"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/grafanalabs/grafanaossbbp/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "4786abfb-4c39-4270-abe7-cbd9e054e075",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Loki",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "See scope section for feature toggles.",
+                "requiredSkills": []
+            },
+            {
+                "id": "62eac875-1eae-48d6-b8e0-d48eebccdad7",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Mimir",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "See scope section for feature toggles.",
+                "requiredSkills": []
+            },
+            {
+                "id": "54fb526c-d86c-4dc6-bb33-18b494a1ebd5",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana OSS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Grafana Enterprise is not in scope. See scope section for feature toggles.",
+                "requiredSkills": [
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "60452904-89da-4d25-839e-566d6af4ed42",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Pyroscope",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "See scope section for feature toggles.",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "34a99085-6d42-404a-be50-6a2e4c48f9f6",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grafana Tempo",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "See scope section for feature toggles.",
+                "requiredSkills": []
+            },
+            {
+                "id": "1c0f875a-6561-41d9-9251-0c085ddc870f",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://github.com/grafana/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Only repository misconfigurations for non-archived repositories are in scope - please read '**In scope**' section below for detailed scope.",
+                "requiredSkills": []
+            },
+            {
+                "id": "35350cc0-0e9b-4bcf-b484-333991ed0e64",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Public Preview feature toggles in Tier 1 products",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "If your report for a Tier 1 product uses a Public Preview feature toggle, it will become Tier 2.",
+                "requiredSkills": []
+            },
+            {
+                "id": "09fd5ccd-3843-4ba0-9dab-86643ed47a6a",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Reports utilising feature toggles",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "If your report uses a Private Preview or Experimental feature toggle, it will be accepted, but is not eligible for a bounty. We may award a small bonus for these reports at the sole discretion of Grafana Labs.",
+                "requiredSkills": []
+            },
+            {
+                "id": "4ad726d7-e638-4bb3-8143-e9dcad07b8ec",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Non-Core Grafana Plugins",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Grafana Labs developed [plugins](https://grafana.com/grafana/plugins/all-plugins/?signature=grafana) not installed by default are accepted, but not eligible for a bounty.",
+                "requiredSkills": [
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    },
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "f25edc5a-6639-4351-a1c9-005693b83d07",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.grafana.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "110d7c70-52cf-4430-a135-6d2a0d4c4c21",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.grafana.net",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             }
         ]
     },
@@ -25239,8 +25507,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -40042,8 +40310,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
