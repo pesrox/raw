@@ -4568,7 +4568,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**AutoInvoice**\n\nThis is the main UI for Visma AutoInvoice. AutoInvoice is Visma's automated and fully ERP integrated service for sending, receiving and handling invoices. AutoInvoice converts and exchanges electronic invoices, optionally prints invoices that can't be sent electronically, receives and interpret PDF invoices and offers services for scanning and interpretation of paper invoices. AutoInvoice handles both Business to Business (B2B) and Business to Consumer (B2C) invoices.\n\nUses partially the embeddable user interface from autointerface-embeddable-stage.maventa.com\n\nCreate a test account on https://ai-testing.maventa.com/registrations, or use one of the demo accounts in the getting started instructions below:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaAutoinvoice-tHNjPCTbrmGiPY5y0xr8-getting-started.pdf\n\n**Out of scope or works as expected (accepted risk):**\n\n* adding users to your own company without consent\n* language change CSRF\n* application level DOS from /gdpr endpoint\n* duplicate BID/organization number check on registration can be circumvented by race condition (e.g. open two accounts with same BID/org number at same time)\n* IDOR to delete Invoice ID's belonging to different companies by using GDPR removal form (background job checks the right to delete invoices)\n* Hyperlink Injection via emails while adding users to your company\n* User Enumeration via Timing Discrepancy while registering new users\n* Logout CSRF\n* Customer service/chatbot (these are a 3rd party service)\n\nNote! ai-testing.maventa.com and testing.maventa.com point to the same application but have different branding on the UI. Authentication to the user interface is handled using the Visma Connect service.",
+                "description": "**AutoInvoice**\n\nThis is the main UI for Visma AutoInvoice. AutoInvoice is Visma's automated and fully ERP integrated service for sending, receiving and handling invoices. AutoInvoice converts and exchanges electronic invoices, optionally prints invoices that can't be sent electronically, receives and interpret PDF invoices and offers services for scanning and interpretation of paper invoices. AutoInvoice handles both Business to Business (B2B) and Business to Consumer (B2C) invoices.\n\nUses partially the embeddable user interface from autointerface-embeddable-stage.maventa.com\n\nCreate a test account on https://ai-testing.maventa.com/registrations, NOTE staging backend only allows registering companies from DK, FI, NO, SE countries, your own location can be anywhere.\nOr you can use one of the demo accounts in the getting started instructions below:\nhttps://vismabugbountyprod.z16.web.core.windows.net/VismaAutoinvoice-tHNjPCTbrmGiPY5y0xr8-getting-started.pdf\n\n**Out of scope or works as expected (accepted risk):**\n\n* adding users to your own company without consent\n* language change CSRF\n* application level DOS from /gdpr endpoint\n* duplicate BID/organization number check on registration can be circumvented by race condition (e.g. open two accounts with same BID/org number at same time)\n* IDOR to delete Invoice ID's belonging to different companies by using GDPR removal form (background job checks the right to delete invoices)\n* Hyperlink Injection via emails while adding users to your company\n* User Enumeration via Timing Discrepancy while registering new users\n* Logout CSRF\n* Customer service/chatbot (these are a 3rd party service)\n\nNote! ai-testing.maventa.com and testing.maventa.com point to the same application but have different branding on the UI. Authentication to the user interface is handled using the Visma Connect service.",
                 "requiredSkills": []
             },
             {
@@ -8178,7 +8178,12 @@
                     "value": "Tier 2"
                 },
                 "description": "[CPV](https://play.google.com/store/apps/details?id=be.nexuzhealth.mobile.cpv)\nThis application is only to be used by personnel responsible for transport of patients. No logon information will be given.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "a413e5fe-84fd-4f9b-aee8-45de8f35d1d6",
@@ -8192,7 +8197,12 @@
                     "value": "Tier 2"
                 },
                 "description": "[KWS Companion](https://play.google.com/store/apps/details?id=be.nexuzhealth.mobile.kws)\nThis application is only to be used by healthcare professionals. No logon information will be given.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "a1290329-f41e-4eaf-ae19-9c7f7c7ae065",
@@ -8206,7 +8216,12 @@
                     "value": "Tier 2"
                 },
                 "description": "[mynexuzhealth](https://play.google.com/store/apps/details?id=be.nexuzhealth.mobile.mynexuz)\nThis application is intended to be used by patients in order to consult their medical data, their doctors appointments and more. Login: see below.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "f509201a-18de-4bdc-b674-cdaf9bcb11ba",
@@ -8220,7 +8235,12 @@
                     "value": "Tier 2"
                 },
                 "description": "[KWS Companion](https://apps.apple.com/be/app/kws-companion/id1342124012)\nThis application is only to be used by healthcare professionals. No logon information will be given.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "f0442a0f-7f8b-4492-aba8-a1d2606a4bca",
@@ -8248,7 +8268,12 @@
                     "value": "Tier 2"
                 },
                 "description": "[mynexuzhealth](https://apps.apple.com/be/app/mynexuzhealth/id1459856321)\nThis application is intended to be used by patients in order to consult their medical data, their doctors appointments and more. Login: see below.",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "3796a6e0-cc21-450d-8854-600a0958c2ed",
@@ -8290,7 +8315,12 @@
                     "value": "Out Of Scope"
                 },
                 "description": "Android App: nexuzhealth pro",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "7add125b-c413-413b-a6d0-6777f9ec201d",
@@ -8318,7 +8348,12 @@
                     "value": "Out Of Scope"
                 },
                 "description": "iOS App: nexuzhealth pro",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "d5b72e99-6f1f-43d1-aea6-7200ba79d1cd",
@@ -10503,8 +10538,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -15567,8 +15602,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
