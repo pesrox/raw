@@ -11994,6 +11994,52 @@
         ]
     },
     {
+        "id": "474db664-f7ab-4fc5-8a2d-061096bf19bf",
+        "handle": "Serv-u",
+        "name": "SolarWinds Serv-U ",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/solarwinds/Serv-u/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "2e56182f-a445-4545-bdf0-54a3769dd792",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Serv-U",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Can be downloaded at \nWindows:\nhttps://downloads.solarwinds.com/solarwinds/Release/SU/SolarWinds-SERVU-MFT-Server-Windows-BugBounty.zip\n\nLinux\nhttps://downloads.solarwinds.com/solarwinds/Release/SU/SolarWinds-SERVU-MFT-Server-Linux-64bit-BugBounty.tar.gz",
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "48853273-690a-4555-8ac5-821a1c464312",
         "handle": "capitalcom",
         "name": "Capital.com",
@@ -27354,6 +27400,36 @@
         ]
     },
     {
+        "id": "a2e25ae9-2522-4689-8ebb-bf56276589f2",
+        "handle": "solarwindssaas",
+        "name": "SolarWinds SaaS",
+        "following": false,
+        "minBounty": {
+            "value": 50.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 4000.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/solarwinds/solarwindssaas/detail"
+        },
+        "industry": "Software"
+    },
+    {
         "id": "a4ade6d3-ca83-4bb1-8acc-1977945782eb",
         "handle": "toogoodtogo",
         "name": "Too Good To Go - Marketplace",
@@ -27381,7 +27457,97 @@
         "webLinks": {
             "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/toogoodtogo/toogoodtogo/detail"
         },
-        "industry": "Retail"
+        "industry": "Retail",
+        "domains": [
+            {
+                "id": "68428fb6-f48d-47fc-9b9a-01de22afc35c",
+                "type": {
+                    "id": 3,
+                    "value": "iOS"
+                },
+                "endpoint": "Too Good To Go: End Food Waste - iOS",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Please configure your app to use the bug bounty environment as described in the in-scope section.",
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
+            },
+            {
+                "id": "c59a351f-0bc2-4ec5-9495-adc5090b095b",
+                "type": {
+                    "id": 2,
+                    "value": "Android"
+                },
+                "endpoint": "Too Good To Go: End Food Waste - Android",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Please configure your app to use the bug bounty environment as described in the in-scope section.",
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    }
+                ]
+            },
+            {
+                "id": "e6e018ab-257a-461b-a8e2-eb59b122df0f",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://backend-bounty.dev-common.tgtg.ninja",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "ebb78469-124e-407b-9902-6ebd11503e16",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://space-bounty.dev-common.tgtg.ninja/",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "This URL have the following endpoint:\n\n- /reset-password/:token\n- /logout-sessions/:token\n- /confirm-email-change/:reference/:token\n- /app-update/apple\n- /app-update/android\n- /email-confirmation/:token/:userId\n- /login/accept/:userId/:token\n- /login/reject/:userId/:token\n- /privacy/export\n- /privacy/delete\n- /privacy/unsubscribe\n- /privacy",
+                "requiredSkills": []
+            },
+            {
+                "id": "e54f8377-1706-40d0-b89e-be333ae1abb5",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://store-bounty.dev-common.tgtg.ninja",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "You can sign up at https://store-bounty.dev-common.tgtg.ninja/onboarding",
+                "requiredSkills": []
+            }
+        ]
     },
     {
         "id": "a5158346-5add-4916-bd31-d8a5fe1e805f",
