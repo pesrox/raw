@@ -162,6 +162,52 @@
         ]
     },
     {
+        "id": "00f13553-d91a-4eff-98c1-22c4b5ff0c04",
+        "handle": "challenge0626",
+        "name": "Challenge 0626",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge0626/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "05824a9b-b4ef-48d3-86e0-68caf70ad9f9",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://challenge-0626.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "025558a4-e74e-41eb-9bf6-a01dbe8e5a7a",
         "handle": "coca-cola",
         "name": "The Coca-Cola Company Vulnerability Disclosure Program",
@@ -5815,6 +5861,25 @@
                         "id": "api",
                         "name": "API"
                     },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "d9917d64-9185-45f9-9edf-1797e5e3f305",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://support.saltosystems.com/",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Support portal containing user guides, FAQ, troubleshooting, and so on. We may award a bonus for findings depending on the business impact.",
+                "requiredSkills": [
                     {
                         "id": "web_hacking",
                         "name": "Web Hacking"
