@@ -3215,8 +3215,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -14492,68 +14492,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "45a8b1a0-80a9-4458-b29b-9b383c3036ca",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.gmogshd.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "cd45dd16-754e-4e0f-94b8-25bf1a258bd6",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.sslcerts.jp",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "4557cfa5-4d4b-48fd-94a0-dad863a862f0",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.trustlogin.com",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
                 "id": "b3bd7a90-b38f-4e17-a325-c219ab3e9198",
                 "type": {
                     "id": 4,
                     "value": "IpRange"
                 },
                 "endpoint": "45.87.79.128/28",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "2f109b0c-63d2-4240-9092-e4a54df48d1c",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "alphassl.com",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -14632,40 +14576,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "f0bdd7e9-1bf1-4932-a765-167761f3e88d",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "globalsign.cn",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
                 "id": "05c4d8e0-0c16-454c-9dc2-edc9254a2cd9",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "globalsign.co.jp",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "d9b77a92-2fb9-4eb9-af71-d7ff85eb733a",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "globalsign.work",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
@@ -14842,6 +14758,62 @@
                 "requiredSkills": []
             },
             {
+                "id": "45a8b1a0-80a9-4458-b29b-9b383c3036ca",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.gmogshd.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "cd45dd16-754e-4e0f-94b8-25bf1a258bd6",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.sslcerts.jp",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4557cfa5-4d4b-48fd-94a0-dad863a862f0",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.trustlogin.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2f109b0c-63d2-4240-9092-e4a54df48d1c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "alphassl.com",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "2c0edb44-88ba-483f-94d4-fe1614c6bb95",
                 "type": {
                     "id": 1,
@@ -14890,6 +14862,34 @@
                     "value": "Url"
                 },
                 "endpoint": "globalsign.ch",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "f0bdd7e9-1bf1-4932-a765-167761f3e88d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "globalsign.cn",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "d9b77a92-2fb9-4eb9-af71-d7ff85eb733a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "globalsign.work",
                 "tier": {
                     "id": 2,
                     "value": "Tier 3"
@@ -17031,8 +17031,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -19625,8 +19625,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
