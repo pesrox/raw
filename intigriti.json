@@ -35757,6 +35757,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "116aea8e-5577-4c17-b6ef-3ce01e17dad4",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.db1.ondigitalocean.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
                 "id": "e7066a8b-5a35-40a3-8cd3-0d357296faea",
                 "type": {
                     "id": 7,
@@ -35840,6 +35854,20 @@
                 "requiredSkills": []
             },
             {
+                "id": "0e25fc10-1b0e-42b7-ab1c-ab0b73742725",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Assets created by other DigitalOcean customers",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "**Any asset (Droplet, Space, or otherwise) created by other DigitalOcean customers are not to be tested under any circumstances.**",
+                "requiredSkills": []
+            },
+            {
                 "id": "bc25867a-ca2f-401c-812e-053ca7e64d40",
                 "type": {
                     "id": 7,
@@ -35868,17 +35896,17 @@
                 "requiredSkills": []
             },
             {
-                "id": "0e25fc10-1b0e-42b7-ab1c-ab0b73742725",
+                "id": "98e72aaa-0dd6-46e7-8bf0-5d5d761dc540",
                 "type": {
-                    "id": 6,
-                    "value": "Other"
+                    "id": 7,
+                    "value": "Wildcard"
                 },
-                "endpoint": "Assets created by other DigitalOcean customers",
+                "endpoint": "*.onstagingocean.app",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "**Any asset (Droplet, Space, or otherwise) created by other DigitalOcean customers are not to be tested under any circumstances.**",
+                "description": null,
                 "requiredSkills": []
             },
             {
