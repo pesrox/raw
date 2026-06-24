@@ -10043,7 +10043,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "*  vrt.be/vrtnu-api/graphql/v1\n*  vrt.be/vrtnu-api/graphql/public/v1\n*  api.vrt.radio\n*  interactie-api.vrt.be/chat-api/\n*  vrtnws-api.vrt.be\n*  api.sporza.be",
+                "description": "*  vrt.be/vrtnu-api/graphql/v1\n*  vrt.be/vrtnu-api/graphql/public/v1\n*  vrtnws-api.vrt.be\n*  api.sporza.be",
                 "requiredSkills": []
             },
             {
@@ -27257,6 +27257,52 @@
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
+        "id": "a6e2d612-092c-4d34-a8e3-08dc4e5cb645",
+        "handle": "challengeleakyjar",
+        "name": "LeakyJar Challenge",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challengeleakyjar/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "60119a1c-61a8-467a-bc52-47df7c547ad2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://leakyjar.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": null,
                 "requiredSkills": []
