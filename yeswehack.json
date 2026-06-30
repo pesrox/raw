@@ -1,5 +1,542 @@
 [
     {
+        "title": "Private Internet Access - Bug Bounty Program",
+        "slug": "private-internet-access-bug-bounty-program",
+        "country": "IM",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 133,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 1250,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "05137264-a425-4cc6-bae5-8ffdd451941a",
+            "original_name": "pia logo.png",
+            "mime_type": "image/png",
+            "size": 90388,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/05137264-a425-4cc6-bae5-8ffdd451941a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Kape Technologies",
+            "slug": "kape-technologies",
+            "description": "Kape is a leading digital security provider focused on privacy, offering a range of solutions and expert advice to protect consumers' digital lives.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-06-30T09:27:07+02:00",
+        "scopes": [
+            {
+                "scope": "*.privateinternetaccess.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.piaservers.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.piaservers.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api.privateinternetaccess.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://privateinternetaccess.com/api/client/v5",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "PIA VPN servers",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/us/app/private-internet-access-anonymous/id955626407",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.privateinternetaccess.com/download/linux-vpn",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.privateinternetaccess.com/download/mac-vpn",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.privateinternetaccess.com/download/windows-vpn",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Applications/Extensions under https://www.privateinternetaccess.com/download",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "ExpressVPN - Bug Bounty Program",
+        "slug": "expressvpn-bug-bounty-program",
+        "country": "IM",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 589,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2500,
+        "scopes_count": 30,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "620b1436-c25b-4ffe-b94d-00c896280f0f",
+            "original_name": "expressvpn-logo.png",
+            "mime_type": "image/png",
+            "size": 13396,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/620b1436-c25b-4ffe-b94d-00c896280f0f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Kape Technologies",
+            "slug": "kape-technologies",
+            "description": "Kape is a leading digital security provider focused on privacy, offering a range of solutions and expert advice to protect consumers' digital lives.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-06-30T08:43:47+02:00",
+        "scopes": [
+            {
+                "scope": "*.expressvpn.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "app.expressmailguard.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "expressvpn.jobs",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ExpressVPN APIs",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://xv-cp.apis-staging.xvtest.net/",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://cp.expressapisv2.net",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.expressvpn.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.enc.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.dbs.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.dts.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.blts.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.pcrs.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.jwks.kape.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ExpressVPN VPN servers",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ExpressVPN Router",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.xvtest.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "1pw-scim.prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "gatekeeper.prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "vector.prd.iat.it.xvservice.net",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "gh-mail.expressvpn.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.polymoon.it",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "corp.polymoon.it",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "networkguard.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Any Applications under https://www.expressvpn.com/latest",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/expressvpn/lightway",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "TrustedServer 100,000 Bonus Award (See Program Policy for Info)",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "CyberGhost - Bug Bounty Program",
+        "slug": "cyberghost-bug-bounty-program",
+        "country": "IM",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 164,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 1250,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "304b0d15-1415-45b2-b20b-c40222310593",
+            "original_name": "images.png",
+            "mime_type": "image/png",
+            "size": 4333,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/304b0d15-1415-45b2-b20b-c40222310593"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Kape Technologies",
+            "slug": "kape-technologies",
+            "description": "Kape is a leading digital security provider focused on privacy, offering a range of solutions and expert advice to protect consumers' digital lives.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "last_update_at": "2026-06-30T08:43:40+02:00",
+        "scopes": [
+            {
+                "scope": "*.cyberghostvpn.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.cyberghost.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "cyberghost.com",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "cyberghost.app",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.cyberghostvpn.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "CyberGhost VPN servers",
+                "scope_type": "other",
+                "scope_type_name": "Other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/us/app/id583009522",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.cyberghostvpn.com/en_US/apps/linux-vpn",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.cyberghostvpn.com/en_US/apps/windows-vpn",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.cyberghostvpn.com/en_US/apps/macos-vpn",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Applications/Extensions under https://www.cyberghostvpn.com/download",
+                "scope_type": "application",
+                "scope_type_name": "Application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "KOMOJU - Public Bug Bounty Program",
         "slug": "komoju-public-bug-bounty-program",
         "country": "JP",
@@ -86,7 +623,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 232,
+        "reports_count": 233,
         "bounty_reward_min": 0,
         "bounty_reward_max": 3000,
         "scopes_count": 3,
@@ -514,7 +1051,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 2427,
+        "reports_count": 2428,
         "bounty_reward_min": 5,
         "bounty_reward_max": 1500,
         "scopes_count": 44,
@@ -875,7 +1412,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 779,
+        "reports_count": 780,
         "bounty_reward_min": 5,
         "bounty_reward_max": 5000,
         "scopes_count": 12,
@@ -1012,7 +1549,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 632,
+        "reports_count": 633,
         "bounty_reward_min": 5,
         "bounty_reward_max": 7000,
         "scopes_count": 14,
@@ -1230,7 +1767,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 4822,
+        "reports_count": 4824,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -1350,7 +1887,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1487,
+        "reports_count": 1488,
         "bounty_reward_min": 100,
         "bounty_reward_max": 230000,
         "scopes_count": 4,
@@ -1431,7 +1968,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 638,
+        "reports_count": 639,
         "bounty_reward_min": 0,
         "bounty_reward_max": 1000,
         "scopes_count": 22,
@@ -2060,7 +2597,7 @@
         "disabled": false,
         "vdp": true,
         "archived": false,
-        "reports_count": 1048,
+        "reports_count": 1049,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 2,
@@ -2580,7 +3117,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1513,
+        "reports_count": 1514,
         "bounty_reward_min": 50,
         "bounty_reward_max": 5000,
         "scopes_count": 9,
@@ -3289,7 +3826,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 724,
+        "reports_count": 725,
         "bounty_reward_min": 50,
         "bounty_reward_max": 2500,
         "scopes_count": 5,
@@ -4676,269 +5213,6 @@
         ]
     },
     {
-        "title": "ExpressVPN - Bug Bounty Program",
-        "slug": "expressvpn-bug-bounty-program",
-        "country": "IM",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 589,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2500,
-        "scopes_count": 30,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "620b1436-c25b-4ffe-b94d-00c896280f0f",
-            "original_name": "expressvpn-logo.png",
-            "mime_type": "image/png",
-            "size": 13396,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/620b1436-c25b-4ffe-b94d-00c896280f0f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Kape Technologies",
-            "slug": "kape-technologies",
-            "description": "Kape is a leading digital security provider focused on privacy, offering a range of solutions and expert advice to protect consumers' digital lives.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2026-02-10T07:07:36+01:00",
-        "scopes": [
-            {
-                "scope": "*.expressvpn.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "app.expressmailguard.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "expressvpn.jobs",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ExpressVPN APIs",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://xv-cp.apis-staging.xvtest.net/",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://cp.expressapisv2.net",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.expressvpn.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.enc.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.dbs.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.dts.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.blts.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.pcrs.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.jwks.kape.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ExpressVPN VPN servers",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ExpressVPN Router",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.xvtest.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "1pw-scim.prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "gatekeeper.prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "vector.prd.iat.it.xvservice.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "gh-mail.expressvpn.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.polymoon.it",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "corp.polymoon.it",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "networkguard.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Any Applications under https://www.expressvpn.com/latest",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/expressvpn/lightway",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "TrustedServer 100,000 Bonus Award (See Program Policy for Info)",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Digital Flanders Vulnerability Disclosure Program",
         "slug": "digital-flanders-vulnerability-disclosure-program",
         "country": "BE",
@@ -5187,7 +5461,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 523,
+        "reports_count": 524,
         "bounty_reward_min": 50,
         "bounty_reward_max": 3000,
         "scopes_count": 5,
@@ -6434,7 +6708,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 156,
+        "reports_count": 157,
         "bounty_reward_min": 10,
         "bounty_reward_max": 1200,
         "scopes_count": 6,
@@ -6677,280 +6951,6 @@
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Private Internet Access - Bug Bounty Program",
-        "slug": "private-internet-access-bug-bounty-program",
-        "country": "IM",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 133,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 1250,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "05137264-a425-4cc6-bae5-8ffdd451941a",
-            "original_name": "pia logo.png",
-            "mime_type": "image/png",
-            "size": 90388,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/05137264-a425-4cc6-bae5-8ffdd451941a"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Kape Technologies",
-            "slug": "kape-technologies",
-            "description": "Kape is a leading digital security provider focused on privacy, offering a range of solutions and expert advice to protect consumers' digital lives.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-06-10T08:02:03+02:00",
-        "scopes": [
-            {
-                "scope": "*.privateinternetaccess.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.piaservers.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.piaservers.net",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "api.privateinternetaccess.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://privateinternetaccess.com/api/client/v5",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "PIA VPN servers",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/us/app/private-internet-access-anonymous/id955626407",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.privateinternetaccess.com/download/linux-vpn",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.privateinternetaccess.com/download/mac-vpn",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.privateinternetaccess.com/download/windows-vpn",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Applications/Extensions under https://www.privateinternetaccess.com/download",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "CyberGhost - Bug Bounty Program",
-        "slug": "cyberghost-bug-bounty-program",
-        "country": "IM",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 164,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 1250,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "304b0d15-1415-45b2-b20b-c40222310593",
-            "original_name": "images.png",
-            "mime_type": "image/png",
-            "size": 4333,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/304b0d15-1415-45b2-b20b-c40222310593"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Kape Technologies",
-            "slug": "kape-technologies",
-            "description": "Kape is a leading digital security provider focused on privacy, offering a range of solutions and expert advice to protect consumers' digital lives.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "last_update_at": "2025-06-10T08:01:38+02:00",
-        "scopes": [
-            {
-                "scope": "*.cyberghostvpn.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.cyberghost.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "cyberghost.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "cyberghost.app",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.cyberghostvpn.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "CyberGhost VPN servers",
-                "scope_type": "other",
-                "scope_type_name": "Other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/us/app/id583009522",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.cyberghostvpn.com/en_US/apps/linux-vpn",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.cyberghostvpn.com/en_US/apps/windows-vpn",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.cyberghostvpn.com/en_US/apps/macos-vpn",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Applications/Extensions under https://www.cyberghostvpn.com/download",
-                "scope_type": "application",
-                "scope_type_name": "Application",
-                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
