@@ -478,7 +478,7 @@
         "scopeRank": 4,
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "industryName": "eCommerce",
         "productEngagementType": {
@@ -3085,7 +3085,7 @@
         "scopeRank": 4,
         "accessStatus": "open",
         "paymentAllocationUrl": null,
-        "badgeVariant": "updated",
+        "badgeVariant": null,
         "endsAt": null,
         "industryName": "Electronics",
         "productEngagementType": {
@@ -4092,39 +4092,6 @@
         "target_groups": []
     },
     {
-        "name": "OpenAI",
-        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-        "briefUrl": "https://bugcrowd.com/engagements/openai",
-        "backgroundColor": "#fff",
-        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/3b82dca429ba76bf224abbec781356a8_OpenAI-black-monoblossom.png",
-        "rewardSummary": {
-            "summary": "$50 - $6,500",
-            "hint": "Up to $100,000",
-            "minReward": "$50",
-            "maxReward": "$6,500",
-            "compensationSummary": "Up to $100,000",
-            "compensationHint": "max reward"
-        },
-        "scopeRank": 3,
-        "accessStatus": "open",
-        "paymentAllocationUrl": null,
-        "badgeVariant": null,
-        "endsAt": null,
-        "industryName": "Technology",
-        "productEngagementType": {
-            "label": "Bug Bounty",
-            "iconVariant": "bug-bounty"
-        },
-        "subscriptionUrl": "/openai/engagement_subscribers",
-        "isDemo": false,
-        "isBanned": false,
-        "isFollowing": false,
-        "isPrivate": false,
-        "serviceLevel": "Priority Triage",
-        "isExternalListing": false,
-        "target_groups": []
-    },
-    {
         "name": "AppLiger",
         "tagline": "AppLiger's Bug Bounty program",
         "briefUrl": "https://bugcrowd.com/engagements/appliger",
@@ -4215,6 +4182,39 @@
             "iconVariant": "bug-bounty"
         },
         "subscriptionUrl": "/aiven-mbb-og/engagement_subscribers",
+        "isDemo": false,
+        "isBanned": false,
+        "isFollowing": false,
+        "isPrivate": false,
+        "serviceLevel": "Priority Triage",
+        "isExternalListing": false,
+        "target_groups": []
+    },
+    {
+        "name": "OpenAI",
+        "tagline": "OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
+        "briefUrl": "https://bugcrowd.com/engagements/openai",
+        "backgroundColor": "#fff",
+        "logoUrl": "https://logos.bugcrowdusercontent.com/logos/eee6/48ca/31319ece/3b82dca429ba76bf224abbec781356a8_OpenAI-black-monoblossom.png",
+        "rewardSummary": {
+            "summary": "$50 - $6,500",
+            "hint": "Up to $100,000",
+            "minReward": "$50",
+            "maxReward": "$6,500",
+            "compensationSummary": "Up to $100,000",
+            "compensationHint": "max reward"
+        },
+        "scopeRank": 3,
+        "accessStatus": "open",
+        "paymentAllocationUrl": null,
+        "badgeVariant": "updated",
+        "endsAt": null,
+        "industryName": "Technology",
+        "productEngagementType": {
+            "label": "Bug Bounty",
+            "iconVariant": "bug-bounty"
+        },
+        "subscriptionUrl": "/openai/engagement_subscribers",
         "isDemo": false,
         "isBanned": false,
         "isFollowing": false,
